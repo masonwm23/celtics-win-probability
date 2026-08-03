@@ -82,6 +82,9 @@ export async function fetchHealth() {
 
 // The tree file is 340 KB and only the what-if panel needs it, so it is not
 // fetched until someone drags the slider, and then only once per page load.
+// The splash screen now warms it during boot (see preloadDashboard), which
+// fills this same slot: by the time anyone reaches the what-if panel the
+// promise is already resolved and the slider responds without a stall.
 let modelPromise = null;
 function getModel() {
   if (!modelPromise) {
@@ -91,6 +94,138 @@ function getModel() {
     });
   }
   return modelPromise;
+}
+
+/* -------------------------------------------------------------- boot loading
+
+   The splash screen reports how far the download has actually got. Nothing
+   about that number is decorative: it is bytes received over bytes promised,
+   for the three files the dashboard cannot open without.
+
+   Two honest limits, both handled rather than hidden:
+
+     - A compressed response carries the COMPRESSED length in content-length
+       while the stream hands back DECODED bytes, so the ratio can pass 1
+       early. It is clamped, which means a stage can sit at its ceiling for a
+       moment before the next one starts. It never runs backwards and it never
+       claims a file finished before it did.
+     - A response with no content-length at all (chunked transfer) has nothing
+       to measure against. That stage reports 0 until it completes and then
+       reports 1, rather than inventing a curve.
+
+   The caller decides what to do about a download that finishes faster than the
+   eye can follow. This file's job is only to be accurate.
+---------------------------------------------------------------------------- */
+
+/**
+ * The share of the boot each file is worth, from their real sizes on disk:
+ * index.json 253 KB, one game file about 88 KB, model_trees.json 342 KB.
+ * They sum to 1.
+ */
+export const BOOT_STAGES = [
+  { key: "index", label: "Loading the game index", weight: 0.37 },
+  { key: "game", label: "Loading play-by-play", weight: 0.13 },
+  { key: "model", label: "Loading the win probability model", weight: 0.5 },
+];
+
+/** Where each stage starts on the 0-1 bar. */
+export const BOOT_STAGE_START = BOOT_STAGES.reduce(
+  (acc, stage, i) => {
+    acc.push(acc[i] + stage.weight);
+    return acc;
+  },
+  [0]
+);
+
+/** The stage label for a position on the bar. */
+export function bootLabel(fraction) {
+  for (let i = 0; i < BOOT_STAGES.length; i += 1) {
+    if (fraction < BOOT_STAGE_START[i + 1]) return BOOT_STAGES[i].label;
+  }
+  return "Ready";
+}
+
+/**
+ * Fetch JSON, reporting the fraction of it that has arrived.
+ *
+ * `onFraction` is called with a clamped 0-1 value as chunks land, and once
+ * more with exactly 1 when the body is complete.
+ */
+async function getJSONProgress(url, onFraction) {
+  const response = await fetch(url);
+  if (!response.ok) {
+    throw new Error(`${response.status} ${response.statusText} for ${url}`);
+  }
+
+  const promised = Number(response.headers.get("content-length"));
+  const streamable =
+    response.body && typeof response.body.getReader === "function";
+
+  if (!promised || !streamable) {
+    const data = await response.json();
+    onFraction?.(1);
+    return data;
+  }
+
+  const reader = response.body.getReader();
+  const chunks = [];
+  let received = 0;
+  for (;;) {
+    // eslint-disable-next-line no-await-in-loop
+    const { done, value } = await reader.read();
+    if (done) break;
+    chunks.push(value);
+    received += value.length;
+    onFraction?.(Math.min(received / promised, 1));
+  }
+  onFraction?.(1);
+  return JSON.parse(await new Blob(chunks).text());
+}
+
+/**
+ * Everything the dashboard needs before it can draw anything, fetched in the
+ * order it becomes knowable: the index first, because the opening game is
+ * chosen from it, then that game, then the model.
+ *
+ * `pickGame` receives the loaded index and returns the game id to open.
+ * `onProgress` receives a 0-1 fraction of the whole boot.
+ *
+ * Returns the index, the chosen id and that game's payload, so the caller does
+ * not fetch the opening game a second time.
+ */
+export async function preloadDashboard({ pickGame, onProgress } = {}) {
+  const report = (stage, within) => {
+    if (!onProgress) return;
+    const start = BOOT_STAGE_START[stage];
+    onProgress(start + BOOT_STAGES[stage].weight * Math.min(Math.max(within, 0), 1));
+  };
+
+  const index = await getJSONProgress(`${DATA}/index.json`, (f) => report(0, f));
+
+  const gameId = pickGame ? pickGame(index) : index.games[0].game_id;
+  const game = await getJSONProgress(
+    `${DATA}/games/${padId(gameId)}.json`,
+    (f) => report(1, f)
+  );
+
+  // Warming the model fills the same cache the what-if panel reads, so this is
+  // not busy-work to pad the bar: it is the one download that would otherwise
+  // happen while somebody is waiting on a slider.
+  //
+  // It is also the only stage allowed to fail quietly. The dashboard opens
+  // perfectly well without it; the what-if panel would simply fetch it later,
+  // exactly as it did before this existed.
+  try {
+    const trees = await getJSONProgress(`${DATA}/model_trees.json`, (f) =>
+      report(2, f)
+    );
+    modelPromise = Promise.resolve(trees);
+  } catch {
+    modelPromise = null;
+  }
+  report(2, 1);
+
+  return { index, gameId, game };
 }
 
 const REQUIRED = [

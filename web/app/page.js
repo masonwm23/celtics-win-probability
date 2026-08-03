@@ -15,10 +15,11 @@ import Tour, {
   nudgeStage,
   silenceNudge,
 } from "@/components/Tour";
+import Splash from "@/components/Splash";
 import Welcome, { rememberWelcome } from "@/components/Welcome";
 import WhatIf from "@/components/WhatIf";
 import WinProbabilityChart from "@/components/WinProbabilityChart";
-import { fetchGame, fetchGames, API_BASE } from "@/lib/api";
+import { bootLabel, fetchGame, preloadDashboard, API_BASE } from "@/lib/api";
 import { prettyDate } from "@/lib/format";
 
 // Replay speed. Events are not evenly spaced in game time, so this steps
@@ -33,6 +34,30 @@ import { prettyDate } from "@/lib/format";
 // default.
 const BASE_TICK_MS = 700;
 const SPEEDS = [0.5, 1, 2];
+
+// How long the splash is guaranteed to stay up, and how long it takes to fade.
+//
+// The percentage on the splash is min(bytes actually downloaded, time elapsed
+// over this floor). That ordering is the whole point: on a fast connection all
+// three files land in a few hundred milliseconds, so the floor is what paces
+// the count-up and the bar is readable instead of a flash; on a slow one the
+// download is the smaller of the two and the bar genuinely stalls where the
+// data has stalled. The number can be held BACK by the floor. It can never be
+// pushed past what has really arrived.
+const SPLASH_FLOOR_MS = 4000;
+const SPLASH_FADE_MS = 420;
+
+/**
+ * Which game the dashboard opens on.
+ *
+ * The biggest comeback Boston won, because a game that was never in doubt
+ * teaches a first-time viewer nothing about what the model does.
+ */
+function pickOpeningGame(index) {
+  const wins = index.games.filter((g) => g.celtics_won);
+  wins.sort((a, b) => a.lowest_wp - b.lowest_wp);
+  return wins[0]?.game_id || index.games[0].game_id;
+}
 
 export default function Dashboard() {
   const [index, setIndex] = useState(null);
@@ -73,6 +98,18 @@ export default function Dashboard() {
   const [error, setError] = useState(null);
   const [gameError, setGameError] = useState(null);
   const timer = useRef(null);
+
+  // Boot. `booting` keeps the splash mounted, `leaving` runs its fade, and
+  // `boot` is the 0-1 value actually painted. The real download fraction lives
+  // in a ref rather than state because it arrives per network chunk, which is
+  // far more often than there are frames to draw.
+  const [booting, setBooting] = useState(true);
+  const [leaving, setLeaving] = useState(false);
+  const [boot, setBoot] = useState(0);
+  const downloaded = useRef(0);
+  // The game the boot already fetched, so the effect below does not fetch it
+  // a second time the moment its id lands in state.
+  const loadedGameId = useRef(null);
 
   // First visit only. A browser that has dismissed it never sees it again
   // unless the header button asks for it.
@@ -143,29 +180,76 @@ export default function Dashboard() {
       : {}
   ), [forcedFolds]);
 
-  // The game index, once.
+  // The boot download: index, opening game, model. One pass, reporting real
+  // progress as the bytes land.
   useEffect(() => {
-    fetchGames()
-      .then((data) => {
+    let cancelled = false;
+    preloadDashboard({
+      pickGame: pickOpeningGame,
+      // Never let the reported fraction fall. React runs this effect twice in
+      // development (strict mode), so two passes can be reporting at once and
+      // the second one starts at zero; a bar that jumps backwards looks like a
+      // fault. Taking the max is also just correct: bytes already received do
+      // not un-receive themselves.
+      onProgress: (fraction) => {
+        downloaded.current = Math.max(downloaded.current, fraction);
+      },
+    })
+      .then(({ index: data, gameId: id, game: opening }) => {
+        if (cancelled) return;
+        loadedGameId.current = id;
         setIndex(data);
-        // Open on the biggest comeback Boston won, because a flat game teaches
-        // a first-time viewer nothing about what the model does.
-        const wins = data.games.filter((g) => g.celtics_won);
-        wins.sort((a, b) => a.lowest_wp - b.lowest_wp);
-        setGameId(wins[0]?.game_id || data.games[0].game_id);
+        setGameId(id);
+        setGame(opening);
+        setCursor(0);
       })
-      .catch((err) => setError(err.message));
+      .catch((err) => {
+        if (!cancelled) setError(err.message);
+      });
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
-  // The selected game.
+  // The splash clock. One requestAnimationFrame loop, running only while the
+  // splash is up, painting min(downloaded, elapsed/floor).
+  useEffect(() => {
+    if (!booting || error) return undefined;
+    let frame = null;
+    let exit = null;
+    let start = null;
+    const tick = (now) => {
+      if (start === null) start = now;
+      const timed = (now - start) / SPLASH_FLOOR_MS;
+      const shown = Math.min(downloaded.current, timed, 1);
+      setBoot(shown);
+      if (shown >= 1) {
+        // Fade, then unmount. The dashboard is already built behind this.
+        setLeaving(true);
+        exit = setTimeout(() => setBooting(false), SPLASH_FADE_MS);
+        return;
+      }
+      frame = requestAnimationFrame(tick);
+    };
+    frame = requestAnimationFrame(tick);
+    return () => {
+      if (frame !== null) cancelAnimationFrame(frame);
+      if (exit !== null) clearTimeout(exit);
+    };
+  }, [booting, error]);
+
+  // A game picked from the drawer. Skips the opening game, which the boot
+  // above already has in hand.
   useEffect(() => {
     if (!gameId) return;
+    if (loadedGameId.current === gameId) return;
     let cancelled = false;
     setPlaying(false);
     setGameError(null);
     fetchGame(gameId)
       .then((data) => {
         if (cancelled) return;
+        loadedGameId.current = gameId;
         setGame(data);
         setCursor(0);
         setSelected(null);
@@ -232,7 +316,14 @@ export default function Dashboard() {
     };
   }, [game, cursor]);
 
+  // The fatal screen wins: a splash that sits at 4% forever tells the reader
+  // nothing about what went wrong.
   if (error) return <FatalError message={error} />;
+  if (booting) {
+    return <Splash progress={boot} label={bootLabel(boot)} leaving={leaving} />;
+  }
+  // The splash only leaves once all three files are in, so reaching here
+  // without them would be a bug rather than a slow network. Kept as a floor.
   if (!index || !game) return <Loading />;
 
   const meta = game.meta;
