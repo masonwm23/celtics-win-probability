@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1628369,Jayson Tatum,jayson-tatum,0,F,6-8,208,"MAR 03, 1998",21.0,1,Duke,2018-19,1610612738,BOS,Boston Celtics
+1626780,Jonathan Gibson,jonathan-gibson,3,G,6-2,185,"NOV 08, 1987",31.0,2,New Mexico State,2018-19,1610612738,BOS,Boston Celtics
+1627759,Jaylen Brown,jaylen-brown,7,G,6-7,220,"OCT 24, 1996",22.0,2,California,2018-19,1610612738,BOS,Boston Celtics
+202954,Brad Wanamaker,brad-wanamaker,9,G,6-4,210,"JUL 25, 1989",29.0,R,Pittsburgh,2018-19,1610612738,BOS,Boston Celtics
+202681,Kyrie Irving,kyrie-irving,11,G,6-3,193,"MAR 23, 1992",27.0,7,Duke,2018-19,1610612738,BOS,Boston Celtics
+1626179,Terry Rozier,terry-rozier,12,G,6-1,190,"MAR 17, 1994",25.0,3,Louisville,2018-19,1610612738,BOS,Boston Celtics
+202694,Marcus Morris Sr.,marcus-morris-sr,13,F,6-9,235,"SEP 02, 1989",29.0,7,Kansas,2018-19,1610612738,BOS,Boston Celtics
+202330,Gordon Hayward,gordon-hayward,20,F,6-8,225,"MAR 23, 1990",29.0,8,Butler,2018-19,1610612738,BOS,Boston Celtics
+1628464,Daniel Theis,daniel-theis,27,F,6-8,243,"APR 04, 1992",27.0,1,Brose Bamberg,2018-19,1610612738,BOS,Boston Celtics
+1626154,RJ Hunter,rj-hunter,28,G,6-5,185,"OCT 24, 1993",25.0,3,Georgia State,2018-19,1610612738,BOS,Boston Celtics
+1627824,Guerschon Yabusele,guerschon-yabusele,30,F,6-8,260,"DEC 17, 1995",23.0,1,"Rouen, France",2018-19,1610612738,BOS,Boston Celtics
+203935,Marcus Smart,marcus-smart,36,G,6-4,220,"MAR 06, 1994",25.0,4,Oklahoma State,2018-19,1610612738,BOS,Boston Celtics
+1628400,Semi Ojeleye,semi-ojeleye,37,F,6-7,241,"DEC 05, 1994",24.0,1,Southern Methodist,2018-19,1610612738,BOS,Boston Celtics
+201143,Al Horford,al-horford,42,C-F,6-10,245,"JUN 03, 1986",33.0,11,Florida,2018-19,1610612738,BOS,Boston Celtics
+1629057,Robert Williams III,robert-williams-iii,44,C-F,6-10,240,"OCT 17, 1997",21.0,R,Texas A&M,2018-19,1610612738,BOS,Boston Celtics
+203382,Aron Baynes,aron-baynes,46,C-F,6-10,260,"DEC 09, 1986",32.0,6,Washington State,2018-19,1610612738,BOS,Boston Celtics
+1628408,PJ Dozier,pj-dozier,50,G-F,6-6,205,"OCT 25, 1996",22.0,1,South Carolina,2018-19,1610612738,BOS,Boston Celtics

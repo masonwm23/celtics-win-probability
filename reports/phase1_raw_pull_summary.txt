@@ -1,0 +1,37 @@
+
+======================================================================
+PHASE 1 RAW PULL SUMMARY
+Run at: 2026-07-30T04:14:22+00:00
+Mode: FULL RUN
+Games processed this run: 636
+Elapsed: 23.7 minutes
+======================================================================
+
+Manifest rows total: 636
+
+Play-by-play status counts:
+  fetched    620
+  cached     16
+
+Boxscore status counts:
+  fetched    620
+  cached     16
+
+Response shapes observed (should be consistent):
+  pbp_shape: game.actions shape  (636 games)
+  box_shape: boxScoreTraditional shape  (636 games)
+
+Play-by-play event counts per game:
+  min 397   median 482   max 638   total 308,975
+  A normal NBA game has roughly 400 to 600 logged events.
+
+Boxscore player rows per game (both teams):
+  min 22   median 26   max 30
+  Both teams combined is normally in the high 20s to 30s.
+
+Periods present across games: [1, 2, 3, 4, 5, 6]
+  Periods 1 to 4 plus any overtimes is correct.
+
+======================================================================
+RESULT: no failures and no empty payloads.
+======================================================================

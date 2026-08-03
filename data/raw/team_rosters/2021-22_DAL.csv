@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1628425,Sterling Brown,sterling-brown,0,G-F,6-5,219,"FEB 10, 1995",27.0,4,Southern Methodist,2021-22,1610612742,DAL,Dallas Mavericks
+1629033,Theo Pinson,theo-pinson,1,G-F,6-5,212,"NOV 05, 1995",26.0,3,North Carolina,2021-22,1610612742,DAL,Dallas Mavericks
+203504,Trey Burke,trey-burke,3,G,6-0,185,"NOV 12, 1992",29.0,8,Michigan,2021-22,1610612742,DAL,Dallas Mavericks
+1630589,Moses Wright,moses-wright,5,F,6-8,226,"DEC 23, 1998",23.0,R,Georgia Tech,2021-22,1610612742,DAL,Dallas Mavericks
+203939,Dwight Powell,dwight-powell,7,F-C,6-10,240,"JUL 20, 1991",30.0,7,Stanford,2021-22,1610612742,DAL,Dallas Mavericks
+1630182,Josh Green,josh-green,8,G,6-5,200,"NOV 16, 2000",21.0,1,Arizona,2021-22,1610612742,DAL,Dallas Mavericks
+1627827,Dorian Finney-Smith,dorian-finney-smith,10,F,6-7,220,"MAY 04, 1993",29.0,5,Florida,2021-22,1610612742,DAL,Dallas Mavericks
+203501,Tim Hardaway Jr.,tim-hardaway-jr,11,G-F,6-5,205,"MAR 16, 1992",30.0,8,Michigan,2021-22,1610612742,DAL,Dallas Mavericks
+1628973,Jalen Brunson,jalen-brunson,13,G,6-1,190,"AUG 31, 1996",25.0,3,Villanova,2021-22,1610612742,DAL,Dallas Mavericks
+1628373,Frank Ntilikina,frank-ntilikina,21,G,6-4,200,"JUL 28, 1998",23.0,4,Strasbourg IG,2021-22,1610612742,DAL,Dallas Mavericks
+203493,Reggie Bullock Jr.,reggie-bullock-jr,25,G-F,6-6,205,"MAR 16, 1991",31.0,8,North Carolina,2021-22,1610612742,DAL,Dallas Mavericks
+203915,Spencer Dinwiddie,spencer-dinwiddie,26,G,6-6,215,"APR 06, 1993",29.0,7,Colorado,2021-22,1610612742,DAL,Dallas Mavericks
+1627737,Marquese Chriss,marquese-chriss,35,F,6-9,240,"JUL 02, 1997",24.0,5,Washington,2021-22,1610612742,DAL,Dallas Mavericks
+1628467,Maxi Kleber,maxi-kleber,42,F,6-10,240,"JAN 29, 1992",30.0,4,Bayern Munich,2021-22,1610612742,DAL,Dallas Mavericks
+202722,Davis Bertans,davis-bertans,44,F,6-10,225,"NOV 12, 1992",29.0,5,Baskonia,2021-22,1610612742,DAL,Dallas Mavericks
+1626246,Boban Marjanovic,boban-marjanovic,51,C,7-3,290,"AUG 15, 1988",33.0,6,Crvena zvezda,2021-22,1610612742,DAL,Dallas Mavericks
+1629029,Luka Dončić,luka-dončić,77,F-G,6-7,230,"FEB 28, 1999",23.0,3,Real Madrid,2021-22,1610612742,DAL,Dallas Mavericks

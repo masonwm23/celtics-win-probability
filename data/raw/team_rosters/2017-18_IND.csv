@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1627816,Alex Poythress,alex-poythress,0,F,6-9,235,"SEP 06, 1993",24.0,1,Kentucky,2017-18,1610612754,IND,Indiana Pacers
+202362,Lance Stephenson,lance-stephenson,1,G,6-6,230,"SEP 05, 1990",27.0,7,Cincinnati,2017-18,1610612754,IND,Indiana Pacers
+201954,Darren Collison,darren-collison,2,G,6-2,185,"AUG 23, 1987",30.0,8,UCLA,2017-18,1610612754,IND,Indiana Pacers
+1626202,Joe Young,joe-young,3,G,6-2,185,"JUN 27, 1992",26.0,2,Oregon,2017-18,1610612754,IND,Indiana Pacers
+203506,Victor Oladipo,victor-oladipo,4,G,6-4,210,"MAY 04, 1992",26.0,4,Indiana,2017-18,1610612754,IND,Indiana Pacers
+1628410,Edmond Sumner,edmond-sumner,5,G,6-5,188,"DEC 31, 1995",22.0,R,Xavier,2017-18,1610612754,IND,Indiana Pacers
+202709,Cory Joseph,cory-joseph,6,G,6-3,190,"AUG 20, 1991",26.0,6,Texas,2017-18,1610612754,IND,Indiana Pacers
+1627734,Domantas Sabonis,domantas-sabonis,11,C-F,6-10,252,"MAY 03, 1996",22.0,1,Gonzaga,2017-18,1610612754,IND,Indiana Pacers
+1628387,Ike Anigbogu,ike-anigbogu,13,C-F,6-10,262,"OCT 16, 1998",19.0,R,UCLA,2017-18,1610612754,IND,Indiana Pacers
+202344,Trevor Booker,trevor-booker,20,F,6-8,228,"NOV 25, 1987",30.0,7,Clemson,2017-18,1610612754,IND,Indiana Pacers
+201152,Thaddeus Young,thaddeus-young,21,F,6-8,230,"JUN 21, 1988",30.0,10,Georgia Tech,2017-18,1610612754,IND,Indiana Pacers
+1628388,T.J. Leaf,tj-leaf,22,F,6-10,230,"APR 30, 1997",21.0,R,UCLA,2017-18,1610612754,IND,Indiana Pacers
+2744,Al Jefferson,al-jefferson,25,C,6-10,280,"JAN 04, 1985",33.0,13,No College,2017-18,1610612754,IND,Indiana Pacers
+1628500,Ben Moore,ben-moore,26,F,6-8,220,"MAY 13, 1995",23.0,R,Southern Methodist,2017-18,1610612754,IND,Indiana Pacers
+1626167,Myles Turner,myles-turner,33,C,6-11,255,"MAR 24, 1996",22.0,2,Texas,2017-18,1610612754,IND,Indiana Pacers
+203922,Glenn Robinson III,glenn-robinson-iii,40,G-F,6-7,215,"JAN 08, 1994",24.0,3,Michigan,2017-18,1610612754,IND,Indiana Pacers
+202711,Bojan Bogdanovic,bojan-bogdanovic,44,F-G,6-8,230,"APR 18, 1989",29.0,3,Fenerbahce,2017-18,1610612754,IND,Indiana Pacers

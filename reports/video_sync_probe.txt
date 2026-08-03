@@ -1,0 +1,65 @@
+==============================================================================
+PHASE 13a - CAN A HIGHLIGHT VIDEO BE SEEKED TO A PLAY
+==============================================================================
+
+  The Phase 12 mapping links one game to one ~9 minute recap. That is
+  NOT play-synchronised video. Seeking to a play needs a timestamp
+  inside the video, and the mapping has none.
+
+  Within the project's rules there is exactly one legitimate source
+  of such timestamps: chapter markers in the video description.
+  Caption CONTENT needs OAuth as the video's owner, and anything
+  derived from the video itself requires obtaining the video. Neither
+  is attempted here.
+
+==============================================================================
+A. DO OFFICIAL HIGHLIGHT VIDEOS CARRY CHAPTERS
+==============================================================================
+
+  mapped videos examined      20
+  with any timestamped line   0
+  with real chapters (3+, from 0:00)  0
+
+  NONE. No mapped video carries chapter markers.
+
+  That closes it. With no timestamps in the metadata, a play
+  offset could only be inferred from position or duration, which
+  is guessing, and guessing is exactly what must not happen here.
+
+  Play-synchronised video is NOT achievable from this source
+  under these rules. The synchronised layer stays the
+  play-by-play figure animation drawn from our own coordinates,
+  which covers every play of all 636 games.
+
+==============================================================================
+CAPTION TRACKS
+==============================================================================
+
+  Existence only. Content requires OAuth as the video owner,
+  and third-party transcript endpoints are scraping. Recorded
+  because it bounds what a future, properly licensed approach
+  could use, not because it is usable now.
+
+    o09bcb3LJbQ: 1 track(s) ['asr']
+    ShgKEL9jVLU: 1 track(s) ['asr']
+    oBrWPjlUqcY: 1 track(s) ['asr']
+
+==============================================================================
+B. CHAPTER TO PLAY MATCHING
+==============================================================================
+
+  Not run: the probed game's video has no chapters.
+
+==============================================================================
+WHAT HAPPENS EITHER WAY
+==============================================================================
+
+  Verified play  seek the embedded official video to that offset.
+  Unverified     keep the synchronised figure animation and show
+                 'No verified video for this play.'
+
+  The figure animation is not replaced by video under any outcome.
+  It is the only layer that covers every play of every game.
+
+  Nothing was changed. Nothing in data/serving was touched.
+==============================================================================

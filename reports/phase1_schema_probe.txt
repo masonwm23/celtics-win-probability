@@ -1,0 +1,65 @@
+======================================================================
+SCHEMA PROBE
+Game ID: 0021600006
+Run at: 2026-07-30T03:46:12+00:00
+======================================================================
+
+Purpose: record the ACTUAL response structure so the Phase 2 parser
+is written against observed field names, not assumed ones.
+
+PLAY BY PLAY (PlayByPlayV3)
+  top level keys: ['game', 'meta']
+  detected shape: game.actions shape
+  event count   : 521
+  periods seen  : [1, 2, 3, 4]
+  event field names (23 fields):
+    actionId
+    actionNumber
+    actionType
+    clock
+    description
+    isFieldGoal
+    location
+    period
+    personId
+    playerName
+    playerNameI
+    pointsTotal
+    scoreAway
+    scoreHome
+    shotDistance
+    shotResult
+    shotValue
+    subType
+    teamId
+    teamTricode
+    videoAvailable
+    xLegacy
+    yLegacy
+
+  first 3 events, raw:
+    {"actionNumber": 0, "clock": "PT12M00.00S", "period": 1, "teamId": 0, "teamTricode": "", "personId": 0, "playerName": "", "playerNameI": "", "xLegacy": 0, "yLegacy": 0, "shotDistance": 0, "shotResult": "", "isFieldGoal": 0, "scoreHome": "0", "scoreAway": "0", "pointsTotal": 0, "location": " ", "desc
+    {"actionNumber": 1, "clock": "PT12M00.00S", "period": 1, "teamId": 1610612738, "teamTricode": "BOS", "personId": 101161, "playerName": "Johnson", "playerNameI": "A. Johnson", "xLegacy": 0, "yLegacy": 0, "shotDistance": 0, "shotResult": "", "isFieldGoal": 0, "scoreHome": "0", "scoreAway": "0", "point
+    {"actionNumber": 2, "clock": "PT11M46.00S", "period": 1, "teamId": 1610612751, "teamTricode": "BKN", "personId": 201572, "playerName": "Lopez", "playerNameI": "B. Lopez", "xLegacy": 99, "yLegacy": 11, "shotDistance": 10, "shotResult": "Missed", "isFieldGoal": 1, "scoreHome": "0", "scoreAway": "0", "
+
+BOXSCORE (BoxScoreTraditionalV3)
+  top level keys: ['boxScoreTraditional', 'meta']
+  detected shape : boxScoreTraditional shape
+  player rows    : 26
+  boxScoreTraditional keys: ['awayTeam', 'awayTeamId', 'gameId', 'homeTeam', 'homeTeamId']
+  homeTeam: BOS (13 players)
+  awayTeam: BKN (13 players)
+
+  player field names (9 fields):
+    comment
+    familyName
+    firstName
+    jerseyNum
+    nameI
+    personId
+    playerSlug
+    position
+    statistics
+
+  first player row, raw:
+    {"personId": 203109, "firstName": "Jae", "familyName": "Crowder", "nameI": "J. Crowder", "playerSlug": "jae-crowder", "position": "G", "comment": "", "jerseyNum": "", "statistics": {"minutes": "29:11", "fieldGoalsMade": 9, "fieldGoalsAttempted": 15, "fieldGoalsPercentage": 0.6, "threePointersMade": 3, "threePointersAttempted": 8, "threePointersPercentage": 0.375, "freeThrowsMade": 0, "freeThrowsAttempted": 0, "freeThrowsPercentage": 0.0, "reboundsOffensive": 0, "reboundsDefensive": 5, "reboundsTotal": 5, "assists": 2, "steals": 2, "blocks": 1, "turnovers": 2, "foulsPersonal": 2, "points": 21, 

@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1628372,Dennis Smith Jr.,dennis-smith-jr,1,G,6-3,195,"NOV 25, 1997",20.0,R,North Carolina State,2017-18,1610612742,DAL,Dallas Mavericks
+203457,Nerlens Noel,nerlens-noel,3,C,6-11,220,"APR 10, 1994",24.0,3,Kentucky,2017-18,1610612742,DAL,Dallas Mavericks
+200826,J.J. Barea,jj-barea,5,G,6-0,185,"JUN 26, 1984",34.0,11,Northeastern,2017-18,1610612742,DAL,Dallas Mavericks
+1628405,Johnathan Motley,johnathan-motley,6,F,6-10,230,"MAY 04, 1995",23.0,R,Baylor,2017-18,1610612742,DAL,Dallas Mavericks
+203939,Dwight Powell,dwight-powell,7,C-F,6-11,240,"JUL 20, 1991",26.0,3,Stanford,2017-18,1610612742,DAL,Dallas Mavericks
+1627858,Kyle Collinsworth,kyle-collinsworth,8,G,6-6,210,"OCT 03, 1991",26.0,R,Brigham Young,2017-18,1610612742,DAL,Dallas Mavericks
+1626151,Aaron Harrison,aaron-harrison,9,G,6-6,210,"OCT 28, 1994",23.0,2,Kentucky,2017-18,1610612742,DAL,Dallas Mavericks
+1627827,Dorian Finney-Smith,dorian-finney-smith,10,F,6-8,220,"MAY 04, 1993",25.0,1,Florida,2017-18,1610612742,DAL,Dallas Mavericks
+1627812,Yogi Ferrell,yogi-ferrell,11,G,6-0,180,"MAY 09, 1993",25.0,1,Indiana,2017-18,1610612742,DAL,Dallas Mavericks
+203926,Doug McDermott,doug-mcdermott,20,F,6-8,219,"JAN 03, 1992",26.0,3,Creighton,2017-18,1610612742,DAL,Dallas Mavericks
+1627883,Jalen Jones,jalen-jones,21,F,6-7,220,"MAY 27, 1993",25.0,R,Texas A&M,2017-18,1610612742,DAL,Dallas Mavericks
+202083,Wesley Matthews,wesley-matthews,23,G-F,6-5,220,"OCT 14, 1986",31.0,8,Marquette,2017-18,1610612742,DAL,Dallas Mavericks
+203552,Seth Curry,seth-curry,30,G,6-2,185,"AUG 23, 1990",27.0,4,Duke,2017-18,1610612742,DAL,Dallas Mavericks
+203084,Harrison Barnes,harrison-barnes,40,F,6-8,225,"MAY 30, 1992",26.0,5,North Carolina,2017-18,1610612742,DAL,Dallas Mavericks
+1717,Dirk Nowitzki,dirk-nowitzki,41,C-F,7-0,245,"JUN 19, 1978",40.0,19,DJK Wurzburg,2017-18,1610612742,DAL,Dallas Mavericks
+1628467,Maxi Kleber,maxi-kleber,42,F,6-11,220,"JAN 29, 1992",26.0,R,Bayern Munich,2017-18,1610612742,DAL,Dallas Mavericks
+1626257,Salah Mejri,salah-mejri,50,C,7-2,235,"JUN 15, 1986",32.0,2,Real Madrid,2017-18,1610612742,DAL,Dallas Mavericks

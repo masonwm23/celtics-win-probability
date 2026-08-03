@@ -1,0 +1,17 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+201952,Jeff Teague,jeff-teague,0,G,6-2,189,"JUN 10, 1988",30.0,8,Wake Forest,2017-18,1610612750,MIN,Minnesota Timberwolves
+1626145,Tyus Jones,tyus-jones,1,G,6-2,184,"MAY 10, 1996",22.0,2,Duke,2017-18,1610612750,MIN,Minnesota Timberwolves
+1626148,Anthony Brown,anthony-brown,3,F-G,6-7,224,"OCT 10, 1992",25.0,2,Stanford,2017-18,1610612750,MIN,Minnesota Timberwolves
+203476,Gorgui Dieng,gorgui-dieng,5,C,6-11,251,"JAN 18, 1990",28.0,4,Louisville,2017-18,1610612750,MIN,Minnesota Timberwolves
+202357,Nemanja Bjelica,nemanja-bjelica,8,F,6-10,230,"MAY 09, 1988",30.0,2,Fenerbahce,2017-18,1610612750,MIN,Minnesota Timberwolves
+1628518,Amile Jefferson,amile-jefferson,10,F,6-9,224,"MAY 07, 1993",25.0,R,Duke,2017-18,1610612750,MIN,Minnesota Timberwolves
+2037,Jamal Crawford,jamal-crawford,11,G,6-5,185,"MAR 20, 1980",38.0,17,Michigan,2017-18,1610612750,MIN,Minnesota Timberwolves
+1627875,Marcus Georges-Hunt,marcus-georges-hunt,13,G,6-5,226,"MAR 28, 1994",24.0,1,Georgia Tech,2017-18,1610612750,MIN,Minnesota Timberwolves
+203952,Andrew Wiggins,andrew-wiggins,22,F,6-8,202,"FEB 23, 1995",23.0,3,Kansas,2017-18,1610612750,MIN,Minnesota Timberwolves
+202710,Jimmy Butler III,jimmy-butler-iii,23,G,6-8,236,"SEP 14, 1989",28.0,6,Marquette,2017-18,1610612750,MIN,Minnesota Timberwolves
+1628383,Justin Patton,justin-patton,24,C,7-0,236,"JUN 14, 1997",21.0,R,Creighton,2017-18,1610612750,MIN,Minnesota Timberwolves
+201565,Derrick Rose,derrick-rose,25,G,6-3,190,"OCT 04, 1988",29.0,8,Memphis,2017-18,1610612750,MIN,Minnesota Timberwolves
+201166,Aaron Brooks,aaron-brooks,30,G,6-0,161,"JAN 14, 1985",33.0,9,Oregon,2017-18,1610612750,MIN,Minnesota Timberwolves
+1626157,Karl-Anthony Towns,karl-anthony-towns,32,C,7-0,248,"NOV 15, 1995",22.0,2,Kentucky,2017-18,1610612750,MIN,Minnesota Timberwolves
+202332,Cole Aldrich,cole-aldrich,45,C,6-11,253,"OCT 31, 1988",29.0,7,Kansas,2017-18,1610612750,MIN,Minnesota Timberwolves
+201959,Taj Gibson,taj-gibson,67,F,6-9,235,"JUN 24, 1985",33.0,8,Southern California,2017-18,1610612750,MIN,Minnesota Timberwolves

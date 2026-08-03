@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1628371,Jonathan Isaac,jonathan-isaac,1,F,6-11,230,"OCT 03, 1997",23.0,3,Florida State,2020-21,1610612753,ORL,Orlando Magic
+1629643,Chuma Okeke,chuma-okeke,3,F,6-6,229,"AUG 18, 1998",22.0,R,Auburn,2020-21,1610612753,ORL,Orlando Magic
+1628964,Mo Bamba,mo-bamba,5,C,7-0,231,"MAY 12, 1998",23.0,2,Texas,2020-21,1610612753,ORL,Orlando Magic
+203487,Michael Carter-Williams,michael-carter-williams,7,G,6-5,190,"OCT 10, 1991",29.0,7,Syracuse,2020-21,1610612753,ORL,Orlando Magic
+1628407,Dwayne Bacon,dwayne-bacon,8,G-F,6-6,221,"AUG 30, 1995",25.0,3,Florida State,2020-21,1610612753,ORL,Orlando Magic
+203516,James Ennis III,james-ennis-iii,11,F,6-6,215,"JUL 01, 1990",30.0,6,Cal State-Long Beach,2020-21,1610612753,ORL,Orlando Magic
+1630181,R.J. Hampton,rj-hampton,13,G,6-4,175,"FEB 07, 2001",20.0,R,Capital City Go-Go,2020-21,1610612753,ORL,Orlando Magic
+203914,Gary Harris,gary-harris,14,G,6-4,210,"SEP 14, 1994",26.0,6,Michigan State,2020-21,1610612753,ORL,Orlando Magic
+1628414,Sindarius Thornwell,sindarius-thornwell,15,G,6-4,215,"NOV 15, 1994",26.0,3,South Carolina,2020-21,1610612753,ORL,Orlando Magic
+1629649,Ignas Brazdeikis,ignas-brazdeikis,17,F,6-6,221,"JAN 08, 1999",22.0,1,Michigan,2020-21,1610612753,ORL,Orlando Magic
+1628365,Markelle Fultz,markelle-fultz,20,G,6-3,209,"MAY 29, 1998",23.0,3,Washington,2020-21,1610612753,ORL,Orlando Magic
+1629021,Moritz Wagner,moritz-wagner,21,F-C,6-11,245,"APR 26, 1997",24.0,2,Michigan,2020-21,1610612753,ORL,Orlando Magic
+203490,Otto Porter Jr.,otto-porter-jr,22,F,6-8,198,"JUN 03, 1993",28.0,7,Georgetown,2020-21,1610612753,ORL,Orlando Magic
+1626184,Chasson Randle,chasson-randle,25,G,6-2,185,"FEB 05, 1993",28.0,3,Stanford,2020-21,1610612753,ORL,Orlando Magic
+203082,Terrence Ross,terrence-ross,31,G-F,6-6,206,"FEB 05, 1991",30.0,8,Washington,2020-21,1610612753,ORL,Orlando Magic
+1628976,Wendell Carter Jr.,wendell-carter-jr,34,C-F,6-10,270,"APR 16, 1999",22.0,2,Duke,2020-21,1610612753,ORL,Orlando Magic
+1630175,Cole Anthony,cole-anthony,50,G,6-2,185,"MAY 15, 2000",21.0,R,North Carolina,2020-21,1610612753,ORL,Orlando Magic

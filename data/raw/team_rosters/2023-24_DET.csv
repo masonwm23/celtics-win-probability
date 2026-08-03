@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1631105,Jalen Duren,jalen-duren,0,C,6-10,250,"NOV 18, 2003",20.0,1,Memphis,2023-24,1610612765,DET,Detroit Pistons
+1630595,Cade Cunningham,cade-cunningham,2,G,6-6,220,"SEP 25, 2001",22.0,2,Oklahoma State,2023-24,1610612765,DET,Detroit Pistons
+1629002,Chimezie Metu,chimezie-metu,4,F-C,6-10,225,"MAR 22, 1997",27.0,5,USC,2023-24,1610612765,DET,Detroit Pistons
+1628972,Troy Brown Jr.,troy-brown-jr,7,G-F,6-7,215,"JUL 28, 1999",24.0,5,Oregon,2023-24,1610612765,DET,Detroit Pistons
+1631197,Jared Rhoden,jared-rhoden,8,G,6-5,210,"AUG 27, 1999",24.0,1,Seton Hall,2023-24,1610612765,DET,Detroit Pistons
+1641709,Ausar Thompson,ausar-thompson,9,G-F,6-6,205,"JAN 30, 2003",21.0,R,Overtime Elite,2023-24,1610612765,DET,Detroit Pistons
+1630164,James Wiseman,james-wiseman,13,C,6-11,240,"MAR 31, 2001",23.0,3,Memphis,2023-24,1610612765,DET,Detroit Pistons
+1630649,Stanley Umude,stanley-umude,17,G,6-6,210,"APR 12, 1999",25.0,1,Arkansas,2023-24,1610612765,DET,Detroit Pistons
+1641787,Tosan Evbuomwan,tosan-evbuomwan,18,F,6-7,217,"FEB 16, 2001",23.0,R,Princeton,2023-24,1610612765,DET,Detroit Pistons
+1630201,Malachi Flynn,malachi-flynn,18,G,6-1,185,"MAY 09, 1998",26.0,3,San Diego State,2023-24,1610612765,DET,Detroit Pistons
+1631323,Simone Fontecchio,simone-fontecchio,19,F,6-7,209,"DEC 09, 1995",28.0,1,Baskonia,2023-24,1610612765,DET,Detroit Pistons
+1631093,Jaden Ivey,jaden-ivey,23,G,6-4,195,"FEB 13, 2002",22.0,1,Purdue,2023-24,1610612765,DET,Detroit Pistons
+1629656,Quentin Grimes,quentin-grimes,24,G,6-5,210,"MAY 08, 2000",24.0,2,Houston,2023-24,1610612765,DET,Detroit Pistons
+1631204,Marcus Sasser,marcus-sasser,25,G,6-2,195,"SEP 21, 2000",23.0,R,Houston,2023-24,1610612765,DET,Detroit Pistons
+1631205,Buddy Boeheim,buddy-boeheim,27,F,6-5,205,"NOV 11, 1999",24.0,1,Syracuse,2023-24,1610612765,DET,Detroit Pistons
+1630191,Isaiah Stewart,isaiah-stewart,28,F-C,6-8,250,"MAY 22, 2001",23.0,3,Washington,2023-24,1610612765,DET,Detroit Pistons
+203095,Evan Fournier,evan-fournier,31,G-F,6-6,205,"OCT 29, 1992",31.0,11,Poitiers Basket 86,2023-24,1610612765,DET,Detroit Pistons
+201959,Taj Gibson,taj-gibson,67,F,6-9,232,"JUN 24, 1985",39.0,14,Southern California,2023-24,1610612765,DET,Detroit Pistons

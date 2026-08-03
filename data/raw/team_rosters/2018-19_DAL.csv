@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+201584,Courtney Lee,courtney-lee,1,G,6-5,215,"OCT 03, 1985",33.0,10,Western Kentucky,2018-19,1610612742,DAL,Dallas Mavericks
+1629133,Daryl Macon,daryl-macon,3,G,6-3,185,"NOV 29, 1995",23.0,R,Arkansas,2018-19,1610612742,DAL,Dallas Mavericks
+200826,J.J. Barea,jj-barea,5,G,6-0,185,"JUN 26, 1984",35.0,12,Northeastern,2018-19,1610612742,DAL,Dallas Mavericks
+204001,Kristaps Porziņģis,kristaps-porziņģis,6,F-C,7-3,240,"AUG 02, 1995",23.0,3,Cajasol Sevilla,2018-19,1610612742,DAL,Dallas Mavericks
+203939,Dwight Powell,dwight-powell,7,F-C,6-11,240,"JUL 20, 1991",27.0,4,Stanford,2018-19,1610612742,DAL,Dallas Mavericks
+1627827,Dorian Finney-Smith,dorian-finney-smith,10,F,6-8,220,"MAY 04, 1993",26.0,2,Florida,2018-19,1610612742,DAL,Dallas Mavericks
+203501,Tim Hardaway Jr.,tim-hardaway-jr,11,G,6-6,205,"MAR 16, 1992",27.0,5,Michigan,2018-19,1610612742,DAL,Dallas Mavericks
+1628973,Jalen Brunson,jalen-brunson,13,G,6-3,190,"AUG 31, 1996",22.0,R,Villanova,2018-19,1610612742,DAL,Dallas Mavericks
+203504,Trey Burke,trey-burke,23,G,6-1,175,"NOV 12, 1992",26.0,5,Michigan,2018-19,1610612742,DAL,Dallas Mavericks
+2734,Devin Harris,devin-harris,34,G,6-3,185,"FEB 27, 1983",36.0,14,Wisconsin,2018-19,1610612742,DAL,Dallas Mavericks
+1628961,Kostas Antetokounmpo,kostas-antetokounmpo,37,F,6-10,200,"NOV 20, 1997",21.0,R,Dayton,2018-19,1610612742,DAL,Dallas Mavericks
+1717,Dirk Nowitzki,dirk-nowitzki,41,F,7-0,245,"JUN 19, 1978",41.0,20,DJK Wurzburg,2018-19,1610612742,DAL,Dallas Mavericks
+1628467,Maxi Kleber,maxi-kleber,42,F,6-11,240,"JAN 29, 1992",27.0,1,Bayern Munich,2018-19,1610612742,DAL,Dallas Mavericks
+1628382,Justin Jackson,justin-jackson,44,F,6-8,210,"MAR 28, 1995",24.0,1,North Carolina,2018-19,1610612742,DAL,Dallas Mavericks
+1629151,Ryan Broekhoff,ryan-broekhoff,45,G-F,6-7,215,"AUG 23, 1990",28.0,R,Valparaiso,2018-19,1610612742,DAL,Dallas Mavericks
+1626257,Salah Mejri,salah-mejri,50,C,7-2,235,"JUN 15, 1986",33.0,3,Real Madrid,2018-19,1610612742,DAL,Dallas Mavericks
+1629029,Luka Dončić,luka-dončić,77,F-G,6-7,218,"FEB 28, 1999",20.0,R,Real Madrid,2018-19,1610612742,DAL,Dallas Mavericks

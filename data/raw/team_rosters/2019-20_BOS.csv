@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1628369,Jayson Tatum,jayson-tatum,0,F-G,6-8,210,"MAR 03, 1998",22.0,2,Duke,2019-20,1610612738,BOS,Boston Celtics
+1629035,Carsen Edwards,carsen-edwards,4,G,5-11,200,"MAR 12, 1998",22.0,R,Purdue,2019-20,1610612738,BOS,Boston Celtics
+1627759,Jaylen Brown,jaylen-brown,7,G-F,6-6,223,"OCT 24, 1996",23.0,3,California,2019-20,1610612738,BOS,Boston Celtics
+202689,Kemba Walker,kemba-walker,8,G,6-0,184,"MAY 08, 1990",30.0,8,Connecticut,2019-20,1610612738,BOS,Boston Celtics
+202954,Brad Wanamaker,brad-wanamaker,9,G,6-3,210,"JUL 25, 1989",30.0,1,Pittsburgh,2019-20,1610612738,BOS,Boston Celtics
+202683,Enes Freedom,enes-freedom,11,C,6-10,250,"MAY 20, 1992",28.0,8,Fenerbahce,2019-20,1610612738,BOS,Boston Celtics
+1629684,Grant Williams,grant-williams,12,F,6-6,236,"NOV 30, 1998",21.0,R,Tennessee,2019-20,1610612738,BOS,Boston Celtics
+202330,Gordon Hayward,gordon-hayward,20,F,6-7,225,"MAR 23, 1990",30.0,9,Butler,2019-20,1610612738,BOS,Boston Celtics
+1628464,Daniel Theis,daniel-theis,27,F-C,6-8,245,"APR 04, 1992",28.0,2,Brose Bamberg,2019-20,1610612738,BOS,Boston Celtics
+203935,Marcus Smart,marcus-smart,36,G,6-3,220,"MAR 06, 1994",26.0,5,Oklahoma State,2019-20,1610612738,BOS,Boston Celtics
+1628400,Semi Ojeleye,semi-ojeleye,37,F,6-6,240,"DEC 05, 1994",25.0,2,Southern Methodist,2019-20,1610612738,BOS,Boston Celtics
+1629750,Javonte Green,javonte-green,43,G-F,6-4,205,"JUL 23, 1993",26.0,R,Radford,2019-20,1610612738,BOS,Boston Celtics
+1629057,Robert Williams III,robert-williams-iii,44,C-F,6-8,237,"OCT 17, 1997",22.0,1,Texas A&M,2019-20,1610612738,BOS,Boston Celtics
+1629641,Romeo Langford,romeo-langford,45,G-F,6-4,216,"OCT 25, 1999",20.0,R,Indiana,2019-20,1610612738,BOS,Boston Celtics
+1629682,Tremont Waters,tremont-waters,51,G,5-10,175,"JAN 10, 1998",22.0,R,Louisiana State,2019-20,1610612738,BOS,Boston Celtics
+1629738,Vincent Poirier,vincent-poirier,77,C-F,7-0,235,"OCT 17, 1993",26.0,R,Baskonia,2019-20,1610612738,BOS,Boston Celtics
+1629605,Tacko Fall,tacko-fall,99,C,7-5,311,"DEC 10, 1995",24.0,R,UCF,2019-20,1610612738,BOS,Boston Celtics

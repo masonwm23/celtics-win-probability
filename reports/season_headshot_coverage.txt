@@ -1,0 +1,56 @@
+SEASON HEADSHOT COVERAGE
+========================================================================
+
+pattern   https://cdn.nba.com/headshots/nba/{team_id}/{year}/1040x760/{person_id}.png
+
+player-seasons in bios      4,009
+returned a real image       3,680 (91.8%)
+different from current      3,705
+
+current photos that loaded  1,166 of 1,166
+
+BY SEASON
+------------------------------------------------------------------------
+season        rows   usable       %   differs
+2016-17        451      434   96.2%       418
+2017-18        502      471   93.8%       452
+2018-19        497      463   93.2%       451
+2019-20        510      467   91.6%       466
+2020-21        503      448   89.1%       476
+2021-22        506      451   89.1%       467
+2022-23        508      470   92.5%       480
+2023-24        532      476   89.5%       495
+
+PHOTOS IDENTICAL TO THE CURRENT ONE
+------------------------------------------------------------------------
+identical                   304
+  player still on that team 290 (95.4%)
+  unexplained               14
+
+Almost all of them are players who never left, so the
+identical photo is correct rather than a stale one.
+
+MISSES
+------------------------------------------------------------------------
+no usable image             329
+by status                   {403: 329}
+
+These fall back to the current photo in the dashboard,
+and to the jersey number if that fails too. First 15:
+    2016-17  MIA  2547  status=403
+    2016-17  HOU  101150  status=403
+    2016-17  PHX  101179  status=403
+    2016-17  MIN  201593  status=403
+    2016-17  MIN  201956  status=403
+    2016-17  PHX  202407  status=403
+    2016-17  DAL  202412  status=403
+    2016-17  DAL  202732  status=403
+    2016-17  PHX  1626164  status=403
+    2016-17  NOP  1626188  status=403
+    2016-17  WAS  1626191  status=403
+    2016-17  NOP  1626253  status=403
+    2016-17  DAL  1627784  status=403
+    2016-17  HOU  1627786  status=403
+    2016-17  PHI  1627816  status=403
+
+map written to /Users/masonmarathias/Desktop/celtics_wp/data/processed/season_headshots.csv

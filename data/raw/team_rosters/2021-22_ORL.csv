@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1628371,Jonathan Isaac,jonathan-isaac,1,F,6-10,230,"OCT 03, 1997",24.0,4,Florida State,2021-22,1610612753,ORL,Orlando Magic
+1629643,Chuma Okeke,chuma-okeke,3,F,6-6,229,"AUG 18, 1998",23.0,1,Auburn,2021-22,1610612753,ORL,Orlando Magic
+1630591,Jalen Suggs,jalen-suggs,4,G,6-5,205,"JUN 03, 2001",21.0,R,Gonzaga,2021-22,1610612753,ORL,Orlando Magic
+1628964,Mo Bamba,mo-bamba,5,C,7-0,231,"MAY 12, 1998",24.0,3,Texas,2021-22,1610612753,ORL,Orlando Magic
+1629626,Bol Bol,bol-bol,10,C-F,7-2,220,"NOV 16, 1999",22.0,2,Oregon,2021-22,1610612753,ORL,Orlando Magic
+1630181,R.J. Hampton,rj-hampton,13,G,6-4,175,"FEB 07, 2001",21.0,1,Capital City Go-Go,2021-22,1610612753,ORL,Orlando Magic
+203914,Gary Harris,gary-harris,14,G,6-4,210,"SEP 14, 1994",27.0,7,Michigan State,2021-22,1610612753,ORL,Orlando Magic
+1629649,Ignas Brazdeikis,ignas-brazdeikis,17,F,6-6,221,"JAN 08, 1999",23.0,2,Michigan,2021-22,1610612753,ORL,Orlando Magic
+1628365,Markelle Fultz,markelle-fultz,20,G,6-4,209,"MAY 29, 1998",24.0,4,Washington,2021-22,1610612753,ORL,Orlando Magic
+1629021,Moritz Wagner,moritz-wagner,21,F-C,6-11,245,"APR 26, 1997",25.0,3,Michigan,2021-22,1610612753,ORL,Orlando Magic
+1630532,Franz Wagner,franz-wagner,22,F,6-10,220,"AUG 27, 2001",20.0,R,Michigan,2021-22,1610612753,ORL,Orlando Magic
+1629678,Admiral Schofield,admiral-schofield,25,F,6-5,241,"MAR 30, 1997",25.0,1,Tennessee,2021-22,1610612753,ORL,Orlando Magic
+1629962,Devin Cannady,devin-cannady,30,G,6-2,183,"MAY 21, 1996",26.0,1,Princeton,2021-22,1610612753,ORL,Orlando Magic
+203082,Terrence Ross,terrence-ross,31,G-F,6-6,206,"FEB 05, 1991",31.0,9,Washington,2021-22,1610612753,ORL,Orlando Magic
+201577,Robin Lopez,robin-lopez,33,C,7-0,281,"APR 01, 1988",34.0,13,Stanford,2021-22,1610612753,ORL,Orlando Magic
+1628976,Wendell Carter Jr.,wendell-carter-jr,34,C-F,6-10,270,"APR 16, 1999",23.0,3,Duke,2021-22,1610612753,ORL,Orlando Magic
+1630175,Cole Anthony,cole-anthony,50,G,6-3,185,"MAY 15, 2000",22.0,1,North Carolina,2021-22,1610612753,ORL,Orlando Magic

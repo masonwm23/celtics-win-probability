@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+201567,Kevin Love,kevin-love,0,F-C,6-10,251,"SEP 07, 1988",30.0,10,UCLA,2018-19,1610612739,CLE,Cleveland Cavaliers
+203917,Nik Stauskas,nik-stauskas,1,G,6-6,205,"OCT 07, 1993",25.0,4,Michigan,2018-19,1610612739,CLE,Cleveland Cavaliers
+1629012,Collin Sexton,collin-sexton,2,G,6-2,190,"JAN 04, 1999",20.0,R,Alabama,2018-19,1610612739,CLE,Cleveland Cavaliers
+1627737,Marquese Chriss,marquese-chriss,3,F,6-10,240,"JUL 02, 1997",21.0,2,Washington,2018-19,1610612739,CLE,Cleveland Cavaliers
+1628417,Jaron Blossomgame,jaron-blossomgame,4,F,6-8,220,"SEP 16, 1993",25.0,R,Clemson,2018-19,1610612739,CLE,Cleveland Cavaliers
+2747,JR Smith,jr-smith,5,G-F,6-6,225,"SEP 09, 1985",33.0,14,No College,2018-19,1610612739,CLE,Cleveland Cavaliers
+203903,Jordan Clarkson,jordan-clarkson,8,G,6-5,194,"JUN 07, 1992",27.0,4,Missouri,2018-19,1610612739,CLE,Cleveland Cavaliers
+101112,Channing Frye,channing-frye,9,F-C,7-0,255,"MAY 17, 1983",36.0,12,Arizona,2018-19,1610612739,CLE,Cleveland Cavaliers
+1628021,David Nwaba,david-nwaba,12,G,6-4,219,"JAN 14, 1993",26.0,2,Cal Poly-Obispo,2018-19,1610612739,CLE,Cleveland Cavaliers
+202684,Tristan Thompson,tristan-thompson,13,C-F,6-10,238,"MAR 13, 1991",28.0,7,Texas-Austin,2018-19,1610612739,CLE,Cleveland Cavaliers
+1626224,Cedi Osman,cedi-osman,16,F,6-8,215,"APR 08, 1995",24.0,1,Anadolu Efes,2018-19,1610612739,CLE,Cleveland Cavaliers
+203521,Matthew Dellavedova,matthew-dellavedova,18,G,6-4,200,"SEP 08, 1990",28.0,5,Saint Mary's,2018-19,1610612739,CLE,Cleveland Cavaliers
+202688,Brandon Knight,brandon-knight,20,G,6-3,195,"DEC 02, 1991",27.0,6,Kentucky,2018-19,1610612739,CLE,Cleveland Cavaliers
+1626204,Larry Nance Jr.,larry-nance-jr,22,F,6-9,230,"JAN 01, 1993",26.0,3,Wyoming,2018-19,1610612739,CLE,Cleveland Cavaliers
+203089,John Henson,john-henson,31,F,6-11,219,"DEC 28, 1990",28.0,6,North Carolina,2018-19,1610612739,CLE,Cleveland Cavaliers
+1629061,Deng Adel,deng-adel,32,F,6-7,200,"FEB 01, 1997",22.0,R,Louisville,2018-19,1610612739,CLE,Cleveland Cavaliers
+1627790,Ante Zizic,ante-zizic,41,C,6-11,254,"JAN 04, 1997",22.0,1,Darussafaka,2018-19,1610612739,CLE,Cleveland Cavaliers

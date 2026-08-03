@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+203903,Jordan Clarkson,jordan-clarkson,00,G,6-4,194,"JUN 07, 1992",29.0,6,Missouri,2020-21,1610612762,UTA,Utah Jazz
+204060,Joe Ingles,joe-ingles,2,F-G,6-8,220,"OCT 02, 1987",33.0,6,Maccabi Tel Aviv,2020-21,1610612762,UTA,Utah Jazz
+1630235,Trent Forrest,trent-forrest,3,G,6-4,210,"JUN 12, 1998",23.0,R,Florida State,2020-21,1610612762,UTA,Utah Jazz
+1629714,Jarrell Brantley,jarrell-brantley,5,F,6-5,250,"JUN 07, 1996",25.0,1,College of Charleston,2020-21,1610612762,UTA,Utah Jazz
+201144,Mike Conley,mike-conley,10,G,6-1,175,"OCT 11, 1987",33.0,13,Ohio State,2020-21,1610612762,UTA,Utah Jazz
+202324,Derrick Favors,derrick-favors,15,F,6-9,265,"JUL 15, 1991",29.0,10,Georgia Tech,2020-21,1610612762,UTA,Utah Jazz
+1629752,Juwan Morgan,juwan-morgan,16,F,6-7,232,"APR 17, 1997",24.0,1,Indiana,2020-21,1610612762,UTA,Utah Jazz
+1628962,Udoka Azubuike,udoka-azubuike,20,C-F,6-10,280,"SEP 17, 1999",21.0,R,Kansas,2020-21,1610612762,UTA,Utah Jazz
+1629744,Matt Thomas,matt-thomas,21,G,6-4,190,"AUG 04, 1994",26.0,1,Iowa State,2020-21,1610612762,UTA,Utah Jazz
+1626220,Royce O'Neale,royce-oneale,23,F,6-4,226,"JUN 05, 1993",28.0,3,Baylor,2020-21,1610612762,UTA,Utah Jazz
+203497,Rudy Gobert,rudy-gobert,27,C,7-1,258,"JUN 26, 1992",29.0,7,Cholet,2020-21,1610612762,UTA,Utah Jazz
+1627777,Georges Niang,georges-niang,31,F,6-7,230,"JUN 17, 1993",28.0,4,Iowa State,2020-21,1610612762,UTA,Utah Jazz
+1630190,Elijah Hughes,elijah-hughes,33,G,6-5,215,"MAR 10, 1998",23.0,R,Syracuse,2020-21,1610612762,UTA,Utah Jazz
+202711,Bojan Bogdanovic,bojan-bogdanovic,44,F,6-7,226,"APR 18, 1989",32.0,6,Fenerbahce,2020-21,1610612762,UTA,Utah Jazz
+1628378,Donovan Mitchell,donovan-mitchell,45,G,6-1,215,"SEP 07, 1996",24.0,3,Louisville,2020-21,1610612762,UTA,Utah Jazz
+101141,Ersan Ilyasova,ersan-ilyasova,77,F,6-9,235,"MAY 15, 1987",34.0,12,FC Barcelona,2020-21,1610612762,UTA,Utah Jazz
+1629671,Miye Oni,miye-oni,81,G-F,6-5,206,"AUG 04, 1997",23.0,1,Yale,2020-21,1610612762,UTA,Utah Jazz

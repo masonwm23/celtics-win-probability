@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1628398,Kyle Kuzma,kyle-kuzma,0,F,6-9,220,"JUL 24, 1995",22.0,R,Utah,2017-18,1610612747,LAL,Los Angeles Lakers
+203484,Kentavious Caldwell-Pope,kentavious-caldwell-pope,1,G,6-5,205,"FEB 18, 1993",25.0,4,Georgia,2017-18,1610612747,LAL,Los Angeles Lakers
+1628366,Lonzo Ball,lonzo-ball,2,G,6-6,190,"OCT 27, 1997",20.0,R,UCLA,2017-18,1610612747,LAL,Los Angeles Lakers
+202738,Isaiah Thomas,isaiah-thomas,3,G,5-9,185,"FEB 07, 1989",29.0,6,Washington,2017-18,1610612747,LAL,Los Angeles Lakers
+1627936,Alex Caruso,alex-caruso,4,G,6-5,186,"FEB 28, 1994",24.0,R,Texas A&M,2017-18,1610612747,LAL,Los Angeles Lakers
+1628404,Josh Hart,josh-hart,5,G,6-5,215,"MAR 06, 1995",23.0,R,Villanova,2017-18,1610612747,LAL,Los Angeles Lakers
+2736,Luol Deng,luol-deng,9,F,6-9,220,"APR 16, 1985",33.0,13,Duke,2017-18,1610612747,LAL,Los Angeles Lakers
+203898,Tyler Ennis,tyler-ennis,10,G,6-3,194,"AUG 24, 1994",23.0,3,Syracuse,2017-18,1610612747,LAL,Los Angeles Lakers
+201572,Brook Lopez,brook-lopez,11,C,7-0,268,"APR 01, 1988",30.0,9,Stanford,2017-18,1610612747,LAL,Los Angeles Lakers
+101112,Channing Frye,channing-frye,12,F,6-11,255,"MAY 17, 1983",35.0,11,Arizona,2017-18,1610612747,LAL,Los Angeles Lakers
+1627742,Brandon Ingram,brandon-ingram,14,F-G,6-9,190,"SEP 02, 1997",20.0,1,Duke,2017-18,1610612747,LAL,Los Angeles Lakers
+201281,Andre Ingram,andre-ingram,20,G,6-3,190,"NOV 19, 1985",32.0,R,American University,2017-18,1610612747,LAL,Los Angeles Lakers
+204037,Travis Wear,travis-wear,21,F,6-10,225,"SEP 21, 1990",27.0,1,UCLA,2017-18,1610612747,LAL,Los Angeles Lakers
+1627780,Gary Payton II,gary-payton-ii,23,G,6-3,190,"DEC 01, 1992",25.0,1,Oregon State,2017-18,1610612747,LAL,Los Angeles Lakers
+203944,Julius Randle,julius-randle,30,F-C,6-9,250,"NOV 29, 1994",23.0,3,Kentucky,2017-18,1610612747,LAL,Los Angeles Lakers
+1628418,Thomas Bryant,thomas-bryant,31,C,6-10,248,"JUL 31, 1997",20.0,R,Indiana,2017-18,1610612747,LAL,Los Angeles Lakers
+1627826,Ivica Zubac,ivica-zubac,40,C,7-1,240,"MAR 18, 1997",21.0,1,Mega Basket,2017-18,1610612747,LAL,Los Angeles Lakers

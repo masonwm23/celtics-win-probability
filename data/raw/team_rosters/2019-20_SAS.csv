@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1629022,Lonnie Walker IV,lonnie-walker-iv,1,G-F,6-5,204,"DEC 14, 1998",21.0,1,Miami,2019-20,1610612759,SAS,San Antonio Spurs
+1629640,Keldon Johnson,keldon-johnson,3,F-G,6-5,220,"OCT 11, 1999",20.0,R,Kentucky,2019-20,1610612759,SAS,San Antonio Spurs
+1628401,Derrick White,derrick-white,4,G,6-4,190,"JUL 02, 1994",25.0,2,Colorado,2019-20,1610612759,SAS,San Antonio Spurs
+1627749,Dejounte Murray,dejounte-murray,5,G,6-4,180,"SEP 19, 1996",23.0,3,Washington,2019-20,1610612759,SAS,San Antonio Spurs
+1629002,Chimezie Metu,chimezie-metu,7,F-C,6-9,225,"MAR 22, 1997",23.0,1,USC,2019-20,1610612759,SAS,San Antonio Spurs
+201988,Patty Mills,patty-mills,8,G,6-1,180,"AUG 11, 1988",31.0,10,St. Mary's,2019-20,1610612759,SAS,San Antonio Spurs
+201942,DeMar DeRozan,demar-derozan,10,G-F,6-6,220,"AUG 07, 1989",30.0,10,Southern California,2019-20,1610612759,SAS,San Antonio Spurs
+1627854,Bryn Forbes,bryn-forbes,11,G,6-2,205,"JUL 23, 1993",26.0,3,Michigan State,2019-20,1610612759,SAS,San Antonio Spurs
+200746,LaMarcus Aldridge,lamarcus-aldridge,12,C-F,6-11,250,"JUL 19, 1985",34.0,13,University of Texas at Austin,2019-20,1610612759,SAS,San Antonio Spurs
+1629234,Drew Eubanks,drew-eubanks,14,F-C,6-9,245,"FEB 01, 1997",23.0,1,Oregon State,2019-20,1610612759,SAS,San Antonio Spurs
+1629683,Quinndary Weatherspoon,quinndary-weatherspoon,15,G,6-3,205,"SEP 10, 1996",23.0,R,Mississippi State,2019-20,1610612759,SAS,San Antonio Spurs
+201158,Marco Belinelli,marco-belinelli,18,G,6-5,220,"MAR 25, 1986",34.0,12,Fortitudo Bologna,2019-20,1610612759,SAS,San Antonio Spurs
+1629677,Luka Samanic,luka-samanic,19,F,6-10,227,"JAN 09, 2000",20.0,R,Union Olimpija,2019-20,1610612759,SAS,San Antonio Spurs
+200752,Rudy Gay,rudy-gay,22,F-G,6-8,250,"AUG 17, 1986",33.0,13,Connecticut,2019-20,1610612759,SAS,San Antonio Spurs
+1627751,Jakob Poeltl,jakob-poeltl,25,C,7-1,245,"OCT 15, 1995",24.0,3,Utah,2019-20,1610612759,SAS,San Antonio Spurs
+203092,Tyler Zeller,tyler-zeller,40,F-C,6-11,250,"JAN 17, 1990",30.0,7,North Carolina,2019-20,1610612759,SAS,San Antonio Spurs
+1626168,Trey Lyles,trey-lyles,41,F,6-9,234,"NOV 05, 1995",24.0,4,Kentucky,2019-20,1610612759,SAS,San Antonio Spurs

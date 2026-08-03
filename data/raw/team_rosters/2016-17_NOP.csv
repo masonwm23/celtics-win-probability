@@ -1,0 +1,16 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+202326,DeMarcus Cousins,demarcus-cousins,0,F-C,6-11,270,"AUG 13, 1990",26.0,6,Kentucky,2016-17,1610612740,NOP,New Orleans Pelicans
+204025,Tim Frazier,tim-frazier,2,G,6-1,170,"NOV 01, 1990",26.0,2,Penn State,2016-17,1610612740,NOP,New Orleans Pelicans
+201600,Omer Asik,omer-asik,3,C,7-0,255,"JUL 04, 1986",30.0,6,Fenerbahce,2016-17,1610612740,NOP,New Orleans Pelicans
+202348,Jordan Crawford,jordan-crawford,4,G,6-5,195,"OCT 23, 1988",28.0,4,Xavier,2016-17,1610612740,NOP,New Orleans Pelicans
+1626253,Axel Toupane,axel-toupane,10,G-F,6-7,210,"JUL 23, 1992",24.0,1,Strasbourg IG,2016-17,1610612740,NOP,New Orleans Pelicans
+201950,Jrue Holiday,jrue-holiday,11,G,6-4,205,"JUN 12, 1990",27.0,7,UCLA,2016-17,1610612740,NOP,New Orleans Pelicans
+202700,Donatas Motiejunas,donatas-motiejunas,12,F-C,7-0,222,"SEP 20, 1990",26.0,4,Lithuania,2016-17,1610612740,NOP,New Orleans Pelicans
+1627767,Cheick Diallo,cheick-diallo,13,F,6-9,220,"SEP 13, 1996",20.0,R,Kansas,2016-17,1610612740,NOP,New Orleans Pelicans
+202347,Quincy Pondexter,quincy-pondexter,20,G-F,6-7,225,"MAR 10, 1988",29.0,5,Washington,2016-17,1610612740,NOP,New Orleans Pelicans
+1626188,Quinn Cook,quinn-cook,22,G,6-2,179,"MAR 23, 1993",24.0,R,Duke,2016-17,1610612740,NOP,New Orleans Pelicans
+203076,Anthony Davis,anthony-davis,23,F-C,6-11,253,"MAR 11, 1993",24.0,4,Kentucky,2016-17,1610612740,NOP,New Orleans Pelicans
+201967,Dante Cunningham,dante-cunningham,33,F,6-8,230,"APR 22, 1987",30.0,7,Villanova,2016-17,1610612740,NOP,New Orleans Pelicans
+201582,Alexis Ajinca,alexis-ajinca,42,C,7-2,248,"MAY 06, 1988",29.0,6,Hyeres-Toulon,2016-17,1610612740,NOP,New Orleans Pelicans
+203524,Solomon Hill,solomon-hill,44,F,6-7,225,"MAR 18, 1991",26.0,3,Arizona,2016-17,1610612740,NOP,New Orleans Pelicans
+202734,E'Twaun Moore,etwaun-moore,55,G,6-4,191,"FEB 25, 1989",28.0,5,Purdue,2016-17,1610612740,NOP,New Orleans Pelicans

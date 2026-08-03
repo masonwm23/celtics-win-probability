@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1630206,Jay Scrubb,jay-scrubb,0,G,6-5,220,"SEP 01, 2000",20.0,R,John A. Logan,2020-21,1610612746,LAC,Los Angeles Clippers
+202704,Reggie Jackson,reggie-jackson,1,G,6-2,208,"APR 16, 1990",31.0,9,Boston College,2020-21,1610612746,LAC,Los Angeles Clippers
+202695,Kawhi Leonard,kawhi-leonard,2,F,6-7,225,"JUN 29, 1991",30.0,9,San Diego State,2020-21,1610612746,LAC,Los Angeles Clippers
+200765,Rajon Rondo,rajon-rondo,4,G,6-1,180,"FEB 22, 1986",35.0,14,Kentucky,2020-21,1610612746,LAC,Los Angeles Clippers
+1628379,Luke Kennard,luke-kennard,5,G,6-5,206,"JUN 24, 1996",25.0,3,Duke,2020-21,1610612746,LAC,Los Angeles Clippers
+1629599,Amir Coffey,amir-coffey,7,G-F,6-7,210,"JUN 17, 1997",24.0,1,Minnesota,2020-21,1610612746,LAC,Los Angeles Clippers
+202694,Marcus Morris Sr.,marcus-morris-sr,8,F,6-8,218,"SEP 02, 1989",31.0,9,Kansas,2020-21,1610612746,LAC,Los Angeles Clippers
+201586,Serge Ibaka,serge-ibaka,9,F,6-10,235,"SEP 18, 1989",31.0,11,Ricoh Manresa,2020-21,1610612746,LAC,Los Angeles Clippers
+1630187,Daniel Oturu,daniel-oturu,10,C,6-8,240,"SEP 20, 1999",21.0,R,Minnesota,2020-21,1610612746,LAC,Los Angeles Clippers
+1627812,Yogi Ferrell,yogi-ferrell,11,G,6-0,178,"MAY 09, 1993",28.0,4,Indiana,2020-21,1610612746,LAC,Los Angeles Clippers
+202331,Paul George,paul-george,13,F,6-8,220,"MAY 02, 1990",31.0,10,Fresno State,2020-21,1610612746,LAC,Los Angeles Clippers
+1629611,Terance Mann,terance-mann,14,G-F,6-5,215,"OCT 18, 1996",24.0,1,Florida State,2020-21,1610612746,LAC,Los Angeles Clippers
+202326,DeMarcus Cousins,demarcus-cousins,15,C,6-10,270,"AUG 13, 1990",30.0,9,Kentucky,2020-21,1610612746,LAC,Los Angeles Clippers
+201976,Patrick Beverley,patrick-beverley,21,G,6-1,180,"JUL 12, 1988",32.0,8,Arkansas,2020-21,1610612746,LAC,Los Angeles Clippers
+201587,Nicolas Batum,nicolas-batum,33,G-F,6-8,230,"DEC 14, 1988",32.0,12,Le Mans,2020-21,1610612746,LAC,Los Angeles Clippers
+1627826,Ivica Zubac,ivica-zubac,40,C,7-0,240,"MAR 18, 1997",24.0,4,Mega Basket,2020-21,1610612746,LAC,Los Angeles Clippers
+202335,Patrick Patterson,patrick-patterson,54,F,6-8,235,"MAR 14, 1989",32.0,10,Kentucky,2020-21,1610612746,LAC,Los Angeles Clippers

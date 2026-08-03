@@ -1,0 +1,124 @@
+==============================================================================
+PHASE 12d - OFFICIAL HIGHLIGHT COVERAGE BY SEASON
+==============================================================================
+
+  Three games per season, drawn at fixed fractions through each
+  schedule (0.25, 0.50, 0.75). Deterministic and deliberately spread:
+  two earlier conclusions in this project came from samples that had
+  quietly clustered, both times in the direction of the conclusion.
+
+  Metadata only. No download, no scraping, no re-hosting.
+
+  games tested       24 of 24
+  official reel      16  (67% of tested)
+  unofficial only    8
+  nothing found      0
+
+  'unofficial only' means a matching full-game reel EXISTS but sits
+  on a re-upload channel. Those are not usable here, by instruction
+  and on the merits, but it is a different fact from no coverage.
+
+==============================================================================
+BY SEASON
+==============================================================================
+
+  season      tested  official   unoff   none  untested    rate
+  2016-17          3         0       3      0         0      0%
+  2017-18          3         0       3      0         0      0%
+  2018-19          3         2       1      0         0     67%
+  2019-20          3         3       0      0         0    100%
+  2020-21          3         3       0      0         0    100%
+  2021-22          3         2       1      0         0     67%
+  2022-23          3         3       0      0         0    100%
+  2023-24          3         3       0      0         0    100%
+
+==============================================================================
+WHICH CONVENTION WORKED, BY SEASON
+==============================================================================
+
+  A run across all 636 games needs this per era.
+
+  2021 convention: AWAY at HOME | FULL GAME HIGHLIGHTS | date
+    2018-19, 2019-20, 2020-21, 2021-22, 2022-23, 2023-24
+
+==============================================================================
+OFFICIAL REELS FOUND
+==============================================================================
+
+  2018-19  BOS @ MIA  2019-01-10
+    Full Game Recap: Celtics vs Heat | Vintage Wade On Display In Miami
+    NBA | PT9M30S | https://www.youtube.com/watch?v=K6iEBTraRZI
+  2018-19  BOS vs. POR  2019-02-27
+    TRAIL BLAZERS vs CELTICS | Damian Lillard Drops 33 To Lead Portland 
+    NBA | PT9M32S | https://www.youtube.com/watch?v=j0VYy7njfQY
+  2019-20  BOS @ NYK  2019-12-01
+    CELTICS at KNICKS | FULL GAME HIGHLIGHTS | December 1, 2019
+    NBA | PT9M36S | https://www.youtube.com/watch?v=JPn36KseXhY
+  2019-20  BOS vs. NOP  2020-01-11
+    PELICANS at CELTICS | FULL GAME HIGHLIGHTS | January 11, 2020
+    NBA | PT9M41S | https://www.youtube.com/watch?v=F6dU0MxY1fU
+  2019-20  BOS vs. LAC  2020-02-13
+    CLIPPERS at CELTICS | FULL GAME HIGHLIGHTS | February 13, 2020
+    NBA | PT9M45S | https://www.youtube.com/watch?v=KinYAooLZX0
+  2020-21  BOS @ GSW  2021-02-02
+    CELTICS at WARRIORS | FULL GAME HIGHLIGHTS | February 2, 2021
+    NBA | PT9M44S | https://www.youtube.com/watch?v=v_hrY173jHE
+  2020-21  BOS @ BKN  2021-03-11
+    CELTICS at NETS | FULL GAME HIGHLIGHTS | March 11, 2021
+    NBA | PT9M48S | https://www.youtube.com/watch?v=R0vOMQQCHi8
+  2020-21  BOS @ DEN  2021-04-11
+    CELTICS at NUGGETS | FULL GAME HIGHLIGHTS | April 11, 2021
+    NBA | PT9M44S | https://www.youtube.com/watch?v=bH-hp0XoDVs
+  2021-22  BOS @ TOR  2021-11-28
+    CELTICS at RAPTORS | FULL GAME HIGHLIGHTS | November 28, 2021
+    NBA | PT9M54S | https://www.youtube.com/watch?v=GcL0XHStBsU
+  2021-22  BOS vs. IND  2022-01-10
+    PACERS at CELTICS | FULL GAME HIGHLIGHTS | January 10, 2022
+    NBA | PT9M43S | https://www.youtube.com/watch?v=2bWkSoxo_hU
+  2022-23  BOS vs. CHA  2022-11-28
+    HORNETS at CELTICS | NBA FULL GAME HIGHLIGHTS | November 28, 2022
+    NBA | PT10M | https://www.youtube.com/watch?v=9MnnVPM7lbA
+  2022-23  BOS vs. CHI  2023-01-09
+    BULLS at CELTICS | FULL GAME HIGHLIGHTS | January 9, 2023
+    NBA | PT9M35S | https://www.youtube.com/watch?v=FzHWxmpPHI4
+  2022-23  BOS @ NYK  2023-02-27
+    CELTICS at KNICKS | FULL GAME HIGHLIGHTS | February 27, 2023
+    NBA | PT9M25S | https://www.youtube.com/watch?v=uoBw1-OMZN8
+  2023-24  BOS vs. NYK  2023-12-08
+    KNICKS at CELTICS | FULL GAME HIGHLIGHTS | December 8, 2023
+    NBA | PT9M20S | https://www.youtube.com/watch?v=iwyrp8B7YCs
+  2023-24  BOS vs. SAS  2024-01-17
+    SPURS at CELTICS | FULL GAME HIGHLIGHTS | January 17, 2024
+    NBA | PT9M24S | https://www.youtube.com/watch?v=BvcAbjJ-x-c
+  2023-24  BOS @ DEN  2024-03-07
+    CELTICS at NUGGETS | FULL GAME HIGHLIGHTS | March 7, 2024
+    NBA | PT9M58S | https://www.youtube.com/watch?v=GbmxZ93vsyA
+
+==============================================================================
+WHAT THIS MEANS FOR THE PANEL
+==============================================================================
+
+  Seasons with at least one official reel: 2018-19, 2019-20, 2020-21, 2021-22, 2022-23, 2023-24
+
+  A panel would show 'Game highlights' for games in those
+  seasons and NOTHING AT ALL elsewhere. It must never be
+  labelled 'Current play', must never block the dashboard, and
+  must degrade silently when a video is pulled or made private.
+
+  A full 636-game precompute at two searches per game is roughly
+  127,200 quota units, about 13 days of the free tier.
+  Restricting it to the seasons above would cut that proportionally.
+
+==============================================================================
+WHAT THIS DOES NOT TELL YOU
+==============================================================================
+
+  Three games a season is an estimate with wide error bars, not a
+  coverage figure. A season showing 3 of 3 could still be 60% across
+  its 82 games.
+
+  A game with no official reel found may still have one under a title
+  neither variant covers. Absence is weaker evidence than presence.
+
+  Nothing was changed. The dashboard does not know this exists.
+==============================================================================

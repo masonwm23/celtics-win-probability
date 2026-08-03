@@ -1,0 +1,17 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+203083,Andre Drummond,andre-drummond,0,C,6-10,279,"AUG 10, 1993",28.0,9,Connecticut,2021-22,1610612751,BKN,Brooklyn Nets
+1628971,Bruce Brown,bruce-brown,1,G-F,6-4,202,"AUG 15, 1996",25.0,3,Miami,2021-22,1610612751,BKN,Brooklyn Nets
+201933,Blake Griffin,blake-griffin,2,F,6-9,250,"MAR 16, 1989",33.0,11,Oklahoma,2021-22,1610612751,BKN,Brooklyn Nets
+1630561,David Duke Jr.,david-duke-jr,6,G,6-4,204,"OCT 13, 1999",22.0,R,Providence,2021-22,1610612751,BKN,Brooklyn Nets
+201142,Kevin Durant,kevin-durant,7,F,6-10,240,"SEP 29, 1988",33.0,14,Texas,2021-22,1610612751,BKN,Brooklyn Nets
+201988,Patty Mills,patty-mills,8,G,6-0,180,"AUG 11, 1988",33.0,12,St. Mary's,2021-22,1610612751,BKN,Brooklyn Nets
+201609,Goran Dragic,goran-dragic,9,G,6-3,190,"MAY 06, 1986",36.0,13,Union Olimpija,2021-22,1610612751,BKN,Brooklyn Nets
+1627732,Ben Simmons,ben-simmons,10,G-F,6-11,240,"JUL 20, 1996",25.0,4,Louisiana State,2021-22,1610612751,BKN,Brooklyn Nets
+202681,Kyrie Irving,kyrie-irving,11,G,6-2,195,"MAR 23, 1992",30.0,10,Duke,2021-22,1610612751,BKN,Brooklyn Nets
+203925,Joe Harris,joe-harris,12,G-F,6-6,220,"SEP 06, 1991",30.0,7,Virginia,2021-22,1610612751,BKN,Brooklyn Nets
+1630556,Kessler Edwards,kessler-edwards,14,F,6-7,203,"AUG 09, 2000",21.0,R,Pepperdine,2021-22,1610612751,BKN,Brooklyn Nets
+1630549,Day'Ron Sharpe,dayron-sharpe,20,F,6-9,265,"NOV 06, 2001",20.0,R,North Carolina,2021-22,1610612751,BKN,Brooklyn Nets
+200746,LaMarcus Aldridge,lamarcus-aldridge,21,C-F,6-11,250,"JUL 19, 1985",36.0,15,University of Texas at Austin,2021-22,1610612751,BKN,Brooklyn Nets
+1630560,Cam Thomas,cam-thomas,24,G,6-3,210,"OCT 13, 2001",20.0,R,Louisiana State,2021-22,1610612751,BKN,Brooklyn Nets
+203552,Seth Curry,seth-curry,30,G,6-2,185,"AUG 23, 1990",31.0,8,Duke,2021-22,1610612751,BKN,Brooklyn Nets
+1629651,Nic Claxton,nic-claxton,33,F-C,6-11,215,"APR 17, 1999",23.0,2,Georgia,2021-22,1610612751,BKN,Brooklyn Nets

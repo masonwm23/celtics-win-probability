@@ -1,0 +1,17 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+203081,Damian Lillard,damian-lillard,0,G,6-2,195,"JUL 15, 1990",30.0,8,Weber State,2020-21,1610612757,POR,Portland Trail Blazers
+2546,Carmelo Anthony,carmelo-anthony,00,F,6-7,238,"MAY 29, 1984",37.0,17,Syracuse,2020-21,1610612757,POR,Portland Trail Blazers
+1629014,Anfernee Simons,anfernee-simons,1,G,6-3,181,"JUN 08, 1999",22.0,2,Edgewater HS (FL),2020-21,1610612757,POR,Portland Trail Blazers
+1626178,Rondae Hollis-Jefferson,rondae-hollis-jefferson,2,F,6-6,217,"JAN 03, 1995",26.0,5,Arizona,2020-21,1610612757,POR,Portland Trail Blazers
+203468,CJ McCollum,cj-mccollum,3,G,6-3,190,"SEP 19, 1991",29.0,7,Lehigh,2020-21,1610612757,POR,Portland Trail Blazers
+1628385,Harry Giles III,harry-giles-iii,4,F-C,6-11,240,"APR 22, 1998",23.0,2,Duke,2020-21,1610612757,POR,Portland Trail Blazers
+1627884,Derrick Jones Jr.,derrick-jones-jr,5,F,6-5,210,"FEB 15, 1997",24.0,4,UNLV,2020-21,1610612757,POR,Portland Trail Blazers
+1629642,Nassir Little,nassir-little,9,F-G,6-5,220,"FEB 11, 2000",21.0,1,North Carolina,2020-21,1610612757,POR,Portland Trail Blazers
+202683,Enes Freedom,enes-freedom,11,C,6-10,250,"MAY 20, 1992",29.0,9,Fenerbahce,2020-21,1610612757,POR,Portland Trail Blazers
+1629604,CJ Elleby,cj-elleby,16,F-G,6-6,200,"JUN 16, 2000",21.0,R,Washington State,2020-21,1610612757,POR,Portland Trail Blazers
+1628388,T.J. Leaf,tj-leaf,18,F,6-10,222,"APR 30, 1997",24.0,3,UCLA,2020-21,1610612757,POR,Portland Trail Blazers
+1629833,Keljin Blevins,keljin-blevins,21,G,6-4,200,"NOV 24, 1995",25.0,R,Montana State,2020-21,1610612757,POR,Portland Trail Blazers
+203496,Robert Covington,robert-covington,23,F,6-7,209,"DEC 14, 1990",30.0,7,Tennessee State,2020-21,1610612757,POR,Portland Trail Blazers
+1626181,Norman Powell,norman-powell,24,G,6-3,215,"MAY 25, 1993",28.0,5,UCLA,2020-21,1610612757,POR,Portland Trail Blazers
+203994,Jusuf Nurkić,jusuf-nurkić,27,C,6-11,290,"AUG 23, 1994",26.0,6,Cedevita,2020-21,1610612757,POR,Portland Trail Blazers
+1628380,Zach Collins,zach-collins,33,F-C,6-11,250,"NOV 19, 1997",23.0,3,Gonzaga,2020-21,1610612757,POR,Portland Trail Blazers

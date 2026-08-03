@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+203957,Danté Exum,danté-exum,0,G,6-5,214,"JUL 13, 1995",28.0,7,Australian Institute of Sport,2023-24,1610612742,DAL,Dallas Mavericks
+1630314,Brandon Williams,brandon-williams,00,G,6-1,190,"NOV 22, 1999",24.0,1,Arizona,2023-24,1610612742,DAL,Dallas Mavericks
+1630702,Jaden Hardy,jaden-hardy,1,G,6-3,198,"JUL 05, 2002",21.0,1,NBA G League Ignite,2023-24,1610612742,DAL,Dallas Mavericks
+1641726,Dereck Lively II,dereck-lively-ii,2,C,7-1,230,"FEB 12, 2004",20.0,R,Duke,2023-24,1610612742,DAL,Dallas Mavericks
+203939,Dwight Powell,dwight-powell,7,F-C,6-10,240,"JUL 20, 1991",32.0,9,Stanford,2023-24,1610612742,DAL,Dallas Mavericks
+1630182,Josh Green,josh-green,8,G,6-5,200,"NOV 16, 2000",23.0,3,Arizona,2023-24,1610612742,DAL,Dallas Mavericks
+1630639,A.J. Lawson,aj-lawson,9,G,6-6,179,"JUL 15, 2000",23.0,1,South Carolina,2023-24,1610612742,DAL,Dallas Mavericks
+203501,Tim Hardaway Jr.,tim-hardaway-jr,10,G-F,6-5,205,"MAR 16, 1992",32.0,10,Michigan,2023-24,1610612742,DAL,Dallas Mavericks
+202681,Kyrie Irving,kyrie-irving,11,G,6-2,195,"MAR 23, 1992",32.0,12,Duke,2023-24,1610612742,DAL,Dallas Mavericks
+1641788,Alex Fudge,alex-fudge,17,F,6-8,200,"MAY 06, 2003",21.0,R,Florida,2023-24,1610612742,DAL,Dallas Mavericks
+1641765,Olivier-Maxence Prosper,olivier-maxence-prosper,18,F,6-7,230,"JUL 03, 2002",21.0,R,Marquette,2023-24,1610612742,DAL,Dallas Mavericks
+1629655,Daniel Gafford,daniel-gafford,21,F-C,6-10,234,"OCT 01, 1998",25.0,4,Arkansas,2023-24,1610612742,DAL,Dallas Mavericks
+1629023,P.J. Washington,pj-washington,25,F,6-7,230,"AUG 23, 1998",25.0,4,Kentucky,2023-24,1610612742,DAL,Dallas Mavericks
+1630535,Greg Brown III,greg-brown-iii,36,F,6-7,206,"SEP 01, 2001",22.0,2,Texas,2023-24,1610612742,DAL,Dallas Mavericks
+1628467,Maxi Kleber,maxi-kleber,42,F,6-10,240,"JAN 29, 1992",32.0,6,Bayern Munich,2023-24,1610612742,DAL,Dallas Mavericks
+1627884,Derrick Jones Jr.,derrick-jones-jr,55,F,6-6,210,"FEB 15, 1997",27.0,7,UNLV,2023-24,1610612742,DAL,Dallas Mavericks
+1629029,Luka Dončić,luka-dončić,77,F-G,6-7,230,"FEB 28, 1999",25.0,5,Real Madrid,2023-24,1610612742,DAL,Dallas Mavericks
+202693,Markieff Morris,markieff-morris,88,F,6-9,245,"SEP 02, 1989",34.0,12,Kansas,2023-24,1610612742,DAL,Dallas Mavericks

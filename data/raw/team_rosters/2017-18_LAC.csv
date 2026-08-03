@@ -1,0 +1,17 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1628414,Sindarius Thornwell,sindarius-thornwell,0,G,6-5,215,"NOV 15, 1994",23.0,R,South Carolina,2017-18,1610612746,LAC,Los Angeles Clippers
+1628393,Jawun Evans,jawun-evans,1,G,6-0,190,"JUL 26, 1996",21.0,R,Oklahoma State,2017-18,1610612746,LAC,Los Angeles Clippers
+1628462,Milos Teodosic,milos-teodosic,4,G,6-5,196,"MAR 19, 1987",31.0,R,CSKA Moscow,2017-18,1610612746,LAC,Los Angeles Clippers
+1626149,Montrezl Harrell,montrezl-harrell,5,F-C,6-8,240,"JAN 26, 1994",24.0,2,Louisville,2017-18,1610612746,LAC,Los Angeles Clippers
+201599,DeAndre Jordan,deandre-jordan,6,C,6-11,265,"JUL 21, 1988",29.0,9,Texas A&M,2017-18,1610612746,LAC,Los Angeles Clippers
+1626155,Sam Dekker,sam-dekker,7,F,6-9,230,"MAY 06, 1994",24.0,2,Wisconsin,2017-18,1610612746,LAC,Los Angeles Clippers
+201568,Danilo Gallinari,danilo-gallinari,8,F,6-10,225,"AUG 08, 1988",29.0,8,Olimpia Milano,2017-18,1610612746,LAC,Los Angeles Clippers
+203710,C.J. Williams,cj-williams,9,F-G,6-5,230,"FEB 06, 1990",28.0,R,North Carolina State,2017-18,1610612746,LAC,Los Angeles Clippers
+202340,Avery Bradley,avery-bradley,11,G,6-2,180,"NOV 26, 1990",27.0,7,University of Texas at Austin,2017-18,1610612746,LAC,Los Angeles Clippers
+1627820,Tyrone Wallace,tyrone-wallace,12,G,6-5,198,"JUN 10, 1994",24.0,R,California,2017-18,1610612746,LAC,Los Angeles Clippers
+201976,Patrick Beverley,patrick-beverley,21,G,6-1,185,"JUL 12, 1988",29.0,5,Arkansas,2017-18,1610612746,LAC,Los Angeles Clippers
+101150,Lou Williams,lou-williams,23,G,6-1,175,"OCT 27, 1986",31.0,12,South Gwinnett HS (GA),2017-18,1610612746,LAC,Los Angeles Clippers
+203085,Austin Rivers,austin-rivers,25,G,6-4,200,"AUG 01, 1992",25.0,5,Duke,2017-18,1610612746,LAC,Los Angeles Clippers
+202325,Wesley Johnson,wesley-johnson,33,F-G,6-7,215,"JUL 11, 1987",30.0,7,Syracuse,2017-18,1610612746,LAC,Los Angeles Clippers
+202699,Tobias Harris,tobias-harris,34,F,6-9,235,"JUL 15, 1992",25.0,6,Tennessee,2017-18,1610612746,LAC,Los Angeles Clippers
+1626246,Boban Marjanovic,boban-marjanovic,51,C,7-3,290,"AUG 15, 1988",29.0,2,Crvena zvezda,2017-18,1610612746,LAC,Los Angeles Clippers

@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1631367,Jacob Gilyard,jacob-gilyard,,G,5-9,160,"JUL 14, 1998",24.0,R,Richmond,2022-23,1610612763,MEM,Memphis Grizzlies
+1630214,Xavier Tillman,xavier-tillman,2,F,6-7,245,"JAN 12, 1999",24.0,2,Michigan State,2022-23,1610612763,MEM,Memphis Grizzlies
+1631222,Jake LaRavia,jake-laravia,3,F,6-7,235,"NOV 03, 2001",21.0,R,Wake Forest,2022-23,1610612763,MEM,Memphis Grizzlies
+203500,Steven Adams,steven-adams,4,C,6-11,265,"JUL 20, 1993",29.0,9,Pittsburgh,2022-23,1610612763,MEM,Memphis Grizzlies
+1631246,Vince Williams Jr.,vince-williams-jr,5,G,6-4,205,"AUG 30, 2000",22.0,R,Virginia Commonwealth,2022-23,1610612763,MEM,Memphis Grizzlies
+1631254,Kenneth Lofton Jr.,kenneth-lofton-jr,6,F,6-6,275,"AUG 14, 2002",20.0,R,Louisiana Tech,2022-23,1610612763,MEM,Memphis Grizzlies
+1630583,Santi Aldama,santi-aldama,7,F-C,7-0,215,"JAN 10, 2001",22.0,1,Loyola-Maryland,2022-23,1610612763,MEM,Memphis Grizzlies
+1630533,Ziaire Williams,ziaire-williams,8,F,6-9,185,"SEP 12, 2001",21.0,1,Stanford,2022-23,1610612763,MEM,Memphis Grizzlies
+1628379,Luke Kennard,luke-kennard,10,G,6-5,206,"JUN 24, 1996",27.0,5,Duke,2022-23,1610612763,MEM,Memphis Grizzlies
+1629630,Ja Morant,ja-morant,12,G,6-2,174,"AUG 10, 1999",23.0,3,Murray State,2022-23,1610612763,MEM,Memphis Grizzlies
+1628991,Jaren Jackson Jr.,jaren-jackson-jr,13,F-C,6-10,242,"SEP 15, 1999",23.0,4,Michigan State,2022-23,1610612763,MEM,Memphis Grizzlies
+1629634,Brandon Clarke,brandon-clarke,15,F,6-8,215,"SEP 19, 1996",26.0,3,Gonzaga,2022-23,1610612763,MEM,Memphis Grizzlies
+1626145,Tyus Jones,tyus-jones,21,G,6-2,196,"MAY 10, 1996",27.0,7,Duke,2022-23,1610612763,MEM,Memphis Grizzlies
+1630217,Desmond Bane,desmond-bane,22,G,6-5,215,"JUN 25, 1998",25.0,2,TCU,2022-23,1610612763,MEM,Memphis Grizzlies
+1628415,Dillon Brooks,dillon-brooks,24,G-F,6-6,225,"JAN 22, 1996",27.0,5,Oregon,2022-23,1610612763,MEM,Memphis Grizzlies
+1631223,David Roddy,david-roddy,27,F,6-4,255,"MAR 27, 2001",22.0,R,Colorado State,2022-23,1610612763,MEM,Memphis Grizzlies
+1629723,John Konchar,john-konchar,46,G,6-5,210,"MAR 22, 1996",27.0,3,Indiana-Purdue Fort Wayne,2022-23,1610612763,MEM,Memphis Grizzlies

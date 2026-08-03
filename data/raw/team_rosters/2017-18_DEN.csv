@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+201589,Darrell Arthur,darrell-arthur,00,F,6-9,235,"MAR 25, 1988",30.0,8,Kansas,2017-18,1610612743,DEN,Denver Nuggets
+1628470,Torrey Craig,torrey-craig,3,G-F,6-6,215,"DEC 19, 1990",27.0,R,South Carolina Upstate,2017-18,1610612743,DEN,Denver Nuggets
+200794,Paul Millsap,paul-millsap,4,F,6-8,246,"FEB 10, 1985",33.0,11,Louisiana Tech,2017-18,1610612743,DEN,Denver Nuggets
+203115,Will Barton,will-barton,5,F-G,6-6,190,"JAN 06, 1991",27.0,5,Memphis,2017-18,1610612743,DEN,Denver Nuggets
+1626168,Trey Lyles,trey-lyles,7,F,6-10,234,"NOV 05, 1995",22.0,2,Kentucky,2017-18,1610612743,DEN,Denver Nuggets
+1628420,Monté Morris,monté-morris,11,G,6-3,175,"JUN 27, 1995",23.0,R,Iowa State,2017-18,1610612743,DEN,Denver Nuggets
+203914,Gary Harris,gary-harris,14,G,6-4,210,"SEP 14, 1994",23.0,3,Michigan State,2017-18,1610612743,DEN,Denver Nuggets
+203999,Nikola Jokić,nikola-jokić,15,C,6-10,250,"FEB 19, 1995",23.0,2,Mega Basket,2017-18,1610612743,DEN,Denver Nuggets
+1628399,Tyler Lydon,tyler-lydon,20,F,6-9,220,"APR 09, 1996",22.0,R,Syracuse,2017-18,1610612743,DEN,Denver Nuggets
+201163,Wilson Chandler,wilson-chandler,21,F,6-9,225,"MAY 10, 1987",31.0,9,DePaul,2017-18,1610612743,DEN,Denver Nuggets
+2210,Richard Jefferson,richard-jefferson,22,F,6-7,233,"JUN 21, 1980",38.0,16,Arizona,2017-18,1610612743,DEN,Denver Nuggets
+203486,Mason Plumlee,mason-plumlee,24,C-F,6-11,255,"MAR 05, 1990",28.0,4,Duke,2017-18,1610612743,DEN,Denver Nuggets
+1627736,Malik Beasley,malik-beasley,25,G,6-5,196,"NOV 26, 1996",21.0,1,Florida State,2017-18,1610612743,DEN,Denver Nuggets
+1627750,Jamal Murray,jamal-murray,27,G,6-4,207,"FEB 23, 1997",21.0,1,Kentucky,2017-18,1610612743,DEN,Denver Nuggets
+2734,Devin Harris,devin-harris,34,G,6-3,185,"FEB 27, 1983",35.0,13,Wisconsin,2017-18,1610612743,DEN,Denver Nuggets
+202702,Kenneth Faried,kenneth-faried,35,F,6-8,228,"NOV 19, 1989",28.0,6,Morehead State,2017-18,1610612743,DEN,Denver Nuggets
+1627823,Juancho Hernangomez,juancho-hernangomez,41,F,6-9,230,"SEP 28, 1995",22.0,1,Estudiantes,2017-18,1610612743,DEN,Denver Nuggets

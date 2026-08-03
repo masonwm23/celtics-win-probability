@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1628369,Jayson Tatum,jayson-tatum,0,F-G,6-8,210,"MAR 03, 1998",26.0,6,Duke,2023-24,1610612738,BOS,Boston Celtics
+201950,Jrue Holiday,jrue-holiday,4,G,6-4,205,"JUN 12, 1990",34.0,14,UCLA,2023-24,1610612738,BOS,Boston Celtics
+1627759,Jaylen Brown,jaylen-brown,7,G-F,6-6,223,"OCT 24, 1996",27.0,7,California,2023-24,1610612738,BOS,Boston Celtics
+204001,Kristaps Porziņģis,kristaps-porziņģis,8,F-C,7-2,240,"AUG 02, 1995",28.0,8,Cajasol Sevilla,2023-24,1610612738,BOS,Boston Celtics
+1628401,Derrick White,derrick-white,9,G,6-4,190,"JUL 02, 1994",29.0,6,Colorado,2023-24,1610612738,BOS,Boston Celtics
+1630202,Payton Pritchard,payton-pritchard,11,G,6-1,195,"JAN 28, 1998",26.0,3,Oregon,2023-24,1610612738,BOS,Boston Celtics
+1629052,Oshae Brissett,oshae-brissett,12,F-G,6-7,210,"JUN 20, 1998",26.0,4,Syracuse,2023-24,1610612738,BOS,Boston Celtics
+1641809,Drew Peterson,drew-peterson,13,F,6-9,205,"NOV 09, 1999",24.0,R,Southern California,2023-24,1610612738,BOS,Boston Celtics
+1631120,JD Davison,jd-davison,20,G,6-1,195,"OCT 03, 2002",21.0,1,Alabama,2023-24,1610612738,BOS,Boston Celtics
+1630214,Xavier Tillman,xavier-tillman,26,F,6-7,245,"JAN 12, 1999",25.0,3,Michigan State,2023-24,1610612738,BOS,Boston Celtics
+1641775,Jordan Walsh,jordan-walsh,27,G,6-6,205,"MAR 03, 2004",20.0,R,Arkansas,2023-24,1610612738,BOS,Boston Celtics
+1630573,Sam Hauser,sam-hauser,30,F,6-7,217,"DEC 08, 1997",26.0,2,Virginia,2023-24,1610612738,BOS,Boston Celtics
+1628436,Luke Kornet,luke-kornet,40,C-F,7-1,250,"JUL 15, 1995",28.0,6,Vanderbilt,2023-24,1610612738,BOS,Boston Celtics
+201143,Al Horford,al-horford,42,C-F,6-9,240,"JUN 03, 1986",38.0,16,Florida,2023-24,1610612738,BOS,Boston Celtics
+1630531,Jaden Springer,jaden-springer,44,G,6-4,202,"SEP 25, 2002",21.0,2,Tennessee,2023-24,1610612738,BOS,Boston Celtics
+1629004,Svi Mykhailiuk,svi-mykhailiuk,50,G-F,6-7,205,"JUN 10, 1997",27.0,5,Kansas,2023-24,1610612738,BOS,Boston Celtics
+1629674,Neemias Queta,neemias-queta,88,C,7-0,248,"JUL 13, 1999",24.0,2,Utah State,2023-24,1610612738,BOS,Boston Celtics

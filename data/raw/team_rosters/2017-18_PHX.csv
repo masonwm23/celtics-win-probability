@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1627737,Marquese Chriss,marquese-chriss,0,F,6-10,240,"JUL 02, 1997",20.0,1,Washington,2017-18,1610612756,PHX,Phoenix Suns
+1626164,Devin Booker,devin-booker,1,G,6-6,210,"OCT 30, 1996",21.0,2,Kentucky,2017-18,1610612756,PHX,Phoenix Suns
+203901,Elfrid Payton,elfrid-payton,2,G,6-4,185,"FEB 22, 1994",24.0,3,Louisana-Lafayette,2017-18,1610612756,PHX,Phoenix Suns
+201162,Jared Dudley,jared-dudley,3,F,6-7,240,"JUL 10, 1985",32.0,10,Boston College,2017-18,1610612756,PHX,Phoenix Suns
+2199,Tyson Chandler,tyson-chandler,4,C,7-1,240,"OCT 02, 1982",35.0,16,Dominguez HS (CA),2017-18,1610612756,PHX,Phoenix Suns
+1627755,Tyler Ulis,tyler-ulis,8,G,5-10,160,"JAN 05, 1996",22.0,1,Kentucky,2017-18,1610612756,PHX,Phoenix Suns
+1627885,Shaquille Harrison,shaquille-harrison,10,G,6-4,190,"OCT 06, 1993",24.0,R,Tulsa,2017-18,1610612756,PHX,Phoenix Suns
+202688,Brandon Knight,brandon-knight,11,G,6-3,195,"DEC 02, 1991",26.0,6,Kentucky,2017-18,1610612756,PHX,Phoenix Suns
+203933,T.J. Warren,tj-warren,12,F,6-8,215,"SEP 05, 1993",24.0,3,North Carolina State,2017-18,1610612756,PHX,Phoenix Suns
+1626210,Alan Williams,alan-williams,15,F-C,6-8,265,"JAN 28, 1993",25.0,2,Cal-Santa Barbara,2017-18,1610612756,PHX,Phoenix Suns
+1628367,Josh Jackson,josh-jackson,20,G-F,6-8,200,"FEB 10, 1997",21.0,R,Kansas,2017-18,1610612756,PHX,Phoenix Suns
+203458,Alex Len,alex-len,21,C,7-1,250,"JUN 16, 1993",25.0,4,Maryland,2017-18,1610612756,PHX,Phoenix Suns
+1627863,Danuel House Jr.,danuel-house-jr,23,F-G,6-7,220,"JUN 07, 1993",25.0,1,Texas A&M,2017-18,1610612756,PHX,Phoenix Suns
+1628409,Alec Peters,alec-peters,25,F,6-9,235,"APR 13, 1995",23.0,R,Valparaiso,2017-18,1610612756,PHX,Phoenix Suns
+203584,Troy Daniels,troy-daniels,30,G,6-4,205,"JUL 15, 1991",26.0,4,Va Commonwealth,2017-18,1610612756,PHX,Phoenix Suns
+1628432,Davon Reed,davon-reed,32,G,6-6,210,"JUN 11, 1995",23.0,R,Miami,2017-18,1610612756,PHX,Phoenix Suns
+1627733,Dragan Bender,dragan-bender,35,F,7-1,225,"NOV 17, 1997",20.0,1,Maccabi Tel Aviv,2017-18,1610612756,PHX,Phoenix Suns

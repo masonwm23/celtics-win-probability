@@ -1,0 +1,16 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+202340,Avery Bradley,avery-bradley,0,G,6-2,180,"NOV 26, 1990",26.0,6,University of Texas at Austin,2016-17,1610612738,BOS,Boston Celtics
+202738,Isaiah Thomas,isaiah-thomas,4,G,5-9,185,"FEB 07, 1989",28.0,5,Washington,2016-17,1610612738,BOS,Boston Celtics
+1627759,Jaylen Brown,jaylen-brown,7,F,6-7,225,"OCT 24, 1996",20.0,R,California,2016-17,1610612738,BOS,Boston Celtics
+201973,Jonas Jerebko,jonas-jerebko,8,F,6-10,231,"MAR 02, 1987",30.0,6,Angelico Biella,2016-17,1610612738,BOS,Boston Celtics
+1627743,Demetrius Jackson,demetrius-jackson,9,G,6-1,201,"SEP 07, 1994",22.0,R,Notre Dame,2016-17,1610612738,BOS,Boston Celtics
+1626179,Terry Rozier,terry-rozier,12,G,6-2,190,"MAR 17, 1994",23.0,1,Louisville,2016-17,1610612738,BOS,Boston Celtics
+203923,James Young,james-young,13,G-F,6-6,215,"AUG 16, 1995",21.0,2,Kentucky,2016-17,1610612738,BOS,Boston Celtics
+101123,Gerald Green,gerald-green,30,F,6-7,205,"JAN 26, 1986",31.0,9,No College,2016-17,1610612738,BOS,Boston Celtics
+203935,Marcus Smart,marcus-smart,36,G,6-4,220,"MAR 06, 1994",23.0,2,Oklahoma State,2016-17,1610612738,BOS,Boston Celtics
+203482,Kelly Olynyk,kelly-olynyk,41,C-F,7-0,238,"APR 19, 1991",26.0,3,Gonzaga,2016-17,1610612738,BOS,Boston Celtics
+201143,Al Horford,al-horford,42,C,6-10,245,"JUN 03, 1986",31.0,9,Florida,2016-17,1610612738,BOS,Boston Celtics
+203092,Tyler Zeller,tyler-zeller,44,C,7-0,253,"JAN 17, 1990",27.0,4,North Carolina,2016-17,1610612738,BOS,Boston Celtics
+1626175,Jordan Mickey,jordan-mickey,55,F,6-8,235,"JUL 09, 1994",22.0,1,Louisiana State,2016-17,1610612738,BOS,Boston Celtics
+101161,Amir Johnson,amir-johnson,90,F,6-9,240,"MAY 01, 1987",30.0,11,Westchester HS (CA),2016-17,1610612738,BOS,Boston Celtics
+203109,Jae Crowder,jae-crowder,99,F,6-6,235,"JUL 06, 1990",26.0,4,Marquette,2016-17,1610612738,BOS,Boston Celtics

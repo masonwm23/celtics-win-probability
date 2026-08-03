@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1641945,Jaylin Galloway,jaylin-galloway,,F,6-6,190,"DEC 21, 2002",21.0,R,Sydney Kings,2023-24,1610612749,MIL,Milwaukee Bucks
+203081,Damian Lillard,damian-lillard,0,G,6-2,195,"JUL 15, 1990",33.0,11,Weber State,2023-24,1610612749,MIL,Milwaukee Bucks
+1630699,MarJon Beauchamp,marjon-beauchamp,3,F,6-7,199,"OCT 12, 2000",23.0,1,NBA G League Ignite,2023-24,1610612749,MIL,Milwaukee Bucks
+1627736,Malik Beasley,malik-beasley,5,G,6-4,187,"NOV 26, 1996",27.0,7,Florida State,2023-24,1610612749,MIL,Milwaukee Bucks
+1641753,Chris Livingston,chris-livingston,7,F,6-6,220,"OCT 15, 2003",20.0,R,Kentucky,2023-24,1610612749,MIL,Milwaukee Bucks
+1626171,Bobby Portis,bobby-portis,9,F,6-10,250,"FEB 10, 1995",29.0,8,Arkansas,2023-24,1610612749,MIL,Milwaukee Bucks
+201572,Brook Lopez,brook-lopez,11,C,7-1,282,"APR 01, 1988",36.0,15,Stanford,2023-24,1610612749,MIL,Milwaukee Bucks
+201568,Danilo Gallinari,danilo-gallinari,12,F,6-10,236,"AUG 08, 1988",35.0,13,Olimpia Milano,2023-24,1610612749,MIL,Milwaukee Bucks
+1631260,AJ Green,aj-green,20,G,6-4,190,"SEP 27, 1999",24.0,1,Northern Iowa,2023-24,1610612749,MIL,Milwaukee Bucks
+201976,Patrick Beverley,patrick-beverley,21,G,6-2,180,"JUL 12, 1988",35.0,11,Arkansas,2023-24,1610612749,MIL,Milwaukee Bucks
+203114,Khris Middleton,khris-middleton,22,F,6-7,222,"AUG 12, 1991",32.0,11,Texas A&M,2023-24,1610612749,MIL,Milwaukee Bucks
+1631102,TyTy Washington Jr.,tyty-washington-jr,23,G,6-3,195,"NOV 15, 2001",22.0,1,Kentucky,2023-24,1610612749,MIL,Milwaukee Bucks
+1626192,Pat Connaughton,pat-connaughton,24,G,6-5,209,"JAN 06, 1993",31.0,8,Notre Dame,2023-24,1610612749,MIL,Milwaukee Bucks
+203507,Giannis Antetokounmpo,giannis-antetokounmpo,34,F,6-11,243,"DEC 06, 1994",29.0,10,Filathlitikos,2023-24,1610612749,MIL,Milwaukee Bucks
+203648,Thanasis Antetokounmpo,thanasis-antetokounmpo,43,F,6-7,219,"JUL 18, 1992",31.0,5,Panathinaikos,2023-24,1610612749,MIL,Milwaukee Bucks
+1641748,Andre Jackson Jr.,andre-jackson-jr,44,G,6-6,209,"NOV 13, 2001",22.0,R,Connecticut,2023-24,1610612749,MIL,Milwaukee Bucks
+1631157,Ryan Rollins,ryan-rollins,55,G,6-3,180,"JUL 03, 2002",21.0,1,Toledo,2023-24,1610612749,MIL,Milwaukee Bucks
+203109,Jae Crowder,jae-crowder,99,F,6-6,235,"JUL 06, 1990",33.0,11,Marquette,2023-24,1610612749,MIL,Milwaukee Bucks

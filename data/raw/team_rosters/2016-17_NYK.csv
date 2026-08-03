@@ -1,0 +1,16 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1626254,Maurice Ndour,maurice-ndour,2,F,6-9,200,"JUN 18, 1992",25.0,R,Ohio,2016-17,1610612752,NYK,New York Knicks
+1626184,Chasson Randle,chasson-randle,4,G,6-2,185,"FEB 05, 1993",24.0,R,Stanford,2016-17,1610612752,NYK,New York Knicks
+201584,Courtney Lee,courtney-lee,5,G,6-5,200,"OCT 03, 1985",31.0,8,Western Kentucky,2016-17,1610612752,NYK,New York Knicks
+204001,Kristaps Porziņģis,kristaps-porziņģis,6,F,7-3,240,"AUG 02, 1995",21.0,1,Cajasol Sevilla,2016-17,1610612752,NYK,New York Knicks
+2546,Carmelo Anthony,carmelo-anthony,7,F,6-8,240,"MAY 29, 1984",33.0,13,Syracuse,2016-17,1610612752,NYK,New York Knicks
+203200,Justin Holiday,justin-holiday,8,G,6-6,185,"APR 05, 1989",28.0,3,Washington,2016-17,1610612752,NYK,New York Knicks
+203124,Kyle O'Quinn,kyle-oquinn,9,C-F,6-10,250,"MAR 26, 1990",27.0,4,Norfolk State,2016-17,1610612752,NYK,New York Knicks
+201149,Joakim Noah,joakim-noah,13,C,6-11,230,"FEB 25, 1985",32.0,9,Florida,2016-17,1610612752,NYK,New York Knicks
+1626195,Willy Hernangomez,willy-hernangomez,14,C,6-11,240,"MAY 27, 1994",23.0,R,Cajasol Sevilla,2016-17,1610612752,NYK,New York Knicks
+2756,Sasha Vujacic,sasha-vujacic,18,G,6-7,195,"MAR 08, 1984",33.0,9,Udine,2016-17,1610612752,NYK,New York Knicks
+201565,Derrick Rose,derrick-rose,25,G,6-3,190,"OCT 04, 1988",28.0,7,Memphis,2016-17,1610612752,NYK,New York Knicks
+1627758,Ron Baker,ron-baker,31,G,6-4,220,"MAR 30, 1993",24.0,R,Wichita State,2016-17,1610612752,NYK,New York Knicks
+1627850,Marshall Plumlee,marshall-plumlee,40,C,7-0,250,"JUL 14, 1992",24.0,R,Duke,2016-17,1610612752,NYK,New York Knicks
+202498,Lance Thomas,lance-thomas,42,F,6-8,235,"APR 24, 1988",29.0,5,Duke,2016-17,1610612752,NYK,New York Knicks
+1627851,Mindaugas Kuzminskas,mindaugas-kuzminskas,91,F,6-9,215,"OCT 19, 1989",27.0,R,Malaga,2016-17,1610612752,NYK,New York Knicks

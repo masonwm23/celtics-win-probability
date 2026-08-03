@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1628443,Kadeem Allen,kadeem-allen,0,G,6-3,200,"JAN 15, 1993",26.0,1,Arizona,2018-19,1610612752,NYK,New York Knicks
+1626144,Emmanuel Mudiay,emmanuel-mudiay,1,G,6-5,200,"MAR 05, 1996",23.0,3,Guangdong,2018-19,1610612752,NYK,New York Knicks
+1628436,Luke Kornet,luke-kornet,2,F-C,7-1,250,"JUL 15, 1995",23.0,1,Vanderbilt,2018-19,1610612752,NYK,New York Knicks
+1628656,Billy Garrett,billy-garrett,3,G-F,6-6,215,"OCT 16, 1994",24.0,R,DePaul,2018-19,1610612752,NYK,New York Knicks
+1628439,Isaiah Hicks,isaiah-hicks,4,F,6-9,230,"JUL 24, 1994",24.0,1,North Carolina,2018-19,1610612752,NYK,New York Knicks
+1628372,Dennis Smith Jr.,dennis-smith-jr,5,G,6-3,195,"NOV 25, 1997",21.0,1,North Carolina State,2018-19,1610612752,NYK,New York Knicks
+201599,DeAndre Jordan,deandre-jordan,6,C,6-11,265,"JUL 21, 1988",30.0,10,Texas A&M,2018-19,1610612752,NYK,New York Knicks
+1626209,Mario Hezonja,mario-hezonja,8,F,6-8,225,"FEB 25, 1995",24.0,3,FC Barcelona,2018-19,1610612752,NYK,New York Knicks
+1628373,Frank Ntilikina,frank-ntilikina,11,G,6-6,200,"JUL 28, 1998",20.0,1,Strasbourg IG,2018-19,1610612752,NYK,New York Knicks
+1627740,Henry Ellenson,henry-ellenson,13,F,6-11,245,"JAN 13, 1997",22.0,2,Marquette,2018-19,1610612752,NYK,New York Knicks
+1629019,Allonzo Trier,allonzo-trier,14,G,6-5,200,"JAN 17, 1996",23.0,R,Arizona,2018-19,1610612752,NYK,New York Knicks
+1628995,Kevin Knox II,kevin-knox-ii,20,F,6-9,215,"AUG 11, 1999",19.0,R,Kentucky,2018-19,1610612752,NYK,New York Knicks
+1628422,Damyean Dotson,damyean-dotson,21,G,6-6,210,"MAY 06, 1994",25.0,1,Houston,2018-19,1610612752,NYK,New York Knicks
+1629011,Mitchell Robinson,mitchell-robinson,26,C,7-1,240,"APR 01, 1998",21.0,R,Western Kentucky,2018-19,1610612752,NYK,New York Knicks
+203098,John Jenkins,john-jenkins,30,G,6-4,215,"MAR 06, 1991",28.0,5,Vanderbilt,2018-19,1610612752,NYK,New York Knicks
+203943,Noah Vonleh,noah-vonleh,32,F,6-9,250,"AUG 24, 1995",23.0,4,Indiana,2018-19,1610612752,NYK,New York Knicks
+202498,Lance Thomas,lance-thomas,42,F,6-8,240,"APR 24, 1988",31.0,7,Duke,2018-19,1610612752,NYK,New York Knicks

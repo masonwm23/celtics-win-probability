@@ -1,0 +1,17 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+201952,Jeff Teague,jeff-teague,00,G,6-3,195,"JUN 10, 1988",32.0,10,Wake Forest,2019-20,1610612737,ATL,Atlanta Hawks
+1629164,Brandon Goodwin,brandon-goodwin,0,G,6-0,180,"OCT 02, 1995",24.0,1,Florida Gulf Coast,2019-20,1610612737,ATL,Atlanta Hawks
+1626203,Treveon Graham,treveon-graham,2,G-F,6-5,219,"OCT 28, 1993",26.0,3,Va Commonwealth,2019-20,1610612737,ATL,Atlanta Hawks
+1628989,Kevin Huerter,kevin-huerter,3,G-F,6-7,190,"AUG 27, 1998",21.0,1,Maryland,2019-20,1610612737,ATL,Atlanta Hawks
+1629718,Charlie Brown Jr.,charlie-brown-jr,4,G,6-6,199,"FEB 02, 1997",23.0,R,St. Joseph's (PA),2019-20,1610612737,ATL,Atlanta Hawks
+1627746,Skal Labissiere,skal-labissiere,7,F-C,6-10,235,"MAR 18, 1996",24.0,3,Kentucky,2019-20,1610612737,ATL,Atlanta Hawks
+1629027,Trae Young,trae-young,11,G,6-1,180,"SEP 19, 1998",21.0,1,Oklahoma,2019-20,1610612737,ATL,Atlanta Hawks
+1629631,De'Andre Hunter,deandre-hunter,12,F-G,6-7,225,"DEC 02, 1997",22.0,R,Virginia,2019-20,1610612737,ATL,Atlanta Hawks
+203473,Dewayne Dedmon,dewayne-dedmon,14,C,7-0,245,"AUG 12, 1989",30.0,6,USC,2019-20,1610612737,ATL,Atlanta Hawks
+203991,Clint Capela,clint-capela,15,C,6-10,240,"MAY 18, 1994",26.0,5,Elan Chalon,2019-20,1610612737,ATL,Atlanta Hawks
+1713,Vince Carter,vince-carter,15,G-F,6-6,220,"JAN 26, 1977",43.0,21,North Carolina,2019-20,1610612737,ATL,Atlanta Hawks
+1628381,John Collins,john-collins,20,F,6-9,235,"SEP 23, 1997",22.0,2,Wake Forest,2019-20,1610612737,ATL,Atlanta Hawks
+1629629,Cam Reddish,cam-reddish,22,F-G,6-8,218,"SEP 01, 1999",20.0,R,Duke,2019-20,1610612737,ATL,Atlanta Hawks
+1628981,Bruno Fernando,bruno-fernando,24,F-C,6-9,240,"AUG 15, 1998",21.0,R,Maryland,2019-20,1610612737,ATL,Atlanta Hawks
+1627745,Damian Jones,damian-jones,30,C,6-11,245,"JUN 30, 1995",25.0,3,Vanderbilt,2019-20,1610612737,ATL,Atlanta Hawks
+1627761,DeAndre' Bembry,deandre-bembry,95,G-F,6-5,210,"JUL 04, 1994",25.0,3,St. Joseph's (PA),2019-20,1610612737,ATL,Atlanta Hawks

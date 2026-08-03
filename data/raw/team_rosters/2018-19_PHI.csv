@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+203118,Mike Scott,mike-scott,1,F,6-8,237,"JUL 16, 1988",30.0,6,Virginia,2018-19,1610612755,PHI,Philadelphia 76ers
+101161,Amir Johnson,amir-johnson,5,C-F,6-9,240,"MAY 01, 1987",32.0,13,Westchester HS (CA),2018-19,1610612755,PHI,Philadelphia 76ers
+1629312,Haywood Highsmith,haywood-highsmith,7,F,6-7,220,"DEC 09, 1996",22.0,R,Wheeling Jesuit,2018-19,1610612755,PHI,Philadelphia 76ers
+1629015,Zhaire Smith,zhaire-smith,8,G,6-4,199,"JUN 04, 1999",20.0,R,Texas Tech,2018-19,1610612755,PHI,Philadelphia 76ers
+203516,James Ennis III,james-ennis-iii,11,F,6-7,210,"JUL 01, 1990",28.0,4,Cal State-Long Beach,2018-19,1610612755,PHI,Philadelphia 76ers
+204456,T.J. McConnell,tj-mcconnell,12,G,6-2,190,"MAR 25, 1992",27.0,3,Arizona,2018-19,1610612755,PHI,Philadelphia 76ers
+203613,Jonathon Simmons,jonathon-simmons,14,F,6-6,195,"SEP 14, 1989",29.0,3,Houston,2018-19,1610612755,PHI,Philadelphia 76ers
+200755,JJ Redick,jj-redick,17,G,6-4,200,"JUN 24, 1984",35.0,12,Duke,2018-19,1610612755,PHI,Philadelphia 76ers
+1629003,Shake Milton,shake-milton,18,G,6-6,207,"SEP 26, 1996",22.0,R,Southern Methodist,2018-19,1610612755,PHI,Philadelphia 76ers
+203954,Joel Embiid,joel-embiid,21,F-C,7-0,250,"MAR 16, 1994",25.0,2,Kansas,2018-19,1610612755,PHI,Philadelphia 76ers
+202710,Jimmy Butler III,jimmy-butler-iii,23,G-F,6-8,232,"SEP 14, 1989",29.0,7,Marquette,2018-19,1610612755,PHI,Philadelphia 76ers
+1627732,Ben Simmons,ben-simmons,25,G-F,6-10,230,"JUL 20, 1996",22.0,1,Louisiana State,2018-19,1610612755,PHI,Philadelphia 76ers
+1627788,Furkan Korkmaz,furkan-korkmaz,30,G-F,6-7,190,"JUL 24, 1997",21.0,1,Anadolu Efes,2018-19,1610612755,PHI,Philadelphia 76ers
+202699,Tobias Harris,tobias-harris,33,F,6-9,235,"JUL 15, 1992",26.0,7,Tennessee,2018-19,1610612755,PHI,Philadelphia 76ers
+1628413,Jonah Bolden,jonah-bolden,43,F,6-10,220,"JAN 02, 1996",23.0,R,UCLA,2018-19,1610612755,PHI,Philadelphia 76ers
+1626246,Boban Marjanovic,boban-marjanovic,51,C,7-3,290,"AUG 15, 1988",30.0,3,Crvena zvezda,2018-19,1610612755,PHI,Philadelphia 76ers
+202328,Greg Monroe,greg-monroe,55,C,6-11,265,"JUN 04, 1990",29.0,8,Georgetown,2018-19,1610612755,PHI,Philadelphia 76ers

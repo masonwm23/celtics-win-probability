@@ -1,0 +1,17 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1628414,Sindarius Thornwell,sindarius-thornwell,0,G,6-5,215,"NOV 15, 1994",24.0,1,South Carolina,2018-19,1610612746,LAC,Los Angeles Clippers
+1628983,Shai Gilgeous-Alexander,shai-gilgeous-alexander,2,G,6-6,181,"JUL 12, 1998",20.0,R,Kentucky,2018-19,1610612746,LAC,Los Angeles Clippers
+203210,JaMychal Green,jamychal-green,4,F,6-9,227,"JUN 21, 1990",29.0,4,Alabama,2018-19,1610612746,LAC,Los Angeles Clippers
+1626149,Montrezl Harrell,montrezl-harrell,5,F-C,6-8,240,"JAN 26, 1994",25.0,3,Louisville,2018-19,1610612746,LAC,Los Angeles Clippers
+201568,Danilo Gallinari,danilo-gallinari,8,F,6-10,225,"AUG 08, 1988",30.0,9,Olimpia Milano,2018-19,1610612746,LAC,Los Angeles Clippers
+1627820,Tyrone Wallace,tyrone-wallace,9,G,6-5,198,"JUN 10, 1994",25.0,1,California,2018-19,1610612746,LAC,Los Angeles Clippers
+1629010,Jerome Robinson,jerome-robinson,10,G,6-5,190,"FEB 22, 1997",22.0,R,Boston College,2018-19,1610612746,LAC,Los Angeles Clippers
+1628405,Johnathan Motley,johnathan-motley,15,F,6-10,230,"MAY 04, 1995",24.0,1,Baylor,2018-19,1610612746,LAC,Los Angeles Clippers
+202066,Garrett Temple,garrett-temple,17,G-F,6-6,195,"MAY 08, 1986",33.0,8,Louisiana State,2018-19,1610612746,LAC,Los Angeles Clippers
+203585,Rodney McGruder,rodney-mcgruder,19,F-G,6-4,200,"JUL 29, 1991",27.0,2,Kansas State,2018-19,1610612746,LAC,Los Angeles Clippers
+1629013,Landry Shamet,landry-shamet,20,G,6-5,188,"MAR 13, 1997",22.0,R,Wichita State,2018-19,1610612746,LAC,Los Angeles Clippers
+201976,Patrick Beverley,patrick-beverley,21,G,6-1,185,"JUL 12, 1988",30.0,6,Arkansas,2018-19,1610612746,LAC,Los Angeles Clippers
+201163,Wilson Chandler,wilson-chandler,22,F,6-9,225,"MAY 10, 1987",32.0,10,DePaul,2018-19,1610612746,LAC,Los Angeles Clippers
+101150,Lou Williams,lou-williams,23,G,6-1,175,"OCT 27, 1986",32.0,13,South Gwinnett HS (GA),2018-19,1610612746,LAC,Los Angeles Clippers
+1629116,Angel Delgado,angel-delgado,31,C,6-10,245,"NOV 20, 1994",24.0,R,Seton Hall,2018-19,1610612746,LAC,Los Angeles Clippers
+1627826,Ivica Zubac,ivica-zubac,40,C,7-1,240,"MAR 18, 1997",22.0,2,Mega Basket,2018-19,1610612746,LAC,Los Angeles Clippers

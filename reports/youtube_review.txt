@@ -1,0 +1,28 @@
+==============================================================================
+PHASE 12e - AMBIGUITY REVIEW
+==============================================================================
+
+  Candidates on an official channel that named the right two teams
+  but failed verification for some other reason.
+
+  NONE of these are in the mapping and NONE would be displayed. An
+  uncertain match is treated as no match. They are listed so the
+  verification rules can be judged rather than trusted.
+
+  candidates in review: 1
+  games affected      : 1
+
+  reasons, most common first:
+       1  title date N-N-N != N-N-N
+
+==============================================================================
+EVERY CANDIDATE IN REVIEW
+==============================================================================
+
+  2023-24  BOS @ ATL  2024-03-25
+    CELTICS at HAWKS | FULL GAME HIGHLIGHTS | March 28, 2024
+    @NBA | published 2024-03-29T02:31:14Z | 598s
+    https://www.youtube.com/watch?v=j8ePakJrE40
+    WHY: title date 2024-03-28 != 2024-03-25
+
+==============================================================================

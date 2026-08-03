@@ -1,0 +1,20 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1629678,Admiral Schofield,admiral-schofield,1,G-F,6-5,241,"MAR 30, 1997",23.0,R,Tennessee,2019-20,1610612764,WAS,Washington Wizards
+202322,John Wall,john-wall,2,G,6-4,210,"SEP 06, 1990",29.0,9,Kentucky,2019-20,1610612764,WAS,Washington Wizards
+203078,Bradley Beal,bradley-beal,3,G,6-3,207,"JUN 28, 1993",27.0,7,Florida,2019-20,1610612764,WAS,Washington Wizards
+203894,Shabazz Napier,shabazz-napier,5,G,6-0,175,"JUL 14, 1991",28.0,5,Connecticut,2019-20,1610612764,WAS,Washington Wizards
+1628972,Troy Brown Jr.,troy-brown-jr,6,G-F,6-6,215,"JUL 28, 1999",20.0,1,Oregon,2019-20,1610612764,WAS,Washington Wizards
+1627784,Jarrod Uthoff,jarrod-uthoff,7,F,6-9,220,"MAY 19, 1993",27.0,1,Iowa,2019-20,1610612764,WAS,Washington Wizards
+1629060,Rui Hachimura,rui-hachimura,8,F,6-8,230,"FEB 08, 1998",22.0,R,Gonzaga,2019-20,1610612764,WAS,Washington Wizards
+1629010,Jerome Robinson,jerome-robinson,12,G,6-4,190,"FEB 22, 1997",23.0,1,Boston College,2019-20,1610612764,WAS,Washington Wizards
+1628418,Thomas Bryant,thomas-bryant,13,C-F,6-10,248,"JUL 31, 1997",22.0,2,Indiana,2019-20,1610612764,WAS,Washington Wizards
+202397,Ish Smith,ish-smith,14,G,6-0,175,"JUL 05, 1988",31.0,9,Wake Forest,2019-20,1610612764,WAS,Washington Wizards
+1629067,Isaac Bonga,isaac-bonga,17,G,6-8,180,"NOV 08, 1999",20.0,1,Skyliners Frankfurt,2019-20,1610612764,WAS,Washington Wizards
+1628394,Anžejs Pasečņiks,anžejs-pasečņiks,18,C-F,7-2,229,"DEC 20, 1995",24.0,R,Gran Canaria,2019-20,1610612764,WAS,Washington Wizards
+1629140,Johnathan Williams,johnathan-williams,19,F,6-9,228,"MAY 22, 1995",25.0,1,Gonzaga,2019-20,1610612764,WAS,Washington Wizards
+1627780,Gary Payton II,gary-payton-ii,20,G,6-3,195,"DEC 01, 1992",27.0,3,Oregon State,2019-20,1610612764,WAS,Washington Wizards
+1629021,Moritz Wagner,moritz-wagner,21,F-C,6-11,245,"APR 26, 1997",23.0,1,Michigan,2019-20,1610612764,WAS,Washington Wizards
+1626170,Jerian Grant,jerian-grant,22,G,6-4,198,"OCT 09, 1992",27.0,4,Notre Dame,2019-20,1610612764,WAS,Washington Wizards
+1629726,Garrison Mathews,garrison-mathews,24,G,6-5,215,"OCT 24, 1996",23.0,R,Lipscomb,2019-20,1610612764,WAS,Washington Wizards
+101133,Ian Mahinmi,ian-mahinmi,28,C,6-11,262,"NOV 05, 1986",33.0,11,Pau Orthez,2019-20,1610612764,WAS,Washington Wizards
+202722,Davis Bertans,davis-bertans,42,F,6-10,225,"NOV 12, 1992",27.0,3,Baskonia,2019-20,1610612764,WAS,Washington Wizards

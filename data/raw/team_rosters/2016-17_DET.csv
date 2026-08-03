@@ -1,0 +1,16 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+203083,Andre Drummond,andre-drummond,0,C,6-11,279,"AUG 10, 1993",23.0,4,Connecticut,2016-17,1610612765,DET,Detroit Pistons
+202704,Reggie Jackson,reggie-jackson,1,G,6-3,208,"APR 16, 1990",27.0,5,Boston College,2016-17,1610612765,DET,Detroit Pistons
+203484,Kentavious Caldwell-Pope,kentavious-caldwell-pope,5,G,6-5,205,"FEB 18, 1993",24.0,3,Georgia,2016-17,1610612765,DET,Detroit Pistons
+1626199,Darrun Hilliard,darrun-hilliard,6,G-F,6-6,205,"APR 13, 1993",24.0,1,Villanova,2016-17,1610612765,DET,Detroit Pistons
+1626169,Stanley Johnson,stanley-johnson,7,F,6-7,245,"MAY 29, 1996",21.0,1,Arizona,2016-17,1610612765,DET,Detroit Pistons
+1627740,Henry Ellenson,henry-ellenson,8,F,6-11,245,"JAN 13, 1997",20.0,R,Marquette,2016-17,1610612765,DET,Detroit Pistons
+1627771,Michael Gbinije,michael-gbinije,9,G-F,6-7,200,"JUN 05, 1992",25.0,R,Syracuse,2016-17,1610612765,DET,Detroit Pistons
+203382,Aron Baynes,aron-baynes,12,C-F,6-10,260,"DEC 09, 1986",30.0,4,Washington State,2016-17,1610612765,DET,Detroit Pistons
+202694,Marcus Morris Sr.,marcus-morris-sr,13,F,6-9,235,"SEP 02, 1989",27.0,5,Kansas,2016-17,1610612765,DET,Detroit Pistons
+202397,Ish Smith,ish-smith,14,G,6-0,175,"JUL 05, 1988",28.0,6,Wake Forest,2016-17,1610612765,DET,Detroit Pistons
+2757,Beno Udrih,beno-udrih,19,G,6-3,205,"JUL 05, 1982",34.0,12,Olimpia Milano,2016-17,1610612765,DET,Detroit Pistons
+203493,Reggie Bullock Jr.,reggie-bullock-jr,25,F,6-7,205,"MAR 16, 1991",26.0,3,North Carolina,2016-17,1610612765,DET,Detroit Pistons
+202720,Jon Leuer,jon-leuer,30,F,6-10,228,"MAY 14, 1989",28.0,5,Wisconsin,2016-17,1610612765,DET,Detroit Pistons
+202699,Tobias Harris,tobias-harris,34,F,6-9,235,"JUL 15, 1992",24.0,5,Tennessee,2016-17,1610612765,DET,Detroit Pistons
+1626246,Boban Marjanovic,boban-marjanovic,51,C,7-3,290,"AUG 15, 1988",28.0,1,Crvena zvezda,2016-17,1610612765,DET,Detroit Pistons

@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1628398,Kyle Kuzma,kyle-kuzma,0,F,6-9,220,"JUL 24, 1995",23.0,1,Utah,2018-19,1610612747,LAL,Los Angeles Lakers
+203484,Kentavious Caldwell-Pope,kentavious-caldwell-pope,1,G,6-5,205,"FEB 18, 1993",26.0,5,Georgia,2018-19,1610612747,LAL,Los Angeles Lakers
+1628366,Lonzo Ball,lonzo-ball,2,G,6-6,190,"OCT 27, 1997",21.0,1,UCLA,2018-19,1610612747,LAL,Los Angeles Lakers
+1628404,Josh Hart,josh-hart,3,G,6-5,215,"MAR 06, 1995",24.0,1,Villanova,2018-19,1610612747,LAL,Los Angeles Lakers
+1627936,Alex Caruso,alex-caruso,4,G,6-5,186,"FEB 28, 1994",25.0,1,Texas A&M,2018-19,1610612747,LAL,Los Angeles Lakers
+2199,Tyson Chandler,tyson-chandler,5,C,7-1,240,"OCT 02, 1982",36.0,17,Dominguez HS (CA),2018-19,1610612747,LAL,Los Angeles Lakers
+202362,Lance Stephenson,lance-stephenson,6,G,6-6,230,"SEP 05, 1990",28.0,8,Cincinnati,2018-19,1610612747,LAL,Los Angeles Lakers
+201580,JaVale McGee,javale-mcgee,7,C,7-0,270,"JAN 19, 1988",31.0,10,Nevada,2018-19,1610612747,LAL,Los Angeles Lakers
+200765,Rajon Rondo,rajon-rondo,9,G,6-1,186,"FEB 22, 1986",33.0,12,Kentucky,2018-19,1610612747,LAL,Los Angeles Lakers
+1629203,Jemerrio Jones,jemerrio-jones,10,F,6-5,174,"APR 09, 1995",24.0,R,New Mexico State,2018-19,1610612747,LAL,Los Angeles Lakers
+1627742,Brandon Ingram,brandon-ingram,14,F,6-9,190,"SEP 02, 1997",21.0,2,Duke,2018-19,1610612747,LAL,Los Angeles Lakers
+1629021,Moritz Wagner,moritz-wagner,15,C,6-11,245,"APR 26, 1997",22.0,R,Michigan,2018-19,1610612747,LAL,Los Angeles Lakers
+1629067,Isaac Bonga,isaac-bonga,17,G,6-8,180,"NOV 08, 1999",19.0,R,Skyliners Frankfurt,2018-19,1610612747,LAL,Los Angeles Lakers
+1629140,Johnathan Williams,johnathan-williams,19,F,6-9,228,"MAY 22, 1995",24.0,R,Gonzaga,2018-19,1610612747,LAL,Los Angeles Lakers
+2544,LeBron James,lebron-james,23,F,6-8,250,"DEC 30, 1984",34.0,15,St. Vincent-St. Mary HS (OH),2018-19,1610612747,LAL,Los Angeles Lakers
+203488,Mike Muscala,mike-muscala,31,F-C,6-11,240,"JUL 01, 1991",27.0,5,Bucknell,2018-19,1610612747,LAL,Los Angeles Lakers
+203493,Reggie Bullock Jr.,reggie-bullock-jr,35,G-F,6-7,205,"MAR 16, 1991",28.0,5,North Carolina,2018-19,1610612747,LAL,Los Angeles Lakers

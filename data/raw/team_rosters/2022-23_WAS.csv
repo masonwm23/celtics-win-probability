@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1631098,Johnny Davis,johnny-davis,1,G,6-4,195,"FEB 27, 2002",21.0,R,Wisconsin,2022-23,1610612764,WAS,Washington Wizards
+203078,Bradley Beal,bradley-beal,3,G,6-4,207,"JUN 28, 1993",30.0,10,Florida,2022-23,1610612764,WAS,Washington Wizards
+204001,Kristaps Porziņģis,kristaps-porziņģis,6,F-C,7-3,240,"AUG 02, 1995",27.0,7,Cajasol Sevilla,2022-23,1610612764,WAS,Washington Wizards
+1630692,Jordan Goodwin,jordan-goodwin,7,G,6-3,200,"OCT 23, 1998",24.0,1,St. Louis,2022-23,1610612764,WAS,Washington Wizards
+1630166,Deni Avdija,deni-avdija,9,F,6-9,210,"JAN 03, 2001",22.0,2,Maccabi Tel Aviv,2022-23,1610612764,WAS,Washington Wizards
+1641645,Xavier Cooks,xavier-cooks,12,F,6-8,183,"AUG 19, 1995",27.0,R,Winthrop,2022-23,1610612764,WAS,Washington Wizards
+1630225,Isaiah Todd,isaiah-todd,14,F,6-9,219,"OCT 17, 2001",21.0,1,G League Ignite,2022-23,1610612764,WAS,Washington Wizards
+1630264,Anthony Gill,anthony-gill,16,F,6-8,230,"OCT 17, 1992",30.0,2,Virginia,2022-23,1610612764,WAS,Washington Wizards
+1629134,Kendrick Nunn,kendrick-nunn,20,G,6-3,190,"AUG 03, 1995",27.0,2,Oakland,2022-23,1610612764,WAS,Washington Wizards
+1629655,Daniel Gafford,daniel-gafford,21,F-C,6-10,234,"OCT 01, 1998",24.0,3,Arkansas,2022-23,1610612764,WAS,Washington Wizards
+1628420,Monté Morris,monté-morris,22,G,6-2,183,"JUN 27, 1995",28.0,5,Iowa State,2022-23,1610612764,WAS,Washington Wizards
+1630557,Corey Kispert,corey-kispert,24,F,6-6,224,"MAR 03, 1999",24.0,1,Gonzaga,2022-23,1610612764,WAS,Washington Wizards
+1631245,Quenton Jackson,quenton-jackson,29,G,6-5,173,"SEP 15, 1998",24.0,R,Texas A&M,2022-23,1610612764,WAS,Washington Wizards
+1628398,Kyle Kuzma,kyle-kuzma,33,F,6-9,221,"JUL 24, 1995",27.0,5,Utah,2022-23,1610612764,WAS,Washington Wizards
+1630643,Jay Huff,jay-huff,34,C,7-1,240,"AUG 25, 1997",25.0,1,Virginia,2022-23,1610612764,WAS,Washington Wizards
+1626153,Delon Wright,delon-wright,55,G,6-5,185,"APR 26, 1992",31.0,7,Utah,2022-23,1610612764,WAS,Washington Wizards
+201959,Taj Gibson,taj-gibson,67,F,6-9,232,"JUN 24, 1985",38.0,13,Southern California,2022-23,1610612764,WAS,Washington Wizards

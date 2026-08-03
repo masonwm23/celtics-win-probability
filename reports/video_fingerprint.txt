@@ -1,0 +1,74 @@
+==============================================================================
+PHASE 11d - SIXTEEN CLIPS, OR ONE CLIP SIXTEEN TIMES
+==============================================================================
+
+  Phase 11c returned real MP4 bytes for all sixteen clips and an
+  IDENTICAL advertised size of 31,580,089 bytes for every one of
+  them. Either that header is meaningless, or every URL serves the
+  same video. This hashes three byte ranges per clip to find out.
+
+  VERDICT: FATAL
+  only 1 distinct file headers across 16 clips: these URLs are not all different videos
+
+  Do not build the video panel. A clip that is not the play it
+  sits beside is worse than no clip at all.
+
+==============================================================================
+HASHES BY BYTE OFFSET
+==============================================================================
+
+  header      first 2 KB, the MP4 header. Different videos differ here.
+  deep        2 KB from 1 MB in. Chance agreement is not credible.
+  tail@31MB   tests the 31.6 MB claim. 416 means the claim is fiction.
+
+  season   game        header            deep                    tail
+  2016-17  21600311    8dbd8e22f1ee7d19  251d04474a4759dd         206
+  2016-17  21600311    8dbd8e22f1ee7d19  251d04474a4759dd         206
+  2017-18  21700281    8dbd8e22f1ee7d19  251d04474a4759dd         206
+  2017-18  21700281    8dbd8e22f1ee7d19  251d04474a4759dd         206
+  2018-19  21800298    8dbd8e22f1ee7d19  251d04474a4759dd         206
+  2018-19  21800298    8dbd8e22f1ee7d19  251d04474a4759dd         206
+  2019-20  21900285    8dbd8e22f1ee7d19  251d04474a4759dd         206
+  2019-20  21900285    8dbd8e22f1ee7d19  251d04474a4759dd         206
+  2020-21  22000326    8dbd8e22f1ee7d19  251d04474a4759dd         206
+  2020-21  22000326    8dbd8e22f1ee7d19  251d04474a4759dd         206
+  2021-22  22100302    8dbd8e22f1ee7d19  251d04474a4759dd         206
+  2021-22  22100302    8dbd8e22f1ee7d19  251d04474a4759dd         206
+  2022-23  22200301    8dbd8e22f1ee7d19  251d04474a4759dd         206
+  2022-23  22200301    8dbd8e22f1ee7d19  251d04474a4759dd         206
+  2023-24  22301227    8dbd8e22f1ee7d19  251d04474a4759dd         206
+  2023-24  22301227    8dbd8e22f1ee7d19  251d04474a4759dd         206
+
+  distinct header hashes : 1 of 16
+  distinct deep hashes   : 1 of 16 that returned data
+
+  responses at the 31 MB offset:
+    206: 16  <- there really is data that far in
+
+==============================================================================
+WHAT ONE CLIP ACTUALLY WEIGHS
+==============================================================================
+
+  HTTP 200
+  advertised Content-Length : 31580089
+  bytes actually received   : 31,580,089  (31.58 MB)
+  download completed        : True
+
+  A panel loading one clip per event moves about 31.6 MB each time at this encoding.
+  The 320x180 encoding is also in the probe CSV if that is
+  too heavy for scrubbing.
+
+==============================================================================
+WHAT THIS STILL DOES NOT TELL YOU
+==============================================================================
+
+  Distinct bytes prove these are distinct videos. They do not prove
+  each video shows the play our record says it shows. The evidence
+  for that is separate and already collected: the NBA's own
+  description matched ours exactly on all 336 matched clips.
+
+  Nor is this proof a browser <video> tag will play them. Only one
+  clip in a real page settles that.
+
+  Nothing was changed by this script.
+==============================================================================

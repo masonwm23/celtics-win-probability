@@ -1,0 +1,17 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1628978,Donte DiVincenzo,donte-divincenzo,0,G,6-4,203,"JAN 31, 1997",25.0,3,Villanova,2021-22,1610612758,SAC,Sacramento Kings
+1629056,Terence Davis,terence-davis,3,G,6-4,201,"MAY 16, 1997",25.0,2,Mississippi,2021-22,1610612758,SAC,Sacramento Kings
+1628368,De'Aaron Fox,deaaron-fox,5,G,6-3,185,"DEC 20, 1997",24.0,4,Kentucky,2021-22,1610612758,SAC,Sacramento Kings
+1629002,Chimezie Metu,chimezie-metu,7,F-C,6-9,225,"MAR 22, 1997",25.0,3,USC,2021-22,1610612758,SAC,Sacramento Kings
+203090,Maurice Harkless,maurice-harkless,8,F-G,6-7,220,"MAY 11, 1993",29.0,9,"St. John's, N.Y.",2021-22,1610612758,SAC,Sacramento Kings
+203200,Justin Holiday,justin-holiday,9,F-G,6-6,180,"APR 05, 1989",33.0,8,Washington,2021-22,1610612758,SAC,Sacramento Kings
+1627734,Domantas Sabonis,domantas-sabonis,10,F-C,6-11,240,"MAY 03, 1996",26.0,5,Gonzaga,2021-22,1610612758,SAC,Sacramento Kings
+1630558,Davion Mitchell,davion-mitchell,15,G,6-0,202,"SEP 05, 1998",23.0,R,Baylor,2021-22,1610612758,SAC,Sacramento Kings
+1626158,Richaun Holmes,richaun-holmes,22,F,6-10,235,"OCT 15, 1993",28.0,6,Bowling Green,2021-22,1610612758,SAC,Sacramento Kings
+203458,Alex Len,alex-len,25,C,7-0,250,"JUN 16, 1993",29.0,8,Maryland,2021-22,1610612758,SAC,Sacramento Kings
+203087,Jeremy Lamb,jeremy-lamb,26,G-F,6-5,180,"MAY 30, 1992",30.0,9,Connecticut,2021-22,1610612758,SAC,Sacramento Kings
+1627745,Damian Jones,damian-jones,30,C,6-11,245,"JUN 30, 1995",27.0,5,Vanderbilt,2021-22,1610612758,SAC,Sacramento Kings
+203084,Harrison Barnes,harrison-barnes,40,F,6-8,225,"MAY 30, 1992",30.0,9,North Carolina,2021-22,1610612758,SAC,Sacramento Kings
+1626168,Trey Lyles,trey-lyles,41,F,6-9,234,"NOV 05, 1995",26.0,6,Kentucky,2021-22,1610612758,SAC,Sacramento Kings
+1628367,Josh Jackson,josh-jackson,55,G-F,6-8,207,"FEB 10, 1997",25.0,4,Kansas,2021-22,1610612758,SAC,Sacramento Kings
+1629674,Neemias Queta,neemias-queta,88,C,7-0,248,"JUL 13, 1999",22.0,R,Utah State,2021-22,1610612758,SAC,Sacramento Kings

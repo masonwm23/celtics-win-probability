@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1630346,Matt Ryan,matt-ryan,,F,6-7,215,"APR 17, 1997",25.0,R,Tennessee-Chattanooga,2021-22,1610612738,BOS,Boston Celtics
+1628369,Jayson Tatum,jayson-tatum,0,F-G,6-8,210,"MAR 03, 1998",24.0,4,Duke,2021-22,1610612738,BOS,Boston Celtics
+1627759,Jaylen Brown,jaylen-brown,7,G-F,6-6,223,"OCT 24, 1996",25.0,5,California,2021-22,1610612738,BOS,Boston Celtics
+1630238,Malik Fitts,malik-fitts,8,F,6-5,230,"JUL 04, 1997",24.0,1,St. Mary's College,2021-22,1610612738,BOS,Boston Celtics
+1628401,Derrick White,derrick-white,9,G,6-4,190,"JUL 02, 1994",27.0,4,Colorado,2021-22,1610612738,BOS,Boston Celtics
+1630202,Payton Pritchard,payton-pritchard,11,G,6-1,195,"JAN 28, 1998",24.0,1,Oregon,2021-22,1610612738,BOS,Boston Celtics
+1629684,Grant Williams,grant-williams,12,F,6-6,236,"NOV 30, 1998",23.0,2,Tennessee,2021-22,1610612738,BOS,Boston Celtics
+203917,Nik Stauskas,nik-stauskas,13,G,6-6,207,"OCT 07, 1993",28.0,5,Michigan,2021-22,1610612738,BOS,Boston Celtics
+1629752,Juwan Morgan,juwan-morgan,16,F,6-7,232,"APR 17, 1997",25.0,2,Indiana,2021-22,1610612738,BOS,Boston Celtics
+1630174,Aaron Nesmith,aaron-nesmith,26,G-F,6-5,215,"OCT 16, 1999",22.0,1,Vanderbilt,2021-22,1610612738,BOS,Boston Celtics
+1628464,Daniel Theis,daniel-theis,27,F-C,6-9,245,"APR 04, 1992",30.0,4,Brose Bamberg,2021-22,1610612738,BOS,Boston Celtics
+1630573,Sam Hauser,sam-hauser,30,F,6-7,217,"DEC 08, 1997",24.0,R,Virginia,2021-22,1610612738,BOS,Boston Celtics
+203935,Marcus Smart,marcus-smart,36,G,6-4,220,"MAR 06, 1994",28.0,7,Oklahoma State,2021-22,1610612738,BOS,Boston Celtics
+1628436,Luke Kornet,luke-kornet,40,C-F,7-2,250,"JUL 15, 1995",26.0,4,Vanderbilt,2021-22,1610612738,BOS,Boston Celtics
+201143,Al Horford,al-horford,42,C-F,6-9,240,"JUN 03, 1986",36.0,14,Florida,2021-22,1610612738,BOS,Boston Celtics
+1629057,Robert Williams III,robert-williams-iii,44,C-F,6-9,237,"OCT 17, 1997",24.0,3,Texas A&M,2021-22,1610612738,BOS,Boston Celtics
+1630271,Brodric Thomas,brodric-thomas,97,G,6-5,185,"JAN 28, 1997",25.0,1,Truman State,2021-22,1610612738,BOS,Boston Celtics

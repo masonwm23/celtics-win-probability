@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+201952,Jeff Teague,jeff-teague,0,G,6-2,195,"JUN 10, 1988",31.0,9,Wake Forest,2018-19,1610612750,MIN,Minnesota Timberwolves
+1626145,Tyus Jones,tyus-jones,1,G,6-2,196,"MAY 10, 1996",23.0,3,Duke,2018-19,1610612750,MIN,Minnesota Timberwolves
+1629123,Jared Terrell,jared-terrell,3,G,6-3,227,"FEB 10, 1995",24.0,R,Rhode Island,2018-19,1610612750,MIN,Minnesota Timberwolves
+203476,Gorgui Dieng,gorgui-dieng,5,C,6-11,252,"JAN 18, 1990",29.0,5,Louisville,2018-19,1610612750,MIN,Minnesota Timberwolves
+201573,Jerryd Bayless,jerryd-bayless,8,G,6-3,200,"AUG 20, 1988",30.0,10,Arizona,2018-19,1610612750,MIN,Minnesota Timberwolves
+2736,Luol Deng,luol-deng,9,F,6-9,237,"APR 16, 1985",34.0,14,Duke,2018-19,1610612750,MIN,Minnesota Timberwolves
+203710,C.J. Williams,cj-williams,12,G,6-5,226,"FEB 06, 1990",29.0,1,North Carolina State,2018-19,1610612750,MIN,Minnesota Timberwolves
+1629244,Cam Reynolds,cam-reynolds,13,G,6-8,225,"FEB 07, 1995",24.0,R,Tulane,2018-19,1610612750,MIN,Minnesota Timberwolves
+1629006,Josh Okogie,josh-okogie,20,G,6-4,212,"SEP 01, 1998",20.0,R,Georgia Tech,2018-19,1610612750,MIN,Minnesota Timberwolves
+203952,Andrew Wiggins,andrew-wiggins,22,F-G,6-8,194,"FEB 23, 1995",24.0,4,Kansas,2018-19,1610612750,MIN,Minnesota Timberwolves
+201565,Derrick Rose,derrick-rose,25,G,6-3,200,"OCT 04, 1988",30.0,9,Memphis,2018-19,1610612750,MIN,Minnesota Timberwolves
+1628966,Keita Bates-Diop,keita-bates-diop,31,F,6-9,229,"JAN 23, 1996",23.0,R,Ohio State,2018-19,1610612750,MIN,Minnesota Timberwolves
+1626157,Karl-Anthony Towns,karl-anthony-towns,32,C,7-0,248,"NOV 15, 1995",23.0,3,Kentucky,2018-19,1610612750,MIN,Minnesota Timberwolves
+203496,Robert Covington,robert-covington,33,F,6-9,225,"DEC 14, 1990",28.0,5,Tennessee State,2018-19,1610612750,MIN,Minnesota Timberwolves
+203967,Dario Šarić,dario-šarić,36,F,6-10,223,"APR 08, 1994",25.0,2,Anadolu Efes,2018-19,1610612750,MIN,Minnesota Timberwolves
+201229,Anthony Tolliver,anthony-tolliver,43,F,6-8,250,"JUN 01, 1985",34.0,10,Creighton,2018-19,1610612750,MIN,Minnesota Timberwolves
+1628249,Mitchell Creek,mitchell-creek,55,F-G,6-6,225,"APR 27, 1992",27.0,R,Gottingen,2018-19,1610612750,MIN,Minnesota Timberwolves
+201959,Taj Gibson,taj-gibson,67,F,6-9,232,"JUN 24, 1985",34.0,9,Southern California,2018-19,1610612750,MIN,Minnesota Timberwolves

@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+203081,Damian Lillard,damian-lillard,0,G,6-2,195,"JUL 15, 1990",32.0,10,Weber State,2022-23,1610612757,POR,Portland Trail Blazers
+1629014,Anfernee Simons,anfernee-simons,1,G,6-3,181,"JUN 08, 1999",24.0,4,Edgewater HS (FL),2022-23,1610612757,POR,Portland Trail Blazers
+1630570,Trendon Watford,trendon-watford,2,F,6-8,237,"NOV 09, 2000",22.0,1,Louisiana State,2022-23,1610612757,POR,Portland Trail Blazers
+1629680,Matisse Thybulle,matisse-thybulle,4,G-F,6-5,201,"MAR 04, 1997",26.0,3,Washington,2022-23,1610612757,POR,Portland Trail Blazers
+1629629,Cam Reddish,cam-reddish,5,F-G,6-7,217,"SEP 01, 1999",23.0,3,Duke,2022-23,1610612757,POR,Portland Trail Blazers
+1630553,Keon Johnson,keon-johnson,6,G,6-3,185,"MAR 10, 2002",21.0,1,Tennessee,2022-23,1610612757,POR,Portland Trail Blazers
+203924,Jerami Grant,jerami-grant,9,F,6-8,210,"MAR 12, 1994",29.0,8,Syracuse,2022-23,1610612757,POR,Portland Trail Blazers
+1629642,Nassir Little,nassir-little,10,F-G,6-5,220,"FEB 11, 2000",23.0,3,North Carolina,2022-23,1610612757,POR,Portland Trail Blazers
+1628995,Kevin Knox II,kevin-knox-ii,11,F,6-7,215,"AUG 11, 1999",23.0,4,Kentucky,2022-23,1610612757,POR,Portland Trail Blazers
+1631101,Shaedon Sharpe,shaedon-sharpe,17,G,6-5,200,"MAY 30, 2003",20.0,R,Kentucky,2022-23,1610612757,POR,Portland Trail Blazers
+1631219,John Butler Jr.,john-butler-jr,21,F,7-0,190,"DEC 04, 2002",20.0,R,Florida State,2022-23,1610612757,POR,Portland Trail Blazers
+1629234,Drew Eubanks,drew-eubanks,24,F-C,6-10,245,"FEB 01, 1997",26.0,4,Oregon State,2022-23,1610612757,POR,Portland Trail Blazers
+1626159,Justise Winslow,justise-winslow,26,F-G,6-6,222,"MAR 26, 1996",27.0,7,Duke,2022-23,1610612757,POR,Portland Trail Blazers
+203994,Jusuf Nurkić,jusuf-nurkić,27,C,7-0,290,"AUG 23, 1994",28.0,8,Cedevita,2022-23,1610612757,POR,Portland Trail Blazers
+1631133,Jabari Walker,jabari-walker,34,F,6-7,200,"JUL 30, 2002",20.0,R,Colorado,2022-23,1610612757,POR,Portland Trail Blazers
+1630641,Ibou Badji,ibou-badji,41,C,7-1,240,"OCT 13, 2002",20.0,R,FC Barcelona,2022-23,1610612757,POR,Portland Trail Blazers
+1631466,Nate Williams,nate-williams,49,G,6-5,205,"FEB 12, 1999",24.0,R,Buffalo,2022-23,1610612757,POR,Portland Trail Blazers

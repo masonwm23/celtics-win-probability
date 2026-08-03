@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+203903,Jordan Clarkson,jordan-clarkson,00,G,6-3,194,"JUN 07, 1992",32.0,9,Missouri,2023-24,1610612762,UTA,Utah Jazz
+1641707,Taylor Hendricks,taylor-hendricks,0,F,6-9,215,"NOV 22, 2003",20.0,R,Central Florida,2023-24,1610612762,UTA,Utah Jazz
+1629012,Collin Sexton,collin-sexton,2,G,6-3,190,"JAN 04, 1999",25.0,5,Alabama,2023-24,1610612762,UTA,Utah Jazz
+1641718,Keyonte George,keyonte-george,3,G,6-4,185,"NOV 08, 2003",20.0,R,Baylor,2023-24,1610612762,UTA,Utah Jazz
+1629659,Talen Horton-Tucker,talen-horton-tucker,5,G,6-4,234,"NOV 25, 2000",23.0,4,Iowa State,2023-24,1610612762,UTA,Utah Jazz
+1641729,Brice Sensabaugh,brice-sensabaugh,8,F,6-5,235,"OCT 30, 2003",20.0,R,Ohio State,2023-24,1610612762,UTA,Utah Jazz
+1630554,Jason Preston,jason-preston,10,G,6-3,181,"AUG 10, 1999",24.0,1,Ohio,2023-24,1610612762,UTA,Utah Jazz
+1627739,Kris Dunn,kris-dunn,11,G,6-3,205,"MAR 18, 1994",30.0,7,Providence,2023-24,1610612762,UTA,Utah Jazz
+1630184,Kira Lewis Jr.,kira-lewis-jr,13,G,6-1,170,"APR 06, 2001",23.0,3,Alabama,2023-24,1610612762,UTA,Utah Jazz
+1629677,Luka Samanic,luka-samanic,19,F,6-10,227,"JAN 09, 2000",24.0,3,Union Olimpija,2023-24,1610612762,UTA,Utah Jazz
+1628381,John Collins,john-collins,20,F-C,6-9,226,"SEP 23, 1997",26.0,6,Wake Forest,2023-24,1610612762,UTA,Utah Jazz
+1628374,Lauri Markkanen,lauri-markkanen,23,F-C,7-0,240,"MAY 22, 1997",27.0,6,Arizona,2023-24,1610612762,UTA,Utah Jazz
+1631117,Walker Kessler,walker-kessler,24,C,7-0,245,"JUL 26, 2001",22.0,1,Auburn,2023-24,1610612762,UTA,Utah Jazz
+1630695,Micah Potter,micah-potter,25,C,6-9,248,"APR 06, 1998",26.0,2,Wisconsin,2023-24,1610612762,UTA,Utah Jazz
+1629647,Darius Bazley,darius-bazley,26,F,6-9,216,"JUN 12, 2000",24.0,4,Princeton HS (OH),2023-24,1610612762,UTA,Utah Jazz
+1630548,Johnny Juzang,johnny-juzang,33,G,6-5,209,"MAR 17, 2001",23.0,1,UCLA,2023-24,1610612762,UTA,Utah Jazz
+1631254,Kenneth Lofton Jr.,kenneth-lofton-jr,35,F,6-6,275,"AUG 14, 2002",21.0,1,Louisiana Tech,2023-24,1610612762,UTA,Utah Jazz
+1630209,Omer Yurtseven,omer-yurtseven,77,C,6-11,275,"JUN 19, 1998",26.0,2,Georgetown,2023-24,1610612762,UTA,Utah Jazz

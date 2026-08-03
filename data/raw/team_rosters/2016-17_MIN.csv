@@ -1,0 +1,16 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1626145,Tyus Jones,tyus-jones,1,G,6-2,195,"MAY 10, 1996",21.0,1,Duke,2016-17,1610612750,MIN,Minnesota Timberwolves
+1627739,Kris Dunn,kris-dunn,3,G,6-4,205,"MAR 18, 1994",23.0,R,Providence,2016-17,1610612750,MIN,Minnesota Timberwolves
+201575,Brandon Rush,brandon-rush,4,G-F,6-6,225,"JUL 07, 1985",31.0,8,Kansas,2016-17,1610612750,MIN,Minnesota Timberwolves
+203476,Gorgui Dieng,gorgui-dieng,5,F-C,6-11,240,"JAN 18, 1990",27.0,3,Louisville,2016-17,1610612750,MIN,Minnesota Timberwolves
+203897,Zach LaVine,zach-lavine,8,G,6-5,185,"MAR 10, 1995",22.0,2,UCLA,2016-17,1610612750,MIN,Minnesota Timberwolves
+201937,Ricky Rubio,ricky-rubio,9,G,6-4,190,"OCT 21, 1990",26.0,5,FC Barcelona,2016-17,1610612750,MIN,Minnesota Timberwolves
+201593,Nikola Pekovic,nikola-pekovic,14,C,6-11,307,"JAN 03, 1986",31.0,6,Panathinaikos,2016-17,1610612750,MIN,Minnesota Timberwolves
+203498,Shabazz Muhammad,shabazz-muhammad,15,F,6-6,223,"NOV 13, 1992",24.0,3,UCLA,2016-17,1610612750,MIN,Minnesota Timberwolves
+201956,Omri Casspi,omri-casspi,18,F,6-9,225,"JUN 22, 1988",29.0,7,Maccabi Tel Aviv,2016-17,1610612750,MIN,Minnesota Timberwolves
+203952,Andrew Wiggins,andrew-wiggins,22,F,6-8,199,"FEB 23, 1995",22.0,2,Kansas,2016-17,1610612750,MIN,Minnesota Timberwolves
+201941,Jordan Hill,jordan-hill,27,F-C,6-10,240,"JUL 27, 1987",29.0,7,Arizona,2016-17,1610612750,MIN,Minnesota Timberwolves
+1626157,Karl-Anthony Towns,karl-anthony-towns,32,C,7-0,244,"NOV 15, 1995",21.0,1,Kentucky,2016-17,1610612750,MIN,Minnesota Timberwolves
+203940,Adreian Payne,adreian-payne,33,F,6-10,237,"FEB 19, 1991",26.0,2,Michigan State,2016-17,1610612750,MIN,Minnesota Timberwolves
+202332,Cole Aldrich,cole-aldrich,45,C,6-11,250,"OCT 31, 1988",28.0,6,Kansas,2016-17,1610612750,MIN,Minnesota Timberwolves
+202357,Nemanja Bjelica,nemanja-bjelica,88,F,6-10,225,"MAY 09, 1988",29.0,1,Fenerbahce,2016-17,1610612750,MIN,Minnesota Timberwolves

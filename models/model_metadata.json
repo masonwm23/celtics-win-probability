@@ -1,0 +1,53 @@
+{
+  "created_utc": "2026-07-30T17:25:27+00:00",
+  "model_file": "win_probability_model.joblib",
+  "model_class": "XGBClassifier",
+  "tier": "tier3_celtics",
+  "tier_name": "Tier 3: Celtics-specific, game state",
+  "feature_order": [
+    "celtics_margin",
+    "seconds_remaining_period",
+    "seconds_remaining_game",
+    "seconds_elapsed_game",
+    "period",
+    "is_overtime",
+    "celtics_is_home",
+    "celtics_has_possession",
+    "momentum_120s",
+    "momentum_300s",
+    "is_clutch",
+    "margin_per_minute_remaining",
+    "possession_number"
+  ],
+  "n_features": 13,
+  "target": "celtics_won",
+  "trained_on_seasons": [
+    "2016-17",
+    "2017-18",
+    "2018-19",
+    "2019-20",
+    "2020-21",
+    "2021-22",
+    "2022-23",
+    "2023-24"
+  ],
+  "trained_on_games": 636,
+  "trained_on_events": 308975,
+  "random_seed": 20261730,
+  "shrinkage_minutes": 500.0,
+  "player_values_file": "player_values.csv",
+  "out_of_fold_performance": {
+    "n": 308975,
+    "base_rate": 0.6447447204466381,
+    "brier": 0.1629979958562439,
+    "baseline_brier": 0.2290489659028246,
+    "brier_skill": 0.2883705228104074,
+    "ece": 0.014023315853400251,
+    "max_ce": 0.037067836953112665,
+    "auc": 0.8154878013541362,
+    "logloss": 0.4871188533798113,
+    "baseline_logloss": 0.6506393028223089,
+    "tier": "tier3_celtics"
+  },
+  "note": "Metrics in out_of_fold_performance come from leave-one-season-out cross validation, NOT from this model. This model is fitted on every season for deployment; using it to score its own training data would be meaningless."
+}

@@ -1,0 +1,89 @@
+
+==========================================================================
+PHASE 1 DIAGNOSTIC - IS PLUS_MINUS TRUSTWORTHY, AND IS WL CORRECT?
+Run at: 2026-07-30T03:44:17+00:00
+==========================================================================
+
+Independent source: BoxScoreSummaryV2 LineScore (both teams' final
+points), compared against the LeagueGameFinder game log columns.
+
+Games in index: 636
+Games with fractional PLUS_MINUS: 5
+Control games (clean PLUS_MINUS): 10
+
+SUSPECT GAMES
+-------------
+  date       matchup      WL   idx PTS  idx +/-   BOS   OPP  margin  PTS?  WL?
+  2017-12-21 BOS @ NYK    L         93     -8.8    93   102      -9  ok     ok 
+  2018-01-29 BOS @ DEN    W        111     -2.6   111   110       1  ok     ok 
+  2018-02-04 BOS vs. POR  W         97      1.2    97    96       1  ok     ok 
+  2018-03-03 BOS @ HOU    L        120     -2.6   120   123      -3  ok     ok 
+  2022-11-05 BOS @ NYK    W        133     10.4   133   118      15  ok     ok 
+
+CONTROL GAMES
+-------------
+  date       matchup      WL   idx PTS  idx +/-   BOS   OPP  margin  PTS?  WL?
+  2023-10-27 BOS vs. MIA  W        119      8.0   119   111       8  ok     ok 
+  2020-12-29 BOS @ IND    W        116      5.0   116   111       5  ok     ok 
+  2024-01-02 BOS @ OKC    L        123     -4.0   123   127      -4  ok     ok 
+  2017-01-07 BOS vs. NOP  W        117      9.0   117   108       9  ok     ok 
+  2017-11-01 BOS vs. SAC  W        113     27.0   113    86      27  ok     ok 
+  2017-04-08 BOS @ CHA    W        121      7.0   121   114       7  ok     ok 
+  2023-01-21 BOS @ TOR    W        106      2.0   106   104       2  ok     ok 
+  2019-03-26 BOS @ CLE    W        116     10.0   116   106      10  ok     ok 
+  2023-12-01 BOS vs. PHI  W        125      6.0   125   119       6  ok     ok 
+  2021-12-04 BOS @ POR    W        145     28.0   145   117      28  ok     ok 
+
+==========================================================================
+FINDINGS
+==========================================================================
+
+1. Does the diagnostic method itself work?
+   Yes. All 10 control games agree on both
+   final points and win/loss. The method is sound, so a
+   disagreement below is a real finding, not a bug here.
+
+2. Is the WL column (the model's target variable) correct?
+   Yes, for all 15 games verified. Every recorded
+   win corresponds to Boston outscoring the opponent.
+   The target variable is safe to train on.
+
+3. Is the PTS column correct?
+   Yes, for all 15 games verified.
+
+4. What is PLUS_MINUS actually reporting on suspect games?
+   2017-12-21 BOS @ NYK     true margin   -9   PLUS_MINUS -8.8
+   2018-01-29 BOS @ DEN     true margin    1   PLUS_MINUS -2.6
+   2018-02-04 BOS vs. POR   true margin    1   PLUS_MINUS 1.2
+   2018-03-03 BOS @ HOU     true margin   -3   PLUS_MINUS -2.6
+   2022-11-05 BOS @ NYK     true margin   15   PLUS_MINUS 10.4
+
+   PLUS_MINUS equals the true margin in 3 of 5 suspect games.
+   Where it does not, PLUS_MINUS is reporting something
+   other than the final margin and must not be used as one.
+
+==========================================================================
+RECOMMENDED ACTION
+==========================================================================
+
+The audit check was testing the wrong column. WL and PTS are
+sound; PLUS_MINUS is not a reliable margin for a small number
+of games and should not be used as one.
+
+Proposed changes, for approval before anything is edited:
+  a) Add a check that flags ANY non-integer PLUS_MINUS, since
+     a margin must be a whole number. The current check
+     caught only the one game whose sign also disagreed,
+     and missed the other four.
+  b) Replace the WL-versus-PLUS_MINUS check with a
+     WL-versus-final-score check in Phase 2, once the
+     boxscores are downloaded. Validating the target
+     against the actual game data is stronger than
+     validating it against a summary column.
+  c) Record the fractional PLUS_MINUS games as a documented
+     data-quality finding for the paper. Do not silently
+     drop or repair them.
+
+The check is NOT being deleted to make the audit pass. It is
+being pointed at a trustworthy source instead.
+==========================================================================

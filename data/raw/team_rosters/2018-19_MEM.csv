@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+202340,Avery Bradley,avery-bradley,0,G,6-2,180,"NOV 26, 1990",28.0,8,University of Texas at Austin,2018-19,1610612763,MEM,Memphis Grizzlies
+203937,Kyle Anderson,kyle-anderson,1,F,6-9,230,"SEP 20, 1993",25.0,4,UCLA,2018-19,1610612763,MEM,Memphis Grizzlies
+1626153,Delon Wright,delon-wright,2,G,6-5,183,"APR 26, 1992",27.0,3,Utah,2018-19,1610612763,MEM,Memphis Grizzlies
+1628975,Jevon Carter,jevon-carter,3,G,6-2,196,"SEP 14, 1995",23.0,R,West Virginia,2018-19,1610612763,MEM,Memphis Grizzlies
+1627395,Julian Washburn,julian-washburn,4,F-G,6-8,209,"DEC 18, 1991",27.0,R,Texas-El Paso,2018-19,1610612763,MEM,Memphis Grizzlies
+203998,Bruno Caboclo,bruno-caboclo,5,F,6-9,218,"SEP 21, 1995",23.0,4,Pinheiros,2018-19,1610612763,MEM,Memphis Grizzlies
+101139,CJ Miles,cj-miles,6,F-G,6-6,220,"MAR 18, 1987",32.0,13,Skyline HS (TX),2018-19,1610612763,MEM,Memphis Grizzlies
+203200,Justin Holiday,justin-holiday,7,F-G,6-6,181,"APR 05, 1989",30.0,5,Washington,2018-19,1610612763,MEM,Memphis Grizzlies
+1628397,Ivan Rabb,ivan-rabb,10,F,6-10,220,"FEB 04, 1997",22.0,1,California,2018-19,1610612763,MEM,Memphis Grizzlies
+201144,Mike Conley,mike-conley,11,G,6-1,175,"OCT 11, 1987",31.0,11,Ohio State,2018-19,1610612763,MEM,Memphis Grizzlies
+1629139,Yuta Watanabe,yuta-watanabe,12,G,6-9,205,"OCT 13, 1994",24.0,R,George Washington,2018-19,1610612763,MEM,Memphis Grizzlies
+1628991,Jaren Jackson Jr.,jaren-jackson-jr,13,F-C,6-11,242,"SEP 15, 1999",19.0,R,Michigan State,2018-19,1610612763,MEM,Memphis Grizzlies
+202685,Jonas Valančiūnas,jonas-valančiūnas,17,C,7-0,265,"MAY 06, 1992",27.0,6,Lietuvos rytas Vilnius,2018-19,1610612763,MEM,Memphis Grizzlies
+1628416,Tyler Dorsey,tyler-dorsey,22,G,6-5,183,"FEB 18, 1996",23.0,1,Oregon,2018-19,1610612763,MEM,Memphis Grizzlies
+1628415,Dillon Brooks,dillon-brooks,24,G-F,6-6,220,"JAN 22, 1996",23.0,1,Oregon,2018-19,1610612763,MEM,Memphis Grizzlies
+202718,Chandler Parsons,chandler-parsons,25,F,6-10,230,"OCT 25, 1988",30.0,7,Florida,2018-19,1610612763,MEM,Memphis Grizzlies
+203092,Tyler Zeller,tyler-zeller,45,C,7-0,253,"JAN 17, 1990",29.0,6,North Carolina,2018-19,1610612763,MEM,Memphis Grizzlies
+201149,Joakim Noah,joakim-noah,55,C,6-11,230,"FEB 25, 1985",34.0,11,Florida,2018-19,1610612763,MEM,Memphis Grizzlies

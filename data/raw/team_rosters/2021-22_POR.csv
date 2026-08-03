@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+203081,Damian Lillard,damian-lillard,0,G,6-2,195,"JUL 15, 1990",31.0,9,Weber State,2021-22,1610612757,POR,Portland Trail Blazers
+204060,Joe Ingles,joe-ingles,00,F-G,6-8,220,"OCT 02, 1987",34.0,7,Maccabi Tel Aviv,2021-22,1610612757,POR,Portland Trail Blazers
+1629014,Anfernee Simons,anfernee-simons,1,G,6-3,181,"JUN 08, 1999",23.0,3,Edgewater HS (FL),2021-22,1610612757,POR,Portland Trail Blazers
+1630570,Trendon Watford,trendon-watford,2,F,6-8,237,"NOV 09, 2000",21.0,R,Louisiana State,2021-22,1610612757,POR,Portland Trail Blazers
+1630535,Greg Brown III,greg-brown-iii,4,F,6-7,206,"SEP 01, 2001",20.0,R,Texas,2021-22,1610612757,POR,Portland Trail Blazers
+202339,Eric Bledsoe,eric-bledsoe,5,G,6-1,214,"DEC 09, 1989",32.0,11,Kentucky,2021-22,1610612757,POR,Portland Trail Blazers
+1630553,Keon Johnson,keon-johnson,6,G,6-4,185,"MAR 10, 2002",20.0,R,Tennessee,2021-22,1610612757,POR,Portland Trail Blazers
+1630314,Brandon Williams,brandon-williams,8,G,6-2,190,"NOV 22, 1999",22.0,R,Arizona,2021-22,1610612757,POR,Portland Trail Blazers
+1629642,Nassir Little,nassir-little,9,F-G,6-5,220,"FEB 11, 2000",22.0,2,North Carolina,2021-22,1610612757,POR,Portland Trail Blazers
+1628404,Josh Hart,josh-hart,11,G,6-5,215,"MAR 06, 1995",27.0,4,Villanova,2021-22,1610612757,POR,Portland Trail Blazers
+1629604,CJ Elleby,cj-elleby,16,F-G,6-6,200,"JUN 16, 2000",22.0,1,Washington State,2021-22,1610612757,POR,Portland Trail Blazers
+1630190,Elijah Hughes,elijah-hughes,19,G,6-5,215,"MAR 10, 1998",24.0,1,Syracuse,2021-22,1610612757,POR,Portland Trail Blazers
+1629833,Keljin Blevins,keljin-blevins,21,G,6-4,200,"NOV 24, 1995",26.0,1,Montana State,2021-22,1610612757,POR,Portland Trail Blazers
+203463,Ben McLemore,ben-mclemore,23,G,6-3,195,"FEB 11, 1993",29.0,8,Kansas,2021-22,1610612757,POR,Portland Trail Blazers
+1626159,Justise Winslow,justise-winslow,26,F-G,6-6,222,"MAR 26, 1996",26.0,6,Duke,2021-22,1610612757,POR,Portland Trail Blazers
+203994,Jusuf Nurkić,jusuf-nurkić,27,C,6-11,290,"AUG 23, 1994",27.0,7,Cedevita,2021-22,1610612757,POR,Portland Trail Blazers
+1629712,Didi Louzada,didi-louzada,35,G,6-5,188,"JUL 02, 1999",22.0,1,Sydney,2021-22,1610612757,POR,Portland Trail Blazers

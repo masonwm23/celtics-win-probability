@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1630206,Jay Scrubb,jay-scrubb,0,G,6-5,220,"SEP 01, 2000",21.0,1,John A. Logan,2021-22,1610612746,LAC,Los Angeles Clippers
+202704,Reggie Jackson,reggie-jackson,1,G,6-2,208,"APR 16, 1990",32.0,10,Boston College,2021-22,1610612746,LAC,Los Angeles Clippers
+202695,Kawhi Leonard,kawhi-leonard,2,F,6-7,225,"JUN 29, 1991",31.0,10,San Diego State,2021-22,1610612746,LAC,Los Angeles Clippers
+1630527,Brandon Boston,brandon-boston,4,G,6-6,188,"NOV 28, 2001",20.0,R,Kentucky,2021-22,1610612746,LAC,Los Angeles Clippers
+1628379,Luke Kennard,luke-kennard,5,G,6-5,206,"JUN 24, 1996",26.0,4,Duke,2021-22,1610612746,LAC,Los Angeles Clippers
+1629599,Amir Coffey,amir-coffey,7,G-F,6-7,210,"JUN 17, 1997",25.0,2,Minnesota,2021-22,1610612746,LAC,Los Angeles Clippers
+202694,Marcus Morris Sr.,marcus-morris-sr,8,F,6-8,218,"SEP 02, 1989",32.0,10,Kansas,2021-22,1610612746,LAC,Los Angeles Clippers
+202331,Paul George,paul-george,13,F,6-8,220,"MAY 02, 1990",32.0,11,Fresno State,2021-22,1610612746,LAC,Los Angeles Clippers
+1629611,Terance Mann,terance-mann,14,G-F,6-5,215,"OCT 18, 1996",25.0,2,Florida State,2021-22,1610612746,LAC,Los Angeles Clippers
+1629875,Xavier Moon,xavier-moon,15,G,6-2,165,"JAN 02, 1995",27.0,R,Morehead State,2021-22,1610612746,LAC,Los Angeles Clippers
+1630554,Jason Preston,jason-preston,17,G,6-3,181,"AUG 10, 1999",22.0,R,Ohio,2021-22,1610612746,LAC,Los Angeles Clippers
+203918,Rodney Hood,rodney-hood,22,G-F,6-8,208,"OCT 20, 1992",29.0,7,Duke,2021-22,1610612746,LAC,Los Angeles Clippers
+203496,Robert Covington,robert-covington,23,F,6-7,209,"DEC 14, 1990",31.0,8,Tennessee State,2021-22,1610612746,LAC,Los Angeles Clippers
+1626181,Norman Powell,norman-powell,24,G,6-3,215,"MAY 25, 1993",29.0,6,UCLA,2021-22,1610612746,LAC,Los Angeles Clippers
+201587,Nicolas Batum,nicolas-batum,33,G-F,6-8,230,"DEC 14, 1988",33.0,13,Le Mans,2021-22,1610612746,LAC,Los Angeles Clippers
+1627826,Ivica Zubac,ivica-zubac,40,C,7-0,240,"MAR 18, 1997",25.0,5,Mega Basket,2021-22,1610612746,LAC,Los Angeles Clippers
+1628392,Isaiah Hartenstein,isaiah-hartenstein,55,C-F,7-0,250,"MAY 05, 1998",24.0,3,Zalgiris,2021-22,1610612746,LAC,Los Angeles Clippers

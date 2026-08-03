@@ -1,0 +1,38 @@
+# Celtics Real-Time Win Probability Model
+#
+# Exact pins, captured from the research machine on 2026-07-30 by
+# scripts/00_env_check.py. See reports/phase1_env_check.txt for the raw record.
+#
+#   Python      3.13.5 (Anaconda)
+#   Platform    macOS-14.6.1-arm64
+#
+# These are the versions every result in the paper was produced with. Pinning
+# to measured versions rather than guesses is what makes the reproducibility
+# claim true. If you upgrade a package, re-run the env check and update here.
+
+nba_api==1.11.4
+pandas==2.2.3
+numpy==2.1.3
+scikit-learn==1.6.1
+xgboost==3.2.0
+shap==0.52.0
+pyarrow==19.0.0
+requests==2.32.3
+matplotlib==3.10.0
+scipy==1.15.3
+joblib==1.4.2
+
+# Test runner. Version to be confirmed on the next env check run.
+pytest
+
+# ----------------------------------------------------------------------------
+# Dashboard backend (Phase 9). NOT needed to reproduce any research result:
+# every number in the paper is produced by the packages above. These are only
+# required to run the API that serves the dashboard.
+#
+#   pip install fastapi uvicorn
+#
+# The frontend is a separate Next.js app under web/ and needs Node 18+.
+# ----------------------------------------------------------------------------
+fastapi>=0.110
+uvicorn>=0.27

@@ -1,0 +1,17 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1629066,Rodions Kurucs,rodions-kurucs,00,F,6-9,210,"FEB 05, 1998",21.0,R,FC Barcelona,2018-19,1610612751,BKN,Brooklyn Nets
+1626156,D'Angelo Russell,dangelo-russell,1,G,6-5,198,"FEB 23, 1996",23.0,3,Ohio State,2018-19,1610612751,BKN,Brooklyn Nets
+201162,Jared Dudley,jared-dudley,6,F,6-7,237,"JUL 10, 1985",33.0,11,Boston College,2018-19,1610612751,BKN,Brooklyn Nets
+203915,Spencer Dinwiddie,spencer-dinwiddie,8,G,6-6,210,"APR 06, 1993",26.0,4,Colorado,2018-19,1610612751,BKN,Brooklyn Nets
+201960,DeMarre Carroll,demarre-carroll,9,F,6-8,215,"JUL 27, 1986",32.0,9,Missouri,2018-19,1610612751,BKN,Brooklyn Nets
+1629033,Theo Pinson,theo-pinson,10,G-F,6-6,218,"NOV 05, 1995",23.0,R,North Carolina,2018-19,1610612751,BKN,Brooklyn Nets
+203925,Joe Harris,joe-harris,12,F-G,6-6,218,"SEP 06, 1991",27.0,4,Virginia,2018-19,1610612751,BKN,Brooklyn Nets
+203894,Shabazz Napier,shabazz-napier,13,G,6-1,180,"JUL 14, 1991",27.0,4,Connecticut,2018-19,1610612751,BKN,Brooklyn Nets
+1626210,Alan Williams,alan-williams,15,F-C,6-8,265,"JAN 28, 1993",26.0,3,Cal-Santa Barbara,2018-19,1610612751,BKN,Brooklyn Nets
+202334,Ed Davis,ed-davis,17,C,6-10,225,"JUN 05, 1989",30.0,8,North Carolina,2018-19,1610612751,BKN,Brooklyn Nets
+1626203,Treveon Graham,treveon-graham,21,F,6-5,225,"OCT 28, 1993",25.0,2,Va Commonwealth,2018-19,1610612751,BKN,Brooklyn Nets
+1627747,Caris LeVert,caris-levert,22,G,6-7,204,"AUG 25, 1994",24.0,2,Michigan,2018-19,1610612751,BKN,Brooklyn Nets
+1626178,Rondae Hollis-Jefferson,rondae-hollis-jefferson,24,F,6-7,217,"JAN 03, 1995",24.0,3,Arizona,2018-19,1610612751,BKN,Brooklyn Nets
+1629058,Dzanan Musa,dzanan-musa,30,G-F,6-9,208,"MAY 08, 1999",20.0,R,Cedevita,2018-19,1610612751,BKN,Brooklyn Nets
+1628386,Jarrett Allen,jarrett-allen,31,C,6-11,237,"APR 21, 1998",21.0,1,Texas,2018-19,1610612751,BKN,Brooklyn Nets
+203459,Allen Crabbe,allen-crabbe,33,G-F,6-6,212,"APR 09, 1992",27.0,5,California,2018-19,1610612751,BKN,Brooklyn Nets

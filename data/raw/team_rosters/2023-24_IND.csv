@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1630169,Tyrese Haliburton,tyrese-haliburton,0,G,6-5,185,"FEB 29, 2000",24.0,3,Iowa State,2023-24,1610612754,IND,Indiana Pacers
+1631097,Bennedict Mathurin,bennedict-mathurin,00,G-F,6-5,210,"JUN 19, 2002",22.0,1,Arizona,2023-24,1610612754,IND,Indiana Pacers
+1630167,Obi Toppin,obi-toppin,1,F,6-9,220,"MAR 04, 1998",26.0,3,Dayton,2023-24,1610612754,IND,Indiana Pacers
+1629614,Andrew Nembhard,andrew-nembhard,2,G-F,6-4,191,"JAN 16, 2000",24.0,1,Gonzaga,2023-24,1610612754,IND,Indiana Pacers
+1641716,Jarace Walker,jarace-walker,5,F,6-7,235,"SEP 04, 2003",20.0,R,Houston,2023-24,1610612754,IND,Indiana Pacers
+204456,T.J. McConnell,tj-mcconnell,9,G,6-1,190,"MAR 25, 1992",32.0,8,Arizona,2023-24,1610612754,IND,Indiana Pacers
+1631112,Kendall Brown,kendall-brown,10,G,6-7,205,"MAY 11, 2003",21.0,1,Baylor,2023-24,1610612754,IND,Indiana Pacers
+201949,James Johnson,james-johnson,16,F,6-7,240,"FEB 20, 1987",37.0,14,Wake Forest,2023-24,1610612754,IND,Indiana Pacers
+203926,Doug McDermott,doug-mcdermott,20,F,6-6,225,"JAN 03, 1992",32.0,9,Creighton,2023-24,1610612754,IND,Indiana Pacers
+1631209,Isaiah Wong,isaiah-wong,21,G,6-3,185,"JAN 28, 2001",23.0,R,Miami,2023-24,1610612754,IND,Indiana Pacers
+1630543,Isaiah Jackson,isaiah-jackson,22,F,6-9,205,"JAN 10, 2002",22.0,2,Kentucky,2023-24,1610612754,IND,Indiana Pacers
+1630174,Aaron Nesmith,aaron-nesmith,23,G-F,6-6,215,"OCT 16, 1999",24.0,3,Vanderbilt,2023-24,1610612754,IND,Indiana Pacers
+1630188,Jalen Smith,jalen-smith,25,F-C,6-9,215,"MAR 16, 2000",24.0,3,Maryland,2023-24,1610612754,IND,Indiana Pacers
+1641767,Ben Sheppard,ben-sheppard,26,G,6-6,190,"JUL 16, 2001",22.0,R,Belmont,2023-24,1610612754,IND,Indiana Pacers
+1631245,Quenton Jackson,quenton-jackson,29,G,6-5,173,"SEP 15, 1998",25.0,1,Texas A&M,2023-24,1610612754,IND,Indiana Pacers
+1626167,Myles Turner,myles-turner,33,C-F,6-11,250,"MAR 24, 1996",28.0,8,Texas,2023-24,1610612754,IND,Indiana Pacers
+1627783,Pascal Siakam,pascal-siakam,43,F,6-8,245,"APR 02, 1994",30.0,7,New Mexico State,2023-24,1610612754,IND,Indiana Pacers
+1631131,Oscar Tshiebwe,oscar-tshiebwe,44,F-C,6-8,255,"NOV 27, 1999",24.0,R,Kentucky,2023-24,1610612754,IND,Indiana Pacers

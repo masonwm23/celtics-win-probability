@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1626171,Bobby Portis,bobby-portis,1,F,6-10,250,"FEB 10, 1995",25.0,4,Arkansas,2019-20,1610612752,NYK,New York Knicks
+1629033,Theo Pinson,theo-pinson,1,G-F,6-5,212,"NOV 05, 1995",24.0,1,North Carolina,2019-20,1610612752,NYK,New York Knicks
+201961,Wayne Ellington,wayne-ellington,2,G,6-4,207,"NOV 29, 1987",32.0,10,North Carolina,2019-20,1610612752,NYK,New York Knicks
+203090,Maurice Harkless,maurice-harkless,3,F-G,6-7,220,"MAY 11, 1993",27.0,7,"St. John's, N.Y.",2019-20,1610612752,NYK,New York Knicks
+1628372,Dennis Smith Jr.,dennis-smith-jr,5,G,6-2,205,"NOV 25, 1997",22.0,2,North Carolina State,2019-20,1610612752,NYK,New York Knicks
+203901,Elfrid Payton,elfrid-payton,6,G,6-3,195,"FEB 22, 1994",26.0,5,Louisana-Lafayette,2019-20,1610612752,NYK,New York Knicks
+1629628,RJ Barrett,rj-barrett,9,F-G,6-6,214,"JUN 14, 2000",20.0,R,Duke,2019-20,1610612752,NYK,New York Knicks
+1628373,Frank Ntilikina,frank-ntilikina,11,G,6-4,200,"JUL 28, 1998",21.0,2,Strasbourg IG,2019-20,1610612752,NYK,New York Knicks
+1629607,Jared Harper,jared-harper,12,G,5-10,175,"SEP 14, 1997",22.0,R,Auburn,2019-20,1610612752,NYK,New York Knicks
+1629649,Ignas Brazdeikis,ignas-brazdeikis,17,F,6-6,221,"JAN 08, 1999",21.0,R,Michigan,2019-20,1610612752,NYK,New York Knicks
+1628995,Kevin Knox II,kevin-knox-ii,20,F,6-7,215,"AUG 11, 1999",20.0,1,Kentucky,2019-20,1610612752,NYK,New York Knicks
+1628422,Damyean Dotson,damyean-dotson,21,G,6-5,210,"MAY 06, 1994",26.0,2,Houston,2019-20,1610612752,NYK,New York Knicks
+1629011,Mitchell Robinson,mitchell-robinson,23,C-F,7-0,240,"APR 01, 1998",22.0,1,Western Kentucky,2019-20,1610612752,NYK,New York Knicks
+203493,Reggie Bullock Jr.,reggie-bullock-jr,25,G-F,6-6,205,"MAR 16, 1991",29.0,6,North Carolina,2019-20,1610612752,NYK,New York Knicks
+203944,Julius Randle,julius-randle,30,F-C,6-8,250,"NOV 29, 1994",25.0,5,Kentucky,2019-20,1610612752,NYK,New York Knicks
+1629624,Kenny Wooten,kenny-wooten,45,F,6-8,235,"APR 17, 1998",22.0,R,Oregon,2019-20,1610612752,NYK,New York Knicks
+201959,Taj Gibson,taj-gibson,67,F,6-9,232,"JUN 24, 1985",35.0,10,Southern California,2019-20,1610612752,NYK,New York Knicks

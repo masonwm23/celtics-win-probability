@@ -1,0 +1,17 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1628470,Torrey Craig,torrey-craig,0,F,6-7,221,"DEC 19, 1990",32.0,5,South Carolina Upstate,2022-23,1610612756,PHX,Phoenix Suns
+1626164,Devin Booker,devin-booker,1,G,6-5,206,"OCT 30, 1996",26.0,7,Kentucky,2022-23,1610612756,PHX,Phoenix Suns
+1629006,Josh Okogie,josh-okogie,2,G,6-4,213,"SEP 01, 1998",24.0,4,Georgia Tech,2022-23,1610612756,PHX,Phoenix Suns
+101108,Chris Paul,chris-paul,3,G,6-0,175,"MAY 06, 1985",38.0,17,Wake Forest,2022-23,1610612756,PHX,Phoenix Suns
+203082,Terrence Ross,terrence-ross,8,G-F,6-7,206,"FEB 05, 1991",32.0,10,Washington,2022-23,1610612756,PHX,Phoenix Suns
+1627814,Damion Lee,damion-lee,10,G-F,6-5,210,"OCT 21, 1992",30.0,5,Drexel,2022-23,1610612756,PHX,Phoenix Suns
+1629111,Jock Landale,jock-landale,11,C,6-11,255,"OCT 25, 1995",27.0,1,St. Mary's,2022-23,1610612756,PHX,Phoenix Suns
+1630688,Ish Wainright,ish-wainright,12,F,6-5,250,"SEP 12, 1994",28.0,1,Baylor,2022-23,1610612756,PHX,Phoenix Suns
+1629013,Landry Shamet,landry-shamet,14,G,6-4,190,"MAR 13, 1997",26.0,4,Wichita State,2022-23,1610612756,PHX,Phoenix Suns
+1626166,Cameron Payne,cameron-payne,15,G,6-1,183,"AUG 08, 1994",28.0,7,Murray State,2022-23,1610612756,PHX,Phoenix Suns
+202687,Bismack Biyombo,bismack-biyombo,18,C,6-8,255,"AUG 28, 1992",30.0,11,Baloncesto Fuenlabrada,2022-23,1610612756,PHX,Phoenix Suns
+203933,T.J. Warren,tj-warren,21,F,6-8,220,"SEP 05, 1993",29.0,7,North Carolina State,2022-23,1610612756,PHX,Phoenix Suns
+1629028,Deandre Ayton,deandre-ayton,22,C,7-0,250,"JUL 23, 1998",24.0,4,Arizona,2022-23,1610612756,PHX,Phoenix Suns
+201142,Kevin Durant,kevin-durant,35,F,6-10,240,"SEP 29, 1988",34.0,15,Texas,2022-23,1610612756,PHX,Phoenix Suns
+1630240,Saben Lee,saben-lee,38,G,6-2,183,"JUN 23, 1999",24.0,2,Vanderbilt,2022-23,1610612756,PHX,Phoenix Suns
+1629647,Darius Bazley,darius-bazley,55,F,6-9,216,"JUN 12, 2000",23.0,3,Princeton HS (OH),2022-23,1610612756,PHX,Phoenix Suns

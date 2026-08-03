@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1629717,Armoni Brooks,armoni-brooks,1,G,6-3,195,"JUN 05, 1998",24.0,1,Houston,2021-22,1610612761,TOR,Toronto Raptors
+1628384,OG Anunoby,og-anunoby,3,F,6-7,232,"JUL 17, 1997",24.0,4,Indiana,2021-22,1610612761,TOR,Toronto Raptors
+1630567,Scottie Barnes,scottie-barnes,4,F,6-7,225,"AUG 01, 2001",20.0,R,Florida State,2021-22,1610612761,TOR,Toronto Raptors
+1630173,Precious Achiuwa,precious-achiuwa,5,F,6-8,225,"SEP 19, 1999",22.0,1,Memphis,2021-22,1610612761,TOR,Toronto Raptors
+1630551,Justin Champagnie,justin-champagnie,11,G-F,6-6,206,"JUN 29, 2001",21.0,R,Pittsburgh,2021-22,1610612761,TOR,Toronto Raptors
+1630525,David Johnson,david-johnson,13,G,6-4,203,"FEB 26, 2001",21.0,R,Louisville,2021-22,1610612761,TOR,Toronto Raptors
+1629004,Svi Mykhailiuk,svi-mykhailiuk,14,G-F,6-7,205,"JUN 10, 1997",25.0,3,Kansas,2021-22,1610612761,TOR,Toronto Raptors
+1629067,Isaac Bonga,isaac-bonga,17,G,6-8,180,"NOV 08, 1999",22.0,3,Skyliners Frankfurt,2021-22,1610612761,TOR,Toronto Raptors
+1629139,Yuta Watanabe,yuta-watanabe,18,G-F,6-9,215,"OCT 13, 1994",27.0,3,George Washington,2021-22,1610612761,TOR,Toronto Raptors
+201152,Thaddeus Young,thaddeus-young,21,F,6-8,235,"JUN 21, 1988",34.0,14,Georgia Tech,2021-22,1610612761,TOR,Toronto Raptors
+1630201,Malachi Flynn,malachi-flynn,22,G,6-1,175,"MAY 09, 1998",24.0,1,San Diego State,2021-22,1610612761,TOR,Toronto Raptors
+1627832,Fred VanVleet,fred-vanvleet,23,G,6-1,197,"FEB 25, 1994",28.0,5,Wichita State,2021-22,1610612761,TOR,Toronto Raptors
+203920,Khem Birch,khem-birch,24,C,6-9,233,"SEP 28, 1992",29.0,4,UNLV,2021-22,1610612761,TOR,Toronto Raptors
+1628449,Chris Boucher,chris-boucher,25,F-C,6-9,200,"JAN 11, 1993",29.0,4,Oregon,2021-22,1610612761,TOR,Toronto Raptors
+1629018,Gary Trent Jr.,gary-trent-jr,33,G-F,6-5,209,"JAN 18, 1999",23.0,3,Duke,2021-22,1610612761,TOR,Toronto Raptors
+1627783,Pascal Siakam,pascal-siakam,43,F,6-8,230,"APR 02, 1994",28.0,5,New Mexico State,2021-22,1610612761,TOR,Toronto Raptors
+1630625,Dalano Banton,dalano-banton,45,F,6-7,204,"NOV 07, 1999",22.0,R,Nebraska,2021-22,1610612761,TOR,Toronto Raptors

@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1628988,Aaron Holiday,aaron-holiday,0,G,6-0,185,"SEP 30, 1996",27.0,5,UCLA,2023-24,1610612745,HOU,Houston Rockets
+1631257,Jermaine Samuels Jr.,jermaine-samuels-jr,00,F,6-6,230,"NOV 13, 1998",25.0,R,Villanova,2023-24,1610612745,HOU,Houston Rockets
+1641708,Amen Thompson,amen-thompson,1,G-F,6-7,200,"JAN 30, 2003",21.0,R,Overtime Elite,2023-24,1610612745,HOU,Houston Rockets
+1629111,Jock Landale,jock-landale,2,C,6-11,255,"OCT 25, 1995",28.0,2,St. Mary's,2023-24,1610612745,HOU,Houston Rockets
+1630224,Jalen Green,jalen-green,4,G,6-4,186,"FEB 09, 2002",22.0,2,NBA G League Ignite,2023-24,1610612745,HOU,Houston Rockets
+1627832,Fred VanVleet,fred-vanvleet,5,G,6-0,197,"FEB 25, 1994",30.0,7,Wichita State,2023-24,1610612745,HOU,Houston Rockets
+1641715,Cam Whitmore,cam-whitmore,7,F,6-7,230,"JUL 08, 2004",19.0,R,Villanova,2023-24,1610612745,HOU,Houston Rockets
+1630256,Jae'Sean Tate,jaesean-tate,8,F,6-4,230,"OCT 28, 1995",28.0,3,Ohio State,2023-24,1610612745,HOU,Houston Rockets
+1628415,Dillon Brooks,dillon-brooks,9,G-F,6-6,225,"JAN 22, 1996",28.0,6,Oregon,2023-24,1610612745,HOU,Houston Rockets
+1631095,Jabari Smith Jr.,jabari-smith-jr,10,F,6-11,220,"MAY 13, 2003",21.0,1,Auburn,2023-24,1610612745,HOU,Houston Rockets
+203500,Steven Adams,steven-adams,12,C,6-11,265,"JUL 20, 1993",30.0,10,Pittsburgh,2023-24,1610612745,HOU,Houston Rockets
+1630207,Nate Hinton,nate-hinton,14,G-F,6-5,210,"JUN 08, 1999",25.0,2,Houston,2023-24,1610612745,HOU,Houston Rockets
+1631106,Tari Eason,tari-eason,17,F,6-8,215,"MAY 10, 2001",23.0,1,Louisiana State,2023-24,1610612745,HOU,Houston Rockets
+1631466,Nate Williams,nate-williams,19,G,6-5,205,"FEB 12, 1999",25.0,1,Buffalo,2023-24,1610612745,HOU,Houston Rockets
+203493,Reggie Bullock Jr.,reggie-bullock-jr,25,G-F,6-6,205,"MAR 16, 1991",33.0,10,North Carolina,2023-24,1610612745,HOU,Houston Rockets
+1630578,Alperen Sengun,alperen-sengun,28,C,6-11,243,"JUL 25, 2002",21.0,2,Besiktas,2023-24,1610612745,HOU,Houston Rockets
+201145,Jeff Green,jeff-green,32,F,6-8,235,"AUG 28, 1986",37.0,16,Georgetown,2023-24,1610612745,HOU,Houston Rockets
+1626246,Boban Marjanovic,boban-marjanovic,51,C,7-4,290,"AUG 15, 1988",35.0,8,Crvena zvezda,2023-24,1610612745,HOU,Houston Rockets

@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+203115,Will Barton,will-barton,1,G,6-5,181,"JAN 06, 1991",32.0,10,Memphis,2022-23,1610612761,TOR,Toronto Raptors
+1628384,OG Anunoby,og-anunoby,3,F,6-7,232,"JUL 17, 1997",25.0,5,Indiana,2022-23,1610612761,TOR,Toronto Raptors
+1630567,Scottie Barnes,scottie-barnes,4,F,6-8,225,"AUG 01, 2001",21.0,1,Florida State,2022-23,1610612761,TOR,Toronto Raptors
+1630173,Precious Achiuwa,precious-achiuwa,5,F,6-8,225,"SEP 19, 1999",23.0,2,Memphis,2022-23,1610612761,TOR,Toronto Raptors
+1631199,Ron Harper Jr.,ron-harper-jr,8,F,6-5,245,"APR 12, 2000",23.0,R,Rutgers,2022-23,1610612761,TOR,Toronto Raptors
+1630580,Joe Wieskamp,joe-wieskamp,11,G-F,6-6,205,"AUG 23, 1999",23.0,1,Iowa,2022-23,1610612761,TOR,Toronto Raptors
+1627751,Jakob Poeltl,jakob-poeltl,19,C,7-1,245,"OCT 15, 1995",27.0,6,Utah,2022-23,1610612761,TOR,Toronto Raptors
+1630288,Jeff Dowtin Jr.,jeff-dowtin-jr,20,G,6-3,177,"MAY 10, 1997",26.0,1,Rhode Island,2022-23,1610612761,TOR,Toronto Raptors
+201152,Thaddeus Young,thaddeus-young,21,F,6-8,235,"JUN 21, 1988",35.0,15,Georgia Tech,2022-23,1610612761,TOR,Toronto Raptors
+1630201,Malachi Flynn,malachi-flynn,22,G,6-1,175,"MAY 09, 1998",25.0,2,San Diego State,2022-23,1610612761,TOR,Toronto Raptors
+1627832,Fred VanVleet,fred-vanvleet,23,G,6-0,197,"FEB 25, 1994",29.0,6,Wichita State,2022-23,1610612761,TOR,Toronto Raptors
+1628449,Chris Boucher,chris-boucher,25,F-C,6-9,200,"JAN 11, 1993",30.0,5,Oregon,2022-23,1610612761,TOR,Toronto Raptors
+203490,Otto Porter Jr.,otto-porter-jr,32,F,6-8,198,"JUN 03, 1993",30.0,9,Georgetown,2022-23,1610612761,TOR,Toronto Raptors
+1629018,Gary Trent Jr.,gary-trent-jr,33,G-F,6-5,209,"JAN 18, 1999",24.0,4,Duke,2022-23,1610612761,TOR,Toronto Raptors
+1631132,Christian Koloko,christian-koloko,35,C,7-0,230,"JUN 20, 2000",23.0,R,Arizona,2022-23,1610612761,TOR,Toronto Raptors
+1627783,Pascal Siakam,pascal-siakam,43,F,6-8,230,"APR 02, 1994",29.0,6,New Mexico State,2022-23,1610612761,TOR,Toronto Raptors
+1630625,Dalano Banton,dalano-banton,45,F,6-7,204,"NOV 07, 1999",23.0,1,Nebraska,2022-23,1610612761,TOR,Toronto Raptors

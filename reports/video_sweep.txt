@@ -1,0 +1,78 @@
+==============================================================================
+PHASE 11f - EVERY MATCHED CLIP, NOT A BIASED SIXTEEN
+==============================================================================
+
+  Phase 11d tested sixteen URLs and found one placeholder file. Those
+  sixteen were the two earliest events of the earliest game in each
+  season: event ids 1, 2, 4 and 7. Opening tips. If the NBA publishes
+  clips for scoring plays but not for the opening sequence, that
+  sample would look exactly the same and mean nothing.
+
+  placeholder reference hash: 8dbd8e22f1ee7d19
+  (measured this run from a fabricated uuid, not hardcoded)
+
+  clips fetched   336
+  REAL            0  (0.0%)
+  placeholder     336  (100.0%)
+  no response     0
+
+  Nothing. Every matched clip across every season, every event
+  type and every game is the same VIDEO NOT AVAILABLE card. The
+  earlier conclusion holds, now on the full set rather than on a
+  biased sixteen.
+
+==============================================================================
+BY SEASON
+==============================================================================
+
+  season      fetched   real  placeholder  real rate
+  2016-17          33      0           33      0.0%
+  2017-18          40      0           40      0.0%
+  2018-19          36      0           36      0.0%
+  2019-20          45      0           45      0.0%
+  2020-21          45      0           45      0.0%
+  2021-22          44      0           44      0.0%
+  2022-23          46      0           46      0.0%
+  2023-24          47      0           47      0.0%
+
+==============================================================================
+BY EVENT TYPE
+==============================================================================
+
+  action type           fetched   real  real rate
+  Ejection                    2      0      0.0%
+  Foul                       48      0      0.0%
+  Free Throw                 30      0      0.0%
+  Instant Replay              7      0      0.0%
+  Jump Ball                  36      0      0.0%
+  Made Shot                  48      0      0.0%
+  Missed Shot                47      0      0.0%
+  Rebound                    43      0      0.0%
+  Turnover                   47      0      0.0%
+  Violation                   7      0      0.0%
+  period                     21      0      0.0%
+
+==============================================================================
+BY PERIOD
+==============================================================================
+
+  period      fetched   real  real rate
+  1               311      0      0.0%
+  2                 3      0      0.0%
+  3                 7      0      0.0%
+  4                13      0      0.0%
+  5                 2      0      0.0%
+
+  distinct hashes among the real clips: 0
+
+==============================================================================
+WHAT THIS DOES NOT TELL YOU
+==============================================================================
+
+  A hash differing from the placeholder means the file is not the
+  placeholder. It does not prove the file shows the play our record
+  names. That evidence is separate and already collected: the NBA's
+  description matched ours exactly on all matched responses.
+
+  Nothing was changed by this script.
+==============================================================================

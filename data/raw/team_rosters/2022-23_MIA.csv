@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+201567,Kevin Love,kevin-love,0,F-C,6-8,251,"SEP 07, 1988",34.0,14,UCLA,2022-23,1610612748,MIA,Miami Heat
+1629216,Gabe Vincent,gabe-vincent,2,G,6-2,200,"JUN 14, 1996",27.0,3,California-Santa Barbara,2022-23,1610612748,MIA,Miami Heat
+203506,Victor Oladipo,victor-oladipo,4,G,6-3,213,"MAY 04, 1992",31.0,9,Indiana,2022-23,1610612748,MIA,Miami Heat
+1631107,Nikola Jović,nikola-jović,5,F,6-10,205,"JUN 09, 2003",20.0,R,Mega Basket,2022-23,1610612748,MIA,Miami Heat
+200768,Kyle Lowry,kyle-lowry,7,G,6-0,196,"MAR 25, 1986",37.0,16,Villanova,2022-23,1610612748,MIA,Miami Heat
+1631288,Jamal Cain,jamal-cain,8,F,6-6,191,"MAR 20, 1999",24.0,R,Oakland,2022-23,1610612748,MIA,Miami Heat
+1628389,Bam Adebayo,bam-adebayo,13,C-F,6-9,255,"JUL 18, 1997",25.0,5,Kentucky,2022-23,1610612748,MIA,Miami Heat
+1629639,Tyler Herro,tyler-herro,14,G,6-5,195,"JAN 20, 2000",23.0,3,Kentucky,2022-23,1610612748,MIA,Miami Heat
+1628997,Caleb Martin,caleb-martin,16,F,6-5,205,"SEP 28, 1995",27.0,3,Nevada,2022-23,1610612748,MIA,Miami Heat
+202710,Jimmy Butler III,jimmy-butler-iii,22,F,6-7,230,"SEP 14, 1989",33.0,11,Marquette,2022-23,1610612748,MIA,Miami Heat
+1629312,Haywood Highsmith,haywood-highsmith,24,F,6-5,220,"DEC 09, 1996",26.0,2,Wheeling Jesuit,2022-23,1610612748,MIA,Miami Heat
+1631115,Orlando Robinson,orlando-robinson,25,C,6-10,235,"JUL 10, 2000",22.0,R,Fresno State,2022-23,1610612748,MIA,Miami Heat
+1629622,Max Strus,max-strus,31,G-F,6-5,215,"MAR 28, 1996",27.0,3,DePaul,2022-23,1610612748,MIA,Miami Heat
+2617,Udonis Haslem,udonis-haslem,40,F,6-7,235,"JUN 09, 1980",43.0,19,Florida,2022-23,1610612748,MIA,Miami Heat
+203469,Cody Zeller,cody-zeller,44,F-C,6-11,240,"OCT 05, 1992",30.0,9,Indiana,2022-23,1610612748,MIA,Miami Heat
+1629130,Duncan Robinson,duncan-robinson,55,F,6-7,215,"APR 22, 1994",29.0,4,Michigan,2022-23,1610612748,MIA,Miami Heat
+1630209,Omer Yurtseven,omer-yurtseven,77,C,6-11,275,"JUN 19, 1998",25.0,1,Georgetown,2022-23,1610612748,MIA,Miami Heat

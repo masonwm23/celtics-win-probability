@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1628221,Gabe York,gabe-york,,G,6-3,190,"AUG 02, 1993",28.0,R,Arizona,2021-22,1610612754,IND,Indiana Pacers
+1630169,Tyrese Haliburton,tyrese-haliburton,0,G,6-5,185,"FEB 29, 2000",22.0,1,Iowa State,2021-22,1610612754,IND,Indiana Pacers
+203933,T.J. Warren,tj-warren,1,F,6-8,220,"SEP 05, 1993",28.0,7,North Carolina State,2021-22,1610612754,IND,Indiana Pacers
+1630537,Chris Duarte,chris-duarte,3,G,6-5,190,"JUN 13, 1997",25.0,R,Oregon,2021-22,1610612754,IND,Indiana Pacers
+1630613,Duane Washington Jr.,duane-washington-jr,4,G,6-3,197,"MAR 24, 2000",22.0,R,Ohio State,2021-22,1610612754,IND,Indiana Pacers
+202362,Lance Stephenson,lance-stephenson,6,F,6-5,210,"SEP 05, 1990",31.0,9,Cincinnati,2021-22,1610612754,IND,Indiana Pacers
+1627763,Malcolm Brogdon,malcolm-brogdon,7,G,6-5,229,"DEC 11, 1992",29.0,5,Virginia,2021-22,1610612754,IND,Indiana Pacers
+204456,T.J. McConnell,tj-mcconnell,9,G,6-1,190,"MAR 25, 1992",30.0,6,Arizona,2021-22,1610612754,IND,Indiana Pacers
+1629052,Oshae Brissett,oshae-brissett,12,F-G,6-7,210,"JUN 20, 1998",24.0,2,Syracuse,2021-22,1610612754,IND,Indiana Pacers
+1630207,Nate Hinton,nate-hinton,14,G-F,6-5,210,"JUN 08, 1999",23.0,1,Houston,2021-22,1610612754,IND,Indiana Pacers
+1630543,Isaiah Jackson,isaiah-jackson,23,F,6-10,205,"JAN 10, 2002",20.0,R,Kentucky,2021-22,1610612754,IND,Indiana Pacers
+1627741,Buddy Hield,buddy-hield,24,G,6-4,220,"DEC 17, 1992",29.0,5,Oklahoma,2021-22,1610612754,IND,Indiana Pacers
+1630188,Jalen Smith,jalen-smith,25,F-C,6-10,215,"MAR 16, 2000",22.0,1,Maryland,2021-22,1610612754,IND,Indiana Pacers
+1630678,Terry Taylor,terry-taylor,32,F,6-5,230,"SEP 23, 1999",22.0,R,Austin Peay,2021-22,1610612754,IND,Indiana Pacers
+1626167,Myles Turner,myles-turner,33,C-F,6-11,250,"MAR 24, 1996",26.0,6,Texas,2021-22,1610612754,IND,Indiana Pacers
+1629048,Goga Bitadze,goga-bitadze,88,C-F,7-0,250,"JUL 20, 1999",22.0,2,Mega Basket,2021-22,1610612754,IND,Indiana Pacers
+201937,Ricky Rubio,ricky-rubio,99,G,6-2,190,"OCT 21, 1990",31.0,10,FC Barcelona,2021-22,1610612754,IND,Indiana Pacers

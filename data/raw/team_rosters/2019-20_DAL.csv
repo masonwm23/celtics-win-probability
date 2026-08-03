@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+201584,Courtney Lee,courtney-lee,1,G,6-5,215,"OCT 03, 1985",34.0,11,Western Kentucky,2019-20,1610612742,DAL,Dallas Mavericks
+1628499,Antonius Cleveland,antonius-cleveland,3,G,6-5,195,"FEB 02, 1994",26.0,1,S.E. Missouri,2019-20,1610612742,DAL,Dallas Mavericks
+200826,J.J. Barea,jj-barea,5,G,5-10,180,"JUN 26, 1984",36.0,13,Northeastern,2019-20,1610612742,DAL,Dallas Mavericks
+204001,Kristaps Porziņģis,kristaps-porziņģis,6,F-C,7-3,240,"AUG 02, 1995",24.0,4,Cajasol Sevilla,2019-20,1610612742,DAL,Dallas Mavericks
+203939,Dwight Powell,dwight-powell,7,F-C,6-10,240,"JUL 20, 1991",28.0,5,Stanford,2019-20,1610612742,DAL,Dallas Mavericks
+203077,Michael Kidd-Gilchrist,michael-kidd-gilchrist,9,F,6-6,232,"SEP 26, 1993",26.0,7,Kentucky,2019-20,1610612742,DAL,Dallas Mavericks
+1627827,Dorian Finney-Smith,dorian-finney-smith,10,F,6-7,220,"MAY 04, 1993",27.0,3,Florida,2019-20,1610612742,DAL,Dallas Mavericks
+203501,Tim Hardaway Jr.,tim-hardaway-jr,11,G-F,6-5,205,"MAR 16, 1992",28.0,6,Michigan,2019-20,1610612742,DAL,Dallas Mavericks
+1628973,Jalen Brunson,jalen-brunson,13,G,6-1,190,"AUG 31, 1996",23.0,1,Villanova,2019-20,1610612742,DAL,Dallas Mavericks
+1629729,Josh Reaves,josh-reaves,23,G-F,6-4,214,"JUN 04, 1997",23.0,R,Penn State,2019-20,1610612742,DAL,Dallas Mavericks
+203552,Seth Curry,seth-curry,30,G,6-2,185,"AUG 23, 1990",29.0,6,Duke,2019-20,1610612742,DAL,Dallas Mavericks
+203504,Trey Burke,trey-burke,32,G,6-0,185,"NOV 12, 1992",27.0,6,Michigan,2019-20,1610612742,DAL,Dallas Mavericks
+1626161,Willie Cauley-Stein,willie-cauley-stein,33,C,7-0,240,"AUG 18, 1993",26.0,4,Kentucky,2019-20,1610612742,DAL,Dallas Mavericks
+1628467,Maxi Kleber,maxi-kleber,42,F,6-10,240,"JAN 29, 1992",28.0,2,Bayern Munich,2019-20,1610612742,DAL,Dallas Mavericks
+1628382,Justin Jackson,justin-jackson,44,F,6-7,220,"MAR 28, 1995",25.0,2,North Carolina,2019-20,1610612742,DAL,Dallas Mavericks
+1626246,Boban Marjanovic,boban-marjanovic,51,C,7-4,290,"AUG 15, 1988",31.0,4,Crvena zvezda,2019-20,1610612742,DAL,Dallas Mavericks
+1626153,Delon Wright,delon-wright,55,G,6-5,185,"APR 26, 1992",28.0,4,Utah,2019-20,1610612742,DAL,Dallas Mavericks
+1629029,Luka Dončić,luka-dončić,77,F-G,6-7,230,"FEB 28, 1999",21.0,1,Real Madrid,2019-20,1610612742,DAL,Dallas Mavericks

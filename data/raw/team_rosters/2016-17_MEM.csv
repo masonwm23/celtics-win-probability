@@ -1,0 +1,16 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+203210,JaMychal Green,jamychal-green,0,F,6-9,227,"JUN 21, 1990",27.0,2,Alabama,2016-17,1610612763,MEM,Memphis Grizzlies
+1626185,Jarell Martin,jarell-martin,1,F,6-10,239,"MAY 24, 1994",23.0,1,Louisiana State,2016-17,1610612763,MEM,Memphis Grizzlies
+1627735,Wade Baldwin IV,wade-baldwin-iv,4,G,6-4,202,"MAR 29, 1996",21.0,R,Vanderbilt,2016-17,1610612763,MEM,Memphis Grizzlies
+1626150,Andrew Harrison,andrew-harrison,5,G,6-6,213,"OCT 28, 1994",22.0,R,Kentucky,2016-17,1610612763,MEM,Memphis Grizzlies
+1627782,Wayne Selden,wayne-selden,7,G,6-5,230,"SEP 30, 1994",22.0,R,Kansas,2016-17,1610612763,MEM,Memphis Grizzlies
+203516,James Ennis III,james-ennis-iii,8,F,6-7,210,"JUL 01, 1990",26.0,2,Cal State-Long Beach,2016-17,1610612763,MEM,Memphis Grizzlies
+2754,Tony Allen,tony-allen,9,G-F,6-4,213,"JAN 11, 1982",35.0,12,Oklahoma State,2016-17,1610612763,MEM,Memphis Grizzlies
+201144,Mike Conley,mike-conley,11,G,6-1,175,"OCT 11, 1987",29.0,9,Ohio State,2016-17,1610612763,MEM,Memphis Grizzlies
+1713,Vince Carter,vince-carter,15,G-F,6-6,220,"JAN 26, 1977",40.0,18,North Carolina,2016-17,1610612763,MEM,Memphis Grizzlies
+1627738,Deyonta Davis,deyonta-davis,23,F,6-10,240,"DEC 02, 1996",20.0,R,Michigan State,2016-17,1610612763,MEM,Memphis Grizzlies
+202718,Chandler Parsons,chandler-parsons,25,F,6-10,230,"OCT 25, 1988",28.0,5,Florida,2016-17,1610612763,MEM,Memphis Grizzlies
+203584,Troy Daniels,troy-daniels,30,G,6-4,205,"JUL 15, 1991",25.0,3,Va Commonwealth,2016-17,1610612763,MEM,Memphis Grizzlies
+201188,Marc Gasol,marc-gasol,33,C,7-1,255,"JAN 29, 1985",32.0,8,FC Barcelona,2016-17,1610612763,MEM,Memphis Grizzlies
+201148,Brandan Wright,brandan-wright,34,F,6-10,210,"OCT 05, 1987",29.0,8,North Carolina,2016-17,1610612763,MEM,Memphis Grizzlies
+2216,Zach Randolph,zach-randolph,50,F,6-9,260,"JUL 16, 1981",35.0,15,Michigan State,2016-17,1610612763,MEM,Memphis Grizzlies

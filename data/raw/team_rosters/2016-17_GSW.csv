@@ -1,0 +1,16 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1627775,Patrick McCaw,patrick-mccaw,0,G,6-7,185,"OCT 25, 1995",21.0,R,UNLV,2016-17,1610612744,GSW,Golden State Warriors
+201580,JaVale McGee,javale-mcgee,1,C,7-0,270,"JAN 19, 1988",29.0,8,Nevada,2016-17,1610612744,GSW,Golden State Warriors
+2561,David West,david-west,3,F,6-9,250,"AUG 29, 1980",36.0,13,Xavier,2016-17,1610612744,GSW,Golden State Warriors
+1626172,Kevon Looney,kevon-looney,5,F,6-9,220,"FEB 06, 1996",21.0,1,UCLA,2016-17,1610612744,GSW,Golden State Warriors
+2738,Andre Iguodala,andre-iguodala,9,G-F,6-6,215,"JAN 28, 1984",33.0,12,Arizona,2016-17,1610612744,GSW,Golden State Warriors
+202691,Klay Thompson,klay-thompson,11,G,6-7,215,"FEB 08, 1990",27.0,5,Washington State,2016-17,1610612744,GSW,Golden State Warriors
+1627745,Damian Jones,damian-jones,15,C,7-0,245,"JUN 30, 1995",22.0,R,Vanderbilt,2016-17,1610612744,GSW,Golden State Warriors
+203949,James Michael McAdoo,james-michael-mcadoo,20,F,6-9,240,"JAN 04, 1993",24.0,2,North Carolina,2016-17,1610612744,GSW,Golden State Warriors
+203546,Ian Clark,ian-clark,21,G,6-3,175,"MAR 07, 1991",26.0,3,Belmont,2016-17,1610612744,GSW,Golden State Warriors
+2440,Matt Barnes,matt-barnes,22,F,6-7,226,"MAR 09, 1980",37.0,13,UCLA,2016-17,1610612744,GSW,Golden State Warriors
+203110,Draymond Green,draymond-green,23,F,6-7,230,"MAR 04, 1990",27.0,4,Michigan State,2016-17,1610612744,GSW,Golden State Warriors
+2585,Zaza Pachulia,zaza-pachulia,27,C,6-11,275,"FEB 10, 1984",33.0,13,Ulkerspor,2016-17,1610612744,GSW,Golden State Warriors
+201939,Stephen Curry,stephen-curry,30,G,6-3,190,"MAR 14, 1988",29.0,7,Davidson,2016-17,1610612744,GSW,Golden State Warriors
+2733,Shaun Livingston,shaun-livingston,34,G,6-7,192,"SEP 11, 1985",31.0,11,Peoria Central HS (IL),2016-17,1610612744,GSW,Golden State Warriors
+201142,Kevin Durant,kevin-durant,35,F,6-9,240,"SEP 29, 1988",28.0,9,Texas,2016-17,1610612744,GSW,Golden State Warriors

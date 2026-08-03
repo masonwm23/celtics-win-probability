@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1628398,Kyle Kuzma,kyle-kuzma,0,F,6-10,221,"JUL 24, 1995",25.0,3,Utah,2020-21,1610612747,LAL,Los Angeles Lakers
+203484,Kentavious Caldwell-Pope,kentavious-caldwell-pope,1,G,6-5,204,"FEB 18, 1993",28.0,7,Georgia,2020-21,1610612747,LAL,Los Angeles Lakers
+203083,Andre Drummond,andre-drummond,2,C,6-10,279,"AUG 10, 1993",27.0,8,Connecticut,2020-21,1610612747,LAL,Los Angeles Lakers
+203076,Anthony Davis,anthony-davis,3,F-C,6-10,253,"MAR 11, 1993",28.0,8,Kentucky,2020-21,1610612747,LAL,Los Angeles Lakers
+1627936,Alex Caruso,alex-caruso,4,G,6-4,186,"FEB 28, 1994",27.0,3,Texas A&M,2020-21,1610612747,LAL,Los Angeles Lakers
+1629659,Talen Horton-Tucker,talen-horton-tucker,5,G,6-4,234,"NOV 25, 2000",20.0,1,Iowa State,2020-21,1610612747,LAL,Los Angeles Lakers
+2544,LeBron James,lebron-james,6,F,6-9,250,"DEC 30, 1984",36.0,17,St. Vincent-St. Mary HS (OH),2020-21,1610612747,LAL,Los Angeles Lakers
+203463,Ben McLemore,ben-mclemore,7,G,6-3,195,"FEB 11, 1993",28.0,7,Kansas,2020-21,1610612747,LAL,Los Angeles Lakers
+202083,Wesley Matthews,wesley-matthews,9,G,6-4,220,"OCT 14, 1986",34.0,11,Marquette,2020-21,1610612747,LAL,Los Angeles Lakers
+201162,Jared Dudley,jared-dudley,10,F,6-6,237,"JUL 10, 1985",35.0,13,Boston College,2020-21,1610612747,LAL,Los Angeles Lakers
+1629719,Devontae Cacok,devontae-cacok,12,F,6-7,240,"OCT 08, 1996",24.0,1,UNC-Wilmington,2020-21,1610612747,LAL,Los Angeles Lakers
+201188,Marc Gasol,marc-gasol,14,C,6-11,255,"JAN 29, 1985",36.0,12,FC Barcelona,2020-21,1610612747,LAL,Los Angeles Lakers
+1626149,Montrezl Harrell,montrezl-harrell,15,F-C,6-7,240,"JAN 26, 1994",27.0,5,Louisville,2020-21,1610612747,LAL,Los Angeles Lakers
+203471,Dennis Schröder,dennis-schröder,17,G,6-3,172,"SEP 15, 1993",27.0,7,Braunschweig,2020-21,1610612747,LAL,Los Angeles Lakers
+1628035,Alfonzo McKinnie,alfonzo-mckinnie,28,F,6-7,215,"SEP 17, 1992",28.0,3,Wisc.-Green Bay,2020-21,1610612747,LAL,Los Angeles Lakers
+1628961,Kostas Antetokounmpo,kostas-antetokounmpo,37,F,6-10,200,"NOV 20, 1997",23.0,2,Dayton,2020-21,1610612747,LAL,Los Angeles Lakers
+202693,Markieff Morris,markieff-morris,88,F,6-9,245,"SEP 02, 1989",31.0,9,Kansas,2020-21,1610612747,LAL,Los Angeles Lakers

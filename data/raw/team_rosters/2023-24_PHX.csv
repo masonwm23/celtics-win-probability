@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1626220,Royce O'Neale,royce-oneale,00,F,6-6,226,"JUN 05, 1993",31.0,6,Baylor,2023-24,1610612756,PHX,Phoenix Suns
+1626164,Devin Booker,devin-booker,1,G,6-6,206,"OCT 30, 1996",27.0,8,Kentucky,2023-24,1610612756,PHX,Phoenix Suns
+1629006,Josh Okogie,josh-okogie,2,G,6-4,213,"SEP 01, 1998",25.0,5,Georgia Tech,2023-24,1610612756,PHX,Phoenix Suns
+203078,Bradley Beal,bradley-beal,3,G,6-4,207,"JUN 28, 1993",31.0,11,Florida,2023-24,1610612756,PHX,Phoenix Suns
+202738,Isaiah Thomas,isaiah-thomas,4,G,5-9,185,"FEB 07, 1989",35.0,11,Washington,2023-24,1610612756,PHX,Phoenix Suns
+1628960,Grayson Allen,grayson-allen,8,G,6-4,198,"OCT 08, 1995",28.0,5,Duke,2023-24,1610612756,PHX,Phoenix Suns
+1627814,Damion Lee,damion-lee,10,G-F,6-6,210,"OCT 21, 1992",31.0,6,Drexel,2023-24,1610612756,PHX,Phoenix Suns
+1629626,Bol Bol,bol-bol,11,C-F,7-3,220,"NOV 16, 1999",24.0,4,Oregon,2023-24,1610612756,PHX,Phoenix Suns
+1630688,Ish Wainright,ish-wainright,12,F,6-5,250,"SEP 12, 1994",29.0,2,Baylor,2023-24,1610612756,PHX,Phoenix Suns
+1629234,Drew Eubanks,drew-eubanks,14,F-C,6-10,245,"FEB 01, 1997",27.0,5,Oregon State,2023-24,1610612756,PHX,Phoenix Suns
+203994,Jusuf Nurkić,jusuf-nurkić,20,C,7-0,290,"AUG 23, 1994",29.0,9,Cedevita,2023-24,1610612756,PHX,Phoenix Suns
+1631223,David Roddy,david-roddy,21,F,6-4,255,"MAR 27, 2001",23.0,1,Colorado State,2023-24,1610612756,PHX,Phoenix Suns
+201569,Eric Gordon,eric-gordon,23,G,6-3,215,"DEC 25, 1988",35.0,15,Indiana,2023-24,1610612756,PHX,Phoenix Suns
+1629642,Nassir Little,nassir-little,25,F-G,6-6,220,"FEB 11, 2000",24.0,4,North Carolina,2023-24,1610612756,PHX,Phoenix Suns
+1628962,Udoka Azubuike,udoka-azubuike,27,C-F,6-11,270,"SEP 17, 1999",24.0,3,Kansas,2023-24,1610612756,PHX,Phoenix Suns
+201152,Thaddeus Young,thaddeus-young,30,F,6-8,225,"JUN 21, 1988",36.0,16,Georgia Tech,2023-24,1610612756,PHX,Phoenix Suns
+201142,Kevin Durant,kevin-durant,35,F,6-11,240,"SEP 29, 1988",35.0,16,Texas,2023-24,1610612756,PHX,Phoenix Suns
+1630240,Saben Lee,saben-lee,38,G,6-2,183,"JUN 23, 1999",25.0,3,Vanderbilt,2023-24,1610612756,PHX,Phoenix Suns

@@ -1,0 +1,16 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1630273,Freddie Gillespie,freddie-gillespie,,F,6-9,245,"JUN 14, 1997",24.0,R,Baylor,2020-21,1610612761,TOR,Toronto Raptors
+1628778,Paul Watson,paul-watson,1,G,6-6,210,"DEC 30, 1994",26.0,1,Fresno State,2020-21,1610612761,TOR,Toronto Raptors
+1628384,OG Anunoby,og-anunoby,3,F,6-7,232,"JUL 17, 1997",23.0,3,Indiana,2020-21,1610612761,TOR,Toronto Raptors
+1626169,Stanley Johnson,stanley-johnson,5,F-G,6-6,242,"MAY 29, 1996",25.0,5,Arizona,2020-21,1610612761,TOR,Toronto Raptors
+200768,Kyle Lowry,kyle-lowry,7,G,6-0,196,"MAR 25, 1986",35.0,14,Villanova,2020-21,1610612761,TOR,Toronto Raptors
+1630201,Malachi Flynn,malachi-flynn,8,G,6-1,175,"MAY 09, 1998",23.0,R,San Diego State,2020-21,1610612761,TOR,Toronto Raptors
+1629139,Yuta Watanabe,yuta-watanabe,18,G-F,6-9,215,"OCT 13, 1994",26.0,2,George Washington,2020-21,1610612761,TOR,Toronto Raptors
+1627832,Fred VanVleet,fred-vanvleet,23,G,6-1,197,"FEB 25, 1994",27.0,4,Wichita State,2020-21,1610612761,TOR,Toronto Raptors
+203920,Khem Birch,khem-birch,24,C,6-9,233,"SEP 28, 1992",28.0,3,UNLV,2020-21,1610612761,TOR,Toronto Raptors
+1628449,Chris Boucher,chris-boucher,25,F-C,6-9,200,"JAN 11, 1993",28.0,3,Oregon,2020-21,1610612761,TOR,Toronto Raptors
+203918,Rodney Hood,rodney-hood,32,G-F,6-8,208,"OCT 20, 1992",28.0,6,Duke,2020-21,1610612761,TOR,Toronto Raptors
+1629018,Gary Trent Jr.,gary-trent-jr,33,G-F,6-5,209,"JAN 18, 1999",22.0,2,Duke,2020-21,1610612761,TOR,Toronto Raptors
+1627783,Pascal Siakam,pascal-siakam,43,F,6-9,230,"APR 02, 1994",27.0,4,New Mexico State,2020-21,1610612761,TOR,Toronto Raptors
+203382,Aron Baynes,aron-baynes,46,C-F,6-10,260,"DEC 09, 1986",34.0,8,Washington State,2020-21,1610612761,TOR,Toronto Raptors
+1627761,DeAndre' Bembry,deandre-bembry,95,G-F,6-5,210,"JUL 04, 1994",26.0,4,St. Joseph's (PA),2020-21,1610612761,TOR,Toronto Raptors

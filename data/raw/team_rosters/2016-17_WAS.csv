@@ -1,0 +1,16 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1626191,Chris McCullough,chris-mccullough,1,F,6-9,215,"FEB 05, 1995",22.0,1,Syracuse,2016-17,1610612764,WAS,Washington Wizards
+202322,John Wall,john-wall,2,G,6-4,210,"SEP 06, 1990",26.0,6,Kentucky,2016-17,1610612764,WAS,Washington Wizards
+203078,Bradley Beal,bradley-beal,3,G,6-5,207,"JUN 28, 1993",24.0,4,Florida,2016-17,1610612764,WAS,Washington Wizards
+202693,Markieff Morris,markieff-morris,5,F,6-10,245,"SEP 02, 1989",27.0,5,Kansas,2016-17,1610612764,WAS,Washington Wizards
+201943,Brandon Jennings,brandon-jennings,7,G,6-1,170,"SEP 23, 1989",27.0,7,Virtus Roma,2016-17,1610612764,WAS,Washington Wizards
+1627815,Sheldon Mac,sheldon-mac,9,G-F,6-6,200,"DEC 21, 1992",24.0,R,Miami,2016-17,1610612764,WAS,Washington Wizards
+1626162,Kelly Oubre Jr.,kelly-oubre-jr,12,F,6-7,205,"DEC 09, 1995",21.0,1,Kansas,2016-17,1610612764,WAS,Washington Wizards
+101162,Marcin Gortat,marcin-gortat,13,C,6-11,240,"FEB 17, 1984",33.0,9,RheinEnergie Cologne,2016-17,1610612764,WAS,Washington Wizards
+201160,Jason Smith,jason-smith,14,F-C,7-0,240,"MAR 02, 1986",31.0,8,Colorado State,2016-17,1610612764,WAS,Washington Wizards
+203490,Otto Porter Jr.,otto-porter-jr,22,F,6-8,198,"JUN 03, 1993",24.0,3,Georgetown,2016-17,1610612764,WAS,Washington Wizards
+101133,Ian Mahinmi,ian-mahinmi,28,C,6-11,262,"NOV 05, 1986",30.0,8,Pau Orthez,2016-17,1610612764,WAS,Washington Wizards
+203107,Tomas Satoransky,tomas-satoransky,31,G-F,6-7,210,"OCT 30, 1991",25.0,R,FC Barcelona,2016-17,1610612764,WAS,Washington Wizards
+1627849,Daniel Ochefu,daniel-ochefu,32,F,6-11,245,"DEC 15, 1993",23.0,R,Villanova,2016-17,1610612764,WAS,Washington Wizards
+203504,Trey Burke,trey-burke,33,G,6-1,191,"NOV 12, 1992",24.0,3,Michigan,2016-17,1610612764,WAS,Washington Wizards
+202711,Bojan Bogdanovic,bojan-bogdanovic,44,G,6-8,225,"APR 18, 1989",28.0,2,Fenerbahce,2016-17,1610612764,WAS,Washington Wizards

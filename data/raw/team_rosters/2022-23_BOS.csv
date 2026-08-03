@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1628369,Jayson Tatum,jayson-tatum,0,F-G,6-8,210,"MAR 03, 1998",25.0,5,Duke,2022-23,1610612738,BOS,Boston Celtics
+1627759,Jaylen Brown,jaylen-brown,7,G-F,6-6,223,"OCT 24, 1996",26.0,6,California,2022-23,1610612738,BOS,Boston Celtics
+201568,Danilo Gallinari,danilo-gallinari,8,F,6-10,236,"AUG 08, 1988",34.0,13,Olimpia Milano,2022-23,1610612738,BOS,Boston Celtics
+1628401,Derrick White,derrick-white,9,G,6-4,190,"JUL 02, 1994",28.0,5,Colorado,2022-23,1610612738,BOS,Boston Celtics
+1630202,Payton Pritchard,payton-pritchard,11,G,6-1,195,"JAN 28, 1998",25.0,2,Oregon,2022-23,1610612738,BOS,Boston Celtics
+1629684,Grant Williams,grant-williams,12,F,6-6,236,"NOV 30, 1998",24.0,3,Tennessee,2022-23,1610612738,BOS,Boston Celtics
+1627763,Malcolm Brogdon,malcolm-brogdon,13,G,6-4,229,"DEC 11, 1992",30.0,6,Virginia,2022-23,1610612738,BOS,Boston Celtics
+1631120,JD Davison,jd-davison,20,G,6-1,195,"OCT 03, 2002",20.0,R,Alabama,2022-23,1610612738,BOS,Boston Celtics
+1629662,Mfiondu Kabengele,mfiondu-kabengele,28,C,6-10,250,"AUG 14, 1997",25.0,2,Florida State,2022-23,1610612738,BOS,Boston Celtics
+1630573,Sam Hauser,sam-hauser,30,F,6-7,217,"DEC 08, 1997",25.0,1,Virginia,2022-23,1610612738,BOS,Boston Celtics
+203935,Marcus Smart,marcus-smart,36,G,6-4,220,"MAR 06, 1994",29.0,8,Oklahoma State,2022-23,1610612738,BOS,Boston Celtics
+1628436,Luke Kornet,luke-kornet,40,C-F,7-2,250,"JUL 15, 1995",27.0,5,Vanderbilt,2022-23,1610612738,BOS,Boston Celtics
+201143,Al Horford,al-horford,42,C-F,6-9,240,"JUN 03, 1986",37.0,15,Florida,2022-23,1610612738,BOS,Boston Celtics
+1629057,Robert Williams III,robert-williams-iii,44,C-F,6-9,237,"OCT 17, 1997",25.0,4,Texas A&M,2022-23,1610612738,BOS,Boston Celtics
+203488,Mike Muscala,mike-muscala,57,F-C,6-11,240,"JUL 01, 1991",31.0,9,Bucknell,2022-23,1610612738,BOS,Boston Celtics
+201933,Blake Griffin,blake-griffin,91,F,6-9,250,"MAR 16, 1989",34.0,12,Oklahoma,2022-23,1610612738,BOS,Boston Celtics
+1630551,Justin Champagnie,justin-champagnie,99,G-F,6-6,206,"JUN 29, 2001",22.0,1,Pittsburgh,2022-23,1610612738,BOS,Boston Celtics

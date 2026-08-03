@@ -1,0 +1,70 @@
+{
+  "STATUS": "REJECTED",
+  "why_rejected": "REJECTED MODEL. DO NOT SERVE THIS AS A PREDICTION. Lineup strength made out-of-sample prediction measurably worse: out-of-fold Brier 0.1630 to 0.1823, bootstrap difference -0.0193 with a 95% interval of [-0.0252, -0.0133] that excludes zero. Three pre-registered alternative parameterisations were also worse, and the result survived a clean re-test that blocked the memorisation artefact described in Phase 6. This file exists ONLY so the dashboard can show what the rejected model would have said next to what the shipped model says. The shipped model is models/win_probability_model.joblib.",
+  "measured_penalty": {
+    "tier3_out_of_fold_brier": 0.163,
+    "tier4_out_of_fold_brier": 0.1823,
+    "brier_difference": -0.0193,
+    "ci_low": -0.0252,
+    "ci_high": -0.0133,
+    "interval_excludes_zero": true,
+    "clean_retest_tree_5_bins": {
+      "difference": -0.0081,
+      "ci": [
+        -0.0131,
+        -0.003
+      ]
+    },
+    "clean_retest_linear": {
+      "difference": -0.0059,
+      "ci": [
+        -0.0108,
+        -0.0009
+      ]
+    }
+  },
+  "created_utc": "2026-07-30T21:36:45+00:00",
+  "model_file": "rejected_lineup_model.joblib",
+  "model_class": "XGBClassifier",
+  "tier": "tier4_lineup",
+  "tier_name": "Tier 4: Celtics-specific plus lineup strength",
+  "feature_order": [
+    "celtics_margin",
+    "seconds_remaining_period",
+    "seconds_remaining_game",
+    "seconds_elapsed_game",
+    "period",
+    "is_overtime",
+    "celtics_is_home",
+    "celtics_has_possession",
+    "momentum_120s",
+    "momentum_300s",
+    "is_clutch",
+    "margin_per_minute_remaining",
+    "possession_number",
+    "celtics_lineup_strength",
+    "opponent_lineup_strength",
+    "lineup_strength_diff"
+  ],
+  "n_features": 16,
+  "lineup_features": [
+    "celtics_lineup_strength",
+    "opponent_lineup_strength",
+    "lineup_strength_diff"
+  ],
+  "target": "celtics_won",
+  "trained_on_seasons": [
+    "2016-17",
+    "2017-18",
+    "2018-19",
+    "2019-20",
+    "2020-21",
+    "2021-22",
+    "2022-23",
+    "2023-24"
+  ],
+  "trained_on_events": 308975,
+  "random_seed": 20261730,
+  "shrinkage_minutes": 500.0,
+  "shipped_model": "win_probability_model.joblib"
+}

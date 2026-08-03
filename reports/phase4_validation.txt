@@ -1,0 +1,56 @@
+==========================================================================
+PHASE 4 VALIDATION - SAVED MODEL AND REPRODUCIBILITY
+Run at: 2026-07-30T17:06:49+00:00
+==========================================================================
+
+CHECKS
+  [PASS] Model, metadata and player values are all saved
+         win_probability_model.joblib: present
+         model_metadata.json: present
+         player_values.csv: present
+  [PASS] Metadata records everything needed to reproduce the model
+         XGBClassifier on 13 features, seed 20261730, 636 games across 8 seasons
+  [PASS] Metadata feature order matches the tier definition
+         13 features, first three ['celtics_margin', 'seconds_remaining_period', 'seconds_remaining_game']
+  [PASS] The saved model reloads and predicts
+         predicted 20,000 sampled rows
+  [PASS] A fresh fit with the same seed reproduces the saved model exactly
+         max absolute difference across 20,000 rows: 0.000e+00
+  [PASS] Feature order is load-bearing, so the saved schema is required
+         reversing the column order changes predictions by up to 0.9995. This is why model_metadata.json carries feature_order and why the API must read it rather than guess.
+  [PASS] Probabilities are valid and not degenerate
+         range 0.0002 to 0.9999, sd 0.2712
+  [PASS] Out-of-fold predictions exist for every row and every tier
+         308,975 rows; missing per tier {'tier1_pregame': 0, 'tier2_generic': 0, 'tier3_celtics': 0, 'tier4_lineup': 0}
+  [PASS] Lineup strength contribution measured (either direction is a valid finding)
+         Brier 0.1630 -> 0.1823 (-11.85%). Lineup strength does NOT improve out-of-sample prediction.
+         Reported as measured. A negative result here is a real finding, not a failure, and must not be tuned away.
+
+SAVED ARTEFACT
+--------------
+  model        : win_probability_model.joblib
+  class        : XGBClassifier
+  tier         : Tier 3: Celtics-specific, game state
+  features     : 13
+  seed         : 20261730
+  trained on   : 636 games, 308,975 events
+  seasons      : 2016-17, 2017-18, 2018-19, 2019-20, 2020-21, 2021-22, 2022-23, 2023-24
+
+  The saved model is fitted on EVERY season, which is correct
+  for deployment and wrong for evaluation. Every metric in
+  phase4_results.txt is out of fold and comes from different
+  models. The metadata says so explicitly.
+
+OUT-OF-FOLD TIER COMPARISON
+---------------------------
+  tier                    AUC     Brier    skill   logloss      ECE
+  tier1_pregame        0.5315    0.2258    1.4%    0.6436   0.0267
+  tier2_generic        0.8119    0.1641   28.4%    0.4917   0.0072
+  tier3_celtics        0.8155    0.1630   28.8%    0.4871   0.0140
+  tier4_lineup         0.7768    0.1823   20.4%    0.5429   0.0606
+
+==========================================================================
+RESULT: 9 passed, 0 failed
+The model is saved, reloadable and reproducible.
+Checklist item 6 is satisfied.
+==========================================================================

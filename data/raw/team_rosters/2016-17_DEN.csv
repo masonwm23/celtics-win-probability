@@ -1,0 +1,16 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+201589,Darrell Arthur,darrell-arthur,00,F,6-9,235,"MAR 25, 1988",29.0,7,Kansas,2016-17,1610612743,DEN,Denver Nuggets
+1626144,Emmanuel Mudiay,emmanuel-mudiay,0,G,6-5,200,"MAR 05, 1996",21.0,1,Guangdong,2016-17,1610612743,DEN,Denver Nuggets
+2749,Jameer Nelson,jameer-nelson,1,G,6-0,190,"FEB 09, 1982",35.0,12,St. Joseph's (PA),2016-17,1610612743,DEN,Denver Nuggets
+2034,Mike Miller,mike-miller,3,G-F,6-8,218,"FEB 19, 1980",37.0,16,Florida,2016-17,1610612743,DEN,Denver Nuggets
+203115,Will Barton,will-barton,5,G-F,6-6,175,"JAN 06, 1991",26.0,4,Memphis,2016-17,1610612743,DEN,Denver Nuggets
+201568,Danilo Gallinari,danilo-gallinari,8,F,6-10,225,"AUG 08, 1988",28.0,7,Olimpia Milano,2016-17,1610612743,DEN,Denver Nuggets
+203914,Gary Harris,gary-harris,14,G,6-4,210,"SEP 14, 1994",22.0,2,Michigan State,2016-17,1610612743,DEN,Denver Nuggets
+203999,Nikola Jokić,nikola-jokić,15,F-C,6-10,250,"FEB 19, 1995",22.0,1,Mega Basket,2016-17,1610612743,DEN,Denver Nuggets
+201163,Wilson Chandler,wilson-chandler,21,F,6-8,225,"MAY 10, 1987",30.0,8,DePaul,2016-17,1610612743,DEN,Denver Nuggets
+203486,Mason Plumlee,mason-plumlee,24,C,6-11,255,"MAR 05, 1990",27.0,3,Duke,2016-17,1610612743,DEN,Denver Nuggets
+1627736,Malik Beasley,malik-beasley,25,G,6-5,196,"NOV 26, 1996",20.0,R,Florida State,2016-17,1610612743,DEN,Denver Nuggets
+1627750,Jamal Murray,jamal-murray,27,G,6-4,207,"FEB 23, 1997",20.0,R,Kentucky,2016-17,1610612743,DEN,Denver Nuggets
+201579,Roy Hibbert,roy-hibbert,34,C,7-2,270,"DEC 11, 1986",30.0,8,Georgetown,2016-17,1610612743,DEN,Denver Nuggets
+202702,Kenneth Faried,kenneth-faried,35,F,6-8,228,"NOV 19, 1989",27.0,5,Morehead State,2016-17,1610612743,DEN,Denver Nuggets
+1627823,Juancho Hernangomez,juancho-hernangomez,41,F,6-9,230,"SEP 28, 1995",21.0,R,Estudiantes,2016-17,1610612743,DEN,Denver Nuggets

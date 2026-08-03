@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1629022,Lonnie Walker IV,lonnie-walker-iv,1,G-F,6-4,204,"DEC 14, 1998",23.0,3,Miami,2021-22,1610612759,SAS,San Antonio Spurs
+1629640,Keldon Johnson,keldon-johnson,3,F-G,6-6,220,"OCT 11, 1999",22.0,2,Kentucky,2021-22,1610612759,SAS,San Antonio Spurs
+1627749,Dejounte Murray,dejounte-murray,5,G,6-4,180,"SEP 19, 1996",25.0,5,Washington,2021-22,1610612759,SAS,San Antonio Spurs
+1626196,Josh Richardson,josh-richardson,7,G,6-5,200,"SEP 15, 1993",28.0,6,Tennessee,2021-22,1610612759,SAS,San Antonio Spurs
+1630563,Joshua Primo,joshua-primo,11,G,6-4,189,"DEC 24, 2002",19.0,R,Alabama,2021-22,1610612759,SAS,San Antonio Spurs
+1630580,Joe Wieskamp,joe-wieskamp,15,G-F,6-6,205,"AUG 23, 1999",22.0,R,Iowa,2021-22,1610612759,SAS,San Antonio Spurs
+203926,Doug McDermott,doug-mcdermott,17,F,6-7,225,"JAN 03, 1992",30.0,7,Creighton,2021-22,1610612759,SAS,San Antonio Spurs
+1630597,DJ Stewart,dj-stewart,18,G,6-5,205,"JUL 28, 1999",22.0,R,Mississippi State,2021-22,1610612759,SAS,San Antonio Spurs
+1629719,Devontae Cacok,devontae-cacok,18,F,6-7,240,"OCT 08, 1996",25.0,2,UNC-Wilmington,2021-22,1610612759,SAS,San Antonio Spurs
+1628380,Zach Collins,zach-collins,23,F-C,6-11,250,"NOV 19, 1997",24.0,4,Gonzaga,2021-22,1610612759,SAS,San Antonio Spurs
+1630170,Devin Vassell,devin-vassell,24,G-F,6-5,200,"AUG 23, 2000",21.0,1,Florida State,2021-22,1610612759,SAS,San Antonio Spurs
+1627751,Jakob Poeltl,jakob-poeltl,25,C,7-1,245,"OCT 15, 1995",26.0,5,Utah,2021-22,1610612759,SAS,San Antonio Spurs
+1630218,Robert Woodard II,robert-woodard-ii,28,F,6-6,235,"SEP 22, 1999",22.0,1,Mississippi State,2021-22,1610612759,SAS,San Antonio Spurs
+1628966,Keita Bates-Diop,keita-bates-diop,31,F,6-8,229,"JAN 23, 1996",26.0,3,Ohio State,2021-22,1610612759,SAS,San Antonio Spurs
+1630200,Tre Jones,tre-jones,33,G,6-1,185,"JAN 08, 2000",22.0,1,Duke,2021-22,1610612759,SAS,San Antonio Spurs
+1629111,Jock Landale,jock-landale,34,C,6-11,255,"OCT 25, 1995",26.0,R,St. Mary's,2021-22,1610612759,SAS,San Antonio Spurs
+1629641,Romeo Langford,romeo-langford,35,G-F,6-5,216,"OCT 25, 1999",22.0,2,Indiana,2021-22,1610612759,SAS,San Antonio Spurs

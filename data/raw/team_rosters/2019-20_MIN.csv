@@ -1,0 +1,17 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1626156,D'Angelo Russell,dangelo-russell,0,G,6-4,193,"FEB 23, 1996",24.0,4,Ohio State,2019-20,1610612750,MIN,Minnesota Timberwolves
+202323,Evan Turner,evan-turner,1,G-F,6-6,220,"OCT 27, 1988",31.0,9,Ohio State,2019-20,1610612750,MIN,Minnesota Timberwolves
+1629020,Jarred Vanderbilt,jarred-vanderbilt,3,F,6-9,214,"APR 03, 1999",21.0,1,Kentucky,2019-20,1610612750,MIN,Minnesota Timberwolves
+1629669,Jaylen Nowell,jaylen-nowell,4,G,6-4,201,"JUL 09, 1999",20.0,R,Washington,2019-20,1610612750,MIN,Minnesota Timberwolves
+1627736,Malik Beasley,malik-beasley,5,G,6-4,187,"NOV 26, 1996",23.0,3,Florida State,2019-20,1610612750,MIN,Minnesota Timberwolves
+1629162,Jordan McLaughlin,jordan-mclaughlin,6,G,5-11,185,"APR 09, 1996",24.0,R,Southern California,2019-20,1610612750,MIN,Minnesota Timberwolves
+1627774,Jake Layman,jake-layman,10,F,6-8,209,"MAR 07, 1994",26.0,3,Maryland,2019-20,1610612750,MIN,Minnesota Timberwolves
+1629675,Naz Reid,naz-reid,11,C-F,6-9,264,"AUG 26, 1999",20.0,R,Louisiana State,2019-20,1610612750,MIN,Minnesota Timberwolves
+1628980,Jacob Evans,jacob-evans,12,G-F,6-4,210,"JUN 18, 1997",23.0,1,Cincinnati,2019-20,1610612750,MIN,Minnesota Timberwolves
+1629016,Omari Spellman,omari-spellman,14,F,6-8,245,"JUL 21, 1997",22.0,1,Villanova,2019-20,1610612750,MIN,Minnesota Timberwolves
+201949,James Johnson,james-johnson,16,F,6-7,240,"FEB 20, 1987",33.0,10,Wake Forest,2019-20,1610612750,MIN,Minnesota Timberwolves
+1629006,Josh Okogie,josh-okogie,20,G,6-4,213,"SEP 01, 1998",21.0,1,Georgia Tech,2019-20,1610612750,MIN,Minnesota Timberwolves
+1629633,Jarrett Culver,jarrett-culver,23,G-F,6-6,195,"FEB 20, 1999",21.0,R,Texas Tech,2019-20,1610612750,MIN,Minnesota Timberwolves
+1629103,Kelan Martin,kelan-martin,30,F,6-5,230,"AUG 03, 1995",24.0,R,Butler,2019-20,1610612750,MIN,Minnesota Timberwolves
+1626157,Karl-Anthony Towns,karl-anthony-towns,32,C-F,6-11,248,"NOV 15, 1995",24.0,4,Kentucky,2019-20,1610612750,MIN,Minnesota Timberwolves
+1627823,Juancho Hernangomez,juancho-hernangomez,41,F,6-9,214,"SEP 28, 1995",24.0,3,Estudiantes,2019-20,1610612750,MIN,Minnesota Timberwolves

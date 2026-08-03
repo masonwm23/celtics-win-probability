@@ -1,0 +1,17 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+201573,Jerryd Bayless,jerryd-bayless,0,G,6-3,200,"AUG 20, 1988",29.0,9,Arizona,2017-18,1610612755,PHI,Philadelphia 76ers
+1626147,Justin Anderson,justin-anderson,1,G-F,6-6,230,"NOV 19, 1993",24.0,2,Virginia,2017-18,1610612755,PHI,Philadelphia 76ers
+101161,Amir Johnson,amir-johnson,5,C-F,6-9,240,"MAY 01, 1987",31.0,12,Westchester HS (CA),2017-18,1610612755,PHI,Philadelphia 76ers
+1627789,Timothe Luwawu-Cabarrot,timothe-luwawu-cabarrot,7,G-F,6-6,200,"MAY 09, 1995",23.0,1,Mega Basket,2017-18,1610612755,PHI,Philadelphia 76ers
+203967,Dario Šarić,dario-šarić,9,F,6-10,223,"APR 08, 1994",24.0,1,Anadolu Efes,2017-18,1610612755,PHI,Philadelphia 76ers
+1627743,Demetrius Jackson,demetrius-jackson,11,G,6-1,201,"SEP 07, 1994",23.0,1,Notre Dame,2017-18,1610612755,PHI,Philadelphia 76ers
+204456,T.J. McConnell,tj-mcconnell,12,G,6-2,190,"MAR 25, 1992",26.0,2,Arizona,2017-18,1610612755,PHI,Philadelphia 76ers
+200755,JJ Redick,jj-redick,17,G-F,6-4,200,"JUN 24, 1984",34.0,11,Duke,2017-18,1610612755,PHI,Philadelphia 76ers
+201158,Marco Belinelli,marco-belinelli,18,G-F,6-5,210,"MAR 25, 1986",32.0,10,Fortitudo Bologna,2017-18,1610612755,PHI,Philadelphia 76ers
+1628365,Markelle Fultz,markelle-fultz,20,G,6-4,200,"MAY 29, 1998",20.0,R,Washington,2017-18,1610612755,PHI,Philadelphia 76ers
+203954,Joel Embiid,joel-embiid,21,C,7-0,250,"MAR 16, 1994",24.0,1,Kansas,2017-18,1610612755,PHI,Philadelphia 76ers
+1626158,Richaun Holmes,richaun-holmes,22,F-C,6-10,235,"OCT 15, 1993",24.0,2,Bowling Green,2017-18,1610612755,PHI,Philadelphia 76ers
+101141,Ersan Ilyasova,ersan-ilyasova,23,F,6-10,235,"MAY 15, 1987",31.0,9,FC Barcelona,2017-18,1610612755,PHI,Philadelphia 76ers
+1627732,Ben Simmons,ben-simmons,25,G-F,6-10,230,"JUL 20, 1996",21.0,R,Louisiana State,2017-18,1610612755,PHI,Philadelphia 76ers
+1627788,Furkan Korkmaz,furkan-korkmaz,30,G-F,6-7,190,"JUL 24, 1997",20.0,R,Anadolu Efes,2017-18,1610612755,PHI,Philadelphia 76ers
+203496,Robert Covington,robert-covington,33,F,6-9,225,"DEC 14, 1990",27.0,4,Tennessee State,2017-18,1610612755,PHI,Philadelphia 76ers

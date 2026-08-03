@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1627780,Gary Payton II,gary-payton-ii,0,G,6-3,195,"DEC 01, 1992",28.0,4,Oregon State,2020-21,1610612744,GSW,Golden State Warriors
+1627814,Damion Lee,damion-lee,1,G-F,6-5,210,"OCT 21, 1992",28.0,3,Drexel,2020-21,1610612744,GSW,Golden State Warriors
+1630185,Nico Mannion,nico-mannion,2,G,6-2,190,"MAR 14, 2001",20.0,R,Arizona,2020-21,1610612744,GSW,Golden State Warriors
+1629673,Jordan Poole,jordan-poole,3,G,6-4,194,"JUN 19, 1999",22.0,1,Michigan,2020-21,1610612744,GSW,Golden State Warriors
+1626172,Kevon Looney,kevon-looney,5,F,6-9,222,"FEB 06, 1996",25.0,5,UCLA,2020-21,1610612744,GSW,Golden State Warriors
+1629346,Alen Smailagic,alen-smailagic,6,F,6-10,215,"AUG 18, 2000",20.0,1,Beko,2020-21,1610612744,GSW,Golden State Warriors
+1629672,Eric Paschall,eric-paschall,7,F,6-6,255,"NOV 04, 1996",24.0,1,Villanova,2020-21,1610612744,GSW,Golden State Warriors
+1628395,Jordan Bell,jordan-bell,7,F,6-8,216,"JAN 07, 1995",26.0,3,Oregon,2020-21,1610612744,GSW,Golden State Warriors
+202691,Klay Thompson,klay-thompson,11,G,6-6,215,"FEB 08, 1990",31.0,9,Washington State,2020-21,1610612744,GSW,Golden State Warriors
+1626162,Kelly Oubre Jr.,kelly-oubre-jr,12,F-G,6-7,203,"DEC 09, 1995",25.0,5,Kansas,2020-21,1610612744,GSW,Golden State Warriors
+1628539,Mychal Mulder,mychal-mulder,15,G,6-3,184,"JUN 12, 1994",27.0,1,Kentucky,2020-21,1610612744,GSW,Golden State Warriors
+203952,Andrew Wiggins,andrew-wiggins,22,F,6-7,197,"FEB 23, 1995",26.0,6,Kansas,2020-21,1610612744,GSW,Golden State Warriors
+203110,Draymond Green,draymond-green,23,F,6-6,230,"MAR 04, 1990",31.0,8,Michigan State,2020-21,1610612744,GSW,Golden State Warriors
+203145,Kent Bazemore,kent-bazemore,26,G-F,6-4,195,"JUL 01, 1989",31.0,8,Old Dominion,2020-21,1610612744,GSW,Golden State Warriors
+201939,Stephen Curry,stephen-curry,30,G,6-3,185,"MAR 14, 1988",33.0,11,Davidson,2020-21,1610612744,GSW,Golden State Warriors
+1630164,James Wiseman,james-wiseman,33,C,7-0,240,"MAR 31, 2001",20.0,R,Memphis,2020-21,1610612744,GSW,Golden State Warriors
+1629308,Juan Toscano-Anderson,juan-toscano-anderson,95,F,6-6,209,"APR 10, 1993",28.0,1,Marquette,2020-21,1610612744,GSW,Golden State Warriors

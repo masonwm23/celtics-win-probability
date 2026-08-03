@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1631220,Dereon Seabron,dereon-seabron,0,G,6-5,180,"MAY 26, 2000",23.0,R,North Carolina State,2022-23,1610612740,NOP,New Orleans Pelicans
+1629627,Zion Williamson,zion-williamson,1,F,6-6,284,"JUL 06, 2000",22.0,3,Duke,2022-23,1610612740,NOP,New Orleans Pelicans
+1626196,Josh Richardson,josh-richardson,2,G,6-6,200,"SEP 15, 1993",29.0,7,Tennessee,2022-23,1610612740,NOP,New Orleans Pelicans
+203468,CJ McCollum,cj-mccollum,3,G,6-3,190,"SEP 19, 1991",31.0,9,Lehigh,2022-23,1610612740,NOP,New Orleans Pelicans
+1630529,Herbert Jones,herbert-jones,5,F,6-7,206,"OCT 06, 1998",24.0,1,Alabama,2022-23,1610612740,NOP,New Orleans Pelicans
+1630230,Naji Marshall,naji-marshall,8,F,6-7,220,"JAN 24, 1998",25.0,2,Xavier,2022-23,1610612740,NOP,New Orleans Pelicans
+1626195,Willy Hernangomez,willy-hernangomez,9,C-F,6-11,250,"MAY 27, 1994",29.0,6,Cajasol Sevilla,2022-23,1610612740,NOP,New Orleans Pelicans
+1629637,Jaxson Hayes,jaxson-hayes,10,C-F,7-0,220,"MAY 23, 2000",23.0,3,Texas,2022-23,1610612740,NOP,New Orleans Pelicans
+1630700,Dyson Daniels,dyson-daniels,11,G,6-7,199,"MAR 17, 2003",20.0,R,NBA G League Ignite,2022-23,1610612740,NOP,New Orleans Pelicans
+1630184,Kira Lewis Jr.,kira-lewis-jr,13,G,6-1,170,"APR 06, 2001",22.0,2,Alabama,2022-23,1610612740,NOP,New Orleans Pelicans
+1627742,Brandon Ingram,brandon-ingram,14,F,6-8,190,"SEP 02, 1997",25.0,6,Duke,2022-23,1610612740,NOP,New Orleans Pelicans
+1630631,Jose Alvarado,jose-alvarado,15,G,6-0,179,"APR 12, 1998",25.0,1,Georgia Tech,2022-23,1610612740,NOP,New Orleans Pelicans
+202685,Jonas Valančiūnas,jonas-valančiūnas,17,C,6-11,265,"MAY 06, 1992",31.0,10,Lietuvos rytas Vilnius,2022-23,1610612740,NOP,New Orleans Pelicans
+1626204,Larry Nance Jr.,larry-nance-jr,22,F-C,6-8,245,"JAN 01, 1993",30.0,7,Wyoming,2022-23,1610612740,NOP,New Orleans Pelicans
+1630530,Trey Murphy III,trey-murphy-iii,25,F,6-8,206,"JUN 18, 2000",23.0,1,Virginia,2022-23,1610612740,NOP,New Orleans Pelicans
+1630604,E.J. Liddell,ej-liddell,32,F,6-6,240,"DEC 18, 2000",22.0,R,Ohio State,2022-23,1610612740,NOP,New Orleans Pelicans
+202066,Garrett Temple,garrett-temple,41,G-F,6-6,195,"MAY 08, 1986",37.0,12,Louisiana State,2022-23,1610612740,NOP,New Orleans Pelicans

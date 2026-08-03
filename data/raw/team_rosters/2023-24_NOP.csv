@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1631220,Dereon Seabron,dereon-seabron,0,G,6-5,180,"MAY 26, 2000",24.0,1,North Carolina State,2023-24,1610612740,NOP,New Orleans Pelicans
+1629627,Zion Williamson,zion-williamson,1,F,6-6,284,"JUL 06, 2000",23.0,4,Duke,2023-24,1610612740,NOP,New Orleans Pelicans
+203468,CJ McCollum,cj-mccollum,3,G,6-3,190,"SEP 19, 1991",32.0,10,Lehigh,2023-24,1610612740,NOP,New Orleans Pelicans
+1630529,Herbert Jones,herbert-jones,5,F,6-7,206,"OCT 06, 1998",25.0,2,Alabama,2023-24,1610612740,NOP,New Orleans Pelicans
+1630230,Naji Marshall,naji-marshall,8,F,6-6,220,"JAN 24, 1998",26.0,3,Xavier,2023-24,1610612740,NOP,New Orleans Pelicans
+1630700,Dyson Daniels,dyson-daniels,11,G,6-7,199,"MAR 17, 2003",21.0,1,NBA G League Ignite,2023-24,1610612740,NOP,New Orleans Pelicans
+1627742,Brandon Ingram,brandon-ingram,14,F,6-8,190,"SEP 02, 1997",26.0,7,Duke,2023-24,1610612740,NOP,New Orleans Pelicans
+1630631,Jose Alvarado,jose-alvarado,15,G,6-0,179,"APR 12, 1998",26.0,2,Georgia Tech,2023-24,1610612740,NOP,New Orleans Pelicans
+202685,Jonas Valančiūnas,jonas-valančiūnas,17,C,6-11,265,"MAY 06, 1992",32.0,11,Lietuvos rytas Vilnius,2023-24,1610612740,NOP,New Orleans Pelicans
+1626204,Larry Nance Jr.,larry-nance-jr,22,F-C,6-8,245,"JAN 01, 1993",31.0,8,Wyoming,2023-24,1610612740,NOP,New Orleans Pelicans
+1641722,Jordan Hawkins,jordan-hawkins,24,G,6-5,190,"APR 29, 2002",22.0,R,Connecticut,2023-24,1610612740,NOP,New Orleans Pelicans
+1630530,Trey Murphy III,trey-murphy-iii,25,F,6-8,206,"JUN 18, 2000",24.0,2,Virginia,2023-24,1610612740,NOP,New Orleans Pelicans
+1630604,E.J. Liddell,ej-liddell,32,F,6-6,240,"DEC 18, 2000",23.0,R,Ohio State,2023-24,1610612740,NOP,New Orleans Pelicans
+1630792,Malcolm Hill,malcolm-hill,33,F,6-6,220,"OCT 26, 1995",28.0,2,Illinois,2023-24,1610612740,NOP,New Orleans Pelicans
+1630346,Matt Ryan,matt-ryan,37,F,6-6,215,"APR 17, 1997",27.0,2,Tennessee-Chattanooga,2023-24,1610612740,NOP,New Orleans Pelicans
+203469,Cody Zeller,cody-zeller,40,F-C,6-11,240,"OCT 05, 1992",31.0,10,Indiana,2023-24,1610612740,NOP,New Orleans Pelicans
+1630526,Jeremiah Robinson-Earl,jeremiah-robinson-earl,50,F,6-8,240,"NOV 03, 2000",23.0,2,Villanova,2023-24,1610612740,NOP,New Orleans Pelicans

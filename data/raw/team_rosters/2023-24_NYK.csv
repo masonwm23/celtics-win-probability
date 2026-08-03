@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1628978,Donte DiVincenzo,donte-divincenzo,0,G,6-4,203,"JAN 31, 1997",27.0,5,Villanova,2023-24,1610612752,NYK,New York Knicks
+1631210,Jacob Toppin,jacob-toppin,00,F,6-8,200,"MAY 08, 2000",24.0,R,Kentucky,2023-24,1610612752,NYK,New York Knicks
+1630613,Duane Washington Jr.,duane-washington-jr,1,G,6-2,197,"MAR 24, 2000",24.0,2,Ohio State,2023-24,1610612752,NYK,New York Knicks
+1630540,Miles McBride,miles-mcbride,2,G,6-1,195,"SEP 08, 2000",23.0,2,West Virginia,2023-24,1610612752,NYK,New York Knicks
+1628404,Josh Hart,josh-hart,3,G,6-4,215,"MAR 06, 1995",29.0,6,Villanova,2023-24,1610612752,NYK,New York Knicks
+1629718,Charlie Brown Jr.,charlie-brown-jr,4,G,6-6,199,"FEB 02, 1997",27.0,3,St. Joseph's (PA),2023-24,1610612752,NYK,New York Knicks
+1630173,Precious Achiuwa,precious-achiuwa,5,F,6-8,243,"SEP 19, 1999",24.0,3,Memphis,2023-24,1610612752,NYK,New York Knicks
+1629610,DaQuan Jeffries,daquan-jeffries,8,G-F,6-5,222,"AUG 30, 1997",26.0,4,Tulsa,2023-24,1610612752,NYK,New York Knicks
+1628384,OG Anunoby,og-anunoby,8,F-G,6-7,240,"JUL 17, 1997",26.0,6,Indiana,2023-24,1610612752,NYK,New York Knicks
+1628973,Jalen Brunson,jalen-brunson,11,G,6-2,190,"AUG 31, 1996",27.0,5,Villanova,2023-24,1610612752,NYK,New York Knicks
+1629003,Shake Milton,shake-milton,13,G-F,6-5,205,"SEP 26, 1996",27.0,5,Southern Methodist,2023-24,1610612752,NYK,New York Knicks
+202692,Alec Burks,alec-burks,18,G,6-5,214,"JUL 20, 1991",32.0,12,Colorado,2023-24,1610612752,NYK,New York Knicks
+1629603,Mamadi Diakite,mamadi-diakite,21,F,6-9,228,"JAN 21, 1997",27.0,3,Virginia,2023-24,1610612752,NYK,New York Knicks
+1629011,Mitchell Robinson,mitchell-robinson,23,C-F,7-0,240,"APR 01, 1998",26.0,5,Western Kentucky,2023-24,1610612752,NYK,New York Knicks
+203944,Julius Randle,julius-randle,30,F-C,6-8,250,"NOV 29, 1994",29.0,9,Kentucky,2023-24,1610612752,NYK,New York Knicks
+202711,Bojan Bogdanovic,bojan-bogdanovic,44,F,6-7,226,"APR 18, 1989",35.0,9,Fenerbahce,2023-24,1610612752,NYK,New York Knicks
+1630579,Jericho Sims,jericho-sims,45,C,6-10,250,"OCT 20, 1998",25.0,2,Texas,2023-24,1610612752,NYK,New York Knicks
+1628392,Isaiah Hartenstein,isaiah-hartenstein,55,C-F,7-0,250,"MAY 05, 1998",26.0,5,Zalgiris,2023-24,1610612752,NYK,New York Knicks

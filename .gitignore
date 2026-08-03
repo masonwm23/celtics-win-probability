@@ -1,0 +1,49 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+.spyproject/
+.pytest_cache/
+.venv/
+venv/
+
+# Raw API payloads are large and reproducible from the pull scripts.
+# The game index and manifest are small and ARE tracked, so provenance
+# travels with the code.
+data/raw/playbyplay/
+data/raw/boxscore/
+data/interim/
+!data/raw/game_index.csv
+!data/raw/raw_pull_manifest.csv
+
+# Intermediate tables are rebuildable, with one deliberate exception:
+# oof_predictions.parquet is 5.6 MB and is what lets a reader reproduce
+# every number in Tables 2 and 3 of the paper without re-pulling the NBA
+# endpoints. That is the point of publishing the code, so it ships.
+data/processed/*
+!data/processed/oof_predictions.parquet
+
+# The dashboard's JSON is served from web/public/data, which IS tracked.
+# Committing data/serving as well would put 51 MB in the repo twice.
+# Rebuild it with scripts/20_build_serving.py, then run scripts/sync_web_data.sh.
+data/serving/
+
+# Node and Next build output.
+web/node_modules/
+web/.next/
+web/out/
+
+# Editing backups made while iterating. Not history, just noise.
+*.bak
+*.bak-*
+
+# Superseded work, kept locally for reference and not part of the submission.
+_removed_lineup_lab/
+web/_unused/
+figures/_to_delete/
+reports/_to_delete/
+
+# Never commit an API key.
+.youtube_api_key
+.env
+.env.local

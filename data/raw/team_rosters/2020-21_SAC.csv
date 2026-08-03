@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1630169,Tyrese Haliburton,tyrese-haliburton,0,G,6-5,185,"FEB 29, 2000",21.0,R,Iowa State,2020-21,1610612758,SAC,Sacramento Kings
+1630186,Jahmi'us Ramsey,jahmius-ramsey,3,G,6-3,190,"JUN 09, 2001",20.0,R,Texas Tech,2020-21,1610612758,SAC,Sacramento Kings
+1628368,De'Aaron Fox,deaaron-fox,5,G,6-3,185,"DEC 20, 1997",23.0,3,Kentucky,2020-21,1610612758,SAC,Sacramento Kings
+1629657,Kyle Guy,kyle-guy,7,G,6-1,167,"AUG 11, 1997",23.0,1,Virginia,2020-21,1610612758,SAC,Sacramento Kings
+203090,Maurice Harkless,maurice-harkless,8,F-G,6-7,220,"MAY 11, 1993",28.0,8,"St. John's, N.Y.",2020-21,1610612758,SAC,Sacramento Kings
+1629056,Terence Davis,terence-davis,9,G,6-4,201,"MAY 16, 1997",24.0,1,Mississippi,2020-21,1610612758,SAC,Sacramento Kings
+1629713,Justin James,justin-james,10,G-F,6-7,190,"JAN 24, 1997",24.0,1,Wyoming,2020-21,1610612758,SAC,Sacramento Kings
+1630218,Robert Woodard II,robert-woodard-ii,13,F,6-6,235,"SEP 22, 1999",21.0,R,Mississippi State,2020-21,1610612758,SAC,Sacramento Kings
+1627745,Damian Jones,damian-jones,15,C,6-11,245,"JUN 30, 1995",26.0,4,Vanderbilt,2020-21,1610612758,SAC,Sacramento Kings
+202355,Hassan Whiteside,hassan-whiteside,20,C,7-0,265,"JUN 13, 1989",32.0,8,Marshall,2020-21,1610612758,SAC,Sacramento Kings
+1626158,Richaun Holmes,richaun-holmes,22,F,6-10,235,"OCT 15, 1993",27.0,5,Bowling Green,2020-21,1610612758,SAC,Sacramento Kings
+1629663,Louis King,louis-king,23,F,6-7,205,"APR 06, 1999",22.0,1,Oregon,2020-21,1610612758,SAC,Sacramento Kings
+1627741,Buddy Hield,buddy-hield,24,G,6-4,220,"DEC 17, 1992",28.0,4,Oklahoma,2020-21,1610612758,SAC,Sacramento Kings
+1629002,Chimezie Metu,chimezie-metu,25,F-C,6-9,225,"MAR 22, 1997",24.0,2,USC,2020-21,1610612758,SAC,Sacramento Kings
+1628963,Marvin Bagley III,marvin-bagley-iii,35,F,6-11,235,"MAR 14, 1999",22.0,2,Duke,2020-21,1610612758,SAC,Sacramento Kings
+203084,Harrison Barnes,harrison-barnes,40,F,6-8,225,"MAY 30, 1992",29.0,8,North Carolina,2020-21,1610612758,SAC,Sacramento Kings
+1626153,Delon Wright,delon-wright,55,G,6-5,185,"APR 26, 1992",29.0,5,Utah,2020-21,1610612758,SAC,Sacramento Kings

@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1628369,Jayson Tatum,jayson-tatum,0,F-G,6-8,210,"MAR 03, 1998",23.0,3,Duke,2020-21,1610612738,BOS,Boston Celtics
+1629035,Carsen Edwards,carsen-edwards,4,G,5-11,200,"MAR 12, 1998",23.0,1,Purdue,2020-21,1610612738,BOS,Boston Celtics
+1627759,Jaylen Brown,jaylen-brown,7,G-F,6-6,223,"OCT 24, 1996",24.0,4,California,2020-21,1610612738,BOS,Boston Celtics
+1629650,Moses Brown,moses-brown,9,C,7-2,245,"OCT 13, 1999",21.0,1,UCLA,2020-21,1610612738,BOS,Boston Celtics
+1630202,Payton Pritchard,payton-pritchard,11,G,6-1,195,"JAN 28, 1998",23.0,R,Oregon,2020-21,1610612738,BOS,Boston Celtics
+1629684,Grant Williams,grant-williams,12,F,6-6,236,"NOV 30, 1998",22.0,1,Tennessee,2020-21,1610612738,BOS,Boston Celtics
+202684,Tristan Thompson,tristan-thompson,13,C-F,6-9,254,"MAR 13, 1991",30.0,9,Texas-Austin,2020-21,1610612738,BOS,Boston Celtics
+203953,Jabari Parker,jabari-parker,20,F,6-8,245,"MAR 15, 1995",26.0,6,Duke,2020-21,1610612738,BOS,Boston Celtics
+1630174,Aaron Nesmith,aaron-nesmith,26,G-F,6-5,215,"OCT 16, 1999",21.0,R,Vanderbilt,2020-21,1610612738,BOS,Boston Celtics
+203935,Marcus Smart,marcus-smart,36,G,6-3,220,"MAR 06, 1994",27.0,6,Oklahoma State,2020-21,1610612738,BOS,Boston Celtics
+1628400,Semi Ojeleye,semi-ojeleye,37,F,6-6,240,"DEC 05, 1994",26.0,3,Southern Methodist,2020-21,1610612738,BOS,Boston Celtics
+1628436,Luke Kornet,luke-kornet,40,F-C,7-2,250,"JUL 15, 1995",25.0,3,Vanderbilt,2020-21,1610612738,BOS,Boston Celtics
+201143,Al Horford,al-horford,42,C-F,6-9,240,"JUN 03, 1986",35.0,13,Florida,2020-21,1610612738,BOS,Boston Celtics
+1629057,Robert Williams III,robert-williams-iii,44,C-F,6-8,237,"OCT 17, 1997",23.0,2,Texas A&M,2020-21,1610612738,BOS,Boston Celtics
+1629641,Romeo Langford,romeo-langford,45,G-F,6-4,216,"OCT 25, 1999",21.0,1,Indiana,2020-21,1610612738,BOS,Boston Celtics
+1629682,Tremont Waters,tremont-waters,51,G,5-10,175,"JAN 10, 1998",23.0,1,Louisiana State,2020-21,1610612738,BOS,Boston Celtics
+203095,Evan Fournier,evan-fournier,94,G-F,6-7,205,"OCT 29, 1992",28.0,8,Poitiers Basket 86,2020-21,1610612738,BOS,Boston Celtics
+1629605,Tacko Fall,tacko-fall,99,C,7-5,311,"DEC 10, 1995",25.0,1,UCF,2020-21,1610612738,BOS,Boston Celtics

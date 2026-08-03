@@ -1,0 +1,104 @@
+==============================================================================
+PHASE 11 - VIDEO COVERAGE PROBE (READ ONLY)
+==============================================================================
+
+  This probe changed NOTHING. No app code, no API, no model, no
+  serving data, no research artefact was touched. It exists to answer
+  whether a video feature is worth building at all.
+
+  events probed          535
+  games                  24
+  seasons                8
+
+  MATCHED     336  (62.8%)  clip returned AND game id, event id and description all agree
+  MISMATCH      0  (0.0%)  a clip came back but is not demonstrably this play
+  NO CLIP     199  (37.2%)
+  ERRORS        0  request failed after retries
+
+  A MISMATCH is not coverage. Showing a clip of the wrong play would
+  be worse than showing none, so the two are never added together.
+
+==============================================================================
+COVERAGE BY SEASON
+==============================================================================
+
+  season      probed  matched  mismatch  no clip  match rate
+  2016-17         66       33         0       33      50.0%
+  2017-18         66       40         0       26      60.6%
+  2018-19         64       36         0       28      56.2%
+  2019-20         65       45         0       20      69.2%
+  2020-21         70       45         0       25      64.3%
+  2021-22         70       44         0       26      62.9%
+  2022-23         67       46         0       21      68.7%
+  2023-24         67       47         0       20      70.1%
+
+==============================================================================
+COVERAGE BY EVENT TYPE
+==============================================================================
+
+  The number that decides the feature. If clips exist only for made
+  shots, the panel is empty most of the time.
+
+  action type               probed  matched  match rate
+  Ejection                       3        2      66.7%
+  Foul                          48       48     100.0%
+  Free Throw                    48       30      62.5%
+  Instant Replay                33        7      21.2%
+  Jump Ball                     38       36      94.7%
+  Made Shot                     48       48     100.0%
+  Missed Shot                   48       47      97.9%
+  Rebound                       48       43      89.6%
+  Substitution                  48        0       0.0%
+  Timeout                       48        0       0.0%
+  Turnover                      48       47      97.9%
+  Violation                     29        7      24.1%
+  period                        48       21      43.8%
+
+==============================================================================
+EVENT MATCHING
+==============================================================================
+
+  No mismatches. Every clip returned agreed with our
+  record on game, event and description.
+
+  ACTION NUMBER AMBIGUITY. Phase 2 found action_number is not unique
+  within a game, and the video endpoint is keyed by it.
+    events probed whose action number is duplicated: 38
+    of those, matched: 37 (97%)
+    This is the group where a wrong clip is most likely.
+
+==============================================================================
+PLAYBACK RELIABILITY
+==============================================================================
+
+  URLs checked: 40
+    HTTP 200: 40
+    median clip size: 31.6 MB
+    video/mp4: 40
+
+  season      checked  HTTP 200   ok rate
+  2016-17           5         5     100%
+  2017-18           5         5     100%
+  2018-19           5         5     100%
+  2019-20           5         5     100%
+  2020-21           5         5     100%
+  2021-22           5         5     100%
+  2022-23           5         5     100%
+  2023-24           5         5     100%
+
+==============================================================================
+WHAT THIS DOES NOT TELL YOU
+==============================================================================
+
+  These are NBA-hosted clips. Playing them locally for a directed
+  research project is one thing; a paper or public demo that embeds
+  them is another. That is a question for Prof. Namini, not a
+  technical one, and this probe does not answer it.
+
+  A HEAD request resolving is not proof a browser will play the clip.
+  Hotlink protection, expiring URLs and geographic restriction would
+  all show as a clean 200 here and fail on screen.
+
+  Nothing was changed. The dashboard does not know this probe exists.
+
+==============================================================================

@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+202326,DeMarcus Cousins,demarcus-cousins,0,C,6-11,270,"AUG 13, 1990",28.0,8,Kentucky,2018-19,1610612744,GSW,Golden State Warriors
+1627814,Damion Lee,damion-lee,1,G,6-6,210,"OCT 21, 1992",26.0,1,Drexel,2018-19,1610612744,GSW,Golden State Warriors
+1628395,Jordan Bell,jordan-bell,2,F,6-9,224,"JAN 07, 1995",24.0,1,Oregon,2018-19,1610612744,GSW,Golden State Warriors
+1626188,Quinn Cook,quinn-cook,4,G,6-2,179,"MAR 23, 1993",26.0,2,Duke,2018-19,1610612744,GSW,Golden State Warriors
+1626172,Kevon Looney,kevon-looney,5,C-F,6-9,220,"FEB 06, 1996",23.0,3,UCLA,2018-19,1610612744,GSW,Golden State Warriors
+2738,Andre Iguodala,andre-iguodala,9,F-G,6-6,215,"JAN 28, 1984",35.0,14,Arizona,2018-19,1610612744,GSW,Golden State Warriors
+1628980,Jacob Evans,jacob-evans,10,G,6-6,210,"JUN 18, 1997",22.0,R,Cincinnati,2018-19,1610612744,GSW,Golden State Warriors
+202691,Klay Thompson,klay-thompson,11,G,6-7,215,"FEB 08, 1990",29.0,7,Washington State,2018-19,1610612744,GSW,Golden State Warriors
+101106,Andrew Bogut,andrew-bogut,12,C,7-0,260,"NOV 28, 1984",34.0,13,Utah,2018-19,1610612744,GSW,Golden State Warriors
+1627745,Damian Jones,damian-jones,15,C,7-0,245,"JUN 30, 1995",24.0,2,Vanderbilt,2018-19,1610612744,GSW,Golden State Warriors
+201973,Jonas Jerebko,jonas-jerebko,21,F,6-10,231,"MAR 02, 1987",32.0,8,Angelico Biella,2018-19,1610612744,GSW,Golden State Warriors
+203110,Draymond Green,draymond-green,23,F,6-7,230,"MAR 04, 1990",29.0,6,Michigan State,2018-19,1610612744,GSW,Golden State Warriors
+1628035,Alfonzo McKinnie,alfonzo-mckinnie,28,F,6-8,215,"SEP 17, 1992",26.0,1,Wisc.-Green Bay,2018-19,1610612744,GSW,Golden State Warriors
+201939,Stephen Curry,stephen-curry,30,G,6-3,190,"MAR 14, 1988",31.0,9,Davidson,2018-19,1610612744,GSW,Golden State Warriors
+1629094,Marcus Derrickson,marcus-derrickson,32,F,6-7,249,"FEB 01, 1996",23.0,R,Georgetown,2018-19,1610612744,GSW,Golden State Warriors
+2733,Shaun Livingston,shaun-livingston,34,G,6-7,192,"SEP 11, 1985",33.0,13,Peoria Central HS (IL),2018-19,1610612744,GSW,Golden State Warriors
+201142,Kevin Durant,kevin-durant,35,F,6-9,240,"SEP 29, 1988",30.0,11,Texas,2018-19,1610612744,GSW,Golden State Warriors

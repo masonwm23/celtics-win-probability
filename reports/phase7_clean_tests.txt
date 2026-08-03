@@ -1,0 +1,322 @@
+==============================================================================
+PHASE 7 - CLEAN RE-TESTS AFTER THE PHASE 6 ARTEFACT
+Run at: 2026-07-30T14:30:45-04:00
+==============================================================================
+
+  Phase 6 showed that a feature which is constant within a game and
+  near-unique across games lets a tree memorise training games. Tier 5
+  scored 0.0076 on its own training data against a 0.2290 baseline.
+  A column of random numbers reproduced 85% of the damage.
+
+  Phase 6 also got something wrong: a min_child_weight of 4,000 did
+  NOT neutralise the mechanism, so its 'fair' opponent and lineup
+  tests were not fair. Phase 7 replaces them.
+
+==============================================================================
+DOSE-RESPONSE: DAMAGE AGAINST FEATURE RESOLUTION
+==============================================================================
+
+  The mechanism claim predicts the SHAPE of this table in advance:
+  damage should grow with the number of distinct values a feature can
+  take, and a meaningless column should track a real one rung for rung.
+  Both ladders are nested, so only resolution changes.
+
+  resolution       opp values  opp Brier    vs t3  rand values  rand Brier    vs t3
+  about 5                   5     0.1622  -0.0008            5      0.1664  +0.0034
+  about 20                 20     0.1695  +0.0065           20      0.1745  +0.0115
+  about 100                88     0.1879  +0.0249          100      0.1967  +0.0337
+  one per game            607     0.1998  +0.0368          636      0.2010  +0.0380
+
+  Tier 3, no added column: Brier 0.1630
+
+  DOSE-RESPONSE CONFIRMED, AND MATCHED. Damage grows with resolution for
+  both ladders and the meaningless column tracks the real one. The
+  degradation is a property of feature cardinality against non-independent
+  rows, not of opponent quality.
+
+==============================================================================
+TRAINING VERSUS OUT-OF-FOLD BRIER
+==============================================================================
+
+  spec                                                         train     oof     gap
+  Reference: tier 3, game state only                          0.1487  0.1630  0.0143
+  Reference: tier 2, generic linear baseline                  0.1629  0.1641  0.0011
+  Opponent differential, ~5 distinct values                   0.1398  0.1622  0.0224
+  Opponent differential, ~20 distinct values                  0.1290  0.1695  0.0405
+  Opponent differential, ~88 distinct values                  0.1038  0.1879  0.0841
+  Opponent differential, raw (~608 distinct values)           0.0677  0.1998  0.1321
+  RANDOM per-game value, 5 distinct values                    0.1431  0.1664  0.0233
+  RANDOM per-game value, 20 distinct values                   0.1318  0.1745  0.0427
+  RANDOM per-game value, 100 distinct values                  0.0975  0.1967  0.0992
+  RANDOM per-game value, one per game                         0.0692  0.2010  0.1318
+  Lineup strength difference, 5 bins from training quantiles  0.1400  0.1711  0.0311
+  LINEAR baseline plus lineup strength difference             0.1577  0.1700  0.0122
+  LINEAR baseline plus opponent differential                  0.1583  0.1598  0.0015
+  LINEAR baseline plus Celtics-minus-opponent differential    0.1591  0.1600  0.0009
+  LINEAR baseline plus a RANDOM per-game value                0.1628  0.1647  0.0019
+
+==============================================================================
+ALL SPECIFICATIONS, OUT OF FOLD
+==============================================================================
+
+  spec                                                           AUC    Brier   skill     ECE
+  Reference: tier 3, game state only                          0.8155   0.1630  28.8%  0.0140
+  Reference: tier 2, generic linear baseline                  0.8119   0.1641  28.4%  0.0072
+  Opponent differential, ~5 distinct values                   0.8216   0.1622  29.2%  0.0230
+  Opponent differential, ~20 distinct values                  0.8096   0.1695  26.0%  0.0428
+  Opponent differential, ~88 distinct values                  0.7792   0.1879  18.0%  0.0904
+  Opponent differential, raw (~608 distinct values)           0.7676   0.1998  12.8%  0.1107
+  RANDOM per-game value, 5 distinct values                    0.8074   0.1664  27.3%  0.0220
+  RANDOM per-game value, 20 distinct values                   0.7912   0.1745  23.8%  0.0494
+  RANDOM per-game value, 100 distinct values                  0.7632   0.1967  14.1%  0.1089
+  RANDOM per-game value, one per game                         0.7579   0.2010  12.2%  0.1097
+  Lineup strength difference, 5 bins from training quantiles  0.8026   0.1711  25.3%  0.0479
+  LINEAR baseline plus lineup strength difference             0.8018   0.1700  25.8%  0.0320
+  LINEAR baseline plus opponent differential                  0.8243   0.1598  30.2%  0.0069
+  LINEAR baseline plus Celtics-minus-opponent differential    0.8243   0.1600  30.2%  0.0077
+  LINEAR baseline plus a RANDOM per-game value                0.8104   0.1647  28.1%  0.0084
+
+==============================================================================
+FEATURE COMPARISONS (both sides share a model configuration)
+==============================================================================
+
+  Positive difference means the SECOND model is better.
+
+  comparison                                                   diff                95% CI  real?
+  p7_tier3 vs p7_opp_bins5                                  +0.0008    [-0.0045, +0.0061]     no
+  p7_tier3 vs p7_opp_bins20                                 -0.0065    [-0.0142, +0.0007]     no
+  p7_tier3 vs p7_opp_bins100                                -0.0249    [-0.0371, -0.0134]    yes
+  p7_tier3 vs p7_opp_raw                                    -0.0368    [-0.0509, -0.0233]    yes
+  p7_tier3 vs p7_rand_bins5                                 -0.0034    [-0.0058, -0.0011]    yes
+  p7_tier3 vs p7_rand_bins20                                -0.0115    [-0.0166, -0.0066]    yes
+  p7_tier3 vs p7_rand_bins100                               -0.0337    [-0.0445, -0.0217]    yes
+  p7_tier3 vs p7_rand_raw                                   -0.0380    [-0.0499, -0.0256]    yes
+  p7_tier3 vs p7_lineup_bins5                               -0.0081    [-0.0131, -0.0030]    yes
+  p7_tier2 vs p7_linear_lineup                              -0.0059    [-0.0108, -0.0009]    yes
+  p7_tier2 vs p7_linear_opp                                 +0.0042    [-0.0002, +0.0087]     no
+  p7_tier2 vs p7_linear_strength                            +0.0041    [+0.0002, +0.0082]    yes
+  p7_tier2 vs p7_linear_random                              -0.0006    [-0.0016, +0.0004]     no
+
+==============================================================================
+CLEAN LINEUP RE-TEST
+==============================================================================
+
+  Phase 4 reported that lineup strength genuinely degrades the model
+  and blamed player values failing to transfer across seasons. Phase 6
+  showed most of that penalty was reproducible with noise. These two
+  tests block memorisation instead of assuming it away.
+
+  in the tree, 5 bins from training quantiles: -0.0081 [-0.0131, -0.0030]
+  in the linear model, no splits available:   -0.0059 [-0.0108, -0.0009]
+
+  At least one clean test still finds a real effect; see the signs above
+  before rewriting Phase 4.
+
+==============================================================================
+THE DELIVERABLE DECISION
+==============================================================================
+
+  Rule fixed in code BEFORE this run: the deliverable changes only if
+  the interval excludes zero in the challenger's favour. The same
+  standard that stopped tier 4 shipping, applied symmetrically.
+
+  incumbent  tier 3, gradient boosting on 13 features   Brier 0.1630
+  reference  tier 2, generic linear baseline            Brier 0.1641
+
+  comparison                                                   diff                95% CI  real?
+  p7_tier3 vs p7_linear_opp                                 +0.0032    [-0.0024, +0.0091]     no
+  p7_tier3 vs p7_linear_strength                            +0.0030    [-0.0021, +0.0083]     no
+
+  KEEP tier 3. LINEAR baseline plus opponent differential is ahead by
+  +0.0032 Brier but the interval [-0.0024, +0.0091] spans zero, so the two
+  are not distinguishable on 636 games. A point estimate is not enough to
+  change what ships.
+
+  KEEP tier 3. LINEAR baseline plus Celtics-minus-opponent differential is
+  ahead by +0.0030 Brier but the interval [-0.0021, +0.0083] spans zero, so
+  the two are not distinguishable on 636 games. A point estimate is not
+  enough to change what ships.
+
+==============================================================================
+THE LINEAR NULL CONTROL
+==============================================================================
+
+  Adding a RANDOM per-game value to the linear model. If this improved
+  the model, the opponent result above would be an artefact of a
+  different kind and could not be trusted.
+
+  difference -0.0006  CI [-0.0016, +0.0004]  real? no
+
+  Control passes. A meaningless column does nothing here,
+  so the linear opponent result is signal, not structure.
+
+==============================================================================
+PERFORMANCE BY GAME PHASE
+==============================================================================
+
+  Reference: tier 3, game state only
+    phase            events      AUC    Brier   skill     ECE
+    first 6 min      33,553   0.5773   0.2253   1.4%  0.0272
+    period 1         73,901   0.6258   0.2186   4.0%  0.0172
+    period 2         77,351   0.7361   0.1931  15.2%  0.0208
+    period 3         75,451   0.8398   0.1532  33.0%  0.0236
+    period 4         79,567   0.9434   0.0909  60.5%  0.0106
+    overtime          2,705   0.8285   0.1738  30.5%  0.0839
+    clutch           15,102   0.8285   0.1700  32.0%  0.0424
+    last 2 min       19,337   0.9754   0.0598  75.0%  0.0139
+
+  Reference: tier 2, generic linear baseline
+    phase            events      AUC    Brier   skill     ECE
+    first 6 min      33,553   0.5575   0.2291  -0.3%  0.0474
+    period 1         73,901   0.6121   0.2223   2.4%  0.0428
+    period 2         77,351   0.7351   0.1939  14.9%  0.0250
+    period 3         75,451   0.8436   0.1521  33.5%  0.0276
+    period 4         79,567   0.9436   0.0924  59.9%  0.0353
+    overtime          2,705   0.8522   0.1607  35.7%  0.0759
+    clutch           15,102   0.8394   0.1666  33.3%  0.0496
+    last 2 min       19,337   0.9739   0.0590  75.4%  0.0211
+
+  Opponent differential, ~5 distinct values
+    phase            events      AUC    Brier   skill     ECE
+    first 6 min      33,553   0.6149   0.2213   3.1%  0.0428
+    period 1         73,901   0.6508   0.2157   5.3%  0.0394
+    period 2         77,351   0.7447   0.1934  15.1%  0.0340
+    period 3         75,451   0.8452   0.1517  33.6%  0.0219
+    period 4         79,567   0.9431   0.0914  60.3%  0.0168
+    overtime          2,705   0.8125   0.1860  25.6%  0.1115
+    clutch           15,102   0.8226   0.1742  30.3%  0.0528
+    last 2 min       19,337   0.9743   0.0624  74.0%  0.0164
+
+  Opponent differential, ~20 distinct values
+    phase            events      AUC    Brier   skill     ECE
+    first 6 min      33,553   0.5836   0.2328  -1.9%  0.0766
+    period 1         73,901   0.6254   0.2263   0.6%  0.0667
+    period 2         77,351   0.7360   0.1990  12.7%  0.0581
+    period 3         75,451   0.8343   0.1574  31.1%  0.0446
+    period 4         79,567   0.9356   0.0986  57.2%  0.0273
+    overtime          2,705   0.7934   0.1979  20.8%  0.1301
+    clutch           15,102   0.7992   0.1906  23.7%  0.0821
+    last 2 min       19,337   0.9705   0.0683  71.5%  0.0273
+
+  Opponent differential, ~88 distinct values
+    phase            events      AUC    Brier   skill     ECE
+    first 6 min      33,553   0.5420   0.2638 -15.5%  0.1475
+    period 1         73,901   0.5773   0.2543 -11.6%  0.1366
+    period 2         77,351   0.6887   0.2222   2.5%  0.1133
+    period 3         75,451   0.8116   0.1725  24.5%  0.0748
+    period 4         79,567   0.9288   0.1067  53.7%  0.0512
+    overtime          2,705   0.7914   0.2048  18.1%  0.1451
+    clutch           15,102   0.7966   0.1973  21.1%  0.1109
+    last 2 min       19,337   0.9684   0.0728  69.6%  0.0371
+
+  Opponent differential, raw (~608 distinct values)
+    phase            events      AUC    Brier   skill     ECE
+    first 6 min      33,553   0.5522   0.2779 -21.7%  0.1738
+    period 1         73,901   0.5830   0.2684 -17.8%  0.1658
+    period 2         77,351   0.6812   0.2342  -2.8%  0.1365
+    period 3         75,451   0.7940   0.1848  19.1%  0.0890
+    period 4         79,567   0.9158   0.1164  49.4%  0.0545
+    overtime          2,705   0.7824   0.2123  15.1%  0.1465
+    clutch           15,102   0.7634   0.2156  13.7%  0.1240
+    last 2 min       19,337   0.9577   0.0819  65.8%  0.0383
+
+  RANDOM per-game value, 5 distinct values
+    phase            events      AUC    Brier   skill     ECE
+    first 6 min      33,553   0.5628   0.2294  -0.4%  0.0546
+    period 1         73,901   0.6047   0.2239   1.7%  0.0403
+    period 2         77,351   0.7257   0.1968  13.6%  0.0274
+    period 3         75,451   0.8349   0.1567  31.5%  0.0240
+    period 4         79,567   0.9420   0.0923  59.9%  0.0141
+    overtime          2,705   0.8254   0.1792  28.3%  0.0864
+    clutch           15,102   0.8255   0.1725  31.0%  0.0421
+    last 2 min       19,337   0.9747   0.0606  74.7%  0.0177
+
+  RANDOM per-game value, 20 distinct values
+    phase            events      AUC    Brier   skill     ECE
+    first 6 min      33,553   0.5499   0.2364  -3.5%  0.0776
+    period 1         73,901   0.5900   0.2310  -1.4%  0.0704
+    period 2         77,351   0.7016   0.2068   9.2%  0.0649
+    period 3         75,451   0.8185   0.1655  27.6%  0.0380
+    period 4         79,567   0.9349   0.0985  57.2%  0.0286
+    overtime          2,705   0.7929   0.1993  20.3%  0.1213
+    clutch           15,102   0.8039   0.1863  25.5%  0.0714
+    last 2 min       19,337   0.9714   0.0653  72.7%  0.0230
+
+  RANDOM per-game value, 100 distinct values
+    phase            events      AUC    Brier   skill     ECE
+    first 6 min      33,553   0.5292   0.2630 -15.1%  0.1583
+    period 1         73,901   0.5621   0.2564 -12.5%  0.1558
+    period 2         77,351   0.6651   0.2343  -2.8%  0.1451
+    period 3         75,451   0.7878   0.1891  17.3%  0.1009
+    period 4         79,567   0.9232   0.1108  51.9%  0.0493
+    overtime          2,705   0.7594   0.2285   8.6%  0.1737
+    clutch           15,102   0.7842   0.2024  19.0%  0.1135
+    last 2 min       19,337   0.9657   0.0713  70.2%  0.0324
+
+  RANDOM per-game value, one per game
+    phase            events      AUC    Brier   skill     ECE
+    first 6 min      33,553   0.5267   0.2725 -19.3%  0.1769
+    period 1         73,901   0.5546   0.2656 -16.6%  0.1674
+    period 2         77,351   0.6568   0.2390  -4.9%  0.1389
+    period 3         75,451   0.7837   0.1922  15.9%  0.1039
+    period 4         79,567   0.9212   0.1119  51.4%  0.0483
+    overtime          2,705   0.7690   0.2199  12.0%  0.1632
+    clutch           15,102   0.7817   0.2036  18.5%  0.1061
+    last 2 min       19,337   0.9639   0.0738  69.2%  0.0238
+
+  Lineup strength difference, 5 bins from training quantiles
+    phase            events      AUC    Brier   skill     ECE
+    first 6 min      33,553   0.5718   0.2510  -9.9%  0.1382
+    period 1         73,901   0.6086   0.2354  -3.3%  0.0975
+    period 2         77,351   0.7193   0.2009  11.8%  0.0515
+    period 3         75,451   0.8329   0.1573  31.2%  0.0375
+    period 4         79,567   0.9398   0.0944  59.0%  0.0166
+    overtime          2,705   0.7885   0.2004  19.8%  0.1354
+    clutch           15,102   0.8081   0.1813  27.5%  0.0609
+    last 2 min       19,337   0.9735   0.0637  73.4%  0.0153
+
+  LINEAR baseline plus lineup strength difference
+    phase            events      AUC    Brier   skill     ECE
+    first 6 min      33,553   0.5664   0.2334  -2.2%  0.0676
+    period 1         73,901   0.6120   0.2275   0.1%  0.0671
+    period 2         77,351   0.7242   0.2012  11.7%  0.0537
+    period 3         75,451   0.8323   0.1577  31.0%  0.0324
+    period 4         79,567   0.9362   0.0979  57.5%  0.0287
+    overtime          2,705   0.8413   0.1641  34.3%  0.0708
+    clutch           15,102   0.8235   0.1726  30.9%  0.0436
+    last 2 min       19,337   0.9729   0.0607  74.7%  0.0177
+
+  LINEAR baseline plus opponent differential
+    phase            events      AUC    Brier   skill     ECE
+    first 6 min      33,553   0.6108   0.2231   2.3%  0.0393
+    period 1         73,901   0.6491   0.2162   5.1%  0.0399
+    period 2         77,351   0.7547   0.1883  17.4%  0.0239
+    period 3         75,451   0.8519   0.1482  35.1%  0.0332
+    period 4         79,567   0.9447   0.0911  60.4%  0.0340
+    overtime          2,705   0.8717   0.1527  38.9%  0.0764
+    clutch           15,102   0.8463   0.1630  34.8%  0.0490
+    last 2 min       19,337   0.9741   0.0588  75.4%  0.0216
+
+  LINEAR baseline plus Celtics-minus-opponent differential
+    phase            events      AUC    Brier   skill     ECE
+    first 6 min      33,553   0.6167   0.2214   3.1%  0.0357
+    period 1         73,901   0.6543   0.2150   5.6%  0.0351
+    period 2         77,351   0.7533   0.1889  17.1%  0.0287
+    period 3         75,451   0.8506   0.1489  34.8%  0.0268
+    period 4         79,567   0.9441   0.0914  60.3%  0.0310
+    overtime          2,705   0.8677   0.1542  38.3%  0.0855
+    clutch           15,102   0.8433   0.1641  34.4%  0.0476
+    last 2 min       19,337   0.9738   0.0592  75.3%  0.0208
+
+  LINEAR baseline plus a RANDOM per-game value
+    phase            events      AUC    Brier   skill     ECE
+    first 6 min      33,553   0.5554   0.2295  -0.5%  0.0500
+    period 1         73,901   0.6096   0.2230   2.1%  0.0464
+    period 2         77,351   0.7326   0.1950  14.4%  0.0270
+    period 3         75,451   0.8421   0.1527  33.2%  0.0260
+    period 4         79,567   0.9432   0.0926  59.8%  0.0373
+    overtime          2,705   0.8499   0.1613  35.5%  0.0754
+    clutch           15,102   0.8403   0.1662  33.5%  0.0488
+    last 2 min       19,337   0.9739   0.0589  75.4%  0.0212
+
+==============================================================================

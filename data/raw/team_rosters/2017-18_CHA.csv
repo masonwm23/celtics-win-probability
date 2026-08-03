@@ -1,0 +1,17 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1628370,Malik Monk,malik-monk,1,G,6-3,200,"FEB 04, 1998",20.0,R,Kentucky,2017-18,1610612766,CHA,Charlotte Hornets
+101107,Marvin Williams,marvin-williams,2,F,6-9,237,"JUN 19, 1986",32.0,12,North Carolina,2017-18,1610612766,CHA,Charlotte Hornets
+203087,Jeremy Lamb,jeremy-lamb,3,G,6-5,185,"MAY 30, 1992",26.0,5,Connecticut,2017-18,1610612766,CHA,Charlotte Hornets
+1627779,Marcus Paige,marcus-paige,4,G,6-0,164,"SEP 11, 1993",24.0,R,North Carolina,2017-18,1610612766,CHA,Charlotte Hornets
+201587,Nicolas Batum,nicolas-batum,5,G-F,6-8,200,"DEC 14, 1988",29.0,9,Le Mans,2017-18,1610612766,CHA,Charlotte Hornets
+1628407,Dwayne Bacon,dwayne-bacon,7,F,6-7,221,"AUG 30, 1995",22.0,R,Florida State,2017-18,1610612766,CHA,Charlotte Hornets
+1628493,Mangok Mathiang,mangok-mathiang,9,F-C,6-10,230,"OCT 08, 1992",25.0,R,Louisville,2017-18,1610612766,CHA,Charlotte Hornets
+203487,Michael Carter-Williams,michael-carter-williams,10,G,6-6,190,"OCT 10, 1991",26.0,4,Syracuse,2017-18,1610612766,CHA,Charlotte Hornets
+2730,Dwight Howard,dwight-howard,12,C,6-11,265,"DEC 08, 1985",32.0,13,SW Atlanta Christian Academy (GA),2017-18,1610612766,CHA,Charlotte Hornets
+203077,Michael Kidd-Gilchrist,michael-kidd-gilchrist,14,F,6-7,232,"SEP 26, 1993",24.0,5,Kentucky,2017-18,1610612766,CHA,Charlotte Hornets
+202689,Kemba Walker,kemba-walker,15,G,6-1,184,"MAY 08, 1990",28.0,6,Connecticut,2017-18,1610612766,CHA,Charlotte Hornets
+1626203,Treveon Graham,treveon-graham,21,G-F,6-5,219,"OCT 28, 1993",24.0,1,Va Commonwealth,2017-18,1610612766,CHA,Charlotte Hornets
+202933,Julyan Stone,julyan-stone,32,G,6-6,200,"DEC 07, 1988",29.0,3,Texas-El Paso,2017-18,1610612766,CHA,Charlotte Hornets
+203469,Cody Zeller,cody-zeller,40,C-F,7-0,240,"OCT 05, 1992",25.0,4,Indiana,2017-18,1610612766,CHA,Charlotte Hornets
+1626195,Willy Hernangomez,willy-hernangomez,41,C,6-11,240,"MAY 27, 1994",24.0,1,Cajasol Sevilla,2017-18,1610612766,CHA,Charlotte Hornets
+1626163,Frank Kaminsky,frank-kaminsky,44,F-C,7-0,242,"APR 04, 1993",25.0,2,Wisconsin,2017-18,1610612766,CHA,Charlotte Hornets

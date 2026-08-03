@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1628978,Donte DiVincenzo,donte-divincenzo,0,G,6-4,203,"JAN 31, 1997",26.0,4,Villanova,2022-23,1610612744,GSW,Golden State Warriors
+1630228,Jonathan Kuminga,jonathan-kuminga,00,F,6-7,225,"OCT 06, 2002",20.0,1,NBA G League Ignite,2022-23,1610612744,GSW,Golden State Warriors
+203210,JaMychal Green,jamychal-green,1,F-C,6-9,227,"JUN 21, 1990",33.0,8,Alabama,2022-23,1610612744,GSW,Golden State Warriors
+1631157,Ryan Rollins,ryan-rollins,2,G,6-3,180,"JUL 03, 2002",20.0,R,Toledo,2022-23,1610612744,GSW,Golden State Warriors
+1629673,Jordan Poole,jordan-poole,3,G,6-4,194,"JUN 19, 1999",24.0,3,Michigan,2022-23,1610612744,GSW,Golden State Warriors
+1630541,Moses Moody,moses-moody,4,G,6-5,211,"MAY 31, 2002",21.0,1,Arkansas,2022-23,1610612744,GSW,Golden State Warriors
+1626172,Kevon Looney,kevon-looney,5,F,6-9,222,"FEB 06, 1996",27.0,7,UCLA,2022-23,1610612744,GSW,Golden State Warriors
+1631116,Patrick Baldwin Jr.,patrick-baldwin-jr,7,F,6-9,220,"NOV 18, 2002",20.0,R,Wisconsin-Milwaukee,2022-23,1610612744,GSW,Golden State Warriors
+1627780,Gary Payton II,gary-payton-ii,8,G,6-2,195,"DEC 01, 1992",30.0,6,Oregon State,2022-23,1610612744,GSW,Golden State Warriors
+2738,Andre Iguodala,andre-iguodala,9,G-F,6-6,215,"JAN 28, 1984",39.0,18,Arizona,2022-23,1610612744,GSW,Golden State Warriors
+1629660,Ty Jerome,ty-jerome,10,G-F,6-5,195,"JUL 08, 1997",25.0,3,Virginia,2022-23,1610612744,GSW,Golden State Warriors
+202691,Klay Thompson,klay-thompson,11,G,6-6,220,"FEB 08, 1990",33.0,11,Washington State,2022-23,1610612744,GSW,Golden State Warriors
+203952,Andrew Wiggins,andrew-wiggins,22,F,6-7,197,"FEB 23, 1995",28.0,8,Kansas,2022-23,1610612744,GSW,Golden State Warriors
+203110,Draymond Green,draymond-green,23,F,6-6,230,"MAR 04, 1990",33.0,10,Michigan State,2022-23,1610612744,GSW,Golden State Warriors
+1631311,Lester Quinones,lester-quinones,25,G,6-4,208,"NOV 16, 2000",22.0,R,Memphis,2022-23,1610612744,GSW,Golden State Warriors
+201939,Stephen Curry,stephen-curry,30,G,6-2,185,"MAR 14, 1988",35.0,13,Davidson,2022-23,1610612744,GSW,Golden State Warriors
+1630237,Anthony Lamb,anthony-lamb,40,F,6-6,227,"JAN 20, 1998",25.0,2,Vermont,2022-23,1610612744,GSW,Golden State Warriors

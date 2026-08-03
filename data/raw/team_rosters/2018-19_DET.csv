@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+203083,Andre Drummond,andre-drummond,0,C,6-11,279,"AUG 10, 1993",25.0,6,Connecticut,2018-19,1610612765,DET,Detroit Pistons
+202704,Reggie Jackson,reggie-jackson,1,G,6-3,208,"APR 16, 1990",29.0,7,Boston College,2018-19,1610612765,DET,Detroit Pistons
+1628379,Luke Kennard,luke-kennard,5,G,6-5,206,"JUN 24, 1996",23.0,1,Duke,2018-19,1610612765,DET,Detroit Pistons
+1628971,Bruce Brown,bruce-brown,6,G,6-5,202,"AUG 15, 1996",22.0,R,Miami,2018-19,1610612765,DET,Detroit Pistons
+1627748,Thon Maker,thon-maker,7,F,7-1,221,"FEB 25, 1997",22.0,2,Athlete Institute Prep,2018-19,1610612765,DET,Detroit Pistons
+204038,Langston Galloway,langston-galloway,9,G,6-2,200,"DEC 09, 1991",27.0,4,St. Joseph's (PA),2018-19,1610612765,DET,Detroit Pistons
+1627785,Isaiah Whitehead,isaiah-whitehead,12,G,6-4,213,"MAR 08, 1995",24.0,2,Seton Hall,2018-19,1610612765,DET,Detroit Pistons
+1629017,Khyri Thomas,khyri-thomas,13,G,6-3,210,"MAY 08, 1996",23.0,R,Creighton,2018-19,1610612765,DET,Detroit Pistons
+202397,Ish Smith,ish-smith,14,G,6-0,175,"JUL 05, 1988",30.0,8,Wake Forest,2018-19,1610612765,DET,Detroit Pistons
+1629004,Svi Mykhailiuk,svi-mykhailiuk,19,G,6-8,205,"JUN 10, 1997",22.0,R,Kansas,2018-19,1610612765,DET,Detroit Pistons
+201961,Wayne Ellington,wayne-ellington,20,G,6-5,200,"NOV 29, 1987",31.0,9,North Carolina,2018-19,1610612765,DET,Detroit Pistons
+203922,Glenn Robinson III,glenn-robinson-iii,22,G-F,6-6,222,"JAN 08, 1994",25.0,4,Michigan,2018-19,1610612765,DET,Detroit Pistons
+201933,Blake Griffin,blake-griffin,23,F,6-10,250,"MAR 16, 1989",30.0,8,Oklahoma,2018-19,1610612765,DET,Detroit Pistons
+203564,Kalin Lucas,kalin-lucas,24,G,6-1,195,"MAY 24, 1989",30.0,1,Michigan State,2018-19,1610612765,DET,Detroit Pistons
+2585,Zaza Pachulia,zaza-pachulia,27,C,6-11,270,"FEB 10, 1984",35.0,15,Ulkerspor,2018-19,1610612765,DET,Detroit Pistons
+202720,Jon Leuer,jon-leuer,30,F,6-10,228,"MAY 14, 1989",30.0,7,Wisconsin,2018-19,1610612765,DET,Detroit Pistons
+101181,Jose Calderon,jose-calderon,81,G,6-3,200,"SEP 28, 1981",37.0,13,Tau Ceramica,2018-19,1610612765,DET,Detroit Pistons

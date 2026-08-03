@@ -1,0 +1,16 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+2772,Trevor Ariza,trevor-ariza,1,F,6-8,215,"JUN 30, 1985",32.0,12,UCLA,2016-17,1610612745,HOU,Houston Rockets
+201976,Patrick Beverley,patrick-beverley,2,G,6-1,185,"JUL 12, 1988",28.0,4,Arkansas,2016-17,1610612745,HOU,Houston Rockets
+201583,Ryan Anderson,ryan-anderson,3,F,6-10,240,"MAY 06, 1988",29.0,8,California,2016-17,1610612745,HOU,Houston Rockets
+1626149,Montrezl Harrell,montrezl-harrell,5,F,6-8,240,"JAN 26, 1994",23.0,1,Louisville,2016-17,1610612745,HOU,Houston Rockets
+1626155,Sam Dekker,sam-dekker,7,F,6-9,230,"MAY 06, 1994",23.0,1,Wisconsin,2016-17,1610612745,HOU,Houston Rockets
+201628,Bobby Brown,bobby-brown,8,G,6-2,175,"SEP 24, 1984",32.0,2,Cal State-Fullerton,2016-17,1610612745,HOU,Houston Rockets
+201569,Eric Gordon,eric-gordon,10,G,6-4,215,"DEC 25, 1988",28.0,8,Indiana,2016-17,1610612745,HOU,Houston Rockets
+101150,Lou Williams,lou-williams,12,G,6-1,175,"OCT 27, 1986",30.0,11,South Gwinnett HS (GA),2016-17,1610612745,HOU,Houston Rockets
+201935,James Harden,james-harden,13,G,6-5,220,"AUG 26, 1989",27.0,7,Arizona State,2016-17,1610612745,HOU,Houston Rockets
+1627786,Troy Williams,troy-williams,14,F,6-7,210,"DEC 30, 1994",22.0,R,Indiana,2016-17,1610612745,HOU,Houston Rockets
+203991,Clint Capela,clint-capela,15,C,6-10,240,"MAY 18, 1994",23.0,2,Elan Chalon,2016-17,1610612745,HOU,Houston Rockets
+1627819,Isaiah Taylor,isaiah-taylor,17,G,6-3,170,"JUL 11, 1994",22.0,R,Texas,2016-17,1610612745,HOU,Houston Rockets
+1627778,Chinanu Onuaku,chinanu-onuaku,21,F-C,6-10,245,"NOV 01, 1996",20.0,R,Louisville,2016-17,1610612745,HOU,Houston Rockets
+1627787,Kyle Wiltjer,kyle-wiltjer,30,F,6-10,240,"OCT 20, 1992",24.0,R,Gonzaga,2016-17,1610612745,HOU,Houston Rockets
+2403,Nene,nene-hilario,42,C-F,6-11,250,"SEP 13, 1982",34.0,14,Vasco de Gama,2016-17,1610612745,HOU,Houston Rockets

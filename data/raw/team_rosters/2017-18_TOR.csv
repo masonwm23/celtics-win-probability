@@ -1,0 +1,17 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+101139,CJ Miles,cj-miles,0,F-G,6-6,225,"MAR 18, 1987",31.0,12,Skyline HS (TX),2017-18,1610612761,TOR,Toronto Raptors
+1628384,OG Anunoby,og-anunoby,3,F,6-8,235,"JUL 17, 1997",20.0,R,Indiana,2017-18,1610612761,TOR,Toronto Raptors
+203485,Lorenzo Brown,lorenzo-brown,4,G,6-5,189,"AUG 26, 1990",27.0,3,North Carolina State,2017-18,1610612761,TOR,Toronto Raptors
+200768,Kyle Lowry,kyle-lowry,7,G,6-0,205,"MAR 25, 1986",32.0,11,Villanova,2017-18,1610612761,TOR,Toronto Raptors
+201586,Serge Ibaka,serge-ibaka,9,F-C,6-10,235,"SEP 18, 1989",28.0,8,Ricoh Manresa,2017-18,1610612761,TOR,Toronto Raptors
+201942,DeMar DeRozan,demar-derozan,10,G,6-7,220,"AUG 07, 1989",28.0,8,Southern California,2017-18,1610612761,TOR,Toronto Raptors
+1626259,Malcolm Miller,malcolm-miller,13,F,6-7,210,"MAR 06, 1993",25.0,R,Holy Cross,2017-18,1610612761,TOR,Toronto Raptors
+202685,Jonas Valančiūnas,jonas-valančiūnas,17,C,7-0,255,"MAY 06, 1992",26.0,5,Lietuvos rytas Vilnius,2017-18,1610612761,TOR,Toronto Raptors
+1627781,Malachi Richardson,malachi-richardson,22,G,6-6,205,"JAN 05, 1996",22.0,1,Syracuse,2017-18,1610612761,TOR,Toronto Raptors
+1627832,Fred VanVleet,fred-vanvleet,23,G,6-0,195,"FEB 25, 1994",24.0,1,Wichita State,2017-18,1610612761,TOR,Toronto Raptors
+1626181,Norman Powell,norman-powell,24,F-G,6-4,215,"MAY 25, 1993",25.0,2,UCLA,2017-18,1610612761,TOR,Toronto Raptors
+1628035,Alfonzo McKinnie,alfonzo-mckinnie,34,F,6-8,215,"SEP 17, 1992",25.0,R,Wisc.-Green Bay,2017-18,1610612761,TOR,Toronto Raptors
+1627751,Jakob Poeltl,jakob-poeltl,42,C,7-0,230,"OCT 15, 1995",22.0,1,Utah,2017-18,1610612761,TOR,Toronto Raptors
+1627783,Pascal Siakam,pascal-siakam,43,F,6-9,230,"APR 02, 1994",24.0,1,New Mexico State,2017-18,1610612761,TOR,Toronto Raptors
+1626153,Delon Wright,delon-wright,55,G,6-5,190,"APR 26, 1992",26.0,2,Utah,2017-18,1610612761,TOR,Toronto Raptors
+203512,Lucas Nogueira,lucas-nogueira,92,C,7-0,220,"JUL 26, 1992",25.0,3,Estudiantes,2017-18,1610612761,TOR,Toronto Raptors

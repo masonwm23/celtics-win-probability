@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+201588,George Hill,george-hill,3,G,6-4,188,"MAY 04, 1986",36.0,13,Indiana-Purdue Indianapolis,2021-22,1610612749,MIL,Milwaukee Bucks
+1628975,Jevon Carter,jevon-carter,5,G,6-1,200,"SEP 14, 1995",26.0,3,West Virginia,2021-22,1610612749,MIL,Milwaukee Bucks
+1630492,Luca Vildoza,luca-vildoza,6,G,6-3,190,"AUG 11, 1995",26.0,R,Baskonia,2021-22,1610612749,MIL,Milwaukee Bucks
+1628960,Grayson Allen,grayson-allen,7,G,6-4,198,"OCT 08, 1995",26.0,3,Duke,2021-22,1610612749,MIL,Milwaukee Bucks
+1626171,Bobby Portis,bobby-portis,9,F,6-10,250,"FEB 10, 1995",27.0,6,Arkansas,2021-22,1610612749,MIL,Milwaukee Bucks
+201572,Brook Lopez,brook-lopez,11,C,7-0,282,"APR 01, 1988",34.0,13,Stanford,2021-22,1610612749,MIL,Milwaukee Bucks
+1629670,Jordan Nwora,jordan-nwora,13,F,6-8,225,"SEP 09, 1998",23.0,1,Louisville,2021-22,1610612749,MIL,Milwaukee Bucks
+201950,Jrue Holiday,jrue-holiday,21,G,6-3,205,"JUN 12, 1990",32.0,12,UCLA,2021-22,1610612749,MIL,Milwaukee Bucks
+203114,Khris Middleton,khris-middleton,22,F,6-7,222,"AUG 12, 1991",30.0,9,Texas A&M,2021-22,1610612749,MIL,Milwaukee Bucks
+202083,Wesley Matthews,wesley-matthews,23,G,6-4,220,"OCT 14, 1986",35.0,12,Marquette,2021-22,1610612749,MIL,Milwaukee Bucks
+1626192,Pat Connaughton,pat-connaughton,24,G,6-5,209,"JAN 06, 1993",29.0,6,Notre Dame,2021-22,1610612749,MIL,Milwaukee Bucks
+201586,Serge Ibaka,serge-ibaka,25,F,6-10,235,"SEP 18, 1989",32.0,12,Ricoh Manresa,2021-22,1610612749,MIL,Milwaukee Bucks
+1629623,Lindell Wigginton,lindell-wigginton,28,G,6-1,189,"MAR 28, 1998",24.0,R,Iowa State,2021-22,1610612749,MIL,Milwaukee Bucks
+203507,Giannis Antetokounmpo,giannis-antetokounmpo,34,F,6-11,242,"DEC 06, 1994",27.0,8,Filathlitikos,2021-22,1610612749,MIL,Milwaukee Bucks
+203648,Thanasis Antetokounmpo,thanasis-antetokounmpo,43,F,6-6,219,"JUL 18, 1992",29.0,3,Panathinaikos,2021-22,1610612749,MIL,Milwaukee Bucks
+1630572,Sandro Mamukelashvili,sandro-mamukelashvili,54,F-C,6-9,240,"MAY 23, 1999",23.0,R,Seton Hall,2021-22,1610612749,MIL,Milwaukee Bucks
+1629730,Rayjon Tucker,rayjon-tucker,59,G,6-3,209,"SEP 24, 1997",24.0,2,Arkansas-Little Rock,2021-22,1610612749,MIL,Milwaukee Bucks

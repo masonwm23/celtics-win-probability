@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+203210,JaMychal Green,jamychal-green,0,F-C,6-8,227,"JUN 21, 1990",31.0,6,Alabama,2020-21,1610612743,DEN,Denver Nuggets
+1630210,Markus Howard,markus-howard,00,G,5-10,175,"MAR 03, 1999",22.0,R,Marquette,2020-21,1610612743,DEN,Denver Nuggets
+1629008,Michael Porter Jr.,michael-porter-jr,1,F,6-10,218,"JUN 29, 1998",23.0,1,Missouri,2020-21,1610612743,DEN,Denver Nuggets
+1627885,Shaquille Harrison,shaquille-harrison,3,G,6-7,190,"OCT 06, 1993",27.0,3,Tulsa,2020-21,1610612743,DEN,Denver Nuggets
+200794,Paul Millsap,paul-millsap,4,F,6-7,257,"FEB 10, 1985",36.0,14,Louisiana Tech,2020-21,1610612743,DEN,Denver Nuggets
+203115,Will Barton,will-barton,5,G,6-6,181,"JAN 06, 1991",30.0,8,Memphis,2020-21,1610612743,DEN,Denver Nuggets
+1630267,Facundo Campazzo,facundo-campazzo,7,G,5-10,195,"MAR 23, 1991",30.0,R,Murcia,2020-21,1610612743,DEN,Denver Nuggets
+1629626,Bol Bol,bol-bol,10,C-F,7-2,220,"NOV 16, 1999",21.0,1,Oregon,2020-21,1610612743,DEN,Denver Nuggets
+1628420,Monté Morris,monté-morris,11,G,6-2,183,"JUN 27, 1995",26.0,3,Iowa State,2020-21,1610612743,DEN,Denver Nuggets
+203999,Nikola Jokić,nikola-jokić,15,C,6-11,284,"FEB 19, 1995",26.0,5,Mega Basket,2020-21,1610612743,DEN,Denver Nuggets
+1630192,Zeke Nnaji,zeke-nnaji,22,F-C,6-9,240,"JAN 09, 2001",20.0,R,Arizona,2020-21,1610612743,DEN,Denver Nuggets
+203085,Austin Rivers,austin-rivers,25,G,6-4,200,"AUG 01, 1992",28.0,8,Duke,2020-21,1610612743,DEN,Denver Nuggets
+1627750,Jamal Murray,jamal-murray,27,G,6-3,215,"FEB 23, 1997",24.0,4,Kentucky,2020-21,1610612743,DEN,Denver Nuggets
+1628427,Vlatko Čančar,vlatko-čančar,31,F,6-8,236,"APR 10, 1997",24.0,1,San Pablo Burgos,2020-21,1610612743,DEN,Denver Nuggets
+201580,JaVale McGee,javale-mcgee,34,C-F,7-0,270,"JAN 19, 1988",33.0,12,Nevada,2020-21,1610612743,DEN,Denver Nuggets
+1628408,PJ Dozier,pj-dozier,35,G-F,6-6,205,"OCT 25, 1996",24.0,3,South Carolina,2020-21,1610612743,DEN,Denver Nuggets
+203932,Aaron Gordon,aaron-gordon,50,F,6-8,235,"SEP 16, 1995",25.0,6,Arizona,2020-21,1610612743,DEN,Denver Nuggets

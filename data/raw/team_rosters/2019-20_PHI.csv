@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1626196,Josh Richardson,josh-richardson,0,G,6-5,200,"SEP 15, 1993",26.0,4,Tennessee,2019-20,1610612755,PHI,Philadelphia 76ers
+203118,Mike Scott,mike-scott,1,F,6-7,237,"JUL 16, 1988",31.0,7,Virginia,2019-20,1610612755,PHI,Philadelphia 76ers
+1629015,Zhaire Smith,zhaire-smith,5,G,6-3,205,"JUN 04, 1999",21.0,1,Texas Tech,2019-20,1610612755,PHI,Philadelphia 76ers
+203124,Kyle O'Quinn,kyle-oquinn,9,C-F,6-9,250,"MAR 26, 1990",30.0,7,Norfolk State,2019-20,1610612755,PHI,Philadelphia 76ers
+202699,Tobias Harris,tobias-harris,12,F,6-8,226,"JUL 15, 1992",27.0,8,Tennessee,2019-20,1610612755,PHI,Philadelphia 76ers
+203658,Norvel Pelle,norvel-pelle,14,F,6-10,231,"FEB 03, 1993",27.0,R,Iona,2019-20,1610612755,PHI,Philadelphia 76ers
+1629003,Shake Milton,shake-milton,18,G-F,6-5,205,"SEP 26, 1996",23.0,1,Southern Methodist,2019-20,1610612755,PHI,Philadelphia 76ers
+203526,Raul Neto,raul-neto,19,G,6-1,180,"MAY 19, 1992",28.0,4,Murcia,2019-20,1610612755,PHI,Philadelphia 76ers
+202692,Alec Burks,alec-burks,20,G,6-6,214,"JUL 20, 1991",28.0,8,Colorado,2019-20,1610612755,PHI,Philadelphia 76ers
+203954,Joel Embiid,joel-embiid,21,C-F,7-0,280,"MAR 16, 1994",26.0,3,Kansas,2019-20,1610612755,PHI,Philadelphia 76ers
+1629680,Matisse Thybulle,matisse-thybulle,22,G-F,6-5,201,"MAR 04, 1997",23.0,R,Washington,2019-20,1610612755,PHI,Philadelphia 76ers
+1627732,Ben Simmons,ben-simmons,25,G-F,6-10,240,"JUL 20, 1996",23.0,2,Louisiana State,2019-20,1610612755,PHI,Philadelphia 76ers
+1627788,Furkan Korkmaz,furkan-korkmaz,30,G-F,6-7,202,"JUL 24, 1997",22.0,2,Anadolu Efes,2019-20,1610612755,PHI,Philadelphia 76ers
+1629621,Marial Shayok,marial-shayok,35,G-F,6-5,198,"JUL 26, 1995",24.0,R,Iowa State,2019-20,1610612755,PHI,Philadelphia 76ers
+203922,Glenn Robinson III,glenn-robinson-iii,40,F,6-6,222,"JAN 08, 1994",26.0,5,Michigan,2019-20,1610612755,PHI,Philadelphia 76ers
+201143,Al Horford,al-horford,42,C-F,6-9,240,"JUN 03, 1986",34.0,12,Florida,2019-20,1610612755,PHI,Philadelphia 76ers
+1629151,Ryan Broekhoff,ryan-broekhoff,45,G-F,6-6,215,"AUG 23, 1990",29.0,1,Valparaiso,2019-20,1610612755,PHI,Philadelphia 76ers

@@ -1,0 +1,16 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1627737,Marquese Chriss,marquese-chriss,0,F,6-10,233,"JUL 02, 1997",19.0,R,Washington,2016-17,1610612756,PHX,Phoenix Suns
+1626164,Devin Booker,devin-booker,1,G,6-6,206,"OCT 30, 1996",20.0,1,Kentucky,2016-17,1610612756,PHX,Phoenix Suns
+202339,Eric Bledsoe,eric-bledsoe,2,G,6-1,205,"DEC 09, 1989",27.0,6,Kentucky,2016-17,1610612756,PHX,Phoenix Suns
+201162,Jared Dudley,jared-dudley,3,F,6-7,225,"JUL 10, 1985",31.0,9,Boston College,2016-17,1610612756,PHX,Phoenix Suns
+2199,Tyson Chandler,tyson-chandler,4,C,7-1,240,"OCT 02, 1982",34.0,15,Dominguez HS (CA),2016-17,1610612756,PHX,Phoenix Suns
+1627755,Tyler Ulis,tyler-ulis,8,G,5-10,150,"JAN 05, 1996",21.0,R,Kentucky,2016-17,1610612756,PHX,Phoenix Suns
+1627884,Derrick Jones Jr.,derrick-jones-jr,10,F,6-7,190,"FEB 15, 1997",20.0,R,UNLV,2016-17,1610612756,PHX,Phoenix Suns
+202688,Brandon Knight,brandon-knight,11,G,6-3,195,"DEC 02, 1991",25.0,5,Kentucky,2016-17,1610612756,PHX,Phoenix Suns
+203933,T.J. Warren,tj-warren,12,F,6-8,225,"SEP 05, 1993",23.0,2,North Carolina State,2016-17,1610612756,PHX,Phoenix Suns
+101179,Ronnie Price,ronnie-price,14,G,6-2,190,"JUN 21, 1983",34.0,11,Utah Valley,2016-17,1610612756,PHX,Phoenix Suns
+1626210,Alan Williams,alan-williams,15,F-C,6-8,260,"JAN 28, 1993",24.0,1,Cal-Santa Barbara,2016-17,1610612756,PHX,Phoenix Suns
+2571,Leandro Barbosa,leandro-barbosa,19,G,6-3,194,"NOV 28, 1982",34.0,13,Bauru,2016-17,1610612756,PHX,Phoenix Suns
+203458,Alex Len,alex-len,21,C,7-1,260,"JUN 16, 1993",24.0,3,Maryland,2016-17,1610612756,PHX,Phoenix Suns
+202407,Elijah Millsap,elijah-millsap,22,G-F,6-7,215,"AUG 12, 1987",29.0,2,Alabama-Birmingham,2016-17,1610612756,PHX,Phoenix Suns
+1627733,Dragan Bender,dragan-bender,35,F,7-1,225,"NOV 17, 1997",19.0,R,Maccabi Tel Aviv,2016-17,1610612756,PHX,Phoenix Suns

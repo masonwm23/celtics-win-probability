@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1629627,Zion Williamson,zion-williamson,1,F,6-6,284,"JUL 06, 2000",21.0,2,Duke,2021-22,1610612740,NOP,New Orleans Pelicans
+1629607,Jared Harper,jared-harper,2,G,5-10,175,"SEP 14, 1997",24.0,2,Auburn,2021-22,1610612740,NOP,New Orleans Pelicans
+203468,CJ McCollum,cj-mccollum,3,G,6-3,190,"SEP 19, 1991",30.0,8,Lehigh,2021-22,1610612740,NOP,New Orleans Pelicans
+1628984,Devonte' Graham,devonte-graham,4,G,6-1,195,"FEB 22, 1995",27.0,3,Kansas,2021-22,1610612740,NOP,New Orleans Pelicans
+1630529,Herbert Jones,herbert-jones,5,F,6-7,206,"OCT 06, 1998",23.0,R,Alabama,2021-22,1610612740,NOP,New Orleans Pelicans
+1630230,Naji Marshall,naji-marshall,8,F,6-7,220,"JAN 24, 1998",24.0,1,Xavier,2021-22,1610612740,NOP,New Orleans Pelicans
+1626195,Willy Hernangomez,willy-hernangomez,9,C-F,6-11,250,"MAY 27, 1994",28.0,5,Cajasol Sevilla,2021-22,1610612740,NOP,New Orleans Pelicans
+1629637,Jaxson Hayes,jaxson-hayes,10,C-F,6-11,220,"MAY 23, 2000",22.0,2,Texas,2021-22,1610612740,NOP,New Orleans Pelicans
+1629109,Gary Clark,gary-clark,12,F,6-6,225,"NOV 16, 1994",27.0,3,Cincinnati,2021-22,1610612740,NOP,New Orleans Pelicans
+1630184,Kira Lewis Jr.,kira-lewis-jr,13,G,6-1,170,"APR 06, 2001",21.0,1,Alabama,2021-22,1610612740,NOP,New Orleans Pelicans
+1627742,Brandon Ingram,brandon-ingram,14,F,6-8,190,"SEP 02, 1997",24.0,5,Duke,2021-22,1610612740,NOP,New Orleans Pelicans
+1630631,Jose Alvarado,jose-alvarado,15,G,6-0,179,"APR 12, 1998",24.0,R,Georgia Tech,2021-22,1610612740,NOP,New Orleans Pelicans
+202685,Jonas Valančiūnas,jonas-valančiūnas,17,C,6-11,265,"MAY 06, 1992",30.0,9,Lietuvos rytas Vilnius,2021-22,1610612740,NOP,New Orleans Pelicans
+203503,Tony Snell,tony-snell,21,G,6-6,213,"NOV 10, 1991",30.0,8,New Mexico,2021-22,1610612740,NOP,New Orleans Pelicans
+1626204,Larry Nance Jr.,larry-nance-jr,22,F-C,6-7,245,"JAN 01, 1993",29.0,6,Wyoming,2021-22,1610612740,NOP,New Orleans Pelicans
+1630530,Trey Murphy III,trey-murphy-iii,25,F,6-8,206,"JUN 18, 2000",22.0,R,Virginia,2021-22,1610612740,NOP,New Orleans Pelicans
+202066,Garrett Temple,garrett-temple,41,G-F,6-5,195,"MAY 08, 1986",36.0,11,Louisiana State,2021-22,1610612740,NOP,New Orleans Pelicans

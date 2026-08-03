@@ -1,0 +1,113 @@
+======================================================================
+PHASE 1 VALIDATION - CELTICS GAME INDEX
+Run at: 2026-07-30T03:45:03+00:00
+Source: /Users/masonmarathias/Desktop/celtics_wp/data/raw/game_index.csv
+======================================================================
+
+CHECKS
+  [PASS] Season game counts match expectations (total 636)
+         total rows = 636
+  [PASS] GAME_ID values are unique
+  [PASS] GAME_ID format is regular season (10 chars, 002 prefix)
+  [PASS] Opponent abbreviations are valid and never BOS
+  [PASS] Distinct opponents equals 29
+         found 29: ['ATL', 'BKN', 'CHA', 'CHI', 'CLE', 'DAL', 'DEN', 'DET', 'GSW', 'HOU', 'IND', 'LAC', 'LAL', 'MEM', 'MIA', 'MIL', 'MIN', 'NOP', 'NYK', 'OKC', 'ORL', 'PHI', 'PHX', 'POR', 'SAC', 'SAS', 'TOR', 'UTA', 'WAS']
+  [PASS] Home and away games are balanced within each season
+  [PASS] Game dates fall inside their season's plausible window
+  [PASS] Boston never plays two games on the same calendar date
+  [PASS] Boston point totals are between 50 and 175
+         range 75 to 155
+  [PASS] PLUS_MINUS is a whole number (documented anomalies excused)
+         5 game(s) excused via the anomaly registry
+  [PASS] Win/loss agrees with the sign of PLUS_MINUS (documented anomalies excused)
+  [DEFER] WL verified against final scores for all games
+         Phase 2. Requires the boxscore pull. A 15 game sample has been verified so far (5 suspects plus 10 controls), all correct.
+  [DEFER] Player plus/minus sums to 5 x margin for all games
+         Phase 2. Tests whether the substitution logs are internally consistent, which lineup reconstruction in Phase 3 depends on. The five registry games are known to fail this; the question is how many others do.
+
+DOCUMENTED DATA ANOMALIES
+-------------------------
+  5 game(s) carry a documented, verified anomaly.
+  These are excused from the specific check named, and only
+  that check. Evidence is recorded for each.
+
+  2017-12-21  BOS @ NYK  [PLUS_MINUS]  game_id 0021700468
+    issue    : Non-integer team plus/minus. Player-level plus/minus does not sum to 5 x final margin, which indicates an internally inconsistent substitution log for this game.
+    reported : -8.8
+    verified_bos_pts: 93
+    verified_opp_pts: 102
+    verified_margin: -9
+    implied_player_sum: -44
+    expected_player_sum: -45
+    verified : nba_api BoxScoreSummaryV2 LineScore on 2026-07-30
+    action   : WL and PTS independently confirmed correct. PLUS_MINUS is never used as a margin anywhere in the pipeline; the authoritative margin comes from final scores. Excused from the integer and sign checks only. Flagged for the Phase 2 substitution coherence check.
+
+  2018-01-29  BOS @ DEN  [PLUS_MINUS]  game_id 0021700743
+    issue    : Non-integer team plus/minus. Player-level plus/minus does not sum to 5 x final margin, which indicates an internally inconsistent substitution log for this game.
+    reported : -2.6
+    verified_bos_pts: 111
+    verified_opp_pts: 110
+    verified_margin: 1
+    implied_player_sum: -13
+    expected_player_sum: 5
+    verified : nba_api BoxScoreSummaryV2 LineScore on 2026-07-30
+    action   : WL and PTS independently confirmed correct. PLUS_MINUS is never used as a margin anywhere in the pipeline; the authoritative margin comes from final scores. Excused from the integer and sign checks only. Flagged for the Phase 2 substitution coherence check.
+
+  2018-02-04  BOS vs. POR  [PLUS_MINUS]  game_id 0021700784
+    issue    : Non-integer team plus/minus. Player-level plus/minus does not sum to 5 x final margin, which indicates an internally inconsistent substitution log for this game.
+    reported : 1.2
+    verified_bos_pts: 97
+    verified_opp_pts: 96
+    verified_margin: 1
+    implied_player_sum: 6
+    expected_player_sum: 5
+    verified : nba_api BoxScoreSummaryV2 LineScore on 2026-07-30
+    action   : WL and PTS independently confirmed correct. PLUS_MINUS is never used as a margin anywhere in the pipeline; the authoritative margin comes from final scores. Excused from the integer and sign checks only. Flagged for the Phase 2 substitution coherence check.
+
+  2018-03-03  BOS @ HOU  [PLUS_MINUS]  game_id 0021700939
+    issue    : Non-integer team plus/minus. Player-level plus/minus does not sum to 5 x final margin, which indicates an internally inconsistent substitution log for this game.
+    reported : -2.6
+    verified_bos_pts: 120
+    verified_opp_pts: 123
+    verified_margin: -3
+    implied_player_sum: -13
+    expected_player_sum: -15
+    verified : nba_api BoxScoreSummaryV2 LineScore on 2026-07-30
+    action   : WL and PTS independently confirmed correct. PLUS_MINUS is never used as a margin anywhere in the pipeline; the authoritative margin comes from final scores. Excused from the integer and sign checks only. Flagged for the Phase 2 substitution coherence check.
+
+  2022-11-05  BOS @ NYK  [PLUS_MINUS]  game_id 0022200135
+    issue    : Non-integer team plus/minus. Player-level plus/minus does not sum to 5 x final margin, which indicates an internally inconsistent substitution log for this game.
+    reported : 10.4
+    verified_bos_pts: 133
+    verified_opp_pts: 118
+    verified_margin: 15
+    implied_player_sum: 52
+    expected_player_sum: 75
+    verified : nba_api BoxScoreSummaryV2 LineScore on 2026-07-30
+    action   : WL and PTS independently confirmed correct. PLUS_MINUS is never used as a margin anywhere in the pipeline; the authoritative margin comes from final scores. Excused from the integer and sign checks only. Flagged for the Phase 2 substitution coherence check.
+
+
+DESCRIPTIVE SUMMARY
+  Games: 636
+  Date range: 2016-10-26 to 2024-04-14
+  Overall record: 413-223 (0.649)
+
+  Per season record (this is the target variable's base rate,
+  and it is what any model has to beat):
+    2016-17  53-29 (0.646)   home 30/41   away 23/41
+    2017-18  55-27 (0.671)   home 27/41   away 28/41
+    2018-19  49-33 (0.598)   home 28/41   away 21/41
+    2019-20  48-24 (0.667)   home 26/36   away 22/36
+    2020-21  36-36 (0.500)   home 21/36   away 15/36
+    2021-22  51-31 (0.622)   home 28/41   away 23/41
+    2022-23  57-25 (0.695)   home 32/41   away 25/41
+    2023-24  64-18 (0.780)   home 37/41   away 27/41
+
+======================================================================
+RESULT: 11 passed, 0 failed, 2 deferred
+Game index is validated. Ready for the raw data pull.
+
+Note: the deferred checks above are not optional.
+They require data that does not exist yet and must
+run in Phase 2 before any model is trained.
+======================================================================

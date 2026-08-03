@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1626161,Willie Cauley-Stein,willie-cauley-stein,00,C,7-0,240,"AUG 18, 1993",29.0,7,Kentucky,2022-23,1610612745,HOU,Houston Rockets
+1631102,TyTy Washington Jr.,tyty-washington-jr,0,G,6-3,195,"NOV 15, 2001",21.0,R,Kentucky,2022-23,1610612745,HOU,Houston Rockets
+1631095,Jabari Smith Jr.,jabari-smith-jr,1,F,6-11,220,"MAY 13, 2003",20.0,R,Auburn,2022-23,1610612745,HOU,Houston Rockets
+1629645,Kevin Porter Jr.,kevin-porter-jr,3,G-F,6-4,203,"MAY 04, 2000",23.0,3,Southern California,2022-23,1610612745,HOU,Houston Rockets
+1630224,Jalen Green,jalen-green,4,G,6-4,186,"FEB 09, 2002",21.0,1,NBA G League Ignite,2022-23,1610612745,HOU,Houston Rockets
+201571,D.J. Augustin,dj-augustin,4,G,5-11,183,"NOV 10, 1987",35.0,14,Texas,2022-23,1610612745,HOU,Houston Rockets
+1630620,Darius Days,darius-days,5,F,6-7,245,"OCT 20, 1999",23.0,R,Winnipeg Sea Bears,2022-23,1610612745,HOU,Houston Rockets
+1630231,KJ Martin,kj-martin,6,F,6-7,215,"JAN 06, 2001",22.0,2,IMG Academy (FL),2022-23,1610612745,HOU,Houston Rockets
+1630256,Jae'Sean Tate,jaesean-tate,8,F,6-5,230,"OCT 28, 1995",27.0,2,Ohio State,2022-23,1610612745,HOU,Houston Rockets
+1630528,Josh Christopher,josh-christopher,9,G,6-4,215,"DEC 08, 2001",21.0,1,Arizona State,2022-23,1610612745,HOU,Houston Rockets
+1631309,Trevor Hudgins,trevor-hudgins,12,G,6-0,180,"MAR 23, 1999",24.0,R,Northwest Missouri St.,2022-23,1610612745,HOU,Houston Rockets
+1630227,Daishen Nix,daishen-nix,15,G,6-4,226,"FEB 13, 2002",21.0,1,NBA G League Ignite,2022-23,1610612745,HOU,Houston Rockets
+1630586,Usman Garuba,usman-garuba,16,F,6-8,229,"MAR 09, 2002",21.0,1,Real Madrid,2022-23,1610612745,HOU,Houston Rockets
+1631106,Tari Eason,tari-eason,17,F,6-8,215,"MAY 10, 2001",22.0,R,Louisiana State,2022-23,1610612745,HOU,Houston Rockets
+1630578,Alperen Sengun,alperen-sengun,28,C,6-11,243,"JUL 25, 2002",20.0,1,Besiktas,2022-23,1610612745,HOU,Houston Rockets
+1626163,Frank Kaminsky,frank-kaminsky,33,F-C,7-0,240,"APR 04, 1993",30.0,7,Wisconsin,2022-23,1610612745,HOU,Houston Rockets
+1626246,Boban Marjanovic,boban-marjanovic,51,C,7-4,290,"AUG 15, 1988",34.0,7,Crvena zvezda,2022-23,1610612745,HOU,Houston Rockets

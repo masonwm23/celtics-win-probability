@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+201580,JaVale McGee,javale-mcgee,00,C-F,7-0,270,"JAN 19, 1988",35.0,14,Nevada,2022-23,1610612742,DAL,Dallas Mavericks
+203200,Justin Holiday,justin-holiday,0,F-G,6-6,180,"APR 05, 1989",34.0,9,Washington,2022-23,1610612742,DAL,Dallas Mavericks
+1629033,Theo Pinson,theo-pinson,1,G-F,6-7,212,"NOV 05, 1995",27.0,4,North Carolina,2022-23,1610612742,DAL,Dallas Mavericks
+202681,Kyrie Irving,kyrie-irving,2,G,6-2,195,"MAR 23, 1992",31.0,11,Duke,2022-23,1610612742,DAL,Dallas Mavericks
+1630702,Jaden Hardy,jaden-hardy,3,G,6-3,198,"JUL 05, 2002",20.0,R,NBA G League Ignite,2022-23,1610612742,DAL,Dallas Mavericks
+203939,Dwight Powell,dwight-powell,7,F-C,6-10,240,"JUL 20, 1991",31.0,8,Stanford,2022-23,1610612742,DAL,Dallas Mavericks
+1630182,Josh Green,josh-green,8,G,6-7,200,"NOV 16, 2000",22.0,2,Arizona,2022-23,1610612742,DAL,Dallas Mavericks
+1630639,A.J. Lawson,aj-lawson,9,G,6-6,179,"JUL 15, 2000",22.0,R,South Carolina,2022-23,1610612742,DAL,Dallas Mavericks
+203501,Tim Hardaway Jr.,tim-hardaway-jr,11,G-F,6-5,205,"MAR 16, 1992",31.0,9,Michigan,2022-23,1610612742,DAL,Dallas Mavericks
+202693,Markieff Morris,markieff-morris,13,F,6-9,245,"SEP 02, 1989",33.0,11,Kansas,2022-23,1610612742,DAL,Dallas Mavericks
+1628373,Frank Ntilikina,frank-ntilikina,21,G,6-4,200,"JUL 28, 1998",24.0,5,Strasbourg IG,2022-23,1610612742,DAL,Dallas Mavericks
+1630593,McKinley Wright IV,mckinley-wright-iv,23,G,5-11,192,"OCT 25, 1998",24.0,1,Colorado,2022-23,1610612742,DAL,Dallas Mavericks
+203493,Reggie Bullock Jr.,reggie-bullock-jr,25,G-F,6-6,205,"MAR 16, 1991",32.0,9,North Carolina,2022-23,1610612742,DAL,Dallas Mavericks
+1626174,Christian Wood,christian-wood,35,F,6-9,214,"SEP 27, 1995",27.0,6,UNLV,2022-23,1610612742,DAL,Dallas Mavericks
+1628467,Maxi Kleber,maxi-kleber,42,F,6-10,240,"JAN 29, 1992",31.0,5,Bayern Munich,2022-23,1610612742,DAL,Dallas Mavericks
+202722,Davis Bertans,davis-bertans,44,F,6-10,225,"NOV 12, 1992",30.0,6,Baskonia,2022-23,1610612742,DAL,Dallas Mavericks
+1629029,Luka Dončić,luka-dončić,77,F-G,6-7,230,"FEB 28, 1999",24.0,4,Real Madrid,2022-23,1610612742,DAL,Dallas Mavericks

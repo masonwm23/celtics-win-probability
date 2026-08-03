@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1629632,Coby White,coby-white,0,G,6-5,195,"FEB 16, 2000",23.0,3,North Carolina,2022-23,1610612741,CHI,Chicago Bulls
+1628366,Lonzo Ball,lonzo-ball,2,G,6-6,190,"OCT 27, 1997",25.0,5,UCLA,2022-23,1610612741,CHI,Chicago Bulls
+203083,Andre Drummond,andre-drummond,3,C,6-11,279,"AUG 10, 1993",29.0,10,Connecticut,2022-23,1610612741,CHI,Chicago Bulls
+1627884,Derrick Jones Jr.,derrick-jones-jr,5,F,6-6,210,"FEB 15, 1997",26.0,6,UNLV,2022-23,1610612741,CHI,Chicago Bulls
+1627936,Alex Caruso,alex-caruso,6,G,6-5,186,"FEB 28, 1994",29.0,5,Texas A&M,2022-23,1610612741,CHI,Chicago Bulls
+203897,Zach LaVine,zach-lavine,8,G,6-5,200,"MAR 10, 1995",28.0,8,UCLA,2022-23,1610612741,CHI,Chicago Bulls
+202696,Nikola Vučević,nikola-vučević,9,C,6-10,260,"OCT 24, 1990",32.0,11,Southern California,2022-23,1610612741,CHI,Chicago Bulls
+201942,DeMar DeRozan,demar-derozan,11,G-F,6-6,220,"AUG 07, 1989",33.0,13,Southern California,2022-23,1610612741,CHI,Chicago Bulls
+1630245,Ayo Dosunmu,ayo-dosunmu,12,G,6-5,200,"JAN 17, 2000",23.0,1,Illinois,2022-23,1610612741,CHI,Chicago Bulls
+1630250,Marko Simonovic,marko-simonovic,19,C,7-0,220,"OCT 15, 1999",23.0,1,Mega Basket,2022-23,1610612741,CHI,Chicago Bulls
+201976,Patrick Beverley,patrick-beverley,21,G,6-2,180,"JUL 12, 1988",34.0,10,Arkansas,2022-23,1610612741,CHI,Chicago Bulls
+1630637,Carlik Jones,carlik-jones,22,G,6-0,174,"DEC 23, 1997",25.0,1,Louisville,2022-23,1610612741,CHI,Chicago Bulls
+1629750,Javonte Green,javonte-green,24,G,6-5,205,"JUL 23, 1993",29.0,3,Radford,2022-23,1610612741,CHI,Chicago Bulls
+1631207,Dalen Terry,dalen-terry,25,F,6-7,195,"JUL 12, 2002",20.0,R,Arizona,2022-23,1610612741,CHI,Chicago Bulls
+1630678,Terry Taylor,terry-taylor,32,F,6-4,230,"SEP 23, 1999",23.0,1,Austin Peay,2022-23,1610612741,CHI,Chicago Bulls
+1631171,Justin Lewis,justin-lewis,34,F,6-7,245,"APR 12, 2002",21.0,R,Marquette,2022-23,1610612741,CHI,Chicago Bulls
+1630172,Patrick Williams,patrick-williams,44,F,6-7,215,"AUG 26, 2001",21.0,2,Florida State,2022-23,1610612741,CHI,Chicago Bulls

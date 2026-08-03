@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1629056,Terence Davis,terence-davis,0,G,6-4,201,"MAY 16, 1997",23.0,R,Mississippi,2019-20,1610612761,TOR,Toronto Raptors
+1628778,Paul Watson,paul-watson,1,G,6-6,210,"DEC 30, 1994",25.0,R,Fresno State,2019-20,1610612761,TOR,Toronto Raptors
+1628384,OG Anunoby,og-anunoby,3,F,6-7,232,"JUL 17, 1997",22.0,2,Indiana,2019-20,1610612761,TOR,Toronto Raptors
+1626178,Rondae Hollis-Jefferson,rondae-hollis-jefferson,4,F,6-6,217,"JAN 03, 1995",25.0,4,Arizona,2019-20,1610612761,TOR,Toronto Raptors
+1626169,Stanley Johnson,stanley-johnson,5,F-G,6-6,242,"MAY 29, 1996",24.0,4,Arizona,2019-20,1610612761,TOR,Toronto Raptors
+200768,Kyle Lowry,kyle-lowry,7,G,6-0,196,"MAR 25, 1986",34.0,13,Villanova,2019-20,1610612761,TOR,Toronto Raptors
+201586,Serge Ibaka,serge-ibaka,9,F,7-0,235,"SEP 18, 1989",30.0,10,Ricoh Manresa,2019-20,1610612761,TOR,Toronto Raptors
+1629052,Oshae Brissett,oshae-brissett,12,F-G,6-7,210,"JUN 20, 1998",22.0,R,Syracuse,2019-20,1610612761,TOR,Toronto Raptors
+1626259,Malcolm Miller,malcolm-miller,13,G-F,6-7,210,"MAR 06, 1993",27.0,2,Holy Cross,2019-20,1610612761,TOR,Toronto Raptors
+1629608,Dewan Hernandez,dewan-hernandez,20,C-F,6-10,235,"DEC 09, 1996",23.0,R,Miami,2019-20,1610612761,TOR,Toronto Raptors
+1629744,Matt Thomas,matt-thomas,21,G,6-4,190,"AUG 04, 1994",25.0,R,Iowa State,2019-20,1610612761,TOR,Toronto Raptors
+1627775,Patrick McCaw,patrick-mccaw,22,G,6-7,181,"OCT 25, 1995",24.0,3,UNLV,2019-20,1610612761,TOR,Toronto Raptors
+1627832,Fred VanVleet,fred-vanvleet,23,G,6-1,197,"FEB 25, 1994",26.0,3,Wichita State,2019-20,1610612761,TOR,Toronto Raptors
+1626181,Norman Powell,norman-powell,24,G,6-3,215,"MAY 25, 1993",27.0,4,UCLA,2019-20,1610612761,TOR,Toronto Raptors
+1628449,Chris Boucher,chris-boucher,25,F-C,6-9,200,"JAN 11, 1993",27.0,2,Oregon,2019-20,1610612761,TOR,Toronto Raptors
+201188,Marc Gasol,marc-gasol,33,C,6-11,255,"JAN 29, 1985",35.0,11,FC Barcelona,2019-20,1610612761,TOR,Toronto Raptors
+1627783,Pascal Siakam,pascal-siakam,43,F,6-9,230,"APR 02, 1994",26.0,3,New Mexico State,2019-20,1610612761,TOR,Toronto Raptors

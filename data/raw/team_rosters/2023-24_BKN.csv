@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1641727,Dariq Whitehead,dariq-whitehead,0,F,6-6,220,"AUG 01, 2004",19.0,R,Duke,2023-24,1610612751,BKN,Brooklyn Nets
+1628969,Mikal Bridges,mikal-bridges,1,G-F,6-6,209,"AUG 30, 1996",27.0,5,Villanova,2023-24,1610612751,BKN,Brooklyn Nets
+1629661,Cameron Johnson,cameron-johnson,2,F,6-8,210,"MAR 03, 1996",28.0,4,North Carolina,2023-24,1610612751,BKN,Brooklyn Nets
+1628372,Dennis Smith Jr.,dennis-smith-jr,4,G,6-3,205,"NOV 25, 1997",26.0,6,North Carolina State,2023-24,1610612751,BKN,Brooklyn Nets
+1629022,Lonnie Walker IV,lonnie-walker-iv,8,G-F,6-4,204,"DEC 14, 1998",25.0,5,Miami,2023-24,1610612751,BKN,Brooklyn Nets
+1630570,Trendon Watford,trendon-watford,9,F,6-8,237,"NOV 09, 2000",23.0,2,Louisiana State,2023-24,1610612751,BKN,Brooklyn Nets
+1627732,Ben Simmons,ben-simmons,10,G-F,6-10,240,"JUL 20, 1996",27.0,6,Louisiana State,2023-24,1610612751,BKN,Brooklyn Nets
+1628966,Keita Bates-Diop,keita-bates-diop,13,F,6-8,229,"JAN 23, 1996",28.0,5,Ohio State,2023-24,1610612751,BKN,Brooklyn Nets
+1631367,Jacob Gilyard,jacob-gilyard,14,G,5-8,160,"JUL 14, 1998",25.0,1,Richmond,2023-24,1610612751,BKN,Brooklyn Nets
+1641798,Jaylen Martin,jaylen-martin,16,G,6-6,216,"JAN 28, 2004",20.0,R,Overtime Elite,2023-24,1610612751,BKN,Brooklyn Nets
+203471,Dennis Schröder,dennis-schröder,17,G,6-1,175,"SEP 15, 1993",30.0,10,Braunschweig,2023-24,1610612751,BKN,Brooklyn Nets
+1630549,Day'Ron Sharpe,dayron-sharpe,20,C,6-9,265,"NOV 06, 2001",22.0,2,North Carolina,2023-24,1610612751,BKN,Brooklyn Nets
+1641730,Noah Clowney,noah-clowney,21,F,6-9,210,"JUL 14, 2004",19.0,R,Alabama,2023-24,1610612751,BKN,Brooklyn Nets
+1630592,Jalen Wilson,jalen-wilson,22,F,6-6,220,"NOV 04, 2000",23.0,R,Kansas,2023-24,1610612751,BKN,Brooklyn Nets
+1630560,Cam Thomas,cam-thomas,24,G,6-3,210,"OCT 13, 2001",22.0,2,Louisiana State,2023-24,1610612751,BKN,Brooklyn Nets
+1627827,Dorian Finney-Smith,dorian-finney-smith,28,F,6-7,220,"MAY 04, 1993",31.0,7,Florida,2023-24,1610612751,BKN,Brooklyn Nets
+1629651,Nic Claxton,nic-claxton,33,C,6-11,215,"APR 17, 1999",25.0,4,Georgia,2023-24,1610612751,BKN,Brooklyn Nets
+1630553,Keon Johnson,keon-johnson,45,G,6-5,185,"MAR 10, 2002",22.0,2,Tennessee,2023-24,1610612751,BKN,Brooklyn Nets

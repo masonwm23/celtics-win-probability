@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+203933,T.J. Warren,tj-warren,1,F,6-8,220,"SEP 05, 1993",27.0,6,North Carolina State,2020-21,1610612754,IND,Indiana Pacers
+1630199,Cassius Stanley,cassius-stanley,2,G,6-5,190,"AUG 18, 1999",21.0,R,Duke,2020-21,1610612754,IND,Indiana Pacers
+1628988,Aaron Holiday,aaron-holiday,3,G,6-0,185,"SEP 30, 1996",24.0,2,UCLA,2020-21,1610612754,IND,Indiana Pacers
+1628410,Edmond Sumner,edmond-sumner,5,G,6-4,196,"DEC 31, 1995",25.0,3,Xavier,2020-21,1610612754,IND,Indiana Pacers
+1627763,Malcolm Brogdon,malcolm-brogdon,7,G,6-5,229,"DEC 11, 1992",28.0,4,Virginia,2020-21,1610612754,IND,Indiana Pacers
+203200,Justin Holiday,justin-holiday,8,F-G,6-6,180,"APR 05, 1989",32.0,7,Washington,2020-21,1610612754,IND,Indiana Pacers
+204456,T.J. McConnell,tj-mcconnell,9,G,6-1,190,"MAR 25, 1992",29.0,5,Arizona,2020-21,1610612754,IND,Indiana Pacers
+1627734,Domantas Sabonis,domantas-sabonis,11,F-C,6-11,240,"MAY 03, 1996",25.0,4,Gonzaga,2020-21,1610612754,IND,Indiana Pacers
+1629052,Oshae Brissett,oshae-brissett,12,F-G,6-7,210,"JUN 20, 1998",23.0,1,Syracuse,2020-21,1610612754,IND,Indiana Pacers
+203960,JaKarr Sampson,jakarr-sampson,14,F,6-7,214,"MAR 20, 1993",28.0,5,St. John's (NY),2020-21,1610612754,IND,Indiana Pacers
+203926,Doug McDermott,doug-mcdermott,20,F,6-7,225,"JAN 03, 1992",29.0,6,Creighton,2020-21,1610612754,IND,Indiana Pacers
+1629103,Kelan Martin,kelan-martin,21,F,6-5,230,"AUG 03, 1995",25.0,1,Butler,2020-21,1610612754,IND,Indiana Pacers
+1627747,Caris LeVert,caris-levert,22,G,6-6,205,"AUG 25, 1994",26.0,4,Michigan,2020-21,1610612754,IND,Indiana Pacers
+203087,Jeremy Lamb,jeremy-lamb,26,G-F,6-5,180,"MAY 30, 1992",29.0,8,Connecticut,2020-21,1610612754,IND,Indiana Pacers
+1626167,Myles Turner,myles-turner,33,C-F,6-11,250,"MAR 24, 1996",25.0,5,Texas,2020-21,1610612754,IND,Indiana Pacers
+1628578,Amida Brimah,amida-brimah,37,C,6-10,230,"FEB 11, 1994",27.0,R,Connecticut,2020-21,1610612754,IND,Indiana Pacers
+1629048,Goga Bitadze,goga-bitadze,88,C-F,6-11,250,"JUL 20, 1999",21.0,1,Mega Basket,2020-21,1610612754,IND,Indiana Pacers

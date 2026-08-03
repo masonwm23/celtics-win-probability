@@ -1,0 +1,71 @@
+==============================================================================
+PHASE 8a - FORWARD CHAINING VERSUS LEAVE-ONE-SEASON-OUT
+Run at: 2026-07-30T14:32:09-04:00
+==============================================================================
+
+  Leave-one-season-out lets a fold train on 2023-24 to predict 2016-17.
+  That measures how much team-specific structure exists in the data. It
+  is not how a live model would be used, because on any given night you
+  only have the past.
+
+  Forward chaining trains only on EARLIER seasons, expanding the window.
+  Both designs are scored here on exactly the same held-out seasons, so
+  the comparison is of split designs and not of different test sets.
+
+  Common test seasons: 2019-20, 2020-21, 2021-22, 2022-23, 2023-24
+  Rows scored: 189,014 of 308,975
+
+==============================================================================
+FOLD STRUCTURE
+==============================================================================
+
+  split                 held out    train seasons  train games  test games
+  leave-one-season-out  2019-20                 7          564          72
+  leave-one-season-out  2020-21                 7          564          72
+  leave-one-season-out  2021-22                 7          554          82
+  leave-one-season-out  2022-23                 7          554          82
+  leave-one-season-out  2023-24                 7          554          82
+  forward chaining      2019-20                 3          246          72
+  forward chaining      2020-21                 4          318          72
+  forward chaining      2021-22                 5          390          82
+  forward chaining      2022-23                 6          472          82
+  forward chaining      2023-24                 7          554          82
+
+  THE CONFOUND, STATED PLAINLY. Forward chaining differs in two ways at
+  once: it never sees the future AND it trains on less data, three to
+  seven seasons instead of a constant seven. Any gap below cannot be
+  attributed to directionality alone. The earliest fold is where a
+  data-volume effect should bite hardest if it is driving anything.
+
+==============================================================================
+PERFORMANCE UNDER BOTH SPLIT DESIGNS
+==============================================================================
+
+  model                                         split                      AUC    Brier   skill     ECE
+  Tier 2: generic in-game baseline (margin and  leave-one-season-out    0.8300   0.1558  31.6%  0.0150
+  Tier 2: generic in-game baseline (margin and  forward chaining        0.8302   0.1564  31.3%  0.0227
+
+  Tier 3: Celtics-specific, game state          leave-one-season-out    0.8335   0.1537  32.5%  0.0154
+  Tier 3: Celtics-specific, game state          forward chaining        0.8288   0.1562  31.4%  0.0165
+
+  Linear baseline plus opponent differential    leave-one-season-out    0.8394   0.1521  33.2%  0.0148
+  Linear baseline plus opponent differential    forward chaining        0.8394   0.1526  33.0%  0.0195
+
+==============================================================================
+IS THE DIFFERENCE REAL? CLUSTER BOOTSTRAP ON GAMES
+==============================================================================
+
+  Positive difference means FORWARD CHAINING is better.
+
+  model                                                    diff                95% CI  real?
+  Tier 2: generic in-game baseline (margin and time)    -0.0006    [-0.0016, +0.0003]     no
+  Tier 3: Celtics-specific, game state                  -0.0025    [-0.0047, -0.0005]    yes
+  Linear baseline plus opponent differential            -0.0006    [-0.0016, +0.0005]     no
+
+  FORWARD CHAINING IS MEASURABLY WORSE for: Tier 3: Celtics-specific, game state
+  The published leave-one-season-out numbers are therefore optimistic
+  relative to deployment, and the paper must say so with this number
+  attached. Remember the confound: less training data, not only
+  direction of time.
+
+==============================================================================

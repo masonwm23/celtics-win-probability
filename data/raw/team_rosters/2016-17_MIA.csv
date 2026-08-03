@@ -1,0 +1,16 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1626196,Josh Richardson,josh-richardson,0,G,6-6,200,"SEP 15, 1993",23.0,1,Tennessee,2016-17,1610612748,MIA,Miami Heat
+2547,Chris Bosh,chris-bosh,1,F,6-11,235,"MAR 24, 1984",33.0,13,Georgia Tech,2016-17,1610612748,MIA,Miami Heat
+201961,Wayne Ellington,wayne-ellington,2,G,6-4,200,"NOV 29, 1987",29.0,7,North Carolina,2016-17,1610612748,MIA,Miami Heat
+201177,Josh McRoberts,josh-mcroberts,4,F,6-10,240,"FEB 28, 1987",30.0,9,Duke,2016-17,1610612748,MIA,Miami Heat
+202337,Luke Babbitt,luke-babbitt,5,F,6-9,225,"JUN 20, 1989",28.0,6,Nevada,2016-17,1610612748,MIA,Miami Heat
+201609,Goran Dragic,goran-dragic,7,G,6-3,190,"MAY 06, 1986",31.0,8,Union Olimpija,2016-17,1610612748,MIA,Miami Heat
+204020,Tyler Johnson,tyler-johnson,8,G,6-4,186,"MAY 07, 1992",25.0,2,Fresno State,2016-17,1610612748,MIA,Miami Heat
+203079,Dion Waiters,dion-waiters,11,G,6-4,220,"DEC 10, 1991",25.0,4,Syracuse,2016-17,1610612748,MIA,Miami Heat
+1627855,Okaro White,okaro-white,15,F,6-8,204,"AUG 13, 1992",24.0,R,Florida State,2016-17,1610612748,MIA,Miami Heat
+201949,James Johnson,james-johnson,16,F,6-9,250,"FEB 20, 1987",30.0,7,Wake Forest,2016-17,1610612748,MIA,Miami Heat
+203585,Rodney McGruder,rodney-mcgruder,17,G,6-4,205,"JUL 29, 1991",25.0,R,Kansas State,2016-17,1610612748,MIA,Miami Heat
+1626159,Justise Winslow,justise-winslow,20,F,6-7,225,"MAR 26, 1996",21.0,1,Duke,2016-17,1610612748,MIA,Miami Heat
+202355,Hassan Whiteside,hassan-whiteside,21,C,7-0,265,"JUN 13, 1989",28.0,4,Marshall,2016-17,1610612748,MIA,Miami Heat
+203186,Willie Reed,willie-reed,35,F-C,6-11,245,"MAY 16, 1990",27.0,1,St. Louis,2016-17,1610612748,MIA,Miami Heat
+2617,Udonis Haslem,udonis-haslem,40,F,6-8,235,"JUN 09, 1980",37.0,13,Florida,2016-17,1610612748,MIA,Miami Heat

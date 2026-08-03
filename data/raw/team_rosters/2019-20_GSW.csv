@@ -1,0 +1,14 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1627814,Damion Lee,damion-lee,1,G-F,6-5,210,"OCT 21, 1992",27.0,2,Drexel,2019-20,1610612744,GSW,Golden State Warriors
+1629673,Jordan Poole,jordan-poole,3,G,6-4,194,"JUN 19, 1999",21.0,R,Michigan,2019-20,1610612744,GSW,Golden State Warriors
+1626172,Kevon Looney,kevon-looney,5,F,6-9,222,"FEB 06, 1996",24.0,4,UCLA,2019-20,1610612744,GSW,Golden State Warriors
+1629346,Alen Smailagic,alen-smailagic,6,F,6-10,215,"AUG 18, 2000",19.0,R,Beko,2019-20,1610612744,GSW,Golden State Warriors
+1629672,Eric Paschall,eric-paschall,7,F,6-6,255,"NOV 04, 1996",23.0,R,Villanova,2019-20,1610612744,GSW,Golden State Warriors
+202691,Klay Thompson,klay-thompson,11,G,6-6,215,"FEB 08, 1990",30.0,8,Washington State,2019-20,1610612744,GSW,Golden State Warriors
+1628539,Mychal Mulder,mychal-mulder,12,G,6-3,184,"JUN 12, 1994",26.0,R,Kentucky,2019-20,1610612744,GSW,Golden State Warriors
+1629065,Ky Bowman,ky-bowman,12,G,6-1,187,"JUN 16, 1997",23.0,R,Boston College,2019-20,1610612744,GSW,Golden State Warriors
+203952,Andrew Wiggins,andrew-wiggins,22,F,6-7,197,"FEB 23, 1995",25.0,5,Kansas,2019-20,1610612744,GSW,Golden State Warriors
+203110,Draymond Green,draymond-green,23,F,6-6,230,"MAR 04, 1990",30.0,7,Michigan State,2019-20,1610612744,GSW,Golden State Warriors
+201939,Stephen Curry,stephen-curry,30,G,6-3,185,"MAR 14, 1988",32.0,10,Davidson,2019-20,1610612744,GSW,Golden State Warriors
+1627737,Marquese Chriss,marquese-chriss,32,F,6-9,240,"JUL 02, 1997",22.0,3,Washington,2019-20,1610612744,GSW,Golden State Warriors
+1629308,Juan Toscano-Anderson,juan-toscano-anderson,95,F,6-6,209,"APR 10, 1993",27.0,R,Marquette,2019-20,1610612744,GSW,Golden State Warriors

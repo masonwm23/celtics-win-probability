@@ -1,0 +1,16 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+201156,Nick Young,nick-young,0,G-F,6-7,210,"JUN 01, 1985",32.0,9,Southern California,2016-17,1610612747,LAL,Los Angeles Lakers
+1626156,D'Angelo Russell,dangelo-russell,1,G,6-5,195,"FEB 23, 1996",21.0,1,Ohio State,2016-17,1610612747,LAL,Los Angeles Lakers
+201147,Corey Brewer,corey-brewer,3,F,6-9,186,"MAR 05, 1986",31.0,9,Florida,2016-17,1610612747,LAL,Los Angeles Lakers
+203903,Jordan Clarkson,jordan-clarkson,6,G,6-5,194,"JUN 07, 1992",25.0,2,Missouri,2016-17,1610612747,LAL,Los Angeles Lakers
+1626204,Larry Nance Jr.,larry-nance-jr,7,F,6-9,230,"JAN 01, 1993",24.0,1,Wyoming,2016-17,1610612747,LAL,Los Angeles Lakers
+2736,Luol Deng,luol-deng,9,F,6-9,220,"APR 16, 1985",32.0,12,Duke,2016-17,1610612747,LAL,Los Angeles Lakers
+1628021,David Nwaba,david-nwaba,10,G,6-4,209,"JAN 14, 1993",24.0,R,Cal Poly-Obispo,2016-17,1610612747,LAL,Los Angeles Lakers
+203898,Tyler Ennis,tyler-ennis,11,G,6-3,194,"AUG 24, 1994",22.0,2,Syracuse,2016-17,1610612747,LAL,Los Angeles Lakers
+1627742,Brandon Ingram,brandon-ingram,14,F,6-9,190,"SEP 02, 1997",19.0,R,Duke,2016-17,1610612747,LAL,Los Angeles Lakers
+203080,Thomas Robinson,thomas-robinson,15,F,6-10,237,"MAR 17, 1991",26.0,4,Kansas,2016-17,1610612747,LAL,Los Angeles Lakers
+202389,Timofey Mozgov,timofey-mozgov,20,C,7-1,275,"JUL 16, 1986",30.0,6,Khimki,2016-17,1610612747,LAL,Los Angeles Lakers
+204028,Tarik Black,tarik-black,28,C-F,6-9,250,"NOV 22, 1991",25.0,2,Kansas,2016-17,1610612747,LAL,Los Angeles Lakers
+203944,Julius Randle,julius-randle,30,F,6-9,250,"NOV 29, 1994",22.0,2,Kentucky,2016-17,1610612747,LAL,Los Angeles Lakers
+1897,Metta World Peace,metta-world-peace,37,F,6-7,260,"NOV 13, 1979",37.0,16,St. John's (NY),2016-17,1610612747,LAL,Los Angeles Lakers
+1627826,Ivica Zubac,ivica-zubac,40,C,7-1,240,"MAR 18, 1997",20.0,R,Mega Basket,2016-17,1610612747,LAL,Los Angeles Lakers

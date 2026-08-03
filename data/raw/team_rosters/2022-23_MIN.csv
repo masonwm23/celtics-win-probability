@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1630162,Anthony Edwards,anthony-edwards,1,G,6-4,225,"AUG 05, 2001",21.0,2,Georgia,2022-23,1610612750,MIN,Minnesota Timberwolves
+1630183,Jaden McDaniels,jaden-mcdaniels,3,F,6-9,185,"SEP 29, 2000",22.0,2,Washington,2022-23,1610612750,MIN,Minnesota Timberwolves
+1629669,Jaylen Nowell,jaylen-nowell,4,G,6-4,201,"JUL 09, 1999",23.0,3,Washington,2022-23,1610612750,MIN,Minnesota Timberwolves
+203937,Kyle Anderson,kyle-anderson,5,F-G,6-9,230,"SEP 20, 1993",29.0,8,UCLA,2022-23,1610612750,MIN,Minnesota Timberwolves
+1629162,Jordan McLaughlin,jordan-mclaughlin,6,G,6-0,185,"APR 09, 1996",27.0,3,Southern California,2022-23,1610612750,MIN,Minnesota Timberwolves
+1631111,Wendell Moore Jr.,wendell-moore-jr,7,G,6-5,215,"SEP 18, 2001",21.0,R,Duke,2022-23,1610612750,MIN,Minnesota Timberwolves
+1631169,Josh Minott,josh-minott,8,F,6-8,205,"NOV 25, 2002",20.0,R,Memphis,2022-23,1610612750,MIN,Minnesota Timberwolves
+1629638,Nickeil Alexander-Walker,nickeil-alexander-walker,9,G,6-5,205,"SEP 02, 1998",24.0,3,Virginia Tech,2022-23,1610612750,MIN,Minnesota Timberwolves
+201144,Mike Conley,mike-conley,10,G,6-1,175,"OCT 11, 1987",35.0,15,Ohio State,2022-23,1610612750,MIN,Minnesota Timberwolves
+1629675,Naz Reid,naz-reid,11,C-F,6-9,264,"AUG 26, 1999",23.0,3,Louisiana State,2022-23,1610612750,MIN,Minnesota Timberwolves
+1627752,Taurean Prince,taurean-prince,12,F,6-6,218,"MAR 22, 1994",29.0,6,Baylor,2022-23,1610612750,MIN,Minnesota Timberwolves
+1630233,Nathan Knight,nathan-knight,13,F-C,6-8,253,"SEP 20, 1997",25.0,2,William & Mary,2022-23,1610612750,MIN,Minnesota Timberwolves
+203085,Austin Rivers,austin-rivers,25,G,6-4,200,"AUG 01, 1992",30.0,10,Duke,2022-23,1610612750,MIN,Minnesota Timberwolves
+203497,Rudy Gobert,rudy-gobert,27,C,7-1,258,"JUN 26, 1992",31.0,9,Cholet,2022-23,1610612750,MIN,Minnesota Timberwolves
+1626157,Karl-Anthony Towns,karl-anthony-towns,32,C-F,7-0,248,"NOV 15, 1995",27.0,7,Kentucky,2022-23,1610612750,MIN,Minnesota Timberwolves
+1630346,Matt Ryan,matt-ryan,37,F,6-6,215,"APR 17, 1997",26.0,1,Tennessee-Chattanooga,2022-23,1610612750,MIN,Minnesota Timberwolves
+1630568,Luka Garza,luka-garza,55,C,6-10,243,"DEC 27, 1998",24.0,1,Iowa,2022-23,1610612750,MIN,Minnesota Timberwolves

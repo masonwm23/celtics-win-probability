@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1626156,D'Angelo Russell,dangelo-russell,0,G,6-4,193,"FEB 23, 1996",26.0,6,Ohio State,2021-22,1610612750,MIN,Minnesota Timberwolves
+1630162,Anthony Edwards,anthony-edwards,1,G,6-4,225,"AUG 05, 2001",20.0,1,Georgia,2021-22,1610612750,MIN,Minnesota Timberwolves
+1630183,Jaden McDaniels,jaden-mcdaniels,3,F,6-9,185,"SEP 29, 2000",21.0,1,Washington,2021-22,1610612750,MIN,Minnesota Timberwolves
+1629669,Jaylen Nowell,jaylen-nowell,4,G,6-4,201,"JUL 09, 1999",22.0,2,Washington,2021-22,1610612750,MIN,Minnesota Timberwolves
+1627736,Malik Beasley,malik-beasley,5,G,6-4,187,"NOV 26, 1996",25.0,5,Florida State,2021-22,1610612750,MIN,Minnesota Timberwolves
+1629162,Jordan McLaughlin,jordan-mclaughlin,6,G,5-11,185,"APR 09, 1996",26.0,2,Southern California,2021-22,1610612750,MIN,Minnesota Timberwolves
+1629020,Jarred Vanderbilt,jarred-vanderbilt,8,F,6-9,214,"APR 03, 1999",23.0,3,Kentucky,2021-22,1610612750,MIN,Minnesota Timberwolves
+1630195,Leandro Bolmaro,leandro-bolmaro,9,F,6-6,200,"SEP 11, 2000",21.0,R,FC Barcelona,2021-22,1610612750,MIN,Minnesota Timberwolves
+1627774,Jake Layman,jake-layman,10,F,6-8,209,"MAR 07, 1994",28.0,5,Maryland,2021-22,1610612750,MIN,Minnesota Timberwolves
+1629675,Naz Reid,naz-reid,11,C-F,6-9,264,"AUG 26, 1999",22.0,2,Louisiana State,2021-22,1610612750,MIN,Minnesota Timberwolves
+1627752,Taurean Prince,taurean-prince,12,F,6-6,218,"MAR 22, 1994",28.0,5,Baylor,2021-22,1610612750,MIN,Minnesota Timberwolves
+1630233,Nathan Knight,nathan-knight,13,F-C,6-10,253,"SEP 20, 1997",24.0,1,William & Mary,2021-22,1610612750,MIN,Minnesota Timberwolves
+202328,Greg Monroe,greg-monroe,15,F-C,6-10,250,"JUN 04, 1990",32.0,9,Georgetown,2021-22,1610612750,MIN,Minnesota Timberwolves
+1629006,Josh Okogie,josh-okogie,20,G,6-4,213,"SEP 01, 1998",23.0,3,Georgia Tech,2021-22,1610612750,MIN,Minnesota Timberwolves
+201976,Patrick Beverley,patrick-beverley,22,G,6-1,180,"JUL 12, 1988",33.0,9,Arkansas,2021-22,1610612750,MIN,Minnesota Timberwolves
+1630593,McKinley Wright IV,mckinley-wright-iv,25,G,5-11,192,"OCT 25, 1998",23.0,R,Colorado,2021-22,1610612750,MIN,Minnesota Timberwolves
+1626157,Karl-Anthony Towns,karl-anthony-towns,32,C-F,6-11,248,"NOV 15, 1995",26.0,6,Kentucky,2021-22,1610612750,MIN,Minnesota Timberwolves

@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1628983,Shai Gilgeous-Alexander,shai-gilgeous-alexander,2,G,6-6,195,"JUL 12, 1998",25.0,5,Kentucky,2023-24,1610612760,OKC,Oklahoma City Thunder
+1630581,Josh Giddey,josh-giddey,3,G,6-8,216,"OCT 10, 2002",21.0,2,NBA Global Academy,2023-24,1610612760,OKC,Oklahoma City Thunder
+1629652,Luguentz Dort,luguentz-dort,5,G,6-4,220,"APR 19, 1999",25.0,4,Arizona State,2023-24,1610612760,OKC,Oklahoma City Thunder
+1631119,Jaylin Williams,jaylin-williams,6,F,6-9,240,"JUN 29, 2002",22.0,1,Arkansas,2023-24,1610612760,OKC,Oklahoma City Thunder
+1631096,Chet Holmgren,chet-holmgren,7,C-F,7-1,208,"MAY 01, 2002",22.0,R,Gonzaga,2023-24,1610612760,OKC,Oklahoma City Thunder
+1631114,Jalen Williams,jalen-williams,8,G-F,6-5,211,"APR 14, 2001",23.0,1,Santa Clara,2023-24,1610612760,OKC,Oklahoma City Thunder
+1630198,Isaiah Joe,isaiah-joe,11,G,6-3,165,"JUL 02, 1999",24.0,3,Arkansas,2023-24,1610612760,OKC,Oklahoma City Thunder
+1630322,Lindy Waters III,lindy-waters-iii,12,F,6-6,210,"JUL 28, 1997",26.0,2,Oklahoma State,2023-24,1610612760,OKC,Oklahoma City Thunder
+1631172,Ousmane Dieng,ousmane-dieng,13,F,6-9,185,"MAY 21, 2003",21.0,1,New Zealand Breakers,2023-24,1610612760,OKC,Oklahoma City Thunder
+1641745,Adam Flagler,adam-flagler,14,G,6-3,180,"DEC 01, 1999",24.0,R,Baylor,2023-24,1610612760,OKC,Oklahoma City Thunder
+202687,Bismack Biyombo,bismack-biyombo,15,C,6-8,255,"AUG 28, 1992",31.0,12,Baloncesto Fuenlabrada,2023-24,1610612760,OKC,Oklahoma City Thunder
+1641749,Keyontae Johnson,keyontae-johnson,18,F,6-4,230,"MAY 24, 2000",24.0,R,Kansas State,2023-24,1610612760,OKC,Oklahoma City Thunder
+1630598,Aaron Wiggins,aaron-wiggins,21,G,6-5,190,"JAN 02, 1999",25.0,2,Maryland,2023-24,1610612760,OKC,Oklahoma City Thunder
+1641717,Cason Wallace,cason-wallace,22,G,6-3,195,"NOV 07, 2003",20.0,R,Kentucky,2023-24,1610612760,OKC,Oklahoma City Thunder
+1630846,Olivier Sarr,olivier-sarr,30,C,6-10,240,"FEB 20, 1999",25.0,2,Kentucky,2023-24,1610612760,OKC,Oklahoma City Thunder
+202330,Gordon Hayward,gordon-hayward,33,F,6-7,225,"MAR 23, 1990",34.0,13,Butler,2023-24,1610612760,OKC,Oklahoma City Thunder
+1629026,Kenrich Williams,kenrich-williams,34,G-F,6-6,210,"DEC 02, 1994",29.0,5,TCU,2023-24,1610612760,OKC,Oklahoma City Thunder
+203488,Mike Muscala,mike-muscala,50,F-C,6-10,240,"JUL 01, 1991",33.0,10,Bucknell,2023-24,1610612760,OKC,Oklahoma City Thunder

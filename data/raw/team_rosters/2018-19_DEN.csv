@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+202738,Isaiah Thomas,isaiah-thomas,0,G,5-9,185,"FEB 07, 1989",30.0,7,Washington,2018-19,1610612743,DEN,Denver Nuggets
+1629008,Michael Porter Jr.,michael-porter-jr,1,F,6-10,210,"JUN 29, 1998",21.0,R,Missouri,2018-19,1610612743,DEN,Denver Nuggets
+1628470,Torrey Craig,torrey-craig,3,F,6-7,215,"DEC 19, 1990",28.0,1,South Carolina Upstate,2018-19,1610612743,DEN,Denver Nuggets
+200794,Paul Millsap,paul-millsap,4,F,6-8,246,"FEB 10, 1985",34.0,12,Louisiana Tech,2018-19,1610612743,DEN,Denver Nuggets
+203115,Will Barton,will-barton,5,G,6-6,190,"JAN 06, 1991",28.0,6,Memphis,2018-19,1610612743,DEN,Denver Nuggets
+1629164,Brandon Goodwin,brandon-goodwin,6,G,6-2,180,"OCT 02, 1995",23.0,R,Florida Gulf Coast,2018-19,1610612743,DEN,Denver Nuggets
+1626168,Trey Lyles,trey-lyles,7,F,6-10,234,"NOV 05, 1995",23.0,3,Kentucky,2018-19,1610612743,DEN,Denver Nuggets
+1629020,Jarred Vanderbilt,jarred-vanderbilt,8,F,6-9,214,"APR 03, 1999",20.0,R,Kentucky,2018-19,1610612743,DEN,Denver Nuggets
+1628420,Monté Morris,monté-morris,11,G,6-3,175,"JUN 27, 1995",24.0,1,Iowa State,2018-19,1610612743,DEN,Denver Nuggets
+203914,Gary Harris,gary-harris,14,G,6-4,210,"SEP 14, 1994",24.0,4,Michigan State,2018-19,1610612743,DEN,Denver Nuggets
+203999,Nikola Jokić,nikola-jokić,15,C,7-0,250,"FEB 19, 1995",24.0,3,Mega Basket,2018-19,1610612743,DEN,Denver Nuggets
+1628399,Tyler Lydon,tyler-lydon,20,F,6-10,225,"APR 09, 1996",23.0,1,Syracuse,2018-19,1610612743,DEN,Denver Nuggets
+203486,Mason Plumlee,mason-plumlee,24,F-C,6-11,235,"MAR 05, 1990",29.0,5,Duke,2018-19,1610612743,DEN,Denver Nuggets
+1627736,Malik Beasley,malik-beasley,25,G,6-5,195,"NOV 26, 1996",22.0,2,Florida State,2018-19,1610612743,DEN,Denver Nuggets
+1627750,Jamal Murray,jamal-murray,27,G,6-4,207,"FEB 23, 1997",22.0,2,Kentucky,2018-19,1610612743,DEN,Denver Nuggets
+1627823,Juancho Hernangomez,juancho-hernangomez,41,F,6-9,230,"SEP 28, 1995",23.0,2,Estudiantes,2018-19,1610612743,DEN,Denver Nuggets
+1629118,Thomas Welsh,thomas-welsh,45,C,7-0,255,"FEB 03, 1996",23.0,R,UCLA,2018-19,1610612743,DEN,Denver Nuggets

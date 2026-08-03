@@ -1,0 +1,17 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+201566,Russell Westbrook,russell-westbrook,0,G,6-3,200,"NOV 12, 1988",30.0,10,UCLA,2018-19,1610612760,OKC,Oklahoma City Thunder
+101109,Raymond Felton,raymond-felton,2,G,6-1,205,"JUN 26, 1984",35.0,13,North Carolina,2018-19,1610612760,OKC,Oklahoma City Thunder
+203457,Nerlens Noel,nerlens-noel,3,F-C,6-11,220,"APR 10, 1994",25.0,4,Kentucky,2018-19,1610612760,OKC,Oklahoma City Thunder
+202693,Markieff Morris,markieff-morris,5,F,6-10,245,"SEP 02, 1989",29.0,7,Kansas,2018-19,1610612760,OKC,Oklahoma City Thunder
+1628977,Hamidou Diallo,hamidou-diallo,6,G,6-5,198,"JUL 31, 1998",20.0,R,Kentucky,2018-19,1610612760,OKC,Oklahoma City Thunder
+1628393,Jawun Evans,jawun-evans,8,G,6-0,190,"JUL 26, 1996",22.0,1,Oklahoma State,2018-19,1610612760,OKC,Oklahoma City Thunder
+203924,Jerami Grant,jerami-grant,9,F,6-9,220,"MAR 12, 1994",25.0,4,Syracuse,2018-19,1610612760,OKC,Oklahoma City Thunder
+1627846,Abdel Nader,abdel-nader,11,F,6-6,225,"SEP 25, 1993",25.0,1,Iowa State,2018-19,1610612760,OKC,Oklahoma City Thunder
+203500,Steven Adams,steven-adams,12,C,7-0,265,"JUL 20, 1993",25.0,5,Pittsburgh,2018-19,1610612760,OKC,Oklahoma City Thunder
+202331,Paul George,paul-george,13,F,6-9,220,"MAY 02, 1990",29.0,8,Fresno State,2018-19,1610612760,OKC,Oklahoma City Thunder
+1629055,Donte Grantham,donte-grantham,15,F,6-8,215,"MAR 19, 1995",24.0,R,Clemson,2018-19,1610612760,OKC,Oklahoma City Thunder
+203471,Dennis Schröder,dennis-schröder,17,G,6-1,172,"SEP 15, 1993",25.0,5,Braunschweig,2018-19,1610612760,OKC,Oklahoma City Thunder
+203460,Andre Roberson,andre-roberson,21,G-F,6-7,210,"DEC 04, 1991",27.0,5,Colorado,2018-19,1610612760,OKC,Oklahoma City Thunder
+1628390,Terrance Ferguson,terrance-ferguson,23,G,6-7,190,"MAY 17, 1998",21.0,1,Adelaide,2018-19,1610612760,OKC,Oklahoma City Thunder
+1629126,Deonte Burton,deonte-burton,30,G,6-5,245,"JAN 31, 1994",25.0,R,Iowa State,2018-19,1610612760,OKC,Oklahoma City Thunder
+202335,Patrick Patterson,patrick-patterson,54,F,6-9,230,"MAR 14, 1989",30.0,8,Kentucky,2018-19,1610612760,OKC,Oklahoma City Thunder

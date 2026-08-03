@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+203210,JaMychal Green,jamychal-green,0,F,6-9,227,"JUN 21, 1990",28.0,3,Alabama,2017-18,1610612763,MEM,Memphis Grizzlies
+1626185,Jarell Martin,jarell-martin,1,F,6-10,239,"MAY 24, 1994",24.0,2,Louisiana State,2017-18,1610612763,MEM,Memphis Grizzlies
+1628424,Kobi Simmons,kobi-simmons,2,G,6-4,170,"JUL 04, 1997",20.0,R,Arizona,2017-18,1610612763,MEM,Memphis Grizzlies
+1627362,Briante Weber,briante-weber,3,G,6-2,165,"DEC 29, 1992",25.0,2,Virginia Commonwealth,2017-18,1610612763,MEM,Memphis Grizzlies
+1627988,Myke Henry,myke-henry,4,F,6-6,210,"DEC 23, 1992",25.0,R,DePaul,2017-18,1610612763,MEM,Memphis Grizzlies
+1626150,Andrew Harrison,andrew-harrison,5,G,6-6,213,"OCT 28, 1994",23.0,1,Kentucky,2017-18,1610612763,MEM,Memphis Grizzlies
+201596,Mario Chalmers,mario-chalmers,6,G,6-2,190,"MAY 19, 1986",32.0,8,Kansas,2017-18,1610612763,MEM,Memphis Grizzlies
+1627782,Wayne Selden,wayne-selden,7,G-F,6-5,230,"SEP 30, 1994",23.0,1,Kansas,2017-18,1610612763,MEM,Memphis Grizzlies
+202705,MarShon Brooks,marshon-brooks,8,G-F,6-5,200,"JAN 26, 1989",29.0,3,Providence,2017-18,1610612763,MEM,Memphis Grizzlies
+1628397,Ivan Rabb,ivan-rabb,10,F,6-10,220,"FEB 04, 1997",21.0,R,California,2017-18,1610612763,MEM,Memphis Grizzlies
+201144,Mike Conley,mike-conley,11,G,6-1,175,"OCT 11, 1987",30.0,10,Ohio State,2017-18,1610612763,MEM,Memphis Grizzlies
+201936,Tyreke Evans,tyreke-evans,12,G-F,6-6,220,"SEP 19, 1989",28.0,8,Memphis,2017-18,1610612763,MEM,Memphis Grizzlies
+203104,Marquis Teague,marquis-teague,20,G,6-2,189,"FEB 28, 1993",25.0,2,Kentucky,2017-18,1610612763,MEM,Memphis Grizzlies
+1627738,Deyonta Davis,deyonta-davis,21,C-F,6-11,237,"DEC 02, 1996",21.0,1,Michigan State,2017-18,1610612763,MEM,Memphis Grizzlies
+203463,Ben McLemore,ben-mclemore,23,G,6-5,195,"FEB 11, 1993",25.0,4,Kansas,2017-18,1610612763,MEM,Memphis Grizzlies
+1628415,Dillon Brooks,dillon-brooks,24,F-G,6-6,220,"JAN 22, 1996",22.0,R,Oregon,2017-18,1610612763,MEM,Memphis Grizzlies
+202718,Chandler Parsons,chandler-parsons,25,F,6-10,230,"OCT 25, 1988",29.0,6,Florida,2017-18,1610612763,MEM,Memphis Grizzlies
+201188,Marc Gasol,marc-gasol,33,C,7-1,255,"JAN 29, 1985",33.0,9,FC Barcelona,2017-18,1610612763,MEM,Memphis Grizzlies

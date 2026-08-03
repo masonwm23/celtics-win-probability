@@ -1,0 +1,17 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+201588,George Hill,george-hill,3,G,6-3,188,"MAY 04, 1986",33.0,10,Indiana-Purdue Indianapolis,2018-19,1610612749,MIL,Milwaukee Bucks
+1628391,D.J. Wilson,dj-wilson,5,F,6-10,231,"FEB 19, 1996",23.0,1,Michigan,2018-19,1610612749,MIL,Milwaukee Bucks
+202339,Eric Bledsoe,eric-bledsoe,6,G,6-1,205,"DEC 09, 1989",29.0,8,Kentucky,2018-19,1610612749,MIL,Milwaukee Bucks
+1628978,Donte DiVincenzo,donte-divincenzo,9,G,6-4,203,"JAN 31, 1997",22.0,R,Villanova,2018-19,1610612749,MIL,Milwaukee Bucks
+201572,Brook Lopez,brook-lopez,11,C,7-0,270,"APR 01, 1988",31.0,10,Stanford,2018-19,1610612749,MIL,Milwaukee Bucks
+204025,Tim Frazier,tim-frazier,12,G,6-1,170,"NOV 01, 1990",28.0,4,Penn State,2018-19,1610612749,MIL,Milwaukee Bucks
+1627763,Malcolm Brogdon,malcolm-brogdon,13,G,6-5,229,"DEC 11, 1992",26.0,2,Virginia,2018-19,1610612749,MIL,Milwaukee Bucks
+2200,Pau Gasol,pau-gasol,17,C-F,7-0,250,"JUL 06, 1980",38.0,17,FC Barcelona,2018-19,1610612749,MIL,Milwaukee Bucks
+203503,Tony Snell,tony-snell,21,G,6-7,213,"NOV 10, 1991",27.0,5,New Mexico,2018-19,1610612749,MIL,Milwaukee Bucks
+203114,Khris Middleton,khris-middleton,22,F,6-8,222,"AUG 12, 1991",27.0,6,Texas A&M,2018-19,1610612749,MIL,Milwaukee Bucks
+1628425,Sterling Brown,sterling-brown,23,G,6-6,232,"FEB 10, 1995",24.0,1,Southern Methodist,2018-19,1610612749,MIL,Milwaukee Bucks
+1626192,Pat Connaughton,pat-connaughton,24,G,6-4,209,"JAN 06, 1993",26.0,3,Notre Dame,2018-19,1610612749,MIL,Milwaukee Bucks
+203507,Giannis Antetokounmpo,giannis-antetokounmpo,34,F,6-11,242,"DEC 06, 1994",24.0,5,Filathlitikos,2018-19,1610612749,MIL,Milwaukee Bucks
+202703,Nikola Mirotic,nikola-mirotic,41,F,6-10,250,"FEB 11, 1991",28.0,4,Real Madrid,2018-19,1610612749,MIL,Milwaukee Bucks
+1629045,Bonzie Colson,bonzie-colson,50,F,6-6,225,"JAN 12, 1996",23.0,R,Notre Dame,2018-19,1610612749,MIL,Milwaukee Bucks
+101141,Ersan Ilyasova,ersan-ilyasova,77,F,6-10,235,"MAY 15, 1987",32.0,10,FC Barcelona,2018-19,1610612749,MIL,Milwaukee Bucks

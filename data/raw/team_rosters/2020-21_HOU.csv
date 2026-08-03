@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1628391,D.J. Wilson,dj-wilson,00,F,6-10,231,"FEB 19, 1996",25.0,3,Michigan,2020-21,1610612745,HOU,Houston Rockets
+1628425,Sterling Brown,sterling-brown,0,G-F,6-5,219,"FEB 10, 1995",26.0,3,Southern Methodist,2020-21,1610612745,HOU,Houston Rockets
+202322,John Wall,john-wall,1,G,6-3,210,"SEP 06, 1990",30.0,9,Kentucky,2020-21,1610612745,HOU,Houston Rockets
+1628021,David Nwaba,david-nwaba,2,G-F,6-5,219,"JAN 14, 1993",28.0,4,Cal Poly-Obispo,2020-21,1610612745,HOU,Houston Rockets
+1629645,Kevin Porter Jr.,kevin-porter-jr,3,G-F,6-4,203,"MAY 04, 2000",21.0,1,Southern California,2020-21,1610612745,HOU,Houston Rockets
+1627863,Danuel House Jr.,danuel-house-jr,4,F-G,6-6,220,"JUN 07, 1993",28.0,4,Texas A&M,2020-21,1610612745,HOU,Houston Rockets
+203957,Danté Exum,danté-exum,5,G,6-5,214,"JUL 13, 1995",25.0,6,Australian Institute of Sport,2020-21,1610612745,HOU,Houston Rockets
+1630231,KJ Martin,kj-martin,6,F,6-6,215,"JAN 06, 2001",20.0,R,IMG Academy (FL),2020-21,1610612745,HOU,Houston Rockets
+1629717,Armoni Brooks,armoni-brooks,7,G,6-3,195,"JUN 05, 1998",23.0,R,Houston,2020-21,1610612745,HOU,Houston Rockets
+1630256,Jae'Sean Tate,jaesean-tate,8,F,6-4,230,"OCT 28, 1995",25.0,R,Ohio State,2020-21,1610612745,HOU,Houston Rockets
+202340,Avery Bradley,avery-bradley,9,G,6-3,180,"NOV 26, 1990",30.0,10,University of Texas at Austin,2020-21,1610612745,HOU,Houston Rockets
+201569,Eric Gordon,eric-gordon,10,G,6-3,215,"DEC 25, 1988",32.0,12,Indiana,2020-21,1610612745,HOU,Houston Rockets
+1629017,Khyri Thomas,khyri-thomas,13,G,6-3,210,"MAY 08, 1996",25.0,2,Creighton,2020-21,1610612745,HOU,Houston Rockets
+201571,D.J. Augustin,dj-augustin,14,G,5-11,183,"NOV 10, 1987",33.0,12,Texas,2020-21,1610612745,HOU,Houston Rockets
+1630237,Anthony Lamb,anthony-lamb,33,F,6-6,227,"JAN 20, 1998",23.0,R,Vermont,2020-21,1610612745,HOU,Houston Rockets
+1626174,Christian Wood,christian-wood,35,F,6-10,214,"SEP 27, 1995",25.0,4,UNLV,2020-21,1610612745,HOU,Houston Rockets
+203482,Kelly Olynyk,kelly-olynyk,41,F-C,6-11,240,"APR 19, 1991",30.0,7,Gonzaga,2020-21,1610612745,HOU,Houston Rockets

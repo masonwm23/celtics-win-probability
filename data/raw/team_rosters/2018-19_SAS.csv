@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1629022,Lonnie Walker IV,lonnie-walker-iv,1,G,6-5,205,"DEC 14, 1998",20.0,R,Miami,2018-19,1610612759,SAS,San Antonio Spurs
+202347,Quincy Pondexter,quincy-pondexter,3,F,6-7,230,"MAR 10, 1988",31.0,6,Washington,2018-19,1610612759,SAS,San Antonio Spurs
+1628401,Derrick White,derrick-white,4,G,6-4,190,"JUL 02, 1994",24.0,1,Colorado,2018-19,1610612759,SAS,San Antonio Spurs
+1627749,Dejounte Murray,dejounte-murray,5,G,6-5,170,"SEP 19, 1996",22.0,2,Washington,2018-19,1610612759,SAS,San Antonio Spurs
+1629002,Chimezie Metu,chimezie-metu,7,F,6-10,225,"MAR 22, 1997",22.0,R,USC,2018-19,1610612759,SAS,San Antonio Spurs
+201988,Patty Mills,patty-mills,8,G,6-0,180,"AUG 11, 1988",30.0,9,St. Mary's,2018-19,1610612759,SAS,San Antonio Spurs
+201942,DeMar DeRozan,demar-derozan,10,G,6-7,220,"AUG 07, 1989",29.0,9,Southern California,2018-19,1610612759,SAS,San Antonio Spurs
+1627854,Bryn Forbes,bryn-forbes,11,G,6-3,190,"JUL 23, 1993",25.0,2,Michigan State,2018-19,1610612759,SAS,San Antonio Spurs
+200746,LaMarcus Aldridge,lamarcus-aldridge,12,C-F,6-11,260,"JUL 19, 1985",33.0,12,University of Texas at Austin,2018-19,1610612759,SAS,San Antonio Spurs
+1629234,Drew Eubanks,drew-eubanks,14,F,6-10,245,"FEB 01, 1997",22.0,R,Oregon State,2018-19,1610612759,SAS,San Antonio Spurs
+201158,Marco Belinelli,marco-belinelli,18,G-F,6-5,210,"MAR 25, 1986",33.0,11,Fortitudo Bologna,2018-19,1610612759,SAS,San Antonio Spurs
+200752,Rudy Gay,rudy-gay,22,F,6-8,230,"AUG 17, 1986",32.0,12,Connecticut,2018-19,1610612759,SAS,San Antonio Spurs
+1627751,Jakob Poeltl,jakob-poeltl,25,C,7-0,230,"OCT 15, 1995",23.0,2,Utah,2018-19,1610612759,SAS,San Antonio Spurs
+1628500,Ben Moore,ben-moore,26,F,6-8,220,"MAY 13, 1995",24.0,1,Southern Methodist,2018-19,1610612759,SAS,San Antonio Spurs
+202700,Donatas Motiejunas,donatas-motiejunas,28,F-C,7-0,220,"SEP 20, 1990",28.0,5,Lithuania,2018-19,1610612759,SAS,San Antonio Spurs
+201967,Dante Cunningham,dante-cunningham,33,F,6-8,230,"APR 22, 1987",32.0,9,Villanova,2018-19,1610612759,SAS,San Antonio Spurs
+202722,Davis Bertans,davis-bertans,42,F,6-10,225,"NOV 12, 1992",26.0,2,Baskonia,2018-19,1610612759,SAS,San Antonio Spurs

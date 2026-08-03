@@ -1,0 +1,17 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+203546,Ian Clark,ian-clark,2,G,6-3,175,"MAR 07, 1991",28.0,5,Belmont,2018-19,1610612740,NOP,New Orleans Pelicans
+1626169,Stanley Johnson,stanley-johnson,3,F,6-7,245,"MAY 29, 1996",23.0,3,Arizona,2018-19,1610612740,NOP,New Orleans Pelicans
+203901,Elfrid Payton,elfrid-payton,4,G,6-4,185,"FEB 22, 1994",25.0,4,Louisana-Lafayette,2018-19,1610612740,NOP,New Orleans Pelicans
+1629129,Trevon Bluiett,trevon-bluiett,5,G-F,6-6,198,"NOV 04, 1994",24.0,R,Xavier,2018-19,1610612740,NOP,New Orleans Pelicans
+1626143,Jahlil Okafor,jahlil-okafor,8,C,6-11,275,"DEC 15, 1995",23.0,3,Duke,2018-19,1610612740,NOP,New Orleans Pelicans
+1629541,Dairis Bertans,dairis-bertans,9,G,6-4,200,"SEP 09, 1989",29.0,R,Olimpia Milano,2018-19,1610612740,NOP,New Orleans Pelicans
+201950,Jrue Holiday,jrue-holiday,11,G,6-4,205,"JUN 12, 1990",29.0,9,UCLA,2018-19,1610612740,NOP,New Orleans Pelicans
+1627767,Cheick Diallo,cheick-diallo,13,F,6-9,220,"SEP 13, 1996",22.0,2,Kansas,2018-19,1610612740,NOP,New Orleans Pelicans
+1628402,Frank Jackson,frank-jackson,15,G,6-3,205,"MAY 04, 1998",21.0,R,Duke,2018-19,1610612740,NOP,New Orleans Pelicans
+203121,Darius Miller,darius-miller,21,F,6-8,225,"MAR 21, 1990",29.0,4,Kentucky,2018-19,1610612740,NOP,New Orleans Pelicans
+203076,Anthony Davis,anthony-davis,23,F-C,6-10,253,"MAR 11, 1993",26.0,6,Kentucky,2018-19,1610612740,NOP,New Orleans Pelicans
+203944,Julius Randle,julius-randle,30,C-F,6-9,250,"NOV 29, 1994",24.0,4,Kentucky,2018-19,1610612740,NOP,New Orleans Pelicans
+1629026,Kenrich Williams,kenrich-williams,34,G-F,6-7,210,"DEC 02, 1994",24.0,R,TCU,2018-19,1610612740,NOP,New Orleans Pelicans
+1626174,Christian Wood,christian-wood,35,F,6-10,214,"SEP 27, 1995",23.0,2,UNLV,2018-19,1610612740,NOP,New Orleans Pelicans
+203524,Solomon Hill,solomon-hill,44,F,6-7,225,"MAR 18, 1991",28.0,5,Arizona,2018-19,1610612740,NOP,New Orleans Pelicans
+202734,E'Twaun Moore,etwaun-moore,55,G,6-4,191,"FEB 25, 1989",30.0,7,Purdue,2018-19,1610612740,NOP,New Orleans Pelicans

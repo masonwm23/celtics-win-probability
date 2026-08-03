@@ -1,0 +1,39 @@
+SEASON-SPECIFIC HEADSHOT PROBE
+========================================================================
+
+players probed          24
+seasons covered         ['2016-17', '2017-18', '2018-19', '2019-20', '2020-21', '2021-22', '2022-23', '2023-24']
+requests made           264
+
+control (latest) 200s    24 of 24
+
+PER PATTERN
+------------------------------------------------------------------------
+pattern                    yr       200s  images  distinct verdict
+cdn_team_year_1040         start      24      24        18 USABLE, season-specific images
+cdn_team_year_1040         end        13      13        13 USABLE, season-specific images
+cdn_team_year_260          start      24      24        24 USABLE, season-specific images
+cdn_team_year_260          end        13      13        13 USABLE, season-specific images
+cdn_year_1040              start       0       0         0 no such path
+cdn_year_1040              end         0       0         0 no such path
+akstatic_team_year_260     start      24      24        24 USABLE, season-specific images
+akstatic_team_year_260     end        13      13        13 USABLE, season-specific images
+akstatic_team_year_1040    start      24      24        18 USABLE, season-specific images
+akstatic_team_year_1040    end        13      13        13 USABLE, season-specific images
+
+WHAT THIS MEANS
+------------------------------------------------------------------------
+At least one pattern returns a genuinely different image
+per season. Send this file back and the dashboard can be
+pointed at it, with the current photo kept as a fallback
+for players and seasons the pattern does not cover.
+    cdn_team_year_1040 (start year): 18 of 24 distinct
+    cdn_team_year_1040 (end year): 13 of 24 distinct
+    cdn_team_year_260 (start year): 24 of 24 distinct
+    cdn_team_year_260 (end year): 13 of 24 distinct
+    akstatic_team_year_260 (start year): 24 of 24 distinct
+    akstatic_team_year_260 (end year): 13 of 24 distinct
+    akstatic_team_year_1040 (start year): 18 of 24 distinct
+    akstatic_team_year_1040 (end year): 13 of 24 distinct
+
+row-level detail: /Users/masonmarathias/Desktop/celtics_wp/reports/headshot_probe_rows.csv

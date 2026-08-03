@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1628970,Miles Bridges,miles-bridges,0,F,6-6,225,"MAR 21, 1998",23.0,2,Michigan State,2020-21,1610612766,CHA,Charlotte Hornets
+1628370,Malik Monk,malik-monk,1,G,6-3,200,"FEB 04, 1998",23.0,3,Kentucky,2020-21,1610612766,CHA,Charlotte Hornets
+1630163,LaMelo Ball,lamelo-ball,2,G,6-6,180,"AUG 22, 2001",19.0,R,Illawarra,2020-21,1610612766,CHA,Charlotte Hornets
+1626179,Terry Rozier,terry-rozier,3,G,6-1,190,"MAR 17, 1994",27.0,5,Louisville,2020-21,1610612766,CHA,Charlotte Hornets
+1628984,Devonte' Graham,devonte-graham,4,G,6-1,195,"FEB 22, 1995",26.0,2,Kansas,2020-21,1610612766,CHA,Charlotte Hornets
+1629667,Jalen McDaniels,jalen-mcdaniels,6,F-C,6-9,205,"JAN 31, 1998",23.0,1,San Diego State,2020-21,1610612766,CHA,Charlotte Hornets
+1630203,Grant Riller,grant-riller,7,G,6-2,190,"FEB 08, 1997",24.0,R,College of Charleston,2020-21,1610612766,CHA,Charlotte Hornets
+202687,Bismack Biyombo,bismack-biyombo,8,C,6-8,255,"AUG 28, 1992",28.0,9,Baloncesto Fuenlabrada,2020-21,1610612766,CHA,Charlotte Hornets
+202954,Brad Wanamaker,brad-wanamaker,9,G,6-3,210,"JUL 25, 1989",31.0,2,Pittsburgh,2020-21,1610612766,CHA,Charlotte Hornets
+1628997,Caleb Martin,caleb-martin,10,F,6-5,205,"SEP 28, 1995",25.0,1,Nevada,2020-21,1610612766,CHA,Charlotte Hornets
+1628998,Cody Martin,cody-martin,11,F,6-5,205,"SEP 28, 1995",25.0,1,Nevada,2020-21,1610612766,CHA,Charlotte Hornets
+1630208,Nick Richards,nick-richards,14,C,7-0,245,"NOV 29, 1997",23.0,R,Kentucky,2020-21,1610612766,CHA,Charlotte Hornets
+202330,Gordon Hayward,gordon-hayward,20,F,6-7,225,"MAR 23, 1990",31.0,10,Butler,2020-21,1610612766,CHA,Charlotte Hornets
+1630176,Vernon Carey Jr.,vernon-carey-jr,22,F-C,6-9,270,"FEB 25, 2001",20.0,R,Duke,2020-21,1610612766,CHA,Charlotte Hornets
+1629023,P.J. Washington,pj-washington,25,F,6-7,230,"AUG 23, 1998",22.0,1,Kentucky,2020-21,1610612766,CHA,Charlotte Hornets
+1630268,Nate Darling,nate-darling,30,G,6-6,200,"AUG 30, 1998",22.0,R,Delaware,2020-21,1610612766,CHA,Charlotte Hornets
+203469,Cody Zeller,cody-zeller,40,F-C,6-11,240,"OCT 05, 1992",28.0,7,Indiana,2020-21,1610612766,CHA,Charlotte Hornets

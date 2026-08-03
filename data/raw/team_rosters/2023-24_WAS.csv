@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1641731,Bilal Coulibaly,bilal-coulibaly,0,G,6-8,195,"JUL 26, 2004",19.0,R,Metropolitans 92,2023-24,1610612764,WAS,Washington Wizards
+1641774,Tristan Vukcevic,tristan-vukcevic,00,F,6-10,220,"MAR 11, 2003",21.0,R,Real Madrid,2023-24,1610612764,WAS,Washington Wizards
+1631098,Johnny Davis,johnny-davis,1,G,6-4,195,"FEB 27, 2002",22.0,1,Wisconsin,2023-24,1610612764,WAS,Washington Wizards
+1630215,Jared Butler,jared-butler,4,G,6-3,193,"AUG 25, 2000",23.0,2,Baylor,2023-24,1610612764,WAS,Washington Wizards
+1626145,Tyus Jones,tyus-jones,5,G,6-1,196,"MAY 10, 1996",28.0,8,Duke,2023-24,1610612764,WAS,Washington Wizards
+1631116,Patrick Baldwin Jr.,patrick-baldwin-jr,7,F,6-9,220,"NOV 18, 2002",21.0,1,Wisconsin-Milwaukee,2023-24,1610612764,WAS,Washington Wizards
+1630166,Deni Avdija,deni-avdija,8,F,6-9,210,"JAN 03, 2001",23.0,3,Maccabi Tel Aviv,2023-24,1610612764,WAS,Washington Wizards
+1629673,Jordan Poole,jordan-poole,13,G,6-4,194,"JUN 19, 1999",25.0,4,Michigan,2023-24,1610612764,WAS,Washington Wizards
+1631262,Jules Bernard,jules-bernard,14,G,6-6,210,"JAN 21, 2000",24.0,R,UCLA,2023-24,1610612764,WAS,Washington Wizards
+1630264,Anthony Gill,anthony-gill,16,F,6-8,230,"OCT 17, 1992",31.0,3,Virginia,2023-24,1610612764,WAS,Washington Wizards
+1629013,Landry Shamet,landry-shamet,20,G,6-4,190,"MAR 13, 1997",27.0,5,Wichita State,2023-24,1610612764,WAS,Washington Wizards
+1626158,Richaun Holmes,richaun-holmes,22,F,6-9,235,"OCT 15, 1993",30.0,8,Bowling Green,2023-24,1610612764,WAS,Washington Wizards
+1630557,Corey Kispert,corey-kispert,24,F,6-6,224,"MAR 03, 1999",25.0,2,Gonzaga,2023-24,1610612764,WAS,Washington Wizards
+1628398,Kyle Kuzma,kyle-kuzma,33,F,6-9,221,"JUL 24, 1995",28.0,6,Utah,2023-24,1610612764,WAS,Washington Wizards
+1628963,Marvin Bagley III,marvin-bagley-iii,35,F,6-10,235,"MAR 14, 1999",25.0,5,Duke,2023-24,1610612764,WAS,Washington Wizards
+1630647,Eugene Omoruyi,eugene-omoruyi,97,F,6-6,235,"FEB 14, 1997",27.0,2,Oregon,2023-24,1610612764,WAS,Washington Wizards
+1630551,Justin Champagnie,justin-champagnie,99,G-F,6-6,206,"JUN 29, 2001",23.0,2,Pittsburgh,2023-24,1610612764,WAS,Washington Wizards

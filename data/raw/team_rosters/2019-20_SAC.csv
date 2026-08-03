@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1627812,Yogi Ferrell,yogi-ferrell,3,G,6-0,178,"MAY 09, 1993",27.0,3,Indiana,2019-20,1610612758,SAC,Sacramento Kings
+1628368,De'Aaron Fox,deaaron-fox,5,G,6-3,185,"DEC 20, 1997",22.0,2,Kentucky,2019-20,1610612758,SAC,Sacramento Kings
+1629657,Kyle Guy,kyle-guy,7,G,6-1,167,"AUG 11, 1997",22.0,R,Virginia,2019-20,1610612758,SAC,Sacramento Kings
+203992,Bogdan Bogdanović,bogdan-bogdanović,8,G,6-6,220,"AUG 18, 1992",27.0,2,Fenerbahce,2019-20,1610612758,SAC,Sacramento Kings
+202709,Cory Joseph,cory-joseph,9,G,6-3,200,"AUG 20, 1991",28.0,8,Texas,2019-20,1610612758,SAC,Sacramento Kings
+1629713,Justin James,justin-james,10,G-F,6-7,190,"JAN 24, 1997",23.0,R,Wyoming,2019-20,1610612758,SAC,Sacramento Kings
+201147,Corey Brewer,corey-brewer,13,G-F,6-9,188,"MAR 05, 1986",34.0,12,Florida,2019-20,1610612758,SAC,Sacramento Kings
+1629610,DaQuan Jeffries,daquan-jeffries,19,G-F,6-5,230,"AUG 30, 1997",22.0,R,Tulsa,2019-20,1610612758,SAC,Sacramento Kings
+1628385,Harry Giles III,harry-giles-iii,20,F-C,6-11,240,"APR 22, 1998",22.0,1,Duke,2019-20,1610612758,SAC,Sacramento Kings
+1626158,Richaun Holmes,richaun-holmes,22,F,6-10,235,"OCT 15, 1993",26.0,4,Bowling Green,2019-20,1610612758,SAC,Sacramento Kings
+1627741,Buddy Hield,buddy-hield,24,G,6-4,220,"DEC 17, 1992",27.0,3,Oklahoma,2019-20,1610612758,SAC,Sacramento Kings
+203458,Alex Len,alex-len,25,C,7-0,250,"JUN 16, 1993",27.0,6,Maryland,2019-20,1610612758,SAC,Sacramento Kings
+203145,Kent Bazemore,kent-bazemore,26,G-F,6-4,195,"JUL 01, 1989",30.0,7,Old Dominion,2019-20,1610612758,SAC,Sacramento Kings
+203953,Jabari Parker,jabari-parker,33,F,6-8,245,"MAR 15, 1995",25.0,5,Duke,2019-20,1610612758,SAC,Sacramento Kings
+1628963,Marvin Bagley III,marvin-bagley-iii,35,F,6-11,235,"MAR 14, 1999",21.0,1,Duke,2019-20,1610612758,SAC,Sacramento Kings
+203084,Harrison Barnes,harrison-barnes,40,F,6-8,225,"MAY 30, 1992",28.0,7,North Carolina,2019-20,1610612758,SAC,Sacramento Kings
+202357,Nemanja Bjelica,nemanja-bjelica,88,F,6-10,234,"MAY 09, 1988",32.0,4,Fenerbahce,2019-20,1610612758,SAC,Sacramento Kings

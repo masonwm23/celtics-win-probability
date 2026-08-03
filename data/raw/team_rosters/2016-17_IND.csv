@@ -1,0 +1,16 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+101139,CJ Miles,cj-miles,0,F-G,6-6,225,"MAR 18, 1987",30.0,11,Skyline HS (TX),2016-17,1610612754,IND,Indiana Pacers
+201166,Aaron Brooks,aaron-brooks,00,G,6-0,161,"JAN 14, 1985",32.0,8,Oregon,2016-17,1610612754,IND,Indiana Pacers
+202338,Kevin Seraphin,kevin-seraphin,1,F-C,6-10,278,"DEC 07, 1989",27.0,6,Cholet,2016-17,1610612754,IND,Indiana Pacers
+1626202,Joe Young,joe-young,3,G,6-2,180,"JUN 27, 1992",25.0,1,Oregon,2016-17,1610612754,IND,Indiana Pacers
+202730,Lavoy Allen,lavoy-allen,5,F-C,6-9,260,"FEB 04, 1989",28.0,5,Temple,2016-17,1610612754,IND,Indiana Pacers
+202362,Lance Stephenson,lance-stephenson,6,G,6-5,230,"SEP 05, 1990",26.0,6,Cincinnati,2016-17,1610612754,IND,Indiana Pacers
+2744,Al Jefferson,al-jefferson,7,C,6-10,289,"JAN 04, 1985",32.0,12,No College,2016-17,1610612754,IND,Indiana Pacers
+101145,Monta Ellis,monta-ellis,11,G,6-3,185,"OCT 26, 1985",31.0,11,Lanier HS (MS),2016-17,1610612754,IND,Indiana Pacers
+202331,Paul George,paul-george,13,F,6-9,220,"MAY 02, 1990",27.0,6,Fresno State,2016-17,1610612754,IND,Indiana Pacers
+201152,Thaddeus Young,thaddeus-young,21,F,6-8,221,"JUN 21, 1988",29.0,9,Georgia Tech,2016-17,1610612754,IND,Indiana Pacers
+1626176,Rakeem Christmas,rakeem-christmas,25,F,6-9,250,"DEC 01, 1991",25.0,1,Syracuse,2016-17,1610612754,IND,Indiana Pacers
+1627777,Georges Niang,georges-niang,32,F,6-8,230,"JUN 17, 1993",24.0,R,Iowa State,2016-17,1610612754,IND,Indiana Pacers
+1626167,Myles Turner,myles-turner,33,C,6-11,243,"MAR 24, 1996",21.0,1,Texas,2016-17,1610612754,IND,Indiana Pacers
+203922,Glenn Robinson III,glenn-robinson-iii,40,G-F,6-6,222,"JAN 08, 1994",23.0,2,Michigan,2016-17,1610612754,IND,Indiana Pacers
+201952,Jeff Teague,jeff-teague,44,G,6-2,186,"JUN 10, 1988",29.0,7,Wake Forest,2016-17,1610612754,IND,Indiana Pacers

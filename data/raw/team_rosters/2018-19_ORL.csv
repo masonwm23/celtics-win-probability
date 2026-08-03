@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+203932,Aaron Gordon,aaron-gordon,00,F,6-9,220,"SEP 16, 1995",23.0,4,Arizona,2018-19,1610612753,ORL,Orlando Magic
+1628371,Jonathan Isaac,jonathan-isaac,1,F,6-10,210,"OCT 03, 1997",21.0,1,Florida State,2018-19,1610612753,ORL,Orlando Magic
+1626185,Jarell Martin,jarell-martin,2,F,6-10,239,"MAY 24, 1994",25.0,3,Louisiana State,2018-19,1610612753,ORL,Orlando Magic
+1628505,Troy Caupain,troy-caupain,3,G,6-4,210,"NOV 29, 1995",23.0,R,Cincinnati,2018-19,1610612753,ORL,Orlando Magic
+1628964,Mo Bamba,mo-bamba,5,C,7-0,221,"MAY 12, 1998",21.0,R,Texas,2018-19,1610612753,ORL,Orlando Magic
+203487,Michael Carter-Williams,michael-carter-williams,7,G,6-6,190,"OCT 10, 1991",27.0,5,Syracuse,2018-19,1610612753,ORL,Orlando Magic
+202696,Nikola Vučević,nikola-vučević,9,C,7-0,260,"OCT 24, 1990",28.0,7,Southern California,2018-19,1610612753,ORL,Orlando Magic
+203095,Evan Fournier,evan-fournier,10,G-F,6-7,205,"OCT 29, 1992",26.0,6,Poitiers Basket 86,2018-19,1610612753,ORL,Orlando Magic
+1628518,Amile Jefferson,amile-jefferson,11,F,6-9,222,"MAY 07, 1993",26.0,R,Duke,2018-19,1610612753,ORL,Orlando Magic
+201571,D.J. Augustin,dj-augustin,14,G,6-0,183,"NOV 10, 1987",31.0,10,Texas,2018-19,1610612753,ORL,Orlando Magic
+1628365,Markelle Fultz,markelle-fultz,20,G,6-4,200,"MAY 29, 1998",21.0,1,Washington,2018-19,1610612753,ORL,Orlando Magic
+202389,Timofey Mozgov,timofey-mozgov,21,C,7-1,275,"JUL 16, 1986",32.0,8,Khimki,2018-19,1610612753,ORL,Orlando Magic
+1626170,Jerian Grant,jerian-grant,22,G,6-4,205,"OCT 09, 1992",26.0,3,Notre Dame,2018-19,1610612753,ORL,Orlando Magic
+203920,Khem Birch,khem-birch,24,C,6-9,233,"SEP 28, 1992",26.0,1,UNLV,2018-19,1610612753,ORL,Orlando Magic
+1628411,Wes Iwundu,wes-iwundu,25,F,6-7,195,"DEC 20, 1994",24.0,1,Kansas State,2018-19,1610612753,ORL,Orlando Magic
+203082,Terrence Ross,terrence-ross,31,G-F,6-7,206,"FEB 05, 1991",28.0,6,Washington,2018-19,1610612753,ORL,Orlando Magic
+1628982,Melvin Frazier Jr.,melvin-frazier-jr,35,G-F,6-6,200,"AUG 30, 1996",22.0,R,Tulane,2018-19,1610612753,ORL,Orlando Magic

@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1628499,Antonius Cleveland,antonius-cleveland,0,G,6-6,195,"FEB 02, 1994",24.0,R,S.E. Missouri,2017-18,1610612737,ATL,Atlanta Hawks
+1628416,Tyler Dorsey,tyler-dorsey,2,G,6-5,183,"FEB 18, 1996",22.0,R,Oregon,2017-18,1610612737,ATL,Atlanta Hawks
+1628537,Jaylen Morris,jaylen-morris,3,G,6-5,185,"SEP 19, 1995",22.0,R,Molloy,2017-18,1610612737,ATL,Atlanta Hawks
+1628510,Andrew White III,andrew-white-iii,4,F,6-7,210,"JUN 16, 1993",25.0,R,Syracuse,2017-18,1610612737,ATL,Atlanta Hawks
+1627098,Malcolm Delaney,malcolm-delaney,5,G,6-3,190,"MAR 11, 1989",29.0,1,Virginia Tech,2017-18,1610612737,ATL,Atlanta Hawks
+202379,Jeremy Evans,jeremy-evans,6,F,6-9,200,"OCT 24, 1987",30.0,6,Western Kentucky,2017-18,1610612737,ATL,Atlanta Hawks
+1627814,Damion Lee,damion-lee,8,G,6-6,210,"OCT 21, 1992",25.0,R,Drexel,2017-18,1610612737,ATL,Atlanta Hawks
+203705,Josh Magette,josh-magette,11,G,6-1,160,"NOV 28, 1989",28.0,R,Alabama Huntsville,2017-18,1610612737,ATL,Atlanta Hawks
+1627752,Taurean Prince,taurean-prince,12,F,6-8,220,"MAR 22, 1994",24.0,1,Baylor,2017-18,1610612737,ATL,Atlanta Hawks
+203473,Dewayne Dedmon,dewayne-dedmon,14,C,7-0,245,"AUG 12, 1989",28.0,4,USC,2017-18,1610612737,ATL,Atlanta Hawks
+203471,Dennis Schröder,dennis-schröder,17,G,6-1,172,"SEP 15, 1993",24.0,4,Braunschweig,2017-18,1610612737,ATL,Atlanta Hawks
+203101,Miles Plumlee,miles-plumlee,18,C-F,6-11,249,"SEP 01, 1988",29.0,5,Duke,2017-18,1610612737,ATL,Atlanta Hawks
+1628381,John Collins,john-collins,20,F-C,6-10,235,"SEP 23, 1997",20.0,R,Wake Forest,2017-18,1610612737,ATL,Atlanta Hawks
+1627819,Isaiah Taylor,isaiah-taylor,22,G,6-3,170,"JUL 11, 1994",23.0,1,Texas,2017-18,1610612737,ATL,Atlanta Hawks
+203145,Kent Bazemore,kent-bazemore,24,G,6-5,201,"JUL 01, 1989",28.0,5,Old Dominion,2017-18,1610612737,ATL,Atlanta Hawks
+203488,Mike Muscala,mike-muscala,31,F-C,6-11,240,"JUL 01, 1991",26.0,4,Bucknell,2017-18,1610612737,ATL,Atlanta Hawks
+1628463,Tyler Cavanaugh,tyler-cavanaugh,34,F,6-9,238,"FEB 09, 1994",24.0,R,George Washington,2017-18,1610612737,ATL,Atlanta Hawks
+1627761,DeAndre' Bembry,deandre-bembry,95,F-G,6-6,210,"JUL 04, 1994",23.0,1,St. Joseph's (PA),2017-18,1610612737,ATL,Atlanta Hawks

@@ -1,0 +1,16 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+200782,P.J. Tucker,pj-tucker,2,F,6-6,245,"MAY 05, 1985",32.0,5,Texas,2016-17,1610612761,TOR,Toronto Raptors
+201960,DeMarre Carroll,demarre-carroll,5,F,6-8,212,"JUL 27, 1986",30.0,7,Missouri,2016-17,1610612761,TOR,Toronto Raptors
+202709,Cory Joseph,cory-joseph,6,G,6-3,190,"AUG 20, 1991",25.0,5,Texas,2016-17,1610612761,TOR,Toronto Raptors
+200768,Kyle Lowry,kyle-lowry,7,G,6-0,205,"MAR 25, 1986",31.0,10,Villanova,2016-17,1610612761,TOR,Toronto Raptors
+201586,Serge Ibaka,serge-ibaka,9,F,6-10,235,"SEP 18, 1989",27.0,7,Ricoh Manresa,2016-17,1610612761,TOR,Toronto Raptors
+201942,DeMar DeRozan,demar-derozan,10,G,6-7,220,"AUG 07, 1989",27.0,7,Southern California,2016-17,1610612761,TOR,Toronto Raptors
+202685,Jonas Valančiūnas,jonas-valančiūnas,17,C,7-0,255,"MAY 06, 1992",25.0,4,Lietuvos rytas Vilnius,2016-17,1610612761,TOR,Toronto Raptors
+203998,Bruno Caboclo,bruno-caboclo,20,F,6-9,205,"SEP 21, 1995",21.0,2,Pinheiros,2016-17,1610612761,TOR,Toronto Raptors
+1627832,Fred VanVleet,fred-vanvleet,23,G,6-0,195,"FEB 25, 1994",23.0,R,Wichita State,2016-17,1610612761,TOR,Toronto Raptors
+1626181,Norman Powell,norman-powell,24,G,6-4,215,"MAY 25, 1993",24.0,1,UCLA,2016-17,1610612761,TOR,Toronto Raptors
+1627751,Jakob Poeltl,jakob-poeltl,42,C,7-0,230,"OCT 15, 1995",21.0,R,Utah,2016-17,1610612761,TOR,Toronto Raptors
+1627783,Pascal Siakam,pascal-siakam,43,F,6-9,230,"APR 02, 1994",23.0,R,New Mexico State,2016-17,1610612761,TOR,Toronto Raptors
+202335,Patrick Patterson,patrick-patterson,54,F,6-9,235,"MAR 14, 1989",28.0,6,Kentucky,2016-17,1610612761,TOR,Toronto Raptors
+1626153,Delon Wright,delon-wright,55,G,6-5,190,"APR 26, 1992",25.0,1,Utah,2016-17,1610612761,TOR,Toronto Raptors
+203512,Lucas Nogueira,lucas-nogueira,92,C,7-0,220,"JUL 26, 1992",24.0,2,Estudiantes,2016-17,1610612761,TOR,Toronto Raptors

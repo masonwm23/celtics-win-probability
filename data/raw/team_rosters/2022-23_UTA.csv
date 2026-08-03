@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+203903,Jordan Clarkson,jordan-clarkson,00,G,6-5,194,"JUN 07, 1992",31.0,8,Missouri,2022-23,1610612762,UTA,Utah Jazz
+1629659,Talen Horton-Tucker,talen-horton-tucker,0,G,6-4,234,"NOV 25, 2000",22.0,3,Iowa State,2022-23,1610612762,UTA,Utah Jazz
+1629012,Collin Sexton,collin-sexton,2,G,6-2,190,"JAN 04, 1999",24.0,4,Alabama,2022-23,1610612762,UTA,Utah Jazz
+1627739,Kris Dunn,kris-dunn,11,G,6-3,205,"MAR 18, 1994",29.0,6,Providence,2022-23,1610612762,UTA,Utah Jazz
+1630176,Vernon Carey Jr.,vernon-carey-jr,13,C,6-10,270,"FEB 25, 2001",22.0,2,Duke,2022-23,1610612762,UTA,Utah Jazz
+1627745,Damian Jones,damian-jones,15,C,6-11,245,"JUN 30, 1995",28.0,6,Vanderbilt,2022-23,1610612762,UTA,Utah Jazz
+1631323,Simone Fontecchio,simone-fontecchio,16,F,6-7,209,"DEC 09, 1995",27.0,R,Baskonia,2022-23,1610612762,UTA,Utah Jazz
+1629677,Luka Samanic,luka-samanic,19,F,6-10,227,"JAN 09, 2000",23.0,2,Union Olimpija,2022-23,1610612762,UTA,Utah Jazz
+1628962,Udoka Azubuike,udoka-azubuike,20,C-F,6-11,270,"SEP 17, 1999",23.0,2,Kansas,2022-23,1610612762,UTA,Utah Jazz
+200752,Rudy Gay,rudy-gay,22,F-G,6-8,250,"AUG 17, 1986",36.0,16,Connecticut,2022-23,1610612762,UTA,Utah Jazz
+1628374,Lauri Markkanen,lauri-markkanen,23,F-C,7-0,240,"MAY 22, 1997",26.0,5,Arizona,2022-23,1610612762,UTA,Utah Jazz
+1631117,Walker Kessler,walker-kessler,24,C,7-0,245,"JUL 26, 2001",21.0,R,Auburn,2022-23,1610612762,UTA,Utah Jazz
+1630695,Micah Potter,micah-potter,25,C,6-8,248,"APR 06, 1998",25.0,1,Wisconsin,2022-23,1610612762,UTA,Utah Jazz
+1630534,Ochai Agbaji,ochai-agbaji,30,G,6-5,215,"APR 20, 2000",23.0,R,Kansas,2022-23,1610612762,UTA,Utah Jazz
+1630548,Johnny Juzang,johnny-juzang,33,G,6-6,209,"MAR 17, 2001",22.0,R,UCLA,2022-23,1610612762,UTA,Utah Jazz
+203482,Kelly Olynyk,kelly-olynyk,41,F-C,6-11,240,"APR 19, 1991",32.0,9,Gonzaga,2022-23,1610612762,UTA,Utah Jazz
+1629308,Juan Toscano-Anderson,juan-toscano-anderson,95,F,6-6,209,"APR 10, 1993",30.0,3,Marquette,2022-23,1610612762,UTA,Utah Jazz

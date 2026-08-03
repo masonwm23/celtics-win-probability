@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1629008,Michael Porter Jr.,michael-porter-jr,1,F,6-10,218,"JUN 29, 1998",22.0,R,Missouri,2019-20,1610612743,DEN,Denver Nuggets
+1628470,Torrey Craig,torrey-craig,3,F,6-7,221,"DEC 19, 1990",29.0,2,South Carolina Upstate,2019-20,1610612743,DEN,Denver Nuggets
+200794,Paul Millsap,paul-millsap,4,F,6-7,257,"FEB 10, 1985",35.0,13,Louisiana Tech,2019-20,1610612743,DEN,Denver Nuggets
+203115,Will Barton,will-barton,5,G,6-5,181,"JAN 06, 1991",29.0,7,Memphis,2019-20,1610612743,DEN,Denver Nuggets
+1628966,Keita Bates-Diop,keita-bates-diop,6,F,6-8,229,"JAN 23, 1996",24.0,1,Ohio State,2019-20,1610612743,DEN,Denver Nuggets
+203486,Mason Plumlee,mason-plumlee,7,F-C,6-11,254,"MAR 05, 1990",30.0,6,Duke,2019-20,1610612743,DEN,Denver Nuggets
+203924,Jerami Grant,jerami-grant,9,F,6-8,210,"MAR 12, 1994",26.0,5,Syracuse,2019-20,1610612743,DEN,Denver Nuggets
+1629626,Bol Bol,bol-bol,10,C-F,7-2,220,"NOV 16, 1999",20.0,R,Oregon,2019-20,1610612743,DEN,Denver Nuggets
+1628420,Monté Morris,monté-morris,11,G,6-2,183,"JUN 27, 1995",25.0,2,Iowa State,2019-20,1610612743,DEN,Denver Nuggets
+203914,Gary Harris,gary-harris,14,G,6-4,210,"SEP 14, 1994",25.0,5,Michigan State,2019-20,1610612743,DEN,Denver Nuggets
+203999,Nikola Jokić,nikola-jokić,15,C,7-0,284,"FEB 19, 1995",25.0,4,Mega Basket,2019-20,1610612743,DEN,Denver Nuggets
+1629076,Tyler Cook,tyler-cook,25,F,6-8,255,"SEP 23, 1997",22.0,R,Iowa,2019-20,1610612743,DEN,Denver Nuggets
+1627750,Jamal Murray,jamal-murray,27,G,6-4,215,"FEB 23, 1997",23.0,3,Kentucky,2019-20,1610612743,DEN,Denver Nuggets
+203584,Troy Daniels,troy-daniels,30,G,6-4,200,"JUL 15, 1991",28.0,6,Va Commonwealth,2019-20,1610612743,DEN,Denver Nuggets
+1628427,Vlatko Čančar,vlatko-čančar,31,F,6-8,236,"APR 10, 1997",23.0,R,San Pablo Burgos,2019-20,1610612743,DEN,Denver Nuggets
+203943,Noah Vonleh,noah-vonleh,32,F,6-10,257,"AUG 24, 1995",24.0,5,Indiana,2019-20,1610612743,DEN,Denver Nuggets
+1628408,PJ Dozier,pj-dozier,35,G-F,6-6,205,"OCT 25, 1996",23.0,2,South Carolina,2019-20,1610612743,DEN,Denver Nuggets

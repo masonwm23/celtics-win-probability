@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+203484,Kentavious Caldwell-Pope,kentavious-caldwell-pope,1,G,6-5,204,"FEB 18, 1993",29.0,8,Georgia,2021-22,1610612764,WAS,Washington Wizards
+203078,Bradley Beal,bradley-beal,3,G,6-4,207,"JUN 28, 1993",29.0,9,Florida,2021-22,1610612764,WAS,Washington Wizards
+202397,Ish Smith,ish-smith,4,G,6-0,175,"JUL 05, 1988",33.0,11,Wake Forest,2021-22,1610612764,WAS,Washington Wizards
+1630216,Cassius Winston,cassius-winston,5,G,6-1,185,"FEB 28, 1998",24.0,1,Michigan State,2021-22,1610612764,WAS,Washington Wizards
+204001,Kristaps Porziņģis,kristaps-porziņģis,6,F-C,7-3,240,"AUG 02, 1995",26.0,6,Cajasol Sevilla,2021-22,1610612764,WAS,Washington Wizards
+1629060,Rui Hachimura,rui-hachimura,8,F,6-8,230,"FEB 08, 1998",24.0,2,Gonzaga,2021-22,1610612764,WAS,Washington Wizards
+1630166,Deni Avdija,deni-avdija,9,F,6-9,210,"JAN 03, 2001",21.0,1,Maccabi Tel Aviv,2021-22,1610612764,WAS,Washington Wizards
+1628418,Thomas Bryant,thomas-bryant,13,C-F,6-10,248,"JUL 31, 1997",24.0,4,Indiana,2021-22,1610612764,WAS,Washington Wizards
+1630225,Isaiah Todd,isaiah-todd,14,F,6-9,219,"OCT 17, 2001",20.0,R,G League Ignite,2021-22,1610612764,WAS,Washington Wizards
+1630264,Anthony Gill,anthony-gill,16,F,6-7,230,"OCT 17, 1992",29.0,1,Virginia,2021-22,1610612764,WAS,Washington Wizards
+203526,Raul Neto,raul-neto,19,G,6-2,180,"MAY 19, 1992",30.0,6,Murcia,2021-22,1610612764,WAS,Washington Wizards
+1630648,Jordan Schakel,jordan-schakel,20,G,6-6,200,"JUN 13, 1998",24.0,R,San Diego State,2021-22,1610612764,WAS,Washington Wizards
+1629655,Daniel Gafford,daniel-gafford,21,F-C,6-9,234,"OCT 01, 1998",23.0,2,Arkansas,2021-22,1610612764,WAS,Washington Wizards
+1630176,Vernon Carey Jr.,vernon-carey-jr,22,F-C,6-9,270,"FEB 25, 2001",21.0,1,Duke,2021-22,1610612764,WAS,Washington Wizards
+1630557,Corey Kispert,corey-kispert,24,F,6-6,224,"MAR 03, 1999",23.0,R,Gonzaga,2021-22,1610612764,WAS,Washington Wizards
+203107,Tomas Satoransky,tomas-satoransky,31,G,6-7,210,"OCT 30, 1991",30.0,5,FC Barcelona,2021-22,1610612764,WAS,Washington Wizards
+1628398,Kyle Kuzma,kyle-kuzma,33,F,6-9,221,"JUL 24, 1995",26.0,4,Utah,2021-22,1610612764,WAS,Washington Wizards

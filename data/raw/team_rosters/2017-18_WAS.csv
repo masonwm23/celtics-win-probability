@@ -1,0 +1,17 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1626191,Chris McCullough,chris-mccullough,1,F,6-9,215,"FEB 05, 1995",23.0,2,Syracuse,2017-18,1610612764,WAS,Washington Wizards
+202322,John Wall,john-wall,2,G,6-4,210,"SEP 06, 1990",27.0,7,Kentucky,2017-18,1610612764,WAS,Washington Wizards
+203078,Bradley Beal,bradley-beal,3,G,6-5,207,"JUN 28, 1993",25.0,5,Florida,2017-18,1610612764,WAS,Washington Wizards
+201951,Ty Lawson,ty-lawson,4,G,5-11,195,"NOV 03, 1987",30.0,8,North Carolina,2017-18,1610612764,WAS,Washington Wizards
+202693,Markieff Morris,markieff-morris,5,F,6-10,245,"SEP 02, 1989",28.0,6,Kansas,2017-18,1610612764,WAS,Washington Wizards
+1628421,Devin Robinson,devin-robinson,7,F,6-8,200,"MAR 07, 1995",23.0,R,Florida,2017-18,1610612764,WAS,Washington Wizards
+204025,Tim Frazier,tim-frazier,8,G,6-1,170,"NOV 01, 1990",27.0,3,Penn State,2017-18,1610612764,WAS,Washington Wizards
+201196,Ramon Sessions,ramon-sessions,9,G,6-3,190,"APR 11, 1986",32.0,10,Nevada-Reno,2017-18,1610612764,WAS,Washington Wizards
+1626162,Kelly Oubre Jr.,kelly-oubre-jr,12,F,6-7,205,"DEC 09, 1995",22.0,2,Kansas,2017-18,1610612764,WAS,Washington Wizards
+101162,Marcin Gortat,marcin-gortat,13,C,6-11,240,"FEB 17, 1984",34.0,10,RheinEnergie Cologne,2017-18,1610612764,WAS,Washington Wizards
+201160,Jason Smith,jason-smith,14,F-C,7-0,240,"MAR 02, 1986",32.0,9,Colorado State,2017-18,1610612764,WAS,Washington Wizards
+201975,Jodie Meeks,jodie-meeks,20,G,6-4,210,"AUG 21, 1987",30.0,8,Kentucky,2017-18,1610612764,WAS,Washington Wizards
+203490,Otto Porter Jr.,otto-porter-jr,22,F,6-8,198,"JUN 03, 1993",25.0,4,Georgetown,2017-18,1610612764,WAS,Washington Wizards
+101133,Ian Mahinmi,ian-mahinmi,28,C,6-11,262,"NOV 05, 1986",31.0,9,Pau Orthez,2017-18,1610612764,WAS,Washington Wizards
+203118,Mike Scott,mike-scott,30,F,6-8,237,"JUL 16, 1988",29.0,5,Virginia,2017-18,1610612764,WAS,Washington Wizards
+203107,Tomas Satoransky,tomas-satoransky,31,G-F,6-7,210,"OCT 30, 1991",26.0,1,FC Barcelona,2017-18,1610612764,WAS,Washington Wizards

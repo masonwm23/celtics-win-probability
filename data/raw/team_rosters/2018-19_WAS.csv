@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+2772,Trevor Ariza,trevor-ariza,1,F,6-8,215,"JUN 30, 1985",33.0,14,UCLA,2018-19,1610612764,WAS,Washington Wizards
+202322,John Wall,john-wall,2,G,6-4,210,"SEP 06, 1990",28.0,8,Kentucky,2018-19,1610612764,WAS,Washington Wizards
+203078,Bradley Beal,bradley-beal,3,G,6-5,207,"JUN 28, 1993",26.0,6,Florida,2018-19,1610612764,WAS,Washington Wizards
+202325,Wesley Johnson,wesley-johnson,4,F-G,6-7,215,"JUL 11, 1987",31.0,8,Syracuse,2018-19,1610612764,WAS,Washington Wizards
+1626171,Bobby Portis,bobby-portis,5,F,6-11,250,"FEB 10, 1995",24.0,3,Arkansas,2018-19,1610612764,WAS,Washington Wizards
+1628972,Troy Brown Jr.,troy-brown-jr,6,F,6-7,215,"JUL 28, 1999",19.0,R,Oregon,2018-19,1610612764,WAS,Washington Wizards
+1628421,Devin Robinson,devin-robinson,7,F,6-8,200,"MAR 07, 1995",24.0,1,Florida,2018-19,1610612764,WAS,Washington Wizards
+1626155,Sam Dekker,sam-dekker,8,F,6-9,230,"MAY 06, 1994",25.0,3,Wisconsin,2018-19,1610612764,WAS,Washington Wizards
+1626184,Chasson Randle,chasson-randle,9,G,6-2,185,"FEB 05, 1993",26.0,1,Stanford,2018-19,1610612764,WAS,Washington Wizards
+203953,Jabari Parker,jabari-parker,12,F,6-8,245,"MAR 15, 1995",24.0,4,Duke,2018-19,1610612764,WAS,Washington Wizards
+1628418,Thomas Bryant,thomas-bryant,13,C,6-11,248,"JUL 31, 1997",21.0,1,Indiana,2018-19,1610612764,WAS,Washington Wizards
+2730,Dwight Howard,dwight-howard,21,C,6-11,265,"DEC 08, 1985",33.0,14,SW Atlanta Christian Academy (GA),2018-19,1610612764,WAS,Washington Wizards
+1629341,Tarik Phillip,tarik-phillip,22,G,6-3,195,"AUG 10, 1993",25.0,R,West Virginia,2018-19,1610612764,WAS,Washington Wizards
+101133,Ian Mahinmi,ian-mahinmi,28,C,6-11,262,"NOV 05, 1986",32.0,10,Pau Orthez,2018-19,1610612764,WAS,Washington Wizards
+203107,Tomas Satoransky,tomas-satoransky,31,G-F,6-7,210,"OCT 30, 1991",27.0,2,FC Barcelona,2018-19,1610612764,WAS,Washington Wizards
+201145,Jeff Green,jeff-green,32,F,6-9,235,"AUG 28, 1986",32.0,11,Georgetown,2018-19,1610612764,WAS,Washington Wizards
+203895,Jordan McRae,jordan-mcrae,52,G,6-5,179,"MAR 28, 1991",28.0,2,Tennessee,2018-19,1610612764,WAS,Washington Wizards

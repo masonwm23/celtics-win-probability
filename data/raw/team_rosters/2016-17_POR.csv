@@ -1,0 +1,16 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+203081,Damian Lillard,damian-lillard,0,G,6-3,195,"JUL 15, 1990",26.0,4,Weber State,2016-17,1610612757,POR,Portland Trail Blazers
+202323,Evan Turner,evan-turner,1,G-F,6-7,220,"OCT 27, 1988",28.0,6,Ohio State,2016-17,1610612757,POR,Portland Trail Blazers
+203468,CJ McCollum,cj-mccollum,3,G,6-3,190,"SEP 19, 1991",25.0,3,Lehigh,2016-17,1610612757,POR,Portland Trail Blazers
+203090,Maurice Harkless,maurice-harkless,4,F,6-9,220,"MAY 11, 1993",24.0,4,"St. John's, N.Y.",2016-17,1610612757,POR,Portland Trail Blazers
+1626192,Pat Connaughton,pat-connaughton,5,G-F,6-5,210,"JAN 06, 1993",24.0,1,Notre Dame,2016-17,1610612757,POR,Portland Trail Blazers
+203894,Shabazz Napier,shabazz-napier,6,G,6-1,175,"JUL 14, 1991",25.0,2,Connecticut,2016-17,1610612757,POR,Portland Trail Blazers
+202329,Al-Farouq Aminu,al-farouq-aminu,8,F,6-9,220,"SEP 21, 1990",26.0,6,Wake Forest,2016-17,1610612757,POR,Portland Trail Blazers
+1627774,Jake Layman,jake-layman,10,F,6-9,210,"MAR 07, 1994",23.0,R,Maryland,2016-17,1610612757,POR,Portland Trail Blazers
+203086,Meyers Leonard,meyers-leonard,11,F-C,7-1,255,"FEB 27, 1992",25.0,4,Illinois,2016-17,1610612757,POR,Portland Trail Blazers
+202334,Ed Davis,ed-davis,17,F,6-10,245,"JUN 05, 1989",28.0,6,North Carolina,2016-17,1610612757,POR,Portland Trail Blazers
+203943,Noah Vonleh,noah-vonleh,21,F,6-9,245,"AUG 24, 1995",21.0,2,Indiana,2016-17,1610612757,POR,Portland Trail Blazers
+203459,Allen Crabbe,allen-crabbe,23,G,6-6,215,"APR 09, 1992",25.0,3,California,2016-17,1610612757,POR,Portland Trail Blazers
+203994,Jusuf Nurkić,jusuf-nurkić,27,C,7-0,280,"AUG 23, 1994",22.0,2,Cedevita,2016-17,1610612757,POR,Portland Trail Blazers
+203105,Festus Ezeli,festus-ezeli,31,C,6-11,265,"OCT 21, 1989",27.0,3,Vanderbilt,2016-17,1610612757,POR,Portland Trail Blazers
+1627817,Tim Quarterman,tim-quarterman,55,G,6-6,190,"OCT 27, 1994",22.0,R,Louisiana State,2016-17,1610612757,POR,Portland Trail Blazers

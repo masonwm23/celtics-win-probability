@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1627885,Shaquille Harrison,shaquille-harrison,0,G,6-4,195,"OCT 06, 1993",29.0,5,Tulsa,2022-23,1610612747,LAL,Los Angeles Lakers
+1626156,D'Angelo Russell,dangelo-russell,1,G,6-4,193,"FEB 23, 1996",27.0,7,Ohio State,2022-23,1610612747,LAL,Los Angeles Lakers
+1629020,Jarred Vanderbilt,jarred-vanderbilt,2,F,6-8,214,"APR 03, 1999",24.0,4,Kentucky,2022-23,1610612747,LAL,Los Angeles Lakers
+203076,Anthony Davis,anthony-davis,3,F-C,6-10,253,"MAR 11, 1993",30.0,10,Kentucky,2022-23,1610612747,LAL,Los Angeles Lakers
+1629022,Lonnie Walker IV,lonnie-walker-iv,4,G-F,6-4,204,"DEC 14, 1998",24.0,4,Miami,2022-23,1610612747,LAL,Los Angeles Lakers
+1627736,Malik Beasley,malik-beasley,5,G,6-4,187,"NOV 26, 1996",26.0,6,Florida State,2022-23,1610612747,LAL,Los Angeles Lakers
+2544,LeBron James,lebron-james,6,F,6-9,250,"DEC 30, 1984",38.0,19,St. Vincent-St. Mary HS (OH),2022-23,1610612747,LAL,Los Angeles Lakers
+1628972,Troy Brown Jr.,troy-brown-jr,7,G-F,6-7,215,"JUL 28, 1999",23.0,4,Oregon,2022-23,1610612747,LAL,Los Angeles Lakers
+202684,Tristan Thompson,tristan-thompson,9,C-F,6-9,254,"MAR 13, 1991",32.0,11,Texas-Austin,2022-23,1610612747,LAL,Los Angeles Lakers
+1631108,Max Christie,max-christie,10,G,6-5,190,"FEB 10, 2003",20.0,R,Michigan State,2022-23,1610612747,LAL,Los Angeles Lakers
+1628964,Mo Bamba,mo-bamba,12,C,7-0,231,"MAY 12, 1998",25.0,4,Texas,2022-23,1610612747,LAL,Los Angeles Lakers
+1630590,Scotty Pippen Jr.,scotty-pippen-jr,14,G,6-1,170,"NOV 10, 2000",22.0,R,Vanderbilt,2022-23,1610612747,LAL,Los Angeles Lakers
+1630559,Austin Reaves,austin-reaves,15,G,6-5,197,"MAY 29, 1998",25.0,1,Oklahoma,2022-23,1610612747,LAL,Los Angeles Lakers
+203471,Dennis Schröder,dennis-schröder,17,G,6-1,172,"SEP 15, 1993",29.0,9,Braunschweig,2022-23,1610612747,LAL,Los Angeles Lakers
+1631306,Cole Swider,cole-swider,20,F,6-9,220,"MAY 08, 1999",24.0,R,Syracuse,2022-23,1610612747,LAL,Los Angeles Lakers
+1629060,Rui Hachimura,rui-hachimura,28,F,6-8,230,"FEB 08, 1998",25.0,3,Gonzaga,2022-23,1610612747,LAL,Los Angeles Lakers
+1629117,Wenyen Gabriel,wenyen-gabriel,35,F,6-9,205,"MAR 26, 1997",26.0,3,Kentucky,2022-23,1610612747,LAL,Los Angeles Lakers

@@ -1,0 +1,17 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1629665,Jalen Lecque,jalen-lecque,0,G,6-4,185,"JUN 13, 2000",20.0,R,Brewster Academy (NH),2019-20,1610612756,PHX,Phoenix Suns
+1626164,Devin Booker,devin-booker,1,G,6-5,206,"OCT 30, 1996",23.0,4,Kentucky,2019-20,1610612756,PHX,Phoenix Suns
+1629059,Elie Okobo,elie-okobo,2,F-G,6-3,190,"OCT 23, 1997",22.0,1,Elan Bearnais,2019-20,1610612756,PHX,Phoenix Suns
+1626162,Kelly Oubre Jr.,kelly-oubre-jr,3,F-G,6-7,203,"DEC 09, 1995",24.0,4,Kansas,2019-20,1610612756,PHX,Phoenix Suns
+1628975,Jevon Carter,jevon-carter,4,G,6-1,200,"SEP 14, 1995",24.0,1,West Virginia,2019-20,1610612756,PHX,Phoenix Suns
+1626163,Frank Kaminsky,frank-kaminsky,8,F-C,7-0,240,"APR 04, 1993",27.0,4,Wisconsin,2019-20,1610612756,PHX,Phoenix Suns
+1629660,Ty Jerome,ty-jerome,10,G-F,6-5,195,"JUL 08, 1997",22.0,R,Virginia,2019-20,1610612756,PHX,Phoenix Suns
+201937,Ricky Rubio,ricky-rubio,11,G,6-3,190,"OCT 21, 1990",29.0,8,FC Barcelona,2019-20,1610612756,PHX,Phoenix Suns
+1627767,Cheick Diallo,cheick-diallo,14,F-C,6-8,219,"SEP 13, 1996",23.0,3,Kansas,2019-20,1610612756,PHX,Phoenix Suns
+1626166,Cameron Payne,cameron-payne,15,G,6-1,183,"AUG 08, 1994",25.0,4,Murray State,2019-20,1610612756,PHX,Phoenix Suns
+203967,Dario Šarić,dario-šarić,20,F,6-10,225,"APR 08, 1994",26.0,3,Anadolu Efes,2019-20,1610612756,PHX,Phoenix Suns
+1629028,Deandre Ayton,deandre-ayton,22,C,6-11,250,"JUL 23, 1998",21.0,1,Arizona,2019-20,1610612756,PHX,Phoenix Suns
+1629661,Cameron Johnson,cameron-johnson,23,F,6-8,210,"MAR 03, 1996",24.0,R,North Carolina,2019-20,1610612756,PHX,Phoenix Suns
+1628969,Mikal Bridges,mikal-bridges,25,F,6-6,209,"AUG 30, 1996",23.0,1,Villanova,2019-20,1610612756,PHX,Phoenix Suns
+1629745,Tariq Owens,tariq-owens,41,F,6-10,205,"JUN 30, 1995",25.0,R,Texas Tech,2019-20,1610612756,PHX,Phoenix Suns
+203382,Aron Baynes,aron-baynes,46,C-F,6-10,260,"DEC 09, 1986",33.0,7,Washington State,2019-20,1610612756,PHX,Phoenix Suns

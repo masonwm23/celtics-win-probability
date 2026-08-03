@@ -1,0 +1,71 @@
+==============================================================================
+PHASE 11c - DOES THE CLIP ACTUALLY PLAY
+==============================================================================
+
+  The Phase 11 probe checked playback with a HEAD request and got
+  40/40 at HTTP 200. Every one of those 40 reported the SAME
+  Content-Length, 31.6 MB, for clips lasting between 4.4 and 16.6
+  seconds. That is impossible, so the HEAD was not measuring the file.
+
+  This asks for the first 2 KB of each clip instead and looks for the
+  MPEG-4 `ftyp` box in the bytes that come back.
+
+  clips tested            16
+  real MP4 bytes returned 16  (100%)
+  distinct real file sizes among them: 1
+
+  !! Every clip reports the same real size. Treat the result as
+  unproven and look at the rows below by hand.
+
+==============================================================================
+HEAD VERSUS RANGED GET, CLIP BY CLIP
+==============================================================================
+
+  season     HEAD    HEAD len  GET   got   real size  mp4
+  2016-17     200    31580089  206  2048     31.6 MB  yes
+  2016-17     200    31580089  206  2048     31.6 MB  yes
+  2017-18     200    31580089  206  2048     31.6 MB  yes
+  2017-18     200    31580089  206  2048     31.6 MB  yes
+  2018-19     200    31580089  206  2048     31.6 MB  yes
+  2018-19     200    31580089  206  2048     31.6 MB  yes
+  2019-20     200    31580089  206  2048     31.6 MB  yes
+  2019-20     200    31580089  206  2048     31.6 MB  yes
+  2020-21     200    31580089  206  2048     31.6 MB  yes
+  2020-21     200    31580089  206  2048     31.6 MB  yes
+  2021-22     200    31580089  206  2048     31.6 MB  yes
+  2021-22     200    31580089  206  2048     31.6 MB  yes
+  2022-23     200    31580089  206  2048     31.6 MB  yes
+  2022-23     200    31580089  206  2048     31.6 MB  yes
+  2023-24     200    31580089  206  2048     31.6 MB  yes
+  2023-24     200    31580089  206  2048     31.6 MB  yes
+
+==============================================================================
+BY SEASON
+==============================================================================
+
+  season      tested  real mp4    rate
+  2016-17          2         2   100%
+  2017-18          2         2   100%
+  2018-19          2         2   100%
+  2019-20          2         2   100%
+  2020-21          2         2   100%
+  2021-22          2         2   100%
+  2022-23          2         2   100%
+  2023-24          2         2   100%
+
+  ranged GET statuses: 206x16
+
+==============================================================================
+WHAT THIS STILL DOES NOT TELL YOU
+==============================================================================
+
+  Real MP4 bytes over HTTP is strong evidence the clip is there. It
+  is not proof a <video> tag in a browser will play it: an expiring
+  signature, a stricter Referer check on the real GET, or a codec the
+  browser will not decode would all pass this test.
+
+  The only conclusive test is one clip in an actual page, which is an
+  app change and is not being made without your say-so.
+
+  Nothing was changed by this script.
+==============================================================================

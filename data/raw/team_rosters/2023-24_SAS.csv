@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1630564,RaiQuan Gray,raiquan-gray,0,F,6-7,269,"JUL 07, 1999",24.0,1,Florida State,2023-24,1610612759,SAS,San Antonio Spurs
+1641705,Victor Wembanyama,victor-wembanyama,1,F-C,7-4,210,"JAN 04, 2004",20.0,R,Metropolitans 92,2023-24,1610612759,SAS,San Antonio Spurs
+1629640,Keldon Johnson,keldon-johnson,3,F-G,6-5,220,"OCT 11, 1999",24.0,4,Kentucky,2023-24,1610612759,SAS,San Antonio Spurs
+1628984,Devonte' Graham,devonte-graham,4,G,6-1,195,"FEB 22, 1995",29.0,5,Kansas,2023-24,1610612759,SAS,San Antonio Spurs
+1631110,Jeremy Sochan,jeremy-sochan,10,F,6-8,230,"MAY 20, 2003",21.0,1,Baylor,2023-24,1610612759,SAS,San Antonio Spurs
+1631104,Blake Wesley,blake-wesley,14,G,6-3,185,"MAR 16, 2003",21.0,1,Notre Dame,2023-24,1610612759,SAS,San Antonio Spurs
+1626224,Cedi Osman,cedi-osman,16,F,6-7,230,"APR 08, 1995",29.0,6,Anadolu Efes,2023-24,1610612759,SAS,San Antonio Spurs
+1631123,Jamaree Bouyea,jamaree-bouyea,21,G,6-2,180,"JUN 27, 1999",25.0,1,San Francisco,2023-24,1610612759,SAS,San Antonio Spurs
+1631103,Malaki Branham,malaki-branham,22,F,6-4,180,"MAY 12, 2003",21.0,1,Ohio State,2023-24,1610612759,SAS,San Antonio Spurs
+1628380,Zach Collins,zach-collins,23,F-C,6-11,250,"NOV 19, 1997",26.0,6,Gonzaga,2023-24,1610612759,SAS,San Antonio Spurs
+1630170,Devin Vassell,devin-vassell,24,G-F,6-5,200,"AUG 23, 2000",23.0,3,Florida State,2023-24,1610612759,SAS,San Antonio Spurs
+1631321,Sidy Cissoko,sidy-cissoko,25,G,6-6,200,"APR 02, 2004",20.0,R,NBA G League Ignite,2023-24,1610612759,SAS,San Antonio Spurs
+1631230,Dominick Barlow,dominick-barlow,26,F,6-9,215,"MAY 26, 2003",21.0,1,Overtime Elite,2023-24,1610612759,SAS,San Antonio Spurs
+1630561,David Duke Jr.,david-duke-jr,28,G,6-4,204,"OCT 13, 1999",24.0,2,Providence,2023-24,1610612759,SAS,San Antonio Spurs
+1629646,Charles Bassey,charles-bassey,28,C-F,6-10,230,"OCT 28, 2000",23.0,2,Western Kentucky,2023-24,1610612759,SAS,San Antonio Spurs
+1630577,Julian Champagnie,julian-champagnie,30,F,6-7,217,"JUN 29, 2001",23.0,1,St. John's,2023-24,1610612759,SAS,San Antonio Spurs
+1630200,Tre Jones,tre-jones,33,G,6-1,185,"JAN 08, 2000",24.0,3,Duke,2023-24,1610612759,SAS,San Antonio Spurs
+1630572,Sandro Mamukelashvili,sandro-mamukelashvili,54,F-C,6-9,240,"MAY 23, 1999",25.0,2,Seton Hall,2023-24,1610612759,SAS,San Antonio Spurs

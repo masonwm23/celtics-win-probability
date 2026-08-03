@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1630258,Caleb Homesley,caleb-homesley,,G,6-6,205,"NOV 27, 1996",24.0,R,Liberty,2020-21,1610612764,WAS,Washington Wizards
+1628990,Chandler Hutchison,chandler-hutchison,1,F-G,6-6,210,"APR 26, 1996",25.0,2,Boise State,2020-21,1610612764,WAS,Washington Wizards
+203078,Bradley Beal,bradley-beal,3,G,6-3,207,"JUN 28, 1993",28.0,8,Florida,2020-21,1610612764,WAS,Washington Wizards
+201566,Russell Westbrook,russell-westbrook,4,G,6-3,200,"NOV 12, 1988",32.0,12,UCLA,2020-21,1610612764,WAS,Washington Wizards
+1630216,Cassius Winston,cassius-winston,5,G,6-1,185,"FEB 28, 1998",23.0,R,Michigan State,2020-21,1610612764,WAS,Washington Wizards
+1629060,Rui Hachimura,rui-hachimura,8,F,6-8,230,"FEB 08, 1998",23.0,1,Gonzaga,2020-21,1610612764,WAS,Washington Wizards
+1630166,Deni Avdija,deni-avdija,9,F,6-9,210,"JAN 03, 2001",20.0,R,Maccabi Tel Aviv,2020-21,1610612764,WAS,Washington Wizards
+1628418,Thomas Bryant,thomas-bryant,13,C-F,6-10,248,"JUL 31, 1997",23.0,3,Indiana,2020-21,1610612764,WAS,Washington Wizards
+202397,Ish Smith,ish-smith,14,G,6-0,175,"JUL 05, 1988",32.0,10,Wake Forest,2020-21,1610612764,WAS,Washington Wizards
+201577,Robin Lopez,robin-lopez,15,C,7-0,281,"APR 01, 1988",33.0,12,Stanford,2020-21,1610612764,WAS,Washington Wizards
+1630264,Anthony Gill,anthony-gill,16,F,6-7,230,"OCT 17, 1992",28.0,R,Virginia,2020-21,1610612764,WAS,Washington Wizards
+1629067,Isaac Bonga,isaac-bonga,17,G,6-8,180,"NOV 08, 1999",21.0,2,Skyliners Frankfurt,2020-21,1610612764,WAS,Washington Wizards
+203526,Raul Neto,raul-neto,19,G,6-1,180,"MAY 19, 1992",29.0,5,Murcia,2020-21,1610612764,WAS,Washington Wizards
+1629655,Daniel Gafford,daniel-gafford,21,F-C,6-10,234,"OCT 01, 1998",22.0,1,Arkansas,2020-21,1610612764,WAS,Washington Wizards
+1629726,Garrison Mathews,garrison-mathews,24,G,6-5,215,"OCT 24, 1996",24.0,1,Lipscomb,2020-21,1610612764,WAS,Washington Wizards
+203458,Alex Len,alex-len,27,C,7-0,250,"JUN 16, 1993",28.0,7,Maryland,2020-21,1610612764,WAS,Washington Wizards
+202722,Davis Bertans,davis-bertans,42,F,6-10,225,"NOV 12, 1992",28.0,4,Baskonia,2020-21,1610612764,WAS,Washington Wizards

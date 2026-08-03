@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+201567,Kevin Love,kevin-love,0,F-C,6-8,251,"SEP 07, 1988",33.0,13,UCLA,2021-22,1610612739,CLE,Cleveland Cavaliers
+1629164,Brandon Goodwin,brandon-goodwin,00,G,6-0,180,"OCT 02, 1995",26.0,3,Florida Gulf Coast,2021-22,1610612739,CLE,Cleveland Cavaliers
+200765,Rajon Rondo,rajon-rondo,1,G,6-1,180,"FEB 22, 1986",36.0,15,Kentucky,2021-22,1610612739,CLE,Cleveland Cavaliers
+1629012,Collin Sexton,collin-sexton,2,G,6-1,190,"JAN 04, 1999",23.0,3,Alabama,2021-22,1610612739,CLE,Cleveland Cavaliers
+1627747,Caris LeVert,caris-levert,3,G,6-6,205,"AUG 25, 1994",27.0,5,Michigan,2021-22,1610612739,CLE,Cleveland Cavaliers
+1630596,Evan Mobley,evan-mobley,4,C,6-11,215,"JUN 18, 2001",21.0,R,Southern California,2021-22,1610612739,CLE,Cleveland Cavaliers
+1630612,Ruben Nembhard Jr.,ruben-nembhard-jr,5,G,6-4,200,"MAR 22, 1999",23.0,R,Texas Christian,2021-22,1610612739,CLE,Cleveland Cavaliers
+1629650,Moses Brown,moses-brown,6,C,7-2,245,"OCT 13, 1999",22.0,2,UCLA,2021-22,1610612739,CLE,Cleveland Cavaliers
+1630205,Lamar Stevens,lamar-stevens,8,F,6-6,230,"JUL 09, 1997",24.0,1,Penn State,2021-22,1610612739,CLE,Cleveland Cavaliers
+1629685,Dylan Windler,dylan-windler,9,G-F,6-6,196,"SEP 22, 1996",25.0,1,Belmont,2021-22,1610612739,CLE,Cleveland Cavaliers
+1629636,Darius Garland,darius-garland,10,G,6-1,192,"JAN 26, 2000",22.0,2,Vanderbilt,2021-22,1610612739,CLE,Cleveland Cavaliers
+1626224,Cedi Osman,cedi-osman,16,F,6-7,230,"APR 08, 1995",27.0,4,Anadolu Efes,2021-22,1610612739,CLE,Cleveland Cavaliers
+202334,Ed Davis,ed-davis,21,C-F,6-9,218,"JUN 05, 1989",33.0,11,North Carolina,2021-22,1610612739,CLE,Cleveland Cavaliers
+1628374,Lauri Markkanen,lauri-markkanen,24,F-C,6-11,240,"MAY 22, 1997",25.0,4,Arizona,2021-22,1610612739,CLE,Cleveland Cavaliers
+1628386,Jarrett Allen,jarrett-allen,31,C,6-10,243,"APR 21, 1998",24.0,4,Texas,2021-22,1610612739,CLE,Cleveland Cavaliers
+1629731,Dean Wade,dean-wade,32,F-C,6-9,228,"NOV 20, 1996",25.0,2,Kansas State,2021-22,1610612739,CLE,Cleveland Cavaliers
+1630171,Isaac Okoro,isaac-okoro,35,F-G,6-5,225,"JAN 26, 2001",21.0,1,Auburn,2021-22,1610612739,CLE,Cleveland Cavaliers

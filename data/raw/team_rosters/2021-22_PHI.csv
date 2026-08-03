@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1630178,Tyrese Maxey,tyrese-maxey,0,G,6-2,200,"NOV 04, 2000",21.0,1,Kentucky,2021-22,1610612755,PHI,Philadelphia 76ers
+201935,James Harden,james-harden,1,G,6-5,220,"AUG 26, 1989",32.0,12,Arizona State,2021-22,1610612755,PHI,Philadelphia 76ers
+1629619,Myles Powell,myles-powell,5,G,6-2,195,"JUL 07, 1997",24.0,R,Seton Hall,2021-22,1610612755,PHI,Philadelphia 76ers
+1630198,Isaiah Joe,isaiah-joe,7,G,6-4,165,"JUL 02, 1999",22.0,1,Arkansas,2021-22,1610612755,PHI,Philadelphia 76ers
+200794,Paul Millsap,paul-millsap,8,F,6-7,257,"FEB 10, 1985",37.0,15,Louisiana Tech,2021-22,1610612755,PHI,Philadelphia 76ers
+201599,DeAndre Jordan,deandre-jordan,9,C,6-11,265,"JUL 21, 1988",33.0,13,Texas A&M,2021-22,1610612755,PHI,Philadelphia 76ers
+1630531,Jaden Springer,jaden-springer,11,G,6-4,202,"SEP 25, 2002",19.0,R,Tennessee,2021-22,1610612755,PHI,Philadelphia 76ers
+202699,Tobias Harris,tobias-harris,12,F,6-7,226,"JUL 15, 1992",29.0,10,Tennessee,2021-22,1610612755,PHI,Philadelphia 76ers
+201980,Danny Green,danny-green,14,G,6-6,215,"JUN 22, 1987",35.0,12,North Carolina,2021-22,1610612755,PHI,Philadelphia 76ers
+1629718,Charlie Brown Jr.,charlie-brown-jr,16,G,6-6,199,"FEB 02, 1997",25.0,2,St. Joseph's (PA),2021-22,1610612755,PHI,Philadelphia 76ers
+1629003,Shake Milton,shake-milton,18,G-F,6-5,205,"SEP 26, 1996",25.0,3,Southern Methodist,2021-22,1610612755,PHI,Philadelphia 76ers
+1627777,Georges Niang,georges-niang,20,F,6-7,230,"JUN 17, 1993",29.0,5,Iowa State,2021-22,1610612755,PHI,Philadelphia 76ers
+203954,Joel Embiid,joel-embiid,21,C-F,7-0,280,"MAR 16, 1994",28.0,5,Kansas,2021-22,1610612755,PHI,Philadelphia 76ers
+1629680,Matisse Thybulle,matisse-thybulle,22,G-F,6-5,201,"MAR 04, 1997",25.0,2,Washington,2021-22,1610612755,PHI,Philadelphia 76ers
+1629646,Charles Bassey,charles-bassey,23,C-F,6-9,230,"OCT 28, 2000",21.0,R,Western Kentucky,2021-22,1610612755,PHI,Philadelphia 76ers
+1627788,Furkan Korkmaz,furkan-korkmaz,30,G-F,6-7,202,"JUL 24, 1997",24.0,4,Anadolu Efes,2021-22,1610612755,PHI,Philadelphia 76ers
+1630194,Paul Reed,paul-reed,44,F,6-9,210,"JUN 14, 1999",23.0,1,DePaul,2021-22,1610612755,PHI,Philadelphia 76ers

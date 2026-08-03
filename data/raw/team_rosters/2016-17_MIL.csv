@@ -1,0 +1,16 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+201150,Spencer Hawes,spencer-hawes,00,F-C,7-1,245,"APR 28, 1988",29.0,9,Washington,2016-17,1610612749,MIL,Milwaukee Bucks
+1627780,Gary Payton II,gary-payton-ii,0,G,6-3,190,"DEC 01, 1992",24.0,R,Oregon State,2016-17,1610612749,MIL,Milwaukee Bucks
+1891,Jason Terry,jason-terry,3,G,6-2,185,"SEP 15, 1977",39.0,17,Arizona,2016-17,1610612749,MIL,Milwaukee Bucks
+1627748,Thon Maker,thon-maker,7,F-C,7-1,223,"FEB 25, 1997",20.0,R,Athlete Institute Prep,2016-17,1610612749,MIL,Milwaukee Bucks
+203521,Matthew Dellavedova,matthew-dellavedova,8,G,6-4,198,"SEP 08, 1990",26.0,3,Saint Mary's,2016-17,1610612749,MIL,Milwaukee Bucks
+201563,Michael Beasley,michael-beasley,9,F,6-10,235,"JAN 09, 1989",28.0,8,Kansas State,2016-17,1610612749,MIL,Milwaukee Bucks
+203953,Jabari Parker,jabari-parker,12,F,6-8,250,"MAR 15, 1995",22.0,2,Duke,2016-17,1610612749,MIL,Milwaukee Bucks
+1627763,Malcolm Brogdon,malcolm-brogdon,13,G,6-5,215,"DEC 11, 1992",24.0,R,Virginia,2016-17,1610612749,MIL,Milwaukee Bucks
+202328,Greg Monroe,greg-monroe,15,C,6-11,265,"JUN 04, 1990",27.0,6,Georgetown,2016-17,1610612749,MIL,Milwaukee Bucks
+1626173,Rashad Vaughn,rashad-vaughn,20,G,6-6,202,"AUG 16, 1996",20.0,1,UNLV,2016-17,1610612749,MIL,Milwaukee Bucks
+203503,Tony Snell,tony-snell,21,G-F,6-7,217,"NOV 10, 1991",25.0,3,New Mexico,2016-17,1610612749,MIL,Milwaukee Bucks
+203114,Khris Middleton,khris-middleton,22,G-F,6-8,234,"AUG 12, 1991",25.0,4,Texas A&M,2016-17,1610612749,MIL,Milwaukee Bucks
+203089,John Henson,john-henson,31,C-F,6-11,229,"DEC 28, 1990",26.0,4,North Carolina,2016-17,1610612749,MIL,Milwaukee Bucks
+203507,Giannis Antetokounmpo,giannis-antetokounmpo,34,F-G,6-11,222,"DEC 06, 1994",22.0,3,Filathlitikos,2016-17,1610612749,MIL,Milwaukee Bucks
+203141,Mirza Teletovic,mirza-teletovic,35,F,6-9,245,"SEP 17, 1985",31.0,4,Baskonia,2016-17,1610612749,MIL,Milwaukee Bucks

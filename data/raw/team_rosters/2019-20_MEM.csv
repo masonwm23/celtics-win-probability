@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1629007,Jontay Porter,jontay-porter,,C-F,6-11,240,"NOV 15, 1999",20.0,R,Missouri,2019-20,1610612763,MEM,Memphis Grizzlies
+1629001,De'Anthony Melton,deanthony-melton,0,G,6-2,200,"MAY 28, 1998",22.0,1,Southern California,2019-20,1610612763,MEM,Memphis Grizzlies
+203937,Kyle Anderson,kyle-anderson,1,F-G,6-9,230,"SEP 20, 1993",26.0,5,UCLA,2019-20,1610612763,MEM,Memphis Grizzlies
+1628960,Grayson Allen,grayson-allen,3,G,6-4,198,"OCT 08, 1995",24.0,1,Duke,2019-20,1610612763,MEM,Memphis Grizzlies
+1626159,Justise Winslow,justise-winslow,7,F-G,6-6,222,"MAR 26, 1996",24.0,4,Duke,2019-20,1610612763,MEM,Memphis Grizzlies
+1629630,Ja Morant,ja-morant,12,G,6-3,174,"AUG 10, 1999",20.0,R,Murray State,2019-20,1610612763,MEM,Memphis Grizzlies
+1628991,Jaren Jackson Jr.,jaren-jackson-jr,13,F-C,6-11,242,"SEP 15, 1999",20.0,1,Michigan State,2019-20,1610612763,MEM,Memphis Grizzlies
+203476,Gorgui Dieng,gorgui-dieng,14,C,6-10,252,"JAN 18, 1990",30.0,6,Louisville,2019-20,1610612763,MEM,Memphis Grizzlies
+1629634,Brandon Clarke,brandon-clarke,15,F-G,6-8,215,"SEP 19, 1996",23.0,R,Gonzaga,2019-20,1610612763,MEM,Memphis Grizzlies
+202685,Jonas Valančiūnas,jonas-valančiūnas,17,C,6-11,265,"MAY 06, 1992",28.0,7,Lietuvos rytas Vilnius,2019-20,1610612763,MEM,Memphis Grizzlies
+1629139,Yuta Watanabe,yuta-watanabe,18,G-F,6-8,215,"OCT 13, 1994",25.0,1,George Washington,2019-20,1610612763,MEM,Memphis Grizzlies
+1628367,Josh Jackson,josh-jackson,20,G-F,6-8,207,"FEB 10, 1997",23.0,2,Kansas,2019-20,1610612763,MEM,Memphis Grizzlies
+1626145,Tyus Jones,tyus-jones,21,G,6-0,196,"MAY 10, 1996",24.0,4,Duke,2019-20,1610612763,MEM,Memphis Grizzlies
+1629741,Marko Guduric,marko-guduric,23,G,6-6,201,"MAR 08, 1995",25.0,R,Fenerbahce,2019-20,1610612763,MEM,Memphis Grizzlies
+1628415,Dillon Brooks,dillon-brooks,24,G-F,6-7,225,"JAN 22, 1996",24.0,2,Oregon,2019-20,1610612763,MEM,Memphis Grizzlies
+201229,Anthony Tolliver,anthony-tolliver,44,F,6-8,240,"JUN 01, 1985",35.0,11,Creighton,2019-20,1610612763,MEM,Memphis Grizzlies
+1629723,John Konchar,john-konchar,46,G,6-5,210,"MAR 22, 1996",24.0,R,Indiana-Purdue Fort Wayne,2019-20,1610612763,MEM,Memphis Grizzlies

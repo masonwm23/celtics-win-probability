@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+201566,Russell Westbrook,russell-westbrook,0,G,6-3,200,"NOV 12, 1988",33.0,13,UCLA,2021-22,1610612747,LAL,Los Angeles Lakers
+201961,Wayne Ellington,wayne-ellington,2,G,6-4,207,"NOV 29, 1987",34.0,12,North Carolina,2021-22,1610612747,LAL,Los Angeles Lakers
+203076,Anthony Davis,anthony-davis,3,F-C,6-10,253,"MAR 11, 1993",29.0,9,Kentucky,2021-22,1610612747,LAL,Los Angeles Lakers
+201571,D.J. Augustin,dj-augustin,4,G,5-11,183,"NOV 10, 1987",34.0,13,Texas,2021-22,1610612747,LAL,Los Angeles Lakers
+1629659,Talen Horton-Tucker,talen-horton-tucker,5,G,6-4,234,"NOV 25, 2000",21.0,2,Iowa State,2021-22,1610612747,LAL,Los Angeles Lakers
+2544,LeBron James,lebron-james,6,F,6-9,250,"DEC 30, 1984",37.0,18,St. Vincent-St. Mary HS (OH),2021-22,1610612747,LAL,Los Angeles Lakers
+2546,Carmelo Anthony,carmelo-anthony,7,F,6-7,238,"MAY 29, 1984",38.0,18,Syracuse,2021-22,1610612747,LAL,Los Angeles Lakers
+203145,Kent Bazemore,kent-bazemore,9,G-F,6-4,195,"JUL 01, 1989",32.0,9,Old Dominion,2021-22,1610612747,LAL,Los Angeles Lakers
+1628370,Malik Monk,malik-monk,11,G,6-3,200,"FEB 04, 1998",24.0,4,Kentucky,2021-22,1610612747,LAL,Los Angeles Lakers
+1629134,Kendrick Nunn,kendrick-nunn,12,G,6-2,190,"AUG 03, 1995",26.0,2,Oakland,2021-22,1610612747,LAL,Los Angeles Lakers
+1626169,Stanley Johnson,stanley-johnson,14,F-G,6-6,242,"MAY 29, 1996",26.0,6,Arizona,2021-22,1610612747,LAL,Los Angeles Lakers
+1630559,Austin Reaves,austin-reaves,15,G,6-5,197,"MAY 29, 1998",24.0,R,Oklahoma,2021-22,1610612747,LAL,Los Angeles Lakers
+202340,Avery Bradley,avery-bradley,20,G,6-3,180,"NOV 26, 1990",31.0,11,University of Texas at Austin,2021-22,1610612747,LAL,Los Angeles Lakers
+1629117,Wenyen Gabriel,wenyen-gabriel,35,F,6-9,205,"MAR 26, 1997",25.0,2,Kentucky,2021-22,1610612747,LAL,Los Angeles Lakers
+1630644,Mac McClung,mac-mcclung,37,G,6-2,185,"JAN 06, 1999",23.0,R,Texas Tech,2021-22,1610612747,LAL,Los Angeles Lakers
+2730,Dwight Howard,dwight-howard,39,C-F,6-10,265,"DEC 08, 1985",36.0,17,SW Atlanta Christian Academy (GA),2021-22,1610612747,LAL,Los Angeles Lakers
+1630222,Mason Jones,mason-jones,40,G,6-4,200,"JUL 21, 1998",23.0,1,Arkansas,2021-22,1610612747,LAL,Los Angeles Lakers

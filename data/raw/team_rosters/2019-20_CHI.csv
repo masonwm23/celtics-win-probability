@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1629632,Coby White,coby-white,0,G,6-4,195,"FEB 16, 2000",20.0,R,North Carolina,2019-20,1610612741,CHI,Chicago Bulls
+1628436,Luke Kornet,luke-kornet,2,F-C,7-2,250,"JUL 15, 1995",24.0,2,Vanderbilt,2019-20,1610612741,CHI,Chicago Bulls
+1627885,Shaquille Harrison,shaquille-harrison,3,G,6-7,190,"OCT 06, 1993",26.0,2,Tulsa,2019-20,1610612741,CHI,Chicago Bulls
+1626245,Cristiano Felicio,cristiano-felicio,6,F-C,6-10,270,"JUL 07, 1992",27.0,4,Flamengo,2019-20,1610612741,CHI,Chicago Bulls
+203897,Zach LaVine,zach-lavine,8,G-F,6-6,200,"MAR 10, 1995",25.0,5,UCLA,2019-20,1610612741,CHI,Chicago Bulls
+1629655,Daniel Gafford,daniel-gafford,12,F-C,6-10,234,"OCT 01, 1998",21.0,R,Arkansas,2019-20,1610612741,CHI,Chicago Bulls
+1628990,Chandler Hutchison,chandler-hutchison,15,F-G,6-7,210,"APR 26, 1996",24.0,1,Boise State,2019-20,1610612741,CHI,Chicago Bulls
+1629690,Adam Mokoka,adam-mokoka,20,G,6-5,190,"JUL 18, 1998",21.0,R,Mega Basket,2019-20,1610612741,CHI,Chicago Bulls
+201152,Thaddeus Young,thaddeus-young,21,F,6-8,235,"JUN 21, 1988",32.0,12,Georgia Tech,2019-20,1610612741,CHI,Chicago Bulls
+203490,Otto Porter Jr.,otto-porter-jr,22,F,6-8,198,"JUN 03, 1993",27.0,6,Georgetown,2019-20,1610612741,CHI,Chicago Bulls
+1628374,Lauri Markkanen,lauri-markkanen,24,F-C,7-0,240,"MAY 22, 1997",23.0,2,Arizona,2019-20,1610612741,CHI,Chicago Bulls
+1629622,Max Strus,max-strus,28,G-F,6-5,215,"MAR 28, 1996",24.0,R,DePaul,2019-20,1610612741,CHI,Chicago Bulls
+203107,Tomas Satoransky,tomas-satoransky,31,G,6-7,210,"OCT 30, 1991",28.0,3,FC Barcelona,2019-20,1610612741,CHI,Chicago Bulls
+1627739,Kris Dunn,kris-dunn,32,G,6-3,205,"MAR 18, 1994",26.0,3,Providence,2019-20,1610612741,CHI,Chicago Bulls
+1628976,Wendell Carter Jr.,wendell-carter-jr,34,C-F,6-9,270,"APR 16, 1999",21.0,1,Duke,2019-20,1610612741,CHI,Chicago Bulls
+1627756,Denzel Valentine,denzel-valentine,45,G,6-4,220,"NOV 16, 1993",26.0,2,Michigan State,2019-20,1610612741,CHI,Chicago Bulls
+1627853,Ryan Arcidiacono,ryan-arcidiacono,51,G,6-3,195,"MAR 26, 1994",26.0,2,Villanova,2019-20,1610612741,CHI,Chicago Bulls

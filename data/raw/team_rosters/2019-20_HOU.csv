@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+201566,Russell Westbrook,russell-westbrook,0,G,6-3,200,"NOV 12, 1988",31.0,11,UCLA,2019-20,1610612745,HOU,Houston Rockets
+1628021,David Nwaba,david-nwaba,0,G-F,6-5,219,"JAN 14, 1993",27.0,3,Cal Poly-Obispo,2019-20,1610612745,HOU,Houston Rockets
+1629598,Chris Clemons,chris-clemons,3,G,5-9,180,"JUL 23, 1997",22.0,R,Campbell University,2019-20,1610612745,HOU,Houston Rockets
+1627863,Danuel House Jr.,danuel-house-jr,4,F-G,6-6,220,"JUN 07, 1993",27.0,3,Texas A&M,2019-20,1610612745,HOU,Houston Rockets
+203998,Bruno Caboclo,bruno-caboclo,5,F,6-9,218,"SEP 21, 1995",24.0,5,Pinheiros,2019-20,1610612745,HOU,Houston Rockets
+201960,DeMarre Carroll,demarre-carroll,9,F,6-6,215,"JUL 27, 1986",33.0,10,Missouri,2019-20,1610612745,HOU,Houston Rockets
+201569,Eric Gordon,eric-gordon,10,G,6-3,215,"DEC 25, 1988",31.0,11,Indiana,2019-20,1610612745,HOU,Houston Rockets
+201601,Luc Mbah a Moute,luc-mbah-a-moute,12,F,6-8,230,"SEP 09, 1986",33.0,11,UCLA,2019-20,1610612745,HOU,Houston Rockets
+201935,James Harden,james-harden,13,G,6-5,220,"AUG 26, 1989",30.0,10,Arizona State,2019-20,1610612745,HOU,Houston Rockets
+203463,Ben McLemore,ben-mclemore,16,G,6-3,195,"FEB 11, 1993",27.0,6,Kansas,2019-20,1610612745,HOU,Houston Rockets
+200782,P.J. Tucker,pj-tucker,17,F,6-5,245,"MAY 05, 1985",35.0,8,Texas,2019-20,1610612745,HOU,Houston Rockets
+200757,Thabo Sefolosha,thabo-sefolosha,18,F-G,6-6,215,"MAY 02, 1984",36.0,13,Angelico Biella,2019-20,1610612745,HOU,Houston Rockets
+2199,Tyson Chandler,tyson-chandler,19,C,7-0,235,"OCT 02, 1982",37.0,18,Dominguez HS (CA),2019-20,1610612745,HOU,Houston Rockets
+1626187,Michael Frazier II,michael-frazier-ii,21,G,6-3,200,"MAR 08, 1994",26.0,R,Florida,2019-20,1610612745,HOU,Houston Rockets
+203085,Austin Rivers,austin-rivers,25,G,6-3,200,"AUG 01, 1992",27.0,7,Duke,2019-20,1610612745,HOU,Houston Rockets
+201145,Jeff Green,jeff-green,32,F,6-8,235,"AUG 28, 1986",33.0,12,Georgetown,2019-20,1610612745,HOU,Houston Rockets
+203496,Robert Covington,robert-covington,33,F,6-7,209,"DEC 14, 1990",29.0,6,Tennessee State,2019-20,1610612745,HOU,Houston Rockets
+1629739,William Howard,william-howard,52,F-G,6-8,207,"OCT 25, 1993",26.0,R,Limoges,2019-20,1610612745,HOU,Houston Rockets

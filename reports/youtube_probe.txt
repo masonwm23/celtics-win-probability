@@ -1,0 +1,83 @@
+==============================================================================
+PHASE 12 - OFFICIAL, EMBEDDABLE GAME HIGHLIGHTS (READ ONLY)
+==============================================================================
+
+  METADATA ONLY. This probe called the official YouTube Data API and
+  read titles, channels, publish dates and the embeddable flag. It
+  downloaded no video, scraped no page and cached no footage.
+
+  Scope: ONE reel per GAME, matched on season, date and opponent, to
+  be labelled 'Game highlights'. Never 'Current play'. It is not
+  synchronised to the cursor and is not a substitute for one.
+
+  The synchronised visualisation remains the play-by-play figure
+  animation drawn from our own shot coordinates.
+
+==============================================================================
+OFFICIAL CHANNELS, RESOLVED THIS RUN
+==============================================================================
+
+  @NBA         UCWJ2lWNubArHWmf3FIHbfcQ  NBA
+  @celtics     UCMfT9dr6xC_RIWoA9hI0meQ  Boston Celtics
+
+==============================================================================
+RESULT
+==============================================================================
+
+  games tested            3
+  games with a usable reel 1 of 3
+  candidates examined     26
+
+------------------------------------------------------------------------------
+  2016-17   BOS vs. NYK   2017-01-18
+
+    NO USABLE REEL
+    nearest candidates and why each was rejected:
+      Top 10 NBA Plays of the Night: 01.18.17
+        title does not name both teams
+      Top Ten NBA Plays Of The Night  | 01.20.17
+        title does not name both teams
+      Top 5 NBA Plays of the Night: 01.17.17
+        title does not name both teams
+      Marvin Williams Tomahawk Slam in Boston | 01.16.17
+        title does not name both teams
+
+------------------------------------------------------------------------------
+  2020-21   BOS @ BKN   2021-03-11
+
+    MATCHED  CELTICS at NETS | FULL GAME HIGHLIGHTS | March 11, 2021
+      channel   NBA
+      published 2021-03-12T03:20:05Z
+      duration  PT9M48S   embeddable True
+      https://www.youtube.com/watch?v=R0vOMQQCHi8
+      NOTE: allowed in only 24 region(s)
+
+------------------------------------------------------------------------------
+  2023-24   BOS vs. DEN   2024-01-19
+
+    NO USABLE REEL
+    nearest candidates and why each was rejected:
+      Nikola Jokic (34 PTS) & Jamal Murray (35 PTS) Combine For 69 P
+        title does not name both teams
+      Dejounte Murray Seals The Game With The CLUTCH BUCKET! 🔥😤| #Sh
+        title does not name both teams
+      Anthony Edwards Tosses It  Off The Glass To Himself
+        title does not name both teams
+      Unfiltered presented by Franklin Templeton | 1/19 vs DEN
+        title does not name both teams
+
+==============================================================================
+WHAT THIS DOES NOT TELL YOU
+==============================================================================
+
+  Three games is a feasibility check, not a coverage figure. If all
+  three work, the next question is what share of 636 games work, and
+  that is a separate run.
+
+  `embeddable` is YouTube's own flag and is the right gate, but a
+  video can still be pulled, made private or region-locked later. A
+  highlight panel must therefore degrade to nothing on failure and
+  the dashboard must not depend on it in any way.
+
+  Nothing was changed. The dashboard does not know this probe exists.
+==============================================================================

@@ -1,0 +1,16 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+201567,Kevin Love,kevin-love,0,F,6-10,251,"SEP 07, 1988",28.0,8,UCLA,2016-17,1610612739,CLE,Cleveland Cavaliers
+2592,James Jones,james-jones,1,G-F,6-8,218,"OCT 04, 1980",36.0,13,Miami,2016-17,1610612739,CLE,Cleveland Cavaliers
+202681,Kyrie Irving,kyrie-irving,2,G,6-3,193,"MAR 23, 1992",25.0,5,Duke,2016-17,1610612739,CLE,Cleveland Cavaliers
+202682,Derrick Williams,derrick-williams,3,F,6-8,240,"MAY 25, 1991",26.0,5,Arizona,2016-17,1610612739,CLE,Cleveland Cavaliers
+202697,Iman Shumpert,iman-shumpert,4,G,6-5,220,"JUN 26, 1990",27.0,5,Georgia Tech,2016-17,1610612739,CLE,Cleveland Cavaliers
+2747,JR Smith,jr-smith,5,G,6-6,225,"SEP 09, 1985",31.0,12,No College,2016-17,1610612739,CLE,Cleveland Cavaliers
+101112,Channing Frye,channing-frye,8,F,6-11,255,"MAY 17, 1983",34.0,10,Arizona,2016-17,1610612739,CLE,Cleveland Cavaliers
+202684,Tristan Thompson,tristan-thompson,13,C,6-9,238,"MAR 13, 1991",26.0,5,Texas-Austin,2016-17,1610612739,CLE,Cleveland Cavaliers
+1627770,Kay Felder,kay-felder,20,G,5-9,176,"MAR 29, 1995",22.0,R,Oakland,2016-17,1610612739,CLE,Cleveland Cavaliers
+2544,LeBron James,lebron-james,23,F,6-8,250,"DEC 30, 1984",32.0,13,St. Vincent-St. Mary HS (OH),2016-17,1610612739,CLE,Cleveland Cavaliers
+2210,Richard Jefferson,richard-jefferson,24,F,6-7,233,"JUN 21, 1980",37.0,15,Arizona,2016-17,1610612739,CLE,Cleveland Cavaliers
+2594,Kyle Korver,kyle-korver,26,G,6-7,212,"MAR 17, 1981",36.0,13,Creighton,2016-17,1610612739,CLE,Cleveland Cavaliers
+2563,Dahntay Jones,dahntay-jones,30,G-F,6-6,225,"DEC 27, 1980",36.0,12,Duke,2016-17,1610612739,CLE,Cleveland Cavaliers
+101114,Deron Williams,deron-williams,31,G,6-3,200,"JUN 26, 1984",33.0,11,Illinois,2016-17,1610612739,CLE,Cleveland Cavaliers
+204002,Edy Tavares,edy-tavares,40,C,7-3,265,"MAR 22, 1992",25.0,1,Gran Canaria,2016-17,1610612739,CLE,Cleveland Cavaliers

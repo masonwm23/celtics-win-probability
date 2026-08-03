@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1630492,Luca Vildoza,luca-vildoza,,G,6-3,190,"AUG 11, 1995",25.0,R,Baskonia,2020-21,1610612752,NYK,New York Knicks
+1629607,Jared Harper,jared-harper,0,G,5-10,175,"SEP 14, 1997",23.0,1,Auburn,2020-21,1610612752,NYK,New York Knicks
+1630167,Obi Toppin,obi-toppin,1,F,6-9,220,"MAR 04, 1998",23.0,R,Dayton,2020-21,1610612752,NYK,New York Knicks
+203457,Nerlens Noel,nerlens-noel,3,C-F,6-11,220,"APR 10, 1994",27.0,6,Kentucky,2020-21,1610612752,NYK,New York Knicks
+201565,Derrick Rose,derrick-rose,4,G,6-2,200,"OCT 04, 1988",32.0,11,Memphis,2020-21,1610612752,NYK,New York Knicks
+1630193,Immanuel Quickley,immanuel-quickley,5,G,6-3,190,"JUN 17, 1999",22.0,R,Kentucky,2020-21,1610612752,NYK,New York Knicks
+203901,Elfrid Payton,elfrid-payton,6,G,6-3,195,"FEB 22, 1994",27.0,6,Louisana-Lafayette,2020-21,1610612752,NYK,New York Knicks
+1629628,RJ Barrett,rj-barrett,9,F-G,6-6,214,"JUN 14, 2000",21.0,1,Duke,2020-21,1610612752,NYK,New York Knicks
+1628373,Frank Ntilikina,frank-ntilikina,11,G,6-4,200,"JUL 28, 1998",22.0,3,Strasbourg IG,2020-21,1610612752,NYK,New York Knicks
+203658,Norvel Pelle,norvel-pelle,14,C,6-10,231,"FEB 03, 1993",28.0,1,Iona,2020-21,1610612752,NYK,New York Knicks
+202692,Alec Burks,alec-burks,18,G,6-6,214,"JUL 20, 1991",29.0,9,Colorado,2020-21,1610612752,NYK,New York Knicks
+1628995,Kevin Knox II,kevin-knox-ii,20,F,6-7,215,"AUG 11, 1999",21.0,2,Kentucky,2020-21,1610612752,NYK,New York Knicks
+1629033,Theo Pinson,theo-pinson,21,G-F,6-5,212,"NOV 05, 1995",25.0,2,North Carolina,2020-21,1610612752,NYK,New York Knicks
+1629011,Mitchell Robinson,mitchell-robinson,23,C-F,7-0,240,"APR 01, 1998",23.0,2,Western Kentucky,2020-21,1610612752,NYK,New York Knicks
+203493,Reggie Bullock Jr.,reggie-bullock-jr,25,G-F,6-6,205,"MAR 16, 1991",30.0,7,North Carolina,2020-21,1610612752,NYK,New York Knicks
+203944,Julius Randle,julius-randle,30,F-C,6-8,250,"NOV 29, 1994",26.0,6,Kentucky,2020-21,1610612752,NYK,New York Knicks
+201959,Taj Gibson,taj-gibson,67,F,6-9,232,"JUN 24, 1985",36.0,11,Southern California,2020-21,1610612752,NYK,New York Knicks

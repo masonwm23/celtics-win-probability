@@ -1,0 +1,20 @@
+403 RE-CHECK
+========================================================================
+
+misses re-requested      329
+  recovered              0
+  still 403              329
+  other outcome          0
+
+control re-requested     328
+  still working          328 (100.0%)
+
+VERDICT
+------------------------------------------------------------------------
+Every 403 is still a 403, while the controls all still
+work. These player-seasons genuinely have no photo at
+that path. The misses are real absences, not our fault,
+and falling back to the current photo is the right
+behaviour for them.
+
+usable after recheck     3,680 of 4,009 (91.8%)

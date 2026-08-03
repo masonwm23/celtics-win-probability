@@ -1,0 +1,16 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+203932,Aaron Gordon,aaron-gordon,00,F,6-9,220,"SEP 16, 1995",21.0,2,Arizona,2016-17,1610612753,ORL,Orlando Magic
+204014,Damjan Rudez,damjan-rudez,3,F,6-10,228,"JUN 17, 1986",31.0,2,Zaragoza,2016-17,1610612753,ORL,Orlando Magic
+203901,Elfrid Payton,elfrid-payton,4,G,6-4,185,"FEB 22, 1994",23.0,2,Louisana-Lafayette,2016-17,1610612753,ORL,Orlando Magic
+1626209,Mario Hezonja,mario-hezonja,8,G-F,6-8,218,"FEB 25, 1995",22.0,1,FC Barcelona,2016-17,1610612753,ORL,Orlando Magic
+202696,Nikola Vučević,nikola-vučević,9,C,7-0,260,"OCT 24, 1990",26.0,5,Southern California,2016-17,1610612753,ORL,Orlando Magic
+203095,Evan Fournier,evan-fournier,10,G,6-7,205,"OCT 29, 1992",24.0,4,Poitiers Basket 86,2016-17,1610612753,ORL,Orlando Magic
+202687,Bismack Biyombo,bismack-biyombo,11,C-F,6-9,255,"AUG 28, 1992",24.0,5,Baloncesto Fuenlabrada,2016-17,1610612753,ORL,Orlando Magic
+1627875,Marcus Georges-Hunt,marcus-georges-hunt,13,G,6-6,220,"MAR 28, 1994",23.0,R,Georgia Tech,2016-17,1610612753,ORL,Orlando Magic
+201571,D.J. Augustin,dj-augustin,14,G,6-0,183,"NOV 10, 1987",29.0,8,Texas,2016-17,1610612753,ORL,Orlando Magic
+201975,Jodie Meeks,jodie-meeks,20,G,6-4,210,"AUG 21, 1987",29.0,7,Kentucky,2016-17,1610612753,ORL,Orlando Magic
+1627868,Patricio Garino,patricio-garino,29,G-F,6-6,203,"MAY 17, 1993",24.0,R,George Washington,2016-17,1610612753,ORL,Orlando Magic
+203082,Terrence Ross,terrence-ross,31,F,6-7,195,"FEB 05, 1991",26.0,4,Washington,2016-17,1610612753,ORL,Orlando Magic
+201228,C.J. Watson,cj-watson,32,G,6-2,175,"APR 17, 1984",33.0,9,Tennessee,2016-17,1610612753,ORL,Orlando Magic
+1627757,Stephen Zimmerman,stephen-zimmerman,33,C,7-0,240,"SEP 09, 1996",20.0,R,UNLV,2016-17,1610612753,ORL,Orlando Magic
+201145,Jeff Green,jeff-green,34,F,6-9,235,"AUG 28, 1986",30.0,9,Georgetown,2016-17,1610612753,ORL,Orlando Magic

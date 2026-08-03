@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1628983,Shai Gilgeous-Alexander,shai-gilgeous-alexander,2,G,6-6,195,"JUL 12, 1998",24.0,4,Kentucky,2022-23,1610612760,OKC,Oklahoma City Thunder
+1630581,Josh Giddey,josh-giddey,3,G,6-8,216,"OCT 10, 2002",20.0,1,NBA Global Academy,2022-23,1610612760,OKC,Oklahoma City Thunder
+1629652,Luguentz Dort,luguentz-dort,5,G,6-4,220,"APR 19, 1999",24.0,3,Arizona State,2022-23,1610612760,OKC,Oklahoma City Thunder
+1631119,Jaylin Williams,jaylin-williams,6,F,6-9,240,"JUN 29, 2002",21.0,R,Arkansas,2022-23,1610612760,OKC,Oklahoma City Thunder
+1631096,Chet Holmgren,chet-holmgren,7,C-F,7-1,195,"MAY 01, 2002",21.0,R,Gonzaga,2022-23,1610612760,OKC,Oklahoma City Thunder
+1631114,Jalen Williams,jalen-williams,8,G-F,6-5,211,"APR 14, 2001",22.0,R,Santa Clara,2022-23,1610612760,OKC,Oklahoma City Thunder
+203967,Dario Šarić,dario-šarić,9,F-C,6-10,225,"APR 08, 1994",29.0,6,Anadolu Efes,2022-23,1610612760,OKC,Oklahoma City Thunder
+1630198,Isaiah Joe,isaiah-joe,11,G,6-3,165,"JUL 02, 1999",23.0,2,Arkansas,2022-23,1610612760,OKC,Oklahoma City Thunder
+1630322,Lindy Waters III,lindy-waters-iii,12,F,6-6,210,"JUL 28, 1997",25.0,1,Oklahoma State,2022-23,1610612760,OKC,Oklahoma City Thunder
+1631172,Ousmane Dieng,ousmane-dieng,13,F,6-9,185,"MAY 21, 2003",20.0,R,New Zealand Breakers,2022-23,1610612760,OKC,Oklahoma City Thunder
+1630215,Jared Butler,jared-butler,14,G,6-3,193,"AUG 25, 2000",22.0,1,Baylor,2022-23,1610612760,OKC,Oklahoma City Thunder
+1630197,Aleksej Pokusevski,aleksej-pokusevski,17,F,7-0,210,"DEC 26, 2001",21.0,2,Olympiacos,2022-23,1610612760,OKC,Oklahoma City Thunder
+1630598,Aaron Wiggins,aaron-wiggins,21,G,6-5,190,"JAN 02, 1999",24.0,1,Maryland,2022-23,1610612760,OKC,Oklahoma City Thunder
+1630544,Tre Mann,tre-mann,23,G,6-3,178,"FEB 03, 2001",22.0,1,Florida,2022-23,1610612760,OKC,Oklahoma City Thunder
+1630846,Olivier Sarr,olivier-sarr,30,C,6-11,240,"FEB 20, 1999",24.0,1,Kentucky,2022-23,1610612760,OKC,Oklahoma City Thunder
+1629026,Kenrich Williams,kenrich-williams,34,G-F,6-6,210,"DEC 02, 1994",28.0,4,TCU,2022-23,1610612760,OKC,Oklahoma City Thunder
+1630526,Jeremiah Robinson-Earl,jeremiah-robinson-earl,50,F,6-8,240,"NOV 03, 2000",22.0,1,Villanova,2022-23,1610612760,OKC,Oklahoma City Thunder

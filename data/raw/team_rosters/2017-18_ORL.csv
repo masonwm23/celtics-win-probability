@@ -1,0 +1,16 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+203932,Aaron Gordon,aaron-gordon,00,F,6-9,220,"SEP 16, 1995",22.0,3,Arizona,2017-18,1610612753,ORL,Orlando Magic
+1628503,Jamel Artis,jamel-artis,0,G,6-7,213,"JAN 12, 1993",25.0,R,Pittsburgh,2017-18,1610612753,ORL,Orlando Magic
+1628371,Jonathan Isaac,jonathan-isaac,1,F,6-10,210,"OCT 03, 1997",20.0,R,Florida State,2017-18,1610612753,ORL,Orlando Magic
+201167,Arron Afflalo,arron-afflalo,4,G,6-5,210,"OCT 15, 1985",32.0,10,UCLA,2017-18,1610612753,ORL,Orlando Magic
+201578,Marreese Speights,marreese-speights,5,F-C,6-10,255,"AUG 04, 1987",30.0,9,Florida,2017-18,1610612753,ORL,Orlando Magic
+1626209,Mario Hezonja,mario-hezonja,8,F-G,6-8,218,"FEB 25, 1995",23.0,2,FC Barcelona,2017-18,1610612753,ORL,Orlando Magic
+202696,Nikola Vučević,nikola-vučević,9,C,7-0,260,"OCT 24, 1990",27.0,6,Southern California,2017-18,1610612753,ORL,Orlando Magic
+203095,Evan Fournier,evan-fournier,10,G-F,6-7,205,"OCT 29, 1992",25.0,5,Poitiers Basket 86,2017-18,1610612753,ORL,Orlando Magic
+202687,Bismack Biyombo,bismack-biyombo,11,C,6-9,255,"AUG 28, 1992",25.0,6,Baloncesto Fuenlabrada,2017-18,1610612753,ORL,Orlando Magic
+201571,D.J. Augustin,dj-augustin,14,G,6-0,183,"NOV 10, 1987",30.0,9,Texas,2017-18,1610612753,ORL,Orlando Magic
+1628681,Rodney Purvis,rodney-purvis,15,G,6-4,205,"FEB 14, 1994",24.0,R,Connecticut,2017-18,1610612753,ORL,Orlando Magic
+203613,Jonathon Simmons,jonathon-simmons,17,F,6-6,195,"SEP 14, 1989",28.0,2,Houston,2017-18,1610612753,ORL,Orlando Magic
+203920,Khem Birch,khem-birch,24,C,6-9,220,"SEP 28, 1992",25.0,R,UNLV,2017-18,1610612753,ORL,Orlando Magic
+1628411,Wes Iwundu,wes-iwundu,25,F,6-7,195,"DEC 20, 1994",23.0,R,Kansas State,2017-18,1610612753,ORL,Orlando Magic
+203082,Terrence Ross,terrence-ross,31,G-F,6-7,206,"FEB 05, 1991",27.0,5,Washington,2017-18,1610612753,ORL,Orlando Magic

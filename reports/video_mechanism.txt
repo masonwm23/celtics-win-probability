@@ -1,0 +1,97 @@
+==============================================================================
+PHASE 11e - WHY DOES EVERY CLIP URL RETURN THE SAME FILE
+==============================================================================
+
+  Phase 11d: sixteen distinct URLs, eight seasons, eight games,
+  sixteen uuids, all returning byte-identical content of exactly
+  31,580,089 bytes. This asks what mechanism produces that.
+
+==============================================================================
+VERDICTS
+==============================================================================
+
+  placeholder served for everything    CONFIRMED
+      a fabricated uuid returns the same bytes as real clips, so this host answers everything with one file
+
+  still images usable instead          NOT VIABLE
+      3 stills URLs returned only 1 distinct hash(es), 0 well-formed
+
+  320x180 encoding usable              NOT VIABLE
+      3 small encoding URLs returned only 1 distinct hash(es), 3 well-formed
+
+  Nothing served from videos.nba.com under these conditions can
+  be trusted to be the play it names. The video panel is not
+  buildable from this source as things stand.
+
+==============================================================================
+RESPONSES BY ASSET AND HEADER SET
+==============================================================================
+
+  kind              headers    status   byteshash              type         hops
+  clip_medium       browser       206    4096  f848af318fba7facvideo/mp4       0
+  clip_medium       bare          206    4096  f848af318fba7facvideo/mp4       0
+  clip_medium       origin        206    4096  f848af318fba7facvideo/mp4       0
+  clip_small        browser       206    4096  f848af318fba7facvideo/mp4       0
+  clip_small        bare          206    4096  f848af318fba7facvideo/mp4       0
+  clip_small        origin        206    4096  f848af318fba7facvideo/mp4       0
+  thumbnail         browser       206    4096  f848af318fba7facvideo/mp4       0
+  thumbnail         bare          206    4096  f848af318fba7facvideo/mp4       0
+  thumbnail         origin        206    4096  f848af318fba7facvideo/mp4       0
+  clip_medium       browser       206    4096  f848af318fba7facvideo/mp4       0
+  clip_medium       bare          206    4096  f848af318fba7facvideo/mp4       0
+  clip_medium       origin        206    4096  f848af318fba7facvideo/mp4       0
+  clip_small        browser       206    4096  f848af318fba7facvideo/mp4       0
+  clip_small        bare          206    4096  f848af318fba7facvideo/mp4       0
+  clip_small        origin        206    4096  f848af318fba7facvideo/mp4       0
+  thumbnail         browser       206    4096  f848af318fba7facvideo/mp4       0
+  thumbnail         bare          206    4096  f848af318fba7facvideo/mp4       0
+  thumbnail         origin        206    4096  f848af318fba7facvideo/mp4       0
+  clip_medium       browser       206    4096  f848af318fba7facvideo/mp4       0
+  clip_medium       bare          206    4096  f848af318fba7facvideo/mp4       0
+  clip_medium       origin        206    4096  f848af318fba7facvideo/mp4       0
+  clip_small        browser       206    4096  f848af318fba7facvideo/mp4       0
+  clip_small        bare          206    4096  f848af318fba7facvideo/mp4       0
+  clip_small        origin        206    4096  f848af318fba7facvideo/mp4       0
+  thumbnail         browser       206    4096  f848af318fba7facvideo/mp4       0
+  thumbnail         bare          206    4096  f848af318fba7facvideo/mp4       0
+  thumbnail         origin        206    4096  f848af318fba7facvideo/mp4       0
+  clip_fabricated   browser       206    4096  f848af318fba7facvideo/mp4       0
+  clip_fabricated   bare          206    4096  f848af318fba7facvideo/mp4       0
+  clip_fabricated   origin        206    4096  f848af318fba7facvideo/mp4       0
+
+==============================================================================
+DISTINCT HASHES PER ASSET KIND
+==============================================================================
+
+  kind              headers     urls  distinct
+  clip_fabricated   bare           1         1
+  clip_fabricated   browser        1         1
+  clip_fabricated   origin         1         1
+  clip_medium       bare           3         1
+  clip_medium       browser        3         1
+  clip_medium       origin         3         1
+  clip_small        bare           3         1
+  clip_small        browser        3         1
+  clip_small        origin         3         1
+  thumbnail         bare           3         1
+  thumbnail         browser        3         1
+  thumbnail         origin         3         1
+
+==============================================================================
+REDIRECTS
+==============================================================================
+
+  None. Every request was answered at the URL asked for,
+  so a redirect to a generic asset is not the mechanism.
+
+==============================================================================
+WHAT THIS DOES NOT TELL YOU
+==============================================================================
+
+  Whether the NBA intends these assets to be reachable this way at
+  all. A host that answers every address with one file is a host that
+  is not serving us the content, and working around that is a
+  different kind of decision from a technical one.
+
+  Nothing was changed by this script.
+==============================================================================

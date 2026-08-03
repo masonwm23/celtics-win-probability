@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1641847,Andrew Funk,andrew-funk,,G,6-5,200,"SEP 21, 1999",24.0,R,Penn State,2023-24,1610612741,CHI,Chicago Bulls
+1629632,Coby White,coby-white,0,G,6-5,195,"FEB 16, 2000",24.0,4,North Carolina,2023-24,1610612741,CHI,Chicago Bulls
+1628366,Lonzo Ball,lonzo-ball,2,G,6-6,190,"OCT 27, 1997",26.0,6,UCLA,2023-24,1610612741,CHI,Chicago Bulls
+203083,Andre Drummond,andre-drummond,3,C,6-11,279,"AUG 10, 1993",30.0,11,Connecticut,2023-24,1610612741,CHI,Chicago Bulls
+1628975,Jevon Carter,jevon-carter,5,G,6-1,200,"SEP 14, 1995",28.0,5,West Virginia,2023-24,1610612741,CHI,Chicago Bulls
+1627936,Alex Caruso,alex-caruso,6,G,6-5,186,"FEB 28, 1994",30.0,6,Texas A&M,2023-24,1610612741,CHI,Chicago Bulls
+203897,Zach LaVine,zach-lavine,8,G,6-5,200,"MAR 10, 1995",29.0,9,UCLA,2023-24,1610612741,CHI,Chicago Bulls
+202696,Nikola Vučević,nikola-vučević,9,C,6-10,260,"OCT 24, 1990",33.0,12,Southern California,2023-24,1610612741,CHI,Chicago Bulls
+201942,DeMar DeRozan,demar-derozan,11,G-F,6-6,220,"AUG 07, 1989",34.0,14,Southern California,2023-24,1610612741,CHI,Chicago Bulls
+1630245,Ayo Dosunmu,ayo-dosunmu,12,G,6-5,200,"JAN 17, 2000",24.0,2,Illinois,2023-24,1610612741,CHI,Chicago Bulls
+1628470,Torrey Craig,torrey-craig,13,F,6-5,221,"DEC 19, 1990",33.0,6,South Carolina Upstate,2023-24,1610612741,CHI,Chicago Bulls
+1641763,Julian Phillips,julian-phillips,15,F,6-8,198,"NOV 05, 2003",20.0,R,Tennessee,2023-24,1610612741,CHI,Chicago Bulls
+1641931,Onuralp Bitim,onuralp-bitim,17,F,6-6,215,"MAR 31, 1999",25.0,R,Bursaspor,2023-24,1610612741,CHI,Chicago Bulls
+1641766,Adama Sanogo,adama-sanogo,21,F,6-9,245,"FEB 12, 2002",22.0,R,UCONN,2023-24,1610612741,CHI,Chicago Bulls
+1629750,Javonte Green,javonte-green,24,G,6-5,205,"JUL 23, 1993",30.0,4,Radford,2023-24,1610612741,CHI,Chicago Bulls
+1631207,Dalen Terry,dalen-terry,25,F,6-7,195,"JUL 12, 2002",21.0,1,Arizona,2023-24,1610612741,CHI,Chicago Bulls
+1630172,Patrick Williams,patrick-williams,44,F,6-7,215,"AUG 26, 2001",22.0,3,Florida State,2023-24,1610612741,CHI,Chicago Bulls
+1630929,Henri Drell,henri-drell,77,F,6-9,220,"APR 25, 2000",24.0,R,Victoria Libertas,2023-24,1610612741,CHI,Chicago Bulls

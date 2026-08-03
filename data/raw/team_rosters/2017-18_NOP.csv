@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+202326,DeMarcus Cousins,demarcus-cousins,0,C,6-11,270,"AUG 13, 1990",27.0,7,Kentucky,2017-18,1610612740,NOP,New Orleans Pelicans
+203580,Larry Drew II,larry-drew-ii,1,G,6-2,180,"MAR 05, 1990",28.0,1,UCLA,2017-18,1610612740,NOP,New Orleans Pelicans
+203546,Ian Clark,ian-clark,2,G,6-3,175,"MAR 07, 1991",27.0,4,Belmont,2017-18,1610612740,NOP,New Orleans Pelicans
+202703,Nikola Mirotic,nikola-mirotic,3,F,6-10,238,"FEB 11, 1991",27.0,3,Real Madrid,2017-18,1610612740,NOP,New Orleans Pelicans
+1628429,Charles Cooke,charles-cooke,4,G,6-5,196,"JUL 01, 1994",23.0,R,Dayton,2017-18,1610612740,NOP,New Orleans Pelicans
+200765,Rajon Rondo,rajon-rondo,9,G,6-1,186,"FEB 22, 1986",32.0,11,Kentucky,2017-18,1610612740,NOP,New Orleans Pelicans
+201950,Jrue Holiday,jrue-holiday,11,G,6-4,205,"JUN 12, 1990",28.0,8,UCLA,2017-18,1610612740,NOP,New Orleans Pelicans
+1627767,Cheick Diallo,cheick-diallo,13,F,6-9,220,"SEP 13, 1996",21.0,1,Kansas,2017-18,1610612740,NOP,New Orleans Pelicans
+1628402,Frank Jackson,frank-jackson,15,G,6-3,205,"MAY 04, 1998",20.0,R,Duke,2017-18,1610612740,NOP,New Orleans Pelicans
+203121,Darius Miller,darius-miller,21,F,6-8,225,"MAR 21, 1990",28.0,3,Kentucky,2017-18,1610612740,NOP,New Orleans Pelicans
+203076,Anthony Davis,anthony-davis,23,F-C,6-10,253,"MAR 11, 1993",25.0,5,Kentucky,2017-18,1610612740,NOP,New Orleans Pelicans
+202348,Jordan Crawford,jordan-crawford,27,G,6-5,195,"OCT 23, 1988",29.0,5,Xavier,2017-18,1610612740,NOP,New Orleans Pelicans
+202732,DeAndre Liggins,deandre-liggins,34,G,6-6,209,"MAR 31, 1988",30.0,4,Kentucky,2017-18,1610612740,NOP,New Orleans Pelicans
+201582,Alexis Ajinca,alexis-ajinca,42,C,7-2,248,"MAY 06, 1988",30.0,7,Hyeres-Toulon,2017-18,1610612740,NOP,New Orleans Pelicans
+203524,Solomon Hill,solomon-hill,44,F,6-7,225,"MAR 18, 1991",27.0,4,Arizona,2017-18,1610612740,NOP,New Orleans Pelicans
+2731,Emeka Okafor,emeka-okafor,50,C,6-10,255,"SEP 28, 1982",35.0,9,Connecticut,2017-18,1610612740,NOP,New Orleans Pelicans
+202734,E'Twaun Moore,etwaun-moore,55,F-G,6-4,191,"FEB 25, 1989",29.0,6,Purdue,2017-18,1610612740,NOP,New Orleans Pelicans

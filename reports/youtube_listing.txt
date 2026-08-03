@@ -1,0 +1,408 @@
+==============================================================================
+PHASE 12b - WHAT THE OFFICIAL CHANNELS ACTUALLY POSTED
+==============================================================================
+
+  Phase 12 searched with an invented query and matched 1 of 3 games.
+  This lists EVERY upload from the two official channels inside each
+  game's date window instead, so the question 'does a reel exist' is
+  answered by observation rather than by whether my search terms
+  happened to rank it in the top ten.
+
+  Metadata only. No download, no scraping, no re-hosting.
+
+  uploads listed: 63
+
+==============================================================================
+2016-17   BOS vs. NYK   2017-01-18
+==============================================================================
+
+  15 upload(s) in window. 0 look like a reel naming both teams.
+
+  ok  both  reel  embed  duration   title
+  -   -     -     y      PT30S      Saturday Night Primetime on ABC Mashup: Spur
+  -   -     -     y      PT2M22S    "Making the Call" with Joe Borgia
+  -   -     -     y      PT5M6S     Goran Dragic's 32 Lead Heat to Win | 01.19.1
+  -   -     -     y      PT3M49S    Kyrie Irving East All-Star Starter | Top 10 
+  -   -     -     y      PT43S      Paul George Goes at Cousins with the Slam | 
+  -   -     -     y      PT31S      KD Slams It Off the Warriors Fastbreak | 01.
+  -   -     -     y      PT37S      Joel Embiid Block Seals Victory for 76ers | 
+  -   -     -     y      PT37S      Isaiah Thomas Dishes Through Defender's Legs
+  -   -     -     y      PT4M40S    Top 10 Plays of the Week 1.8.17 - 1.14.17
+  -   -     -     y      PT3M39S    Top 10 Defensive Plays of the Week 1.8.17 - 
+  -   -     -     y      PT3M53S    Top 10 Dunks of the Week 1.8.17 - 1.14.17
+  -   -     -     y      PT8M36S    Dwyane Wade's Top 35 Plays of His Career!
+  -   -     -     y      PT3M29S    Kevin Durant 21 Points, 5 Assists, 3 Blocks 
+  -   -     -     y      PT31S      Marvin Williams Tomahawk Slam in Boston | 01
+  -   -     -     y      PT1M22S    MLK Celebration in Memphis
+
+  No upload in the window both looks like a reel and names
+  both teams. For this game the answer is availability, not
+  matching.
+
+==============================================================================
+2020-21   BOS @ BKN   2021-03-11
+==============================================================================
+
+  41 upload(s) in window. 1 look like a reel naming both teams.
+
+  ok  both  reel  embed  duration   title
+  -   -     y     y      PT9M47S    JAZZ at WARRIORS | FULL GAME HIGHLIGHTS | Ma
+  -   -     y     y      PT9M38S    GRIZZLIES at THUNDER | FULL GAME HIGHLIGHTS 
+  -   -     -     y      PT7M52S    Stephen Curry's BEST Handles vs. Every Team 
+  -   -     y     y      PT9M34S    MAVERICKS at NUGGETS | FULL GAME HIGHLIGHTS 
+  -   -     y     y      PT9M30S    PACERS at SUNS | FULL GAME HIGHLIGHTS | Marc
+  -   -     y     y      PT9M46S    TRAIL BLAZERS at TIMBERWOLVES | FULL GAME HI
+  -   -     y     y      PT9M44S    KINGS at HAWKS | FULL GAME HIGHLIGHTS | Marc
+  -   -     -     y      PT3M29S    LaMelo Ball Drops 23 PTS (6 3PM), 9 REB & 6 
+  -   -     y     y      PT9M36S    BUCKS at WIZARDS | FULL GAME HIGHLIGHTS | Ma
+  -   -     y     y      PT9M29S    RAPTORS at HORNETS | FULL GAME HIGHLIGHTS | 
+  -   -     y     y      PT9M49S    PISTONS at NETS | FULL GAME HIGHLIGHTS | Mar
+  -   -     y     y      PT9M28S    KNICKS at THUNDER | FULL GAME HIGHLIGHTS | M
+  -   -     y     y      PT9M30S    PACERS at LAKERS | FULL GAME HIGHLIGHTS | Ma
+  -   -     y     y      PT9M34S    ROCKETS at JAZZ | FULL GAME HIGHLIGHTS | Mar
+  -   -     y     y      PT9M39S    MAGIC at SPURS | FULL GAME HIGHLIGHTS | Marc
+  -   -     y     y      PT9M36S    HEAT at BULLS | FULL GAME HIGHLIGHTS | March
+  -   -     y     y      PT9M20S    NUGGETS at GRIZZLIES | FULL GAME HIGHLIGHTS 
+  -   -     y     y      PT9M46S    76ERS at WIZARDS | FULL GAME HIGHLIGHTS | Ma
+  -   -     y     y      PT9M40S    CAVALIERS at PELICANS | FULL GAME HIGHLIGHTS
+  -   -     -     y      PT16M55S   5 Camps, 5 Continents: A Look at Basketball 
+  -   -     -     y      PT3M27S    Ja Morant's BEST CAREER Ball Fakes 👀
+  -   -     -     y      PT4H51M16S Warriors @ Clippers | NBA on TNT Live Scoreb
+  -   -     y     y      PT9M45S    WARRIORS at CLIPPERS | FULL GAME HIGHLIGHTS 
+  -   -     y     y      PT9M37S    ROCKETS at KINGS | FULL GAME HIGHLIGHTS | Ma
+  -   -     y     y      PT9M51S    SUNS at TRAIL BLAZERS | FULL GAME HIGHLIGHTS
+  -   -     y     y      PT9M39S    MAVERICKS at THUNDER | FULL GAME HIGHLIGHTS 
+  -   -     y     y      PT9M30S    TIMBERWOLVES at PELICANS | FULL GAME HIGHLIG
+  -   -     y     y      PT9M32S    MAGIC at HEAT | FULL GAME HIGHLIGHTS | March
+  -   -     y     y      PT9M30S    KNICKS at BUCKS | FULL GAME HIGHLIGHTS | Mar
+  -   -     y     y      PT9M40S    76ERS at BULLS | FULL GAME HIGHLIGHTS | Marc
+  YES y     y     y      PT9M48S    CELTICS at NETS | FULL GAME HIGHLIGHTS | Mar
+  -   -     y     y      PT9M47S    HAWKS at RAPTORS | FULL GAME HIGHLIGHTS | Ma
+  -   -     y     y      PT9M26S    PISTONS at HORNETS | FULL GAME HIGHLIGHTS | 
+  -   -     -     y      PT1M25S    NBA Top 5 Plays Of The Night | March 10, 202
+  -   -     y     y      PT9M44S    SPURS at MAVERICKS | FULL GAME HIGHLIGHTS | 
+  -   -     y     y      PT9M31S    WIZARDS at GRIZZLIES | FULL GAME HIGHLIGHTS 
+  -   -     -     y      PT22M25S   BEST ASSISTS From The First Half Of The Seas
+  -   -     -     y      PT14M29S   2021 #NBAAllStar Mini-Movie!
+  -   -     -     y      PT21M58S   BEST CLUTCH PLAYS From The First Half Of The
+  -   -     -     y      PT3M47S    Payton Pritchard making his mark in the NBA 
+  -   -     -     y      PT2M20S    3/11 Putnam Postgame Report: The Return Of S
+
+  MATCHED BY THE PHASE 12 RULE:
+    CELTICS at NETS | FULL GAME HIGHLIGHTS | March 11, 2021
+    https://www.youtube.com/watch?v=R0vOMQQCHi8
+
+==============================================================================
+2023-24   BOS vs. DEN   2024-01-19
+==============================================================================
+
+  7 upload(s) in window. 0 look like a reel naming both teams.
+
+  ok  both  reel  embed  duration   title
+  -   -     -     y      PT4M21S    Victor Wembanyama Comes Up CLUTCH In The Nat
+  -   -     -     y      PT34S      Unfiltered presented by Franklin Templeton |
+  -   -     -     y      PT3M11S    Celtics forward Oshae Brissett is always rea
+  -   -     -     y      PT35S      Unfiltered presented by Franklin Templeton |
+  -   -     -     y      PT8S       It's a good day to vote for JB ⭐️ Listen to 
+  -   -     -     y      PT9S       ⭐️ 𝐃𝐲𝐧𝐚𝐦𝐢𝐜 𝐃𝐮𝐨 ⭐️ Send The Jays to #NBAAllSt
+  -   -     -     y      PT37S      Unfiltered presented by Franklin Templeton |
+
+  No upload in the window both looks like a reel and names
+  both teams. For this game the answer is availability, not
+  matching.
+
+==============================================================================
+REGION RESTRICTIONS
+==============================================================================
+
+  The question that decides whether any of this works from the
+  United States, where this project is being written.
+
+  Saturday Night Primetime on ABC Mashup: Spurs-Cavaliers
+    mode blocklist, 2 code(s)
+    US playable: True
+    CN,TW
+
+  "Making the Call" with Joe Borgia
+    mode blocklist, 2 code(s)
+    US playable: True
+    CN,TW
+
+  Goran Dragic's 32 Lead Heat to Win | 01.19.17
+    mode blocklist, 2 code(s)
+    US playable: True
+    CN,TW
+
+  Kyrie Irving East All-Star Starter | Top 10 2017
+    mode blocklist, 2 code(s)
+    US playable: True
+    CN,TW
+
+  Paul George Goes at Cousins with the Slam | 01.18.17
+    mode blocklist, 2 code(s)
+    US playable: True
+    CN,TW
+
+  KD Slams It Off the Warriors Fastbreak | 01.18.17
+    mode blocklist, 2 code(s)
+    US playable: True
+    CN,TW
+
+  Joel Embiid Block Seals Victory for 76ers | 01.18.17
+    mode blocklist, 2 code(s)
+    US playable: True
+    CN,TW
+
+  Isaiah Thomas Dishes Through Defender's Legs for Assist | 01.18.17
+    mode blocklist, 2 code(s)
+    US playable: True
+    CN,TW
+
+  Top 10 Plays of the Week 1.8.17 - 1.14.17
+    mode blocklist, 2 code(s)
+    US playable: True
+    CN,TW
+
+  Top 10 Defensive Plays of the Week 1.8.17 - 1.14.17
+    mode blocklist, 2 code(s)
+    US playable: True
+    CN,TW
+
+  Top 10 Dunks of the Week 1.8.17 - 1.14.17
+    mode blocklist, 2 code(s)
+    US playable: True
+    CN,TW
+
+  Dwyane Wade's Top 35 Plays of His Career!
+    mode blocklist, 2 code(s)
+    US playable: True
+    CN,TW
+
+  Kevin Durant 21 Points, 5 Assists, 3 Blocks vs Cavaliers | 01.16.1
+    mode blocklist, 2 code(s)
+    US playable: True
+    CN,TW
+
+  Marvin Williams Tomahawk Slam in Boston | 01.16.17
+    mode blocklist, 2 code(s)
+    US playable: True
+    CN,TW
+
+  MLK Celebration in Memphis
+    mode blocklist, 2 code(s)
+    US playable: True
+    CN,TW
+
+  JAZZ at WARRIORS | FULL GAME HIGHLIGHTS | March 14, 2021
+    mode allowlist, 24 code(s)
+    US playable: True
+    AR,AU,BR,CA,CL,CO,DO,GU,ID,IN,JM,JP,MN,MX,MY,NZ,PE,PH,PR,SG,TH,US,VE,VN
+
+  GRIZZLIES at THUNDER | FULL GAME HIGHLIGHTS | March 14, 2021
+    mode allowlist, 24 code(s)
+    US playable: True
+    AR,AU,BR,CA,CL,CO,DO,GU,ID,IN,JM,JP,MN,MX,MY,NZ,PE,PH,PR,SG,TH,US,VE,VN
+
+  Stephen Curry's BEST Handles vs. Every Team | #NBABDAY
+    mode blocklist, 2 code(s)
+    US playable: True
+    CN,TW
+
+  MAVERICKS at NUGGETS | FULL GAME HIGHLIGHTS | March 13, 2021
+    mode allowlist, 24 code(s)
+    US playable: True
+    AR,AU,BR,CA,CL,CO,DO,GU,ID,IN,JM,JP,MN,MX,MY,NZ,PE,PH,PR,SG,TH,US,VE,VN
+
+  PACERS at SUNS | FULL GAME HIGHLIGHTS | March 13, 2021
+    mode allowlist, 24 code(s)
+    US playable: True
+    AR,AU,BR,CA,CL,CO,DO,GU,ID,IN,JM,JP,MN,MX,MY,NZ,PE,PH,PR,SG,TH,US,VE,VN
+
+  TRAIL BLAZERS at TIMBERWOLVES | FULL GAME HIGHLIGHTS | March 13, 2
+    mode allowlist, 24 code(s)
+    US playable: True
+    AR,AU,BR,CA,CL,CO,DO,GU,ID,IN,JM,JP,MN,MX,MY,NZ,PE,PH,PR,SG,TH,US,VE,VN
+
+  KINGS at HAWKS | FULL GAME HIGHLIGHTS | March 13, 2021
+    mode allowlist, 24 code(s)
+    US playable: True
+    AR,AU,BR,CA,CL,CO,DO,GU,ID,IN,JM,JP,MN,MX,MY,NZ,PE,PH,PR,SG,TH,US,VE,VN
+
+  LaMelo Ball Drops 23 PTS (6 3PM), 9 REB & 6 AST To Guide Hornets T
+    mode blocklist, 2 code(s)
+    US playable: True
+    CN,TW
+
+  BUCKS at WIZARDS | FULL GAME HIGHLIGHTS | March 13, 2021
+    mode allowlist, 24 code(s)
+    US playable: True
+    AR,AU,BR,CA,CL,CO,DO,GU,ID,IN,JM,JP,MN,MX,MY,NZ,PE,PH,PR,SG,TH,US,VE,VN
+
+  RAPTORS at HORNETS | FULL GAME HIGHLIGHTS | March 13, 2021
+    mode allowlist, 24 code(s)
+    US playable: True
+    AR,AU,BR,CA,CL,CO,DO,GU,ID,IN,JM,JP,MN,MX,MY,NZ,PE,PH,PR,SG,TH,US,VE,VN
+
+  PISTONS at NETS | FULL GAME HIGHLIGHTS | March 13, 2021
+    mode allowlist, 24 code(s)
+    US playable: True
+    AR,AU,BR,CA,CL,CO,DO,GU,ID,IN,JM,JP,MN,MX,MY,NZ,PE,PH,PR,SG,TH,US,VE,VN
+
+  KNICKS at THUNDER | FULL GAME HIGHLIGHTS | March 13, 2021
+    mode allowlist, 24 code(s)
+    US playable: True
+    AR,AU,BR,CA,CL,CO,DO,GU,ID,IN,JM,JP,MN,MX,MY,NZ,PE,PH,PR,SG,TH,US,VE,VN
+
+  PACERS at LAKERS | FULL GAME HIGHLIGHTS | March 12, 2021
+    mode allowlist, 24 code(s)
+    US playable: True
+    AR,AU,BR,CA,CL,CO,DO,GU,ID,IN,JM,JP,MN,MX,MY,NZ,PE,PH,PR,SG,TH,US,VE,VN
+
+  ROCKETS at JAZZ | FULL GAME HIGHLIGHTS | March 12, 2021
+    mode allowlist, 24 code(s)
+    US playable: True
+    AR,AU,BR,CA,CL,CO,DO,GU,ID,IN,JM,JP,MN,MX,MY,NZ,PE,PH,PR,SG,TH,US,VE,VN
+
+  MAGIC at SPURS | FULL GAME HIGHLIGHTS | March 12, 2021
+    mode allowlist, 24 code(s)
+    US playable: True
+    AR,AU,BR,CA,CL,CO,DO,GU,ID,IN,JM,JP,MN,MX,MY,NZ,PE,PH,PR,SG,TH,US,VE,VN
+
+  HEAT at BULLS | FULL GAME HIGHLIGHTS | March 12, 2021
+    mode allowlist, 24 code(s)
+    US playable: True
+    AR,AU,BR,CA,CL,CO,DO,GU,ID,IN,JM,JP,MN,MX,MY,NZ,PE,PH,PR,SG,TH,US,VE,VN
+
+  NUGGETS at GRIZZLIES | FULL GAME HIGHLIGHTS | March 12, 2021
+    mode allowlist, 24 code(s)
+    US playable: True
+    AR,AU,BR,CA,CL,CO,DO,GU,ID,IN,JM,JP,MN,MX,MY,NZ,PE,PH,PR,SG,TH,US,VE,VN
+
+  76ERS at WIZARDS | FULL GAME HIGHLIGHTS | March 12, 2021
+    mode allowlist, 24 code(s)
+    US playable: True
+    AR,AU,BR,CA,CL,CO,DO,GU,ID,IN,JM,JP,MN,MX,MY,NZ,PE,PH,PR,SG,TH,US,VE,VN
+
+  CAVALIERS at PELICANS | FULL GAME HIGHLIGHTS | March 12, 2021
+    mode allowlist, 24 code(s)
+    US playable: True
+    AR,AU,BR,CA,CL,CO,DO,GU,ID,IN,JM,JP,MN,MX,MY,NZ,PE,PH,PR,SG,TH,US,VE,VN
+
+  5 Camps, 5 Continents: A Look at Basketball Without Borders 2019-2
+    mode blocklist, 2 code(s)
+    US playable: True
+    CN,TW
+
+  Ja Morant's BEST CAREER Ball Fakes 👀
+    mode blocklist, 2 code(s)
+    US playable: True
+    CN,TW
+
+  Warriors @ Clippers | NBA on TNT Live Scoreboard
+    mode blocklist, 2 code(s)
+    US playable: True
+    CN,TW
+
+  WARRIORS at CLIPPERS | FULL GAME HIGHLIGHTS | March 11, 2021
+    mode allowlist, 24 code(s)
+    US playable: True
+    AR,AU,BR,CA,CL,CO,DO,GU,ID,IN,JM,JP,MN,MX,MY,NZ,PE,PH,PR,SG,TH,US,VE,VN
+
+  ROCKETS at KINGS | FULL GAME HIGHLIGHTS | March 11, 2021
+    mode allowlist, 24 code(s)
+    US playable: True
+    AR,AU,BR,CA,CL,CO,DO,GU,ID,IN,JM,JP,MN,MX,MY,NZ,PE,PH,PR,SG,TH,US,VE,VN
+
+  SUNS at TRAIL BLAZERS | FULL GAME HIGHLIGHTS | March 11, 2021
+    mode allowlist, 24 code(s)
+    US playable: True
+    AR,AU,BR,CA,CL,CO,DO,GU,ID,IN,JM,JP,MN,MX,MY,NZ,PE,PH,PR,SG,TH,US,VE,VN
+
+  MAVERICKS at THUNDER | FULL GAME HIGHLIGHTS | March 11, 2021
+    mode allowlist, 24 code(s)
+    US playable: True
+    AR,AU,BR,CA,CL,CO,DO,GU,ID,IN,JM,JP,MN,MX,MY,NZ,PE,PH,PR,SG,TH,US,VE,VN
+
+  TIMBERWOLVES at PELICANS | FULL GAME HIGHLIGHTS | March 11, 2021
+    mode allowlist, 24 code(s)
+    US playable: True
+    AR,AU,BR,CA,CL,CO,DO,GU,ID,IN,JM,JP,MN,MX,MY,NZ,PE,PH,PR,SG,TH,US,VE,VN
+
+  MAGIC at HEAT | FULL GAME HIGHLIGHTS | March 11, 2021
+    mode allowlist, 24 code(s)
+    US playable: True
+    AR,AU,BR,CA,CL,CO,DO,GU,ID,IN,JM,JP,MN,MX,MY,NZ,PE,PH,PR,SG,TH,US,VE,VN
+
+  KNICKS at BUCKS | FULL GAME HIGHLIGHTS | March 11, 2021
+    mode allowlist, 24 code(s)
+    US playable: True
+    AR,AU,BR,CA,CL,CO,DO,GU,ID,IN,JM,JP,MN,MX,MY,NZ,PE,PH,PR,SG,TH,US,VE,VN
+
+  76ERS at BULLS | FULL GAME HIGHLIGHTS | March 11, 2021
+    mode allowlist, 24 code(s)
+    US playable: True
+    AR,AU,BR,CA,CL,CO,DO,GU,ID,IN,JM,JP,MN,MX,MY,NZ,PE,PH,PR,SG,TH,US,VE,VN
+
+  CELTICS at NETS | FULL GAME HIGHLIGHTS | March 11, 2021
+    mode allowlist, 24 code(s)
+    US playable: True
+    AR,AU,BR,CA,CL,CO,DO,GU,ID,IN,JM,JP,MN,MX,MY,NZ,PE,PH,PR,SG,TH,US,VE,VN
+
+  HAWKS at RAPTORS | FULL GAME HIGHLIGHTS | March 11, 2021
+    mode allowlist, 24 code(s)
+    US playable: True
+    AR,AU,BR,CA,CL,CO,DO,GU,ID,IN,JM,JP,MN,MX,MY,NZ,PE,PH,PR,SG,TH,US,VE,VN
+
+  PISTONS at HORNETS | FULL GAME HIGHLIGHTS | March 11, 2021
+    mode allowlist, 24 code(s)
+    US playable: True
+    AR,AU,BR,CA,CL,CO,DO,GU,ID,IN,JM,JP,MN,MX,MY,NZ,PE,PH,PR,SG,TH,US,VE,VN
+
+  NBA Top 5 Plays Of The Night | March 10, 2021
+    mode blocklist, 2 code(s)
+    US playable: True
+    CN,TW
+
+  SPURS at MAVERICKS | FULL GAME HIGHLIGHTS | March 10, 2021
+    mode allowlist, 24 code(s)
+    US playable: True
+    AR,AU,BR,CA,CL,CO,DO,GU,ID,IN,JM,JP,MN,MX,MY,NZ,PE,PH,PR,SG,TH,US,VE,VN
+
+  WIZARDS at GRIZZLIES | FULL GAME HIGHLIGHTS | March 10, 2021
+    mode allowlist, 24 code(s)
+    US playable: True
+    AR,AU,BR,CA,CL,CO,DO,GU,ID,IN,JM,JP,MN,MX,MY,NZ,PE,PH,PR,SG,TH,US,VE,VN
+
+  BEST ASSISTS From The First Half Of The Season 👀 | Part 2
+    mode blocklist, 2 code(s)
+    US playable: True
+    CN,TW
+
+  2021 #NBAAllStar Mini-Movie!
+    mode blocklist, 2 code(s)
+    US playable: True
+    CN,TW
+
+  BEST CLUTCH PLAYS From The First Half Of The Season! | Part 2
+    mode blocklist, 2 code(s)
+    US playable: True
+    CN,TW
+
+  Victor Wembanyama Comes Up CLUTCH In The Nation's Capital! 👀| Janu
+    mode blocklist, 2 code(s)
+    US playable: True
+    CN,TW
+
+==============================================================================
+WHAT THIS DOES NOT TELL YOU
+==============================================================================
+
+  Three games. Whatever pattern shows here has to be confirmed at
+  scale before a panel is worth building, and that is a separate run.
+
+  Region data from the API describes the video, not your network. A
+  video with no restriction can still be unavailable for other
+  reasons, and the panel must degrade to nothing when it is.
+
+  Nothing was changed. The dashboard does not know this exists.
+==============================================================================

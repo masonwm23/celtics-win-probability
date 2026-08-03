@@ -1,0 +1,16 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+204060,Joe Ingles,joe-ingles,2,F,6-8,226,"OCT 02, 1987",29.0,2,Maccabi Tel Aviv,2016-17,1610612762,UTA,Utah Jazz
+201588,George Hill,george-hill,3,G,6-3,188,"MAY 04, 1986",31.0,8,Indiana-Purdue Indianapolis,2016-17,1610612762,UTA,Utah Jazz
+203918,Rodney Hood,rodney-hood,5,G,6-8,206,"OCT 20, 1992",24.0,2,Duke,2016-17,1610612762,UTA,Utah Jazz
+2207,Joe Johnson,joe-johnson,6,F-G,6-7,240,"JUN 29, 1981",36.0,15,Arkansas,2016-17,1610612762,UTA,Utah Jazz
+202714,Shelvin Mack,shelvin-mack,8,G,6-3,203,"APR 22, 1990",27.0,5,Butler,2016-17,1610612762,UTA,Utah Jazz
+202692,Alec Burks,alec-burks,10,G,6-6,214,"JUL 20, 1991",25.0,5,Colorado,2016-17,1610612762,UTA,Utah Jazz
+203957,Danté Exum,danté-exum,11,G,6-6,190,"JUL 13, 1995",21.0,2,Australian Institute of Sport,2016-17,1610612762,UTA,Utah Jazz
+202324,Derrick Favors,derrick-favors,15,F-C,6-10,265,"JUL 15, 1991",25.0,6,Georgia Tech,2016-17,1610612762,UTA,Utah Jazz
+202330,Gordon Hayward,gordon-hayward,20,F,6-8,226,"MAR 23, 1990",27.0,6,Butler,2016-17,1610612762,UTA,Utah Jazz
+1627762,Joel Bolomboy,joel-bolomboy,21,F,6-9,235,"JAN 28, 1994",23.0,R,Weber State,2016-17,1610612762,UTA,Utah Jazz
+203481,Jeff Withey,jeff-withey,24,C,7-0,231,"MAR 07, 1990",27.0,3,Kansas,2016-17,1610612762,UTA,Utah Jazz
+203526,Raul Neto,raul-neto,25,G,6-1,179,"MAY 19, 1992",25.0,1,Murcia,2016-17,1610612762,UTA,Utah Jazz
+203497,Rudy Gobert,rudy-gobert,27,C,7-1,245,"JUN 26, 1992",25.0,3,Cholet,2016-17,1610612762,UTA,Utah Jazz
+2564,Boris Diaw,boris-diaw,33,C-F,6-8,250,"APR 16, 1982",35.0,13,Pau Orthez,2016-17,1610612762,UTA,Utah Jazz
+1626168,Trey Lyles,trey-lyles,41,F,6-10,234,"NOV 05, 1995",21.0,1,Kentucky,2016-17,1610612762,UTA,Utah Jazz

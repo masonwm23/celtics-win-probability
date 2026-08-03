@@ -1,0 +1,16 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1627754,Diamond Stone,diamond-stone,0,C,6-11,255,"FEB 10, 1997",20.0,R,Maryland,2016-17,1610612746,LAC,Los Angeles Clippers
+101109,Raymond Felton,raymond-felton,2,G,6-1,205,"JUN 26, 1984",33.0,11,North Carolina,2016-17,1610612746,LAC,Los Angeles Clippers
+101108,Chris Paul,chris-paul,3,G,6-0,175,"MAY 06, 1985",32.0,11,Wake Forest,2016-17,1610612746,LAC,Los Angeles Clippers
+200755,JJ Redick,jj-redick,4,G,6-4,190,"JUN 24, 1984",33.0,10,Duke,2016-17,1610612746,LAC,Los Angeles Clippers
+201578,Marreese Speights,marreese-speights,5,F-C,6-10,255,"AUG 04, 1987",29.0,8,Florida,2016-17,1610612746,LAC,Los Angeles Clippers
+201599,DeAndre Jordan,deandre-jordan,6,C,6-11,265,"JUL 21, 1988",28.0,8,Texas A&M,2016-17,1610612746,LAC,Los Angeles Clippers
+101187,Alan Anderson,alan-anderson,9,F-G,6-6,220,"OCT 16, 1982",34.0,7,Michigan State,2016-17,1610612746,LAC,Los Angeles Clippers
+1627744,Brice Johnson,brice-johnson,10,F,6-10,230,"JUN 27, 1994",23.0,R,North Carolina,2016-17,1610612746,LAC,Los Angeles Clippers
+2037,Jamal Crawford,jamal-crawford,11,G,6-5,195,"MAR 20, 1980",37.0,16,Michigan,2016-17,1610612746,LAC,Los Angeles Clippers
+201601,Luc Mbah a Moute,luc-mbah-a-moute,12,F,6-8,230,"SEP 09, 1986",30.0,8,UCLA,2016-17,1610612746,LAC,Los Angeles Clippers
+203085,Austin Rivers,austin-rivers,25,G,6-4,200,"AUG 01, 1992",24.0,4,Duke,2016-17,1610612746,LAC,Los Angeles Clippers
+101138,Brandon Bass,brandon-bass,30,F,6-8,250,"APR 30, 1985",32.0,11,Louisiana State,2016-17,1610612746,LAC,Los Angeles Clippers
+201933,Blake Griffin,blake-griffin,32,F,6-10,251,"MAR 16, 1989",28.0,6,Oklahoma,2016-17,1610612746,LAC,Los Angeles Clippers
+202325,Wesley Johnson,wesley-johnson,33,F,6-7,215,"JUL 11, 1987",29.0,6,Syracuse,2016-17,1610612746,LAC,Los Angeles Clippers
+1718,Paul Pierce,paul-pierce,34,F,6-7,235,"OCT 13, 1977",39.0,18,Kansas,2016-17,1610612746,LAC,Los Angeles Clippers

@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1630703,Scoot Henderson,scoot-henderson,00,G,6-3,202,"FEB 03, 2004",20.0,R,NBA G League Ignite,2023-24,1610612757,POR,Portland Trail Blazers
+1629014,Anfernee Simons,anfernee-simons,1,G,6-3,193,"JUN 08, 1999",25.0,5,Edgewater HS (FL),2023-24,1610612757,POR,Portland Trail Blazers
+1629028,Deandre Ayton,deandre-ayton,2,C,7-0,247,"JUL 23, 1998",25.0,5,Arizona,2023-24,1610612757,POR,Portland Trail Blazers
+1629680,Matisse Thybulle,matisse-thybulle,4,G-F,6-5,201,"MAR 04, 1997",27.0,4,Washington,2023-24,1610612757,POR,Portland Trail Blazers
+1630625,Dalano Banton,dalano-banton,5,F,6-8,204,"NOV 07, 1999",24.0,2,Nebraska,2023-24,1610612757,POR,Portland Trail Blazers
+1631200,Kris Murray,kris-murray,8,F,6-8,210,"AUG 19, 2000",23.0,R,Iowa,2023-24,1610612757,POR,Portland Trail Blazers
+203924,Jerami Grant,jerami-grant,9,F,6-7,210,"MAR 12, 1994",30.0,9,Syracuse,2023-24,1610612757,POR,Portland Trail Blazers
+1629650,Moses Brown,moses-brown,10,C,7-2,258,"OCT 13, 1999",24.0,4,UCLA,2023-24,1610612757,POR,Portland Trail Blazers
+1627763,Malcolm Brogdon,malcolm-brogdon,11,G,6-4,229,"DEC 11, 1992",31.0,7,Virginia,2023-24,1610612757,POR,Portland Trail Blazers
+1631101,Shaedon Sharpe,shaedon-sharpe,17,G,6-5,205,"MAY 30, 2003",21.0,1,Kentucky,2023-24,1610612757,POR,Portland Trail Blazers
+1630204,Ashton Hagans,ashton-hagans,19,G-F,6-3,190,"JUL 08, 1999",24.0,1,Kentucky,2023-24,1610612757,POR,Portland Trail Blazers
+1631303,Justin Minaya,justin-minaya,24,F,6-5,205,"MAR 26, 1999",25.0,1,Providence,2023-24,1610612757,POR,Portland Trail Blazers
+1641871,Duop Reath,duop-reath,26,C,6-9,245,"JUN 26, 1996",28.0,R,Louisiana State,2023-24,1610612757,POR,Portland Trail Blazers
+1641739,Toumani Camara,toumani-camara,33,F,6-7,226,"MAY 08, 2000",24.0,R,Dayton,2023-24,1610612757,POR,Portland Trail Blazers
+1631133,Jabari Walker,jabari-walker,34,F,6-7,227,"JUL 30, 2002",21.0,1,Colorado,2023-24,1610612757,POR,Portland Trail Blazers
+1629057,Robert Williams III,robert-williams-iii,35,C-F,6-9,249,"OCT 17, 1997",26.0,5,Texas A&M,2023-24,1610612757,POR,Portland Trail Blazers
+1630641,Ibou Badji,ibou-badji,41,C,7-0,240,"OCT 13, 2002",21.0,R,FC Barcelona,2023-24,1610612757,POR,Portland Trail Blazers
+1641712,Rayan Rupert,rayan-rupert,72,G-F,6-6,185,"MAY 31, 2004",20.0,R,New Zealand Breakers,2023-24,1610612757,POR,Portland Trail Blazers

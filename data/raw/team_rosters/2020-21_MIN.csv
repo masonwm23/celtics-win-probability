@@ -1,0 +1,16 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1626156,D'Angelo Russell,dangelo-russell,0,G,6-4,193,"FEB 23, 1996",25.0,5,Ohio State,2020-21,1610612750,MIN,Minnesota Timberwolves
+1630162,Anthony Edwards,anthony-edwards,1,G,6-4,225,"AUG 05, 2001",19.0,R,Georgia,2020-21,1610612750,MIN,Minnesota Timberwolves
+1630183,Jaden McDaniels,jaden-mcdaniels,3,F,6-9,185,"SEP 29, 2000",20.0,R,Washington,2020-21,1610612750,MIN,Minnesota Timberwolves
+1629669,Jaylen Nowell,jaylen-nowell,4,G,6-4,201,"JUL 09, 1999",21.0,1,Washington,2020-21,1610612750,MIN,Minnesota Timberwolves
+1627736,Malik Beasley,malik-beasley,5,G,6-4,187,"NOV 26, 1996",24.0,4,Florida State,2020-21,1610612750,MIN,Minnesota Timberwolves
+1629162,Jordan McLaughlin,jordan-mclaughlin,6,G,5-11,185,"APR 09, 1996",25.0,1,Southern California,2020-21,1610612750,MIN,Minnesota Timberwolves
+1629020,Jarred Vanderbilt,jarred-vanderbilt,8,F,6-9,214,"APR 03, 1999",22.0,2,Kentucky,2020-21,1610612750,MIN,Minnesota Timberwolves
+201937,Ricky Rubio,ricky-rubio,9,G,6-3,190,"OCT 21, 1990",30.0,9,FC Barcelona,2020-21,1610612750,MIN,Minnesota Timberwolves
+1627774,Jake Layman,jake-layman,10,F,6-8,209,"MAR 07, 1994",27.0,4,Maryland,2020-21,1610612750,MIN,Minnesota Timberwolves
+1629675,Naz Reid,naz-reid,11,C-F,6-9,264,"AUG 26, 1999",21.0,1,Louisiana State,2020-21,1610612750,MIN,Minnesota Timberwolves
+202334,Ed Davis,ed-davis,17,C-F,6-9,218,"JUN 05, 1989",32.0,10,North Carolina,2020-21,1610612750,MIN,Minnesota Timberwolves
+1629006,Josh Okogie,josh-okogie,20,G,6-4,213,"SEP 01, 1998",22.0,2,Georgia Tech,2020-21,1610612750,MIN,Minnesota Timberwolves
+1629633,Jarrett Culver,jarrett-culver,23,G-F,6-6,195,"FEB 20, 1999",22.0,1,Texas Tech,2020-21,1610612750,MIN,Minnesota Timberwolves
+1626157,Karl-Anthony Towns,karl-anthony-towns,32,C-F,6-11,248,"NOV 15, 1995",25.0,5,Kentucky,2020-21,1610612750,MIN,Minnesota Timberwolves
+1627823,Juancho Hernangomez,juancho-hernangomez,41,F,6-9,214,"SEP 28, 1995",25.0,4,Estudiantes,2020-21,1610612750,MIN,Minnesota Timberwolves

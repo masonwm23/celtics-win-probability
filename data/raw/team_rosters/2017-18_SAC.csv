@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1626161,Willie Cauley-Stein,willie-cauley-stein,00,C,7-0,240,"AUG 18, 1993",24.0,2,Kentucky,2017-18,1610612758,SAC,Sacramento Kings
+1628368,De'Aaron Fox,deaaron-fox,5,G,6-3,175,"DEC 20, 1997",20.0,R,Kentucky,2017-18,1610612758,SAC,Sacramento Kings
+1627746,Skal Labissiere,skal-labissiere,7,F-C,6-11,225,"MAR 18, 1996",22.0,1,Kentucky,2017-18,1610612758,SAC,Sacramento Kings
+203992,Bogdan Bogdanović,bogdan-bogdanović,8,G,6-6,205,"AUG 18, 1992",25.0,R,Fenerbahce,2017-18,1610612758,SAC,Sacramento Kings
+202697,Iman Shumpert,iman-shumpert,9,G,6-5,220,"JUN 26, 1990",28.0,6,Georgia Tech,2017-18,1610612758,SAC,Sacramento Kings
+1628412,Frank Mason III,frank-mason-iii,10,G,5-11,190,"APR 03, 1994",24.0,R,Kansas,2017-18,1610612758,SAC,Sacramento Kings
+1713,Vince Carter,vince-carter,15,G-F,6-6,220,"JAN 26, 1977",41.0,19,North Carolina,2017-18,1610612758,SAC,Sacramento Kings
+202066,Garrett Temple,garrett-temple,17,F-G,6-6,195,"MAY 08, 1986",32.0,7,Louisiana State,2017-18,1610612758,SAC,Sacramento Kings
+1628385,Harry Giles III,harry-giles-iii,20,F-C,6-10,240,"APR 22, 1998",20.0,R,Duke,2017-18,1610612758,SAC,Sacramento Kings
+203998,Bruno Caboclo,bruno-caboclo,22,F,6-9,205,"SEP 21, 1995",22.0,3,Pinheiros,2017-18,1610612758,SAC,Sacramento Kings
+1627741,Buddy Hield,buddy-hield,24,G,6-4,214,"DEC 17, 1992",25.0,1,Oklahoma,2017-18,1610612758,SAC,Sacramento Kings
+1628382,Justin Jackson,justin-jackson,25,F,6-8,210,"MAR 28, 1995",23.0,R,North Carolina,2017-18,1610612758,SAC,Sacramento Kings
+203960,JaKarr Sampson,jakarr-sampson,29,F,6-9,207,"MAR 20, 1993",25.0,2,St. John's (NY),2017-18,1610612758,SAC,Sacramento Kings
+1628502,Nigel Hayes-Davis,nigel-hayes-davis,40,F,6-7,254,"DEC 16, 1994",23.0,R,Wisconsin,2017-18,1610612758,SAC,Sacramento Kings
+201585,Kosta Koufos,kosta-koufos,41,C,7-0,265,"FEB 24, 1989",29.0,9,Ohio State,2017-18,1610612758,SAC,Sacramento Kings
+204022,Jack Cooley,jack-cooley,45,C-F,6-10,274,"APR 12, 1991",27.0,1,Notre Dame,2017-18,1610612758,SAC,Sacramento Kings
+2216,Zach Randolph,zach-randolph,50,F,6-9,250,"JUL 16, 1981",36.0,16,Michigan State,2017-18,1610612758,SAC,Sacramento Kings

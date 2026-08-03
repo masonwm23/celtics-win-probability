@@ -1,0 +1,55 @@
+==============================================================================
+PHASE 12e - HIGHLIGHT PRECOMPUTE, COVERAGE
+==============================================================================
+
+  Built by enumerating the official uploads playlists and matching
+  titles locally. No search.list, so the whole run costs roughly a
+  thousand quota units instead of the ~127,000 a per-game search
+  would have cost.
+
+  Metadata only. No download, no scraping, no re-hosting. Unofficial
+  channels are not in the candidate pool at all.
+
+  uploads enumerated  22,131
+  oldest reached      2017-04-01
+  games               636
+  CONFIRMED           20  (3.1%)
+  sent to review      1
+
+  !! The uploads playlist stopped paginating before reaching the
+  target date. An uploads playlist has a depth limit, so games
+  older than the date above were NEVER TESTED. Their absence
+  from the mapping is not evidence that no reel exists.
+
+==============================================================================
+BY SEASON
+==============================================================================
+
+  season      games  confirmed  review  unmatched    rate
+  2016-17        82          0       0         82     0%
+  2017-18        82          0       0         82     0%
+  2018-19        82          0       0         82     0%
+  2019-20        72          0       0         72     0%
+  2020-21        72          0       0         72     0%
+  2021-22        82          0       0         82     0%
+  2022-23        82          0       0         82     0%
+  2023-24        82         20       1         62    24%
+
+==============================================================================
+WHAT THE PANEL WOULD DO
+==============================================================================
+
+  Games in the mapping get an optional panel labelled
+  'Game Highlights', stating plainly that it is a game-level recap
+  and NOT synchronised with the probability cursor.
+
+  Every other game hides the panel entirely. No placeholder, no
+  error, no unofficial fallback. That includes 2016-17 and 2017-18,
+  where the NBA did not publish per-game reels to its own channel.
+
+  The synchronised play-by-play shot animation is a separate feature
+  and is not replaced by this.
+
+  Nothing in data/serving was touched by this run. The dashboard
+  does not read the mapping yet.
+==============================================================================

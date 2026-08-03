@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1626196,Josh Richardson,josh-richardson,0,F,6-6,200,"SEP 15, 1993",24.0,2,Tennessee,2017-18,1610612748,MIA,Miami Heat
+201961,Wayne Ellington,wayne-ellington,2,G,6-5,200,"NOV 29, 1987",30.0,8,North Carolina,2017-18,1610612748,MIA,Miami Heat
+2548,Dwyane Wade,dwyane-wade,3,G,6-4,220,"JAN 17, 1982",36.0,14,Marquette,2017-18,1610612748,MIA,Miami Heat
+1627884,Derrick Jones Jr.,derrick-jones-jr,5,F-G,6-7,200,"FEB 15, 1997",21.0,1,UNLV,2017-18,1610612748,MIA,Miami Heat
+201609,Goran Dragic,goran-dragic,7,G,6-3,190,"MAY 06, 1986",32.0,9,Union Olimpija,2017-18,1610612748,MIA,Miami Heat
+204020,Tyler Johnson,tyler-johnson,8,G,6-4,190,"MAY 07, 1992",26.0,3,Fresno State,2017-18,1610612748,MIA,Miami Heat
+203482,Kelly Olynyk,kelly-olynyk,9,F-C,7-0,245,"APR 19, 1991",27.0,4,Gonzaga,2017-18,1610612748,MIA,Miami Heat
+203079,Dion Waiters,dion-waiters,11,G,6-4,215,"DEC 10, 1991",26.0,5,Syracuse,2017-18,1610612748,MIA,Miami Heat
+1628389,Bam Adebayo,bam-adebayo,13,C-F,6-10,255,"JUL 18, 1997",20.0,R,Kentucky,2017-18,1610612748,MIA,Miami Heat
+1628476,Derrick Walton Jr.,derrick-walton-jr,14,G,6-1,185,"APR 03, 1995",23.0,R,Michigan,2017-18,1610612748,MIA,Miami Heat
+201949,James Johnson,james-johnson,16,F,6-8,240,"FEB 20, 1987",31.0,8,Wake Forest,2017-18,1610612748,MIA,Miami Heat
+203585,Rodney McGruder,rodney-mcgruder,17,G-F,6-4,200,"JUL 29, 1991",26.0,1,Kansas State,2017-18,1610612748,MIA,Miami Heat
+1626159,Justise Winslow,justise-winslow,20,F-G,6-7,225,"MAR 26, 1996",22.0,2,Duke,2017-18,1610612748,MIA,Miami Heat
+202355,Hassan Whiteside,hassan-whiteside,21,C,7-0,265,"JUN 13, 1989",29.0,5,Marshall,2017-18,1610612748,MIA,Miami Heat
+202337,Luke Babbitt,luke-babbitt,22,F,6-9,225,"JUN 20, 1989",29.0,7,Nevada,2017-18,1610612748,MIA,Miami Heat
+1626175,Jordan Mickey,jordan-mickey,25,C-F,6-8,235,"JUL 09, 1994",23.0,2,Louisiana State,2017-18,1610612748,MIA,Miami Heat
+2617,Udonis Haslem,udonis-haslem,40,F,6-8,235,"JUN 09, 1980",38.0,14,Florida,2017-18,1610612748,MIA,Miami Heat

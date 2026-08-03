@@ -1,0 +1,3525 @@
+/* ---------------------------------------------------------------------------
+   Celtics Live Win Probability — design system
+
+   Dark, dense, and quiet. This is an analytics surface, so the numbers are the
+   loudest thing on screen and the chrome stays out of the way. Colour is used
+   sparingly and always means something: green is Boston, amber is the opponent,
+   red only ever marks a warning.
+--------------------------------------------------------------------------- */
+
+:root {
+  --bg: #07090c;
+  --bg-raised: #0d1117;
+  --bg-panel: #11161d;
+  --bg-hover: #171d26;
+  --line: #1e2732;
+  --line-soft: #161d26;
+
+  --text: #e8edf3;
+  --text-dim: #97a3b2;
+  --text-faint: #5d6875;
+
+  --celtics: #14e07a;
+  --celtics-deep: #007a33;
+  --celtics-glow: rgba(20, 224, 122, 0.35);
+  --opponent: #d9a441;
+  --opponent-glow: rgba(217, 164, 65, 0.3);
+  --warn: #ff5f56;
+
+  --radius: 12px;
+  --radius-sm: 8px;
+  --shadow: 0 18px 40px -18px rgba(0, 0, 0, 0.9);
+
+  --mono: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, monospace;
+  --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui,
+    sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--sans);
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-image:
+    radial-gradient(900px 500px at 15% -8%, rgba(20, 224, 122, 0.07), transparent 60%),
+    radial-gradient(700px 400px at 95% 0%, rgba(217, 164, 65, 0.05), transparent 55%);
+  background-attachment: fixed;
+}
+
+button {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+input,
+select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* --------------------------------------------------------------------- shell */
+
+.shell {
+  max-width: 1640px;
+  margin: 0 auto;
+  padding: 20px 24px 64px;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 20px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.brand__mark {
+  width: 38px;
+  height: 38px;
+  border-radius: 11px;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(150deg, var(--celtics), var(--celtics-deep));
+  color: #04120a;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  box-shadow: 0 0 26px var(--celtics-glow);
+}
+
+.brand__title {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 650;
+  letter-spacing: -0.2px;
+}
+
+.brand__sub {
+  margin: 2px 0 0;
+  font-size: 11.5px;
+  color: var(--text-faint);
+  letter-spacing: 0.2px;
+}
+
+/* ------------------------------------------------------------------- badges */
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 5px 11px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--bg-raised);
+  font-size: 11.5px;
+  color: var(--text-dim);
+  white-space: nowrap;
+}
+
+.badge--oof {
+  border-color: rgba(20, 224, 122, 0.3);
+  color: var(--celtics);
+  background: rgba(20, 224, 122, 0.07);
+}
+
+.badge--warn {
+  border-color: rgba(255, 95, 86, 0.35);
+  color: var(--warn);
+  background: rgba(255, 95, 86, 0.08);
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+  box-shadow: 0 0 8px currentColor;
+}
+
+/* -------------------------------------------------------------------- panels */
+
+.panel {
+  background: var(--bg-panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.panel__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 13px 16px;
+  border-bottom: 1px solid var(--line-soft);
+}
+
+.panel__title {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 620;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+
+.panel__body {
+  padding: 16px;
+}
+
+.note {
+  font-size: 11.5px;
+  line-height: 1.55;
+  color: var(--text-faint);
+}
+
+.note strong {
+  color: var(--text-dim);
+  font-weight: 600;
+}
+
+/* ------------------------------------------------------------------- ribbon */
+
+.ribbon {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 24px;
+  padding: 18px 24px;
+  margin-bottom: 18px;
+}
+
+.ribbon__team {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.ribbon__team--away {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.ribbon__logo {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+  filter: drop-shadow(0 6px 14px rgba(0, 0, 0, 0.6));
+}
+
+.ribbon__abbr {
+  font-size: 26px;
+  font-weight: 750;
+  letter-spacing: -0.6px;
+  line-height: 1;
+}
+
+.ribbon__meta {
+  font-size: 11.5px;
+  color: var(--text-faint);
+  margin-top: 4px;
+}
+
+.ribbon__score {
+  font-family: var(--mono);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -1.5px;
+  font-variant-numeric: tabular-nums;
+}
+
+.ribbon__score--lead {
+  color: var(--celtics);
+  text-shadow: 0 0 26px var(--celtics-glow);
+}
+
+.ribbon__centre {
+  text-align: center;
+  min-width: 190px;
+}
+
+.ribbon__clock {
+  font-family: var(--mono);
+  font-size: 22px;
+  font-weight: 650;
+  letter-spacing: -0.5px;
+  font-variant-numeric: tabular-nums;
+}
+
+.ribbon__period {
+  font-size: 11px;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  margin-top: 3px;
+}
+
+.ribbon__wp {
+  margin-top: 12px;
+  font-family: var(--mono);
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--celtics);
+  letter-spacing: -1px;
+  font-variant-numeric: tabular-nums;
+}
+
+.ribbon__wplabel {
+  font-size: 10.5px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  margin-top: 2px;
+}
+
+/* -------------------------------------------------------------------- layout */
+
+.grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 340px;
+  gap: 18px;
+  align-items: start;
+}
+
+.stack {
+  display: grid;
+  gap: 18px;
+  min-width: 0;
+}
+
+@media (max-width: 1180px) {
+  .grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/* --------------------------------------------------------------------- chart */
+
+.chart {
+  width: 100%;
+  display: block;
+  cursor: crosshair;
+  touch-action: none;
+}
+
+.chart__legend {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 11.5px;
+  color: var(--text-dim);
+}
+
+.swatch {
+  display: inline-block;
+  width: 18px;
+  height: 3px;
+  border-radius: 2px;
+  vertical-align: middle;
+  margin-right: 7px;
+}
+
+.transport {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  border-top: 1px solid var(--line-soft);
+}
+
+.iconbtn {
+  width: 34px;
+  height: 34px;
+  border-radius: 9px;
+  border: 1px solid var(--line);
+  background: var(--bg-raised);
+  display: grid;
+  place-items: center;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.iconbtn:hover {
+  background: var(--bg-hover);
+  border-color: #2a3644;
+}
+
+.iconbtn--primary {
+  border-color: rgba(20, 224, 122, 0.4);
+  background: rgba(20, 224, 122, 0.12);
+  color: var(--celtics);
+}
+
+.scrub {
+  flex: 1;
+  accent-color: var(--celtics);
+  height: 4px;
+}
+
+.transport__read {
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--text-dim);
+  min-width: 118px;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+/* --------------------------------------------------------------------- court */
+
+.court {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* A half court is very nearly square, so at full panel width it would be over
+   a thousand pixels tall and push everything else off the screen. Capped and
+   centred instead. */
+.courtsplit {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 270px;
+  gap: 18px;
+  align-items: start;
+}
+
+@media (max-width: 900px) {
+  .courtsplit {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.courtwrap {
+  /* width AND max-width, both needed. A grid item with auto inline margins is
+     not stretched by the grid, so without an explicit width this collapses to
+     the SVG's 300px default intrinsic size. */
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.court__line {
+  fill: none;
+  stroke: #2b3746;
+  stroke-width: 2.4;
+}
+
+.court__floor {
+  fill: #0a0e13;
+}
+
+.court__paint {
+  fill: rgba(20, 224, 122, 0.045);
+  stroke: #2b3746;
+  stroke-width: 2.4;
+}
+
+.shot--made {
+  fill: var(--celtics);
+  opacity: 0.85;
+}
+
+.shot--missed {
+  fill: none;
+  stroke: var(--opponent);
+  stroke-width: 3;
+  opacity: 0.6;
+}
+
+.shot--opp-made {
+  fill: var(--opponent);
+  opacity: 0.7;
+}
+
+.shot--opp-missed {
+  fill: none;
+  stroke: #46536440;
+  stroke-width: 3;
+}
+
+.slot {
+  cursor: pointer;
+}
+
+.slot__ring {
+  fill: rgba(20, 224, 122, 0.06);
+  stroke: var(--celtics);
+  stroke-width: 2.5;
+  stroke-dasharray: 7 6;
+  filter: drop-shadow(0 0 9px var(--celtics-glow));
+  animation: pulse 2.6s ease-in-out infinite;
+}
+
+.slot__ring--opp {
+  stroke: var(--opponent);
+  fill: rgba(217, 164, 65, 0.06);
+  filter: drop-shadow(0 0 9px var(--opponent-glow));
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.55; }
+  50% { opacity: 1; }
+}
+
+.slot__plus {
+  fill: var(--celtics);
+  font-size: 30px;
+  font-weight: 300;
+  text-anchor: middle;
+  dominant-baseline: central;
+  pointer-events: none;
+}
+
+.slot__plus--opp {
+  fill: var(--opponent);
+}
+
+/* ---------------------------------------------------------------- court card */
+
+.courtcard {
+  position: absolute;
+  width: 168px;
+  padding: 10px;
+  border-radius: var(--radius-sm);
+  background: rgba(13, 17, 23, 0.96);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(10px);
+  transform: translate(-50%, -114%);
+  pointer-events: none;
+  z-index: 5;
+}
+
+.courtcard--opp {
+  border-color: rgba(217, 164, 65, 0.35);
+}
+
+
+/* -------------------------------------------------------------------- player */
+
+.player {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  padding: 9px 11px;
+  border-radius: var(--radius-sm);
+  border: 1px solid transparent;
+  background: var(--bg-raised);
+  transition: background 0.15s, border-color 0.15s;
+  width: 100%;
+  text-align: left;
+}
+
+.player:hover {
+  background: var(--bg-hover);
+  border-color: var(--line);
+}
+
+.player--active {
+  border-color: rgba(20, 224, 122, 0.4);
+  background: rgba(20, 224, 122, 0.07);
+}
+
+.player--opp.player--active {
+  border-color: rgba(217, 164, 65, 0.4);
+  background: rgba(217, 164, 65, 0.07);
+}
+
+.avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 9px;
+  object-fit: cover;
+  object-position: top center;
+  background: #151b23;
+  flex-shrink: 0;
+  border: 1px solid var(--line);
+}
+
+.avatar--sm {
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+}
+
+.avatar--fallback {
+  display: grid;
+  place-items: center;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-faint);
+  letter-spacing: 0.3px;
+}
+
+.player__body {
+  min-width: 0;
+  flex: 1;
+}
+
+.player__name {
+  font-size: 13px;
+  font-weight: 580;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.player__meta {
+  font-size: 11px;
+  color: var(--text-faint);
+  margin-top: 2px;
+  display: flex;
+  gap: 7px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.pill {
+  padding: 1px 6px;
+  border-radius: 5px;
+  background: var(--bg-panel);
+  border: 1px solid var(--line);
+  font-size: 10px;
+  letter-spacing: 0.3px;
+}
+
+.player__stat {
+  font-family: var(--mono);
+  font-size: 12.5px;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-dim);
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.player__stat small {
+  display: block;
+  font-family: var(--sans);
+  font-size: 9.5px;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  margin-top: 1px;
+}
+
+/* ---------------------------------------------------------------------- tabs */
+
+.tabs {
+  display: flex;
+  gap: 4px;
+  padding: 3px;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 9px;
+}
+
+.tab {
+  padding: 6px 13px;
+  border-radius: 7px;
+  font-size: 12px;
+  font-weight: 560;
+  color: var(--text-faint);
+  transition: background 0.15s, color 0.15s;
+}
+
+.tab:hover {
+  color: var(--text-dim);
+}
+
+.tab--on {
+  background: var(--bg-hover);
+  color: var(--text);
+}
+
+.tab--on-celtics {
+  background: rgba(20, 224, 122, 0.13);
+  color: var(--celtics);
+}
+
+.tab--on-opponent {
+  background: rgba(217, 164, 65, 0.13);
+  color: var(--opponent);
+}
+
+/* -------------------------------------------------------------------- inputs */
+
+.field {
+  width: 100%;
+  padding: 8px 11px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--line);
+  background: var(--bg);
+  color: var(--text);
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+.field:focus {
+  border-color: rgba(20, 224, 122, 0.45);
+}
+
+.field::placeholder {
+  color: var(--text-faint);
+}
+
+.row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.chip {
+  padding: 5px 11px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--bg-raised);
+  font-size: 11.5px;
+  color: var(--text-dim);
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+
+.chip:hover {
+  background: var(--bg-hover);
+}
+
+.chip--on {
+  border-color: rgba(20, 224, 122, 0.45);
+  color: var(--celtics);
+  background: rgba(20, 224, 122, 0.1);
+}
+
+.scroll {
+  max-height: 460px;
+  overflow-y: auto;
+  display: grid;
+  gap: 6px;
+  padding-right: 4px;
+}
+
+.scroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  background: #1d2530;
+  border-radius: 4px;
+}
+
+/* ------------------------------------------------------------------- impact */
+
+.impact {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 10px;
+}
+
+.impact__card {
+  padding: 12px;
+  border-radius: var(--radius-sm);
+  background: var(--bg-raised);
+  border: 1px solid var(--line);
+}
+
+.impact__label {
+  font-size: 10px;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+  color: var(--text-faint);
+}
+
+.impact__value {
+  font-family: var(--mono);
+  font-size: 20px;
+  font-weight: 680;
+  margin-top: 5px;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.5px;
+}
+
+.impact__sub {
+  font-size: 10.5px;
+  color: var(--text-faint);
+  margin-top: 3px;
+}
+
+/* -------------------------------------------------------------------- misc */
+
+.state {
+  display: grid;
+  place-items: center;
+  min-height: 320px;
+  gap: 12px;
+  text-align: center;
+  color: var(--text-dim);
+}
+
+.spinner {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 2.5px solid var(--line);
+  border-top-color: var(--celtics);
+  animation: spin 0.85s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.code {
+  font-family: var(--mono);
+  font-size: 11.5px;
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  background: var(--bg);
+  border: 1px solid var(--line);
+  color: var(--text-dim);
+  overflow-x: auto;
+  white-space: pre;
+}
+
+.hidden {
+  display: none;
+}
+
+/* ------------------------------------------------- play reconstruction panel
+
+   Three visual registers, and keeping them apart is the whole job.
+
+     VERIFIED   solid bright green (amber for a miss). A recorded coordinate.
+     RULE       blue. Known from the rulebook, never observed.
+     SCHEMATIC  flat neutral fills and a dotted link that names itself. These
+                must never look like measurements, so they get no glow and no
+                path that could read as a route.                             */
+
+.playpanel {
+  display: flex;
+  flex-direction: column;
+}
+
+.playpanel__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 18px;
+}
+
+/* --- segmented control --------------------------------------------------- */
+
+.seg {
+  display: inline-flex;
+  padding: 3px;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  background: var(--bg-raised);
+}
+
+.seg__btn {
+  padding: 5px 13px;
+  border-radius: 7px;
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--text-faint);
+  font-size: 12px;
+  font-weight: 500;
+  transition: color 0.15s, background 0.15s, border-color 0.15s;
+}
+
+.seg__btn:hover { color: var(--text-dim); }
+
+.seg__btn--on {
+  color: var(--celtics);
+  background: rgba(20, 224, 122, 0.1);
+  border-color: rgba(20, 224, 122, 0.4);
+}
+
+.ghostbtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 6px 13px;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  background: var(--bg-raised);
+  color: var(--text-dim);
+  font-size: 12px;
+}
+
+.ghostbtn:hover { background: var(--bg-hover); }
+.ghostbtn--on { border-color: rgba(20, 224, 122, 0.4); color: var(--celtics); }
+
+.ghostbtn__i {
+  display: inline-grid;
+  place-items: center;
+  width: 15px;
+  height: 15px;
+  flex: none;
+  border-radius: 999px;
+  border: 1px solid currentColor;
+  font-size: 9.5px;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 1;
+}
+
+.howto {
+  margin: 0 18px 4px;
+  padding: 13px 15px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--bg-raised);
+}
+
+.howto p { margin: 0 0 9px; font-size: 12px; line-height: 1.6; color: var(--text-dim); }
+.howto p:last-child { margin-bottom: 0; }
+.howto b { color: var(--text); font-weight: 620; }
+
+/* The opening sentence, set brighter than the points it introduces: it is the
+   one line that has to land before anything else makes sense. */
+.howto__lede {
+  margin: 0 0 12px;
+  padding-bottom: 11px;
+  border-bottom: 1px solid var(--line);
+  font-size: 12.5px;
+  line-height: 1.6;
+  color: var(--text);
+}
+
+/* Each point is a symbol and a sentence. The symbol column is a fixed width so
+   the sentences share a left edge and the block reads as a list rather than as
+   three paragraphs that happen to start with pictures. */
+.howto__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 11px;
+}
+
+.howto__list li {
+  display: grid;
+  grid-template-columns: 44px 1fr;
+  align-items: start;
+  gap: 12px;
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--text-dim);
+}
+
+.howto__cue {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-height: 19px;
+  padding-top: 1px;
+}
+
+.howto__cue .lgmark { width: 16px; height: 16px; }
+
+/* The same opacity the court gives a defending player, so the swatch and the
+   thing it explains are one number apart, not two. */
+.howto__dot--muted { opacity: 0.42; }
+
+.howto__line { margin-right: 0; }
+
+/* --- how good is this model ---------------------------------------------- */
+
+/* The null result, set as the first thing in the panel and given a border so it
+   reads as the headline rather than as preamble to the numbers below it. */
+.verdict {
+  padding: 13px 15px;
+  border: 1px solid var(--line);
+  border-left: 2px solid var(--celtics);
+  border-radius: var(--radius-sm);
+  background: var(--bg-raised);
+}
+
+.verdict__tag {
+  font-size: 10px;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+  color: var(--text-faint);
+}
+
+.verdict__q {
+  margin: 7px 0 9px;
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: var(--text);
+  font-weight: 600;
+}
+
+.verdict__a {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.65;
+  color: var(--text-dim);
+}
+
+.verdict__a b { color: var(--text); font-weight: 620; }
+
+/* The exact figures, kept but demoted. A casual reader gets the answer from the
+   paragraph above and never has to parse a decimal; a committee member who
+   wants the interval finds it in the same place every time. */
+.verdict__fine {
+  margin: 9px 0 0;
+  padding-top: 9px;
+  border-top: 1px solid var(--line);
+  font-size: 11px;
+  line-height: 1.6;
+  color: var(--text-faint);
+  font-variant-numeric: tabular-nums;
+}
+
+.mq__h {
+  margin: 18px 0 7px;
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  font-weight: 600;
+}
+
+.mq__p {
+  margin: 0 0 13px;
+  font-size: 12px;
+  line-height: 1.65;
+  color: var(--text-dim);
+}
+
+.mq__p b { color: var(--text); font-weight: 620; }
+
+/* The scale runs 0 (perfect) to the base-rate score, so a reader can see where
+   0.163 falls without being told whether it is a big number. The two markers
+   land 0.0011 apart and therefore overlap; that is deliberate and captioned,
+   because the overlap is the paper's headline finding drawn to scale. */
+.mqscale {
+  padding: 13px 15px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--bg-raised);
+}
+
+.mqscale__track {
+  position: relative;
+  height: 8px;
+  border-radius: 999px;
+  background: linear-gradient(
+    90deg,
+    rgba(20, 224, 122, 0.42),
+    rgba(20, 224, 122, 0.06) 62%,
+    var(--line) 100%
+  );
+}
+
+.mqscale__mark {
+  position: absolute;
+  width: 3px;
+  border-radius: 2px;
+  transform: translateX(-50%);
+}
+
+/* The two marks land about half a percent of the track apart, so they collide.
+   That collision is the finding and is kept, but the generic mark is drawn
+   taller than ours and underneath it, so a sliver shows above and below and the
+   reader can see there are genuinely two of them rather than one. */
+.mqscale__mark--generic {
+  top: -7px;
+  height: 22px;
+  background: var(--text-dim);
+  z-index: 1;
+}
+
+.mqscale__mark--ours {
+  top: -4px;
+  height: 16px;
+  background: var(--celtics);
+  z-index: 2;
+}
+
+.mqscale__ends {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 9px;
+  font-size: 10.5px;
+  color: var(--text-faint);
+  font-variant-numeric: tabular-nums;
+}
+
+.mqscale__cap {
+  margin: 10px 0 0;
+  padding-top: 9px;
+  border-top: 1px solid var(--line);
+  font-size: 11.5px;
+  line-height: 1.6;
+  color: var(--text-dim);
+}
+
+.mqscale__key {
+  display: inline-block;
+  width: 3px;
+  height: 11px;
+  border-radius: 2px;
+  margin: 0 6px 0 0;
+  vertical-align: -1px;
+}
+
+.mqscale__key--ours { background: var(--celtics); }
+.mqscale__key--generic { background: var(--text-dim); margin-left: 14px; }
+
+/* --- the event ribbon ---------------------------------------------------- */
+
+.eribbon {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin: 6px 18px 0;
+  padding: 12px 16px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--bg-raised);
+}
+
+.eribbon__clock {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  flex: none;
+  font-family: var(--mono);
+  font-size: 12.5px;
+  color: var(--text-dim);
+  font-variant-numeric: tabular-nums;
+}
+
+.eribbon__dot {
+  width: 11px;
+  height: 11px;
+  border-radius: 999px;
+  border: 1.5px solid var(--text-faint);
+}
+
+.eribbon__play {
+  flex: 0 1 auto;
+  min-width: 0;
+  font-size: 15px;
+  font-weight: 620;
+  color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.eribbon__dash { color: var(--text-faint); font-weight: 400; }
+.eribbon__what { font-weight: 500; color: var(--text-dim); }
+
+.eribbon__score {
+  flex: none;
+  font-size: 13.5px;
+  color: var(--text-faint);
+  font-variant-numeric: tabular-nums;
+}
+
+.eribbon__score em { font-style: normal; font-weight: 600; }
+.eribbon__score .is-bos { color: var(--celtics); }
+.eribbon__score b { color: var(--text); font-weight: 620; }
+
+.eribbon__wp {
+  flex: none;
+  margin-left: auto;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.eribbon__wplabel { font-size: 11.5px; color: var(--text-faint); }
+
+.eribbon__wpval {
+  font-size: 21px;
+  font-weight: 700;
+  color: var(--celtics);
+  font-variant-numeric: tabular-nums;
+}
+
+.eribbon__delta { font-size: 14px; font-weight: 620; font-variant-numeric: tabular-nums; }
+.eribbon__delta--up { color: var(--celtics); }
+.eribbon__delta--down { color: #e07a7a; }
+.eribbon__delta--flat { color: var(--text-faint); }
+
+/* --- court and card ------------------------------------------------------ */
+
+.playpanel__main {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 320px;
+  gap: 16px;
+  padding: 14px 18px 4px;
+  align-items: start;
+}
+
+@media (max-width: 1240px) {
+  .playpanel__main { grid-template-columns: minmax(0, 1fr); }
+}
+
+.playpanel__court {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: #0a0e13;
+  padding: 10px;
+}
+
+.playcard {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--bg-raised);
+  padding: 16px 17px;
+}
+
+.playcard__eyebrow {
+  font-size: 11px;
+  font-weight: 650;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--celtics);
+}
+
+.playcard__name {
+  margin: 9px 0 15px;
+  font-size: 21px;
+  font-weight: 660;
+  line-height: 1.2;
+  color: var(--text);
+}
+
+.playcard__jersey { color: var(--text-faint); font-weight: 500; }
+
+.playcard__rows { margin: 0; }
+
+.playcard__row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 11px 0;
+  border-bottom: 1px solid var(--line-soft);
+}
+
+.playcard__row:first-child { border-top: 1px solid var(--line-soft); }
+
+.playcard__row dt { font-size: 12.5px; color: var(--text-dim); }
+
+.playcard__row dd {
+  margin: 0;
+  font-size: 13.5px;
+  font-weight: 620;
+  color: var(--text);
+  text-align: right;
+}
+
+.playcard__row dd.is-ok { color: var(--celtics); }
+.playcard__row dd.is-warn { color: #7ab2ff; }
+.playcard__row dd.is-none { color: var(--text-faint); font-weight: 500; }
+.playcard__row dd.is-dim { color: var(--text-faint); font-weight: 500; }
+
+.playcard__feed {
+  margin: 13px 0 0;
+  font-size: 11.5px;
+  line-height: 1.5;
+  color: var(--text-faint);
+  font-family: var(--mono);
+}
+
+.playcard__note {
+  display: flex;
+  gap: 9px;
+  margin-top: 14px;
+  padding: 12px 13px;
+  border: 1px solid rgba(20, 224, 122, 0.22);
+  border-radius: var(--radius-sm);
+  background: rgba(20, 224, 122, 0.05);
+  color: var(--celtics);
+}
+
+.playcard__note p {
+  margin: 0;
+  font-size: 11.5px;
+  line-height: 1.55;
+  color: #9fd8bb;
+}
+
+/* --- the one control bar -------------------------------------------------- */
+
+.bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 12px 18px 0;
+  padding: 12px 15px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--bg-raised);
+}
+
+.bar__step {
+  width: 38px;
+  height: 38px;
+  border-radius: 9px;
+  border: 1px solid var(--line);
+  background: var(--bg-panel);
+  color: var(--text-dim);
+  font-size: 13px;
+  display: grid;
+  place-items: center;
+}
+
+.bar__step:hover { background: var(--bg-hover); color: var(--text); }
+
+.bar__play {
+  width: 46px;
+  height: 46px;
+  border-radius: 999px;
+  border: 1.5px solid rgba(20, 224, 122, 0.55);
+  background: rgba(20, 224, 122, 0.12);
+  color: var(--celtics);
+  font-size: 15px;
+  display: grid;
+  place-items: center;
+}
+
+.bar__play:hover { background: rgba(20, 224, 122, 0.2); }
+
+.seg--speed { margin-left: 4px; }
+
+.bar__track { flex: 1; min-width: 0; }
+
+.bar__read {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--text-dim);
+  font-variant-numeric: tabular-nums;
+  margin-bottom: 5px;
+}
+
+.bar__count { color: var(--text-faint); font-size: 11px; }
+
+/* --- collapsed legend and filters ---------------------------------------- */
+
+.drawer { margin: 12px 18px 16px; }
+
+.drawer__toggle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 12px 15px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--bg-raised);
+  color: var(--text-dim);
+  font-size: 12.5px;
+}
+
+.drawer__toggle:hover { background: var(--bg-hover); }
+
+.drawer__caret { transition: transform 0.18s; display: inline-block; }
+.drawer__caret--on { transform: rotate(180deg); }
+
+.drawer__body {
+  margin-top: 10px;
+  padding: 15px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--bg-raised);
+}
+
+.drawer__legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px 22px;
+  font-size: 11.5px;
+  color: var(--text-dim);
+}
+
+.drawer__legend span { display: inline-flex; align-items: center; gap: 8px; }
+
+.drawer__hint { width: 100%; margin: 0 0 4px; }
+
+/* The court keeps its TRUE proportions. A half court is 50ft by 47ft, so it is
+   very nearly square and cannot be squashed into a wide-and-short rectangle
+   without moving every shot marker off its recorded coordinate. Widening the
+   drawing and cropping the empty far end is the only lever that does not lie
+   about the data. */
+.playpanel__court .courtwrap { max-width: 640px; }
+
+/* --- schematic slots ------------------------------------------------------ */
+
+.slot circle {
+  fill: #131a22;
+  stroke: #3c4653;
+  stroke-width: 2;
+}
+
+.slot text {
+  fill: #93a0ae;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: ui-monospace, monospace;
+}
+
+.slot text.slot__name {
+  font-size: 12.5px;
+  font-weight: 500;
+  font-family: var(--sans);
+  paint-order: stroke;
+  stroke: #0a0e13;
+  stroke-width: 3.5px;
+  stroke-linejoin: round;
+}
+
+/* Colour is the team, never the possession. */
+.slot--bos circle { stroke: #2f8f60; fill: rgba(20, 224, 122, 0.07); }
+.slot--bos text   { fill: #7fd6a6; }
+.slot--opp circle { stroke: #4a5666; fill: #141a21; }
+.slot--opp text   { fill: #96a2b1; }
+
+/* Involved in this play. A ring, not a move. */
+.slot--lit circle { stroke: #ffffff; stroke-width: 3.2; }
+.slot--lit text { fill: #ffffff; }
+
+.slot__photo { opacity: 0.88; pointer-events: none; }
+.slot--lit .slot__photo { opacity: 1; }
+
+/* With a photo in the circle the ring is the only thing carrying the team, so
+   it does more work than it did behind a number. */
+.slot--bos circle { stroke-width: 2.6; }
+.slot--opp circle { stroke-width: 2.6; }
+
+/* --- the recorded shot ---------------------------------------------------- */
+
+.shotspot { fill: #14e07a; }
+.shotspot--miss line { stroke: var(--opponent); stroke-width: 4.6; fill: none; stroke-linecap: round; }
+.ball { fill: #ffffff; stroke: #14e07a; stroke-width: 2; }
+
+/* A free throw: the line is known from the rulebook, not recorded. */
+.shot--rule .shotspot { fill: #7ab2ff; }
+.shot--rule .shotspot--miss line { stroke: #7ab2ff; }
+.shot--rule .ball { stroke: #7ab2ff; }
+
+/* Faded earlier markers, only in Recent shots. */
+.past--made { fill: #14e07a; opacity: 0.28; }
+.past--missed line { stroke: var(--opponent); stroke-width: 3; opacity: 0.3; }
+
+/* --- the schematic link --------------------------------------------------- */
+
+.schematiclink line {
+  stroke: #6b7784;
+  stroke-width: 2;
+  stroke-dasharray: 2 6;
+  stroke-linecap: round;
+}
+
+.schematiclink text {
+  fill: #8c99a7;
+  font-size: 11px;
+  font-family: var(--sans);
+  paint-order: stroke;
+  stroke: #0a0e13;
+  stroke-width: 3px;
+  stroke-linejoin: round;
+}
+
+/* --- legend swatches ------------------------------------------------------ */
+
+.lg {
+  width: 13px;
+  height: 13px;
+  flex: none;
+  border-radius: 999px;
+  display: inline-block;
+}
+
+.lg--made { background: #14e07a; }
+.lg--missed { background: none; border-radius: 0; border-top: 3px solid var(--opponent); transform: rotate(45deg); height: 0; }
+.lg--bos { background: rgba(20, 224, 122, 0.07); border: 2px solid #2f8f60; }
+.lg--opp { background: #141a21; border: 2px solid #4a5666; }
+.lg--lit { background: #131a22; border: 2px solid #ffffff; }
+.lg--link { border-radius: 0; height: 0; border-top: 2px dashed #6b7784; }
+
+/* --- shot filters --------------------------------------------------------- */
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.drawer__filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 16px;
+  margin-top: 14px;
+  padding-top: 13px;
+  border-top: 1px solid var(--line-soft);
+}
+
+.filters__group { display: flex; align-items: center; gap: 5px; }
+
+.filters__label {
+  font-size: 10.5px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #737f8c;
+  margin-right: 2px;
+}
+
+/* ------------------------------------------------ live play reconstruction
+   The 2026-07-31 layout: chart on top, court and play card side by side
+   underneath, one control bar, one sidebar. Everything moves off a single
+   cursor, so nothing on screen can disagree with anything else.          */
+
+.chart__now {
+  font-family: var(--mono);
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--celtics);
+  padding: 4px 11px;
+  border-radius: 999px;
+  border: 1px solid rgba(20, 224, 122, 0.35);
+  background: rgba(20, 224, 122, 0.1);
+  font-variant-numeric: tabular-nums;
+}
+
+.playpanel__main {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 400px;
+  gap: 16px;
+  padding: 14px 18px 4px;
+  align-items: start;
+}
+
+@media (max-width: 1280px) {
+  .playpanel__main { grid-template-columns: minmax(0, 1fr); }
+}
+
+.playpanel__left { min-width: 0; }
+
+.clegend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  margin-top: 12px;
+  font-size: 11.5px;
+  color: var(--text-dim);
+}
+
+.clegend span { display: inline-flex; align-items: center; gap: 8px; }
+
+.disclosure {
+  display: flex;
+  align-items: flex-start;
+  gap: 9px;
+  margin: 11px 0 0;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--bg-raised);
+  font-size: 11.5px;
+  line-height: 1.5;
+  color: var(--text-faint);
+}
+
+.disclosure__mark {
+  display: inline-grid;
+  place-items: center;
+  width: 15px;
+  height: 15px;
+  flex: none;
+  margin-top: 1px;
+  border-radius: 999px;
+  border: 1px solid currentColor;
+  font-size: 9.5px;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 1;
+}
+
+/* --- the current play card ------------------------------------------------ */
+
+.playcard__who {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  margin: 11px 0 13px;
+}
+
+.face {
+  width: 52px;
+  height: 52px;
+  flex: none;
+  border-radius: 999px;
+  object-fit: cover;
+  object-position: top center;
+  background: #131a22;
+  border: 2px solid #2f8f60;
+}
+
+.face--fallback {
+  display: grid;
+  place-items: center;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-faint);
+  border-color: var(--line);
+}
+
+.face--empty { border-color: var(--line); }
+
+.playcard__whotext { min-width: 0; }
+
+.playcard__name {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 660;
+  line-height: 1.25;
+  color: var(--text);
+}
+
+.playcard__what { font-weight: 500; color: var(--text-dim); }
+
+.playcard__assist {
+  margin: 4px 0 0;
+  font-size: 12.5px;
+  color: var(--text-dim);
+}
+
+.playcard__assist b { color: var(--celtics); font-weight: 600; }
+.playcard__assist .is-dim { color: var(--text-faint); }
+
+.playcard__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-bottom: 14px;
+}
+
+.chipflat {
+  padding: 4px 10px;
+  border-radius: 6px;
+  border: 1px solid var(--line);
+  background: var(--bg-panel);
+  font-family: var(--mono);
+  font-size: 11.5px;
+  color: var(--text-dim);
+  font-variant-numeric: tabular-nums;
+}
+
+/* --- the small chart ------------------------------------------------------ */
+
+.mini {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--bg-panel);
+  padding: 11px 12px 6px;
+}
+
+.mini__head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 4px;
+}
+
+.mini__title {
+  font-size: 10.5px;
+  font-weight: 620;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+
+.mini__scope { font-size: 10.5px; color: var(--text-faint); }
+
+.mini__svg { width: 100%; height: auto; display: block; }
+
+.mini__grid { stroke: #1c242e; stroke-width: 1; }
+.mini__mid { stroke: #2a3644; stroke-width: 1; stroke-dasharray: 4 5; }
+.mini__axis { fill: #5d6875; font-size: 9px; font-family: var(--mono); }
+.mini__area { fill: rgba(20, 224, 122, 0.13); }
+.mini__line { fill: none; stroke: #14e07a; stroke-width: 2; stroke-linejoin: round; }
+.mini__cursor { stroke: #e6edf5; stroke-width: 1.4; opacity: 0.55; }
+
+.mini__step { stroke-width: 3; stroke-linecap: round; }
+.mini__step--up { stroke: #14e07a; }
+.mini__step--down { stroke: #e07a7a; }
+.mini__step--flat { stroke: #8d99a8; }
+
+.mini__before { fill: #0d1117; stroke: #8d99a8; stroke-width: 2; }
+.mini__after { fill: #14e07a; stroke: #0d1117; stroke-width: 2; }
+
+/* --- before / after / change ---------------------------------------------- */
+
+.deltas {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  margin: 12px 0 14px;
+}
+
+.delta {
+  padding: 10px 11px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--bg-panel);
+  text-align: center;
+}
+
+.delta__label {
+  font-size: 10px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  margin-bottom: 5px;
+}
+
+.delta__value {
+  font-family: var(--mono);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+
+.delta--up { border-color: rgba(20, 224, 122, 0.4); }
+.delta--up .delta__value { color: var(--celtics); }
+.delta--down { border-color: rgba(224, 122, 122, 0.4); }
+.delta--down .delta__value { color: #e07a7a; }
+.delta--flat .delta__value { color: var(--text-dim); }
+
+/* --- the control bar ------------------------------------------------------ */
+
+.bar__wide {
+  padding: 9px 16px;
+  border-radius: 9px;
+  border: 1px solid var(--line);
+  background: var(--bg-panel);
+  color: var(--text-dim);
+  font-size: 12.5px;
+  white-space: nowrap;
+}
+
+.bar__wide:hover { background: var(--bg-hover); color: var(--text); }
+
+.bar__wide--play {
+  border-color: rgba(20, 224, 122, 0.5);
+  background: rgba(20, 224, 122, 0.12);
+  color: var(--celtics);
+  font-weight: 600;
+  min-width: 108px;
+}
+
+.bar__wide--play:hover { background: rgba(20, 224, 122, 0.2); }
+.bar__wide--play.is-playing { background: rgba(20, 224, 122, 0.24); }
+
+.bar__speed { display: flex; align-items: center; gap: 9px; }
+
+.bar__speedlabel { font-size: 11.5px; color: var(--text-faint); }
+
+/* --- the sidebar ---------------------------------------------------------- */
+
+.sidetabs__head {
+  display: flex;
+  gap: 2px;
+  padding: 6px 8px 0;
+  border-bottom: 1px solid var(--line-soft);
+}
+
+.sidetabs__tab {
+  padding: 10px 16px;
+  font-size: 12px;
+  font-weight: 620;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+}
+
+.sidetabs__tab:hover { color: var(--text-dim); }
+
+.sidetabs__tab--on {
+  color: var(--celtics);
+  border-bottom-color: var(--celtics);
+}
+
+.panel__head--bare { border-bottom: none; padding-bottom: 0; }
+
+/* --- possession emphasis --------------------------------------------------
+   Team colour is identity and never changes. Emphasis is possession, which
+   the feed records. Neither claims anything about where a player stood.   */
+
+.slot--guarding circle { opacity: 0.42; }
+.slot--guarding text { opacity: 0.55; }
+.slot--guarding .slot__photo { opacity: 0.4; filter: saturate(0.5); }
+
+.slot--attacking circle { opacity: 1; }
+.slot--attacking .slot__photo { opacity: 0.95; }
+
+/* Involved in the play beats both. */
+.slot--lit circle,
+.slot--lit text,
+.slot--lit .slot__photo { opacity: 1; filter: none; }
+
+.bar__track .scrub { width: 100%; display: block; margin: 0 0 5px; }
+.bar__track .bar__read { margin: 0; }
+
+/* --- legend swatches drawn from the court's own geometry ------------------ */
+
+.lgmark {
+  width: 15px;
+  height: 15px;
+  flex: none;
+  overflow: visible;
+}
+
+/* --- the movement sentence ------------------------------------------------ */
+
+.movement {
+  margin: 12px 0 10px;
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--line);
+  background: var(--bg-panel);
+  font-size: 12.5px;
+  line-height: 1.55;
+  color: var(--text-dim);
+  font-variant-numeric: tabular-nums;
+}
+
+.movement b { color: var(--text); font-weight: 650; }
+.movement__arrow, .movement__dash { color: var(--text-faint); }
+
+.movement--up { border-color: rgba(20, 224, 122, 0.35); }
+.movement--up b:last-of-type { color: var(--celtics); }
+.movement--down { border-color: rgba(224, 122, 122, 0.35); }
+.movement--down b:last-of-type { color: #e07a7a; }
+.movement--flat b:last-of-type { color: var(--text-dim); }
+
+.delta__unit {
+  margin-top: 3px;
+  font-size: 9.5px;
+  letter-spacing: 0.04em;
+  color: var(--text-faint);
+}
+
+.delta--flat { border-color: var(--line); }
+
+/* --- tighter around the court and the card -------------------------------- */
+
+.playpanel__head { padding: 12px 16px; }
+.playpanel__main { padding: 10px 16px 2px; gap: 14px; }
+.playpanel__court { padding: 6px; }
+.playcard { padding: 14px 15px; }
+.clegend { margin-top: 9px; gap: 7px 16px; }
+.disclosure { margin-top: 9px; padding: 8px 11px; }
+.bar { margin: 10px 16px 0; padding: 10px 13px; }
+.drawer { margin: 10px 16px 14px; }
+.deltas { margin: 10px 0 12px; }
+.mini { padding: 10px 11px 4px; }
+.playcard__who { margin: 9px 0 11px; }
+.playcard__chips { margin-bottom: 11px; }
+
+/* --- collapsed sections --------------------------------------------------- */
+
+.fold__toggle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 13px 16px;
+  background: none;
+  color: var(--text-dim);
+  font-size: 12px;
+  font-weight: 620;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+}
+
+.fold__toggle:hover { color: var(--text); }
+
+.fold__caret {
+  margin-left: auto;
+  transition: transform 0.18s;
+  display: inline-block;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.fold__caret--on { transform: rotate(180deg); }
+
+.fold__hint {
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--text-faint);
+}
+
+.panel .panel {
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  border-radius: 0;
+}
+
+.panel .panel .panel__head { padding-top: 0; }
+
+/* --- what the feed did and did not record -------------------------------- */
+
+.playcard__cause { color: var(--text-dim); font-weight: 500; }
+
+/* Stated, not hidden. When the feed does not name the fouled player, or a
+   rebound's counters cannot be separated, the panel says so where the detail
+   would have gone. */
+.playcard__unknown {
+  margin: 5px 0 0;
+  font-size: 11.5px;
+  color: var(--text-faint);
+  font-style: italic;
+}
+
+/* ------------------------------------------------------ points as they run */
+
+.scoring {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+@media (max-width: 900px) {
+  .scoring { grid-template-columns: minmax(0, 1fr); }
+}
+
+.scorecol {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--bg-raised);
+  padding: 12px 13px;
+}
+
+.scorecol__head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-bottom: 9px;
+  border-bottom: 1px solid var(--line-soft);
+}
+
+.scorecol__team {
+  font-size: 12px;
+  font-weight: 650;
+  letter-spacing: 0.1em;
+  color: var(--text-dim);
+}
+
+.scorecol--bos .scorecol__team { color: var(--celtics); }
+
+.scorecol__total {
+  font-family: var(--mono);
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+
+.scorecol--bos .scorecol__total { color: var(--celtics); }
+
+.scorecol__list { list-style: none; margin: 8px 0 0; padding: 0; }
+
+.scorerow {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 84px 46px;
+  align-items: center;
+  gap: 10px;
+  padding: 4px 0;
+}
+
+.scorerow__name {
+  font-size: 12.5px;
+  color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.scorerow__num { color: var(--text-faint); font-size: 11px; }
+
+/* Zero is shown, not hidden. A live boxscore that drops scoreless players
+   reads as though they are not in the game. */
+.scorerow--zero .scorerow__name { color: var(--text-faint); }
+
+/* On the floor at this moment, from the reconstructed substitution log. */
+.scorerow--oncourt .scorerow__name { font-weight: 620; }
+.scorerow--oncourt .scorerow__name::before {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  margin-right: 7px;
+  border-radius: 999px;
+  background: currentColor;
+  vertical-align: middle;
+  opacity: 0.75;
+}
+
+.scorerow__bar {
+  height: 6px;
+  border-radius: 999px;
+  background: #131a22;
+  overflow: hidden;
+}
+
+.scorerow__fill {
+  display: block;
+  height: 100%;
+  border-radius: 999px;
+  background: #3c4653;
+  transition: width 0.25s ease-out;
+}
+
+.scorecol--bos .scorerow__fill { background: var(--celtics); }
+.scorecol--opp .scorerow__fill { background: var(--opponent); }
+
+.scorerow__pts {
+  font-family: var(--mono);
+  font-size: 13px;
+  font-weight: 620;
+  color: var(--text);
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  position: relative;
+}
+
+.scorerow--zero .scorerow__pts { color: var(--text-faint); font-weight: 400; }
+
+.scorerow__plus {
+  position: absolute;
+  right: -2px;
+  top: -13px;
+  font-size: 10.5px;
+  font-weight: 700;
+  color: var(--celtics);
+}
+
+.scorecol--opp .scorerow__plus { color: var(--opponent); }
+
+.scorerow--scored .scorerow__pts { color: #ffffff; }
+
+.scorecol__foot {
+  margin: 10px 0 0;
+  padding-top: 9px;
+  border-top: 1px solid var(--line-soft);
+  font-size: 11px;
+  color: var(--text-faint);
+}
+
+.scorecol__foot .is-ok { color: var(--celtics); }
+.scorecol__foot .is-warn { color: var(--warn); }
+
+/* ------------------------------------------------- the compact live box ---
+   Beside the court, not below the fold. */
+
+/* Card and live box stacked in the one right-hand column. */
+.playpanel__right { display: grid; gap: 12px; align-content: start; min-width: 0; }
+
+.oncourt {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--bg-raised);
+  padding: 11px 12px;
+}
+
+.oncourt__head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.oncourt__title {
+  font-size: 10.5px;
+  font-weight: 650;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+
+.oncourt__scope { font-size: 10.5px; color: var(--text-faint); }
+
+.oncourt__side + .oncourt__side { margin-top: 10px; }
+
+.oncourt__team {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--line-soft);
+  font-size: 11px;
+  font-weight: 650;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+}
+
+.oncourt__side.is-bos .oncourt__team > span:first-child { color: var(--celtics); }
+.oncourt__side.is-opp .oncourt__team > span:first-child { color: var(--opponent); }
+
+.oncourt__cols { display: flex; gap: 14px; }
+.oncourt__cols b { color: var(--text-faint); font-weight: 600; font-size: 9.5px; }
+
+.ocrow {
+  display: grid;
+  grid-template-columns: 26px minmax(0, 1fr) 30px 30px;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 4px;
+  border-radius: 6px;
+}
+
+/* The player this event was about. Same white ring the court uses. */
+.ocrow--involved {
+  background: rgba(230, 237, 245, 0.07);
+  box-shadow: inset 0 0 0 1px rgba(230, 237, 245, 0.35);
+}
+
+.ocface {
+  width: 26px;
+  height: 26px;
+  border-radius: 999px;
+  object-fit: cover;
+  object-position: top center;
+  background: #131a22;
+  border: 1px solid var(--line);
+}
+
+.ocface--fallback {
+  display: grid;
+  place-items: center;
+  font-size: 9px;
+  font-weight: 700;
+  color: var(--text-faint);
+}
+
+.ocrow__name {
+  font-size: 11.5px;
+  color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ocrow__num { color: var(--text-faint); font-size: 10px; }
+
+.ocrow__stat {
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 620;
+  color: var(--text);
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  position: relative;
+}
+
+.ocrow__stat--dim { color: var(--text-dim); font-weight: 500; }
+
+.ocrow__plus {
+  position: absolute;
+  right: 0;
+  top: -11px;
+  font-size: 9.5px;
+  font-style: normal;
+  font-weight: 700;
+  color: var(--celtics);
+}
+
+.oncourt__empty, .oncourt__foot {
+  margin: 8px 0 0;
+  font-size: 10.5px;
+  line-height: 1.5;
+  color: var(--text-faint);
+}
+
+.oncourt__foot { padding-top: 8px; border-top: 1px solid var(--line-soft); }
+
+/* --- the completed game --------------------------------------------------- */
+
+.finalstate {
+  margin: 10px 0 4px;
+  padding: 12px 13px;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(20, 224, 122, 0.4);
+  background: rgba(20, 224, 122, 0.08);
+}
+
+.finalstate--tie { border-color: rgba(255, 95, 86, 0.45); background: rgba(255, 95, 86, 0.08); }
+
+.finalstate__head {
+  font-family: var(--mono);
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--celtics);
+  font-variant-numeric: tabular-nums;
+}
+
+.finalstate--tie .finalstate__head { color: var(--warn); }
+
+.finalstate__sub {
+  margin-top: 5px;
+  font-size: 13px;
+  font-weight: 620;
+  color: var(--text);
+}
+
+/* "End of 1st OT" is context, not the status, so it is the quietest line. */
+.finalstate__meta {
+  margin-top: 6px;
+  font-size: 10.5px;
+  color: var(--text-faint);
+}
+
+.finalstate__warn { color: var(--warn); }
+
+/* ==========================================================================
+   The live layout, 2026-07-31.
+
+   The problem this solves: at 100% zoom on a 1440-wide laptop the full-height
+   research chart used most of the viewport on its own and the reconstruction
+   started below the fold. Watching the probability move and watching the play
+   were mutually exclusive unless you zoomed out.
+
+   Now the scoreboard, court, compact chart, current play, the ten running
+   totals and the controls all sit above the fold. The research chart is not
+   gone; it is the first folded panel underneath.
+   ========================================================================== */
+
+.shell { padding: 14px 20px 40px; }
+
+/* --- a shorter header ----------------------------------------------------- */
+
+.topbar { padding-bottom: 10px; margin-bottom: 12px; }
+.brand__mark { width: 32px; height: 32px; border-radius: 9px; }
+.brand__title { font-size: 15px; }
+.brand__sub { font-size: 10.5px; }
+
+/* --- a shorter scoreboard ------------------------------------------------- */
+
+.ribbon { padding: 10px 20px; margin-bottom: 12px; gap: 18px; }
+.ribbon__logo { width: 38px; height: 38px; }
+.ribbon__abbr { font-size: 19px; }
+.ribbon__meta { font-size: 10.5px; margin-top: 2px; }
+.ribbon__score { font-size: 30px; letter-spacing: -1px; }
+.ribbon__clock { font-size: 17px; }
+.ribbon__period { font-size: 10px; margin-top: 1px; }
+.ribbon__wp { margin-top: 5px; font-size: 22px; }
+.ribbon__wplabel { font-size: 9.5px; }
+
+/* --- the live section ----------------------------------------------------- */
+
+.live { display: flex; flex-direction: column; }
+
+.live__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 9px 14px;
+  border-bottom: 1px solid var(--line-soft);
+}
+
+.live__grid {
+  display: grid;
+  grid-template-columns: 65fr 35fr;
+  gap: 12px;
+  padding: 10px 14px 0;
+  align-items: start;
+  min-height: 0;
+}
+
+@media (max-width: 1180px) {
+  .live__grid { grid-template-columns: minmax(0, 1fr); }
+}
+
+.live__court, .live__rail { min-width: 0; }
+
+.live__rail { display: grid; gap: 9px; align-content: start; }
+
+.live__courthead {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.live__label {
+  font-size: 10.5px;
+  font-weight: 650;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+
+.live__chip {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--text-dim);
+  padding: 3px 9px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-variant-numeric: tabular-nums;
+}
+
+/* The court is capped by HEIGHT here, not width. Its true proportions are
+   preserved; what changes is how much of the viewport it is allowed. */
+.live__court .courtwrap { max-width: none; }
+.live__court .court { max-height: 46vh; width: 100%; height: auto; }
+
+.railcard {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--bg-raised);
+  padding: 9px 10px;
+}
+
+.railcard__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 4px;
+}
+
+.railcard__legend {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-size: 10px;
+  color: var(--text-dim);
+}
+
+.swatch--line {
+  width: 14px;
+  height: 2.5px;
+  border-radius: 2px;
+  background: var(--celtics);
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.microchip {
+  padding: 2px 7px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--bg-panel);
+  font-size: 10px;
+  color: var(--text-faint);
+}
+
+.microchip--on { border-color: rgba(20, 224, 122, 0.45); color: var(--celtics); }
+
+.railcard__now {
+  font-family: var(--mono);
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--celtics);
+  font-variant-numeric: tabular-nums;
+}
+
+/* --- the current play strip ----------------------------------------------- */
+
+.strip__count { font-family: var(--mono); font-size: 10.5px; color: var(--text-faint); }
+
+.strip__row {
+  display: grid;
+  grid-template-columns: minmax(0, 1.6fr) repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  align-items: center;
+}
+
+.strip__who { display: flex; align-items: center; gap: 8px; min-width: 0; }
+
+.stripface {
+  width: 30px;
+  height: 30px;
+  flex: none;
+  border-radius: 999px;
+  object-fit: cover;
+  object-position: top center;
+  background: #131a22;
+  border: 1px solid #2f8f60;
+}
+
+.stripface--fallback { border-color: var(--line); }
+
+.strip__name {
+  font-size: 12.5px;
+  font-weight: 640;
+  color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.strip__what {
+  font-size: 10.5px;
+  color: var(--text-dim);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.strip__cell { text-align: center; }
+
+.strip__celllabel {
+  font-size: 9px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+}
+
+.strip__cellvalue {
+  font-family: var(--mono);
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+
+.strip__cellvalue.is-dim { color: var(--text-faint); font-weight: 400; font-size: 11.5px; }
+.strip__cell.is-up .strip__cellvalue { color: var(--celtics); }
+.strip__cell.is-down .strip__cellvalue { color: #e07a7a; }
+.strip__cell.is-flat .strip__cellvalue { color: var(--text-dim); }
+.strip__cellnote { font-size: 8.5px; color: var(--text-faint); margin-top: 1px; }
+
+.strip__unknown {
+  margin: 6px 0 0;
+  font-size: 10.5px;
+  font-style: italic;
+  color: var(--text-faint);
+}
+
+.strip__feed {
+  margin: 5px 0 0;
+  font-family: var(--mono);
+  font-size: 10px;
+  line-height: 1.4;
+  color: var(--text-faint);
+}
+
+/* --- the live box, tightened for the rail --------------------------------- */
+
+.oncourt { padding: 9px 10px; }
+.ocrow { padding: 2px 4px; grid-template-columns: 22px minmax(0, 1fr) 28px 28px; gap: 7px; }
+.ocface { width: 22px; height: 22px; }
+.ocrow__name { font-size: 11px; }
+.ocrow__stat { font-size: 11.5px; }
+.oncourt__foot { display: none; }
+.oncourt__head { margin-bottom: 5px; }
+
+/* --- controls, directly under the court ----------------------------------- */
+
+.live .bar { margin: 10px 14px 12px; padding: 8px 12px; }
+.live .bar__wide { padding: 7px 13px; font-size: 12px; }
+.live .bar__read { font-size: 11px; margin-bottom: 0; }
+
+/* --- the folded stack ----------------------------------------------------- */
+
+.folds { display: grid; gap: 10px; margin-top: 12px; }
+.folds .fold__toggle { padding: 11px 15px; }
+
+.finalstate { margin: 6px 0 8px; padding: 9px 11px; }
+.finalstate__head { font-size: 13px; }
+.finalstate__sub { font-size: 12px; margin-top: 3px; }
+
+/* Two teams side by side in the rail. */
+.oncourt__pair {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.oncourt__side + .oncourt__side { margin-top: 0; }
+.oncourt__team { font-size: 10px; padding-bottom: 3px; }
+.oncourt__cols { gap: 9px; }
+.ocrow { grid-template-columns: 20px minmax(0, 1fr) 22px 22px; gap: 5px; padding: 1.5px 3px; }
+.ocface { width: 20px; height: 20px; }
+.ocrow__name { font-size: 10.5px; }
+.ocrow__num { display: none; }
+.ocrow__stat { font-size: 11px; }
+.ocrow__plus { top: -9px; font-size: 8.5px; }
+
+.ocrow--total {
+  margin-top: 3px;
+  padding-top: 4px;
+  border-top: 1px solid var(--line-soft);
+}
+
+.ocrow--total .ocrow__name {
+  font-size: 9px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+}
+
+/* Scoreboard, trimmed so the live section clears a 1440x900 laptop. */
+.ribbon { padding: 8px 20px; margin-bottom: 10px; }
+.ribbon__clock { font-size: 15px; }
+.ribbon__wp { margin-top: 3px; font-size: 21px; }
+
+.ribbon__period.is-final {
+  color: var(--celtics);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+}
+
+.ribbon__wplabel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 2px;
+}
+
+.ribbon__oof {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 1px 7px;
+  border-radius: 999px;
+  border: 1px solid rgba(20, 224, 122, 0.3);
+  color: var(--celtics);
+  background: rgba(20, 224, 122, 0.07);
+  letter-spacing: 0.04em;
+}
+
+.ribbon__oof .dot { width: 4px; height: 4px; }
+
+/* --- the settled final result --------------------------------------------- */
+
+/* Colour carries provenance on this page. Green is the model talking; at the
+   final event the number comes from the score columns instead, so it goes
+   neutral and the badge beside it stops claiming to be out of fold. A reader
+   who never notices the badge still sees that the last number is a different
+   kind of thing from the 543 before it. */
+.ribbon__wp--settled,
+.railcard__now--settled {
+  color: var(--text);
+}
+
+.ribbon__oof--settled {
+  border-color: rgba(232, 237, 243, 0.22);
+  color: var(--text-dim);
+  background: rgba(232, 237, 243, 0.05);
+}
+
+.ribbon__oof--settled .dot { background: var(--text-dim); }
+
+/* On a short laptop viewport the court yields first: the chart has to keep its
+   period labels legible, and the court is still the largest thing on screen. */
+.live__court .court { max-height: 44vh; }
+
+@media (min-height: 900px) {
+  .live__court .court { max-height: 48vh; }
+}
+
+/* ==========================================================================
+   Games and rosters, in a drawer.
+
+   They used to sit at the bottom of the page, so changing the game meant
+   scrolling away from the game. The dashboard stays mounted behind this and
+   playback pauses while it is open.
+   ========================================================================== */
+
+.drawerbtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 5px 13px 5px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(20, 224, 122, 0.4);
+  background: rgba(20, 224, 122, 0.1);
+  color: var(--celtics);
+  text-align: left;
+}
+
+.drawerbtn:hover { background: rgba(20, 224, 122, 0.18); }
+
+.drawerbtn__icon { font-size: 12px; opacity: 0.9; }
+.drawerbtn__text { display: grid; line-height: 1.25; }
+.drawerbtn__title { font-size: 11.5px; font-weight: 620; }
+
+.drawerbtn__ctx {
+  font-size: 10px;
+  color: var(--text-dim);
+  font-variant-numeric: tabular-nums;
+}
+
+.drawerbtn--compact { padding: 6px 13px; }
+
+/* --- the overlay ---------------------------------------------------------- */
+
+.drawerroot { position: fixed; inset: 0; z-index: 60; }
+
+/* The dashboard stays visible behind. Dimmed, not hidden. */
+.drawerroot__scrim {
+  position: absolute;
+  inset: 0;
+  background: rgba(4, 7, 10, 0.62);
+  backdrop-filter: blur(1.5px);
+}
+
+.drawerpanel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: min(560px, 94vw);
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-panel);
+  border-left: 1px solid var(--line);
+  box-shadow: -24px 0 60px -20px rgba(0, 0, 0, 0.85);
+  outline: none;
+  animation: drawerin 0.16s ease-out;
+}
+
+@keyframes drawerin {
+  from { transform: translateX(18px); opacity: 0.6; }
+  to   { transform: translateX(0); opacity: 1; }
+}
+
+/* Below 900px there is no room beside anything: full screen. */
+@media (max-width: 900px) {
+  .drawerpanel { width: 100vw; border-left: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .drawerpanel { animation: none; }
+}
+
+.drawerpanel__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 10px 0 14px;
+  border-bottom: 1px solid var(--line-soft);
+}
+
+.drawerpanel__tabs { display: flex; gap: 2px; }
+
+.drawertab {
+  padding: 12px 16px;
+  font-size: 12px;
+  font-weight: 620;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+}
+
+.drawertab:hover { color: var(--text-dim); }
+.drawertab--on { color: var(--celtics); border-bottom-color: var(--celtics); }
+
+.drawerclose {
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  background: var(--bg-raised);
+  color: var(--text-dim);
+  font-size: 12px;
+}
+
+.drawerclose:hover { background: var(--bg-hover); color: var(--text); }
+
+.drawerbody {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 14px;
+}
+
+.drawercontrols { display: flex; gap: 10px; align-items: flex-end; }
+
+.drawerfield { display: grid; gap: 4px; }
+.drawerfield--grow { flex: 1; min-width: 0; }
+
+.drawerfield > span {
+  font-size: 9.5px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+}
+
+.drawercount {
+  margin: 11px 0 7px;
+  font-size: 11px;
+  color: var(--text-faint);
+  font-variant-numeric: tabular-nums;
+}
+
+.drawerscroll {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  display: grid;
+  gap: 3px;
+  align-content: start;
+  padding-right: 4px;
+}
+
+.drawerfoot { margin: 10px 0 0; padding-top: 9px; border-top: 1px solid var(--line-soft); }
+
+.drawerempty { display: grid; gap: 12px; justify-items: start; padding: 18px 2px; }
+
+/* --- a game row ----------------------------------------------------------- */
+
+.gamerow {
+  display: grid;
+  grid-template-columns: 92px 26px minmax(0, 1fr) 20px 62px auto;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 10px;
+  border-radius: var(--radius-sm);
+  border: 1px solid transparent;
+  background: var(--bg-raised);
+  text-align: left;
+  width: 100%;
+}
+
+.gamerow:hover { background: var(--bg-hover); border-color: var(--line); }
+
+.gamerow--on {
+  border-color: rgba(20, 224, 122, 0.45);
+  background: rgba(20, 224, 122, 0.08);
+}
+
+.gamerow__date {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--text-dim);
+}
+
+.gamerow__logo { width: 24px; height: 24px; object-fit: contain; }
+
+.gamerow__team { display: grid; line-height: 1.25; min-width: 0; }
+.gamerow__team b { font-size: 12.5px; color: var(--text); font-weight: 620; }
+.gamerow__venue { font-size: 10px; color: var(--text-faint); }
+
+.gamerow__wl {
+  font-size: 11px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.gamerow__wl.is-w { color: var(--celtics); }
+.gamerow__wl.is-l { color: #e07a7a; }
+
+.gamerow__score {
+  font-family: var(--mono);
+  font-size: 12.5px;
+  color: var(--text);
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.gamerow__ot {
+  font-size: 9.5px;
+  font-weight: 700;
+  color: var(--opponent);
+  letter-spacing: 0.05em;
+}
+
+/* --- a comeback row ------------------------------------------------------
+   Same row furniture as .gamerow, re-columned so the deficit is the thing the
+   eye lands on. The list is ordered by that number, so it is the one that has
+   to be readable in a scan. ------------------------------------------------ */
+
+.cbrow {
+  display: grid;
+  grid-template-columns: 20px 62px 26px minmax(0, 1fr) 74px;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 10px;
+  border-radius: var(--radius-sm);
+  border: 1px solid transparent;
+  background: var(--bg-raised);
+  text-align: left;
+  width: 100%;
+}
+
+.cbrow:hover { background: var(--bg-hover); border-color: var(--line); }
+
+.cbrow--on {
+  border-color: rgba(20, 224, 122, 0.45);
+  background: rgba(20, 224, 122, 0.08);
+}
+
+.cbrow__rank {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--text-faint);
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+/* The number the list is ordered by, so it is the one that has to read at a
+   glance. Amber rather than red: it is a model estimate, and the red in this
+   interface belongs to things that actually happened. */
+.cbrow__low {
+  display: grid;
+  justify-items: center;
+  line-height: 1.05;
+  padding: 3px 0;
+  border-radius: var(--radius-sm);
+  background: rgba(224, 179, 122, 0.12);
+}
+
+.cbrow__low b {
+  font-family: var(--mono);
+  font-size: 13px;
+  font-weight: 700;
+  color: #e8bf9a;
+  font-variant-numeric: tabular-nums;
+}
+
+.cbrow__low small {
+  font-size: 8px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+}
+
+.cbrow__logo { width: 24px; height: 24px; object-fit: contain; }
+
+.cbrow__team { display: grid; line-height: 1.25; min-width: 0; }
+.cbrow__team b { font-size: 12.5px; color: var(--text); font-weight: 620; }
+
+.cbrow__when {
+  font-size: 10px;
+  color: var(--text-faint);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cbrow__score {
+  font-family: var(--mono);
+  font-size: 12.5px;
+  color: var(--celtics);
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.cbrow__score i {
+  font-style: normal;
+  font-size: 9.5px;
+  font-weight: 700;
+  color: var(--opponent);
+  letter-spacing: 0.05em;
+  margin-left: 4px;
+}
+
+/* --- a roster row --------------------------------------------------------- */
+
+.rosterrow {
+  display: grid;
+  grid-template-columns: 32px minmax(0, 1fr) 52px 46px 40px 46px;
+  align-items: center;
+  gap: 9px;
+  padding: 6px 10px;
+  border-radius: var(--radius-sm);
+  background: var(--bg-raised);
+}
+
+.rosterface {
+  width: 32px;
+  height: 32px;
+  border-radius: 999px;
+  object-fit: cover;
+  object-position: top center;
+  background: #131a22;
+  border: 1px solid var(--line);
+}
+
+.rosterface--fallback {
+  display: grid;
+  place-items: center;
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--text-faint);
+}
+
+.rosterrow__name {
+  font-size: 12.5px;
+  color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.rosterrow__st {
+  margin-left: 6px;
+  font-size: 8.5px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--celtics);
+  border: 1px solid rgba(20, 224, 122, 0.4);
+  border-radius: 4px;
+  padding: 1px 4px;
+}
+
+.rosterrow__meta {
+  font-size: 11px;
+  color: var(--text-dim);
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
+.rosterrow__min {
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 620;
+  color: var(--text);
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+/* --- the score, with its teams named -------------------------------------- */
+
+.strip__score .strip__cellvalue { line-height: 1.15; }
+
+.strip__teams {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 3px;
+}
+
+.strip__team {
+  display: grid;
+  justify-items: center;
+  gap: 1px;
+}
+
+.strip__logo {
+  width: 21px;
+  height: 21px;
+  object-fit: contain;
+  border-radius: 0;
+  border: none;
+  background: none;
+}
+
+.strip__team i {
+  font-style: normal;
+  font-size: 8.5px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--text-faint);
+}
+
+.strip__team.is-bos i { color: var(--celtics); }
+
+/* --- biggest swings, as chips under the court ----------------------------- */
+
+.swings {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 9px;
+}
+
+.swings__label {
+  font-size: 9.5px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  margin-right: 2px;
+}
+
+.swingchip {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+  padding: 3px 9px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--bg-raised);
+  font-family: var(--mono);
+  font-size: 10.5px;
+  font-variant-numeric: tabular-nums;
+}
+
+.swingchip i { font-style: normal; font-size: 9.5px; color: var(--text-faint); }
+.swingchip--bos { color: var(--celtics); }
+.swingchip--opp { color: #e07a7a; }
+.swingchip:hover { background: var(--bg-hover); border-color: #2a3644; }
+.swingchip--on { border-color: currentColor; background: rgba(230, 237, 245, 0.06); }
+
+/* --- reading this moment -------------------------------------------------- */
+
+.reading__row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.reading__cell { min-width: 0; }
+
+.reading__value {
+  display: grid;
+  gap: 1px;
+  font-size: 12.5px;
+  font-weight: 620;
+  color: var(--text);
+}
+
+.reading__value b { font-family: var(--mono); font-weight: 700; }
+.reading__value .is-bos { color: var(--celtics); }
+.reading__value .is-opp { color: var(--opponent); }
+.reading__value .is-dim { color: var(--text-faint); font-weight: 400; }
+
+.reading__sub {
+  font-style: normal;
+  font-size: 9.5px;
+  font-weight: 400;
+  color: var(--text-faint);
+  line-height: 1.35;
+}
+
+.reading__text {
+  margin: 8px 0 0;
+  font-size: 11.5px;
+  line-height: 1.5;
+  color: var(--text-dim);
+}
+
+.reading__caveat {
+  margin: 4px 0 0;
+  font-size: 9.5px;
+  line-height: 1.45;
+  color: var(--text-faint);
+  font-style: italic;
+}
+
+/* AST joins PTS and REB in the rail box. */
+.ocrow { grid-template-columns: 20px minmax(0, 1fr) 20px 20px 20px; gap: 4px; }
+.oncourt__cols { gap: 6px; }
+
+.reading { margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--line-soft); }
+.reading__text { margin-top: 6px; font-size: 11px; }
+.reading__caveat { margin-top: 3px; font-size: 9px; }
+.strip__feed { margin-top: 6px; }
+
+/* On a short viewport the court yields before anything else does. */
+@media (max-height: 850px) {
+  .live__court .court { max-height: 40vh; }
+  .swings { margin-top: 7px; }
+}
+
+/* The reading sits under the court with the swings, laid out across rather
+   than down: it has the width there that the rail does not. */
+.live__court .reading { margin-top: 8px; padding-top: 8px; }
+.live__court .reading__row { grid-template-columns: 150px 150px minmax(0, 1fr); align-items: start; }
+.live__court .reading__text { margin: 0; }
+.live__court .reading__caveat { margin-top: 3px; }
+.reading__why { grid-column: 3; }
+
+/* Final trim for short viewports. The court gives up height first, then the
+   compact chart; the reading and the live box keep theirs because they are the
+   interpretive content the fold exists to protect. */
+@media (max-height: 850px) {
+  .live__court .court { max-height: 34vh; }
+  .live__head { padding: 7px 14px; }
+  .live__grid { padding: 8px 14px 0; }
+  .live .bar { margin: 8px 14px 10px; }
+  .clegend { margin-top: 7px; }
+  .disclosure { margin-top: 7px; padding: 6px 10px; }
+  .reading__caveat { display: none; }
+  .reading__why .strip__celllabel::after {
+    content: " · states what changed, not what caused it";
+    text-transform: none;
+    letter-spacing: 0;
+    font-weight: 400;
+  }
+}
+
+/* The clock, with the score. White, because it is a headline fact and not a
+   caption. */
+.strip__clock {
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 620;
+  color: #ffffff;
+  letter-spacing: 0.02em;
+  font-variant-numeric: tabular-nums;
+  margin-bottom: 1px;
+}
+
+/* --- the orientation panel ------------------------------------------------ */
+
+/* Sits above the drawer's z-index so it is never half-covered if both somehow
+   open at once. */
+.welcome { position: fixed; inset: 0; z-index: 90; }
+
+.welcome__scrim {
+  position: absolute;
+  inset: 0;
+  background: rgba(4, 7, 10, 0.78);
+  backdrop-filter: blur(3px);
+}
+
+.welcome__panel {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: min(680px, 92vw);
+  max-height: 88vh;
+  overflow-y: auto;
+  padding: 26px 28px 22px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--bg-panel);
+  box-shadow: var(--shadow);
+}
+
+.welcome__tag {
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+}
+
+.welcome__title {
+  margin: 8px 0 12px;
+  font-size: 23px;
+  font-weight: 680;
+  letter-spacing: -0.4px;
+  color: var(--text);
+}
+
+.welcome__lede {
+  margin: 0 0 18px;
+  font-size: 13.5px;
+  line-height: 1.65;
+  color: var(--text-dim);
+}
+
+.welcome__block { margin-bottom: 15px; }
+
+.welcome__h {
+  font-size: 10.5px;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.welcome__block p {
+  margin: 0 0 8px;
+  font-size: 12.5px;
+  line-height: 1.65;
+  color: var(--text-dim);
+}
+
+.welcome__block p:last-child { margin-bottom: 0; }
+.welcome__block b { color: var(--text); font-weight: 620; }
+
+.welcome__list {
+  margin: 0;
+  padding-left: 18px;
+  display: grid;
+  gap: 6px;
+  font-size: 12.5px;
+  line-height: 1.6;
+  color: var(--text-dim);
+}
+
+.welcome__list li::marker { color: var(--text-faint); }
+
+/* The null result gets its own frame. It is the one thing on this panel a
+   viewer must not scroll past thinking it is more preamble. */
+.welcome__block--finding {
+  padding: 13px 15px;
+  border: 1px solid var(--line);
+  border-left: 2px solid var(--celtics);
+  border-radius: var(--radius-sm);
+  background: var(--bg-raised);
+}
+
+.welcome kbd {
+  font-family: var(--mono);
+  font-size: 10.5px;
+  padding: 1px 5px;
+  border: 1px solid var(--line);
+  border-bottom-width: 2px;
+  border-radius: 4px;
+  background: var(--bg-raised);
+  color: var(--text);
+}
+
+.welcome__actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+}
+
+.welcome__go {
+  padding: 9px 20px;
+  border-radius: 999px;
+  border: 1px solid rgba(20, 224, 122, 0.45);
+  background: rgba(20, 224, 122, 0.12);
+  color: var(--celtics);
+  font-family: inherit;
+  font-size: 12.5px;
+  font-weight: 620;
+}
+
+.welcome__go:hover { background: rgba(20, 224, 122, 0.2); }
+
+.welcome__hint { font-size: 11px; color: var(--text-faint); }
+.welcome__hint b { color: var(--text-dim); font-weight: 600; }
+
+@media (max-width: 720px) {
+  .welcome__panel { padding: 20px 18px 18px; }
+  .welcome__title { font-size: 20px; }
+}
+
+/* --- the guided tour ------------------------------------------------------ */
+
+/* Above the welcome panel, because the tour is started from it. */
+.tour { position: fixed; inset: 0; z-index: 100; pointer-events: none; }
+
+/* Four panes rather than one scrim with a box-shadow ring. The gap between
+   them is a real hole, so clicks land on the dashboard underneath and a reader
+   can drag the chart or press play while the step is still explaining it. */
+.tour__mask {
+  position: fixed;
+  background: rgba(4, 7, 10, 0.72);
+  pointer-events: auto;
+}
+
+.tour__mask--full { inset: 0; }
+
+.tour__ring {
+  position: fixed;
+  border: 1.5px solid var(--celtics);
+  border-radius: var(--radius-sm);
+  box-shadow: 0 0 0 1px rgba(20, 224, 122, 0.25), 0 0 24px rgba(20, 224, 122, 0.22);
+  pointer-events: none;
+}
+
+.tour__card {
+  position: fixed;
+  width: min(380px, 92vw);
+  padding: 15px 17px 13px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--bg-panel);
+  box-shadow: var(--shadow);
+  pointer-events: auto;
+  z-index: 2;
+}
+
+.tour__count {
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+}
+
+.tour__title {
+  margin: 5px 0 6px;
+  font-size: 14.5px;
+  font-weight: 660;
+  color: var(--text);
+}
+
+.tour__body {
+  margin: 0;
+  font-size: 12.5px;
+  line-height: 1.6;
+  color: var(--text-dim);
+}
+
+.tour__actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+}
+
+.tour__nav { display: flex; gap: 8px; }
+
+.tour__skip {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: 11.5px;
+  color: var(--text-faint);
+}
+
+.tour__skip:hover { color: var(--text-dim); }
+
+.tour__btn {
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--bg-raised);
+  color: var(--text-dim);
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.tour__btn:hover { background: var(--bg-hover); color: var(--text); }
+
+.tour__btn--go {
+  border-color: rgba(20, 224, 122, 0.45);
+  background: rgba(20, 224, 122, 0.12);
+  color: var(--celtics);
+}
+
+.tour__btn--go:hover { background: rgba(20, 224, 122, 0.2); color: var(--celtics); }
+
+/* The welcome panel's secondary action, once it has two. */
+.welcome__plain {
+  padding: 9px 16px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--text-dim);
+  font-family: inherit;
+  font-size: 12.5px;
+  font-weight: 600;
+}
+
+.welcome__plain:hover { background: var(--bg-hover); color: var(--text); }
+
+/* --- the tour nudge ------------------------------------------------------- */
+
+/* The header's tour button, given the accent so the option is visible without
+   anybody having to read the chrome. */
+.ghostbtn--go {
+  border-color: rgba(20, 224, 122, 0.45);
+  color: var(--celtics);
+  background: rgba(20, 224, 122, 0.08);
+}
+
+.ghostbtn--go:hover { background: rgba(20, 224, 122, 0.16); }
+
+/* Sits under the tour and the welcome, because it is the least important of
+   the three and must never cover either. */
+.nudge {
+  position: fixed;
+  z-index: 70;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--bg-panel);
+  box-shadow: var(--shadow);
+  animation: nudge-in 260ms ease-out;
+}
+
+/* The backdrop for stage one. Dims rather than blacks out: the point is to
+   introduce the dashboard, not to hide it. */
+.nudge__scrim {
+  position: fixed;
+  inset: 0;
+  z-index: 69;
+  background: rgba(4, 7, 10, 0.66);
+  backdrop-filter: blur(2px);
+}
+
+/* The first-run card. LIGHT, on purpose.
+   Every previous attempt used the app's own palette -- panel grey with a green
+   edge -- and every one of them read as another dashboard panel that happened
+   to be floating, because that is exactly what it looked like. Nothing in this
+   interface is light, so light is the one thing that cannot be mistaken for
+   part of it.
+   Amber and red were the other options and both are already spoken for: amber
+   means the opponent and red means a warning. Borrowing either would say
+   something untrue about a friendly introduction. */
+.nudge--centre {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: min(460px, calc(100vw - 36px));
+  padding: 24px 26px 20px;
+  background: #f3f6f9;
+  border: 1px solid #cfd8e2;
+  box-shadow: 0 34px 80px -18px rgba(0, 0, 0, 0.95);
+  text-align: left;
+}
+
+.nudge--centre .nudge__eyebrow { color: #6b7a8a; }
+.nudge--centre .nudge__text { color: #333e4a; font-size: 13.5px; line-height: 1.6; }
+.nudge--centre .nudge__text b { color: #0b1016; font-weight: 660; }
+.nudge--centre .nudge__row { margin-top: 16px; }
+
+/* Dark button on a light card: the strongest contrast available, and it avoids
+   spending the green on a control that has nothing to do with Boston. */
+.nudge--centre .nudge__go {
+  background: #131a23;
+  border-color: #131a23;
+  color: #ffffff;
+}
+
+.nudge--centre .nudge__go:hover { background: #232d3a; }
+
+.nudge--centre .nudge__no { color: #6b7a8a; }
+.nudge--centre .nudge__no:hover { color: #333e4a; }
+
+.nudge--centre .nudge__hint {
+  color: #6b7a8a;
+  border-top-color: #dde4ec;
+}
+
+.nudge--centre .nudge__hint b { color: #333e4a; }
+
+/* Stage two: out of the way. */
+.nudge--side {
+  right: 18px;
+  bottom: 18px;
+  width: min(300px, calc(100vw - 36px));
+  padding: 13px 15px;
+  border-left: 2px solid var(--celtics);
+}
+
+.nudge__eyebrow {
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  margin-bottom: 8px;
+}
+
+.nudge--centre .nudge__text { font-size: 13.5px; line-height: 1.6; }
+.nudge--centre .nudge__row { margin-top: 16px; }
+
+.nudge__hint {
+  margin-top: 13px;
+  padding-top: 11px;
+  border-top: 1px solid var(--line);
+  font-size: 11px;
+  color: var(--text-faint);
+}
+
+.nudge__hint b { color: var(--text-dim); font-weight: 600; }
+
+@keyframes nudge-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* The centred card is positioned with a transform, so the keyframe above would
+   fight it and leave the card off-centre. It gets a fade only. */
+@keyframes nudge-in-centre {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.nudge--centre { animation-name: nudge-in-centre; }
+
+.nudge__scrim { animation: nudge-in-centre 220ms ease-out; }
+
+/* Somebody who has asked for less motion gets the panel, not the movement. */
+@media (prefers-reduced-motion: reduce) {
+  .nudge,
+  .nudge__scrim { animation: none; }
+}
+
+.nudge__text {
+  font-size: 12px;
+  line-height: 1.55;
+  color: var(--text-dim);
+}
+
+.nudge__text b { color: var(--text); font-weight: 620; }
+
+.nudge__row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 11px;
+}
+
+.nudge__go {
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(20, 224, 122, 0.45);
+  background: rgba(20, 224, 122, 0.12);
+  color: var(--celtics);
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 620;
+}
+
+.nudge__go:hover { background: rgba(20, 224, 122, 0.2); }
+
+.nudge__no {
+  padding: 6px 10px;
+  border: 0;
+  background: transparent;
+  color: var(--text-faint);
+  font-family: inherit;
+  font-size: 11.5px;
+}
+
+.nudge__no:hover { color: var(--text-dim); }

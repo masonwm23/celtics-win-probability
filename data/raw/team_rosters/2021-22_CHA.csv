@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1628970,Miles Bridges,miles-bridges,0,F,6-7,225,"MAR 21, 1998",24.0,3,Michigan State,2021-22,1610612766,CHA,Charlotte Hornets
+1630163,LaMelo Ball,lamelo-ball,2,G,6-7,180,"AUG 22, 2001",20.0,1,Illawarra,2021-22,1610612766,CHA,Charlotte Hornets
+1626179,Terry Rozier,terry-rozier,3,G,6-1,190,"MAR 17, 1994",28.0,6,Louisville,2021-22,1610612766,CHA,Charlotte Hornets
+202738,Isaiah Thomas,isaiah-thomas,4,G,5-9,185,"FEB 07, 1989",33.0,10,Washington,2021-22,1610612766,CHA,Charlotte Hornets
+1630547,James Bouknight,james-bouknight,5,G,6-4,190,"SEP 18, 2000",21.0,R,Connecticut,2021-22,1610612766,CHA,Charlotte Hornets
+1629667,Jalen McDaniels,jalen-mcdaniels,6,F-C,6-9,205,"JAN 31, 1998",24.0,2,San Diego State,2021-22,1610612766,CHA,Charlotte Hornets
+1626149,Montrezl Harrell,montrezl-harrell,8,F-C,6-7,240,"JAN 26, 1994",28.0,6,Louisville,2021-22,1610612766,CHA,Charlotte Hornets
+1628998,Cody Martin,cody-martin,11,F,6-6,205,"SEP 28, 1995",26.0,2,Nevada,2021-22,1610612766,CHA,Charlotte Hornets
+1626162,Kelly Oubre Jr.,kelly-oubre-jr,12,F-G,6-6,203,"DEC 09, 1995",26.0,6,Kansas,2021-22,1610612766,CHA,Charlotte Hornets
+1630208,Nick Richards,nick-richards,14,C,7-0,245,"NOV 29, 1997",24.0,1,Kentucky,2021-22,1610612766,CHA,Charlotte Hornets
+1630575,Scottie Lewis,scottie-lewis,16,G,6-5,185,"MAR 12, 2000",22.0,R,Florida,2021-22,1610612766,CHA,Charlotte Hornets
+202330,Gordon Hayward,gordon-hayward,20,F,6-7,225,"MAR 23, 1990",32.0,11,Butler,2021-22,1610612766,CHA,Charlotte Hornets
+1630550,JT Thor,jt-thor,21,F,6-9,203,"AUG 26, 2002",19.0,R,Auburn,2021-22,1610612766,CHA,Charlotte Hornets
+1630539,Kai Jones,kai-jones,23,C-F,6-10,221,"JAN 19, 2001",21.0,R,Texas,2021-22,1610612766,CHA,Charlotte Hornets
+203486,Mason Plumlee,mason-plumlee,24,F-C,6-11,254,"MAR 05, 1990",32.0,8,Duke,2021-22,1610612766,CHA,Charlotte Hornets
+1629023,P.J. Washington,pj-washington,25,F,6-7,230,"AUG 23, 1998",23.0,2,Kentucky,2021-22,1610612766,CHA,Charlotte Hornets
+1629083,Arnoldas Kulboka,arnoldas-kulboka,98,F,6-10,209,"JAN 04, 1998",24.0,R,Bilbao,2021-22,1610612766,CHA,Charlotte Hornets

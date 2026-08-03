@@ -1,0 +1,17 @@
+{
+  "name": "celtics-win-probability",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dashboard for the Celtics Real-Time Win Probability Model (MSBA Directed Research, Brandeis).",
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "15.5.4",
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  }
+}

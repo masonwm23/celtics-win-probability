@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1630699,MarJon Beauchamp,marjon-beauchamp,0,F,6-7,199,"OCT 12, 2000",22.0,R,NBA G League Ignite,2022-23,1610612749,MIL,Milwaukee Bucks
+203086,Meyers Leonard,meyers-leonard,3,F-C,7-0,260,"FEB 27, 1992",31.0,9,Illinois,2022-23,1610612749,MIL,Milwaukee Bucks
+1628975,Jevon Carter,jevon-carter,5,G,6-1,200,"SEP 14, 1995",27.0,4,West Virginia,2022-23,1610612749,MIL,Milwaukee Bucks
+204060,Joe Ingles,joe-ingles,7,F-G,6-9,220,"OCT 02, 1987",35.0,8,Maccabi Tel Aviv,2022-23,1610612749,MIL,Milwaukee Bucks
+1626171,Bobby Portis,bobby-portis,9,F,6-11,250,"FEB 10, 1995",28.0,7,Arkansas,2022-23,1610612749,MIL,Milwaukee Bucks
+201572,Brook Lopez,brook-lopez,11,C,7-1,282,"APR 01, 1988",35.0,14,Stanford,2022-23,1610612749,MIL,Milwaukee Bucks
+1628960,Grayson Allen,grayson-allen,12,G,6-4,198,"OCT 08, 1995",27.0,4,Duke,2022-23,1610612749,MIL,Milwaukee Bucks
+1631260,AJ Green,aj-green,20,G,6-5,190,"SEP 27, 1999",23.0,R,Northern Iowa,2022-23,1610612749,MIL,Milwaukee Bucks
+201950,Jrue Holiday,jrue-holiday,21,G,6-5,205,"JUN 12, 1990",33.0,13,UCLA,2022-23,1610612749,MIL,Milwaukee Bucks
+203114,Khris Middleton,khris-middleton,22,F,6-7,222,"AUG 12, 1991",31.0,10,Texas A&M,2022-23,1610612749,MIL,Milwaukee Bucks
+202083,Wesley Matthews,wesley-matthews,23,G,6-5,220,"OCT 14, 1986",36.0,13,Marquette,2022-23,1610612749,MIL,Milwaukee Bucks
+1626192,Pat Connaughton,pat-connaughton,24,G,6-5,209,"JAN 06, 1993",30.0,7,Notre Dame,2022-23,1610612749,MIL,Milwaukee Bucks
+1629623,Lindell Wigginton,lindell-wigginton,28,G,6-1,189,"MAR 28, 1998",25.0,1,Iowa State,2022-23,1610612749,MIL,Milwaukee Bucks
+201609,Goran Dragic,goran-dragic,31,G,6-4,190,"MAY 06, 1986",37.0,14,Union Olimpija,2022-23,1610612749,MIL,Milwaukee Bucks
+203507,Giannis Antetokounmpo,giannis-antetokounmpo,34,F,7-0,243,"DEC 06, 1994",28.0,9,Filathlitikos,2022-23,1610612749,MIL,Milwaukee Bucks
+203648,Thanasis Antetokounmpo,thanasis-antetokounmpo,43,F,6-7,219,"JUL 18, 1992",30.0,4,Panathinaikos,2022-23,1610612749,MIL,Milwaukee Bucks
+203109,Jae Crowder,jae-crowder,99,F,6-6,235,"JUL 06, 1990",32.0,10,Marquette,2022-23,1610612749,MIL,Milwaukee Bucks

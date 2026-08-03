@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1642013,Malik Williams,malik-williams,,C,6-11,250,"AUG 26, 1998",25.0,R,Louisville,2023-24,1610612761,TOR,Toronto Raptors
+1631241,Javon Freeman-Liberty,javon-freeman-liberty,0,G,6-3,190,"OCT 20, 1999",24.0,R,DePaul,2023-24,1610612761,TOR,Toronto Raptors
+1641711,Gradey Dick,gradey-dick,1,G-F,6-6,200,"NOV 20, 2003",20.0,R,Kansas,2023-24,1610612761,TOR,Toronto Raptors
+1629667,Jalen McDaniels,jalen-mcdaniels,2,F,6-9,190,"JAN 31, 1998",26.0,4,San Diego State,2023-24,1610612761,TOR,Toronto Raptors
+1630618,D.J. Carton,dj-carton,3,G,6-3,200,"AUG 05, 2000",23.0,R,Marquette,2023-24,1610612761,TOR,Toronto Raptors
+1630567,Scottie Barnes,scottie-barnes,4,F-G,6-7,237,"AUG 01, 2001",22.0,2,Florida State,2023-24,1610612761,TOR,Toronto Raptors
+1630193,Immanuel Quickley,immanuel-quickley,5,G,6-2,190,"JUN 17, 1999",25.0,3,Kentucky,2023-24,1610612761,TOR,Toronto Raptors
+1629628,RJ Barrett,rj-barrett,9,F-G,6-6,214,"JUN 14, 2000",24.0,4,Duke,2023-24,1610612761,TOR,Toronto Raptors
+1628971,Bruce Brown,bruce-brown,11,G-F,6-4,202,"AUG 15, 1996",27.0,5,Miami,2023-24,1610612761,TOR,Toronto Raptors
+1629670,Jordan Nwora,jordan-nwora,13,F,6-8,225,"SEP 09, 1998",25.0,3,Louisville,2023-24,1610612761,TOR,Toronto Raptors
+1631338,Mouhamadou Gueye,mouhamadou-gueye,16,F,6-9,210,"JUL 06, 1998",25.0,R,Pittsburgh,2023-24,1610612761,TOR,Toronto Raptors
+202066,Garrett Temple,garrett-temple,17,G-F,6-5,195,"MAY 08, 1986",38.0,13,Louisiana State,2023-24,1610612761,TOR,Toronto Raptors
+1627751,Jakob Poeltl,jakob-poeltl,19,C,7-0,260,"OCT 15, 1995",28.0,7,Utah,2023-24,1610612761,TOR,Toronto Raptors
+1628449,Chris Boucher,chris-boucher,25,F,6-9,200,"JAN 11, 1993",31.0,6,Oregon,2023-24,1610612761,TOR,Toronto Raptors
+1630534,Ochai Agbaji,ochai-agbaji,30,G,6-5,215,"APR 20, 2000",24.0,1,Kansas,2023-24,1610612761,TOR,Toronto Raptors
+1629018,Gary Trent Jr.,gary-trent-jr,33,G,6-5,204,"JAN 18, 1999",25.0,5,Duke,2023-24,1610612761,TOR,Toronto Raptors
+203482,Kelly Olynyk,kelly-olynyk,41,F-C,6-11,240,"APR 19, 1991",33.0,10,Gonzaga,2023-24,1610612761,TOR,Toronto Raptors

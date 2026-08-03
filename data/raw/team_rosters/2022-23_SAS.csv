@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1629640,Keldon Johnson,keldon-johnson,3,F-G,6-5,220,"OCT 11, 1999",23.0,3,Kentucky,2022-23,1610612759,SAS,San Antonio Spurs
+1628984,Devonte' Graham,devonte-graham,4,G,6-1,195,"FEB 22, 1995",28.0,4,Kansas,2022-23,1610612759,SAS,San Antonio Spurs
+1631110,Jeremy Sochan,jeremy-sochan,10,F,6-8,230,"MAY 20, 2003",20.0,R,Baylor,2022-23,1610612759,SAS,San Antonio Spurs
+1631104,Blake Wesley,blake-wesley,14,G,6-4,185,"MAR 16, 2003",20.0,R,Notre Dame,2022-23,1610612759,SAS,San Antonio Spurs
+203926,Doug McDermott,doug-mcdermott,17,F,6-6,225,"JAN 03, 1992",31.0,8,Creighton,2022-23,1610612759,SAS,San Antonio Spurs
+1631103,Malaki Branham,malaki-branham,22,F,6-4,180,"MAY 12, 2003",20.0,R,Ohio State,2022-23,1610612759,SAS,San Antonio Spurs
+1628380,Zach Collins,zach-collins,23,F-C,6-11,250,"NOV 19, 1997",25.0,5,Gonzaga,2022-23,1610612759,SAS,San Antonio Spurs
+203920,Khem Birch,khem-birch,24,C,6-8,233,"SEP 28, 1992",30.0,5,UNLV,2022-23,1610612759,SAS,San Antonio Spurs
+1630170,Devin Vassell,devin-vassell,24,G-F,6-5,200,"AUG 23, 2000",22.0,2,Florida State,2022-23,1610612759,SAS,San Antonio Spurs
+1631230,Dominick Barlow,dominick-barlow,26,F,6-9,215,"MAY 26, 2003",20.0,R,Overtime Elite,2022-23,1610612759,SAS,San Antonio Spurs
+1629646,Charles Bassey,charles-bassey,28,C-F,6-9,230,"OCT 28, 2000",22.0,1,Western Kentucky,2022-23,1610612759,SAS,San Antonio Spurs
+1630577,Julian Champagnie,julian-champagnie,30,F,6-7,217,"JUN 29, 2001",22.0,R,St. John's,2022-23,1610612759,SAS,San Antonio Spurs
+1628966,Keita Bates-Diop,keita-bates-diop,31,F,6-8,229,"JAN 23, 1996",27.0,4,Ohio State,2022-23,1610612759,SAS,San Antonio Spurs
+1630200,Tre Jones,tre-jones,33,G,6-1,185,"JAN 08, 2000",23.0,2,Duke,2022-23,1610612759,SAS,San Antonio Spurs
+1629641,Romeo Langford,romeo-langford,35,G-F,6-5,216,"OCT 25, 1999",23.0,3,Indiana,2022-23,1610612759,SAS,San Antonio Spurs
+203476,Gorgui Dieng,gorgui-dieng,41,C,6-10,248,"JAN 18, 1990",33.0,9,Louisville,2022-23,1610612759,SAS,San Antonio Spurs
+1630572,Sandro Mamukelashvili,sandro-mamukelashvili,54,F-C,6-10,240,"MAY 23, 1999",24.0,1,Seton Hall,2022-23,1610612759,SAS,San Antonio Spurs

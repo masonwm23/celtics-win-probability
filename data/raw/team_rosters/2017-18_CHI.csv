@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+203930,Sean Kilpatrick,sean-kilpatrick,0,G,6-4,212,"JAN 06, 1990",28.0,3,Cincinnati,2017-18,1610612741,CHI,Chicago Bulls
+1626170,Jerian Grant,jerian-grant,2,G,6-4,198,"OCT 09, 1992",25.0,2,Notre Dame,2017-18,1610612741,CHI,Chicago Bulls
+201600,Omer Asik,omer-asik,3,C,7-0,255,"JUL 04, 1986",31.0,7,Fenerbahce,2017-18,1610612741,CHI,Chicago Bulls
+1626171,Bobby Portis,bobby-portis,5,F,6-11,248,"FEB 10, 1995",23.0,2,Arkansas,2017-18,1610612741,CHI,Chicago Bulls
+1626245,Cristiano Felicio,cristiano-felicio,6,C-F,6-9,280,"JUL 07, 1992",25.0,2,Flamengo,2017-18,1610612741,CHI,Chicago Bulls
+203200,Justin Holiday,justin-holiday,7,G-F,6-6,185,"APR 05, 1989",29.0,4,Washington,2017-18,1610612741,CHI,Chicago Bulls
+203897,Zach LaVine,zach-lavine,8,G,6-5,185,"MAR 10, 1995",23.0,3,UCLA,2017-18,1610612741,CHI,Chicago Bulls
+1628469,Antonio Blakeney,antonio-blakeney,9,G,6-4,197,"OCT 04, 1996",21.0,R,Louisiana State,2017-18,1610612741,CHI,Chicago Bulls
+1628021,David Nwaba,david-nwaba,11,F,6-4,209,"JAN 14, 1993",25.0,1,Cal Poly-Obispo,2017-18,1610612741,CHI,Chicago Bulls
+1627853,Ryan Arcidiacono,ryan-arcidiacono,15,G,6-3,195,"MAR 26, 1994",24.0,R,Villanova,2017-18,1610612741,CHI,Chicago Bulls
+1627835,Paul Zipser,paul-zipser,16,F,6-8,226,"FEB 18, 1994",24.0,1,Bayern Munich,2017-18,1610612741,CHI,Chicago Bulls
+1626166,Cameron Payne,cameron-payne,22,G,6-3,185,"AUG 08, 1994",23.0,2,Murray State,2017-18,1610612741,CHI,Chicago Bulls
+1628374,Lauri Markkanen,lauri-markkanen,24,F,7-0,230,"MAY 22, 1997",21.0,R,Arizona,2017-18,1610612741,CHI,Chicago Bulls
+203943,Noah Vonleh,noah-vonleh,30,F,6-9,245,"AUG 24, 1995",22.0,3,Indiana,2017-18,1610612741,CHI,Chicago Bulls
+204067,Jarell Eddie,jarell-eddie,31,G-F,6-7,218,"OCT 30, 1991",26.0,2,Virginia Tech,2017-18,1610612741,CHI,Chicago Bulls
+1627739,Kris Dunn,kris-dunn,32,G,6-4,210,"MAR 18, 1994",24.0,1,Providence,2017-18,1610612741,CHI,Chicago Bulls
+201577,Robin Lopez,robin-lopez,42,C,7-0,277,"APR 01, 1988",30.0,9,Stanford,2017-18,1610612741,CHI,Chicago Bulls
+1627756,Denzel Valentine,denzel-valentine,45,F,6-6,214,"NOV 16, 1993",24.0,1,Michigan State,2017-18,1610612741,CHI,Chicago Bulls

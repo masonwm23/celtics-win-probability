@@ -1,0 +1,17 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1629712,Didi Louzada,didi-louzada,,G,6-5,188,"JUL 02, 1999",21.0,R,Sydney,2020-21,1610612740,NOP,New Orleans Pelicans
+1629627,Zion Williamson,zion-williamson,1,F,6-7,284,"JUL 06, 2000",20.0,1,Duke,2020-21,1610612740,NOP,New Orleans Pelicans
+1628366,Lonzo Ball,lonzo-ball,2,G,6-6,190,"OCT 27, 1997",23.0,3,UCLA,2020-21,1610612740,NOP,New Orleans Pelicans
+1628404,Josh Hart,josh-hart,3,G,6-5,215,"MAR 06, 1995",26.0,3,Villanova,2020-21,1610612740,NOP,New Orleans Pelicans
+1628411,Wes Iwundu,wes-iwundu,4,F,6-6,195,"DEC 20, 1994",26.0,3,Kansas State,2020-21,1610612740,NOP,New Orleans Pelicans
+202339,Eric Bledsoe,eric-bledsoe,5,G,6-1,214,"DEC 09, 1989",31.0,10,Kentucky,2020-21,1610612740,NOP,New Orleans Pelicans
+1629638,Nickeil Alexander-Walker,nickeil-alexander-walker,6,G,6-6,205,"SEP 02, 1998",22.0,1,Virginia Tech,2020-21,1610612740,NOP,New Orleans Pelicans
+1630230,Naji Marshall,naji-marshall,8,F,6-7,220,"JAN 24, 1998",23.0,R,Xavier,2020-21,1610612740,NOP,New Orleans Pelicans
+1626195,Willy Hernangomez,willy-hernangomez,9,C-F,6-11,250,"MAY 27, 1994",27.0,4,Cajasol Sevilla,2020-21,1610612740,NOP,New Orleans Pelicans
+1629637,Jaxson Hayes,jaxson-hayes,10,C-F,6-11,220,"MAY 23, 2000",21.0,1,Texas,2020-21,1610612740,NOP,New Orleans Pelicans
+203500,Steven Adams,steven-adams,12,C,6-11,265,"JUL 20, 1993",27.0,7,Pittsburgh,2020-21,1610612740,NOP,New Orleans Pelicans
+1630184,Kira Lewis Jr.,kira-lewis-jr,13,G,6-1,170,"APR 06, 2001",20.0,R,Alabama,2020-21,1610612740,NOP,New Orleans Pelicans
+1627742,Brandon Ingram,brandon-ingram,14,F,6-8,190,"SEP 02, 1997",23.0,4,Duke,2020-21,1610612740,NOP,New Orleans Pelicans
+201949,James Johnson,james-johnson,16,F,6-7,240,"FEB 20, 1987",34.0,11,Wake Forest,2020-21,1610612740,NOP,New Orleans Pelicans
+203263,James Nunnally,james-nunnally,21,F,6-7,205,"JUL 14, 1990",30.0,2,Cal-Santa Barbara,2020-21,1610612740,NOP,New Orleans Pelicans
+1629117,Wenyen Gabriel,wenyen-gabriel,32,F,6-9,205,"MAR 26, 1997",24.0,1,Kentucky,2020-21,1610612740,NOP,New Orleans Pelicans

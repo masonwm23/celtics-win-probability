@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+204098,Xavier Munford,xavier-munford,0,G,6-4,173,"JUN 01, 1992",26.0,1,Rhode Island,2017-18,1610612749,MIL,Milwaukee Bucks
+1891,Jason Terry,jason-terry,3,G,6-2,185,"SEP 15, 1977",40.0,18,Arizona,2017-18,1610612749,MIL,Milwaukee Bucks
+1628391,D.J. Wilson,dj-wilson,5,F,6-10,236,"FEB 19, 1996",22.0,R,Michigan,2017-18,1610612749,MIL,Milwaukee Bucks
+202339,Eric Bledsoe,eric-bledsoe,6,G,6-1,205,"DEC 09, 1989",28.0,7,Kentucky,2017-18,1610612749,MIL,Milwaukee Bucks
+1627748,Thon Maker,thon-maker,7,C-F,7-1,223,"FEB 25, 1997",21.0,1,Athlete Institute Prep,2017-18,1610612749,MIL,Milwaukee Bucks
+203521,Matthew Dellavedova,matthew-dellavedova,8,G,6-4,198,"SEP 08, 1990",27.0,4,Saint Mary's,2017-18,1610612749,MIL,Milwaukee Bucks
+201943,Brandon Jennings,brandon-jennings,11,G,6-1,170,"SEP 23, 1989",28.0,8,Virtus Roma,2017-18,1610612749,MIL,Milwaukee Bucks
+203953,Jabari Parker,jabari-parker,12,F,6-8,250,"MAR 15, 1995",23.0,3,Duke,2017-18,1610612749,MIL,Milwaukee Bucks
+1627763,Malcolm Brogdon,malcolm-brogdon,13,G,6-5,215,"DEC 11, 1992",25.0,1,Virginia,2017-18,1610612749,MIL,Milwaukee Bucks
+203498,Shabazz Muhammad,shabazz-muhammad,15,G-F,6-6,221,"NOV 13, 1992",25.0,4,UCLA,2017-18,1610612749,MIL,Milwaukee Bucks
+203503,Tony Snell,tony-snell,21,G,6-7,221,"NOV 10, 1991",26.0,4,New Mexico,2017-18,1610612749,MIL,Milwaukee Bucks
+203114,Khris Middleton,khris-middleton,22,F,6-8,234,"AUG 12, 1991",26.0,5,Texas A&M,2017-18,1610612749,MIL,Milwaukee Bucks
+1628425,Sterling Brown,sterling-brown,23,G,6-6,230,"FEB 10, 1995",23.0,R,Southern Methodist,2017-18,1610612749,MIL,Milwaukee Bucks
+203089,John Henson,john-henson,31,C,6-11,229,"DEC 28, 1990",27.0,5,North Carolina,2017-18,1610612749,MIL,Milwaukee Bucks
+203507,Giannis Antetokounmpo,giannis-antetokounmpo,34,F,6-11,222,"DEC 06, 1994",23.0,4,Filathlitikos,2017-18,1610612749,MIL,Milwaukee Bucks
+1627850,Marshall Plumlee,marshall-plumlee,40,C,7-0,250,"JUL 14, 1992",25.0,1,Duke,2017-18,1610612749,MIL,Milwaukee Bucks
+203092,Tyler Zeller,tyler-zeller,44,C,7-0,250,"JAN 17, 1990",28.0,5,North Carolina,2017-18,1610612749,MIL,Milwaukee Bucks

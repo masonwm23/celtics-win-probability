@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1627780,Gary Payton II,gary-payton-ii,0,G,6-2,195,"DEC 01, 1992",31.0,7,Oregon State,2023-24,1610612744,GSW,Golden State Warriors
+1630228,Jonathan Kuminga,jonathan-kuminga,00,F,6-7,225,"OCT 06, 2002",21.0,2,NBA G League Ignite,2023-24,1610612744,GSW,Golden State Warriors
+1641764,Brandin Podziemski,brandin-podziemski,2,G,6-4,205,"FEB 25, 2003",21.0,R,Santa Clara,2023-24,1610612744,GSW,Golden State Warriors
+101108,Chris Paul,chris-paul,3,G,6-0,175,"MAY 06, 1985",39.0,18,Wake Forest,2023-24,1610612744,GSW,Golden State Warriors
+1630541,Moses Moody,moses-moody,4,G,6-5,211,"MAY 31, 2002",22.0,2,Arkansas,2023-24,1610612744,GSW,Golden State Warriors
+1626172,Kevon Looney,kevon-looney,5,F,6-9,222,"FEB 06, 1996",28.0,8,UCLA,2023-24,1610612744,GSW,Golden State Warriors
+202691,Klay Thompson,klay-thompson,11,G,6-6,220,"FEB 08, 1990",34.0,12,Washington State,2023-24,1610612744,GSW,Golden State Warriors
+1630586,Usman Garuba,usman-garuba,12,F,6-8,229,"MAR 09, 2002",22.0,2,Real Madrid,2023-24,1610612744,GSW,Golden State Warriors
+1630611,Gui Santos,gui-santos,15,F,6-6,185,"JUN 22, 2002",22.0,R,Minas,2023-24,1610612744,GSW,Golden State Warriors
+1629010,Jerome Robinson,jerome-robinson,18,G,6-5,190,"FEB 22, 1997",27.0,3,Boston College,2023-24,1610612744,GSW,Golden State Warriors
+203967,Dario Šarić,dario-šarić,20,F-C,6-10,225,"APR 08, 1994",30.0,7,Anadolu Efes,2023-24,1610612744,GSW,Golden State Warriors
+203952,Andrew Wiggins,andrew-wiggins,22,F,6-7,197,"FEB 23, 1995",29.0,9,Kansas,2023-24,1610612744,GSW,Golden State Warriors
+203110,Draymond Green,draymond-green,23,F,6-6,230,"MAR 04, 1990",34.0,11,Michigan State,2023-24,1610612744,GSW,Golden State Warriors
+1631311,Lester Quinones,lester-quinones,25,G,6-4,208,"NOV 16, 2000",23.0,1,Memphis,2023-24,1610612744,GSW,Golden State Warriors
+201939,Stephen Curry,stephen-curry,30,G,6-2,185,"MAR 14, 1988",36.0,14,Davidson,2023-24,1610612744,GSW,Golden State Warriors
+1631218,Trayce Jackson-Davis,trayce-jackson-davis,32,F,6-9,245,"FEB 22, 2000",24.0,R,Indiana,2023-24,1610612744,GSW,Golden State Warriors
+1630311,Pat Spencer,pat-spencer,61,G,6-3,205,"JUL 04, 1996",27.0,R,Northwestern,2023-24,1610612744,GSW,Golden State Warriors

@@ -1,0 +1,17 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+203903,Jordan Clarkson,jordan-clarkson,00,G,6-4,194,"JUN 07, 1992",30.0,7,Missouri,2021-22,1610612762,UTA,Utah Jazz
+1629672,Eric Paschall,eric-paschall,0,F,6-6,255,"NOV 04, 1996",25.0,2,Villanova,2021-22,1610612762,UTA,Utah Jazz
+1630235,Trent Forrest,trent-forrest,3,G,6-4,210,"JUN 12, 1998",24.0,1,Florida State,2021-22,1610612762,UTA,Utah Jazz
+1629638,Nickeil Alexander-Walker,nickeil-alexander-walker,6,G,6-5,205,"SEP 02, 1998",23.0,2,Virginia Tech,2021-22,1610612762,UTA,Utah Jazz
+200752,Rudy Gay,rudy-gay,8,F-G,6-8,250,"AUG 17, 1986",35.0,15,Connecticut,2021-22,1610612762,UTA,Utah Jazz
+201144,Mike Conley,mike-conley,11,G,6-1,175,"OCT 11, 1987",34.0,14,Ohio State,2021-22,1610612762,UTA,Utah Jazz
+1630215,Jared Butler,jared-butler,13,G,6-3,193,"AUG 25, 2000",21.0,R,Baylor,2021-22,1610612762,UTA,Utah Jazz
+1630270,Xavier Sneed,xavier-sneed,19,F,6-5,215,"DEC 21, 1997",24.0,R,Kansas State,2021-22,1610612762,UTA,Utah Jazz
+1628962,Udoka Azubuike,udoka-azubuike,20,C-F,7-0,270,"SEP 17, 1999",22.0,1,Kansas,2021-22,1610612762,UTA,Utah Jazz
+202355,Hassan Whiteside,hassan-whiteside,21,C,7-0,265,"JUN 13, 1989",33.0,9,Marshall,2021-22,1610612762,UTA,Utah Jazz
+1626220,Royce O'Neale,royce-oneale,23,F,6-5,226,"JUN 05, 1993",29.0,4,Baylor,2021-22,1610612762,UTA,Utah Jazz
+1627863,Danuel House Jr.,danuel-house-jr,25,F-G,6-6,220,"JUN 07, 1993",29.0,5,Texas A&M,2021-22,1610612762,UTA,Utah Jazz
+203497,Rudy Gobert,rudy-gobert,27,C,7-1,258,"JUN 26, 1992",30.0,8,Cholet,2021-22,1610612762,UTA,Utah Jazz
+1627823,Juancho Hernangomez,juancho-hernangomez,41,F,6-9,214,"SEP 28, 1995",26.0,5,Estudiantes,2021-22,1610612762,UTA,Utah Jazz
+202711,Bojan Bogdanovic,bojan-bogdanovic,44,F,6-7,226,"APR 18, 1989",33.0,7,Fenerbahce,2021-22,1610612762,UTA,Utah Jazz
+1628378,Donovan Mitchell,donovan-mitchell,45,G,6-1,215,"SEP 07, 1996",25.0,4,Louisville,2021-22,1610612762,UTA,Utah Jazz

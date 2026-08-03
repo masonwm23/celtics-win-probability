@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1628398,Kyle Kuzma,kyle-kuzma,0,F,6-8,221,"JUL 24, 1995",24.0,2,Utah,2019-20,1610612747,LAL,Los Angeles Lakers
+203484,Kentavious Caldwell-Pope,kentavious-caldwell-pope,1,G,6-5,204,"FEB 18, 1993",27.0,6,Georgia,2019-20,1610612747,LAL,Los Angeles Lakers
+203076,Anthony Davis,anthony-davis,3,F-C,6-10,253,"MAR 11, 1993",27.0,7,Kentucky,2019-20,1610612747,LAL,Los Angeles Lakers
+1627936,Alex Caruso,alex-caruso,4,G,6-5,186,"FEB 28, 1994",26.0,2,Texas A&M,2019-20,1610612747,LAL,Los Angeles Lakers
+1629659,Talen Horton-Tucker,talen-horton-tucker,5,G,6-4,234,"NOV 25, 2000",19.0,R,Iowa State,2019-20,1610612747,LAL,Los Angeles Lakers
+201580,JaVale McGee,javale-mcgee,7,C-F,7-0,270,"JAN 19, 1988",32.0,11,Nevada,2019-20,1610612747,LAL,Los Angeles Lakers
+200765,Rajon Rondo,rajon-rondo,9,G,6-1,180,"FEB 22, 1986",34.0,13,Kentucky,2019-20,1610612747,LAL,Los Angeles Lakers
+201162,Jared Dudley,jared-dudley,10,F,6-6,237,"JUL 10, 1985",34.0,12,Boston College,2019-20,1610612747,LAL,Los Angeles Lakers
+202340,Avery Bradley,avery-bradley,11,G,6-3,180,"NOV 26, 1990",29.0,9,University of Texas at Austin,2019-20,1610612747,LAL,Los Angeles Lakers
+1629719,Devontae Cacok,devontae-cacok,12,F,6-8,240,"OCT 08, 1996",23.0,R,UNC-Wilmington,2019-20,1610612747,LAL,Los Angeles Lakers
+201980,Danny Green,danny-green,14,G,6-6,215,"JUN 22, 1987",33.0,10,North Carolina,2019-20,1610612747,LAL,Los Angeles Lakers
+203079,Dion Waiters,dion-waiters,18,G,6-3,210,"DEC 10, 1991",28.0,7,Syracuse,2019-20,1610612747,LAL,Los Angeles Lakers
+2747,JR Smith,jr-smith,21,G,6-6,220,"SEP 09, 1985",34.0,15,No College,2019-20,1610612747,LAL,Los Angeles Lakers
+2544,LeBron James,lebron-james,23,F,6-9,250,"DEC 30, 1984",35.0,16,St. Vincent-St. Mary HS (OH),2019-20,1610612747,LAL,Los Angeles Lakers
+1626188,Quinn Cook,quinn-cook,28,G,6-1,180,"MAR 23, 1993",27.0,3,Duke,2019-20,1610612747,LAL,Los Angeles Lakers
+1628961,Kostas Antetokounmpo,kostas-antetokounmpo,37,F,6-10,200,"NOV 20, 1997",22.0,1,Dayton,2019-20,1610612747,LAL,Los Angeles Lakers
+2730,Dwight Howard,dwight-howard,39,C-F,6-10,265,"DEC 08, 1985",34.0,15,SW Atlanta Christian Academy (GA),2019-20,1610612747,LAL,Los Angeles Lakers
+202693,Markieff Morris,markieff-morris,88,F,6-8,245,"SEP 02, 1989",30.0,8,Kansas,2019-20,1610612747,LAL,Los Angeles Lakers

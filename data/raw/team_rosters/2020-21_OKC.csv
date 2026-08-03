@@ -1,0 +1,17 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1628983,Shai Gilgeous-Alexander,shai-gilgeous-alexander,2,G-F,6-6,180,"JUL 12, 1998",22.0,2,Kentucky,2020-21,1610612760,OKC,Oklahoma City Thunder
+1629652,Luguentz Dort,luguentz-dort,5,G,6-3,215,"APR 19, 1999",22.0,1,Arizona State,2020-21,1610612760,OKC,Oklahoma City Thunder
+1630466,Gabriel Deck,gabriel-deck,6,F,6-6,231,"FEB 08, 1995",26.0,R,Real Madrid,2020-21,1610612760,OKC,Oklahoma City Thunder
+1629647,Darius Bazley,darius-bazley,7,F-G,6-8,208,"JUN 12, 2000",21.0,1,Princeton HS (OH),2020-21,1610612760,OKC,Oklahoma City Thunder
+1629658,Jaylen Hoard,jaylen-hoard,8,F,6-8,216,"MAR 30, 1999",22.0,1,Wake Forest,2020-21,1610612760,OKC,Oklahoma City Thunder
+202689,Kemba Walker,kemba-walker,8,G,6-0,184,"MAY 08, 1990",31.0,9,Connecticut,2020-21,1610612760,OKC,Oklahoma City Thunder
+1630177,Theo Maledon,theo-maledon,11,G,6-4,175,"JUN 12, 2001",20.0,R,ASVEL,2020-21,1610612760,OKC,Oklahoma City Thunder
+1628396,Tony Bradley,tony-bradley,13,C-F,6-10,248,"JAN 08, 1998",23.0,3,North Carolina,2020-21,1610612760,OKC,Oklahoma City Thunder
+1629004,Svi Mykhailiuk,svi-mykhailiuk,14,G-F,6-7,205,"JUN 10, 1997",24.0,2,Kansas,2020-21,1610612760,OKC,Oklahoma City Thunder
+1630221,Josh Hall,josh-hall,15,F,6-9,190,"OCT 08, 2000",20.0,R,Moravian Prep (NC),2020-21,1610612760,OKC,Oklahoma City Thunder
+1629660,Ty Jerome,ty-jerome,16,G-F,6-5,195,"JUL 08, 1997",23.0,1,Virginia,2020-21,1610612760,OKC,Oklahoma City Thunder
+1630197,Aleksej Pokusevski,aleksej-pokusevski,17,C,7-0,190,"DEC 26, 2001",19.0,R,Olympiacos,2020-21,1610612760,OKC,Oklahoma City Thunder
+1629676,Isaiah Roby,isaiah-roby,22,F,6-8,230,"FEB 03, 1998",23.0,1,Nebraska,2020-21,1610612760,OKC,Oklahoma City Thunder
+203488,Mike Muscala,mike-muscala,33,F-C,6-10,240,"JUL 01, 1991",29.0,7,Bucknell,2020-21,1610612760,OKC,Oklahoma City Thunder
+1629026,Kenrich Williams,kenrich-williams,34,G-F,6-6,210,"DEC 02, 1994",26.0,2,TCU,2020-21,1610612760,OKC,Oklahoma City Thunder
+1629718,Charlie Brown Jr.,charlie-brown-jr,44,G,6-6,199,"FEB 02, 1997",24.0,1,St. Joseph's (PA),2020-21,1610612760,OKC,Oklahoma City Thunder

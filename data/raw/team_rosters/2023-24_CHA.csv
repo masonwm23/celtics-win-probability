@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1628970,Miles Bridges,miles-bridges,0,F,6-7,225,"MAR 21, 1998",26.0,4,Michigan State,2023-24,1610612766,CHA,Charlotte Hornets
+1630163,LaMelo Ball,lamelo-ball,1,G,6-7,180,"AUG 22, 2001",22.0,3,Illawarra,2023-24,1610612766,CHA,Charlotte Hornets
+1629684,Grant Williams,grant-williams,2,F,6-6,236,"NOV 30, 1998",25.0,4,Tennessee,2023-24,1610612766,CHA,Charlotte Hornets
+1630208,Nick Richards,nick-richards,4,C,7-0,245,"NOV 29, 1997",26.0,3,Kentucky,2023-24,1610612766,CHA,Charlotte Hornets
+1631109,Mark Williams,mark-williams,5,C,7-0,240,"DEC 16, 2001",22.0,1,Duke,2023-24,1610612766,CHA,Charlotte Hornets
+1631121,Bryce McGowens,bryce-mcgowens,7,G,6-6,175,"NOV 08, 2002",21.0,1,Nebraska,2023-24,1610612766,CHA,Charlotte Hornets
+1641733,Nick Smith Jr.,nick-smith-jr,8,G,6-2,185,"APR 18, 2004",20.0,R,Arkansas,2023-24,1610612766,CHA,Charlotte Hornets
+202722,Davis Bertans,davis-bertans,9,F,6-10,225,"NOV 12, 1992",31.0,7,Baskonia,2023-24,1610612766,CHA,Charlotte Hornets
+1641735,Amari Bailey,amari-bailey,10,G,6-3,185,"FEB 17, 2004",20.0,R,UCLA,2023-24,1610612766,CHA,Charlotte Hornets
+1628998,Cody Martin,cody-martin,11,F,6-6,205,"SEP 28, 1995",28.0,4,Nevada,2023-24,1610612766,CHA,Charlotte Hornets
+1629716,Marques Bolden,marques-bolden,12,C,6-10,249,"APR 17, 1998",26.0,2,Duke,2023-24,1610612766,CHA,Charlotte Hornets
+1641778,Leaky Black,leaky-black,12,F,6-6,209,"JUN 14, 1999",25.0,R,North Carolina,2023-24,1610612766,CHA,Charlotte Hornets
+1630197,Aleksej Pokusevski,aleksej-pokusevski,17,F,7-0,210,"DEC 26, 2001",22.0,3,Olympiacos,2023-24,1610612766,CHA,Charlotte Hornets
+1630550,JT Thor,jt-thor,21,F,6-9,203,"AUG 26, 2002",21.0,2,Auburn,2023-24,1610612766,CHA,Charlotte Hornets
+203995,Vasilije Micic,vasilije-micic,22,G,6-3,188,"JAN 13, 1994",30.0,R,Serbia,2023-24,1610612766,CHA,Charlotte Hornets
+1630544,Tre Mann,tre-mann,23,G,6-3,178,"FEB 03, 2001",23.0,2,Florida,2023-24,1610612766,CHA,Charlotte Hornets
+1641706,Brandon Miller,brandon-miller,24,F,6-7,200,"NOV 22, 2002",21.0,R,Alabama,2023-24,1610612766,CHA,Charlotte Hornets
+203552,Seth Curry,seth-curry,30,G,6-1,185,"AUG 23, 1990",33.0,10,Duke,2023-24,1610612766,CHA,Charlotte Hornets

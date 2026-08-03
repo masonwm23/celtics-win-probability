@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1626196,Josh Richardson,josh-richardson,0,G,6-5,200,"SEP 15, 1993",30.0,8,Tennessee,2023-24,1610612748,MIA,Miami Heat
+1626179,Terry Rozier,terry-rozier,2,G,6-1,190,"MAR 17, 1994",30.0,8,Louisville,2023-24,1610612748,MIA,Miami Heat
+1626153,Delon Wright,delon-wright,4,G,6-5,185,"APR 26, 1992",32.0,8,Utah,2023-24,1610612748,MIA,Miami Heat
+1631107,Nikola Jović,nikola-jović,5,F,6-10,205,"JUN 09, 2003",21.0,1,Mega Basket,2023-24,1610612748,MIA,Miami Heat
+1631288,Jamal Cain,jamal-cain,8,F,6-6,191,"MAR 20, 1999",25.0,1,Oakland,2023-24,1610612748,MIA,Miami Heat
+201988,Patty Mills,patty-mills,8,G,6-2,180,"AUG 11, 1988",35.0,14,St. Mary's,2023-24,1610612748,MIA,Miami Heat
+1631170,Jaime Jaquez Jr.,jaime-jaquez-jr,11,G,6-6,225,"FEB 18, 2001",23.0,R,UCLA,2023-24,1610612748,MIA,Miami Heat
+1628389,Bam Adebayo,bam-adebayo,13,C-F,6-9,255,"JUL 18, 1997",26.0,6,Kentucky,2023-24,1610612748,MIA,Miami Heat
+1629639,Tyler Herro,tyler-herro,14,G,6-5,195,"JAN 20, 2000",24.0,4,Kentucky,2023-24,1610612748,MIA,Miami Heat
+1631214,Alondes Williams,alondes-williams,15,G,6-4,210,"JUN 19, 1999",25.0,1,Wake Forest,2023-24,1610612748,MIA,Miami Heat
+1628997,Caleb Martin,caleb-martin,16,F,6-5,205,"SEP 28, 1995",28.0,4,Nevada,2023-24,1610612748,MIA,Miami Heat
+1631306,Cole Swider,cole-swider,21,F,6-8,220,"MAY 08, 1999",25.0,1,Syracuse,2023-24,1610612748,MIA,Miami Heat
+202710,Jimmy Butler III,jimmy-butler-iii,22,F,6-7,230,"SEP 14, 1989",34.0,12,Marquette,2023-24,1610612748,MIA,Miami Heat
+1629312,Haywood Highsmith,haywood-highsmith,24,F,6-5,220,"DEC 09, 1996",27.0,3,Wheeling Jesuit,2023-24,1610612748,MIA,Miami Heat
+1631115,Orlando Robinson,orlando-robinson,25,C,6-10,235,"JUL 10, 2000",23.0,1,Fresno State,2023-24,1610612748,MIA,Miami Heat
+1628418,Thomas Bryant,thomas-bryant,31,C-F,6-10,248,"JUL 31, 1997",26.0,6,Indiana,2023-24,1610612748,MIA,Miami Heat
+201567,Kevin Love,kevin-love,42,F-C,6-8,251,"SEP 07, 1988",35.0,15,UCLA,2023-24,1610612748,MIA,Miami Heat
+1629130,Duncan Robinson,duncan-robinson,55,F,6-7,215,"APR 22, 1994",30.0,5,Michigan,2023-24,1610612748,MIA,Miami Heat

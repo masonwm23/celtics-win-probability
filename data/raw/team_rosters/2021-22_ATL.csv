@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1626153,Delon Wright,delon-wright,0,G,6-5,185,"APR 26, 1992",30.0,6,Utah,2021-22,1610612737,ATL,Atlanta Hawks
+1630552,Jalen Johnson,jalen-johnson,1,F,6-8,219,"DEC 18, 2001",20.0,R,Duke,2021-22,1610612737,ATL,Atlanta Hawks
+1630536,Sharife Cooper,sharife-cooper,2,G,6-1,176,"JUN 11, 2001",21.0,R,Auburn,2021-22,1610612737,ATL,Atlanta Hawks
+1628989,Kevin Huerter,kevin-huerter,3,G-F,6-7,198,"AUG 27, 1998",23.0,3,Maryland,2021-22,1610612737,ATL,Atlanta Hawks
+1630219,Skylar Mays,skylar-mays,4,G,6-4,205,"SEP 05, 1997",24.0,1,Louisiana State,2021-22,1610612737,ATL,Atlanta Hawks
+1628995,Kevin Knox II,kevin-knox-ii,5,F,6-7,215,"AUG 11, 1999",22.0,3,Kentucky,2021-22,1610612737,ATL,Atlanta Hawks
+101150,Lou Williams,lou-williams,6,G,6-2,175,"OCT 27, 1986",35.0,16,South Gwinnett HS (GA),2021-22,1610612737,ATL,Atlanta Hawks
+1627789,Timothe Luwawu-Cabarrot,timothe-luwawu-cabarrot,7,G-F,6-7,215,"MAY 09, 1995",27.0,5,Mega Basket,2021-22,1610612737,ATL,Atlanta Hawks
+201568,Danilo Gallinari,danilo-gallinari,8,F,6-10,236,"AUG 08, 1988",33.0,12,Olimpia Milano,2021-22,1610612737,ATL,Atlanta Hawks
+203476,Gorgui Dieng,gorgui-dieng,10,C,6-10,248,"JAN 18, 1990",32.0,8,Louisville,2021-22,1610612737,ATL,Atlanta Hawks
+1629027,Trae Young,trae-young,11,G,6-1,164,"SEP 19, 1998",23.0,3,Oklahoma,2021-22,1610612737,ATL,Atlanta Hawks
+1629631,De'Andre Hunter,deandre-hunter,12,F-G,6-8,221,"DEC 02, 1997",24.0,2,Virginia,2021-22,1610612737,ATL,Atlanta Hawks
+203992,Bogdan Bogdanović,bogdan-bogdanović,13,G,6-6,225,"AUG 18, 1992",29.0,4,Fenerbahce,2021-22,1610612737,ATL,Atlanta Hawks
+203991,Clint Capela,clint-capela,15,C,6-10,256,"MAY 18, 1994",28.0,7,Elan Chalon,2021-22,1610612737,ATL,Atlanta Hawks
+1630168,Onyeka Okongwu,onyeka-okongwu,17,F-C,6-8,240,"DEC 11, 2000",21.0,1,Southern California,2021-22,1610612737,ATL,Atlanta Hawks
+1628381,John Collins,john-collins,20,F-C,6-9,226,"SEP 23, 1997",24.0,4,Wake Forest,2021-22,1610612737,ATL,Atlanta Hawks
+1630602,Chaundee Brown Jr.,chaundee-brown-jr,38,F,6-5,215,"DEC 04, 1998",23.0,R,Michigan,2021-22,1610612737,ATL,Atlanta Hawks

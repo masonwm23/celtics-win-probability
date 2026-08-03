@@ -1,0 +1,221 @@
+==============================================================================
+PHASE 11b - WHY DID THE VIDEO PROBE RETURN NOTHING
+==============================================================================
+
+  535 events, 24 games, 8 seasons, 0 errors, 0 clips. That pattern is
+  produced equally well by 'there is no video' and by 'we asked the
+  wrong address'. This prints the raw response so the two can be told
+  apart.
+
+==============================================================================
+GAME 0022300906  (2023-24)
+==============================================================================
+
+  event_index 2  action_number 7  [Made Shot]
+    ours: Porter Jr. 1' Cutting Layup Shot (2 PTS) (Gordon 1 AST)
+
+    --- videoevents ---
+      url: https://stats.nba.com/stats/videoevents?GameEventID=7&GameID=0022300906
+      top level keys : ['parameters', 'resource', 'resultSets']
+      resultSets type: dict
+      resultSets keys: ['Meta', 'playlist']
+      Meta.videoUrls : 1 entr(ies)
+        first: {"uuid": "4549dfbf-fde2-4dcc-8065-afade5ada267", "dur": null, "stt": null, "stp": null, "sth": null, "stw": null, "mtt": null, "mtp": null, "mth": null, "mtw": null, "ltt": null, "ltp": null, "lth": null, "ltw": null}
+      playlist       : 1 entr(ies)
+        first: {"gi": "0022300906", "ei": 7, "y": 2024, "m": "03", "d": "07", "gc": "2024-03-07/BOSDEN", "p": 1, "dsc": "Porter Jr. 1' Cutting Layup Shot (2 PTS) (Gordon 1 AST)", "ha": "DEN", "va": "BOS", "hpb": 0, "hpa": 2, "vpb": 0, "vpa": 0, "pta": 0}
+      raw body (532 chars), first 1500:
+      {"resource":"videoevents","parameters":{"GameID":"0022300906","GameEventID":7},"resultSets":{"Meta":{"videoUrls":[{"uuid":"4549dfbf-fde2-4dcc-8065-afade5ada267","dur":null,"stt":null,"stp":null,"sth":null,"stw":null,"mtt":null,"mtp":null,"mth":null,"mtw":null,"ltt":null,"ltp":null,"lth":null,"ltw":null}]},"playlist":[{"gi":"0022300906","ei":7,"y":2024,"m":"03","d":"07","gc":"2024-03-07/BOSDEN","p":1,"dsc":"Porter Jr. 1' Cutting Layup Shot (2 PTS) (Gordon 1 AST)","ha":"DEN","va":"BOS","hpb":0,"hpa":2,"vpb":0,"vpa":0,"pta":0}]}}
+
+    --- videoeventsasset ---
+      url: https://stats.nba.com/stats/videoeventsasset?GameEventID=7&GameID=0022300906
+      top level keys : ['parameters', 'resource', 'resultSets']
+      resultSets type: dict
+      resultSets keys: ['Meta', 'playlist']
+      Meta.videoUrls : 1 entr(ies)
+        first: {"uuid": "a0e91264-ad65-8051-1ddf-ff362d3c6e79", "sdur": 8850, "surl": "https://videos.nba.com/nba/pbp/media/2024/03/07/0022300906/7/a0e91264-ad65-8051-1ddf-ff362d3c6e79_320x180.mp4", "sth": "https://videos.nba.com/nba/pbp/media/2024/03/07/0022300906/7/a0e91264-ad65-8051-1ddf-ff362d3c6e79_320x180.jpg", "mdur": 8850, "murl": "https://videos.nba.com/nba/pbp/media/2024/03/07/0022300906/7/a0e91264-ad6
+      playlist       : 1 entr(ies)
+        first: {"gi": "0022300906", "ei": 7, "y": 2024, "m": "03", "d": "07", "gc": "2024-03-07/BOSDEN", "p": 1, "dsc": "Porter Jr. 1' Cutting Layup Shot (2 PTS) (Gordon 1 AST)", "ha": "DEN", "hid": 1610612743, "va": "BOS", "vid": 1610612738, "hpb": 0, "hpa": 2, "vpb": 0, "vpa": 0, "pta": 0}
+      raw body (1502 chars), first 1500:
+      {"resource":"videoevents","parameters":{"GameID":"0022300906","GameEventID":7},"resultSets":{"Meta":{"videoUrls":[{"uuid":"a0e91264-ad65-8051-1ddf-ff362d3c6e79","sdur":8850,"surl":"https://videos.nba.com/nba/pbp/media/2024/03/07/0022300906/7/a0e91264-ad65-8051-1ddf-ff362d3c6e79_320x180.mp4","sth":"https://videos.nba.com/nba/pbp/media/2024/03/07/0022300906/7/a0e91264-ad65-8051-1ddf-ff362d3c6e79_320x180.jpg","mdur":8850,"murl":"https://videos.nba.com/nba/pbp/media/2024/03/07/0022300906/7/a0e91264-ad65-8051-1ddf-ff362d3c6e79_960x540.mp4","mth":"https://videos.nba.com/nba/pbp/media/2024/03/07/0022300906/7/a0e91264-ad65-8051-1ddf-ff362d3c6e79_960x540.jpg","ldur":8850,"lurl":"https://videos.nba.com/nba/pbp/media/2024/03/07/0022300906/7/a0e91264-ad65-8051-1ddf-ff362d3c6e79_1280x720.mp4","lth":"https://videos.nba.com/nba/pbp/media/2024/03/07/0022300906/7/a0e91264-ad65-8051-1ddf-ff362d3c6e79_1280x720.jpg","vtt":"https://videos.nba.com/nba/pbp/media/2024/03/07/0022300906/7/a0e91264-ad65-8051-1ddf-ff362d3c6e79.vtt","scc":"https://videos.nba.com/nba/pbp/media/2024/03/07/0022300906/7/a0e91264-ad65-8051-1ddf-ff362d3c6e79.scc","srt":"https://videos.nba.com/nba/pbp/media/2024/03/07/0022300906/7/a0e91264-ad65-8051-1ddf-ff362d3c6e79.srt"}]},"playlist":[{"gi":"0022300906","ei":7,"y":2024,"m":"03","d":"07","gc":"2024-03-07/BOSDEN","p":1,"dsc":"Porter Jr. 1' Cutting Layup Shot (2 PTS) (Gordon 1 AST)","ha":"DEN","hid":1610612743,"va":"BOS","vid":1610612738,"hpb":0,"hpa":2,"vpb":0,"vpa":0,"pta":0}]
+
+  event_index 7  action_number 13  [Made Shot]
+    ours: Tatum 25' 3PT Jump Shot (3 PTS) (Brown 1 AST)
+
+    --- videoevents ---
+      url: https://stats.nba.com/stats/videoevents?GameEventID=13&GameID=0022300906
+      top level keys : ['parameters', 'resource', 'resultSets']
+      resultSets type: dict
+      resultSets keys: ['Meta', 'playlist']
+      Meta.videoUrls : 1 entr(ies)
+        first: {"uuid": "4549dfbf-fde2-4dcc-8065-afade5ada267", "dur": null, "stt": null, "stp": null, "sth": null, "stw": null, "mtt": null, "mtp": null, "mth": null, "mtw": null, "ltt": null, "ltp": null, "lth": null, "ltw": null}
+      playlist       : 1 entr(ies)
+        first: {"gi": "0022300906", "ei": 13, "y": 2024, "m": "03", "d": "07", "gc": "2024-03-07/BOSDEN", "p": 1, "dsc": "Tatum 25' 3PT Jump Shot (3 PTS) (Brown 1 AST)", "ha": "DEN", "va": "BOS", "hpb": 2, "hpa": 2, "vpb": 0, "vpa": 3, "pta": 0}
+      raw body (524 chars), first 1500:
+      {"resource":"videoevents","parameters":{"GameID":"0022300906","GameEventID":13},"resultSets":{"Meta":{"videoUrls":[{"uuid":"4549dfbf-fde2-4dcc-8065-afade5ada267","dur":null,"stt":null,"stp":null,"sth":null,"stw":null,"mtt":null,"mtp":null,"mth":null,"mtw":null,"ltt":null,"ltp":null,"lth":null,"ltw":null}]},"playlist":[{"gi":"0022300906","ei":13,"y":2024,"m":"03","d":"07","gc":"2024-03-07/BOSDEN","p":1,"dsc":"Tatum 25' 3PT Jump Shot (3 PTS) (Brown 1 AST)","ha":"DEN","va":"BOS","hpb":2,"hpa":2,"vpb":0,"vpa":3,"pta":0}]}}
+
+    --- videoeventsasset ---
+      url: https://stats.nba.com/stats/videoeventsasset?GameEventID=13&GameID=0022300906
+      top level keys : ['parameters', 'resource', 'resultSets']
+      resultSets type: dict
+      resultSets keys: ['Meta', 'playlist']
+      Meta.videoUrls : 1 entr(ies)
+        first: {"uuid": "e78db7cb-eb84-c8c8-b250-22e8b2bcf202", "sdur": 11183, "surl": "https://videos.nba.com/nba/pbp/media/2024/03/07/0022300906/13/e78db7cb-eb84-c8c8-b250-22e8b2bcf202_320x180.mp4", "sth": "https://videos.nba.com/nba/pbp/media/2024/03/07/0022300906/13/e78db7cb-eb84-c8c8-b250-22e8b2bcf202_320x180.jpg", "mdur": 11183, "murl": "https://videos.nba.com/nba/pbp/media/2024/03/07/0022300906/13/e78db7c
+      playlist       : 1 entr(ies)
+        first: {"gi": "0022300906", "ei": 13, "y": 2024, "m": "03", "d": "07", "gc": "2024-03-07/BOSDEN", "p": 1, "dsc": "Tatum 25' 3PT Jump Shot (3 PTS) (Brown 1 AST)", "ha": "DEN", "hid": 1610612743, "va": "BOS", "vid": 1610612738, "hpb": 2, "hpa": 2, "vpb": 0, "vpa": 3, "pta": 0}
+      raw body (1506 chars), first 1500:
+      {"resource":"videoevents","parameters":{"GameID":"0022300906","GameEventID":13},"resultSets":{"Meta":{"videoUrls":[{"uuid":"e78db7cb-eb84-c8c8-b250-22e8b2bcf202","sdur":11183,"surl":"https://videos.nba.com/nba/pbp/media/2024/03/07/0022300906/13/e78db7cb-eb84-c8c8-b250-22e8b2bcf202_320x180.mp4","sth":"https://videos.nba.com/nba/pbp/media/2024/03/07/0022300906/13/e78db7cb-eb84-c8c8-b250-22e8b2bcf202_320x180.jpg","mdur":11183,"murl":"https://videos.nba.com/nba/pbp/media/2024/03/07/0022300906/13/e78db7cb-eb84-c8c8-b250-22e8b2bcf202_960x540.mp4","mth":"https://videos.nba.com/nba/pbp/media/2024/03/07/0022300906/13/e78db7cb-eb84-c8c8-b250-22e8b2bcf202_960x540.jpg","ldur":11183,"lurl":"https://videos.nba.com/nba/pbp/media/2024/03/07/0022300906/13/e78db7cb-eb84-c8c8-b250-22e8b2bcf202_1280x720.mp4","lth":"https://videos.nba.com/nba/pbp/media/2024/03/07/0022300906/13/e78db7cb-eb84-c8c8-b250-22e8b2bcf202_1280x720.jpg","vtt":"https://videos.nba.com/nba/pbp/media/2024/03/07/0022300906/13/e78db7cb-eb84-c8c8-b250-22e8b2bcf202.vtt","scc":"https://videos.nba.com/nba/pbp/media/2024/03/07/0022300906/13/e78db7cb-eb84-c8c8-b250-22e8b2bcf202.scc","srt":"https://videos.nba.com/nba/pbp/media/2024/03/07/0022300906/13/e78db7cb-eb84-c8c8-b250-22e8b2bcf202.srt"}]},"playlist":[{"gi":"0022300906","ei":13,"y":2024,"m":"03","d":"07","gc":"2024-03-07/BOSDEN","p":1,"dsc":"Tatum 25' 3PT Jump Shot (3 PTS) (Brown 1 AST)","ha":"DEN","hid":1610612743,"va":"BOS","vid":1610612738,"hpb":2,"hpa":2,"vpb":0,"vpa":3,"pta"
+
+  event_index 12  action_number 20  [Made Shot]
+    ours: White 1' Running Finger Roll Layup (2 PTS) (Porzingis 1 AST)
+
+    --- videoevents ---
+      url: https://stats.nba.com/stats/videoevents?GameEventID=20&GameID=0022300906
+      top level keys : ['parameters', 'resource', 'resultSets']
+      resultSets type: dict
+      resultSets keys: ['Meta', 'playlist']
+      Meta.videoUrls : 1 entr(ies)
+        first: {"uuid": "4549dfbf-fde2-4dcc-8065-afade5ada267", "dur": null, "stt": null, "stp": null, "sth": null, "stw": null, "mtt": null, "mtp": null, "mth": null, "mtw": null, "ltt": null, "ltp": null, "lth": null, "ltw": null}
+      playlist       : 1 entr(ies)
+        first: {"gi": "0022300906", "ei": 20, "y": 2024, "m": "03", "d": "07", "gc": "2024-03-07/BOSDEN", "p": 1, "dsc": "White 1' Running Finger Roll Layup (2 PTS) (Porzingis 1 AST)", "ha": "DEN", "va": "BOS", "hpb": 2, "hpa": 2, "vpb": 3, "vpa": 5, "pta": 0}
+      raw body (539 chars), first 1500:
+      {"resource":"videoevents","parameters":{"GameID":"0022300906","GameEventID":20},"resultSets":{"Meta":{"videoUrls":[{"uuid":"4549dfbf-fde2-4dcc-8065-afade5ada267","dur":null,"stt":null,"stp":null,"sth":null,"stw":null,"mtt":null,"mtp":null,"mth":null,"mtw":null,"ltt":null,"ltp":null,"lth":null,"ltw":null}]},"playlist":[{"gi":"0022300906","ei":20,"y":2024,"m":"03","d":"07","gc":"2024-03-07/BOSDEN","p":1,"dsc":"White 1' Running Finger Roll Layup (2 PTS) (Porzingis 1 AST)","ha":"DEN","va":"BOS","hpb":2,"hpa":2,"vpb":3,"vpa":5,"pta":0}]}}
+
+    --- videoeventsasset ---
+      url: https://stats.nba.com/stats/videoeventsasset?GameEventID=20&GameID=0022300906
+      top level keys : ['parameters', 'resource', 'resultSets']
+      resultSets type: dict
+      resultSets keys: ['Meta', 'playlist']
+      Meta.videoUrls : 1 entr(ies)
+        first: {"uuid": "f3502014-7e52-2870-1e21-eeec7bf3e3bb", "sdur": 12116, "surl": "https://videos.nba.com/nba/pbp/media/2024/03/07/0022300906/20/f3502014-7e52-2870-1e21-eeec7bf3e3bb_320x180.mp4", "sth": "https://videos.nba.com/nba/pbp/media/2024/03/07/0022300906/20/f3502014-7e52-2870-1e21-eeec7bf3e3bb_320x180.jpg", "mdur": 12116, "murl": "https://videos.nba.com/nba/pbp/media/2024/03/07/0022300906/20/f350201
+      playlist       : 1 entr(ies)
+        first: {"gi": "0022300906", "ei": 20, "y": 2024, "m": "03", "d": "07", "gc": "2024-03-07/BOSDEN", "p": 1, "dsc": "White 1' Running Finger Roll Layup (2 PTS) (Porzingis 1 AST)", "ha": "DEN", "hid": 1610612743, "va": "BOS", "vid": 1610612738, "hpb": 2, "hpa": 2, "vpb": 3, "vpa": 5, "pta": 0}
+      raw body (1521 chars), first 1500:
+      {"resource":"videoevents","parameters":{"GameID":"0022300906","GameEventID":20},"resultSets":{"Meta":{"videoUrls":[{"uuid":"f3502014-7e52-2870-1e21-eeec7bf3e3bb","sdur":12116,"surl":"https://videos.nba.com/nba/pbp/media/2024/03/07/0022300906/20/f3502014-7e52-2870-1e21-eeec7bf3e3bb_320x180.mp4","sth":"https://videos.nba.com/nba/pbp/media/2024/03/07/0022300906/20/f3502014-7e52-2870-1e21-eeec7bf3e3bb_320x180.jpg","mdur":12116,"murl":"https://videos.nba.com/nba/pbp/media/2024/03/07/0022300906/20/f3502014-7e52-2870-1e21-eeec7bf3e3bb_960x540.mp4","mth":"https://videos.nba.com/nba/pbp/media/2024/03/07/0022300906/20/f3502014-7e52-2870-1e21-eeec7bf3e3bb_960x540.jpg","ldur":12116,"lurl":"https://videos.nba.com/nba/pbp/media/2024/03/07/0022300906/20/f3502014-7e52-2870-1e21-eeec7bf3e3bb_1280x720.mp4","lth":"https://videos.nba.com/nba/pbp/media/2024/03/07/0022300906/20/f3502014-7e52-2870-1e21-eeec7bf3e3bb_1280x720.jpg","vtt":"https://videos.nba.com/nba/pbp/media/2024/03/07/0022300906/20/f3502014-7e52-2870-1e21-eeec7bf3e3bb.vtt","scc":"https://videos.nba.com/nba/pbp/media/2024/03/07/0022300906/20/f3502014-7e52-2870-1e21-eeec7bf3e3bb.scc","srt":"https://videos.nba.com/nba/pbp/media/2024/03/07/0022300906/20/f3502014-7e52-2870-1e21-eeec7bf3e3bb.srt"}]},"playlist":[{"gi":"0022300906","ei":20,"y":2024,"m":"03","d":"07","gc":"2024-03-07/BOSDEN","p":1,"dsc":"White 1' Running Finger Roll Layup (2 PTS) (Porzingis 1 AST)","ha":"DEN","hid":1610612743,"va":"BOS","vid":1610612738,"hpb":2,"hpa":2,"vpb":
+
+    --- raw requests.get, videoevents, no nba_api ---
+      HTTP 200   
+      https://stats.nba.com/stats/videoevents?GameID=0022300906&GameEventID=7
+      body (532 chars), first 1500:
+      {"resource":"videoevents","parameters":{"GameID":"0022300906","GameEventID":7},"resultSets":{"Meta":{"videoUrls":[{"uuid":"4549dfbf-fde2-4dcc-8065-afade5ada267","dur":null,"stt":null,"stp":null,"sth":null,"stw":null,"mtt":null,"mtp":null,"mth":null,"mtw":null,"ltt":null,"ltp":null,"lth":null,"ltw":null}]},"playlist":[{"gi":"0022300906","ei":7,"y":2024,"m":"03","d":"07","gc":"2024-03-07/BOSDEN","p":1,"dsc":"Porter Jr. 1' Cutting Layup Shot (2 PTS) (Gordon 1 AST)","ha":"DEN","va":"BOS","hpb":0,"hpa":2,"vpb":0,"vpa":0,"pta":0}]}}
+
+    --- raw requests.get, videoeventsasset, no nba_api ---
+      HTTP 200   
+      https://stats.nba.com/stats/videoeventsasset?GameID=0022300906&GameEventID=7
+      body (1502 chars), first 1500:
+      {"resource":"videoevents","parameters":{"GameID":"0022300906","GameEventID":7},"resultSets":{"Meta":{"videoUrls":[{"uuid":"a0e91264-ad65-8051-1ddf-ff362d3c6e79","sdur":8850,"surl":"https://videos.nba.com/nba/pbp/media/2024/03/07/0022300906/7/a0e91264-ad65-8051-1ddf-ff362d3c6e79_320x180.mp4","sth":"https://videos.nba.com/nba/pbp/media/2024/03/07/0022300906/7/a0e91264-ad65-8051-1ddf-ff362d3c6e79_320x180.jpg","mdur":8850,"murl":"https://videos.nba.com/nba/pbp/media/2024/03/07/0022300906/7/a0e91264-ad65-8051-1ddf-ff362d3c6e79_960x540.mp4","mth":"https://videos.nba.com/nba/pbp/media/2024/03/07/0022300906/7/a0e91264-ad65-8051-1ddf-ff362d3c6e79_960x540.jpg","ldur":8850,"lurl":"https://videos.nba.com/nba/pbp/media/2024/03/07/0022300906/7/a0e91264-ad65-8051-1ddf-ff362d3c6e79_1280x720.mp4","lth":"https://videos.nba.com/nba/pbp/media/2024/03/07/0022300906/7/a0e91264-ad65-8051-1ddf-ff362d3c6e79_1280x720.jpg","vtt":"https://videos.nba.com/nba/pbp/media/2024/03/07/0022300906/7/a0e91264-ad65-8051-1ddf-ff362d3c6e79.vtt","scc":"https://videos.nba.com/nba/pbp/media/2024/03/07/0022300906/7/a0e91264-ad65-8051-1ddf-ff362d3c6e79.scc","srt":"https://videos.nba.com/nba/pbp/media/2024/03/07/0022300906/7/a0e91264-ad65-8051-1ddf-ff362d3c6e79.srt"}]},"playlist":[{"gi":"0022300906","ei":7,"y":2024,"m":"03","d":"07","gc":"2024-03-07/BOSDEN","p":1,"dsc":"Porter Jr. 1' Cutting Layup Shot (2 PTS) (Gordon 1 AST)","ha":"DEN","hid":1610612743,"va":"BOS","vid":1610612738,"hpb":0,"hpa":2,"vpb":0,"vpa":0,"pta":0}]
+
+==============================================================================
+GAME 0021600311  (2016-17)
+==============================================================================
+
+  event_index 10  action_number 8  [Made Shot]
+    ours: Beverley 24' 3PT Jump Shot (3 PTS) (Harden 1 AST)
+
+    --- videoevents ---
+      url: https://stats.nba.com/stats/videoevents?GameEventID=8&GameID=0021600311
+      top level keys : ['parameters', 'resource', 'resultSets']
+      resultSets type: dict
+      resultSets keys: ['Meta', 'playlist']
+      Meta.videoUrls : 1 entr(ies)
+        first: {"uuid": "4549dfbf-fde2-4dcc-8065-afade5ada267", "dur": null, "stt": null, "stp": null, "sth": null, "stw": null, "mtt": null, "mtp": null, "mth": null, "mtw": null, "ltt": null, "ltp": null, "lth": null, "ltw": null}
+      playlist       : 1 entr(ies)
+        first: {"gi": "0021600311", "ei": 8, "y": 2016, "m": "12", "d": "05", "gc": "2016-12-05/BOSHOU", "p": 1, "dsc": "Beverley 24' 3PT Jump Shot (3 PTS) (Harden 1 AST)", "ha": "HOU", "va": "BOS", "hpb": 0, "hpa": 3, "vpb": 0, "vpa": 0, "pta": 1}
+      raw body (526 chars), first 1500:
+      {"resource":"videoevents","parameters":{"GameID":"0021600311","GameEventID":8},"resultSets":{"Meta":{"videoUrls":[{"uuid":"4549dfbf-fde2-4dcc-8065-afade5ada267","dur":null,"stt":null,"stp":null,"sth":null,"stw":null,"mtt":null,"mtp":null,"mth":null,"mtw":null,"ltt":null,"ltp":null,"lth":null,"ltw":null}]},"playlist":[{"gi":"0021600311","ei":8,"y":2016,"m":"12","d":"05","gc":"2016-12-05/BOSHOU","p":1,"dsc":"Beverley 24' 3PT Jump Shot (3 PTS) (Harden 1 AST)","ha":"HOU","va":"BOS","hpb":0,"hpa":3,"vpb":0,"vpa":0,"pta":1}]}}
+
+    --- videoeventsasset ---
+      url: https://stats.nba.com/stats/videoeventsasset?GameEventID=8&GameID=0021600311
+      top level keys : ['parameters', 'resource', 'resultSets']
+      resultSets type: dict
+      resultSets keys: ['Meta', 'playlist']
+      Meta.videoUrls : 1 entr(ies)
+        first: {"uuid": "0c250bf4-ed2e-6383-52d3-894785c2de9b", "sdur": 11850, "surl": "https://videos.nba.com/nba/pbp/media/2016/12/05/0021600311/8/0c250bf4-ed2e-6383-52d3-894785c2de9b_320x180.mp4", "sth": "https://videos.nba.com/nba/pbp/media/2016/12/05/0021600311/8/0c250bf4-ed2e-6383-52d3-894785c2de9b_320x180.jpg", "mdur": 11850, "murl": "https://videos.nba.com/nba/pbp/media/2016/12/05/0021600311/8/0c250bf4-e
+      playlist       : 1 entr(ies)
+        first: {"gi": "0021600311", "ei": 8, "y": 2016, "m": "12", "d": "05", "gc": "2016-12-05/BOSHOU", "p": 1, "dsc": "Beverley 24' 3PT Jump Shot (3 PTS) (Harden 1 AST)", "ha": "HOU", "hid": 1610612745, "va": "BOS", "vid": 1610612738, "hpb": 0, "hpa": 3, "vpb": 0, "vpa": 0, "pta": 1}
+      raw body (1499 chars), first 1500:
+      {"resource":"videoevents","parameters":{"GameID":"0021600311","GameEventID":8},"resultSets":{"Meta":{"videoUrls":[{"uuid":"0c250bf4-ed2e-6383-52d3-894785c2de9b","sdur":11850,"surl":"https://videos.nba.com/nba/pbp/media/2016/12/05/0021600311/8/0c250bf4-ed2e-6383-52d3-894785c2de9b_320x180.mp4","sth":"https://videos.nba.com/nba/pbp/media/2016/12/05/0021600311/8/0c250bf4-ed2e-6383-52d3-894785c2de9b_320x180.jpg","mdur":11850,"murl":"https://videos.nba.com/nba/pbp/media/2016/12/05/0021600311/8/0c250bf4-ed2e-6383-52d3-894785c2de9b_960x540.mp4","mth":"https://videos.nba.com/nba/pbp/media/2016/12/05/0021600311/8/0c250bf4-ed2e-6383-52d3-894785c2de9b_960x540.jpg","ldur":11850,"lurl":"https://videos.nba.com/nba/pbp/media/2016/12/05/0021600311/8/0c250bf4-ed2e-6383-52d3-894785c2de9b_1280x720.mp4","lth":"https://videos.nba.com/nba/pbp/media/2016/12/05/0021600311/8/0c250bf4-ed2e-6383-52d3-894785c2de9b_1280x720.jpg","vtt":"https://videos.nba.com/nba/pbp/media/2016/12/05/0021600311/8/0c250bf4-ed2e-6383-52d3-894785c2de9b.vtt","scc":"https://videos.nba.com/nba/pbp/media/2016/12/05/0021600311/8/0c250bf4-ed2e-6383-52d3-894785c2de9b.scc","srt":"https://videos.nba.com/nba/pbp/media/2016/12/05/0021600311/8/0c250bf4-ed2e-6383-52d3-894785c2de9b.srt"}]},"playlist":[{"gi":"0021600311","ei":8,"y":2016,"m":"12","d":"05","gc":"2016-12-05/BOSHOU","p":1,"dsc":"Beverley 24' 3PT Jump Shot (3 PTS) (Harden 1 AST)","ha":"HOU","hid":1610612745,"va":"BOS","vid":1610612738,"hpb":0,"hpa":3,"vpb":0,"vpa":0,"pta":1}]}}
+
+  event_index 11  action_number 9  [Made Shot]
+    ours: Thomas  3PT Jump Shot (3 PTS) (Horford 1 AST)
+
+    --- videoevents ---
+      url: https://stats.nba.com/stats/videoevents?GameEventID=9&GameID=0021600311
+      top level keys : ['parameters', 'resource', 'resultSets']
+      resultSets type: dict
+      resultSets keys: ['Meta', 'playlist']
+      Meta.videoUrls : 1 entr(ies)
+        first: {"uuid": "4549dfbf-fde2-4dcc-8065-afade5ada267", "dur": null, "stt": null, "stp": null, "sth": null, "stw": null, "mtt": null, "mtp": null, "mth": null, "mtw": null, "ltt": null, "ltp": null, "lth": null, "ltw": null}
+      playlist       : 1 entr(ies)
+        first: {"gi": "0021600311", "ei": 9, "y": 2016, "m": "12", "d": "05", "gc": "2016-12-05/BOSHOU", "p": 1, "dsc": "Thomas  3PT Jump Shot (3 PTS) (Horford 1 AST)", "ha": "HOU", "va": "BOS", "hpb": 3, "hpa": 3, "vpb": 0, "vpa": 3, "pta": 1}
+      raw body (522 chars), first 1500:
+      {"resource":"videoevents","parameters":{"GameID":"0021600311","GameEventID":9},"resultSets":{"Meta":{"videoUrls":[{"uuid":"4549dfbf-fde2-4dcc-8065-afade5ada267","dur":null,"stt":null,"stp":null,"sth":null,"stw":null,"mtt":null,"mtp":null,"mth":null,"mtw":null,"ltt":null,"ltp":null,"lth":null,"ltw":null}]},"playlist":[{"gi":"0021600311","ei":9,"y":2016,"m":"12","d":"05","gc":"2016-12-05/BOSHOU","p":1,"dsc":"Thomas  3PT Jump Shot (3 PTS) (Horford 1 AST)","ha":"HOU","va":"BOS","hpb":3,"hpa":3,"vpb":0,"vpa":3,"pta":1}]}}
+
+    --- videoeventsasset ---
+      url: https://stats.nba.com/stats/videoeventsasset?GameEventID=9&GameID=0021600311
+      top level keys : ['parameters', 'resource', 'resultSets']
+      resultSets type: dict
+      resultSets keys: ['Meta', 'playlist']
+      Meta.videoUrls : 1 entr(ies)
+        first: {"uuid": "93147d9d-2e3c-7b63-7f92-c505d6de0396", "sdur": 8650, "surl": "https://videos.nba.com/nba/pbp/media/2016/12/05/0021600311/9/93147d9d-2e3c-7b63-7f92-c505d6de0396_320x180.mp4", "sth": "https://videos.nba.com/nba/pbp/media/2016/12/05/0021600311/9/93147d9d-2e3c-7b63-7f92-c505d6de0396_320x180.jpg", "mdur": 8650, "murl": "https://videos.nba.com/nba/pbp/media/2016/12/05/0021600311/9/93147d9d-2e3
+      playlist       : 1 entr(ies)
+        first: {"gi": "0021600311", "ei": 9, "y": 2016, "m": "12", "d": "05", "gc": "2016-12-05/BOSHOU", "p": 1, "dsc": "Thomas  3PT Jump Shot (3 PTS) (Horford 1 AST)", "ha": "HOU", "hid": 1610612745, "va": "BOS", "vid": 1610612738, "hpb": 3, "hpa": 3, "vpb": 0, "vpa": 3, "pta": 1}
+      raw body (1492 chars), first 1500:
+      {"resource":"videoevents","parameters":{"GameID":"0021600311","GameEventID":9},"resultSets":{"Meta":{"videoUrls":[{"uuid":"93147d9d-2e3c-7b63-7f92-c505d6de0396","sdur":8650,"surl":"https://videos.nba.com/nba/pbp/media/2016/12/05/0021600311/9/93147d9d-2e3c-7b63-7f92-c505d6de0396_320x180.mp4","sth":"https://videos.nba.com/nba/pbp/media/2016/12/05/0021600311/9/93147d9d-2e3c-7b63-7f92-c505d6de0396_320x180.jpg","mdur":8650,"murl":"https://videos.nba.com/nba/pbp/media/2016/12/05/0021600311/9/93147d9d-2e3c-7b63-7f92-c505d6de0396_960x540.mp4","mth":"https://videos.nba.com/nba/pbp/media/2016/12/05/0021600311/9/93147d9d-2e3c-7b63-7f92-c505d6de0396_960x540.jpg","ldur":8650,"lurl":"https://videos.nba.com/nba/pbp/media/2016/12/05/0021600311/9/93147d9d-2e3c-7b63-7f92-c505d6de0396_1280x720.mp4","lth":"https://videos.nba.com/nba/pbp/media/2016/12/05/0021600311/9/93147d9d-2e3c-7b63-7f92-c505d6de0396_1280x720.jpg","vtt":"https://videos.nba.com/nba/pbp/media/2016/12/05/0021600311/9/93147d9d-2e3c-7b63-7f92-c505d6de0396.vtt","scc":"https://videos.nba.com/nba/pbp/media/2016/12/05/0021600311/9/93147d9d-2e3c-7b63-7f92-c505d6de0396.scc","srt":"https://videos.nba.com/nba/pbp/media/2016/12/05/0021600311/9/93147d9d-2e3c-7b63-7f92-c505d6de0396.srt"}]},"playlist":[{"gi":"0021600311","ei":9,"y":2016,"m":"12","d":"05","gc":"2016-12-05/BOSHOU","p":1,"dsc":"Thomas  3PT Jump Shot (3 PTS) (Horford 1 AST)","ha":"HOU","hid":1610612745,"va":"BOS","vid":1610612738,"hpb":3,"hpa":3,"vpb":0,"vpa":3,"pta":1}]}}
+
+  event_index 32  action_number 28  [Made Shot]
+    ours: Horford 1' Tip Layup Shot (2 PTS)
+
+    --- videoevents ---
+      url: https://stats.nba.com/stats/videoevents?GameEventID=28&GameID=0021600311
+      top level keys : ['parameters', 'resource', 'resultSets']
+      resultSets type: dict
+      resultSets keys: ['Meta', 'playlist']
+      Meta.videoUrls : 1 entr(ies)
+        first: {"uuid": "4549dfbf-fde2-4dcc-8065-afade5ada267", "dur": null, "stt": null, "stp": null, "sth": null, "stw": null, "mtt": null, "mtp": null, "mth": null, "mtw": null, "ltt": null, "ltp": null, "lth": null, "ltw": null}
+      playlist       : 1 entr(ies)
+        first: {"gi": "0021600311", "ei": 28, "y": 2016, "m": "12", "d": "05", "gc": "2016-12-05/BOSHOU", "p": 1, "dsc": "Horford 1' Tip Layup Shot (2 PTS)", "ha": "HOU", "va": "BOS", "hpb": 3, "hpa": 3, "vpb": 3, "vpa": 5, "pta": 1}
+      raw body (512 chars), first 1500:
+      {"resource":"videoevents","parameters":{"GameID":"0021600311","GameEventID":28},"resultSets":{"Meta":{"videoUrls":[{"uuid":"4549dfbf-fde2-4dcc-8065-afade5ada267","dur":null,"stt":null,"stp":null,"sth":null,"stw":null,"mtt":null,"mtp":null,"mth":null,"mtw":null,"ltt":null,"ltp":null,"lth":null,"ltw":null}]},"playlist":[{"gi":"0021600311","ei":28,"y":2016,"m":"12","d":"05","gc":"2016-12-05/BOSHOU","p":1,"dsc":"Horford 1' Tip Layup Shot (2 PTS)","ha":"HOU","va":"BOS","hpb":3,"hpa":3,"vpb":3,"vpa":5,"pta":1}]}}
+
+    --- videoeventsasset ---
+      url: https://stats.nba.com/stats/videoeventsasset?GameEventID=28&GameID=0021600311
+      top level keys : ['parameters', 'resource', 'resultSets']
+      resultSets type: dict
+      resultSets keys: ['Meta', 'playlist']
+      Meta.videoUrls : 1 entr(ies)
+        first: {"uuid": "5609acd1-3cd5-8d85-990b-9240f23f478b", "sdur": 7983, "surl": "https://videos.nba.com/nba/pbp/media/2016/12/05/0021600311/28/5609acd1-3cd5-8d85-990b-9240f23f478b_320x180.mp4", "sth": "https://videos.nba.com/nba/pbp/media/2016/12/05/0021600311/28/5609acd1-3cd5-8d85-990b-9240f23f478b_320x180.jpg", "mdur": 7983, "murl": "https://videos.nba.com/nba/pbp/media/2016/12/05/0021600311/28/5609acd1-
+      playlist       : 1 entr(ies)
+        first: {"gi": "0021600311", "ei": 28, "y": 2016, "m": "12", "d": "05", "gc": "2016-12-05/BOSHOU", "p": 1, "dsc": "Horford 1' Tip Layup Shot (2 PTS)", "ha": "HOU", "hid": 1610612745, "va": "BOS", "vid": 1610612738, "hpb": 3, "hpa": 3, "vpb": 3, "vpa": 5, "pta": 1}
+      raw body (1491 chars), first 1500:
+      {"resource":"videoevents","parameters":{"GameID":"0021600311","GameEventID":28},"resultSets":{"Meta":{"videoUrls":[{"uuid":"5609acd1-3cd5-8d85-990b-9240f23f478b","sdur":7983,"surl":"https://videos.nba.com/nba/pbp/media/2016/12/05/0021600311/28/5609acd1-3cd5-8d85-990b-9240f23f478b_320x180.mp4","sth":"https://videos.nba.com/nba/pbp/media/2016/12/05/0021600311/28/5609acd1-3cd5-8d85-990b-9240f23f478b_320x180.jpg","mdur":7983,"murl":"https://videos.nba.com/nba/pbp/media/2016/12/05/0021600311/28/5609acd1-3cd5-8d85-990b-9240f23f478b_960x540.mp4","mth":"https://videos.nba.com/nba/pbp/media/2016/12/05/0021600311/28/5609acd1-3cd5-8d85-990b-9240f23f478b_960x540.jpg","ldur":7983,"lurl":"https://videos.nba.com/nba/pbp/media/2016/12/05/0021600311/28/5609acd1-3cd5-8d85-990b-9240f23f478b_1280x720.mp4","lth":"https://videos.nba.com/nba/pbp/media/2016/12/05/0021600311/28/5609acd1-3cd5-8d85-990b-9240f23f478b_1280x720.jpg","vtt":"https://videos.nba.com/nba/pbp/media/2016/12/05/0021600311/28/5609acd1-3cd5-8d85-990b-9240f23f478b.vtt","scc":"https://videos.nba.com/nba/pbp/media/2016/12/05/0021600311/28/5609acd1-3cd5-8d85-990b-9240f23f478b.scc","srt":"https://videos.nba.com/nba/pbp/media/2016/12/05/0021600311/28/5609acd1-3cd5-8d85-990b-9240f23f478b.srt"}]},"playlist":[{"gi":"0021600311","ei":28,"y":2016,"m":"12","d":"05","gc":"2016-12-05/BOSHOU","p":1,"dsc":"Horford 1' Tip Layup Shot (2 PTS)","ha":"HOU","hid":1610612745,"va":"BOS","vid":1610612738,"hpb":3,"hpa":3,"vpb":3,"vpa":5,"pta":1}]}}
+
+    --- raw requests.get, videoevents, no nba_api ---
+      HTTP 200   
+      https://stats.nba.com/stats/videoevents?GameID=0021600311&GameEventID=8
+      body (526 chars), first 1500:
+      {"resource":"videoevents","parameters":{"GameID":"0021600311","GameEventID":8},"resultSets":{"Meta":{"videoUrls":[{"uuid":"4549dfbf-fde2-4dcc-8065-afade5ada267","dur":null,"stt":null,"stp":null,"sth":null,"stw":null,"mtt":null,"mtp":null,"mth":null,"mtw":null,"ltt":null,"ltp":null,"lth":null,"ltw":null}]},"playlist":[{"gi":"0021600311","ei":8,"y":2016,"m":"12","d":"05","gc":"2016-12-05/BOSHOU","p":1,"dsc":"Beverley 24' 3PT Jump Shot (3 PTS) (Harden 1 AST)","ha":"HOU","va":"BOS","hpb":0,"hpa":3,"vpb":0,"vpa":0,"pta":1}]}}
+
+    --- raw requests.get, videoeventsasset, no nba_api ---
+      HTTP 200   
+      https://stats.nba.com/stats/videoeventsasset?GameID=0021600311&GameEventID=8
+      body (1499 chars), first 1500:
+      {"resource":"videoevents","parameters":{"GameID":"0021600311","GameEventID":8},"resultSets":{"Meta":{"videoUrls":[{"uuid":"0c250bf4-ed2e-6383-52d3-894785c2de9b","sdur":11850,"surl":"https://videos.nba.com/nba/pbp/media/2016/12/05/0021600311/8/0c250bf4-ed2e-6383-52d3-894785c2de9b_320x180.mp4","sth":"https://videos.nba.com/nba/pbp/media/2016/12/05/0021600311/8/0c250bf4-ed2e-6383-52d3-894785c2de9b_320x180.jpg","mdur":11850,"murl":"https://videos.nba.com/nba/pbp/media/2016/12/05/0021600311/8/0c250bf4-ed2e-6383-52d3-894785c2de9b_960x540.mp4","mth":"https://videos.nba.com/nba/pbp/media/2016/12/05/0021600311/8/0c250bf4-ed2e-6383-52d3-894785c2de9b_960x540.jpg","ldur":11850,"lurl":"https://videos.nba.com/nba/pbp/media/2016/12/05/0021600311/8/0c250bf4-ed2e-6383-52d3-894785c2de9b_1280x720.mp4","lth":"https://videos.nba.com/nba/pbp/media/2016/12/05/0021600311/8/0c250bf4-ed2e-6383-52d3-894785c2de9b_1280x720.jpg","vtt":"https://videos.nba.com/nba/pbp/media/2016/12/05/0021600311/8/0c250bf4-ed2e-6383-52d3-894785c2de9b.vtt","scc":"https://videos.nba.com/nba/pbp/media/2016/12/05/0021600311/8/0c250bf4-ed2e-6383-52d3-894785c2de9b.scc","srt":"https://videos.nba.com/nba/pbp/media/2016/12/05/0021600311/8/0c250bf4-ed2e-6383-52d3-894785c2de9b.srt"}]},"playlist":[{"gi":"0021600311","ei":8,"y":2016,"m":"12","d":"05","gc":"2016-12-05/BOSHOU","p":1,"dsc":"Beverley 24' 3PT Jump Shot (3 PTS) (Harden 1 AST)","ha":"HOU","hid":1610612745,"va":"BOS","vid":1610612738,"hpb":0,"hpa":3,"vpb":0,"vpa":0,"pta":1}]}}
+
+==============================================================================
+HOW TO READ THIS
+==============================================================================
+
+  If videoeventsasset returns a playlist and videoevents does not,
+  the probe asked the wrong endpoint and its result means nothing.
+  The probe gets fixed and re-run.
+
+  If BOTH return an empty playlist and the raw HTTP status is 200,
+  the clips genuinely are not addressable this way and the video
+  feature is not worth building from this source.
+
+  If the raw status is 403 or the body is not JSON, we are being
+  blocked, which is a third answer again and says nothing about
+  whether the clips exist.
+
+  Nothing was changed by this script.
+==============================================================================

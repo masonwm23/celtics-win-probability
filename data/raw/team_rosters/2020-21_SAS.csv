@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1629022,Lonnie Walker IV,lonnie-walker-iv,1,G-F,6-4,204,"DEC 14, 1998",22.0,2,Miami,2020-21,1610612759,SAS,San Antonio Spurs
+1629640,Keldon Johnson,keldon-johnson,3,F-G,6-5,220,"OCT 11, 1999",21.0,1,Kentucky,2020-21,1610612759,SAS,San Antonio Spurs
+1628401,Derrick White,derrick-white,4,G,6-4,190,"JUL 02, 1994",26.0,3,Colorado,2020-21,1610612759,SAS,San Antonio Spurs
+1627749,Dejounte Murray,dejounte-murray,5,G,6-4,180,"SEP 19, 1996",24.0,4,Washington,2020-21,1610612759,SAS,San Antonio Spurs
+203476,Gorgui Dieng,gorgui-dieng,7,C,6-10,252,"JAN 18, 1990",31.0,7,Louisville,2020-21,1610612759,SAS,San Antonio Spurs
+201988,Patty Mills,patty-mills,8,G,6-1,180,"AUG 11, 1988",32.0,11,St. Mary's,2020-21,1610612759,SAS,San Antonio Spurs
+201942,DeMar DeRozan,demar-derozan,10,G-F,6-6,220,"AUG 07, 1989",31.0,11,Southern California,2020-21,1610612759,SAS,San Antonio Spurs
+1629234,Drew Eubanks,drew-eubanks,14,F-C,6-9,245,"FEB 01, 1997",24.0,2,Oregon State,2020-21,1610612759,SAS,San Antonio Spurs
+1629683,Quinndary Weatherspoon,quinndary-weatherspoon,15,G,6-3,205,"SEP 10, 1996",24.0,1,Mississippi State,2020-21,1610612759,SAS,San Antonio Spurs
+1629677,Luka Samanic,luka-samanic,19,F,6-10,227,"JAN 09, 2000",21.0,1,Union Olimpija,2020-21,1610612759,SAS,San Antonio Spurs
+200752,Rudy Gay,rudy-gay,22,F-G,6-8,250,"AUG 17, 1986",34.0,14,Connecticut,2020-21,1610612759,SAS,San Antonio Spurs
+1630170,Devin Vassell,devin-vassell,24,G-F,6-5,200,"AUG 23, 2000",20.0,R,Florida State,2020-21,1610612759,SAS,San Antonio Spurs
+1627751,Jakob Poeltl,jakob-poeltl,25,C,7-1,245,"OCT 15, 1995",25.0,4,Utah,2020-21,1610612759,SAS,San Antonio Spurs
+1628966,Keita Bates-Diop,keita-bates-diop,31,F,6-8,229,"JAN 23, 1996",25.0,2,Ohio State,2020-21,1610612759,SAS,San Antonio Spurs
+1630200,Tre Jones,tre-jones,33,G,6-1,185,"JAN 08, 2000",21.0,R,Duke,2020-21,1610612759,SAS,San Antonio Spurs
+1626168,Trey Lyles,trey-lyles,41,F,6-9,234,"NOV 05, 1995",25.0,5,Kentucky,2020-21,1610612759,SAS,San Antonio Spurs
+1629610,DaQuan Jeffries,daquan-jeffries,55,G-F,6-5,230,"AUG 30, 1997",23.0,1,Tulsa,2020-21,1610612759,SAS,San Antonio Spurs

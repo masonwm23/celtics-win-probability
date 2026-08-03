@@ -1,0 +1,17 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+203457,Nerlens Noel,nerlens-noel,3,F-C,6-11,228,"APR 10, 1994",23.0,2,Kentucky,2016-17,1610612742,DAL,Dallas Mavericks
+200826,J.J. Barea,jj-barea,5,G,6-0,185,"JUN 26, 1984",33.0,10,Northeastern,2016-17,1610612742,DAL,Dallas Mavericks
+202412,Manny Harris,manny-harris,6,G,6-5,185,"SEP 21, 1989",27.0,3,Michigan,2016-17,1610612742,DAL,Dallas Mavericks
+203939,Dwight Powell,dwight-powell,7,F-C,6-11,240,"JUL 20, 1991",25.0,2,Stanford,2016-17,1610612742,DAL,Dallas Mavericks
+1627852,Nicolas Brussino,nicolas-brussino,9,F,6-8,215,"MAR 02, 1993",24.0,R,Penarol,2016-17,1610612742,DAL,Dallas Mavericks
+1627827,Dorian Finney-Smith,dorian-finney-smith,10,F,6-8,220,"MAY 04, 1993",24.0,R,Florida,2016-17,1610612742,DAL,Dallas Mavericks
+1627812,Yogi Ferrell,yogi-ferrell,11,G,6-0,180,"MAY 09, 1993",24.0,R,Indiana,2016-17,1610612742,DAL,Dallas Mavericks
+202732,DeAndre Liggins,deandre-liggins,14,G,6-6,209,"MAR 31, 1988",29.0,3,Kentucky,2016-17,1610612742,DAL,Dallas Mavericks
+1627784,Jarrod Uthoff,jarrod-uthoff,19,F,6-9,221,"MAY 19, 1993",24.0,R,Iowa,2016-17,1610612742,DAL,Dallas Mavericks
+1627773,AJ Hammons,aj-hammons,20,C,7-0,260,"AUG 27, 1992",24.0,R,Purdue,2016-17,1610612742,DAL,Dallas Mavericks
+202083,Wesley Matthews,wesley-matthews,23,G-F,6-5,220,"OCT 14, 1986",30.0,7,Marquette,2016-17,1610612742,DAL,Dallas Mavericks
+203552,Seth Curry,seth-curry,30,G,6-2,185,"AUG 23, 1990",26.0,3,Duke,2016-17,1610612742,DAL,Dallas Mavericks
+2734,Devin Harris,devin-harris,34,G,6-3,185,"FEB 27, 1983",34.0,12,Wisconsin,2016-17,1610612742,DAL,Dallas Mavericks
+203084,Harrison Barnes,harrison-barnes,40,F,6-8,225,"MAY 30, 1992",25.0,4,North Carolina,2016-17,1610612742,DAL,Dallas Mavericks
+1717,Dirk Nowitzki,dirk-nowitzki,41,F,7-0,245,"JUN 19, 1978",39.0,18,DJK Wurzburg,2016-17,1610612742,DAL,Dallas Mavericks
+1626257,Salah Mejri,salah-mejri,50,C,7-2,245,"JUN 15, 1986",31.0,1,Real Madrid,2016-17,1610612742,DAL,Dallas Mavericks

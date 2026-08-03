@@ -1,0 +1,17 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+203081,Damian Lillard,damian-lillard,0,G,6-3,195,"JUL 15, 1990",27.0,5,Weber State,2017-18,1610612757,POR,Portland Trail Blazers
+202323,Evan Turner,evan-turner,1,F-G,6-7,220,"OCT 27, 1988",29.0,7,Ohio State,2017-18,1610612757,POR,Portland Trail Blazers
+1627735,Wade Baldwin IV,wade-baldwin-iv,2,G,6-4,202,"MAR 29, 1996",22.0,1,Vanderbilt,2017-18,1610612757,POR,Portland Trail Blazers
+203468,CJ McCollum,cj-mccollum,3,G,6-3,190,"SEP 19, 1991",26.0,4,Lehigh,2017-18,1610612757,POR,Portland Trail Blazers
+203090,Maurice Harkless,maurice-harkless,4,F,6-9,220,"MAY 11, 1993",25.0,5,"St. John's, N.Y.",2017-18,1610612757,POR,Portland Trail Blazers
+1626192,Pat Connaughton,pat-connaughton,5,G-F,6-5,210,"JAN 06, 1993",25.0,2,Notre Dame,2017-18,1610612757,POR,Portland Trail Blazers
+203894,Shabazz Napier,shabazz-napier,6,G,6-1,175,"JUL 14, 1991",26.0,3,Connecticut,2017-18,1610612757,POR,Portland Trail Blazers
+202329,Al-Farouq Aminu,al-farouq-aminu,8,F,6-9,220,"SEP 21, 1990",27.0,7,Wake Forest,2017-18,1610612757,POR,Portland Trail Blazers
+1627774,Jake Layman,jake-layman,10,F,6-9,210,"MAR 07, 1994",24.0,1,Maryland,2017-18,1610612757,POR,Portland Trail Blazers
+203086,Meyers Leonard,meyers-leonard,11,C,7-1,255,"FEB 27, 1992",26.0,5,Illinois,2017-18,1610612757,POR,Portland Trail Blazers
+202334,Ed Davis,ed-davis,17,F-C,6-10,245,"JUN 05, 1989",29.0,7,North Carolina,2017-18,1610612757,POR,Portland Trail Blazers
+1627834,Georgios Papagiannis,georgios-papagiannis,19,C,7-1,240,"JUL 03, 1997",20.0,1,Panathinaikos,2017-18,1610612757,POR,Portland Trail Blazers
+203912,C.J. Wilcox,cj-wilcox,23,G,6-5,195,"DEC 30, 1990",27.0,3,Washington,2017-18,1610612757,POR,Portland Trail Blazers
+203994,Jusuf Nurkić,jusuf-nurkić,27,C,7-0,280,"AUG 23, 1994",23.0,3,Cedevita,2017-18,1610612757,POR,Portland Trail Blazers
+1628380,Zach Collins,zach-collins,33,C-F,7-0,230,"NOV 19, 1997",20.0,R,Gonzaga,2017-18,1610612757,POR,Portland Trail Blazers
+1628403,Caleb Swanigan,caleb-swanigan,50,F-C,6-8,250,"APR 18, 1997",21.0,R,Purdue,2017-18,1610612757,POR,Portland Trail Blazers

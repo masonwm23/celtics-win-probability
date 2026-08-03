@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1629632,Coby White,coby-white,0,G,6-5,195,"FEB 16, 2000",21.0,1,North Carolina,2020-21,1610612741,CHI,Chicago Bulls
+1629653,Devon Dotson,devon-dotson,3,G,6-2,185,"AUG 02, 1999",21.0,R,Kansas,2020-21,1610612741,CHI,Chicago Bulls
+202329,Al-Farouq Aminu,al-farouq-aminu,5,F,6-8,220,"SEP 21, 1990",30.0,10,Wake Forest,2020-21,1610612741,CHI,Chicago Bulls
+1626245,Cristiano Felicio,cristiano-felicio,6,F-C,6-11,270,"JUL 07, 1992",28.0,5,Flamengo,2020-21,1610612741,CHI,Chicago Bulls
+1628972,Troy Brown Jr.,troy-brown-jr,7,G-F,6-6,215,"JUL 28, 1999",21.0,2,Oregon,2020-21,1610612741,CHI,Chicago Bulls
+203897,Zach LaVine,zach-lavine,8,G-F,6-5,200,"MAR 10, 1995",26.0,6,UCLA,2020-21,1610612741,CHI,Chicago Bulls
+202696,Nikola Vučević,nikola-vučević,9,C,6-11,260,"OCT 24, 1990",30.0,9,Southern California,2020-21,1610612741,CHI,Chicago Bulls
+1629750,Javonte Green,javonte-green,11,G-F,6-4,205,"JUL 23, 1993",27.0,1,Radford,2020-21,1610612741,CHI,Chicago Bulls
+202066,Garrett Temple,garrett-temple,17,G-F,6-5,195,"MAY 08, 1986",35.0,10,Louisiana State,2020-21,1610612741,CHI,Chicago Bulls
+1629690,Adam Mokoka,adam-mokoka,20,G,6-4,190,"JUL 18, 1998",22.0,1,Mega Basket,2020-21,1610612741,CHI,Chicago Bulls
+201152,Thaddeus Young,thaddeus-young,21,F,6-8,235,"JUN 21, 1988",33.0,13,Georgia Tech,2020-21,1610612741,CHI,Chicago Bulls
+1628374,Lauri Markkanen,lauri-markkanen,24,F-C,7-0,240,"MAY 22, 1997",24.0,3,Arizona,2020-21,1610612741,CHI,Chicago Bulls
+1628464,Daniel Theis,daniel-theis,27,F-C,6-8,245,"APR 04, 1992",29.0,3,Brose Bamberg,2020-21,1610612741,CHI,Chicago Bulls
+203107,Tomas Satoransky,tomas-satoransky,31,G,6-7,210,"OCT 30, 1991",29.0,4,FC Barcelona,2020-21,1610612741,CHI,Chicago Bulls
+1630172,Patrick Williams,patrick-williams,44,F,6-7,215,"AUG 26, 2001",19.0,R,Florida State,2020-21,1610612741,CHI,Chicago Bulls
+1627756,Denzel Valentine,denzel-valentine,45,G,6-4,220,"NOV 16, 1993",27.0,3,Michigan State,2020-21,1610612741,CHI,Chicago Bulls
+1627853,Ryan Arcidiacono,ryan-arcidiacono,51,G,6-3,195,"MAR 26, 1994",27.0,3,Villanova,2020-21,1610612741,CHI,Chicago Bulls

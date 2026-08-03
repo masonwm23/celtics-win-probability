@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+203937,Kyle Anderson,kyle-anderson,1,F,6-9,230,"SEP 20, 1993",24.0,3,UCLA,2017-18,1610612759,SAS,San Antonio Spurs
+202695,Kawhi Leonard,kawhi-leonard,2,F,6-7,230,"JUN 29, 1991",27.0,6,San Diego State,2017-18,1610612759,SAS,San Antonio Spurs
+203464,Brandon Paul,brandon-paul,3,G,6-4,200,"APR 30, 1991",27.0,R,Illinois,2017-18,1610612759,SAS,San Antonio Spurs
+1628401,Derrick White,derrick-white,4,G,6-4,190,"JUL 02, 1994",23.0,R,Colorado,2017-18,1610612759,SAS,San Antonio Spurs
+1627749,Dejounte Murray,dejounte-murray,5,G,6-5,170,"SEP 19, 1996",21.0,1,Washington,2017-18,1610612759,SAS,San Antonio Spurs
+201988,Patty Mills,patty-mills,8,G,6-0,185,"AUG 11, 1988",29.0,8,St. Mary's,2017-18,1610612759,SAS,San Antonio Spurs
+2225,Tony Parker,tony-parker,9,G,6-2,185,"MAY 17, 1982",36.0,16,Paris Basket Racing,2017-18,1610612759,SAS,San Antonio Spurs
+1627856,Matt Costello,matt-costello,10,F-C,6-10,240,"AUG 05, 1993",24.0,R,Michigan State,2017-18,1610612759,SAS,San Antonio Spurs
+1627854,Bryn Forbes,bryn-forbes,11,G,6-3,190,"JUL 23, 1993",24.0,1,Michigan State,2017-18,1610612759,SAS,San Antonio Spurs
+200746,LaMarcus Aldridge,lamarcus-aldridge,12,F,6-11,260,"JUL 19, 1985",32.0,11,University of Texas at Austin,2017-18,1610612759,SAS,San Antonio Spurs
+201980,Danny Green,danny-green,14,G-F,6-6,215,"JUN 22, 1987",31.0,8,North Carolina,2017-18,1610612759,SAS,San Antonio Spurs
+2200,Pau Gasol,pau-gasol,16,C,7-0,250,"JUL 06, 1980",37.0,16,FC Barcelona,2017-18,1610612759,SAS,San Antonio Spurs
+1938,Manu Ginobili,manu-ginobili,20,G,6-6,205,"JUL 28, 1977",40.0,15,Virtus Bologna,2017-18,1610612759,SAS,San Antonio Spurs
+200752,Rudy Gay,rudy-gay,22,F,6-8,230,"AUG 17, 1986",31.0,11,Connecticut,2017-18,1610612759,SAS,San Antonio Spurs
+1626199,Darrun Hilliard,darrun-hilliard,24,G,6-6,220,"APR 13, 1993",25.0,2,Villanova,2017-18,1610612759,SAS,San Antonio Spurs
+202722,Davis Bertans,davis-bertans,42,C-F,6-10,210,"NOV 12, 1992",25.0,1,Baskonia,2017-18,1610612759,SAS,San Antonio Spurs
+203530,Joffrey Lauvergne,joffrey-lauvergne,77,C,6-11,260,"SEP 30, 1991",26.0,3,Khimki,2017-18,1610612759,SAS,San Antonio Spurs

@@ -1,0 +1,109 @@
+==============================================================================
+PHASE 12c - SEARCHING FOR THE TITLE THE NBA ACTUALLY USES
+==============================================================================
+
+  Two corrections to earlier runs in this phase.
+
+  Phase 12 searched an invented query and matched 1 of 3.
+
+  Phase 12b listed channel uploads and treated that as complete. It
+  is not: search.list is a search index, not an enumeration, and it
+  returned ONE upload from @NBA across five days of January 2024 for
+  a channel that posts dozens a day. Its 'no reel for this game' was
+  never a finding.
+
+  What 12b did establish is the convention, from ~30 uploads in the
+  March 2021 window: AWAY at HOME | FULL GAME HIGHLIGHTS | date.
+  Every field of that comes from game_index.csv, so the title is
+  constructed here rather than guessed.
+
+  games tested             3
+  games with a usable reel 1 of 3
+  candidates examined      44
+
+==============================================================================
+2016-17   BOS vs. NYK   2017-01-18   (Knicks at Celtics)
+==============================================================================
+
+  titles searched:
+    Knicks at Celtics | FULL GAME HIGHLIGHTS | January 18, 2017
+    Knicks vs Celtics Full Game Highlights January 18, 2017
+    Knicks vs Celtics full game highlights
+    Celtics vs Knicks highlights 2017
+
+  NO USABLE REEL FROM ANY VARIANT
+  closest candidates:
+    New York Knicks vs Boston Celtics - Full Game Highlights | J
+      Ximo Pierto 2 | not an official channel
+    New York Knicks vs Boston Celtics - 1st Half Highlights | Ja
+      Ximo Pierto 2 | not an official channel
+    New York Knicks vs Boston Celtics FULL GAME Highlights| 2017
+      Hella SportsTv | not an official channel
+    New York Knicks at Boston Celtics - January 18, 2017
+      Motion Station | not an official channel
+    Isaiah Thomas 39 Pts - Highlights | Knicks vs Celtics | Jan 
+      Celtics Direct | not an official channel
+
+==============================================================================
+2020-21   BOS @ BKN   2021-03-11   (Celtics at Nets)
+==============================================================================
+
+  titles searched:
+    Celtics at Nets | FULL GAME HIGHLIGHTS | March 11, 2021
+    Celtics vs Nets Full Game Highlights March 11, 2021
+    Celtics vs Nets full game highlights
+    Nets vs Celtics highlights 2021
+
+  MATCHED  CELTICS at NETS | FULL GAME HIGHLIGHTS | March 11, 2021
+    channel    NBA
+    published  2021-03-12T03:20:05Z
+    duration   PT9M48S
+    found by   2021 convention: AWAY at HOME | FULL GAME HIGHLIGHTS | date
+    https://www.youtube.com/watch?v=R0vOMQQCHi8
+    regions    allowed in only 24 region(s)
+
+==============================================================================
+2023-24   BOS vs. DEN   2024-01-19   (Nuggets at Celtics)
+==============================================================================
+
+  titles searched:
+    Nuggets at Celtics | FULL GAME HIGHLIGHTS | January 19, 2024
+    Nuggets vs Celtics Full Game Highlights January 19, 2024
+    Nuggets vs Celtics full game highlights
+    Celtics vs Nuggets highlights 2024
+
+  NO USABLE REEL FROM ANY VARIANT
+  closest candidates:
+    Boston Celtics vs Denver Nuggets Full Game Highlights | Janu
+      FreeDawkins | not an official channel
+    FlightReacts To Celtics vs Nuggets Full Game Highlights | Ja
+      NotYourAverageFlight | not an official channel
+    Boston Celtics vs Denver Nuggets Full Game Highlights  Janua
+      First Things First Today | not an official channel
+    Nikola Jokić Full Game Highlights vs Celtics 🎥
+      Denver Nuggets | not an official channel; title does not name both teams
+    Boston Celtics vs Denver Nuggets Full Game Highlights  Jan 1
+      FULL HIGHLIGHTS | not an official channel
+
+==============================================================================
+WHICH TITLE CONVENTION WORKED
+==============================================================================
+
+  A run across all 636 games needs this per era.
+
+  2021 convention: AWAY at HOME | FULL GAME HIGHLIGHTS | date
+    worked for: 2020-21
+
+==============================================================================
+WHAT THIS DOES NOT TELL YOU
+==============================================================================
+
+  Three games. A convention that works for three is a hypothesis
+  about 636, not a coverage figure.
+
+  A game with no reel found here may still have one under a title no
+  variant covers. Absence of a match is weaker evidence than
+  presence of one, and should be reported that way.
+
+  Nothing was changed. The dashboard does not know this exists.
+==============================================================================

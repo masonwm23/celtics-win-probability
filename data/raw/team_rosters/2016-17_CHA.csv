@@ -1,0 +1,16 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1627362,Briante Weber,briante-weber,0,G,6-2,165,"DEC 29, 1992",24.0,1,Virginia Commonwealth,2016-17,1610612766,CHA,Charlotte Hornets
+101107,Marvin Williams,marvin-williams,2,F,6-9,237,"JUN 19, 1986",31.0,11,North Carolina,2016-17,1610612766,CHA,Charlotte Hornets
+203087,Jeremy Lamb,jeremy-lamb,3,G,6-5,185,"MAY 30, 1992",25.0,4,Connecticut,2016-17,1610612766,CHA,Charlotte Hornets
+201587,Nicolas Batum,nicolas-batum,5,G,6-8,200,"DEC 14, 1988",28.0,8,Le Mans,2016-17,1610612766,CHA,Charlotte Hornets
+201196,Ramon Sessions,ramon-sessions,7,G,6-3,190,"APR 11, 1986",31.0,9,Nevada-Reno,2016-17,1610612766,CHA,Charlotte Hornets
+203948,Johnny O'Bryant III,johnny-obryant-iii,8,F-C,6-9,257,"JUN 01, 1993",24.0,2,Louisiana State,2016-17,1610612766,CHA,Charlotte Hornets
+1626203,Treveon Graham,treveon-graham,12,G-F,6-6,226,"OCT 28, 1993",23.0,R,Va Commonwealth,2016-17,1610612766,CHA,Charlotte Hornets
+203077,Michael Kidd-Gilchrist,michael-kidd-gilchrist,14,F,6-7,232,"SEP 26, 1993",23.0,4,Kentucky,2016-17,1610612766,CHA,Charlotte Hornets
+202689,Kemba Walker,kemba-walker,15,G,6-1,184,"MAY 08, 1990",27.0,5,Connecticut,2016-17,1610612766,CHA,Charlotte Hornets
+203101,Miles Plumlee,miles-plumlee,18,C,6-11,249,"SEP 01, 1988",28.0,4,Duke,2016-17,1610612766,CHA,Charlotte Hornets
+201158,Marco Belinelli,marco-belinelli,21,G-F,6-5,210,"MAR 25, 1986",31.0,9,Fortitudo Bologna,2016-17,1610612766,CHA,Charlotte Hornets
+203148,Brian Roberts,brian-roberts,22,G,6-1,173,"DEC 03, 1985",31.0,4,Dayton,2016-17,1610612766,CHA,Charlotte Hornets
+1626174,Christian Wood,christian-wood,35,F,6-11,220,"SEP 27, 1995",21.0,1,UNLV,2016-17,1610612766,CHA,Charlotte Hornets
+203469,Cody Zeller,cody-zeller,40,C,7-0,240,"OCT 05, 1992",24.0,3,Indiana,2016-17,1610612766,CHA,Charlotte Hornets
+1626163,Frank Kaminsky,frank-kaminsky,44,C,7-0,240,"APR 04, 1993",24.0,1,Wisconsin,2016-17,1610612766,CHA,Charlotte Hornets

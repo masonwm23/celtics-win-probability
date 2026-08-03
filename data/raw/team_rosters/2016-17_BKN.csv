@@ -1,0 +1,16 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+200751,Randy Foye,randy-foye,2,G,6-4,218,"SEP 24, 1983",33.0,10,Villanova,2016-17,1610612751,BKN,Brooklyn Nets
+203930,Sean Kilpatrick,sean-kilpatrick,6,G,6-4,219,"JAN 06, 1990",27.0,2,Cincinnati,2016-17,1610612751,BKN,Brooklyn Nets
+202391,Jeremy Lin,jeremy-lin,7,G,6-3,200,"AUG 23, 1988",28.0,6,Harvard,2016-17,1610612751,BKN,Brooklyn Nets
+203915,Spencer Dinwiddie,spencer-dinwiddie,8,G,6-6,200,"APR 06, 1993",24.0,2,Colorado,2016-17,1610612751,BKN,Brooklyn Nets
+203462,Archie Goodwin,archie-goodwin,10,G,6-5,205,"AUG 17, 1994",22.0,3,Kentucky,2016-17,1610612751,BKN,Brooklyn Nets
+201572,Brook Lopez,brook-lopez,11,C,7-0,268,"APR 01, 1988",29.0,8,Stanford,2016-17,1610612751,BKN,Brooklyn Nets
+203925,Joe Harris,joe-harris,12,F-G,6-6,219,"SEP 06, 1991",25.0,2,Virginia,2016-17,1610612751,BKN,Brooklyn Nets
+203112,Quincy Acy,quincy-acy,13,F,6-7,240,"OCT 06, 1990",26.0,4,Baylor,2016-17,1610612751,BKN,Brooklyn Nets
+203909,KJ McDaniels,kj-mcdaniels,14,G-F,6-6,205,"FEB 09, 1993",24.0,2,Clemson,2016-17,1610612751,BKN,Brooklyn Nets
+1627785,Isaiah Whitehead,isaiah-whitehead,15,G,6-4,213,"MAR 08, 1995",22.0,R,Seton Hall,2016-17,1610612751,BKN,Brooklyn Nets
+1627747,Caris LeVert,caris-levert,22,G-F,6-7,203,"AUG 25, 1994",22.0,R,Michigan,2016-17,1610612751,BKN,Brooklyn Nets
+1626178,Rondae Hollis-Jefferson,rondae-hollis-jefferson,24,F,6-7,214,"JAN 03, 1995",22.0,1,Arizona,2016-17,1610612751,BKN,Brooklyn Nets
+202344,Trevor Booker,trevor-booker,35,F,6-8,228,"NOV 25, 1987",29.0,6,Clemson,2016-17,1610612751,BKN,Brooklyn Nets
+203120,Justin Hamilton,justin-hamilton,41,C,7-0,255,"APR 01, 1990",27.0,2,Louisiana State,2016-17,1610612751,BKN,Brooklyn Nets
+203094,Andrew Nicholson,andrew-nicholson,44,F,6-9,250,"DEC 08, 1989",27.0,4,St. Bonaventure,2016-17,1610612751,BKN,Brooklyn Nets
