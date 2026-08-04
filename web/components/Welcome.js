@@ -108,10 +108,10 @@ export default function Welcome({ open, onClose, onStartTour, meta }) {
           <div className="welcome__h">What you are looking at</div>
           <p>
             A game is already loaded &mdash; Boston against {opponent}. The
-            court on the left shows the play happening right now. The line on
-            the right is the Celtics&apos; chance of winning, moving as the game
-            goes. Press <kbd>space</kbd> to play it, or drag anywhere on the
-            line to jump to a moment.
+            court on the left shows the play happening right now. The
+            probability chart on the right is the Celtics&apos; chance of
+            winning, moving as the game goes. Press <kbd>space</kbd> to play it,
+            or drag anywhere on the chart to jump to a moment.
           </p>
         </div>
 

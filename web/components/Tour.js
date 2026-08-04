@@ -30,6 +30,15 @@ import { useCallback, useEffect, useLayoutEffect, useRef, useState } from "react
 /**
  * The script.
  *
+ * THE TITLES AND BODIES ARE THE AUTHOR'S OWN, supplied Aug 4, used verbatim
+ * apart from three typo fixes ("until the come finishes" -> "the game", "the
+ * arrow keys prove" -> "provide", "This button bring back" -> "brings"). Do not
+ * rewrite them.
+ *
+ * Note that step 3 is titled "The Probability Chart", not "The line". He asked
+ * for "the line" to be dropped as a name for it everywhere it appeared, so
+ * step 4's body and the Welcome panel were changed to match.
+ *
  * `opens` names a fold that has to be open before the step can point at
  * anything, because a collapsed fold is a 44-pixel button and spotlighting it
  * teaches nobody anything.
@@ -37,69 +46,80 @@ import { useCallback, useEffect, useLayoutEffect, useRef, useState } from "react
 export const TOUR_STEPS = [
   {
     target: "scoreboard",
-    title: "The score",
+    title: "The Score and Win Probability Percentage",
     body:
-      "The score and clock at whatever moment you are on. The big green number "
-      + "is Boston's chance of winning right then.",
+      "This is the score and clock information at the exact time point in the "
+      + "game shown. The large number in green at the center of the highlighted "
+      + "display is the Celtic's win percentage at this exact moment of the game.",
   },
   {
     target: "court",
-    title: "The court",
+    title: "On The Court",
     body:
-      "Where a shot was taken from. Green circle went in, amber cross missed. "
-      + "The ten faces are who was on the floor, not where they stood.",
+      "Indicated who took the shot. The bold green circle indicated if the "
+      + "basket was made and the amber cross indicated a missed basket. The ten "
+      + "players faces indicated who is on the floor, but not where they "
+      + "actually stood during the game.",
   },
   {
     target: "chart",
-    title: "The line",
+    title: "The Probability Chart",
     body:
-      "Every point is one play, so the line steps with each one. Higher means "
-      + "Boston are more likely to win. Drag along it and the whole page "
-      + "follows you.",
+      "Every point in the chart represents one play in the game. Points are "
+      + "added to the chart as plays develop during the game until the game "
+      + "finishes. The larger the value on the y-axis, the higher the Celtics "
+      + "win probability. Drag the mouse along the x-axis to see how the win "
+      + "probability changes as the game progresses. This identifies key plays "
+      + "that significantly influence the game outcome.",
   },
   {
     target: "play",
-    title: "What just happened",
+    title: "What Just Happened - Real Time Game Assessment",
     body:
-      "The play the line is sitting on, written out. The number on the right is "
-      + "what that one play did to Boston's chances \u2014 green means it "
-      + "pushed them up, red means it dropped them.",
+      "The detailed description of the current point (or play) on the "
+      + "probability chart. The numbers to the right of the box provides data "
+      + "on what this play caused to the Celtics' probability to win. Green "
+      + "indicates the probability to win went up, while red lowers the chances "
+      + "to win.",
   },
   {
     target: "swings",
-    title: "The big moments",
+    title: "The Big Moments - Decisive Play",
     body:
-      "The plays that changed this game the most. Click one to jump there.",
+      "The play in the game that caused the game win probability significantly "
+      + "change. Click on one to jump to that play.",
   },
   {
     target: "transport",
-    title: "Watch it play",
+    title: "Watch It Play",
     body:
-      "Press play and the game runs on its own. Speed on the right sets the "
-      + "pace \u2014 0.5\u00d7 is slow enough to read every play, 2\u00d7 skims. "
-      + "Space bar starts and stops, arrow keys step one play at a time.",
+      "Press the play button and the model runs the game. The speed control is "
+      + "located on the right side to adjust the game pace. 0.5x allows for the "
+      + "best view on every play, while 2x provides the fastest option for "
+      + "general overview. The space bar starts and stops the game and the "
+      + "arrow keys provide a step wise \u201cone play at a time\u201d option.",
   },
   {
     target: "model",
     opens: "model",
-    title: "Is the model any good?",
+    title: "The Value of the CLWP Model",
     body:
-      "Worth opening. It explains the accuracy score in plain English, and "
-      + "leads with the honest answer: no better than a much simpler model.",
+      "The accuracy and the value of the model is explained in this section.",
   },
   {
     target: "whatif",
     opens: "whatif",
-    title: "Change the score",
+    title: "Change the Score",
     body:
-      "Drag the slider to give Boston a different score and the model says "
-      + "what it would have thought.",
+      "Drag the bar to change the score and the CLWP model will adapt and "
+      + "provide an updated win probability based on the new score.",
   },
   {
     target: "whatisthis",
-    title: "That's it",
+    title: "Help",
     body:
-      "More is folded away below. This button brings the tour back any time.",
+      "This button brings back the tour to help the user understand the various "
+      + "features and utilities.",
   },
 ];
 
