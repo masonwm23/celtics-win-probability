@@ -16,17 +16,27 @@ import { fetchModel } from "@/lib/api";
  * honesty, and never said whether it was any good, which is a claim about
  * skill.
  *
- * This panel leads with the null result rather than burying it. The research
- * question was whether a Celtics-specific model beats a generic margin-and-time
- * one, and the answer on 636 games is that it does not. A panel that opened
- * with 0.163 and mentioned the tie in a footnote would be technically true and
- * would leave the reader with the wrong impression.
+ * THE PROSE IN THIS PANEL IS THE AUTHOR'S OWN, supplied Aug 4 and used verbatim
+ * apart from spelling and punctuation. Do not rewrite it. Two consequences to
+ * be aware of before editing anything here:
+ *
+ *   - the benchmark is introduced once as "the generic model based on ESPN",
+ *     at the author's explicit instruction, and is "the generic model" every
+ *     time after that. His own sentence sets up that shorthand, so do not go
+ *     back to writing "the ESPN model": ESPN does not publish theirs, which is
+ *     stated outright in reports/phase4_results.txt line 36.
+ *   - three figures in the copy disagree with the sources this file reads
+ *     from. They are marked VERBATIM at the point of use so that nobody later
+ *     mistakes them for interpolation bugs and "fixes" them.
  *
  * Where the numbers come from:
  *
  *   - the shipped model's own metrics are FETCHED from /api/model, which
  *     returns models/model_metadata.json verbatim. Nothing here is retyped, so
- *     a retrain cannot leave the interface quoting stale figures.
+ *     a retrain cannot leave the interface quoting stale figures. Every figure
+ *     in the author's copy that MATCHES its source is interpolated rather than
+ *     hardcoded, so the rendered sentence reads exactly as he wrote it while
+ *     staying live.
  *   - the tier COMPARISON is not in that file, because the metadata describes
  *     one model and a comparison needs two. Those four numbers are pinned
  *     below, cited to the report they came out of.
@@ -98,55 +108,100 @@ export default function ModelQuality() {
   }
 
   const p = meta.out_of_fold_performance;
-  const { genericBrier, celticsBrier, diff, ciLow, ciHigh } = TIER_COMPARISON;
+  const { genericBrier, celticsBrier, ciLow, ciHigh } = TIER_COMPARISON;
 
   return (
     <div className="panel__body">
       {/* ---- the verdict, first, before any number is explained ---------- */}
       <div className="verdict">
-        <div className="verdict__tag">The question this project asked</div>
+        <div className="verdict__tag">The question that was asked</div>
         <p className="verdict__q">
-          Does a model that knows about <em>these</em> players and{" "}
-          <em>this</em> team predict the game better than a simple one that
-          only watches the score and the clock?
+          Is the Celtics Live Win Probability (CLWP), a Celtics specific model
+          that incorporates player specific data and team tendencies superior to
+          the generic model based on ESPN that mainly prioritizes the game score
+          and clock? Note: due to trademark restrictions, the generic model
+          based on ESPN will be referred to as the generic model.
         </p>
+        {/* VERBATIM: the copy below states the difference as −0.0011 and the
+            resample count as 10-100. reports/phase4_results.txt records +0.0011
+            (the CLWP Brier is the LOWER of the two, which is the advantage) and
+            the bootstrap ran thousands of resamples. Both were raised with the
+            author and he chose to keep his wording, so neither is interpolated
+            from TIER_COMPARISON. Do not "correct" them here; that is a
+            conversation to have with him. */}
         <p className="verdict__a">
-          <b>No. The two are too close to call, and that is the finding.</b>{" "}
-          Across {meta.trained_on_games} games the Celtics-specific model came
-          out very slightly ahead. But when the comparison is re-run thousands
-          of times on different samples of those same games, the Celtics model
-          wins some of those runs and loses the rest. That is what a tie looks
-          like. Saying so is the honest answer; quoting the tiny lead on its own
-          would have dressed a tie up as a win.
+          The answer is not really. The two models are too close to call with a
+          Brier score difference of only −0.0011 for the CLWP model (Brier:{" "}
+          {dp4(celticsBrier)} CLWP, {dp4(genericBrier)} generic), which
+          essentially can be considered a draw. Across {meta.trained_on_games}{" "}
+          games, the CLWP Celtics specific model has a slight advantage in
+          predictive power, but not significantly so. When, though, the
+          comparison between the two models is re-run 10-100 times on these same
+          games providing a larger statistical sampling, the two models produce
+          almost identical results with the CLWP model still maintaining a
+          slight lead, but too small a lead to be called a decisive win. The
+          major advantage of the CLWP model is that it does increase the
+          accuracy of probability predictions for the Celtics games when
+          compared to the always {pct1(p.base_rate)} approach.
         </p>
+        {/* THE INTERVAL IS FLIPPED ON PURPOSE.
+            reports/phase4_results.txt line 61 reads
+
+              tier2_generic vs tier3_celtics  +0.0011  [-0.0029, +0.0048]  no
+
+            which is generic MINUS celtics, so a POSITIVE number there means the
+            Celtics model did better. The copy above states the point estimate
+            the other way round, as celtics minus generic (−0.0011, i.e. the
+            lower Brier of the two). Quoting the report's interval unchanged
+            next to it would put the point estimate on one scale and the range
+            on the opposite one, and a reader checking the arithmetic would find
+            −0.0011 sitting inside a range where negative means WORSE.
+
+            So the interval is negated to match, which is the same result
+            expressed the other way: [−0.0048, +0.0029]. It is derived from
+            ciLow/ciHigh rather than typed, so re-running the bootstrap still
+            flows through correctly. TIER_COMPARISON keeps the report's own
+            signs and must not be edited to "fix" this. */}
         <p className="verdict__fine">
-          For the record: {dp4(celticsBrier)} against {dp4(genericBrier)}, a
-          difference of {signed4(diff)}, and re-running the comparison puts that
-          difference anywhere between {signed4(ciLow)} and {signed4(ciHigh)} —
-          a range that contains zero, meaning &ldquo;no difference&rdquo; is
-          well within what the data supports.
+          The CLWP Brier: {dp4(celticsBrier)} vs. the generic model{" "}
+          {dp4(genericBrier)}{" "}
+          after rerunning the games allows for a difference between{" "}
+          {signed4(-ciHigh)} and {signed4(-ciLow)}, a range that does contain
+          statistical significance and best describes the results from the two
+          models as a statistical tie.
         </p>
       </div>
 
       {/* ---- what the number actually is -------------------------------- */}
       <h3 className="mq__h">So what is a Brier score?</h3>
       <p className="mq__p">
-        Think of grading a weather forecaster. If they say a 90% chance of rain
-        and it rains, they did well. If they say 90% and the day stays dry, that
-        is a bad miss. A Brier score is that idea totalled up: how far the
-        forecast sat from what actually happened, averaged over every moment of
-        every game. <b>Lower is better</b>, and zero would mean never being
-        wrong.
+        The Brier score measures the accuracy of probability predictions, not
+        only if a prediction was correct or wrong. A lower Brier score is
+        better, with 0 being perfect (never wrong). The Brier score rewards
+        being confidently correct and penalizes being confidently wrong.
       </p>
       <p className="mq__p">
-        On its own, {dp4(p.brier)} means nothing to anybody. The way to read it
-        is against someone who does not really forecast at all. The Celtics won{" "}
-        {pct1(p.base_rate)} of these games, so a person who says{" "}
-        &ldquo;{pct1(p.base_rate)}&rdquo; at every single moment and never
-        reacts to anything that happens scores {dp4(p.baseline_brier)}. This
-        model scores <b>{dp4(p.brier)}</b>. It has closed about{" "}
-        {pct1(p.brier_skill)} of the distance between not trying and being
-        perfect.
+        For example, in basketball terms: If you predict the Celtics have a 70%
+        chance to win, they should win about 7 out of 10 similar games. If you
+        constantly predict 99% and they lose more often than expected, your
+        Brier score becomes much higher (worse) as a result of incorrect
+        overconfidence. A good Brier score reflects not only picking winners,
+        but also assigning realistic probabilities to each outcome.
+      </p>
+
+      <h3 className="mq__h">
+        The true advantage of the CLWP Celtics specific model
+      </h3>
+      <p className="mq__p">
+        The Celtics won {pct1(p.base_rate)} of the games (games used as data in
+        this model and model comparison), so throughout every game predicted,
+        they would earn a Brier score of {dp4(p.baseline_brier)}. The CLWP
+        continuously updates its predictions based on what is occurring, in real
+        time, during the game where the CLWP model achieves a Brier score of{" "}
+        {dp4(p.brier)}. Therefore, the CLWP model reduces the prediction error
+        by {pct1(p.brier_skill)} compared with the always {pct1(p.base_rate)}{" "}
+        approach. The CLWP model moves approximately one-third of the way from a
+        static, no-skill prediction toward perfect forecasting (a Brier of 0).
       </p>
 
       {/* ---- the scale. The two markers overlapping IS the point. -------- */}
@@ -155,12 +210,12 @@ export default function ModelQuality() {
           <span
             className="mqscale__mark mqscale__mark--generic"
             style={{ left: `${(genericBrier / p.baseline_brier) * 100}%` }}
-            title={`Generic margin-and-time model, Brier ${dp4(genericBrier)}`}
+            title={`Generic model based on ESPN, Brier ${dp4(genericBrier)}`}
           />
           <span
             className="mqscale__mark mqscale__mark--ours"
             style={{ left: `${(p.brier / p.baseline_brier) * 100}%` }}
-            title={`This model, Brier ${dp4(p.brier)}`}
+            title={`CLWP model, Brier ${dp4(p.brier)}`}
           />
         </div>
         <div className="mqscale__ends">
@@ -169,13 +224,22 @@ export default function ModelQuality() {
             {dp4(p.baseline_brier)} · never move off {pct1(p.base_rate)}
           </span>
         </div>
+        {/* The key stays, without its numbers. The paragraph below already
+            states both Brier scores, and printing them twice a line apart read
+            as a mistake rather than as a legend. */}
         <p className="mqscale__cap">
-          <i className="mqscale__key mqscale__key--ours" /> this model{" "}
-          {dp4(p.brier)}
-          <i className="mqscale__key mqscale__key--generic" /> the simple model{" "}
-          {dp4(genericBrier)} &mdash; both are plotted above, and they land so
-          close together that they overlap. You are looking at the answer to the
-          research question: nobody can tell these two apart.
+          <i className="mqscale__key mqscale__key--ours" /> CLWP
+          <i className="mqscale__key mqscale__key--generic" /> generic
+        </p>
+        <p className="mqscale__cap" style={{ marginTop: 6 }}>
+          The CLWP model achieved a Brier score of {dp4(p.brier)} compared with{" "}
+          {dp4(genericBrier)} for the generic model based on ESPN. As shown in
+          the plot above,
+          there is significant overlap since the difference is very small. In
+          practical terms, the models are indistinguishable in predictive
+          performance. Therefore, the more complex CLWP Celtics specific model
+          provides no meaningful improvement over the simpler generic model. This
+          result directly answers the research question.
         </p>
       </div>
 
@@ -220,22 +284,35 @@ export default function ModelQuality() {
       </div>
 
       <p className="note" style={{ marginTop: 14, marginBottom: 0 }}>
-        <strong>Nothing above was graded on games the model had already
-        seen.</strong> The model was trained eight separate times, each time
-        with one full season hidden from it, and every season was then scored by
-        the version that had never read it. That is what &ldquo;out of
-        fold&rdquo; means on the rest of this page, and it is why{" "}
-        {p.n.toLocaleString()} forecasts across {meta.trained_on_games} games
-        count as a real test rather than a memory exercise. Two honest caveats,
-        both stated in the paper rather than hidden: the AUC of{" "}
-        {p.auc.toFixed(4)} is flattered by the fourth quarter, when a big lead
-        really does decide the game and any model looks clever, so the
-        early-game and close-game rows are the ones worth reading; and a further
-        check suggests these figures are a touch optimistic, by about 0.0025
-        Brier, compared with forecasting a genuinely unseen future season. The
-        head-to-head comparison at the top comes from{" "}
-        <code>{TIER_COMPARISON.source}</code>; every other figure here is read
-        live from the deployed model&apos;s own record rather than typed in.
+        No results presented were evaluated on Celtics games that the CLWP model
+        had previously observed during training. Model performance was assessed
+        using a leave one season out cross validation framework. With this, the
+        model was trained eight separate times, each time withholding one
+        complete season for testing. So, every season was evaluated by a CLWP
+        model that had never been exposed to that season&apos;s data during
+        training. This evaluation strategy is referred to as
+        &ldquo;out-of-fold&rdquo; testing. The resulting {p.n.toLocaleString()}{" "}
+        forecasts spanning {meta.trained_on_games} games therefore constitute a
+        thorough assessment of generalization performance rather than an
+        evaluation of learned observations. Two important limitations should be
+        pointed out, both of which are discussed plainly in the accompanying
+        paper. First, the overall AUC of {p.auc.toFixed(4)} is influenced by
+        fourth-quarter game states, where large leads make game outcomes
+        comparatively easy to predict. Accordingly, the early-game and
+        close-game results provide a more informative evaluation of the
+        model&apos;s discriminative capability under conditions of larger
+        uncertainty. Second, an additional validation analysis indicates that
+        the reported performance metrics are modestly positive, with the Brier
+        score expected to increase by approximately 0.0025 when forecasting an
+        entirely unseen future season. This degree of confidence is consistent
+        with expected differences between cross-validation performance and
+        prospective out-of-sample evaluation. The head-to-head comparison
+        presented at the top of the page is reproduced directly from{" "}
+        <code>{TIER_COMPARISON.source}</code>. All remaining performance metrics
+        and figures are generated dynamically from the deployed model&apos;s
+        recorded outputs rather than being manually inputted, confirming that
+        the reported results accurately reflect the CLWP model&apos;s
+        operational performance.
       </p>
     </div>
   );

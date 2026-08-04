@@ -198,7 +198,7 @@ const FEATURES = [
   },
   {
     icon: IconCourt,
-    title: "Advanced modelling",
+    title: "Advanced modeling",
     body: "13 features, 308,975 game states",
   },
   {

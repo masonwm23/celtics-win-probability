@@ -545,25 +545,24 @@ function Transport({
 /**
  * The "How to read" panel.
  *
- * Written for somebody who has never seen a win probability chart. The earlier
- * version was accurate but assumed the reader already knew what a play-by-play
- * feed was, what "out of fold" meant, and why a coordinate in tenths of a foot
- * mattered. Three sentences of vocabulary before the first idea landed.
+ * The wording here is the author's own, supplied Aug 4 and used verbatim apart
+ * from spelling and agreement fixes. Do not "improve" it: the voice is
+ * deliberate, and the four items map one-to-one onto the four he numbered.
  *
- * The rewrite keeps every claim the old one made and changes two things. The
- * words are the ones a fan would use, and each point carries the actual mark it
- * is describing, drawn from the same geometry the court uses (MarkSwatch, the
- * .lg swatches), so the reader matches a symbol to a symbol instead of holding
- * a description in their head while they go looking for it.
+ * Each point still carries the actual mark it describes, drawn from the same
+ * geometry the court uses (MarkSwatch, the .lg swatches), so the reader matches
+ * a symbol to a symbol instead of holding a description in their head while
+ * they go looking for it.
  */
 function HowToRead() {
   return (
     <div className="howto">
       <p className="howto__lede">
-        This is a real game played back from the official record of what
-        happened. The big percentage is the Celtics&apos; chance of winning at
-        that exact moment, worked out from the score, the time left and who is
-        on the floor.
+        The information displayed is from an actual game played back from the
+        official record of game events. The large green percentage shown is the
+        Celtics&apos; chance of winning the game for the exact moment during the
+        game derived from the score, the time remaining and what players are on
+        the floor at that same moment.
       </p>
 
       <ul className="howto__list">
@@ -573,10 +572,11 @@ function HowToRead() {
             <MarkSwatch />
           </span>
           <span>
-            <b>The mark on the court is where the shot was taken from.</b> A
-            green circle means it went in, an amber cross means it missed. That
-            spot is the real one the league recorded &mdash; it is not an
-            estimate.
+            These symbols on the court represent the location where the shot was
+            taken from. The green circle means the basket went in, the amber
+            cross indicates the shot missed. The indicated shooting position is
+            the actual spot the shot occurred from based on league records and
+            is not an estimate or prediction.
           </span>
         </li>
 
@@ -586,10 +586,12 @@ function HowToRead() {
             <i className="lg lg--bos howto__dot--muted" />
           </span>
           <span>
-            <b>The ten circles say who was playing, not where they stood.</b>{" "}
-            Think of them as a team sheet: the slots never move. The five drawn
-            brightly are the team with the ball, and the five faded out are the
-            team defending.
+            The ten circles show the players currently in the game and playing
+            and are not a representation of their exact position on the court.
+            Consider this visual representation as a team sheet as the actual
+            position slots do not move. The five players highlighted represent
+            the team on offense, while the five players faded are the team on
+            defense.
           </span>
         </li>
 
@@ -598,10 +600,11 @@ function HowToRead() {
             <i className="swatch swatch--line howto__line" />
           </span>
           <span>
-            <b>Nothing here is made up.</b> The clock, the score, the play and
-            both lineups all come straight from the game record. And the model
-            drawing the line was never shown this season, so it is genuinely
-            predicting the game rather than remembering it.
+            No data input into this model has been artificially created. All
+            data used, such as the game clock time, the score, the basketball
+            play at any time during the game and both team lineups have been
+            used directly, without change, from the actual NBA game record of
+            the specified game represented.
           </span>
         </li>
       </ul>
