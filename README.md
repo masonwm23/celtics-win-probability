@@ -47,6 +47,14 @@ https://celtics-win-probability.vercel.app
 
 <img width="957" height="869" alt="Screenshot 2026-08-04 at 11 22 17 AM" src="https://github.com/user-attachments/assets/8989503f-97dd-4a59-9fd3-0190645f89a7" />
 
+---
+## Research Paper
+
+This repository accompanies the MSBA Directed Research paper describing the methodology, feature engineering, model training, evaluation, and results.
+
+**Read the paper:**
+[Celtics Real-Time Win Probability Model (PDF)](paper/Celtics_Real_Time_Win_Probability_Model.pdf)
+
 ## Repository Structure
 
 **Backend**  
