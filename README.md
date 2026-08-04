@@ -105,7 +105,7 @@ celtics_wp/
 
 ---
 
-## Principles this codebase follows
+## Model Design Principles
 
 These are not decoration. They are the reason the results can be trusted.
 
