@@ -152,7 +152,7 @@ and time remaining, and it is called a generic baseline, not ESPN's model.
 | `nba_api` `LeagueGameFinder` | Game index: dates, opponents, results |
 | `nba_api` `PlayByPlayV3` | Event-level play-by-play |
 | `nba_api` `BoxScoreTraditionalV3` | Starters, player minutes, both teams' rosters |
-| Position source, to be confirmed | Granular PG/SG/SF/PF/C positions. The NBA API only exposes broad Guard/Forward/Center buckets |
+| Position source, Basketball Reference| Granular PG/SG/SF/PF/C positions. The NBA API only exposes broad Guard/Forward/Center buckets |
 
 All data is historical and pulled from public endpoints. Nothing is entered by
 hand.
