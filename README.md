@@ -53,7 +53,9 @@ https://celtics-win-probability.vercel.app
 This repository accompanies the MSBA Directed Research paper describing the methodology, feature engineering, model training, evaluation, and results.
 
 **Read the paper:**
-[Celtics Real-Time Win Probability Model (PDF)](paper/Celtics_Real_Time_Win_Probability_Model.pdf)
+[Celtics Real-Time Win Probability Model (PDF)]
+[MWM CLWP Paper-Final.pdf](https://github.com/user-attachments/files/30722488/MWM.CLWP.Paper-Final.pdf)
+
 
 ## Repository Structure
 
