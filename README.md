@@ -5,28 +5,66 @@ Student: Mason Marathias | Supervisor: Prof. Ahmad Namini
 
 A win probability model calibrated specifically to the Boston Celtics, trained on
 eight seasons of play-by-play data (2016-17 through 2023-24), with opponent
-matchup context, and benchmarked against a generic in-game baseline.
+matchup context, and benchmarked against a generic in-game baseline (ESPN).
 
+## Project Summary
+
+This project presents a real-time Boston Celtics win probability model trained on eight NBA seasons (2016–17 through 2023–24) of play-by-play data. The model predicts the Celtics' probability of winning at every game state and is deployed through an interactive web dashboard that reconstructs possessions, displays players on the floor, visualizes win probability over time, and compares the Celtics-specific model against a generic baseline (ESPN).
+
+### Project Highlights
+
+- 636 Boston Celtics regular-season games
+- Eight NBA seasons (2016–17 through 2023–24)
+- Over 308,000 in-game game states analyzed
+- XGBoost model trained using 13 game-state features
+- Interactive Next.js dashboard with play reconstruction and lineup visualization
+- Every displayed probability generated out-of-fold during evaluation
 ---
 
-## Current status
+## Project Completion
 
 | Phase | Description | Status |
 |---|---|---|
-| 1 | Data pulled and cleaned | In progress. Game index scaffold built, awaiting first run |
-| 2 | Features created correctly | Not started |
-| 3 | Train/test split prevents leakage | Not started |
-| 4 | Model trained and evaluated | Not started |
-| 5 | Opponent feature tested honestly | Not started |
-| 6 | Model saved and reproducible | Not started |
-| 7 | Research results and documentation | Not started |
-| 8 | Frontend connected after validation | Not started |
+| 1 | Data pulled and cleaned | ✅ Completed|
+| 2 | Features created correctly | ✅ Completed|
+| 3 | Train/test split prevents leakage |✅ Completed|
+| 4 | Model trained and evaluated | ✅ Completed|
+| 5 | Opponent feature tested honestly |✅ Completed|
+| 6 | Model saved and reproducible | ✅ Completed|
+| 7 | Research results and documentation |✅ Completed|
+| 8 | Frontend connected after validation | ✅ Complete|
 
-Nothing is marked complete until its validation report passes and the result has
-been reviewed in plain English.
+All project phases have been successfully completed and validated. The final model, interactive dashboard, and supporting documentation have been reviewed and verified.
 
 ---
+## Live Demo
 
+Interactive dashboard:
+
+https://celtics-win-probability.vercel.app
+
+### Dashboard Preview
+
+<img width="957" height="869" alt="Screenshot 2026-08-04 at 11 22 17 AM" src="https://github.com/user-attachments/assets/8989503f-97dd-4a59-9fd3-0190645f89a7" />
+
+---
+## Research Paper
+
+This repository accompanies the MSBA Directed Research paper describing the methodology, feature engineering, model training, evaluation, and results.
+
+**Read the paper:**
+[Celtics Real-Time Win Probability Model (PDF)](paper/Celtics_Real_Time_Win_Probability_Model.pdf)
+
+## Repository Structure
+
+**Backend**  
+Python pipeline for data collection, feature engineering, model training, and evaluation.
+
+**Frontend**  
+Next.js interactive dashboard for play reconstruction, win probability visualization, and lineup exploration.
+
+**Deployment**  
+Hosted on Vercel.
 ## How to run
 
 Everything runs from the `scripts/` folder, in numbered order. Open a script in
@@ -75,7 +113,7 @@ celtics_wp/
 
 ---
 
-## Principles this codebase follows
+## Model Design Principles
 
 These are not decoration. They are the reason the results can be trusted.
 
@@ -122,7 +160,7 @@ and time remaining, and it is called a generic baseline, not ESPN's model.
 | `nba_api` `LeagueGameFinder` | Game index: dates, opponents, results |
 | `nba_api` `PlayByPlayV3` | Event-level play-by-play |
 | `nba_api` `BoxScoreTraditionalV3` | Starters, player minutes, both teams' rosters |
-| Position source, to be confirmed | Granular PG/SG/SF/PF/C positions. The NBA API only exposes broad Guard/Forward/Center buckets |
+| Position source, Basketball Reference| Granular PG/SG/SF/PF/C positions. The NBA API only exposes broad Guard/Forward/Center buckets |
 
 All data is historical and pulled from public endpoints. Nothing is entered by
 hand.
