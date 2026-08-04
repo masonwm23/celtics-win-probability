@@ -47,6 +47,16 @@ https://celtics-win-probability.vercel.app
 
 <img width="957" height="869" alt="Screenshot 2026-08-04 at 11 22 17 AM" src="https://github.com/user-attachments/assets/8989503f-97dd-4a59-9fd3-0190645f89a7" />
 
+## Repository Structure
+
+**Backend**  
+Python pipeline for data collection, feature engineering, model training, and evaluation.
+
+**Frontend**  
+Next.js interactive dashboard for play reconstruction, win probability visualization, and lineup exploration.
+
+**Deployment**  
+Hosted on Vercel.
 ## How to run
 
 Everything runs from the `scripts/` folder, in numbered order. Open a script in
