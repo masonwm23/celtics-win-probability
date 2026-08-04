@@ -9,19 +9,19 @@ matchup context, and benchmarked against a generic in-game baseline.
 
 ## Project Summary
 
-This project presents a real-time Boston Celtics win probability model trained on eight NBA seasons (2016–17 through 2023–24) of play-by-play data. The model estimates Boston's probability of winning at every game state and is deployed through an interactive web dashboard that reconstructs possessions, visualizes win probability over time, displays the players on the floor, and compares the Celtics-specific model against a generic baseline.
+This project presents a real-time Boston Celtics win probability model trained on eight NBA seasons (2016–17 through 2023–24) of play-by-play data. The model predicts the Celtics' probability of winning at every game state and is deployed through an interactive web dashboard that reconstructs possessions, displays players on the floor, visualizes win probability over time, and compares the Celtics-specific model against a generic baseline (ESPN).
 
 ### Project Highlights
 
-• Interactive Next.js dashboard with play reconstruction and lineup visualization
-• XGBoost model trained using 13 game-state features
-• Every displayed probability generated out-of-fold during evaluation
-• 636 Boston Celtics regular-season games
-• Eight NBA seasons (2016–17 through 2023–24)
-• Over 308,000 in-game game states analyzed
+- 636 Boston Celtics regular-season games
+- Eight NBA seasons (2016–17 through 2023–24)
+- Over 308,000 in-game game states analyzed
+- XGBoost model trained using 13 game-state features
+- Interactive Next.js dashboard with play reconstruction and lineup visualization
+- Every displayed probability generated out-of-fold during evaluation
 ---
 
-## Current status
+## Project Completion
 
 | Phase | Description | Status |
 |---|---|---|
