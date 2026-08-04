@@ -5,7 +5,7 @@ Student: Mason Marathias | Supervisor: Prof. Ahmad Namini
 
 A win probability model calibrated specifically to the Boston Celtics, trained on
 eight seasons of play-by-play data (2016-17 through 2023-24), with opponent
-matchup context, and benchmarked against a generic in-game baseline.
+matchup context, and benchmarked against a generic in-game baseline (ESPN).
 
 ## Project Summary
 
