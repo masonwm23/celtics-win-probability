@@ -355,7 +355,7 @@ export default function Dashboard() {
             onClick={() => setWelcomeOpen(true)}
             aria-haspopup="dialog"
           >
-            <span className="ghostbtn__i">i</span> What is this?
+            <span className="ghostbtn__i">i</span> Help
           </button>
           <button className="ghostbtn ghostbtn--go" onClick={startTour}>
             <span className="ghostbtn__i">&rarr;</span> Take the tour

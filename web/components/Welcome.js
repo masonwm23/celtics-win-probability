@@ -19,7 +19,7 @@ import { useEffect, useRef } from "react";
  * the way day to day, but on a laptop that has already dismissed it the panel
  * would be invisible at exactly the moment it matters most, which is a
  * committee or a stranger opening it cold. So the header carries a permanent
- * "What is this?" button and this is reachable forever.
+ * "Help" button and this is reachable forever.
  *
  * localStorage is read defensively. Safari in private mode throws on access
  * rather than returning null, and a dashboard that crashes on load because it
