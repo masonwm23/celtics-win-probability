@@ -37,6 +37,15 @@ This project presents a real-time Boston Celtics win probability model trained o
 All project phases have been successfully completed and validated. The final model, interactive dashboard, and supporting documentation have been reviewed and verified.
 
 ---
+## Live Demo
+
+Interactive dashboard:
+
+https://celtics-win-probability.vercel.app
+
+### Dashboard Preview
+
+<img width="957" height="869" alt="Screenshot 2026-08-04 at 11 22 17 AM" src="https://github.com/user-attachments/assets/8989503f-97dd-4a59-9fd3-0190645f89a7" />
 
 ## How to run
 
