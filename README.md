@@ -45,7 +45,7 @@ https://celtics-win-probability.vercel.app
 
 ### Dashboard Preview
 
-<img width="957" height="869" alt="Screenshot 2026-08-04 at 11 22 17 AM" src="https://github.com/user-attachments/assets/8989503f-97dd-4a59-9fd3-0190645f89a7" />
+<img width="1581" height="826" alt="Screenshot 2026-08-04 at 1 48 14 PM" src="https://github.com/user-attachments/assets/5d33dc4d-9706-42cf-b348-8de010b85b16" />
 
 ---
 ## Research Paper
