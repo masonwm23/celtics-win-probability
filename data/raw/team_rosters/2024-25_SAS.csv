@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1629640,Keldon Johnson,keldon-johnson,0,F-G,6-5,220,"OCT 11, 1999",25.0,5,Kentucky,2024-25,1610612759,SAS,San Antonio Spurs
+1641705,Victor Wembanyama,victor-wembanyama,1,F-C,7-3,235,"JAN 04, 2004",21.0,1,Metropolitans 92,2024-25,1610612759,SAS,San Antonio Spurs
+101108,Chris Paul,chris-paul,3,G,6-0,175,"MAY 06, 1985",40.0,19,Wake Forest,2024-25,1610612759,SAS,San Antonio Spurs
+1628368,De'Aaron Fox,deaaron-fox,4,G,6-3,185,"DEC 20, 1997",27.0,7,Kentucky,2024-25,1610612759,SAS,San Antonio Spurs
+1642264,Stephon Castle,stephon-castle,5,G,6-6,215,"NOV 01, 2004",20.0,R,Connecticut,2024-25,1610612759,SAS,San Antonio Spurs
+1630561,David Duke Jr.,david-duke-jr,7,G,6-4,204,"OCT 13, 1999",25.0,3,Providence,2024-25,1610612759,SAS,San Antonio Spurs
+1631110,Jeremy Sochan,jeremy-sochan,10,F,6-8,230,"MAY 20, 2003",22.0,2,Baylor,2024-25,1610612759,SAS,San Antonio Spurs
+1629162,Jordan McLaughlin,jordan-mclaughlin,11,G,6-0,185,"APR 09, 1996",29.0,5,Southern California,2024-25,1610612759,SAS,San Antonio Spurs
+1631104,Blake Wesley,blake-wesley,14,G,6-3,185,"MAR 16, 2003",22.0,2,Notre Dame,2024-25,1610612759,SAS,San Antonio Spurs
+202687,Bismack Biyombo,bismack-biyombo,15,C,6-8,255,"AUG 28, 1992",32.0,13,Baloncesto Fuenlabrada,2024-25,1610612759,SAS,San Antonio Spurs
+1631103,Malaki Branham,malaki-branham,22,F,6-4,180,"MAY 12, 2003",22.0,2,Ohio State,2024-25,1610612759,SAS,San Antonio Spurs
+1630170,Devin Vassell,devin-vassell,24,G-F,6-5,200,"AUG 23, 2000",24.0,4,Florida State,2024-25,1610612759,SAS,San Antonio Spurs
+1642434,Riley Minix,riley-minix,27,F,6-7,230,"SEP 22, 2000",24.0,R,Morehead State,2024-25,1610612759,SAS,San Antonio Spurs
+1629646,Charles Bassey,charles-bassey,28,C-F,6-10,230,"OCT 28, 2000",24.0,3,Western Kentucky,2024-25,1610612759,SAS,San Antonio Spurs
+1630577,Julian Champagnie,julian-champagnie,30,F,6-7,217,"JUN 29, 2001",24.0,2,St. John's,2024-25,1610612759,SAS,San Antonio Spurs
+203084,Harrison Barnes,harrison-barnes,40,F,6-8,225,"MAY 30, 1992",33.0,12,North Carolina,2024-25,1610612759,SAS,San Antonio Spurs
+1630572,Sandro Mamukelashvili,sandro-mamukelashvili,54,F-C,6-9,240,"MAY 23, 1999",26.0,3,Seton Hall,2024-25,1610612759,SAS,San Antonio Spurs
+1631127,Harrison Ingram,harrison-ingram,55,F,6-5,230,"NOV 27, 2002",22.0,R,North Carolina,2024-25,1610612759,SAS,San Antonio Spurs

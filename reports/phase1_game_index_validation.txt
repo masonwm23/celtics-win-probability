@@ -1,12 +1,12 @@
 ======================================================================
 PHASE 1 VALIDATION - CELTICS GAME INDEX
-Run at: 2026-07-30T03:45:03+00:00
+Run at: 2026-08-12T19:21:19+00:00
 Source: /Users/masonmarathias/Desktop/celtics_wp/data/raw/game_index.csv
 ======================================================================
 
 CHECKS
-  [PASS] Season game counts match expectations (total 636)
-         total rows = 636
+  [PASS] Season game counts match expectations (total 800)
+         total rows = 800
   [PASS] GAME_ID values are unique
   [PASS] GAME_ID format is regular season (10 chars, 002 prefix)
   [PASS] Opponent abbreviations are valid and never BOS
@@ -88,9 +88,9 @@ DOCUMENTED DATA ANOMALIES
 
 
 DESCRIPTIVE SUMMARY
-  Games: 636
-  Date range: 2016-10-26 to 2024-04-14
-  Overall record: 413-223 (0.649)
+  Games: 800
+  Date range: 2016-10-26 to 2026-04-12
+  Overall record: 530-270 (0.662)
 
   Per season record (this is the target variable's base rate,
   and it is what any model has to beat):
@@ -102,6 +102,8 @@ DESCRIPTIVE SUMMARY
     2021-22  51-31 (0.622)   home 28/41   away 23/41
     2022-23  57-25 (0.695)   home 32/41   away 25/41
     2023-24  64-18 (0.780)   home 37/41   away 27/41
+    2024-25  61-21 (0.744)   home 28/41   away 33/41
+    2025-26  56-26 (0.683)   home 30/41   away 26/41
 
 ======================================================================
 RESULT: 11 passed, 0 failed, 2 deferred

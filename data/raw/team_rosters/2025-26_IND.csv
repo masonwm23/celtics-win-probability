@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1630169,Tyrese Haliburton,tyrese-haliburton,0,G,6-5,185,"FEB 29, 2000",26.0,5,Iowa State,2025-26,1610612754,IND,Indiana Pacers
+1630167,Obi Toppin,obi-toppin,1,F,6-9,220,"MAR 04, 1998",28.0,5,Dayton,2025-26,1610612754,IND,Indiana Pacers
+1629614,Andrew Nembhard,andrew-nembhard,2,G-F,6-4,191,"JAN 16, 2000",26.0,3,Gonzaga,2025-26,1610612754,IND,Indiana Pacers
+1643007,Taelon Peter,taelon-peter,4,G,6-3,185,"FEB 27, 2002",24.0,R,Liberty,2025-26,1610612754,IND,Indiana Pacers
+1641716,Jarace Walker,jarace-walker,5,F,6-7,235,"SEP 04, 2003",22.0,2,Houston,2025-26,1610612754,IND,Indiana Pacers
+1642880,Kam Jones,kam-jones,7,G,6-4,200,"FEB 25, 2002",24.0,R,Marquette,2025-26,1610612754,IND,Indiana Pacers
+204456,T.J. McConnell,tj-mcconnell,9,G,6-1,190,"MAR 25, 1992",34.0,10,Arizona,2025-26,1610612754,IND,Indiana Pacers
+1630695,Micah Potter,micah-potter,11,C,6-9,248,"APR 06, 1998",28.0,4,Wisconsin,2025-26,1610612754,IND,Indiana Pacers
+1642277,Johnny Furphy,johnny-furphy,12,G,6-8,200,"DEC 08, 2004",21.0,1,Kansas,2025-26,1610612754,IND,Indiana Pacers
+1641771,Jalen Slawson,jalen-slawson,18,F,6-7,215,"OCT 22, 1999",26.0,1,Furman,2025-26,1610612754,IND,Indiana Pacers
+1630174,Aaron Nesmith,aaron-nesmith,23,G-F,6-5,215,"OCT 16, 1999",26.0,5,Vanderbilt,2025-26,1610612754,IND,Indiana Pacers
+1641738,Kobe Brown,kobe-brown,24,F,6-7,250,"JAN 01, 2000",26.0,2,Missouri,2025-26,1610612754,IND,Indiana Pacers
+1641767,Ben Sheppard,ben-sheppard,26,G,6-6,190,"JUL 16, 2001",24.0,2,Belmont,2025-26,1610612754,IND,Indiana Pacers
+1631245,Quenton Jackson,quenton-jackson,29,G,6-4,173,"SEP 15, 1998",27.0,3,Texas A&M,2025-26,1610612754,IND,Indiana Pacers
+1630643,Jay Huff,jay-huff,32,C,7-1,240,"AUG 25, 1997",28.0,4,Virginia,2025-26,1610612754,IND,Indiana Pacers
+1627826,Ivica Zubac,ivica-zubac,40,C,7-0,240,"MAR 18, 1997",29.0,9,Mega Basket,2025-26,1610612754,IND,Indiana Pacers
+1627783,Pascal Siakam,pascal-siakam,43,F,6-8,245,"APR 02, 1994",32.0,9,New Mexico State,2025-26,1610612754,IND,Indiana Pacers
+1630679,Ethan Thompson,ethan-thompson,55,G,6-4,195,"MAY 04, 1999",27.0,R,Oregon State,2025-26,1610612754,IND,Indiana Pacers

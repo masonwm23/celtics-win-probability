@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+203903,Jordan Clarkson,jordan-clarkson,00,G,6-3,194,"JUN 07, 1992",33.0,10,Missouri,2024-25,1610612762,UTA,Utah Jazz
+1641707,Taylor Hendricks,taylor-hendricks,0,F,6-9,215,"NOV 22, 2003",21.0,1,Central Florida,2024-25,1610612762,UTA,Utah Jazz
+1629012,Collin Sexton,collin-sexton,2,G,6-3,190,"JAN 04, 1999",26.0,6,Alabama,2024-25,1610612762,UTA,Utah Jazz
+1641718,Keyonte George,keyonte-george,3,G,6-4,185,"NOV 08, 2003",21.0,1,Baylor,2024-25,1610612762,UTA,Utah Jazz
+1642262,Cody Williams,cody-williams,5,F,6-7,190,"NOV 20, 2004",20.0,R,Colorado,2024-25,1610612762,UTA,Utah Jazz
+1630531,Jaden Springer,jaden-springer,11,G,6-4,202,"SEP 25, 2002",22.0,3,Tennessee,2024-25,1610612762,UTA,Utah Jazz
+1642268,Isaiah Collier,isaiah-collier,13,G,6-3,210,"OCT 08, 2004",20.0,R,Southern California,2024-25,1610612762,UTA,Utah Jazz
+1641989,Elijah Harkless,elijah-harkless,16,G,6-3,195,"FEB 03, 2000",25.0,R,UNLV,2024-25,1610612762,UTA,Utah Jazz
+1629004,Svi Mykhailiuk,svi-mykhailiuk,19,G-F,6-7,205,"JUN 10, 1997",28.0,6,Kansas,2024-25,1610612762,UTA,Utah Jazz
+1628381,John Collins,john-collins,20,F-C,6-9,226,"SEP 23, 1997",27.0,7,Wake Forest,2024-25,1610612762,UTA,Utah Jazz
+1642271,Kyle Filipowski,kyle-filipowski,22,C,6-11,250,"NOV 07, 2003",21.0,R,Duke,2024-25,1610612762,UTA,Utah Jazz
+1628374,Lauri Markkanen,lauri-markkanen,23,F-C,7-0,240,"MAY 22, 1997",28.0,7,Arizona,2024-25,1610612762,UTA,Utah Jazz
+1631117,Walker Kessler,walker-kessler,24,C,7-0,245,"JUL 26, 2001",23.0,2,Auburn,2024-25,1610612762,UTA,Utah Jazz
+1630695,Micah Potter,micah-potter,25,C,6-9,248,"APR 06, 1998",27.0,3,Wisconsin,2024-25,1610612762,UTA,Utah Jazz
+1641729,Brice Sensabaugh,brice-sensabaugh,28,F,6-5,235,"OCT 30, 2003",21.0,1,Ohio State,2024-25,1610612762,UTA,Utah Jazz
+1630548,Johnny Juzang,johnny-juzang,33,G,6-5,226,"MAR 17, 2001",24.0,2,UCLA,2024-25,1610612762,UTA,Utah Jazz
+1631131,Oscar Tshiebwe,oscar-tshiebwe,34,F-C,6-8,255,"NOV 27, 1999",25.0,1,Kentucky,2024-25,1610612762,UTA,Utah Jazz
+1630231,KJ Martin,kj-martin,99,F,6-6,215,"JAN 06, 2001",24.0,4,IMG Academy (FL),2024-25,1610612762,UTA,Utah Jazz

@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1630178,Tyrese Maxey,tyrese-maxey,0,G,6-2,200,"NOV 04, 2000",25.0,5,Kentucky,2025-26,1610612755,PHI,Philadelphia 76ers
+203083,Andre Drummond,andre-drummond,1,C,6-11,279,"AUG 10, 1993",32.0,13,Connecticut,2025-26,1610612755,PHI,Philadelphia 76ers
+1629656,Quentin Grimes,quentin-grimes,5,G,6-5,207,"MAY 08, 2000",26.0,4,Houston,2025-26,1610612755,PHI,Philadelphia 76ers
+200768,Kyle Lowry,kyle-lowry,7,G,6-0,196,"MAR 25, 1986",40.0,19,Villanova,2025-26,1610612755,PHI,Philadelphia 76ers
+202331,Paul George,paul-george,8,F,6-8,230,"MAY 02, 1990",36.0,15,Fresno State,2025-26,1610612755,PHI,Philadelphia 76ers
+1626162,Kelly Oubre Jr.,kelly-oubre-jr,9,F-G,6-8,210,"DEC 09, 1995",30.0,10,Kansas,2025-26,1610612755,PHI,Philadelphia 76ers
+1642348,Justin Edwards,justin-edwards,11,F,6-7,217,"DEC 16, 2003",22.0,1,Kentucky,2025-26,1610612755,PHI,Philadelphia 76ers
+1630570,Trendon Watford,trendon-watford,12,G-F,6-8,245,"NOV 09, 2000",25.0,4,Louisiana State,2025-26,1610612755,PHI,Philadelphia 76ers
+1631207,Dalen Terry,dalen-terry,14,F,6-6,210,"JUL 12, 2002",23.0,3,Arizona,2025-26,1610612755,PHI,Philadelphia 76ers
+1630699,MarJon Beauchamp,marjon-beauchamp,16,F,6-7,199,"OCT 12, 2000",25.0,3,NBA G League Ignite,2025-26,1610612755,PHI,Philadelphia 76ers
+203954,Joel Embiid,joel-embiid,21,C-F,7-0,270,"MAR 16, 1994",32.0,9,Kansas,2025-26,1610612755,PHI,Philadelphia 76ers
+1641780,Johni Broome,johni-broome,22,F,6-9,244,"JUL 19, 2002",23.0,R,Philadelphia 76ers,2025-26,1610612755,PHI,Philadelphia 76ers
+1631213,Tyrese Martin,tyrese-martin,23,F,6-6,215,"MAR 07, 1999",27.0,2,Connecticut,2025-26,1610612755,PHI,Philadelphia 76ers
+1631230,Dominick Barlow,dominick-barlow,25,F,6-9,224,"MAY 26, 2003",23.0,3,Overtime Elite,2025-26,1610612755,PHI,Philadelphia 76ers
+1641737,Adem Bona,adem-bona,30,F,6-10,235,"MAR 28, 2003",23.0,1,UCLA,2025-26,1610612755,PHI,Philadelphia 76ers
+1631133,Jabari Walker,jabari-walker,33,F,6-7,237,"JUL 30, 2002",23.0,3,Colorado,2025-26,1610612755,PHI,Philadelphia 76ers
+1642845,VJ Edgecombe,vj-edgecombe,77,G,6-4,190,"JUL 30, 2005",20.0,R,Baylor,2025-26,1610612755,PHI,Philadelphia 76ers

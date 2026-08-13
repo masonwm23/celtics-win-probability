@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1626220,Royce O'Neale,royce-oneale,00,F,6-6,226,"JUN 05, 1993",33.0,8,Baylor,2025-26,1610612756,PHX,Phoenix Suns
+1642346,Ryan Dunn,ryan-dunn,0,F,6-7,216,"JAN 07, 2003",23.0,1,Virginia,2025-26,1610612756,PHX,Phoenix Suns
+1626164,Devin Booker,devin-booker,1,G,6-5,206,"OCT 30, 1996",29.0,10,Kentucky,2025-26,1610612756,PHX,Phoenix Suns
+1629599,Amir Coffey,amir-coffey,2,G-F,6-7,210,"JUN 17, 1997",29.0,6,Minnesota,2025-26,1610612756,PHX,Phoenix Suns
+1628415,Dillon Brooks,dillon-brooks,3,G-F,6-7,225,"JAN 22, 1996",30.0,8,Oregon,2025-26,1610612756,PHX,Phoenix Suns
+1630224,Jalen Green,jalen-green,4,G,6-4,186,"FEB 09, 2002",24.0,4,NBA G League Ignite,2025-26,1610612756,PHX,Phoenix Suns
+1629312,Haywood Highsmith,haywood-highsmith,7,F,6-5,220,"DEC 09, 1996",29.0,5,Wheeling Jesuit,2025-26,1610612756,PHX,Phoenix Suns
+1628960,Grayson Allen,grayson-allen,8,G,6-3,198,"OCT 08, 1995",30.0,7,Duke,2025-26,1610612756,PHX,Phoenix Suns
+1642863,Khaman Maluach,khaman-maluach,10,C,7-1,250,"SEP 14, 2006",19.0,R,Duke,2025-26,1610612756,PHX,Phoenix Suns
+1642345,Oso Ighodaro,oso-ighodaro,11,F,6-11,235,"JUL 14, 2002",23.0,1,Marquette,2025-26,1610612756,PHX,Phoenix Suns
+1631221,Collin Gillespie,collin-gillespie,12,G,6-1,195,"JUN 25, 1999",27.0,2,Villanova,2025-26,1610612756,PHX,Phoenix Suns
+1642886,Koby Brea,koby-brea,14,G,6-5,215,"NOV 06, 2002",23.0,R,Kentucky,2025-26,1610612756,PHX,Phoenix Suns
+1631109,Mark Williams,mark-williams,15,C,7-1,240,"DEC 16, 2001",24.0,3,Duke,2025-26,1610612756,PHX,Phoenix Suns
+1631123,Jamaree Bouyea,jamaree-bouyea,17,G,6-2,180,"JUN 27, 1999",27.0,3,San Francisco,2025-26,1610612756,PHX,Phoenix Suns
+1630587,Isaiah Livers,isaiah-livers,18,F,6-6,232,"JUL 28, 1998",27.0,3,Michigan,2025-26,1610612756,PHX,Phoenix Suns
+1642853,Rasheer Fleming,rasheer-fleming,20,F,6-9,240,"JUL 10, 2004",21.0,R,St. Joseph's (PA),2025-26,1610612756,PHX,Phoenix Suns
+1643047,CJ Huntley,cj-huntley,22,F,6-11,230,"JAN 06, 2002",24.0,R,Appalachian State,2025-26,1610612756,PHX,Phoenix Suns
+1630692,Jordan Goodwin,jordan-goodwin,23,G,6-3,215,"OCT 23, 1998",27.0,4,St. Louis,2025-26,1610612756,PHX,Phoenix Suns

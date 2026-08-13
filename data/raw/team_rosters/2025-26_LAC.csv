@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1641807,Norchad Omier,norchad-omier,,F,6-7,248,"AUG 28, 2001",24.0,R,Miami,2025-26,1610612746,LAC,Los Angeles Clippers
+1642951,Sean Pedulla,sean-pedulla,,G,6-1,195,"OCT 10, 2002",23.0,R,Mississippi,2025-26,1610612746,LAC,Los Angeles Clippers
+203078,Bradley Beal,bradley-beal,0,G,6-4,207,"JUN 28, 1993",33.0,13,Florida,2025-26,1610612746,LAC,Los Angeles Clippers
+202695,Kawhi Leonard,kawhi-leonard,2,F,6-6,225,"JUN 29, 1991",35.0,14,San Diego State,2025-26,1610612746,LAC,Los Angeles Clippers
+1642920,Kobe Sanders,kobe-sanders,4,G,6-8,207,"MAY 30, 2002",24.0,R,Nevada,2025-26,1610612746,LAC,Los Angeles Clippers
+1627884,Derrick Jones Jr.,derrick-jones-jr,5,F,6-6,210,"FEB 15, 1997",29.0,9,UNLV,2025-26,1610612746,LAC,Los Angeles Clippers
+203992,Bogdan Bogdanović,bogdan-bogdanović,7,G,6-5,225,"AUG 18, 1992",33.0,8,Fenerbahce,2025-26,1610612746,LAC,Los Angeles Clippers
+1627739,Kris Dunn,kris-dunn,8,G,6-3,205,"MAR 18, 1994",32.0,9,Providence,2025-26,1610612746,LAC,Los Angeles Clippers
+1631097,Bennedict Mathurin,bennedict-mathurin,9,G-F,6-5,210,"JUN 19, 2002",24.0,3,Arizona,2025-26,1610612746,LAC,Los Angeles Clippers
+1629636,Darius Garland,darius-garland,10,G,6-1,192,"JAN 26, 2000",26.0,6,Vanderbilt,2025-26,1610612746,LAC,Los Angeles Clippers
+201572,Brook Lopez,brook-lopez,11,C,7-1,282,"APR 01, 1988",38.0,17,Stanford,2025-26,1610612746,LAC,Los Angeles Clippers
+1642353,Cam Christie,cam-christie,12,G,6-5,190,"JUL 24, 2005",20.0,1,Minnesota,2025-26,1610612746,LAC,Los Angeles Clippers
+1631102,TyTy Washington Jr.,tyty-washington-jr,14,G,6-3,195,"NOV 15, 2001",24.0,3,Kentucky,2025-26,1610612746,LAC,Los Angeles Clippers
+1642949,Yanic Konan Niederhäuser,yanic-konan-niederhäuser,14,C,6-11,242,"MAR 14, 2003",23.0,R,Penn State,2025-26,1610612746,LAC,Los Angeles Clippers
+1628381,John Collins,john-collins,20,F-C,6-9,226,"SEP 23, 1997",28.0,8,Wake Forest,2025-26,1610612746,LAC,Los Angeles Clippers
+1641757,Jordan Miller,jordan-miller,22,G,6-5,194,"JAN 23, 2000",26.0,2,Miami,2025-26,1610612746,LAC,Los Angeles Clippers
+1630543,Isaiah Jackson,isaiah-jackson,23,F,6-8,205,"JAN 10, 2002",24.0,4,Kentucky,2025-26,1610612746,LAC,Los Angeles Clippers
+201587,Nicolas Batum,nicolas-batum,33,G-F,6-7,230,"DEC 14, 1988",37.0,17,Le Mans,2025-26,1610612746,LAC,Los Angeles Clippers

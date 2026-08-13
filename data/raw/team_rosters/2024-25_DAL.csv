@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+203957,Danté Exum,danté-exum,0,G,6-5,214,"JUL 13, 1995",29.0,8,Australian Institute of Sport,2024-25,1610612742,DAL,Dallas Mavericks
+1631108,Max Christie,max-christie,00,G,6-5,190,"FEB 10, 2003",22.0,2,Michigan State,2024-25,1610612742,DAL,Dallas Mavericks
+1630702,Jaden Hardy,jaden-hardy,1,G,6-3,198,"JUL 05, 2002",22.0,2,NBA G League Ignite,2024-25,1610612742,DAL,Dallas Mavericks
+1641726,Dereck Lively II,dereck-lively-ii,2,C,7-1,230,"FEB 12, 2004",21.0,1,Duke,2024-25,1610612742,DAL,Dallas Mavericks
+203076,Anthony Davis,anthony-davis,3,F-C,6-10,253,"MAR 11, 1993",32.0,12,Kentucky,2024-25,1610612742,DAL,Dallas Mavericks
+203939,Dwight Powell,dwight-powell,7,F-C,6-10,240,"JUL 20, 1991",33.0,10,Stanford,2024-25,1610612742,DAL,Dallas Mavericks
+1641765,Olivier-Maxence Prosper,olivier-maxence-prosper,8,F,6-7,230,"JUL 03, 2002",22.0,1,Marquette,2024-25,1610612742,DAL,Dallas Mavericks
+1630314,Brandon Williams,brandon-williams,10,G,6-1,190,"NOV 22, 1999",25.0,2,Arizona,2024-25,1610612742,DAL,Dallas Mavericks
+202681,Kyrie Irving,kyrie-irving,11,G,6-2,195,"MAR 23, 1992",33.0,13,Duke,2024-25,1610612742,DAL,Dallas Mavericks
+1630230,Naji Marshall,naji-marshall,13,F,6-6,220,"JAN 24, 1998",27.0,4,Xavier,2024-25,1610612742,DAL,Dallas Mavericks
+1628997,Caleb Martin,caleb-martin,16,F,6-5,205,"SEP 28, 1995",29.0,5,Nevada,2024-25,1610612742,DAL,Dallas Mavericks
+1630556,Kessler Edwards,kessler-edwards,20,F,6-7,203,"AUG 09, 2000",24.0,3,Pepperdine,2024-25,1610612742,DAL,Dallas Mavericks
+1629655,Daniel Gafford,daniel-gafford,21,F-C,6-10,265,"OCT 01, 1998",26.0,5,Arkansas,2024-25,1610612742,DAL,Dallas Mavericks
+1630539,Kai Jones,kai-jones,23,C-F,6-11,221,"JAN 19, 2001",24.0,2,Texas,2024-25,1610612742,DAL,Dallas Mavericks
+1629023,P.J. Washington,pj-washington,25,F,6-6,230,"AUG 23, 1998",26.0,5,Kentucky,2024-25,1610612742,DAL,Dallas Mavericks
+203915,Spencer Dinwiddie,spencer-dinwiddie,26,G,6-5,215,"APR 06, 1993",32.0,10,Colorado,2024-25,1610612742,DAL,Dallas Mavericks
+202691,Klay Thompson,klay-thompson,31,G,6-5,220,"FEB 08, 1990",35.0,13,Washington State,2024-25,1610612742,DAL,Dallas Mavericks

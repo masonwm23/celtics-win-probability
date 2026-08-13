@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1629632,Coby White,coby-white,0,G,6-5,195,"FEB 16, 2000",25.0,5,North Carolina,2024-25,1610612741,CHI,Chicago Bulls
+1628366,Lonzo Ball,lonzo-ball,2,G,6-6,190,"OCT 27, 1997",27.0,7,UCLA,2024-25,1610612741,CHI,Chicago Bulls
+1630581,Josh Giddey,josh-giddey,3,G,6-8,216,"OCT 10, 2002",22.0,3,NBA Global Academy,2024-25,1610612741,CHI,Chicago Bulls
+1628975,Jevon Carter,jevon-carter,5,G,6-1,200,"SEP 14, 1995",29.0,6,West Virginia,2024-25,1610612741,CHI,Chicago Bulls
+1630188,Jalen Smith,jalen-smith,7,F-C,6-9,215,"MAR 16, 2000",25.0,4,Maryland,2024-25,1610612741,CHI,Chicago Bulls
+202696,Nikola Vučević,nikola-vučević,9,C,6-10,260,"OCT 24, 1990",34.0,13,Southern California,2024-25,1610612741,CHI,Chicago Bulls
+1630245,Ayo Dosunmu,ayo-dosunmu,11,G,6-5,200,"JAN 17, 2000",25.0,3,Illinois,2024-25,1610612741,CHI,Chicago Bulls
+1642443,Jahmir Young,jahmir-young,11,G,6-1,185,"OCT 07, 2000",24.0,R,Maryland,2024-25,1610612741,CHI,Chicago Bulls
+1628380,Zach Collins,zach-collins,12,F-C,6-11,250,"NOV 19, 1997",27.0,7,Gonzaga,2024-25,1610612741,CHI,Chicago Bulls
+1628989,Kevin Huerter,kevin-huerter,13,G-F,6-7,198,"AUG 27, 1998",26.0,6,Maryland,2024-25,1610612741,CHI,Chicago Bulls
+1641824,Matas Buzelis,matas-buzelis,14,F,6-10,209,"OCT 13, 2004",20.0,R,NBA G League Ignite,2024-25,1610612741,CHI,Chicago Bulls
+1641763,Julian Phillips,julian-phillips,15,F,6-8,198,"NOV 05, 2003",21.0,1,Tennessee,2024-25,1610612741,CHI,Chicago Bulls
+1641801,Emanuel Miller,emanuel-miller,20,F,6-7,215,"JUN 19, 2000",25.0,R,TCU,2024-25,1610612741,CHI,Chicago Bulls
+1629659,Talen Horton-Tucker,talen-horton-tucker,22,G,6-4,234,"NOV 25, 2000",24.0,5,Iowa State,2024-25,1610612741,CHI,Chicago Bulls
+1631207,Dalen Terry,dalen-terry,25,F,6-7,195,"JUL 12, 2002",22.0,2,Arizona,2024-25,1610612741,CHI,Chicago Bulls
+1630200,Tre Jones,tre-jones,30,G,6-1,185,"JAN 08, 2000",25.0,4,Duke,2024-25,1610612741,CHI,Chicago Bulls
+1630604,E.J. Liddell,ej-liddell,32,F,6-6,240,"DEC 18, 2000",24.0,1,Ohio State,2024-25,1610612741,CHI,Chicago Bulls
+1630172,Patrick Williams,patrick-williams,44,F,6-7,215,"AUG 26, 2001",23.0,4,Florida State,2024-25,1610612741,CHI,Chicago Bulls

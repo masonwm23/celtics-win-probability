@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1628988,Aaron Holiday,aaron-holiday,0,G,6-0,185,"SEP 30, 1996",28.0,6,UCLA,2024-25,1610612745,HOU,Houston Rockets
+1641708,Amen Thompson,amen-thompson,1,G-F,6-7,200,"JAN 30, 2003",22.0,1,Overtime Elite,2024-25,1610612745,HOU,Houston Rockets
+1629111,Jock Landale,jock-landale,2,C,6-11,255,"OCT 25, 1995",29.0,3,St. Mary's,2024-25,1610612745,HOU,Houston Rockets
+1642368,N'Faly Dante,nfaly-dante,3,C,6-11,230,"OCT 19, 2001",23.0,R,Oregon,2024-25,1610612745,HOU,Houston Rockets
+1630224,Jalen Green,jalen-green,4,G,6-4,186,"FEB 09, 2002",23.0,3,NBA G League Ignite,2024-25,1610612745,HOU,Houston Rockets
+1627832,Fred VanVleet,fred-vanvleet,5,G,6-0,197,"FEB 25, 1994",31.0,8,Wichita State,2024-25,1610612745,HOU,Houston Rockets
+1641715,Cam Whitmore,cam-whitmore,7,F,6-7,230,"JUL 08, 2004",20.0,1,Villanova,2024-25,1610612745,HOU,Houston Rockets
+1630256,Jae'Sean Tate,jaesean-tate,8,F,6-4,230,"OCT 28, 1995",29.0,4,Ohio State,2024-25,1610612745,HOU,Houston Rockets
+1628415,Dillon Brooks,dillon-brooks,9,G-F,6-6,225,"JAN 22, 1996",29.0,7,Oregon,2024-25,1610612745,HOU,Houston Rockets
+1631095,Jabari Smith Jr.,jabari-smith-jr,10,F,6-10,220,"MAY 13, 2003",22.0,2,Auburn,2024-25,1610612745,HOU,Houston Rockets
+203500,Steven Adams,steven-adams,12,C,6-11,265,"JUL 20, 1993",31.0,11,Pittsburgh,2024-25,1610612745,HOU,Houston Rockets
+1642263,Reed Sheppard,reed-sheppard,15,G,6-2,185,"JUN 24, 2004",21.0,R,Kentucky,2024-25,1610612745,HOU,Houston Rockets
+1631106,Tari Eason,tari-eason,17,F,6-8,215,"MAY 10, 2001",24.0,2,Louisiana State,2024-25,1610612745,HOU,Houston Rockets
+1631466,Nate Williams,nate-williams,19,G,6-5,205,"FEB 12, 1999",26.0,2,Buffalo,2024-25,1610612745,HOU,Houston Rockets
+1630578,Alperen Sengun,alperen-sengun,28,C,6-11,243,"JUL 25, 2002",22.0,3,Besiktas,2024-25,1610612745,HOU,Houston Rockets
+201145,Jeff Green,jeff-green,32,F,6-8,235,"AUG 28, 1986",38.0,17,Georgetown,2024-25,1610612745,HOU,Houston Rockets
+1631223,David Roddy,david-roddy,45,F,6-4,255,"MAR 27, 2001",24.0,2,Colorado State,2024-25,1610612745,HOU,Houston Rockets
+1629098,Jack McVeigh,jack-mcveigh,58,G-F,6-8,215,"JUN 27, 1996",29.0,R,Nebraska-Lincoln,2024-25,1610612745,HOU,Houston Rockets

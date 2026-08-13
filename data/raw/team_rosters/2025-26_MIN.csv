@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1628978,Donte DiVincenzo,donte-divincenzo,0,G,6-4,203,"JAN 31, 1997",29.0,7,Villanova,2025-26,1610612750,MIN,Minnesota Timberwolves
+1630545,Terrence Shannon Jr.,terrence-shannon-jr,1,G-F,6-6,215,"JUL 30, 2000",25.0,1,Illinois,2025-26,1610612750,MIN,Minnesota Timberwolves
+1630183,Jaden McDaniels,jaden-mcdaniels,3,F,6-9,185,"SEP 29, 2000",25.0,5,Washington,2025-26,1610612750,MIN,Minnesota Timberwolves
+1641763,Julian Phillips,julian-phillips,4,F,6-6,201,"NOV 05, 2003",22.0,2,Tennessee,2025-26,1610612750,MIN,Minnesota Timberwolves
+1630162,Anthony Edwards,anthony-edwards,5,G,6-4,225,"AUG 05, 2001",24.0,5,Georgia,2025-26,1610612750,MIN,Minnesota Timberwolves
+204060,Joe Ingles,joe-ingles,7,F-G,6-8,220,"OCT 02, 1987",38.0,11,Maccabi Tel Aviv,2025-26,1610612750,MIN,Minnesota Timberwolves
+1630538,Bones Hyland,bones-hyland,8,G,6-2,169,"SEP 14, 2000",25.0,4,Virginia Commonwealth,2025-26,1610612750,MIN,Minnesota Timberwolves
+201144,Mike Conley,mike-conley,10,G,6-1,175,"OCT 11, 1987",38.0,18,Ohio State,2025-26,1610612750,MIN,Minnesota Timberwolves
+1629675,Naz Reid,naz-reid,11,C-F,6-9,264,"AUG 26, 1999",26.0,6,Louisiana State,2025-26,1610612750,MIN,Minnesota Timberwolves
+203937,Kyle Anderson,kyle-anderson,12,F-G,6-8,230,"SEP 20, 1993",32.0,11,UCLA,2025-26,1610612750,MIN,Minnesota Timberwolves
+1630245,Ayo Dosunmu,ayo-dosunmu,13,G,6-4,201,"JAN 17, 2000",26.0,4,Illinois,2025-26,1610612750,MIN,Minnesota Timberwolves
+1642389,Zyon Pullin,zyon-pullin,15,G,6-4,206,"MAR 03, 2001",25.0,1,Florida,2025-26,1610612750,MIN,Minnesota Timberwolves
+1642866,Joan Beringer,joan-beringer,19,F,6-11,230,"NOV 11, 2006",19.0,R,,2025-26,1610612750,MIN,Minnesota Timberwolves
+1641740,Jaylen Clark,jaylen-clark,22,G,6-5,205,"OCT 13, 2001",24.0,1,UCLA,2025-26,1610612750,MIN,Minnesota Timberwolves
+1642402,Enrique Freeman,enrique-freeman,25,F,6-9,220,"JUL 29, 2000",25.0,1,Akron,2025-26,1610612750,MIN,Minnesota Timberwolves
+203497,Rudy Gobert,rudy-gobert,27,C,7-1,258,"JUN 26, 1992",34.0,12,Cholet,2025-26,1610612750,MIN,Minnesota Timberwolves
+203944,Julius Randle,julius-randle,30,F-C,6-9,250,"NOV 29, 1994",31.0,11,Kentucky,2025-26,1610612750,MIN,Minnesota Timberwolves
+1642911,Rocco Zikarsky,rocco-zikarsky,44,C,7-3,227,"JUL 11, 2006",19.0,R,,2025-26,1610612750,MIN,Minnesota Timberwolves

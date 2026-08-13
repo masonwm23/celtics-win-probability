@@ -1,0 +1,17 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1628369,Jayson Tatum,jayson-tatum,0,F-G,6-8,210,"MAR 03, 1998",28.0,8,Duke,2025-26,1610612738,BOS,Boston Celtics
+202696,Nikola Vučević,nikola-vučević,4,C,6-9,265,"OCT 24, 1990",35.0,14,Southern California,2025-26,1610612738,BOS,Boston Celtics
+1627759,Jaylen Brown,jaylen-brown,7,G-F,6-6,223,"OCT 24, 1996",29.0,9,California,2025-26,1610612738,BOS,Boston Celtics
+1642910,John Tonje,john-tonje,8,G,6-4,218,"APR 23, 2001",25.0,R,Wisconsin,2025-26,1610612738,BOS,Boston Celtics
+1628401,Derrick White,derrick-white,9,G,6-4,190,"JUL 02, 1994",31.0,8,Colorado,2025-26,1610612738,BOS,Boston Celtics
+1630202,Payton Pritchard,payton-pritchard,11,G,6-1,195,"JAN 28, 1998",28.0,5,Oregon,2025-26,1610612738,BOS,Boston Celtics
+1631199,Ron Harper Jr.,ron-harper-jr,13,G-F,6-5,233,"APR 12, 2000",26.0,3,Rutgers,2025-26,1610612738,BOS,Boston Celtics
+1641775,Jordan Walsh,jordan-walsh,27,G,6-6,205,"MAR 03, 2004",22.0,2,Arkansas,2025-26,1610612738,BOS,Boston Celtics
+1642864,Hugo González,hugo-gonzález,28,G,6-6,200,"FEB 05, 2006",20.0,R,Real Madrid,2025-26,1610612738,BOS,Boston Celtics
+1630573,Sam Hauser,sam-hauser,30,F,6-7,217,"DEC 08, 1997",28.0,4,Virginia,2025-26,1610612738,BOS,Boston Celtics
+1642917,Max Shulga,max-shulga,44,G,6-4,210,"JUN 25, 2002",24.0,R,Virginia Commonwealth,2025-26,1610612738,BOS,Boston Celtics
+1630625,Dalano Banton,dalano-banton,45,F,6-8,203,"NOV 07, 1999",26.0,4,Nebraska,2025-26,1610612738,BOS,Boston Celtics
+1630568,Luka Garza,luka-garza,52,C,6-10,243,"DEC 27, 1998",27.0,4,Iowa,2025-26,1610612738,BOS,Boston Celtics
+1631248,Baylor Scheierman,baylor-scheierman,55,G,6-6,205,"SEP 26, 2000",25.0,1,Creighton,2025-26,1610612738,BOS,Boston Celtics
+1642873,Amari Williams,amari-williams,77,F-C,6-11,250,"JAN 28, 2002",24.0,R,Kentucky,2025-26,1610612738,BOS,Boston Celtics
+1629674,Neemias Queta,neemias-queta,88,C,7-0,248,"JUL 13, 1999",26.0,4,Utah State,2025-26,1610612738,BOS,Boston Celtics

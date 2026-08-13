@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1631169,Josh Minott,josh-minott,00,F,6-8,205,"NOV 25, 2002",23.0,3,Memphis,2025-26,1610612751,BKN,Brooklyn Nets
+1630533,Ziaire Williams,ziaire-williams,1,F,6-9,185,"SEP 12, 2001",24.0,4,Stanford,2025-26,1610612751,BKN,Brooklyn Nets
+1642874,Danny Wolf,danny-wolf,2,F,6-11,250,"MAY 05, 2004",22.0,R,Michigan,2025-26,1610612751,BKN,Brooklyn Nets
+1642962,Drake Powell,drake-powell,4,G-F,6-5,195,"SEP 08, 2005",20.0,R,North Carolina,2025-26,1610612751,BKN,Brooklyn Nets
+1642856,Egor Dëmin,egor-dëmin,8,G,6-8,200,"MAR 03, 2006",20.0,R,Brigham Young,2025-26,1610612751,BKN,Brooklyn Nets
+1630604,E.J. Liddell,ej-liddell,9,F,6-6,240,"DEC 18, 2000",25.0,2,Ohio State,2025-26,1610612751,BKN,Brooklyn Nets
+1630623,Tyson Etienne,tyson-etienne,10,G,6-0,200,"SEP 17, 1999",26.0,1,Wichita State,2025-26,1610612751,BKN,Brooklyn Nets
+1629611,Terance Mann,terance-mann,14,G-F,6-6,215,"OCT 18, 1996",29.0,6,Florida State,2025-26,1610612751,BKN,Brooklyn Nets
+1629008,Michael Porter Jr.,michael-porter-jr,17,F,6-10,218,"JUN 29, 1998",28.0,6,Missouri,2025-26,1610612751,BKN,Brooklyn Nets
+1641869,Malachi Smith,malachi-smith,18,G,6-4,205,"DEC 06, 1999",26.0,R,Gonzaga,2025-26,1610612751,BKN,Brooklyn Nets
+1630549,Day'Ron Sharpe,dayron-sharpe,20,C,6-10,265,"NOV 06, 2001",24.0,4,North Carolina,2025-26,1610612751,BKN,Brooklyn Nets
+1641730,Noah Clowney,noah-clowney,21,F-C,6-10,210,"JUL 14, 2004",21.0,2,Alabama,2025-26,1610612751,BKN,Brooklyn Nets
+1630592,Jalen Wilson,jalen-wilson,22,F,6-6,220,"NOV 04, 2000",25.0,2,Kansas,2025-26,1610612751,BKN,Brooklyn Nets
+1630534,Ochai Agbaji,ochai-agbaji,30,G,6-5,215,"APR 20, 2000",26.0,3,Kansas,2025-26,1610612751,BKN,Brooklyn Nets
+1643052,Chaney Johnson,chaney-johnson,31,G-F,6-7,220,"JUN 20, 2002",24.0,R,Auburn,2025-26,1610612751,BKN,Brooklyn Nets
+1629651,Nic Claxton,nic-claxton,33,C,6-11,215,"APR 17, 1999",27.0,6,Georgia,2025-26,1610612751,BKN,Brooklyn Nets
+1642879,Ben Saraf,ben-saraf,77,G,6-6,200,"APR 14, 2006",20.0,R,Ratiopharm Ulm,2025-26,1610612751,BKN,Brooklyn Nets
+1642849,Nolan Traore,nolan-traore,88,G,6-3,185,"MAY 28, 2006",20.0,R,Saint-Quentin,2025-26,1610612751,BKN,Brooklyn Nets

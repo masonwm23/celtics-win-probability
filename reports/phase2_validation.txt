@@ -1,43 +1,43 @@
 ==========================================================================
 PHASE 2 VALIDATION - PARSED EVENTS, ROSTERS AND LINEUPS
-Run at: 2026-07-30T04:58:56+00:00
+Run at: 2026-08-12T21:05:46+00:00
 ==========================================================================
 
 INPUTS
-  events   : 308,975 rows, 636 games
-  rosters  : 16,342 player-game rows
-  lineups  : 308,975 event lineups
-  minutes  : 16,342 player comparisons
-  anomalies: 10
+  events   : 387,320 rows, 800 games
+  rosters  : 20,713 player-game rows
+  lineups  : 387,320 event lineups
+  minutes  : 20,713 player comparisons
+  anomalies: 13
 
 CHECKS
   [PASS] Every indexed game is parsed, and no extras
-         parsed 636 of 636 indexed
+         parsed 800 of 800 indexed
   [PASS] Every parsed game has roster rows and lineups
-         rosters 636, lineups 636
+         rosters 800, lineups 800
   [PASS] Game clock is monotonic in delivered event order
          0 inversions
   [PASS] Total elapsed time matches period structure
-         checked 636 games
+         checked 800 games
   [PASS] Reconstructed score never decreases
-         0 decreases; 27,126 stale or zero-encoded score reports were ignored across 636 games
+         0 decreases; 27,128 stale or zero-encoded score reports were ignored across 800 games
   [PASS] Final event score equals boxscore point totals
-         checked 636 games, both teams
+         checked 800 games, both teams
   [PASS] Recorded win/loss agrees with the final score
          target variable verified
   [PASS] Exactly five starters per team per game
          counts observed: [5]
   [PASS] Row-order starters agree with the position field where usable
-         1108 team-games checked, 0 disagreements, 0 indeterminate; 164 team-games have an unusable position field (expected: the 2016-17 season)
+         1436 team-games checked, 0 disagreements, 0 indeterminate; 164 team-games have an unusable position field (expected: the 2016-17 season)
   [PASS] Lineup size is five, or a recorded anomaly explains why not
-         308,975 events checked
+         387,320 events checked
   [PASS] Every substitution's incoming player was identified
          no guesses were made
   [PASS] Derived on-court minutes match boxscore minutes, except in games with a recorded anomaly
-         13,546 players who played across 636 games; tolerance 0.02 min
-           games with no recorded anomaly: 626, 13,354 players, max difference 0.0080 min, mean 0.0013 min
+         17,070 players who played across 800 games; tolerance 0.02 min
+           games with no recorded anomaly: 788, 16,838 players, max difference 0.0080 min, mean 0.0013 min
   [PASS] Player plus/minus coherence measured and recorded
-         10 of 636 games (1.6%) have player plus/minus that does not sum to five times the margin.
+         10 of 800 games (1.2%) have player plus/minus that does not sum to five times the margin.
          Recorded in lineup_risk_games.csv. Being listed there excuses nothing; it flags the game for scrutiny.
            2017-12-13 BOS vs. DEN   BOS err +0  OPP err -10
            2017-12-21 BOS @ NYK     BOS err +1  OPP err +0
@@ -52,10 +52,10 @@ CHECKS
 
 RECORDED ANOMALIES
 ------------------
-  10 anomaly row(s) across 10 of 636 games (1.6%)
+  13 anomaly row(s) across 12 of 800 games (1.5%)
 
-       6  period openers incomplete, filled from previous period
-       3  period openers incomplete, filled from previous period (NOT DETERMINED)
+       8  period openers incomplete, filled from previous period
+       4  period openers incomplete, filled from previous period (NOT DETERMINED)
        1  period openers incomplete, filled from players who appeared in the game
 
   Games affected, with reason:
@@ -69,6 +69,8 @@ RECORDED ANOMALIES
     0022200328  period openers incomplete, filled from previous period
     0022200413  period openers incomplete, filled from previous period
     0022300517  period openers incomplete, filled from previous period
+    0022400230  period openers incomplete, filled from previous period
+    0022500637  period openers incomplete, filled from previous period; period openers incomplete, filled from previous period (NOT DETERMINED)
 
   These are defects in the NBA's own logs, not in the parser.
   Lineup composition in these games carries some uncertainty and
@@ -79,7 +81,7 @@ LINEUP RECONSTRUCTION EVIDENCE
   Derived minutes come from walking substitutions. Boxscore minutes
   come from the NBA and know nothing about that reconstruction, so
   agreement between them is independent evidence.
-    players compared     : 13,546
+    players compared     : 17,070
     mean abs difference  : 0.0013 min
     median abs difference: 0.0000 min
     max abs difference   : 0.0080 min
@@ -88,8 +90,8 @@ LINEUP RECONSTRUCTION EVIDENCE
   hundredths of a minute is rounding, not error.
 
 PARSED DATA SUMMARY
-  secondary events (blocks/steals, blank actionType): 15,454
-  events with no score reported (forward-filled): 202,659 (65.6%)
+  secondary events (blocks/steals, blank actionType): 19,196
+  events with no score reported (forward-filled): 261,041 (67.4%)
   periods present: [1, 2, 3, 4, 5, 6]
   Celtics margin range: -43 to 60
 

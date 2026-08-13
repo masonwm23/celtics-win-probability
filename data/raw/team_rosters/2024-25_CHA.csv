@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1628970,Miles Bridges,miles-bridges,0,F,6-7,225,"MAR 21, 1998",27.0,5,Michigan State,2024-25,1610612766,CHA,Charlotte Hornets
+1630163,LaMelo Ball,lamelo-ball,1,G,6-7,180,"AUG 22, 2001",23.0,4,Illawarra,2024-25,1610612766,CHA,Charlotte Hornets
+1629684,Grant Williams,grant-williams,2,F,6-6,236,"NOV 30, 1998",26.0,5,Tennessee,2024-25,1610612766,CHA,Charlotte Hornets
+1629610,DaQuan Jeffries,daquan-jeffries,3,G-F,6-5,222,"AUG 30, 1997",27.0,5,Tulsa,2024-25,1610612766,CHA,Charlotte Hornets
+1631109,Mark Williams,mark-williams,5,C,7-0,240,"DEC 16, 2001",23.0,2,Duke,2024-25,1610612766,CHA,Charlotte Hornets
+1641878,Damion Baugh,damion-baugh,7,G,6-4,194,"AUG 03, 2000",24.0,R,TCU,2024-25,1610612766,CHA,Charlotte Hornets
+1641733,Nick Smith Jr.,nick-smith-jr,8,G,6-2,185,"APR 18, 2004",21.0,1,Arkansas,2024-25,1610612766,CHA,Charlotte Hornets
+1631111,Wendell Moore Jr.,wendell-moore-jr,9,G,6-5,215,"SEP 18, 2001",23.0,2,Duke,2024-25,1610612766,CHA,Charlotte Hornets
+1630182,Josh Green,josh-green,10,G,6-5,200,"NOV 16, 2000",24.0,4,Arizona,2024-25,1610612766,CHA,Charlotte Hornets
+203994,Jusuf Nurkić,jusuf-nurkić,11,C,7-0,290,"AUG 23, 1994",30.0,10,Cedevita,2024-25,1610612766,CHA,Charlotte Hornets
+1629006,Josh Okogie,josh-okogie,12,G,6-4,213,"SEP 01, 1998",26.0,6,Georgia Tech,2024-25,1610612766,CHA,Charlotte Hornets
+1631217,Moussa Diabaté,moussa-diabaté,14,F,6-9,210,"JAN 21, 2002",23.0,2,Michigan,2024-25,1610612766,CHA,Charlotte Hornets
+1630544,Tre Mann,tre-mann,23,G,6-3,178,"FEB 03, 2001",24.0,3,Florida,2024-25,1610612766,CHA,Charlotte Hornets
+1641706,Brandon Miller,brandon-miller,24,F,6-7,200,"NOV 22, 2002",22.0,1,Alabama,2024-25,1610612766,CHA,Charlotte Hornets
+1642354,KJ Simpson,kj-simpson,25,G,6-0,189,"AUG 08, 2002",22.0,R,Colorado,2024-25,1610612766,CHA,Charlotte Hornets
+203552,Seth Curry,seth-curry,30,G,6-1,185,"AUG 23, 1990",34.0,11,Duke,2024-25,1610612766,CHA,Charlotte Hornets
+1642275,Tidjane Salaün,tidjane-salaün,31,F,6-8,207,"AUG 10, 2005",19.0,R,Cholet,2024-25,1610612766,CHA,Charlotte Hornets
+201959,Taj Gibson,taj-gibson,67,F,6-9,232,"JUN 24, 1985",40.0,15,Southern California,2024-25,1610612766,CHA,Charlotte Hornets

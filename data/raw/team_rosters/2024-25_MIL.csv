@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+203081,Damian Lillard,damian-lillard,0,G,6-2,195,"JUL 15, 1990",34.0,12,Weber State,2024-25,1610612749,MIL,Milwaukee Bucks
+1630579,Jericho Sims,jericho-sims,00,C,6-10,250,"OCT 20, 1998",26.0,3,Texas,2024-25,1610612749,MIL,Milwaukee Bucks
+1629645,Kevin Porter Jr.,kevin-porter-jr,3,G-F,6-4,203,"MAY 04, 2000",25.0,4,Southern California,2024-25,1610612749,MIL,Milwaukee Bucks
+1629018,Gary Trent Jr.,gary-trent-jr,5,G,6-5,204,"JAN 18, 1999",26.0,6,Duke,2024-25,1610612749,MIL,Milwaukee Bucks
+1641753,Chris Livingston,chris-livingston,7,F,6-6,220,"OCT 15, 2003",21.0,1,Kentucky,2024-25,1610612749,MIL,Milwaukee Bucks
+1626171,Bobby Portis,bobby-portis,9,F,6-10,250,"FEB 10, 1995",30.0,9,Arkansas,2024-25,1610612749,MIL,Milwaukee Bucks
+201572,Brook Lopez,brook-lopez,11,C,7-1,282,"APR 01, 1988",37.0,16,Stanford,2024-25,1610612749,MIL,Milwaukee Bucks
+1627752,Taurean Prince,taurean-prince,12,F,6-6,218,"MAR 22, 1994",31.0,8,Baylor,2024-25,1610612749,MIL,Milwaukee Bucks
+1631157,Ryan Rollins,ryan-rollins,13,G,6-3,180,"JUL 03, 2002",22.0,2,Toledo,2024-25,1610612749,MIL,Milwaukee Bucks
+1631123,Jamaree Bouyea,jamaree-bouyea,15,G,6-2,180,"JUN 27, 1999",26.0,2,San Francisco,2024-25,1610612749,MIL,Milwaukee Bucks
+1630649,Stanley Umude,stanley-umude,17,G,6-6,210,"APR 12, 1999",26.0,2,Arkansas,2024-25,1610612749,MIL,Milwaukee Bucks
+1628398,Kyle Kuzma,kyle-kuzma,18,F,6-9,221,"JUL 24, 1995",29.0,7,Utah,2024-25,1610612749,MIL,Milwaukee Bucks
+1631260,AJ Green,aj-green,20,G,6-4,190,"SEP 27, 1999",25.0,2,Northern Iowa,2024-25,1610612749,MIL,Milwaukee Bucks
+1641890,Tyler Smith,tyler-smith,21,F,6-9,224,"NOV 02, 2004",20.0,R,NBA G League Ignite,2024-25,1610612749,MIL,Milwaukee Bucks
+1626192,Pat Connaughton,pat-connaughton,24,G,6-5,209,"JAN 06, 1993",32.0,9,Notre Dame,2024-25,1610612749,MIL,Milwaukee Bucks
+203507,Giannis Antetokounmpo,giannis-antetokounmpo,34,F,6-11,243,"DEC 06, 1994",30.0,11,Filathlitikos,2024-25,1610612749,MIL,Milwaukee Bucks
+1631250,Pete Nance,pete-nance,35,F,6-10,225,"FEB 19, 2000",25.0,1,Northwestern,2024-25,1610612749,MIL,Milwaukee Bucks
+1641748,Andre Jackson Jr.,andre-jackson-jr,44,G,6-6,209,"NOV 13, 2001",23.0,1,Connecticut,2024-25,1610612749,MIL,Milwaukee Bucks

@@ -1,61 +1,63 @@
 ==========================================================================
 PHASE 3 VALIDATION - FEATURES, SPLITS AND LEAK TESTS
-Run at: 2026-07-30T16:15:42+00:00
+Run at: 2026-08-12T21:08:39+00:00
 ==========================================================================
 
 INPUTS
-  model frame : 308,975 rows, 636 games
-  seasons     : 8
+  model frame : 387,320 rows, 800 games
+  seasons     : 10
   features    : 13
 
 CHECKS
   [PASS] Every declared feature column exists
          13 features present
   [PASS] No nulls in any feature column
-         308,975 rows checked
+         387,320 rows checked
   [PASS] Possession share is near 50 percent
-         Boston holds the ball on 0.500 of events where possession is known; 1,278 events (0.41%) precede the first possession-bearing event of a period
+         Boston holds the ball on 0.503 of events where possession is known; 1,609 events (0.42%) precede the first possession-bearing event of a period
   [PASS] Possessions per team per game are in the normal NBA range
-         median 98, 5th percentile 90, 95th percentile 108; 0 game(s) outside 80-125
+         median 98, 5th percentile 89, 95th percentile 108; 0 game(s) outside 80-125
   [PASS] Time remaining is never negative
          0 rows negative
   [PASS] Per-event scoring sums to the final margin in every game
          0 game(s) disagree
   [PASS] No game appears in both train and test in any fold
-         8 folds checked, 636 test games in total
+         10 folds checked, 800 test games in total
   [PASS] Every season is held out exactly once
-         held out: ['2016-17', '2017-18', '2018-19', '2019-20', '2020-21', '2021-22', '2022-23', '2023-24']
+         held out: ['2016-17', '2017-18', '2018-19', '2019-20', '2020-21', '2021-22', '2022-23', '2023-24', '2024-25', '2025-26']
   [PASS] Lineup strength never sees the held-out season
          checked all folds: player values are built from training seasons only, and players who appear solely in the held-out season correctly receive the default value
   [PASS] Scrambled outcomes score at chance, so nothing leaks the answer
-         Effective sample: 636 games (413 wins, 223 losses).
-         Under the null the pooled AUC has SE 0.0240, so chance is
-         0.500 +/- 0.0720 at three standard errors.
+         Effective sample: 800 games (530 wins, 270 losses).
+         Under the null the pooled AUC has SE 0.0216, so chance is
+         0.500 +/- 0.0648 at three standard errors.
          
-           real outcomes          pooled out-of-fold AUC 0.8155
-           permutation 1            pooled out-of-fold AUC 0.4770
-           permutation 2            pooled out-of-fold AUC 0.4877
-           permutation 3            pooled out-of-fold AUC 0.4927
+           real outcomes          pooled out-of-fold AUC 0.8153
+           permutation 1            pooled out-of-fold AUC 0.5151
+           permutation 2            pooled out-of-fold AUC 0.4817
+           permutation 3            pooled out-of-fold AUC 0.4933
          
-           mean over permutations 0.4858
-           worst deviation from chance 0.0230 (tolerance 0.0720)
+           mean over permutations 0.4967
+           worst deviation from chance 0.0183 (tolerance 0.0648)
            real exceeds every permutation: True
   [PASS] At tipoff the model is near chance, as it must be
-         mean AUC on opening events only: 0.5822
+         mean AUC on opening events only: 0.5634
          At 0-0 with a full clock the only real signal is home court, so a high value here would mean a feature carries the outcome.
          Boston's home win rate over the period is the natural benchmark.
 
 CROSS-VALIDATION FOLDS
 ----------------------
   held out   train games  test games  train events  test events  test win rate
-  2016-17            554          82       268,634       40,341          0.646
-  2017-18            554          82       269,684       39,291          0.671
-  2018-19            554          82       268,646       40,329          0.598
-  2019-20            564          72       272,696       36,279          0.667
-  2020-21            564          72       273,754       35,221          0.500
-  2021-22            554          82       269,405       39,570          0.622
-  2022-23            554          82       269,635       39,340          0.695
-  2023-24            554          82       270,371       38,604          0.780
+  2016-17            718          82       346,979       40,341          0.646
+  2017-18            718          82       348,029       39,291          0.671
+  2018-19            718          82       346,991       40,329          0.598
+  2019-20            728          72       351,041       36,279          0.667
+  2020-21            728          72       352,099       35,221          0.500
+  2021-22            718          82       347,750       39,570          0.622
+  2022-23            718          82       347,980       39,340          0.695
+  2023-24            718          82       348,716       38,604          0.780
+  2024-25            718          82       348,705       38,615          0.744
+  2025-26            718          82       347,590       39,730          0.683
 
 OUT-OF-FOLD PERFORMANCE BY GAME PHASE
 -------------------------------------
@@ -63,13 +65,13 @@ OUT-OF-FOLD PERFORMANCE BY GAME PHASE
   model that never saw that season.
 
   phase             events   base rate      AUC    Brier  log loss
-  period 1          73,901       0.649   0.6276   0.2179    0.6266
-  period 2          77,351       0.649   0.7354   0.1936    0.5768
-  period 3          75,451       0.646   0.8401   0.1530    0.4687
-  period 4          79,567       0.640   0.9432   0.0910    0.2904
-  overtime           2,705       0.494   0.8142   0.1851    0.5413
-  clutch            15,102       0.505   0.8268   0.1714    0.5272
-  first 6 min       33,553       0.647   0.5783   0.2246    0.6408
+  period 1          93,329       0.662   0.6129   0.2165    0.6238
+  period 2          97,033       0.661   0.7355   0.1906    0.5652
+  period 3          94,612       0.659   0.8409   0.1513    0.4624
+  period 4          99,181       0.652   0.9483   0.0860    0.2733
+  overtime           3,165       0.526   0.8432   0.1647    0.4955
+  clutch            18,097       0.517   0.8453   0.1605    0.4937
+  first 6 min       42,521       0.661   0.5599   0.2227    0.6379
 
   Late-game numbers being strong is expected, not suspicious:
   a big lead with little time left really does decide games.

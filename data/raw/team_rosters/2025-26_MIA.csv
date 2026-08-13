@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1631323,Simone Fontecchio,simone-fontecchio,0,F,6-7,209,"DEC 09, 1995",30.0,3,Baskonia,2025-26,1610612748,MIA,Miami Heat
+1631211,Trevor Keels,trevor-keels,3,G,6-3,215,"AUG 26, 2003",22.0,1,Duke,2025-26,1610612748,MIA,Miami Heat
+1631107,Nikola Jović,nikola-jović,5,F,6-10,205,"JUN 09, 2003",23.0,3,Mega Basket,2025-26,1610612748,MIA,Miami Heat
+1642276,Kel'el Ware,kelel-ware,7,C,7-0,230,"APR 20, 2004",22.0,1,Indiana,2025-26,1610612748,MIA,Miami Heat
+1641796,Pelle Larsson,pelle-larsson,9,G,6-5,215,"FEB 23, 2001",25.0,1,Arizona,2025-26,1610612748,MIA,Miami Heat
+1631170,Jaime Jaquez Jr.,jaime-jaquez-jr,11,G,6-6,225,"FEB 18, 2001",25.0,2,UCLA,2025-26,1610612748,MIA,Miami Heat
+1630696,Dru Smith,dru-smith,12,G,6-2,203,"DEC 30, 1997",28.0,3,Missouri,2025-26,1610612748,MIA,Miami Heat
+1628389,Bam Adebayo,bam-adebayo,13,C-F,6-9,255,"JUL 18, 1997",28.0,8,Kentucky,2025-26,1610612748,MIA,Miami Heat
+1629639,Tyler Herro,tyler-herro,14,G,6-5,195,"JAN 20, 2000",26.0,6,Kentucky,2025-26,1610612748,MIA,Miami Heat
+1642066,Myron Gardner,myron-gardner,15,F,6-5,220,"MAY 21, 2001",25.0,R,Arkansas-Little Rock,2025-26,1610612748,MIA,Miami Heat
+1642352,Keshad Johnson,keshad-johnson,16,F,6-6,225,"JUN 23, 2001",25.0,1,Arizona,2025-26,1610612748,MIA,Miami Heat
+1642443,Jahmir Young,jahmir-young,17,G,6-0,185,"OCT 07, 2000",25.0,1,Maryland,2025-26,1610612748,MIA,Miami Heat
+203952,Andrew Wiggins,andrew-wiggins,22,F,6-6,197,"FEB 23, 1995",31.0,11,Kansas,2025-26,1610612748,MIA,Miami Heat
+1626181,Norman Powell,norman-powell,24,G,6-3,215,"MAY 25, 1993",33.0,10,UCLA,2025-26,1610612748,MIA,Miami Heat
+1642857,Kasparas Jakučionis,kasparas-jakučionis,25,G,6-5,200,"MAY 29, 2006",20.0,R,Illinois-Urbana-Champaign,2025-26,1610612748,MIA,Miami Heat
+1630558,Davion Mitchell,davion-mitchell,45,G,6-0,202,"SEP 05, 1998",27.0,4,Baylor,2025-26,1610612748,MIA,Miami Heat
+1642884,Vladislav Goldin,vladislav-goldin,50,C,7-0,250,"MAY 12, 2001",25.0,R,Michigan,2025-26,1610612748,MIA,Miami Heat

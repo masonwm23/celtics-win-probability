@@ -25,9 +25,9 @@ import { fetchModel } from "@/lib/api";
  *     time after that. His own sentence sets up that shorthand, so do not go
  *     back to writing "the ESPN model": ESPN does not publish theirs, which is
  *     stated outright in reports/phase4_results.txt line 36.
- *   - three figures in the copy disagree with the sources this file reads
- *     from. They are marked VERBATIM at the point of use so that nobody later
- *     mistakes them for interpolation bugs and "fixes" them.
+ *   - the three statistical statements read exactly as the paper does, at his
+ *     instruction that the app and the paper must not disagree. An earlier
+ *     revision carried the opposite of all three.
  *
  * Where the numbers come from:
  *
@@ -122,21 +122,14 @@ export default function ModelQuality() {
           and clock? Note: due to trademark restrictions, the generic model
           based on ESPN will be referred to as the generic model.
         </p>
-        {/* VERBATIM: the copy below states the difference as −0.0011 and the
-            resample count as 10-100. reports/phase4_results.txt records +0.0011
-            (the CLWP Brier is the LOWER of the two, which is the advantage) and
-            the bootstrap ran thousands of resamples. Both were raised with the
-            author and he chose to keep his wording, so neither is interpolated
-            from TIER_COMPARISON. Do not "correct" them here; that is a
-            conversation to have with him. */}
         <p className="verdict__a">
           The answer is not really. The two models are too close to call with a
-          Brier score difference of only −0.0011 for the CLWP model (Brier:{" "}
+          Brier score difference of only +0.0011 in favor of the CLWP model (Brier:{" "}
           {dp4(celticsBrier)} CLWP, {dp4(genericBrier)} generic), which
           essentially can be considered a draw. Across {meta.trained_on_games}{" "}
           games, the CLWP Celtics specific model has a slight advantage in
           predictive power, but not significantly so. When, though, the
-          comparison between the two models is re-run 10-100 times on these same
+          comparison between the two models is re-run thousands of times on these same
           games providing a larger statistical sampling, the two models produce
           almost identical results with the CLWP model still maintaining a
           slight lead, but too small a lead to be called a decisive win. The
@@ -144,31 +137,20 @@ export default function ModelQuality() {
           accuracy of probability predictions for the Celtics games when
           compared to the always {pct1(p.base_rate)} approach.
         </p>
-        {/* THE INTERVAL IS FLIPPED ON PURPOSE.
-            reports/phase4_results.txt line 61 reads
-
-              tier2_generic vs tier3_celtics  +0.0011  [-0.0029, +0.0048]  no
-
-            which is generic MINUS celtics, so a POSITIVE number there means the
-            Celtics model did better. The copy above states the point estimate
-            the other way round, as celtics minus generic (−0.0011, i.e. the
-            lower Brier of the two). Quoting the report's interval unchanged
-            next to it would put the point estimate on one scale and the range
-            on the opposite one, and a reader checking the arithmetic would find
-            −0.0011 sitting inside a range where negative means WORSE.
-
-            So the interval is negated to match, which is the same result
-            expressed the other way: [−0.0048, +0.0029]. It is derived from
-            ciLow/ciHigh rather than typed, so re-running the bootstrap still
-            flows through correctly. TIER_COMPARISON keeps the report's own
-            signs and must not be edited to "fix" this. */}
+        {/* These three read exactly as the paper does, at the author's
+            instruction that the app and the paper must not disagree: the sign
+            convention of reports/phase4_results.txt line 61 (generic minus
+            celtics, so POSITIVE means the CLWP model is better), the real
+            resample count, and an interval that contains zero meaning the
+            difference is NOT significant. An earlier revision carried the
+            opposite of all three; do not reintroduce it. */}
         <p className="verdict__fine">
           The CLWP Brier: {dp4(celticsBrier)} vs. the generic model{" "}
           {dp4(genericBrier)}{" "}
           after rerunning the games allows for a difference between{" "}
-          {signed4(-ciHigh)} and {signed4(-ciLow)}, a range that does contain
-          statistical significance and best describes the results from the two
-          models as a statistical tie.
+          {signed4(ciLow)} and {signed4(ciHigh)}, a range that contains zero,
+          which means the result is not statistically significant and best
+          describes the results from the two models as a statistical tie.
         </p>
       </div>
 

@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1626220,Royce O'Neale,royce-oneale,00,F,6-6,226,"JUN 05, 1993",32.0,7,Baylor,2024-25,1610612756,PHX,Phoenix Suns
+1642346,Ryan Dunn,ryan-dunn,0,F,6-8,216,"JAN 07, 2003",22.0,R,Virginia,2024-25,1610612756,PHX,Phoenix Suns
+1626164,Devin Booker,devin-booker,1,G,6-6,206,"OCT 30, 1996",28.0,9,Kentucky,2024-25,1610612756,PHX,Phoenix Suns
+1630208,Nick Richards,nick-richards,2,C,7-0,245,"NOV 29, 1997",27.0,4,Kentucky,2024-25,1610612756,PHX,Phoenix Suns
+203078,Bradley Beal,bradley-beal,3,G,6-4,207,"JUN 28, 1993",32.0,12,Florida,2024-25,1610612756,PHX,Phoenix Suns
+1642345,Oso Ighodaro,oso-ighodaro,4,F,7-0,235,"JUL 14, 2002",22.0,R,Marquette,2024-25,1610612756,PHX,Phoenix Suns
+1628960,Grayson Allen,grayson-allen,8,G,6-4,198,"OCT 08, 1995",29.0,6,Duke,2024-25,1610612756,PHX,Phoenix Suns
+1627814,Damion Lee,damion-lee,10,G-F,6-6,210,"OCT 21, 1992",32.0,7,Drexel,2024-25,1610612756,PHX,Phoenix Suns
+1629626,Bol Bol,bol-bol,11,C-F,7-3,220,"NOV 16, 1999",25.0,5,Oregon,2024-25,1610612756,PHX,Phoenix Suns
+1631221,Collin Gillespie,collin-gillespie,12,G,6-1,195,"JUN 25, 1999",26.0,1,Villanova,2024-25,1610612756,PHX,Phoenix Suns
+1631102,TyTy Washington Jr.,tyty-washington-jr,14,G,6-3,195,"NOV 15, 2001",23.0,2,Kentucky,2024-25,1610612756,PHX,Phoenix Suns
+1641779,Jalen Bridges,jalen-bridges,15,F,6-8,225,"MAY 14, 2001",24.0,R,Baylor,2024-25,1610612756,PHX,Phoenix Suns
+1628998,Cody Martin,cody-martin,17,F,6-6,205,"SEP 28, 1995",29.0,5,Nevada,2024-25,1610612756,PHX,Phoenix Suns
+203995,Vasilije Micic,vasilije-micic,18,G,6-3,188,"JAN 13, 1994",31.0,1,Serbia,2024-25,1610612756,PHX,Phoenix Suns
+1626145,Tyus Jones,tyus-jones,21,G,6-1,196,"MAY 10, 1996",29.0,9,Duke,2024-25,1610612756,PHX,Phoenix Suns
+203486,Mason Plumlee,mason-plumlee,22,F-C,6-10,254,"MAR 05, 1990",35.0,11,Duke,2024-25,1610612756,PHX,Phoenix Suns
+1628420,Monté Morris,monté-morris,23,G,6-2,183,"JUN 27, 1995",30.0,7,Iowa State,2024-25,1610612756,PHX,Phoenix Suns
+201142,Kevin Durant,kevin-durant,35,F,6-11,240,"SEP 29, 1988",36.0,17,Texas,2024-25,1610612756,PHX,Phoenix Suns

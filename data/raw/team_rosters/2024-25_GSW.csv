@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1627780,Gary Payton II,gary-payton-ii,0,G,6-2,195,"DEC 01, 1992",32.0,8,Oregon State,2024-25,1610612744,GSW,Golden State Warriors
+1630228,Jonathan Kuminga,jonathan-kuminga,00,F,6-7,225,"OCT 06, 2002",22.0,3,NBA G League Ignite,2024-25,1610612744,GSW,Golden State Warriors
+1642379,Taran Armstrong,taran-armstrong,1,G,6-5,190,"JAN 15, 2002",23.0,R,"Cairns, Australia",2024-25,1610612744,GSW,Golden State Warriors
+1641764,Brandin Podziemski,brandin-podziemski,2,G,6-4,205,"FEB 25, 2003",22.0,1,Santa Clara,2024-25,1610612744,GSW,Golden State Warriors
+1630541,Moses Moody,moses-moody,4,G,6-5,211,"MAY 31, 2002",23.0,3,Arkansas,2024-25,1610612744,GSW,Golden State Warriors
+1626172,Kevon Looney,kevon-looney,5,F,6-9,222,"FEB 06, 1996",29.0,9,UCLA,2024-25,1610612744,GSW,Golden State Warriors
+1627741,Buddy Hield,buddy-hield,7,G,6-4,220,"DEC 17, 1992",32.0,8,Oklahoma,2024-25,1610612744,GSW,Golden State Warriors
+202710,Jimmy Butler III,jimmy-butler-iii,10,F,6-7,230,"SEP 14, 1989",35.0,13,Marquette,2024-25,1610612744,GSW,Golden State Warriors
+1630296,Braxton Key,braxton-key,12,F,6-8,225,"FEB 14, 1997",28.0,3,Virginia,2024-25,1610612744,GSW,Golden State Warriors
+1630611,Gui Santos,gui-santos,15,F,6-6,185,"JUN 22, 2002",23.0,1,Minas,2024-25,1610612744,GSW,Golden State Warriors
+1642366,Quinten Post,quinten-post,21,C,7-0,238,"MAR 21, 2000",25.0,R,Boston College,2024-25,1610612744,GSW,Golden State Warriors
+203110,Draymond Green,draymond-green,23,F,6-6,230,"MAR 04, 1990",35.0,12,Michigan State,2024-25,1610612744,GSW,Golden State Warriors
+201939,Stephen Curry,stephen-curry,30,G,6-2,185,"MAR 14, 1988",37.0,15,Davidson,2024-25,1610612744,GSW,Golden State Warriors
+1628995,Kevin Knox II,kevin-knox-ii,31,F,6-8,215,"AUG 11, 1999",25.0,6,Kentucky,2024-25,1610612744,GSW,Golden State Warriors
+1631218,Trayce Jackson-Davis,trayce-jackson-davis,32,F,6-9,245,"FEB 22, 2000",25.0,1,Indiana,2024-25,1610612744,GSW,Golden State Warriors
+1642050,Jackson Rowe,jackson-rowe,44,F,6-7,210,"JAN 04, 1997",28.0,R,California State-Fullerton,2024-25,1610612744,GSW,Golden State Warriors
+1630311,Pat Spencer,pat-spencer,61,G,6-3,205,"JUL 04, 1996",28.0,1,Northwestern,2024-25,1610612744,GSW,Golden State Warriors

@@ -1,0 +1,20 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1642389,Zyon Pullin,zyon-pullin,,G,6-4,206,"MAR 03, 2001",24.0,R,Florida,2024-25,1610612763,MEM,Memphis Grizzlies
+1642377,Jaylen Wells,jaylen-wells,0,F,6-8,,"AUG 26, 2003",21.0,R,Washington State,2024-25,1610612763,MEM,Memphis Grizzlies
+1630590,Scotty Pippen Jr.,scotty-pippen-jr,1,G,6-1,170,"NOV 10, 2000",24.0,2,Vanderbilt,2024-25,1610612763,MEM,Memphis Grizzlies
+203484,Kentavious Caldwell-Pope,kentavious-caldwell-pope,3,G,6-5,204,"FEB 18, 1993",32.0,11,Georgia,2024-25,1610612763,MEM,Memphis Grizzlies
+1631246,Vince Williams Jr.,vince-williams-jr,5,G,6-4,205,"AUG 30, 2000",24.0,2,Virginia Commonwealth,2024-25,1610612763,MEM,Memphis Grizzlies
+1630583,Santi Aldama,santi-aldama,7,F-C,7-0,215,"JAN 10, 2001",24.0,3,Loyola-Maryland,2024-25,1610612763,MEM,Memphis Grizzlies
+1630205,Lamar Stevens,lamar-stevens,8,F,6-7,230,"JUL 09, 1997",27.0,4,Penn State,2024-25,1610612763,MEM,Memphis Grizzlies
+1628379,Luke Kennard,luke-kennard,10,G,6-5,206,"JUN 24, 1996",29.0,7,Duke,2024-25,1610612763,MEM,Memphis Grizzlies
+1629630,Ja Morant,ja-morant,12,G,6-2,174,"AUG 10, 1999",25.0,5,Murray State,2024-25,1610612763,MEM,Memphis Grizzlies
+1628991,Jaren Jackson Jr.,jaren-jackson-jr,13,F-C,6-10,242,"SEP 15, 1999",25.0,6,Michigan State,2024-25,1610612763,MEM,Memphis Grizzlies
+1641744,Zach Edey,zach-edey,14,C,7-4,305,"MAY 14, 2002",23.0,R,Purdue,2024-25,1610612763,MEM,Memphis Grizzlies
+1629634,Brandon Clarke,brandon-clarke,15,F,6-8,215,"SEP 19, 1996",28.0,5,Gonzaga,2024-25,1610612763,MEM,Memphis Grizzlies
+1642530,Yuki Kawamura,yuki-kawamura,17,G,5-8,159,"MAY 02, 2001",24.0,R,Yokohama B-Corsairs (Japan),2024-25,1610612763,MEM,Memphis Grizzlies
+1642285,Cam Spencer,cam-spencer,24,G,6-4,205,"APR 06, 2000",25.0,R,Connecticut,2024-25,1610612763,MEM,Memphis Grizzlies
+1630643,Jay Huff,jay-huff,30,C,7-1,240,"AUG 25, 1997",27.0,3,Virginia,2024-25,1610612763,MEM,Memphis Grizzlies
+1628963,Marvin Bagley III,marvin-bagley-iii,35,F,6-10,235,"MAR 14, 1999",26.0,6,Duke,2024-25,1610612763,MEM,Memphis Grizzlies
+1641713,GG Jackson,gg-jackson,45,F,6-9,210,"DEC 17, 2004",20.0,1,South Carolina,2024-25,1610612763,MEM,Memphis Grizzlies
+1629723,John Konchar,john-konchar,46,G,6-5,210,"MAR 22, 1996",29.0,5,Indiana-Purdue Fort Wayne,2024-25,1610612763,MEM,Memphis Grizzlies
+1630175,Cole Anthony,cole-anthony,50,G,6-2,185,"MAY 15, 2000",25.0,4,North Carolina,2024-25,1610612763,MEM,Memphis Grizzlies

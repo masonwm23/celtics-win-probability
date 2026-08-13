@@ -53,7 +53,10 @@ def ensure_dirs():
 CELTICS_TEAM_ID = 1610612738
 CELTICS_ABBREV = "BOS"
 
-# The eight seasons specified in the research plan: 2016-17 through 2023-24.
+# The eight seasons specified in the research plan (2016-17 through 2023-24),
+# plus two seasons added when the project continued past the course as a
+# personal build: 2024-25 and 2025-26. Both are complete 82-game regular
+# seasons as of this build.
 SEASONS = [
     "2016-17",
     "2017-18",
@@ -63,6 +66,8 @@ SEASONS = [
     "2021-22",
     "2022-23",
     "2023-24",
+    "2024-25",
+    "2025-26",
 ]
 
 SEASON_TYPE = "Regular Season"
@@ -72,6 +77,11 @@ SEASON_TYPE = "Regular Season"
 # and Boston played 72. 2020-21 was a scheduled 72-game season league-wide.
 # These are EXPECTATIONS TO TEST, not values to force the data to match. If the
 # pull disagrees, the difference gets investigated and documented.
+# Note on 2024-25 and 2025-26: 82 is the expectation. If a pull returns 83 for
+# a season, the most likely cause is the NBA Cup (in-season tournament) final,
+# which is not an official regular season game and should be investigated and
+# excluded rather than silently kept. A count of 81 or lower is a real gap to
+# explain, not to force.
 EXPECTED_GAME_COUNTS = {
     "2016-17": 82,
     "2017-18": 82,
@@ -81,8 +91,10 @@ EXPECTED_GAME_COUNTS = {
     "2021-22": 82,
     "2022-23": 82,
     "2023-24": 82,
+    "2024-25": 82,
+    "2025-26": 82,
 }
-EXPECTED_TOTAL_GAMES = sum(EXPECTED_GAME_COUNTS.values())  # 636
+EXPECTED_TOTAL_GAMES = sum(EXPECTED_GAME_COUNTS.values())  # 800
 
 # ----------------------------------------------------------------------------
 # Reproducibility

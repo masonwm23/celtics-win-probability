@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+203903,Jordan Clarkson,jordan-clarkson,00,G,6-5,194,"JUN 07, 1992",34.0,11,Missouri,2025-26,1610612752,NYK,New York Knicks
+1641794,Dillon Jones,dillon-jones,,F,6-5,235,"OCT 29, 2001",24.0,1,Weber State,2025-26,1610612752,NYK,New York Knicks
+1630540,Miles McBride,miles-mcbride,2,G,6-2,195,"SEP 08, 2000",25.0,4,West Virginia,2025-26,1610612752,NYK,New York Knicks
+1628404,Josh Hart,josh-hart,3,G,6-5,215,"MAR 06, 1995",31.0,8,Villanova,2025-26,1610612752,NYK,New York Knicks
+1642359,Pacôme Dadiet,pacôme-dadiet,4,F,6-9,210,"JUL 27, 2005",20.0,1,Ratiopharm Ulm,2025-26,1610612752,NYK,New York Knicks
+1630631,Jose Alvarado,jose-alvarado,5,G,6-0,179,"APR 12, 1998",28.0,4,Georgia Tech,2025-26,1610612752,NYK,New York Knicks
+1628384,OG Anunoby,og-anunoby,8,F-G,6-7,240,"JUL 17, 1997",28.0,8,Indiana,2025-26,1610612752,NYK,New York Knicks
+1641755,Kevin McCullar Jr.,kevin-mccullar-jr,9,G,6-6,210,"MAR 15, 2001",25.0,1,Kansas,2025-26,1610612752,NYK,New York Knicks
+1628973,Jalen Brunson,jalen-brunson,11,G,6-2,190,"AUG 31, 1996",29.0,7,Villanova,2025-26,1610612752,NYK,New York Knicks
+1642278,Tyler Kolek,tyler-kolek,13,G,6-2,195,"MAR 27, 2001",25.0,1,Marquette,2025-26,1610612752,NYK,New York Knicks
+1631110,Jeremy Sochan,jeremy-sochan,20,F,6-8,230,"MAY 20, 2003",23.0,3,Baylor,2025-26,1610612752,NYK,New York Knicks
+1629011,Mitchell Robinson,mitchell-robinson,23,C-F,7-0,240,"APR 01, 1998",28.0,7,Western Kentucky,2025-26,1610612752,NYK,New York Knicks
+1628969,Mikal Bridges,mikal-bridges,25,G-F,6-6,209,"AUG 30, 1996",29.0,7,Villanova,2025-26,1610612752,NYK,New York Knicks
+1626157,Karl-Anthony Towns,karl-anthony-towns,32,C-F,7-0,248,"NOV 15, 1995",30.0,10,Kentucky,2025-26,1610612752,NYK,New York Knicks
+1629013,Landry Shamet,landry-shamet,44,G,6-5,190,"MAR 13, 1997",29.0,7,Wichita State,2025-26,1610612752,NYK,New York Knicks
+1641998,Trey Jemison III,trey-jemison-iii,50,C,6-10,270,"NOV 28, 1999",26.0,2,Alabama-Birmingham,2025-26,1610612752,NYK,New York Knicks
+1642885,Mohamed Diawara,mohamed-diawara,51,F,6-9,225,"APR 29, 2005",21.0,R,,2025-26,1610612752,NYK,New York Knicks
+1630574,Ariel Hukporti,ariel-hukporti,55,C,7-0,246,"APR 12, 2002",24.0,1,Riesen Ludwigsburg,2025-26,1610612752,NYK,New York Knicks

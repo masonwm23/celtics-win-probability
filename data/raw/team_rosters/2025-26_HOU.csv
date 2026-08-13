@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1628988,Aaron Holiday,aaron-holiday,0,G,6-0,185,"SEP 30, 1996",29.0,7,UCLA,2025-26,1610612745,HOU,Houston Rockets
+1641708,Amen Thompson,amen-thompson,1,G-F,6-7,200,"JAN 30, 2003",23.0,2,Overtime Elite,2025-26,1610612745,HOU,Houston Rockets
+1627827,Dorian Finney-Smith,dorian-finney-smith,2,F,6-7,220,"MAY 04, 1993",33.0,9,Florida,2025-26,1610612745,HOU,Houston Rockets
+1631120,JD Davison,jd-davison,4,G,6-1,195,"OCT 03, 2002",23.0,3,Alabama,2025-26,1610612745,HOU,Houston Rockets
+1627832,Fred VanVleet,fred-vanvleet,5,G,6-0,197,"FEB 25, 1994",32.0,9,Wichita State,2025-26,1610612745,HOU,Houston Rockets
+201142,Kevin Durant,kevin-durant,7,F,6-11,240,"SEP 29, 1988",37.0,18,Texas,2025-26,1610612745,HOU,Houston Rockets
+1630256,Jae'Sean Tate,jaesean-tate,8,F,6-4,230,"OCT 28, 1995",30.0,5,Ohio State,2025-26,1610612745,HOU,Houston Rockets
+1631095,Jabari Smith Jr.,jabari-smith-jr,10,F,6-11,220,"MAY 13, 2003",23.0,3,Auburn,2025-26,1610612745,HOU,Houston Rockets
+203500,Steven Adams,steven-adams,12,C,6-11,265,"JUL 20, 1993",32.0,12,Pittsburgh,2025-26,1610612745,HOU,Houston Rockets
+1641803,Tristen Newton,tristen-newton,13,G,6-5,190,"APR 26, 2001",25.0,1,Connecticut,2025-26,1610612745,HOU,Houston Rockets
+1642263,Reed Sheppard,reed-sheppard,15,G,6-2,185,"JUN 24, 2004",22.0,1,Kentucky,2025-26,1610612745,HOU,Houston Rockets
+1631106,Tari Eason,tari-eason,17,F,6-8,215,"MAY 10, 2001",25.0,3,Louisiana State,2025-26,1610612745,HOU,Houston Rockets
+1629006,Josh Okogie,josh-okogie,20,G,6-4,213,"SEP 01, 1998",27.0,7,Georgia Tech,2025-26,1610612745,HOU,Houston Rockets
+1642384,Isaiah Crawford,isaiah-crawford,27,F,6-6,220,"NOV 01, 2001",24.0,1,Louisiana Tech,2025-26,1610612745,HOU,Houston Rockets
+1630578,Alperen Sengun,alperen-sengun,28,C,6-11,243,"JUL 25, 2002",23.0,4,Besiktas,2025-26,1610612745,HOU,Houston Rockets
+203991,Clint Capela,clint-capela,30,C,6-10,256,"MAY 18, 1994",32.0,11,Elan Chalon,2025-26,1610612745,HOU,Houston Rockets
+201145,Jeff Green,jeff-green,32,F,6-8,235,"AUG 28, 1986",39.0,18,Georgetown,2025-26,1610612745,HOU,Houston Rockets

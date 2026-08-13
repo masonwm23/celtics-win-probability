@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1631128,Christian Braun,christian-braun,0,G,6-6,220,"APR 17, 2001",25.0,3,Kansas,2025-26,1610612743,DEN,Denver Nuggets
+1642938,Curtis Jones,curtis-jones,1,G,6-3,195,"OCT 04, 2001",24.0,R,Iowa State,2025-26,1610612743,DEN,Denver Nuggets
+1631124,Julian Strawther,julian-strawther,3,G,6-6,205,"APR 18, 2002",24.0,2,Gonzaga,2025-26,1610612743,DEN,Denver Nuggets
+1626145,Tyus Jones,tyus-jones,5,G,6-0,196,"MAY 10, 1996",30.0,10,Duke,2025-26,1610612743,DEN,Denver Nuggets
+1631212,Peyton Watson,peyton-watson,8,G,6-8,200,"SEP 11, 2002",23.0,3,UCLA,2025-26,1610612743,DEN,Denver Nuggets
+203501,Tim Hardaway Jr.,tim-hardaway-jr,10,G-F,6-5,205,"MAR 16, 1992",34.0,12,Michigan,2025-26,1610612743,DEN,Denver Nuggets
+1628971,Bruce Brown,bruce-brown,11,G-F,6-4,202,"AUG 15, 1996",29.0,7,Miami,2025-26,1610612743,DEN,Denver Nuggets
+1641747,DaRon Holmes II,daron-holmes-ii,14,F,6-9,225,"AUG 15, 2002",23.0,R,Dayton,2025-26,1610612743,DEN,Denver Nuggets
+203999,Nikola Jokić,nikola-jokić,15,C,6-11,284,"FEB 19, 1995",31.0,10,Mega Basket,2025-26,1610612743,DEN,Denver Nuggets
+202685,Jonas Valančiūnas,jonas-valančiūnas,17,C,6-11,265,"MAY 06, 1992",34.0,13,Lietuvos rytas Vilnius,2025-26,1610612743,DEN,Denver Nuggets
+1642461,Spencer Jones,spencer-jones,21,F,6-7,225,"JUN 14, 2001",25.0,1,Stanford,2025-26,1610612743,DEN,Denver Nuggets
+1630192,Zeke Nnaji,zeke-nnaji,22,F-C,6-10,240,"JAN 09, 2001",25.0,5,Arizona,2025-26,1610612743,DEN,Denver Nuggets
+1629661,Cameron Johnson,cameron-johnson,23,F,6-8,210,"MAR 03, 1996",30.0,6,North Carolina,2025-26,1610612743,DEN,Denver Nuggets
+1629618,Jalen Pickett,jalen-pickett,24,G,6-2,202,"OCT 22, 1999",26.0,2,Penn State,2025-26,1610612743,DEN,Denver Nuggets
+1642354,KJ Simpson,kj-simpson,25,G,6-2,189,"AUG 08, 2002",23.0,1,Colorado,2025-26,1610612743,DEN,Denver Nuggets
+1627750,Jamal Murray,jamal-murray,27,G,6-4,215,"FEB 23, 1997",29.0,9,Kentucky,2025-26,1610612743,DEN,Denver Nuggets
+203932,Aaron Gordon,aaron-gordon,32,F,6-8,235,"SEP 16, 1995",30.0,11,Arizona,2025-26,1610612743,DEN,Denver Nuggets
+1631223,David Roddy,david-roddy,45,F,6-5,255,"MAR 27, 2001",25.0,3,Colorado State,2025-26,1610612743,DEN,Denver Nuggets

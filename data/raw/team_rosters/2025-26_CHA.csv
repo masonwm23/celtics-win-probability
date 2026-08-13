@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1628970,Miles Bridges,miles-bridges,0,F,6-7,225,"MAR 21, 1998",28.0,6,Michigan State,2025-26,1610612766,CHA,Charlotte Hornets
+1630163,LaMelo Ball,lamelo-ball,1,G,6-7,180,"AUG 22, 2001",24.0,5,Illawarra,2025-26,1610612766,CHA,Charlotte Hornets
+1629684,Grant Williams,grant-williams,2,F,6-7,236,"NOV 30, 1998",27.0,6,Tennessee,2025-26,1610612766,CHA,Charlotte Hornets
+1629632,Coby White,coby-white,3,G,6-4,210,"FEB 16, 2000",26.0,6,North Carolina,2025-26,1610612766,CHA,Charlotte Hornets
+1642883,Sion James,sion-james,4,G,6-5,220,"DEC 04, 2002",23.0,R,Duke,2025-26,1610612766,CHA,Charlotte Hornets
+1642851,Kon Knueppel,kon-knueppel,7,G-F,6-6,215,"AUG 03, 2005",20.0,R,Duke,2025-26,1610612766,CHA,Charlotte Hornets
+1630182,Josh Green,josh-green,10,G,6-6,200,"NOV 16, 2000",25.0,5,Arizona,2025-26,1610612766,CHA,Charlotte Hornets
+1641750,Ryan Kalkbrenner,ryan-kalkbrenner,11,C,7-1,256,"JAN 17, 2002",24.0,R,Creighton,2025-26,1610612766,CHA,Charlotte Hornets
+1641810,Antonio Reeves,antonio-reeves,12,G,6-5,205,"NOV 20, 2000",25.0,1,Kentucky,2025-26,1610612766,CHA,Charlotte Hornets
+1631217,Moussa Diabaté,moussa-diabaté,14,F,6-10,210,"JAN 21, 2002",24.0,3,Michigan,2025-26,1610612766,CHA,Charlotte Hornets
+1641790,PJ Hall,pj-hall,16,C,6-8,245,"FEB 21, 2002",24.0,1,Clemson,2025-26,1610612766,CHA,Charlotte Hornets
+1641787,Tosan Evbuomwan,tosan-evbuomwan,20,F,6-8,217,"FEB 16, 2001",25.0,2,Princeton,2025-26,1610612766,CHA,Charlotte Hornets
+1626192,Pat Connaughton,pat-connaughton,21,G,6-5,209,"JAN 06, 1993",33.0,10,Notre Dame,2025-26,1610612766,CHA,Charlotte Hornets
+1630544,Tre Mann,tre-mann,23,G,6-4,178,"FEB 03, 2001",25.0,4,Florida,2025-26,1610612766,CHA,Charlotte Hornets
+1641706,Brandon Miller,brandon-miller,24,F,6-7,200,"NOV 22, 2002",23.0,2,Alabama,2025-26,1610612766,CHA,Charlotte Hornets
+1630214,Xavier Tillman,xavier-tillman,26,F,6-8,245,"JAN 12, 1999",27.0,5,Michigan State,2025-26,1610612766,CHA,Charlotte Hornets
+1642275,Tidjane Salaün,tidjane-salaün,31,F,6-10,207,"AUG 10, 2005",20.0,1,Cholet,2025-26,1610612766,CHA,Charlotte Hornets
+1642862,Liam McNeeley,liam-mcneeley,33,F,6-7,210,"OCT 10, 2005",20.0,R,Connecticut,2025-26,1610612766,CHA,Charlotte Hornets

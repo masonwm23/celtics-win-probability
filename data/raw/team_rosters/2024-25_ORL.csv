@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1641710,Anthony Black,anthony-black,0,G,6-7,200,"JAN 20, 2004",21.0,1,Arkansas,2024-25,1610612753,ORL,Orlando Magic
+1628371,Jonathan Isaac,jonathan-isaac,1,F,6-10,230,"OCT 03, 1997",27.0,7,Florida State,2024-25,1610612753,ORL,Orlando Magic
+1631216,Caleb Houstan,caleb-houstan,2,G,6-8,205,"JAN 09, 2003",22.0,2,Michigan,2024-25,1610612753,ORL,Orlando Magic
+1630217,Desmond Bane,desmond-bane,3,G,6-5,215,"JUN 25, 1998",27.0,4,TCU,2024-25,1610612753,ORL,Orlando Magic
+1630591,Jalen Suggs,jalen-suggs,4,G,6-5,205,"JUN 03, 2001",24.0,3,Gonzaga,2024-25,1610612753,ORL,Orlando Magic
+1631094,Paolo Banchero,paolo-banchero,5,F,6-10,250,"NOV 12, 2002",22.0,2,Duke,2024-25,1610612753,ORL,Orlando Magic
+1630644,Mac McClung,mac-mcclung,8,G,6-2,185,"JAN 06, 1999",26.0,2,Texas Tech,2024-25,1610612753,ORL,Orlando Magic
+202709,Cory Joseph,cory-joseph,10,G,6-2,200,"AUG 20, 1991",33.0,13,Texas,2024-25,1610612753,ORL,Orlando Magic
+1630243,Trevelin Queen,trevelin-queen,12,G,6-5,190,"FEB 25, 1997",28.0,3,New Mexico State,2024-25,1610612753,ORL,Orlando Magic
+1641724,Jett Howard,jett-howard,13,G,6-6,215,"SEP 14, 2003",21.0,1,Michigan,2024-25,1610612753,ORL,Orlando Magic
+203914,Gary Harris,gary-harris,14,G,6-4,210,"SEP 14, 1994",30.0,10,Michigan State,2024-25,1610612753,ORL,Orlando Magic
+1629021,Moritz Wagner,moritz-wagner,21,F-C,6-11,245,"APR 26, 1997",28.0,6,Michigan,2024-25,1610612753,ORL,Orlando Magic
+1630532,Franz Wagner,franz-wagner,22,F,6-10,220,"AUG 27, 2001",23.0,3,Michigan,2024-25,1610612753,ORL,Orlando Magic
+1641783,Tristan da Silva,tristan-da-silva,23,F,6-8,217,"MAY 15, 2001",24.0,R,Colorado,2024-25,1610612753,ORL,Orlando Magic
+1628976,Wendell Carter Jr.,wendell-carter-jr,34,C-F,6-10,270,"APR 16, 1999",26.0,6,Duke,2024-25,1610612753,ORL,Orlando Magic
+1629048,Goga Bitadze,goga-bitadze,35,C-F,6-10,250,"JUL 20, 1999",25.0,5,Mega Basket,2024-25,1610612753,ORL,Orlando Magic
+1630679,Ethan Thompson,ethan-thompson,55,G,6-5,195,"MAY 04, 1999",26.0,R,Oregon State,2024-25,1610612753,ORL,Orlando Magic

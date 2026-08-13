@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+201935,James Harden,james-harden,1,G,6-5,220,"AUG 26, 1989",36.0,16,Arizona State,2025-26,1610612739,CLE,Cleveland Cavaliers
+1629622,Max Strus,max-strus,2,G-F,6-5,215,"MAR 28, 1996",30.0,6,DePaul,2025-26,1610612739,CLE,Cleveland Cavaliers
+1628418,Thomas Bryant,thomas-bryant,3,C-F,6-9,248,"JUL 31, 1997",28.0,8,Indiana,2025-26,1610612739,CLE,Cleveland Cavaliers
+1630596,Evan Mobley,evan-mobley,4,C,6-11,215,"JUN 18, 2001",25.0,4,Southern California,2025-26,1610612739,CLE,Cleveland Cavaliers
+1630241,Sam Merrill,sam-merrill,5,G,6-4,205,"MAY 15, 1996",30.0,5,Utah State,2025-26,1610612739,CLE,Cleveland Cavaliers
+203471,Dennis Schröder,dennis-schröder,8,G,6-1,175,"SEP 15, 1993",32.0,12,Braunschweig,2025-26,1610612739,CLE,Cleveland Cavaliers
+1641854,Craig Porter Jr.,craig-porter-jr,9,G,6-1,180,"FEB 26, 2000",26.0,2,Wichita State,2025-26,1610612739,CLE,Cleveland Cavaliers
+1642434,Riley Minix,riley-minix,12,F,6-7,230,"SEP 22, 2000",25.0,1,Morehead State,2025-26,1610612739,CLE,Cleveland Cavaliers
+1631165,Keon Ellis,keon-ellis,14,G,6-4,175,"JAN 08, 2000",26.0,3,Alabama,2025-26,1610612739,CLE,Cleveland Cavaliers
+1642281,Jaylon Tyson,jaylon-tyson,20,G-F,6-6,215,"DEC 02, 2002",23.0,1,California,2025-26,1610612739,CLE,Cleveland Cavaliers
+1642400,Tristan Enaruna,tristan-enaruna,21,F,6-7,220,"JUN 26, 2001",25.0,R,Cleveland State,2025-26,1610612739,CLE,Cleveland Cavaliers
+1626204,Larry Nance Jr.,larry-nance-jr,22,F-C,6-6,245,"JAN 01, 1993",33.0,10,Wyoming,2025-26,1610612739,CLE,Cleveland Cavaliers
+1642878,Tyrese Proctor,tyrese-proctor,24,G,6-4,185,"APR 01, 2004",22.0,R,Duke,2025-26,1610612739,CLE,Cleveland Cavaliers
+1628386,Jarrett Allen,jarrett-allen,31,C,6-9,243,"APR 21, 1998",28.0,8,Texas,2025-26,1610612739,CLE,Cleveland Cavaliers
+1629731,Dean Wade,dean-wade,32,F-C,6-9,228,"NOV 20, 1996",29.0,6,Kansas State,2025-26,1610612739,CLE,Cleveland Cavaliers
+1630846,Olivier Sarr,olivier-sarr,33,C,6-10,240,"FEB 20, 1999",27.0,3,Kentucky,2025-26,1610612739,CLE,Cleveland Cavaliers
+1641772,Nae'Qwan Tomlin,naeqwan-tomlin,35,F,6-8,210,"DEC 19, 2000",25.0,1,Memphis,2025-26,1610612739,CLE,Cleveland Cavaliers
+1628378,Donovan Mitchell,donovan-mitchell,45,G,6-2,215,"SEP 07, 1996",29.0,8,Louisville,2025-26,1610612739,CLE,Cleveland Cavaliers

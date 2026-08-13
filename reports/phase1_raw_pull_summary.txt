@@ -1,28 +1,28 @@
 
 ======================================================================
 PHASE 1 RAW PULL SUMMARY
-Run at: 2026-07-30T04:14:22+00:00
+Run at: 2026-08-12T19:28:50+00:00
 Mode: FULL RUN
-Games processed this run: 636
-Elapsed: 23.7 minutes
+Games processed this run: 800
+Elapsed: 6.5 minutes
 ======================================================================
 
-Manifest rows total: 636
+Manifest rows total: 800
 
 Play-by-play status counts:
-  fetched    620
-  cached     16
+  cached     636
+  fetched    164
 
 Boxscore status counts:
-  fetched    620
-  cached     16
+  cached     636
+  fetched    164
 
 Response shapes observed (should be consistent):
-  pbp_shape: game.actions shape  (636 games)
-  box_shape: boxScoreTraditional shape  (636 games)
+  pbp_shape: game.actions shape  (800 games)
+  box_shape: boxScoreTraditional shape  (800 games)
 
 Play-by-play event counts per game:
-  min 397   median 482   max 638   total 308,975
+  min 397   median 480   max 638   total 387,320
   A normal NBA game has roughly 400 to 600 logged events.
 
 Boxscore player rows per game (both teams):

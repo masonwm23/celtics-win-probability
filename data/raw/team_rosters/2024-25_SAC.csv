@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1628370,Malik Monk,malik-monk,0,G,6-3,200,"FEB 04, 1998",27.0,7,Kentucky,2024-25,1610612758,SAC,Sacramento Kings
+1629056,Terence Davis,terence-davis,3,G,6-4,201,"MAY 16, 1997",28.0,4,Mississippi,2024-25,1610612758,SAC,Sacramento Kings
+1642403,Isaac Jones,isaac-jones,3,F,6-9,245,"JUL 11, 2000",24.0,R,Washington State,2024-25,1610612758,SAC,Sacramento Kings
+203926,Doug McDermott,doug-mcdermott,7,F,6-6,225,"JAN 03, 1992",33.0,10,Creighton,2024-25,1610612758,SAC,Sacramento Kings
+203897,Zach LaVine,zach-lavine,8,G,6-5,200,"MAR 10, 1995",30.0,10,UCLA,2024-25,1610612758,SAC,Sacramento Kings
+201942,DeMar DeRozan,demar-derozan,10,G-F,6-6,220,"AUG 07, 1989",35.0,15,Southern California,2024-25,1610612758,SAC,Sacramento Kings
+1627734,Domantas Sabonis,domantas-sabonis,11,F-C,6-10,240,"MAY 03, 1996",29.0,8,Gonzaga,2024-25,1610612758,SAC,Sacramento Kings
+1631099,Keegan Murray,keegan-murray,13,F,6-8,225,"AUG 19, 2000",24.0,2,Iowa,2024-25,1610612758,SAC,Sacramento Kings
+1630222,Mason Jones,mason-jones,15,G,6-4,200,"JUL 21, 1998",26.0,3,Arkansas,2024-25,1610612758,SAC,Sacramento Kings
+202685,Jonas Valančiūnas,jonas-valančiūnas,17,C,6-11,265,"MAY 06, 1992",33.0,12,Lietuvos rytas Vilnius,2024-25,1610612758,SAC,Sacramento Kings
+1628365,Markelle Fultz,markelle-fultz,20,G,6-4,209,"MAY 29, 1998",27.0,7,Washington,2024-25,1610612758,SAC,Sacramento Kings
+1642269,Devin Carter,devin-carter,22,G,6-2,195,"MAR 18, 2002",23.0,R,Providence,2024-25,1610612758,SAC,Sacramento Kings
+1631165,Keon Ellis,keon-ellis,23,G,6-4,175,"JAN 08, 2000",25.0,2,Alabama,2024-25,1610612758,SAC,Sacramento Kings
+1642384,Isaiah Crawford,isaiah-crawford,24,F,6-6,220,"NOV 01, 2001",23.0,R,Louisiana Tech,2024-25,1610612758,SAC,Sacramento Kings
+1631222,Jake LaRavia,jake-laravia,33,F,6-7,235,"NOV 03, 2001",23.0,2,Wake Forest,2024-25,1610612758,SAC,Sacramento Kings
+1626168,Trey Lyles,trey-lyles,41,F,6-9,234,"NOV 05, 1995",29.0,9,Kentucky,2024-25,1610612758,SAC,Sacramento Kings
+203109,Jae Crowder,jae-crowder,99,F,6-6,235,"JUL 06, 1990",34.0,12,Marquette,2024-25,1610612758,SAC,Sacramento Kings

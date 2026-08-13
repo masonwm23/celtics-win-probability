@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1630579,Jericho Sims,jericho-sims,00,C,6-10,250,"OCT 20, 1998",27.0,4,Texas,2025-26,1610612749,MIL,Milwaukee Bucks
+1626167,Myles Turner,myles-turner,3,C-F,6-11,250,"MAR 24, 1996",30.0,10,Texas,2025-26,1610612749,MIL,Milwaukee Bucks
+1629018,Gary Trent Jr.,gary-trent-jr,5,G,6-5,204,"JAN 18, 1999",27.0,7,Duke,2025-26,1610612749,MIL,Milwaukee Bucks
+1629645,Kevin Porter Jr.,kevin-porter-jr,7,G-F,6-5,203,"MAY 04, 2000",26.0,5,Southern California,2025-26,1610612749,MIL,Milwaukee Bucks
+1626171,Bobby Portis,bobby-portis,9,F,6-9,250,"FEB 10, 1995",31.0,10,Arkansas,2025-26,1610612749,MIL,Milwaukee Bucks
+203914,Gary Harris,gary-harris,11,G,6-4,210,"SEP 14, 1994",31.0,11,Michigan State,2025-26,1610612749,MIL,Milwaukee Bucks
+1627752,Taurean Prince,taurean-prince,12,F,6-6,218,"MAR 22, 1994",32.0,9,Baylor,2025-26,1610612749,MIL,Milwaukee Bucks
+1631157,Ryan Rollins,ryan-rollins,13,G,6-3,180,"JUL 03, 2002",23.0,3,Toledo,2025-26,1610612749,MIL,Milwaukee Bucks
+1628398,Kyle Kuzma,kyle-kuzma,18,F,6-8,221,"JUL 24, 1995",30.0,8,Utah,2025-26,1610612749,MIL,Milwaukee Bucks
+1631260,AJ Green,aj-green,20,G,6-4,190,"SEP 27, 1999",26.0,3,Northern Iowa,2025-26,1610612749,MIL,Milwaukee Bucks
+1631172,Ousmane Dieng,ousmane-dieng,21,F,6-9,185,"MAY 21, 2003",23.0,3,New Zealand Breakers,2025-26,1610612749,MIL,Milwaukee Bucks
+1630828,Alex Antetokounmpo,alex-antetokounmpo,29,F,6-8,214,"AUG 27, 2001",24.0,R,                                   ,2025-26,1610612749,MIL,Milwaukee Bucks
+1642504,Cormac Ryan,cormac-ryan,30,G,6-5,205,"OCT 26, 1998",27.0,R,North Carolina,2025-26,1610612749,MIL,Milwaukee Bucks
+203507,Giannis Antetokounmpo,giannis-antetokounmpo,34,F,6-11,243,"DEC 06, 1994",31.0,12,Filathlitikos,2025-26,1610612749,MIL,Milwaukee Bucks
+1631250,Pete Nance,pete-nance,35,F,6-9,225,"FEB 19, 2000",26.0,2,Northwestern,2025-26,1610612749,MIL,Milwaukee Bucks
+203648,Thanasis Antetokounmpo,thanasis-antetokounmpo,43,F,6-7,219,"JUL 18, 1992",33.0,6,Panathinaikos,2025-26,1610612749,MIL,Milwaukee Bucks
+1641748,Andre Jackson Jr.,andre-jackson-jr,44,G,6-6,209,"NOV 13, 2001",24.0,2,Connecticut,2025-26,1610612749,MIL,Milwaukee Bucks

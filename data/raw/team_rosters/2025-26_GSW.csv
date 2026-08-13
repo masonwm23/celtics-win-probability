@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1627780,Gary Payton II,gary-payton-ii,0,G,6-2,195,"DEC 01, 1992",33.0,9,Oregon State,2025-26,1610612744,GSW,Golden State Warriors
+1641764,Brandin Podziemski,brandin-podziemski,2,G,6-4,205,"FEB 25, 2003",23.0,2,Santa Clara,2025-26,1610612744,GSW,Golden State Warriors
+1642954,Will Richard,will-richard,3,G,6-3,206,"DEC 24, 2002",23.0,R,Florida,2025-26,1610612744,GSW,Golden State Warriors
+1630541,Moses Moody,moses-moody,4,G,6-5,211,"MAY 31, 2002",24.0,4,Arkansas,2025-26,1610612744,GSW,Golden State Warriors
+204001,Kristaps Porziņģis,kristaps-porziņģis,7,F-C,7-2,240,"AUG 02, 1995",30.0,10,Cajasol Sevilla,2025-26,1610612744,GSW,Golden State Warriors
+1629001,De'Anthony Melton,deanthony-melton,8,G,6-2,200,"MAY 28, 1998",28.0,7,Southern California,2025-26,1610612744,GSW,Golden State Warriors
+202710,Jimmy Butler III,jimmy-butler-iii,10,F,6-6,230,"SEP 14, 1989",36.0,14,Marquette,2025-26,1610612744,GSW,Golden State Warriors
+1630611,Gui Santos,gui-santos,15,F,6-7,185,"JUN 22, 2002",24.0,2,Minas,2025-26,1610612744,GSW,Golden State Warriors
+1643018,LJ Cryer,lj-cryer,18,G,6-0,,"OCT 09, 2001",24.0,R,Houston,2025-26,1610612744,GSW,Golden State Warriors
+1631466,Nate Williams,nate-williams,19,G,6-5,205,"FEB 12, 1999",27.0,3,Buffalo,2025-26,1610612744,GSW,Golden State Warriors
+201143,Al Horford,al-horford,20,C-F,6-8,240,"JUN 03, 1986",40.0,18,Florida,2025-26,1610612744,GSW,Golden State Warriors
+1642366,Quinten Post,quinten-post,21,C,7-0,238,"MAR 21, 2000",26.0,1,Boston College,2025-26,1610612744,GSW,Golden State Warriors
+203110,Draymond Green,draymond-green,23,F,6-6,230,"MAR 04, 1990",36.0,13,Michigan State,2025-26,1610612744,GSW,Golden State Warriors
+1629646,Charles Bassey,charles-bassey,28,C-F,6-10,230,"OCT 28, 2000",25.0,4,Western Kentucky,2025-26,1610612744,GSW,Golden State Warriors
+201939,Stephen Curry,stephen-curry,30,G,6-2,185,"MAR 14, 1988",38.0,16,Davidson,2025-26,1610612744,GSW,Golden State Warriors
+203552,Seth Curry,seth-curry,31,G,6-1,185,"AUG 23, 1990",35.0,12,Duke,2025-26,1610612744,GSW,Golden State Warriors
+1642502,Malevy Leons,malevy-leons,33,F,6-9,210,"SEP 23, 1999",26.0,1,Bradley,2025-26,1610612744,GSW,Golden State Warriors
+1630311,Pat Spencer,pat-spencer,61,G,6-2,205,"JUL 04, 1996",29.0,2,Northwestern,2025-26,1610612744,GSW,Golden State Warriors

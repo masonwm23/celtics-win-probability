@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1631457,Alex Morales,alex-morales,,G,6-6,210,"NOV 21, 1997",28.0,R,Wagner,2025-26,1610612753,ORL,Orlando Magic
+1641710,Anthony Black,anthony-black,0,G,6-7,200,"JAN 20, 2004",22.0,2,Arkansas,2025-26,1610612753,ORL,Orlando Magic
+1628371,Jonathan Isaac,jonathan-isaac,1,F,6-10,230,"OCT 03, 1997",28.0,8,Florida State,2025-26,1610612753,ORL,Orlando Magic
+1628975,Jevon Carter,jevon-carter,2,G,6-0,190,"SEP 14, 1995",30.0,7,West Virginia,2025-26,1610612753,ORL,Orlando Magic
+1630217,Desmond Bane,desmond-bane,3,G,6-6,215,"JUN 25, 1998",28.0,5,TCU,2025-26,1610612753,ORL,Orlando Magic
+1630591,Jalen Suggs,jalen-suggs,4,G,6-5,205,"JUN 03, 2001",25.0,4,Gonzaga,2025-26,1610612753,ORL,Orlando Magic
+1631094,Paolo Banchero,paolo-banchero,5,F,6-10,250,"NOV 12, 2002",23.0,3,Duke,2025-26,1610612753,ORL,Orlando Magic
+1631288,Jamal Cain,jamal-cain,8,F,6-7,191,"MAR 20, 1999",27.0,3,Oakland,2025-26,1610612753,ORL,Orlando Magic
+1642859,Jase Richardson,jase-richardson,11,G,6-1,180,"OCT 16, 2005",20.0,R,Michigan State,2025-26,1610612753,ORL,Orlando Magic
+1641724,Jett Howard,jett-howard,13,G,6-8,215,"SEP 14, 2003",22.0,2,Michigan,2025-26,1610612753,ORL,Orlando Magic
+1630658,Colin Castleton,colin-castleton,14,C,6-10,250,"MAY 25, 2000",26.0,2,Florida,2025-26,1610612753,ORL,Orlando Magic
+1629021,Moritz Wagner,moritz-wagner,21,F-C,6-11,245,"APR 26, 1997",29.0,7,Michigan,2025-26,1610612753,ORL,Orlando Magic
+1630532,Franz Wagner,franz-wagner,22,F,6-10,220,"AUG 27, 2001",24.0,4,Michigan,2025-26,1610612753,ORL,Orlando Magic
+1641783,Tristan da Silva,tristan-da-silva,23,F,6-8,217,"MAY 15, 2001",25.0,1,Colorado,2025-26,1610612753,ORL,Orlando Magic
+1628976,Wendell Carter Jr.,wendell-carter-jr,34,C-F,6-10,270,"APR 16, 1999",27.0,7,Duke,2025-26,1610612753,ORL,Orlando Magic
+1629048,Goga Bitadze,goga-bitadze,35,C-F,6-11,250,"JUL 20, 1999",26.0,6,Mega Basket,2025-26,1610612753,ORL,Orlando Magic
+1642869,Noah Penda,noah-penda,93,G-F,6-7,215,"JAN 07, 2005",21.0,R,Le Mans Sarthe,2025-26,1610612753,ORL,Orlando Magic

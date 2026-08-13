@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1630178,Tyrese Maxey,tyrese-maxey,0,G,6-2,200,"NOV 04, 2000",24.0,4,Kentucky,2024-25,1610612755,PHI,Philadelphia 76ers
+203083,Andre Drummond,andre-drummond,1,C,6-11,279,"AUG 10, 1993",31.0,12,Connecticut,2024-25,1610612755,PHI,Philadelphia 76ers
+1629656,Quentin Grimes,quentin-grimes,5,G,6-4,210,"MAY 08, 2000",25.0,3,Houston,2024-25,1610612755,PHI,Philadelphia 76ers
+200768,Kyle Lowry,kyle-lowry,7,G,6-0,196,"MAR 25, 1986",39.0,18,Villanova,2024-25,1610612755,PHI,Philadelphia 76ers
+202331,Paul George,paul-george,8,F,6-8,220,"MAY 02, 1990",35.0,14,Fresno State,2024-25,1610612755,PHI,Philadelphia 76ers
+1626162,Kelly Oubre Jr.,kelly-oubre-jr,9,F-G,6-8,203,"DEC 09, 1995",29.0,9,Kansas,2024-25,1610612755,PHI,Philadelphia 76ers
+1630288,Jeff Dowtin Jr.,jeff-dowtin-jr,11,G,6-3,177,"MAY 10, 1997",28.0,3,Rhode Island,2024-25,1610612755,PHI,Philadelphia 76ers
+1630215,Jared Butler,jared-butler,12,G,6-3,193,"AUG 25, 2000",24.0,3,Baylor,2024-25,1610612755,PHI,Philadelphia 76ers
+1641741,Ricky Council IV,ricky-council-iv,14,G,6-6,207,"AUG 03, 2001",23.0,1,Arkansas,2024-25,1610612755,PHI,Philadelphia 76ers
+1629022,Lonnie Walker IV,lonnie-walker-iv,16,G-F,6-4,204,"DEC 14, 1998",26.0,6,Miami,2024-25,1610612755,PHI,Philadelphia 76ers
+1641720,Jalen Hood-Schifino,jalen-hood-schifino,17,G,6-5,210,"JUN 19, 2003",22.0,1,Indiana,2024-25,1610612755,PHI,Philadelphia 76ers
+1642348,Justin Edwards,justin-edwards,19,F,6-7,203,"DEC 16, 2003",21.0,R,Kentucky,2024-25,1610612755,PHI,Philadelphia 76ers
+1642272,Jared McCain,jared-mccain,20,G,6-3,195,"FEB 20, 2004",21.0,R,Duke,2024-25,1610612755,PHI,Philadelphia 76ers
+203954,Joel Embiid,joel-embiid,21,C-F,7-0,280,"MAR 16, 1994",31.0,8,Kansas,2024-25,1610612755,PHI,Philadelphia 76ers
+201569,Eric Gordon,eric-gordon,23,G,6-3,215,"DEC 25, 1988",36.0,16,Indiana,2024-25,1610612755,PHI,Philadelphia 76ers
+1627824,Guerschon Yabusele,guerschon-yabusele,28,F,6-8,265,"DEC 17, 1995",29.0,2,"Rouen, France",2024-25,1610612755,PHI,Philadelphia 76ers
+1641737,Adem Bona,adem-bona,30,F,6-10,235,"MAR 28, 2003",22.0,R,UCLA,2024-25,1610612755,PHI,Philadelphia 76ers
+1642024,Alex Reese,alex-reese,65,F-C,6-9,245,"MAY 21, 1999",26.0,R,Alabama,2024-25,1610612755,PHI,Philadelphia 76ers

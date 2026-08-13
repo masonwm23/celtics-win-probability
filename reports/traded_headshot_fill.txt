@@ -1,0 +1,30 @@
+TRADED-PLAYER HEADSHOT FILL
+========================================================================
+
+combinations in Celtics games   5,005
+already covered                 3,341
+fetched now                     1,664
+  usable                        1,546
+  no image                      118
+tricode with no team id         0
+
+map rows before                 4,009
+map rows after                  5,673
+usable after                    5,226
+
+EXAMPLES ADDED
+------------------------------------------------------------------------
+    2018-19  SAS  2200
+    2017-18  UTA  2207
+    2016-17  CLE  2365
+    2016-17  CLE  2399
+    2016-17  SAC  2440
+    2016-17  BKN  2449
+    2024-25  LAL  2544
+    2025-26  LAL  2544
+    2017-18  CLE  2548
+    2017-18  DAL  2734
+    2017-18  NOP  2749
+    2018-19  PHX  2772
+
+Re-run scripts/20_build_serving.py to pick these up.

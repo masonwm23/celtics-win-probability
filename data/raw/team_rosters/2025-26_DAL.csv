@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1642967,John Poulakidas,john-poulakidas,,G,6-6,205,"APR 04, 2003",23.0,R,Yale,2025-26,1610612742,DAL,Dallas Mavericks
+1631108,Max Christie,max-christie,00,G,6-5,190,"FEB 10, 2003",23.0,3,Michigan State,2025-26,1610612742,DAL,Dallas Mavericks
+1641726,Dereck Lively II,dereck-lively-ii,2,C,7-1,230,"FEB 12, 2004",22.0,2,Duke,2025-26,1610612742,DAL,Dallas Mavericks
+203939,Dwight Powell,dwight-powell,7,F-C,6-10,240,"JUL 20, 1991",34.0,11,Stanford,2025-26,1610612742,DAL,Dallas Mavericks
+1642358,AJ Johnson,aj-johnson,8,G,6-5,160,"DEC 01, 2004",21.0,1,Illawarra,2025-26,1610612742,DAL,Dallas Mavericks
+1642948,Ryan Nembhard,ryan-nembhard,9,G,5-11,180,"MAR 10, 2003",23.0,R,Gonzaga,2025-26,1610612742,DAL,Dallas Mavericks
+1630314,Brandon Williams,brandon-williams,10,G,6-1,190,"NOV 22, 1999",26.0,3,Arizona,2025-26,1610612742,DAL,Dallas Mavericks
+202681,Kyrie Irving,kyrie-irving,11,G,6-2,195,"MAR 23, 1992",34.0,14,Duke,2025-26,1610612742,DAL,Dallas Mavericks
+1630230,Naji Marshall,naji-marshall,13,F,6-6,220,"JAN 24, 1998",28.0,5,Xavier,2025-26,1610612742,DAL,Dallas Mavericks
+1628997,Caleb Martin,caleb-martin,16,F,6-5,205,"SEP 28, 1995",30.0,6,Nevada,2025-26,1610612742,DAL,Dallas Mavericks
+203114,Khris Middleton,khris-middleton,20,F,6-7,222,"AUG 12, 1991",34.0,13,Texas A&M,2025-26,1610612742,DAL,Dallas Mavericks
+1629655,Daniel Gafford,daniel-gafford,21,F-C,6-10,265,"OCT 01, 1998",27.0,6,Arkansas,2025-26,1610612742,DAL,Dallas Mavericks
+1641890,Tyler Smith,tyler-smith,21,F,6-9,224,"NOV 02, 2004",21.0,1,NBA G League Ignite,2025-26,1610612742,DAL,Dallas Mavericks
+1629023,P.J. Washington,pj-washington,25,F,6-7,230,"AUG 23, 1998",27.0,6,Kentucky,2025-26,1610612742,DAL,Dallas Mavericks
+1630619,Moussa Cisse,moussa-cisse,30,C,6-11,220,"SEP 10, 2002",23.0,R,Memphis,2025-26,1610612742,DAL,Dallas Mavericks
+202691,Klay Thompson,klay-thompson,31,G,6-5,220,"FEB 08, 1990",36.0,14,Washington State,2025-26,1610612742,DAL,Dallas Mavericks
+1642843,Cooper Flagg,cooper-flagg,32,F,6-9,205,"DEC 21, 2006",19.0,R,Duke,2025-26,1610612742,DAL,Dallas Mavericks
+1628963,Marvin Bagley III,marvin-bagley-iii,35,F,6-10,235,"MAR 14, 1999",27.0,7,Duke,2025-26,1610612742,DAL,Dallas Mavericks

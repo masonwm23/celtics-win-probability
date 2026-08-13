@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1642490,Josh Oduro,josh-oduro,,C,6-9,240,"OCT 14, 2000",25.0,R,Providence,2025-26,1610612740,NOP,New Orleans Pelicans
+1642847,Jeremiah Fears,jeremiah-fears,0,G,6-3,190,"OCT 14, 2006",19.0,R,Oklahoma,2025-26,1610612740,NOP,New Orleans Pelicans
+1629627,Zion Williamson,zion-williamson,1,F,6-6,284,"JUL 06, 2000",25.0,6,Duke,2025-26,1610612740,NOP,New Orleans Pelicans
+1630529,Herbert Jones,herbert-jones,2,F,6-7,206,"OCT 06, 1998",27.0,4,Alabama,2025-26,1610612740,NOP,New Orleans Pelicans
+1629673,Jordan Poole,jordan-poole,3,G,6-4,194,"JUN 19, 1999",27.0,6,Michigan,2025-26,1610612740,NOP,New Orleans Pelicans
+1630621,Hunter Dickinson,hunter-dickinson,4,C,7-1,255,"NOV 25, 2000",25.0,R,Kansas,2025-26,1610612740,NOP,New Orleans Pelicans
+1627749,Dejounte Murray,dejounte-murray,5,G,6-4,180,"SEP 19, 1996",29.0,9,Washington,2025-26,1610612740,NOP,New Orleans Pelicans
+201599,DeAndre Jordan,deandre-jordan,9,C,6-11,265,"JUL 21, 1988",37.0,17,Texas A&M,2025-26,1610612740,NOP,New Orleans Pelicans
+1631121,Bryce McGowens,bryce-mcgowens,11,G,6-6,190,"NOV 08, 2002",23.0,3,Nebraska,2025-26,1610612740,NOP,New Orleans Pelicans
+1642877,Micah Peavy,micah-peavy,14,G-F,6-7,215,"JUL 16, 2001",24.0,R,Georgetown,2025-26,1610612740,NOP,New Orleans Pelicans
+1631255,Karlo Matković,karlo-matković,17,F-C,6-10,231,"MAR 30, 2001",25.0,1,Mega Basket,2025-26,1610612740,NOP,New Orleans Pelicans
+1642274,Yves Missi,yves-missi,21,C,6-11,235,"MAY 14, 2004",22.0,1,Baylor,2025-26,1610612740,NOP,New Orleans Pelicans
+1642852,Derik Queen,derik-queen,22,C,6-9,250,"DEC 27, 2004",21.0,R,Maryland,2025-26,1610612740,NOP,New Orleans Pelicans
+1641725,Trey Alexander,trey-alexander,23,G,6-5,185,"MAY 02, 2003",23.0,1,Creighton,2025-26,1610612740,NOP,New Orleans Pelicans
+1641722,Jordan Hawkins,jordan-hawkins,24,G,6-5,190,"APR 29, 2002",24.0,2,Connecticut,2025-26,1610612740,NOP,New Orleans Pelicans
+1630530,Trey Murphy III,trey-murphy-iii,25,F,6-8,206,"JUN 18, 2000",26.0,4,Virginia,2025-26,1610612740,NOP,New Orleans Pelicans
+1630180,Saddiq Bey,saddiq-bey,41,G-F,6-8,215,"APR 09, 1999",27.0,5,Villanova,2025-26,1610612740,NOP,New Orleans Pelicans
+1626172,Kevon Looney,kevon-looney,55,F,6-9,222,"FEB 06, 1996",30.0,10,UCLA,2025-26,1610612740,NOP,New Orleans Pelicans

@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1631210,Jacob Toppin,jacob-toppin,00,F,6-8,200,"MAY 08, 2000",25.0,1,Kentucky,2024-25,1610612737,ATL,Atlanta Hawks
+1630552,Jalen Johnson,jalen-johnson,1,F,6-8,219,"DEC 18, 2001",23.0,3,Duke,2024-25,1610612737,ATL,Atlanta Hawks
+1630811,Keaton Wallace,keaton-wallace,2,G,6-3,185,"FEB 26, 1999",26.0,R,Texas-San Antonio,2024-25,1610612737,ATL,Atlanta Hawks
+1627747,Caris LeVert,caris-levert,3,G,6-6,205,"AUG 25, 1994",30.0,8,Michigan,2024-25,1610612737,ATL,Atlanta Hawks
+1641723,Kobe Bufkin,kobe-bufkin,4,G,6-4,195,"SEP 21, 2003",21.0,1,Michigan,2024-25,1610612737,ATL,Atlanta Hawks
+1630700,Dyson Daniels,dyson-daniels,5,G,6-7,199,"MAR 17, 2003",22.0,2,NBA G League Ignite,2024-25,1610612737,ATL,Atlanta Hawks
+1642258,Zaccharie Risacher,zaccharie-risacher,10,F,6-8,200,"APR 08, 2005",20.0,R,JL Bourg-en-Bresse,2024-25,1610612737,ATL,Atlanta Hawks
+1629027,Trae Young,trae-young,11,G,6-1,164,"SEP 19, 1998",26.0,6,Oklahoma,2024-25,1610612737,ATL,Atlanta Hawks
+1629611,Terance Mann,terance-mann,14,G-F,6-5,215,"OCT 18, 1996",28.0,5,Florida State,2024-25,1610612737,ATL,Atlanta Hawks
+203991,Clint Capela,clint-capela,15,C,6-10,256,"MAY 18, 1994",31.0,10,Elan Chalon,2024-25,1610612737,ATL,Atlanta Hawks
+1630168,Onyeka Okongwu,onyeka-okongwu,17,F-C,6-10,240,"DEC 11, 2000",24.0,4,Southern California,2024-25,1610612737,ATL,Atlanta Hawks
+1631243,Mouhamed Gueye,mouhamed-gueye,18,F,6-10,210,"NOV 09, 2002",22.0,1,Washington State,2024-25,1610612737,ATL,Atlanta Hawks
+1627777,Georges Niang,georges-niang,20,F,6-7,230,"JUN 17, 1993",32.0,8,Iowa State,2024-25,1610612737,ATL,Atlanta Hawks
+1626204,Larry Nance Jr.,larry-nance-jr,22,F-C,6-8,245,"JAN 01, 1993",32.0,9,Wyoming,2024-25,1610612737,ATL,Atlanta Hawks
+1629726,Garrison Mathews,garrison-mathews,24,G,6-6,215,"OCT 24, 1996",28.0,5,Lipscomb,2024-25,1610612737,ATL,Atlanta Hawks
+1631230,Dominick Barlow,dominick-barlow,26,F,6-8,215,"MAY 26, 2003",22.0,2,Overtime Elite,2024-25,1610612737,ATL,Atlanta Hawks
+1630249,Vít Krejčí,vít-krejčí,27,G,6-8,195,"JUN 19, 2000",25.0,3,Zaragoza,2024-25,1610612737,ATL,Atlanta Hawks
+1631342,Daeqwon Plowden,daeqwon-plowden,29,G-F,6-6,216,"AUG 29, 1998",26.0,R,Bowling Green,2024-25,1610612737,ATL,Atlanta Hawks

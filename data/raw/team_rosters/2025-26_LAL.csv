@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1642876,Adou Thiero,adou-thiero,1,G,6-7,220,"MAY 08, 2004",22.0,R,Arkansas,2025-26,1610612747,LAL,Los Angeles Lakers
+1629020,Jarred Vanderbilt,jarred-vanderbilt,2,F,6-8,214,"APR 03, 1999",27.0,7,Kentucky,2025-26,1610612747,LAL,Los Angeles Lakers
+1642261,Dalton Knecht,dalton-knecht,4,F,6-6,215,"APR 19, 2001",25.0,1,Tennessee,2025-26,1610612747,LAL,Los Angeles Lakers
+1629028,Deandre Ayton,deandre-ayton,5,C,7-0,252,"JUL 23, 1998",27.0,7,Arizona,2025-26,1610612747,LAL,Los Angeles Lakers
+1642355,Bronny James,bronny-james,9,G,6-2,210,"OCT 06, 2004",21.0,1,Southern California,2025-26,1610612747,LAL,Los Angeles Lakers
+1628379,Luke Kennard,luke-kennard,10,G,6-5,206,"JUN 24, 1996",30.0,8,Duke,2025-26,1610612747,LAL,Los Angeles Lakers
+1629637,Jaxson Hayes,jaxson-hayes,11,C-F,7-0,220,"MAY 23, 2000",26.0,6,Texas,2025-26,1610612747,LAL,Los Angeles Lakers
+1631222,Jake LaRavia,jake-laravia,12,F,6-7,235,"NOV 03, 2001",24.0,3,Wake Forest,2025-26,1610612747,LAL,Los Angeles Lakers
+1628467,Maxi Kleber,maxi-kleber,14,F,6-10,240,"JAN 29, 1992",34.0,8,Bayern Munich,2025-26,1610612747,LAL,Los Angeles Lakers
+1630559,Austin Reaves,austin-reaves,15,G,6-5,197,"MAY 29, 1998",28.0,4,Oklahoma,2025-26,1610612747,LAL,Los Angeles Lakers
+1631166,Drew Timme,drew-timme,17,F,6-9,235,"SEP 09, 2000",25.0,1,Gonzaga,2025-26,1610612747,LAL,Los Angeles Lakers
+1641733,Nick Smith Jr.,nick-smith-jr,20,G,6-2,185,"APR 18, 2004",22.0,2,Arkansas,2025-26,1610612747,LAL,Los Angeles Lakers
+2544,LeBron James,lebron-james,23,F,6-9,250,"DEC 30, 1984",41.0,22,St. Vincent-St. Mary HS (OH),2025-26,1610612747,LAL,Los Angeles Lakers
+1629060,Rui Hachimura,rui-hachimura,28,F,6-8,230,"FEB 08, 1998",28.0,6,Gonzaga,2025-26,1610612747,LAL,Los Angeles Lakers
+1643024,Chris Mañon,chris-mañon,30,G,6-4,209,"DEC 09, 2001",24.0,R,Vanderbilt,2025-26,1610612747,LAL,Los Angeles Lakers
+203935,Marcus Smart,marcus-smart,36,G,6-3,220,"MAR 06, 1994",32.0,11,Oklahoma State,2025-26,1610612747,LAL,Los Angeles Lakers
+1629029,Luka Dončić,luka-dončić,77,F-G,6-8,230,"FEB 28, 1999",27.0,7,Real Madrid,2025-26,1610612747,LAL,Los Angeles Lakers

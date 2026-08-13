@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1629012,Collin Sexton,collin-sexton,2,G,6-3,190,"JAN 04, 1999",27.0,7,Alabama,2025-26,1610612741,CHI,Chicago Bulls
+1630581,Josh Giddey,josh-giddey,3,G,6-7,214,"OCT 10, 2002",23.0,4,NBA Global Academy,2025-26,1610612741,CHI,Chicago Bulls
+1630644,Mac McClung,mac-mcclung,5,G,6-2,185,"JAN 06, 1999",27.0,3,Texas Tech,2025-26,1610612741,CHI,Chicago Bulls
+1642265,Rob Dillingham,rob-dillingham,7,G,6-2,175,"JAN 04, 2005",21.0,1,Kentucky,2025-26,1610612741,CHI,Chicago Bulls
+1642530,Yuki Kawamura,yuki-kawamura,8,G,5-7,159,"MAY 02, 2001",25.0,1,Yokohama B-Corsairs (Japan),2025-26,1610612741,CHI,Chicago Bulls
+1631159,Leonard Miller,leonard-miller,11,F,6-10,220,"NOV 26, 2003",22.0,2,NBA G League Ignite,2025-26,1610612741,CHI,Chicago Bulls
+1628380,Zach Collins,zach-collins,12,F-C,6-9,240,"NOV 19, 1997",28.0,8,Gonzaga,2025-26,1610612741,CHI,Chicago Bulls
+1630208,Nick Richards,nick-richards,13,C,6-11,245,"NOV 29, 1997",28.0,5,Kentucky,2025-26,1610612741,CHI,Chicago Bulls
+1641824,Matas Buzelis,matas-buzelis,14,F,6-8,196,"OCT 13, 2004",21.0,1,NBA G League Ignite,2025-26,1610612741,CHI,Chicago Bulls
+1631338,Mouhamadou Gueye,mouhamadou-gueye,16,F,6-9,210,"JUL 06, 1998",27.0,1,Pittsburgh,2025-26,1610612741,CHI,Chicago Bulls
+1629014,Anfernee Simons,anfernee-simons,22,G,6-3,200,"JUN 08, 1999",27.0,7,Edgewater HS (FL),2025-26,1610612741,CHI,Chicago Bulls
+1642855,Noa Essengue,noa-essengue,24,F,6-8,194,"DEC 18, 2006",19.0,R,,2025-26,1610612741,CHI,Chicago Bulls
+1630188,Jalen Smith,jalen-smith,25,F-C,6-8,244,"MAR 16, 2000",26.0,5,Maryland,2025-26,1610612741,CHI,Chicago Bulls
+1627824,Guerschon Yabusele,guerschon-yabusele,28,F,6-7,265,"DEC 17, 1995",30.0,3,"Rouen, France",2025-26,1610612741,CHI,Chicago Bulls
+1630200,Tre Jones,tre-jones,30,G,6-1,190,"JAN 08, 2000",26.0,5,Duke,2025-26,1610612741,CHI,Chicago Bulls
+1630171,Isaac Okoro,isaac-okoro,35,F-G,6-4,225,"JAN 26, 2001",25.0,5,Auburn,2025-26,1610612741,CHI,Chicago Bulls
+1630172,Patrick Williams,patrick-williams,44,F,6-6,235,"AUG 26, 2001",24.0,5,Florida State,2025-26,1610612741,CHI,Chicago Bulls
+1642950,Lachlan Olbrich,lachlan-olbrich,47,C,6-8,236,"DEC 30, 2003",22.0,R,Illawarra,2025-26,1610612741,CHI,Chicago Bulls

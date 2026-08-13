@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1641815,Isaiah Stevens,isaiah-stevens,,G,6-0,185,"NOV 01, 2000",24.0,R,Colorado State,2024-25,1610612748,MIA,Miami Heat
+1626179,Terry Rozier,terry-rozier,2,G,6-1,190,"MAR 17, 1994",31.0,9,Louisville,2024-25,1610612748,MIA,Miami Heat
+1631107,Nikola Jović,nikola-jović,5,F,6-10,205,"JUN 09, 2003",22.0,2,Mega Basket,2024-25,1610612748,MIA,Miami Heat
+1642276,Kel'el Ware,kelel-ware,7,C,7-0,230,"APR 20, 2004",21.0,R,Indiana,2024-25,1610612748,MIA,Miami Heat
+1630528,Josh Christopher,josh-christopher,8,G,6-4,215,"DEC 08, 2001",23.0,2,Arizona State,2024-25,1610612748,MIA,Miami Heat
+1641796,Pelle Larsson,pelle-larsson,9,G,6-5,215,"FEB 23, 2001",24.0,R,Arizona,2024-25,1610612748,MIA,Miami Heat
+1631170,Jaime Jaquez Jr.,jaime-jaquez-jr,11,G,6-6,225,"FEB 18, 2001",24.0,1,UCLA,2024-25,1610612748,MIA,Miami Heat
+1630696,Dru Smith,dru-smith,12,G,6-2,203,"DEC 30, 1997",27.0,2,Missouri,2024-25,1610612748,MIA,Miami Heat
+1628389,Bam Adebayo,bam-adebayo,13,C-F,6-9,255,"JUL 18, 1997",27.0,7,Kentucky,2024-25,1610612748,MIA,Miami Heat
+1629639,Tyler Herro,tyler-herro,14,G,6-5,195,"JAN 20, 2000",25.0,5,Kentucky,2024-25,1610612748,MIA,Miami Heat
+1642352,Keshad Johnson,keshad-johnson,16,F,6-7,225,"JUN 23, 2001",24.0,R,Arizona,2024-25,1610612748,MIA,Miami Heat
+202692,Alec Burks,alec-burks,18,G,6-5,214,"JUL 20, 1991",33.0,13,Colorado,2024-25,1610612748,MIA,Miami Heat
+203937,Kyle Anderson,kyle-anderson,20,F-G,6-9,230,"SEP 20, 1993",31.0,10,UCLA,2024-25,1610612748,MIA,Miami Heat
+203952,Andrew Wiggins,andrew-wiggins,22,F,6-7,197,"FEB 23, 1995",30.0,10,Kansas,2024-25,1610612748,MIA,Miami Heat
+1629312,Haywood Highsmith,haywood-highsmith,24,F,6-5,220,"DEC 09, 1996",28.0,4,Wheeling Jesuit,2024-25,1610612748,MIA,Miami Heat
+201567,Kevin Love,kevin-love,42,F-C,6-8,251,"SEP 07, 1988",36.0,16,UCLA,2024-25,1610612748,MIA,Miami Heat
+1630558,Davion Mitchell,davion-mitchell,45,G,6-0,202,"SEP 05, 1998",26.0,3,Baylor,2024-25,1610612748,MIA,Miami Heat
+1629130,Duncan Robinson,duncan-robinson,55,F,6-7,215,"APR 22, 1994",31.0,6,Michigan,2024-25,1610612748,MIA,Miami Heat

@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1643257,Jayson Kent,jayson-kent,,F,6-8,215,"FEB 03, 2002",24.0,R,Texas,2025-26,1610612757,POR,Portland Trail Blazers
+1630703,Scoot Henderson,scoot-henderson,00,G,6-3,207,"FEB 03, 2004",22.0,2,NBA G League Ignite,2025-26,1610612757,POR,Portland Trail Blazers
+203081,Damian Lillard,damian-lillard,0,G,6-2,200,"JUL 15, 1990",35.0,13,Weber State,2025-26,1610612757,POR,Portland Trail Blazers
+1631104,Blake Wesley,blake-wesley,1,G,6-4,190,"MAR 16, 2003",23.0,3,Notre Dame,2025-26,1610612757,POR,Portland Trail Blazers
+1631126,Caleb Love,caleb-love,2,G,6-3,212,"SEP 27, 2001",24.0,R,Arizona,2025-26,1610612757,POR,Portland Trail Blazers
+1642959,Chris Youngblood,chris-youngblood,3,G,6-4,,"FEB 09, 2002",24.0,R,Alabama,2025-26,1610612757,POR,Portland Trail Blazers
+1629680,Matisse Thybulle,matisse-thybulle,4,G-F,6-5,202,"MAR 04, 1997",29.0,6,Washington,2025-26,1610612757,POR,Portland Trail Blazers
+201950,Jrue Holiday,jrue-holiday,5,G,6-4,220,"JUN 12, 1990",36.0,16,UCLA,2025-26,1610612757,POR,Portland Trail Blazers
+1630166,Deni Avdija,deni-avdija,8,F,6-8,228,"JAN 03, 2001",25.0,5,Maccabi Tel Aviv,2025-26,1610612757,POR,Portland Trail Blazers
+203924,Jerami Grant,jerami-grant,9,F,6-7,213,"MAR 12, 1994",32.0,11,Syracuse,2025-26,1610612757,POR,Portland Trail Blazers
+1642905,Yang Hansen,hansen-yang,16,C,7-1,270,"JUN 26, 2005",21.0,R,Zibo,2025-26,1610612757,POR,Portland Trail Blazers
+1631101,Shaedon Sharpe,shaedon-sharpe,17,G,6-5,210,"MAY 30, 2003",23.0,3,Kentucky,2025-26,1610612757,POR,Portland Trail Blazers
+1642270,Donovan Clingan,donovan-clingan,23,C,7-2,280,"FEB 23, 2004",22.0,1,Connecticut,2025-26,1610612757,POR,Portland Trail Blazers
+1631200,Kris Murray,kris-murray,24,F,6-8,218,"AUG 19, 2000",25.0,2,Iowa,2025-26,1610612757,POR,Portland Trail Blazers
+1630249,Vít Krejčí,vít-krejčí,27,G,6-8,195,"JUN 19, 2000",26.0,4,Zaragoza,2025-26,1610612757,POR,Portland Trail Blazers
+1641739,Toumani Camara,toumani-camara,33,F,6-7,230,"MAY 08, 2000",26.0,2,Dayton,2025-26,1610612757,POR,Portland Trail Blazers
+1629057,Robert Williams III,robert-williams-iii,35,C-F,6-9,249,"OCT 17, 1997",28.0,7,Texas A&M,2025-26,1610612757,POR,Portland Trail Blazers
+1631321,Sidy Cissoko,sidy-cissoko,91,G,6-6,220,"APR 02, 2004",22.0,2,NBA G League Ignite,2025-26,1610612757,POR,Portland Trail Blazers

@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1642882,Julian Reese,julian-reese,,F,6-9,230,"JUN 30, 2003",23.0,R,Maryland,2025-26,1610612764,WAS,Washington Wizards
+1641731,Bilal Coulibaly,bilal-coulibaly,0,G,6-7,195,"JUL 26, 2004",21.0,2,Metropolitans 92,2025-26,1610612764,WAS,Washington Wizards
+1641774,Tristan Vukcevic,tristan-vukcevic,00,F,7-0,220,"MAR 11, 2003",23.0,2,Real Madrid,2025-26,1610612764,WAS,Washington Wizards
+1641715,Cam Whitmore,cam-whitmore,1,F,6-6,230,"JUL 08, 2004",21.0,2,Villanova,2025-26,1610612764,WAS,Washington Wizards
+1629027,Trae Young,trae-young,3,G,6-2,164,"SEP 19, 1998",27.0,7,Oklahoma,2025-26,1610612764,WAS,Washington Wizards
+1626156,D'Angelo Russell,dangelo-russell,5,G,6-3,193,"FEB 23, 1996",30.0,10,Ohio State,2025-26,1610612764,WAS,Washington Wizards
+1642364,Jamir Watkins,jamir-watkins,5,F,6-6,210,"JUL 06, 2001",24.0,R,Florida State,2025-26,1610612764,WAS,Washington Wizards
+1642267,Bub Carrington,bub-carrington,7,G,6-4,190,"JUL 21, 2005",20.0,1,Pittsburgh,2025-26,1610612764,WAS,Washington Wizards
+1630702,Jaden Hardy,jaden-hardy,8,G,6-3,198,"JUL 05, 2002",23.0,3,NBA G League Ignite,2025-26,1610612764,WAS,Washington Wizards
+1630551,Justin Champagnie,justin-champagnie,9,G-F,6-6,206,"JUN 29, 2001",25.0,4,Pittsburgh,2025-26,1610612764,WAS,Washington Wizards
+1642848,Tre Johnson,tre-johnson,12,G,6-5,190,"MAR 07, 2006",20.0,R,Texas,2025-26,1610612764,WAS,Washington Wizards
+1641778,Leaky Black,leaky-black,12,F,6-6,209,"JUN 14, 1999",27.0,1,North Carolina,2025-26,1610612764,WAS,Washington Wizards
+1630536,Sharife Cooper,sharife-cooper,13,G,6-0,176,"JUN 11, 2001",25.0,1,Auburn,2025-26,1610612764,WAS,Washington Wizards
+1630264,Anthony Gill,anthony-gill,16,F,6-7,230,"OCT 17, 1992",33.0,5,Virginia,2025-26,1610612764,WAS,Washington Wizards
+1642273,Kyshawn George,kyshawn-george,18,F,6-8,200,"DEC 12, 2003",22.0,1,Miami,2025-26,1610612764,WAS,Washington Wizards
+1642259,Alex Sarr,alex-sarr,20,C,7-0,205,"APR 26, 2005",21.0,1,Washington Wizards,2025-26,1610612764,WAS,Washington Wizards
+203076,Anthony Davis,anthony-davis,23,F-C,6-10,253,"MAR 11, 1993",33.0,13,Kentucky,2025-26,1610612764,WAS,Washington Wizards
+1642860,Will Riley,will-riley,27,F,6-9,180,"FEB 10, 2006",20.0,R,Illinois-Urbana-Champaign,2025-26,1610612764,WAS,Washington Wizards

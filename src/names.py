@@ -189,6 +189,14 @@ def leading_name_from_description(description: str) -> str:
     if not description:
         return ""
     text = MISS_PREFIX.sub("", description.strip())
+    # Strip accents BEFORE reading the leading token. LEADING_NAME is an ASCII
+    # pattern, so a description that spells a player with a non-ASCII letter,
+    # for example "Pöltl" where the roster carries "Poeltl", was truncated at
+    # the umlaut to just "P" and the in-game name map never learned the surname.
+    # That left four of Poeltl's substitutions unresolvable in game 0022400230.
+    # Stripping first is a no-op for the ASCII descriptions and yields the same
+    # normalized key normalize_name would, without the truncation.
+    text = strip_accents(text)
     match = LEADING_NAME.match(text)
     if not match:
         return ""

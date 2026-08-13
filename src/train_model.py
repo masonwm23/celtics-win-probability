@@ -273,7 +273,8 @@ def build_report(frame, predictions, fold_records, comparison, phase_tables,
         "=" * 78,
         "",
         "Every number below is out-of-fold: each prediction comes from a model",
-        "that never saw that season. Leave-one-season-out, 8 folds.",
+        f"that never saw that season. Leave-one-season-out, "
+        f"{frame.season.nunique()} folds.",
         "",
         f"  events {len(frame):,}   games {frame.game_id.nunique()}   "
         f"seasons {frame.season.nunique()}   base rate "
@@ -341,8 +342,8 @@ def build_report(frame, predictions, fold_records, comparison, phase_tables,
                   "ARE THESE DIFFERENCES REAL? CLUSTER BOOTSTRAP", "=" * 78, "",
                   "  Resamples GAMES, not events. Events inside a game share an",
                   "  outcome and are highly dependent, so resampling events would",
-                  "  treat 309,000 correlated rows as independent and give an",
-                  "  interval far too narrow. The unit is the game, n = 636.",
+                  "  treat correlated rows as independent and give an",
+                  "  interval far too narrow. The unit is the game, not the event.",
                   "",
                   "  Positive difference means the SECOND model is better.",
                   "",
@@ -499,7 +500,8 @@ def main():
     target = frame[features.TARGET_COLUMN].astype(int)
     print(f"Loaded {len(frame):,} events, {frame.game_id.nunique()} games")
 
-    print("\nFitting 4 tiers across 8 leave-one-season-out folds...")
+    print(f"\nFitting 4 tiers across {frame.season.nunique()} "
+          "leave-one-season-out folds...")
     predictions, fold_records, _ = run_folds(frame, rosters, lineups)
 
     out_of_fold = pd.DataFrame({k: v for k, v in predictions.items()})

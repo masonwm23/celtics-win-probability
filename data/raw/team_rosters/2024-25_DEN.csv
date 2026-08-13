@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1631128,Christian Braun,christian-braun,0,G,6-6,220,"APR 17, 2001",24.0,2,Kansas,2024-25,1610612743,DEN,Denver Nuggets
+1629008,Michael Porter Jr.,michael-porter-jr,1,F,6-10,218,"JUN 29, 1998",27.0,5,Missouri,2024-25,1610612743,DEN,Denver Nuggets
+1631124,Julian Strawther,julian-strawther,3,G,6-6,205,"APR 18, 2002",23.0,1,Gonzaga,2024-25,1610612743,DEN,Denver Nuggets
+201566,Russell Westbrook,russell-westbrook,4,G,6-4,200,"NOV 12, 1988",36.0,16,UCLA,2024-25,1610612743,DEN,Denver Nuggets
+1641816,Hunter Tyson,hunter-tyson,5,F,6-8,215,"JUN 13, 2000",25.0,1,Clemson,2024-25,1610612743,DEN,Denver Nuggets
+201599,DeAndre Jordan,deandre-jordan,6,C,6-11,265,"JUL 21, 1988",36.0,16,Texas A&M,2024-25,1610612743,DEN,Denver Nuggets
+1631212,Peyton Watson,peyton-watson,8,G,6-7,200,"SEP 11, 2002",22.0,2,UCLA,2024-25,1610612743,DEN,Denver Nuggets
+203967,Dario Šarić,dario-šarić,9,F-C,6-10,225,"APR 08, 1994",31.0,8,Anadolu Efes,2024-25,1610612743,DEN,Denver Nuggets
+1641790,PJ Hall,pj-hall,13,C,6-10,245,"FEB 21, 2002",23.0,R,Clemson,2024-25,1610612743,DEN,Denver Nuggets
+1641747,DaRon Holmes II,daron-holmes-ii,14,F,6-10,225,"AUG 15, 2002",22.0,R,Dayton,2024-25,1610612743,DEN,Denver Nuggets
+203999,Nikola Jokić,nikola-jokić,15,C,6-11,284,"FEB 19, 1995",30.0,9,Mega Basket,2024-25,1610612743,DEN,Denver Nuggets
+1642461,Spencer Jones,spencer-jones,21,F,6-7,225,"JUN 14, 2001",24.0,R,Stanford,2024-25,1610612743,DEN,Denver Nuggets
+1630192,Zeke Nnaji,zeke-nnaji,22,F-C,6-9,240,"JAN 09, 2001",24.0,4,Arizona,2024-25,1610612743,DEN,Denver Nuggets
+1641725,Trey Alexander,trey-alexander,23,G,6-4,185,"MAY 02, 2003",22.0,R,Creighton,2024-25,1610612743,DEN,Denver Nuggets
+1629618,Jalen Pickett,jalen-pickett,24,G,6-2,202,"OCT 22, 1999",25.0,1,Penn State,2024-25,1610612743,DEN,Denver Nuggets
+1627750,Jamal Murray,jamal-murray,27,G,6-4,215,"FEB 23, 1997",28.0,8,Kentucky,2024-25,1610612743,DEN,Denver Nuggets
+1628427,Vlatko Čančar,vlatko-čančar,31,F,6-8,236,"APR 10, 1997",28.0,5,San Pablo Burgos,2024-25,1610612743,DEN,Denver Nuggets
+203932,Aaron Gordon,aaron-gordon,32,F,6-8,235,"SEP 16, 1995",29.0,10,Arizona,2024-25,1610612743,DEN,Denver Nuggets

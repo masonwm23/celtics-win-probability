@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+201935,James Harden,james-harden,1,G,6-5,220,"AUG 26, 1989",35.0,15,Arizona State,2024-25,1610612746,LAC,Los Angeles Clippers
+202695,Kawhi Leonard,kawhi-leonard,2,F,6-7,225,"JUN 29, 1991",34.0,13,San Diego State,2024-25,1610612746,LAC,Los Angeles Clippers
+1641754,Seth Lundy,seth-lundy,5,G-F,6-4,220,"APR 02, 2000",25.0,1,Penn State,2024-25,1610612746,LAC,Los Angeles Clippers
+1629599,Amir Coffey,amir-coffey,7,G-F,6-7,210,"JUN 17, 1997",28.0,5,Minnesota,2024-25,1610612746,LAC,Los Angeles Clippers
+1627739,Kris Dunn,kris-dunn,8,G,6-3,205,"MAR 18, 1994",31.0,8,Providence,2024-25,1610612746,LAC,Los Angeles Clippers
+1642280,Trentyn Flowers,trentyn-flowers,9,F,6-9,185,"MAR 08, 2005",20.0,R,Adelaide,2024-25,1610612746,LAC,Los Angeles Clippers
+203992,Bogdan Bogdanović,bogdan-bogdanović,10,G,6-5,225,"AUG 18, 1992",32.0,7,Fenerbahce,2024-25,1610612746,LAC,Los Angeles Clippers
+1641757,Jordan Miller,jordan-miller,11,G,6-5,194,"JAN 23, 2000",25.0,1,Miami,2024-25,1610612746,LAC,Los Angeles Clippers
+1642353,Cam Christie,cam-christie,12,G,6-6,190,"JUL 24, 2005",19.0,R,Minnesota,2024-25,1610612746,LAC,Los Angeles Clippers
+1629234,Drew Eubanks,drew-eubanks,15,F-C,6-10,245,"FEB 01, 1997",28.0,6,Oregon State,2024-25,1610612746,LAC,Los Angeles Clippers
+1641738,Kobe Brown,kobe-brown,21,F,6-7,250,"JAN 01, 2000",25.0,1,Missouri,2024-25,1610612746,LAC,Los Angeles Clippers
+1631116,Patrick Baldwin Jr.,patrick-baldwin-jr,23,F,6-9,220,"NOV 18, 2002",22.0,2,Wisconsin-Milwaukee,2024-25,1610612746,LAC,Los Angeles Clippers
+1626181,Norman Powell,norman-powell,24,G,6-4,215,"MAY 25, 1993",32.0,9,UCLA,2024-25,1610612746,LAC,Los Angeles Clippers
+1627732,Ben Simmons,ben-simmons,25,G-F,6-10,240,"JUL 20, 1996",28.0,7,Louisiana State,2024-25,1610612746,LAC,Los Angeles Clippers
+201587,Nicolas Batum,nicolas-batum,33,G-F,6-8,230,"DEC 14, 1988",36.0,16,Le Mans,2024-25,1610612746,LAC,Los Angeles Clippers
+1627826,Ivica Zubac,ivica-zubac,40,C,7-0,240,"MAR 18, 1997",28.0,8,Mega Basket,2024-25,1610612746,LAC,Los Angeles Clippers
+1627884,Derrick Jones Jr.,derrick-jones-jr,55,F,6-6,210,"FEB 15, 1997",28.0,8,UNLV,2024-25,1610612746,LAC,Los Angeles Clippers
+201988,Patty Mills,patty-mills,88,G,6-2,180,"AUG 11, 1988",36.0,15,St. Mary's,2024-25,1610612746,LAC,Los Angeles Clippers

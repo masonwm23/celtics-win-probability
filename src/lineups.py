@@ -195,6 +195,20 @@ def infer_period_openers(actions, period, tricode, roster, alias):
                 except ResolutionFailure:
                     pass
         else:
+            # A technical foul does NOT require being on court: it can be
+            # assessed on a player sitting on the bench, or at the very tip of a
+            # period. Verified case, game 0022400187 overtime: Keon Johnson is
+            # charged a technical at 5:00 (the OT tip) while Cameron Johnson is
+            # the Johnson actually on the floor, who then records a rebound and
+            # an assist. Counting the technical as presence evidence positively
+            # (and wrongly) identified Keon as an opener, seating him for the
+            # whole overtime and costing Cameron five minutes with no anomaly
+            # raised. Every other event kept here (shots, rebounds, personal
+            # fouls, turnovers, steals, blocks, free throws) does require being
+            # on court.
+            if (action.get("actionType") == "Foul"
+                    and action.get("subType") == "Technical"):
+                continue
             person_id = int(action.get("personId") or 0)
             if person_id and person_id not in subbed_in \
                     and person_id not in openers:

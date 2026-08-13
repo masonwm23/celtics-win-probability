@@ -1,0 +1,18 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1631105,Jalen Duren,jalen-duren,0,C,6-10,250,"NOV 18, 2003",22.0,3,Memphis,2025-26,1610612765,DET,Detroit Pistons
+1630595,Cade Cunningham,cade-cunningham,2,G,6-6,220,"SEP 25, 2001",24.0,4,Oklahoma State,2025-26,1610612765,DET,Detroit Pistons
+1642403,Isaac Jones,isaac-jones,3,F,6-8,245,"JUL 11, 2000",25.0,1,Washington State,2025-26,1610612765,DET,Detroit Pistons
+1641842,Ronald Holland II,ronald-holland-ii,5,F,6-8,206,"JUL 07, 2005",20.0,1,NBA G League Ignite,2025-26,1610612765,DET,Detroit Pistons
+1630194,Paul Reed,paul-reed,7,F,6-9,210,"JUN 14, 1999",27.0,5,DePaul,2025-26,1610612765,DET,Detroit Pistons
+1627747,Caris LeVert,caris-levert,8,G,6-7,205,"AUG 25, 1994",31.0,9,Michigan,2025-26,1610612765,DET,Detroit Pistons
+1641709,Ausar Thompson,ausar-thompson,9,G-F,6-7,205,"JAN 30, 2003",23.0,2,Overtime Elite,2025-26,1610612765,DET,Detroit Pistons
+202699,Tobias Harris,tobias-harris,12,F,6-8,226,"JUL 15, 1992",33.0,14,Tennessee,2025-26,1610612765,DET,Detroit Pistons
+1631111,Wendell Moore Jr.,wendell-moore-jr,14,G,6-5,215,"SEP 18, 2001",24.0,3,Duke,2025-26,1610612765,DET,Detroit Pistons
+1642404,Chaz Lanier,chaz-lanier,20,G,6-3,206,"DEC 19, 2001",24.0,R,Tennessee,2025-26,1610612765,DET,Detroit Pistons
+1642450,Daniss Jenkins,daniss-jenkins,24,G,6-4,165,"AUG 17, 2001",24.0,1,St. John's,2025-26,1610612765,DET,Detroit Pistons
+1631204,Marcus Sasser,marcus-sasser,25,G,6-1,195,"SEP 21, 2000",25.0,2,Houston,2025-26,1610612765,DET,Detroit Pistons
+1628989,Kevin Huerter,kevin-huerter,27,G-F,6-6,190,"AUG 27, 1998",27.0,7,Maryland,2025-26,1610612765,DET,Detroit Pistons
+1630191,Isaiah Stewart,isaiah-stewart,28,F-C,6-8,250,"MAY 22, 2001",25.0,5,Washington,2025-26,1610612765,DET,Detroit Pistons
+1629750,Javonte Green,javonte-green,31,G,6-5,205,"JUL 23, 1993",32.0,6,Radford,2025-26,1610612765,DET,Detroit Pistons
+1642449,Tolu Smith,tolu-smith,35,F,6-11,,"JUL 26, 2000",25.0,1,Mississippi State,2025-26,1610612765,DET,Detroit Pistons
+1629130,Duncan Robinson,duncan-robinson,55,F,6-7,215,"APR 22, 1994",32.0,7,Michigan,2025-26,1610612765,DET,Detroit Pistons

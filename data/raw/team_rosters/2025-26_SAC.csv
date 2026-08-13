@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1628370,Malik Monk,malik-monk,0,G,6-3,200,"FEB 04, 1998",28.0,8,Kentucky,2025-26,1610612758,SAC,Sacramento Kings
+1642363,Nique Clifford,nique-clifford,5,G,6-5,175,"FEB 09, 2002",24.0,R,Colorado State,2025-26,1610612758,SAC,Sacramento Kings
+1630165,Killian Hayes,killian-hayes,7,G,6-4,195,"JUL 27, 2001",24.0,5,Ratiopharm Ulm,2025-26,1610612758,SAC,Sacramento Kings
+203926,Doug McDermott,doug-mcdermott,7,F,6-7,225,"JAN 03, 1992",34.0,11,Creighton,2025-26,1610612758,SAC,Sacramento Kings
+203897,Zach LaVine,zach-lavine,8,G,6-5,200,"MAR 10, 1995",31.0,11,UCLA,2025-26,1610612758,SAC,Sacramento Kings
+1630173,Precious Achiuwa,precious-achiuwa,9,F,6-8,243,"SEP 19, 1999",26.0,5,Memphis,2025-26,1610612758,SAC,Sacramento Kings
+201942,DeMar DeRozan,demar-derozan,10,G-F,6-6,220,"AUG 07, 1989",36.0,16,Southern California,2025-26,1610612758,SAC,Sacramento Kings
+1627734,Domantas Sabonis,domantas-sabonis,11,F-C,6-10,240,"MAY 03, 1996",30.0,9,Gonzaga,2025-26,1610612758,SAC,Sacramento Kings
+1631099,Keegan Murray,keegan-murray,13,F,6-8,225,"AUG 19, 2000",25.0,3,Iowa,2025-26,1610612758,SAC,Sacramento Kings
+1629631,De'Andre Hunter,deandre-hunter,15,F-G,6-7,221,"DEC 02, 1997",28.0,6,Virginia,2025-26,1610612758,SAC,Sacramento Kings
+201566,Russell Westbrook,russell-westbrook,18,G,6-4,200,"NOV 12, 1988",37.0,17,UCLA,2025-26,1610612758,SAC,Sacramento Kings
+1629234,Drew Eubanks,drew-eubanks,19,F-C,6-10,245,"FEB 01, 1997",29.0,7,Oregon State,2025-26,1610612758,SAC,Sacramento Kings
+1642269,Devin Carter,devin-carter,22,G,6-2,195,"MAR 18, 2002",24.0,1,Providence,2025-26,1610612758,SAC,Sacramento Kings
+1631116,Patrick Baldwin Jr.,patrick-baldwin-jr,23,F,7-0,220,"NOV 18, 2002",23.0,3,Wisconsin-Milwaukee,2025-26,1610612758,SAC,Sacramento Kings
+1641815,Isaiah Stevens,isaiah-stevens,24,G,5-11,185,"NOV 01, 2000",25.0,1,Colorado State,2025-26,1610612758,SAC,Sacramento Kings
+1631342,Daeqwon Plowden,daeqwon-plowden,29,G-F,6-4,216,"AUG 29, 1998",27.0,1,Bowling Green,2025-26,1610612758,SAC,Sacramento Kings
+1642928,Dylan Cardwell,dylan-cardwell,32,C,6-10,255,"DEC 16, 2001",24.0,R,Auburn,2025-26,1610612758,SAC,Sacramento Kings
+1642875,Maxime Raynaud,maxime-raynaud,42,C,7-1,250,"APR 07, 2003",23.0,R,Stanford,2025-26,1610612758,SAC,Sacramento Kings

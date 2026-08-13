@@ -1,0 +1,19 @@
+person_id,full_name,slug,jersey,position,height,weight,birth_date,age,experience,school,season,team_id,team_abbrev,team_name
+1642942,Jahmai Mashack,jahmai-mashack,,G,6-4,203,"NOV 10, 2002",23.0,R,Tennessee,2025-26,1610612763,MEM,Memphis Grizzlies
+1642377,Jaylen Wells,jaylen-wells,0,F,6-7,,"AUG 26, 2003",22.0,1,Washington State,2025-26,1610612763,MEM,Memphis Grizzlies
+1630590,Scotty Pippen Jr.,scotty-pippen-jr,1,G,6-2,170,"NOV 10, 2000",25.0,3,Vanderbilt,2025-26,1610612763,MEM,Memphis Grizzlies
+1629660,Ty Jerome,ty-jerome,2,G-F,6-5,195,"JUL 08, 1997",28.0,6,Virginia,2025-26,1610612763,MEM,Memphis Grizzlies
+203484,Kentavious Caldwell-Pope,kentavious-caldwell-pope,3,G,6-5,204,"FEB 18, 1993",33.0,12,Georgia,2025-26,1610612763,MEM,Memphis Grizzlies
+1642383,Walter Clayton Jr.,walter-clayton-jr,4,G,6-4,195,"MAR 06, 2003",23.0,R,Florida,2025-26,1610612763,MEM,Memphis Grizzlies
+1630583,Santi Aldama,santi-aldama,7,F-C,7-0,215,"JAN 10, 2001",25.0,4,Loyola-Maryland,2025-26,1610612763,MEM,Memphis Grizzlies
+1642914,Javon Small,javon-small,10,G,6-1,190,"DEC 19, 2002",23.0,R,West Virginia,2025-26,1610612763,MEM,Memphis Grizzlies
+1629630,Ja Morant,ja-morant,12,G,6-2,174,"AUG 10, 1999",26.0,6,Murray State,2025-26,1610612763,MEM,Memphis Grizzlies
+1641744,Zach Edey,zach-edey,14,C,7-3,305,"MAY 14, 2002",24.0,1,Purdue,2025-26,1610612763,MEM,Memphis Grizzlies
+1629634,Brandon Clarke,brandon-clarke,15,F,6-8,215,"SEP 19, 1996",29.0,6,Gonzaga,2025-26,1610612763,MEM,Memphis Grizzlies
+1641765,Olivier-Maxence Prosper,olivier-maxence-prosper,18,F,6-7,230,"JUL 03, 2002",23.0,2,Marquette,2025-26,1610612763,MEM,Memphis Grizzlies
+1641712,Rayan Rupert,rayan-rupert,21,G-F,6-7,205,"MAY 31, 2004",22.0,2,New Zealand Breakers,2025-26,1610612763,MEM,Memphis Grizzlies
+1641707,Taylor Hendricks,taylor-hendricks,22,F,6-9,215,"NOV 22, 2003",22.0,2,Central Florida,2025-26,1610612763,MEM,Memphis Grizzlies
+1642907,Cedric Coward,cedric-coward,23,G,6-5,206,"SEP 11, 2003",22.0,R,Washington State,2025-26,1610612763,MEM,Memphis Grizzlies
+1642285,Cam Spencer,cam-spencer,24,G,6-3,205,"APR 06, 2000",26.0,1,Connecticut,2025-26,1610612763,MEM,Memphis Grizzlies
+1641713,GG Jackson,gg-jackson,45,F,6-9,210,"DEC 17, 2004",21.0,2,South Carolina,2025-26,1610612763,MEM,Memphis Grizzlies
+201959,Taj Gibson,taj-gibson,67,F,6-9,232,"JUN 24, 1985",41.0,16,Southern California,2025-26,1610612763,MEM,Memphis Grizzlies

@@ -146,12 +146,12 @@ export default function LiveAnalysis({
             <div className="railcard__head">
               <span className="live__label">Win probability</span>
               <div className="railcard__legend">
-                <span><i className="swatch swatch--line" /> Celtics-specific</span>
+                <span><i className="swatch swatch--line" /> CLWP</span>
                 <button
                   className={`microchip ${showBaseline ? "microchip--on" : ""}`}
                   onClick={() => onBaseline(!showBaseline)}
                 >
-                  Generic baseline
+                  Generic model
                 </button>
                 {/* A scoreboard readout, so it resolves with the game. */}
                 <b
