@@ -11,8 +11,8 @@ import { useState } from "react";
  * be held back by a slow connection but it can never claim a file arrived
  * before it did, and on a fast one it still plays out long enough to be read.
  *
- * Everything stated on this screen is a real number from the project: 636
- * games, eight seasons, 308,975 events, thirteen model features. A splash that
+ * Everything stated on this screen is a real number from the project: 800
+ * games, ten seasons, 387,320 events, thirteen model features. A splash that
  * rounds its own project up is a bad first impression for a research
  * dashboard, so none of these are approximate.
  *
@@ -80,7 +80,7 @@ export default function Splash({ progress = 0, label = "Loading", leaving = fals
         <i />
         <span>{IconShield} Brandeis University</span>
         <i />
-        <span>{IconBall} 636 games, 2016-17 to 2023-24</span>
+        <span>{IconBall} 800 games, 2016-17 to 2025-26</span>
       </footer>
     </div>
   );
@@ -184,7 +184,7 @@ const IconBall = (
 /**
  * Five claims, each one true of what loads behind this screen.
  *
- * "Thirteen features" is the model's real input count and "308,975 game
+ * "Thirteen features" is the model's real input count and "387,320 game
  * states" is the real size of the corpus, not a rounded boast. The lineup line
  * is worded as a view rather than a driver on purpose: lineup strength is
  * descriptive in this dashboard, not a model input, and the panel it refers to
@@ -199,7 +199,7 @@ const FEATURES = [
   {
     icon: IconCourt,
     title: "Advanced modeling",
-    body: "13 features, 308,975 game states",
+    body: "13 features, 387,320 game states",
   },
   {
     icon: IconPulse,

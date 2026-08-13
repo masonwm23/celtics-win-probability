@@ -52,8 +52,8 @@ import { fetchModel } from "@/lib/api";
  *   tier2_generic vs tier3_celtics   +0.0011  [-0.0029, +0.0048]   no
  *
  * where "no" is the report's answer to "is this difference real?", meaning the
- * interval includes zero. The bootstrap resamples GAMES, n = 636, not events:
- * events inside one game share an outcome, so resampling 308,975 correlated
+ * interval includes zero. The bootstrap resamples GAMES, n = 800, not events:
+ * events inside one game share an outcome, so resampling 387,320 correlated
  * rows as if independent would give an interval far too narrow.
  */
 const TIER_COMPARISON = {

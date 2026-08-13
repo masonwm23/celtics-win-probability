@@ -100,7 +100,7 @@ export default function Welcome({ open, onClose, onStartTour, meta }) {
         <p className="welcome__lede">
           This replays real Boston Celtics games, one play at a time, and shows
           what a forecasting model thought their chances were at every moment.
-          Eight seasons, 636 games, all of it from the league&apos;s official
+          Ten seasons, 800 games, all of it from the league&apos;s official
           record of what happened.
         </p>
 
@@ -139,7 +139,7 @@ export default function Welcome({ open, onClose, onStartTour, meta }) {
             The question behind this project was whether a model built
             specifically around the Celtics forecasts better than a simple one
             that only watches the score and the clock.{" "}
-            <b>It does not.</b> Across 636 games the two are too close to call.
+            <b>It does not.</b> Across 800 games the two are too close to call.
             That is the finding, and it is stated here rather than buried &mdash;
             the <b>How good is this model?</b> panel has the numbers.
           </p>

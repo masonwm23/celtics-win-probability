@@ -337,8 +337,8 @@ export default function Dashboard() {
           <div>
             <h1 className="brand__title">Celtics Live Win Probability</h1>
             <p className="brand__sub">
-              MSBA Directed Research · Brandeis University · 636 games,
-              2016-17 to 2023-24
+              MSBA Directed Research · Brandeis University · 800 games,
+              2016-17 to 2025-26
             </p>
           </div>
         </div>
@@ -453,9 +453,9 @@ export default function Dashboard() {
               <strong>Solid line:</strong> gradient boosting on thirteen
               validated game-state features.{" "}
               <strong>Dashed line:</strong> a logistic regression on score
-              margin and time remaining alone. Across 636 games the two are
-              statistically indistinguishable, bootstrap difference +0.0011
-              with a 95% interval of [−0.0029, +0.0048]. That null result is
+              margin and time remaining alone. Across 800 games the two are
+              statistically indistinguishable, bootstrap difference +0.0008
+              with a 95% interval of [−0.0021, +0.0037]. That null result is
               the paper&apos;s headline, and it is visible here rather than
               merely asserted.
             </p>

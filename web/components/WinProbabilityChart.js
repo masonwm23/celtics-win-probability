@@ -12,8 +12,8 @@ import { settledSeries, settledWp } from "@/lib/settled";
  * and this way every pixel is accounted for.
  *
  * Two lines are drawn on purpose. The Celtics-specific model and the generic
- * margin-and-time baseline are statistically indistinguishable on 636 games
- * (bootstrap difference +0.0011, interval spanning zero), and showing them
+ * margin-and-time baseline are statistically indistinguishable on 800 games
+ * (bootstrap difference +0.0008, interval spanning zero), and showing them
  * together makes the paper's headline result something you can see rather than
  * something you have to be told.
  *
