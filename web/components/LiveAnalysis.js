@@ -62,18 +62,6 @@ export default function LiveAnalysis({
   const player = players[events.person_id[cursor]] || null;
   const railWp = settledWp(events, meta, cursor);
 
-  // The array position of the clip's swing event, so the video can drive the
-  // chart to the exact play: spikeIndex-1 is the moment before the shot,
-  // spikeIndex is the shot itself, where the probability jumps.
-  const spikeIndex = useMemo(() => {
-    const arr = gameClip && events.event_index;
-    if (!arr) return -1;
-    for (let i = 0; i < arr.length; i += 1) {
-      if (arr[i] === gameClip.event_index) return i;
-    }
-    return -1;
-  }, [gameClip, events]);
-
   // If a biggest-swing clip was confirmed for this game, offer it right on the
   // play it belongs to. swings.json is the same file the Swings tab reads, and
   // a clip is shown only on its own play (event_index match), never invented.
@@ -98,6 +86,19 @@ export default function LiveAnalysis({
   );
   const onClipPlay =
     !!gameClip && events.event_index?.[cursor] === gameClip.event_index;
+
+  // The array position of the clip's swing event. spikeIndex-1 is the moment
+  // BEFORE the shot — the pre-shot score the video opens on — which is where
+  // the chart is parked while the clip plays. Defined AFTER gameClip: reading
+  // gameClip above this line crashes the page (used before defined).
+  const spikeIndex = useMemo(() => {
+    const arr = gameClip && events.event_index;
+    if (!arr) return -1;
+    for (let i = 0; i < arr.length; i += 1) {
+      if (arr[i] === gameClip.event_index) return i;
+    }
+    return -1;
+  }, [gameClip, events]);
 
   return (
     <section className="panel live">
@@ -252,8 +253,9 @@ export default function LiveAnalysis({
           clip={gameClip.clip}
           swing={gameClip}
           onClose={() => setClipOpen(false)}
-          onPreShot={() => spikeIndex > 0 && onCursor(spikeIndex - 1)}
-          onSpike={() => spikeIndex >= 0 && onCursor(spikeIndex)}
+          onPreShot={() =>
+            spikeIndex >= 0 && onCursor(spikeIndex > 0 ? spikeIndex - 1 : 0)
+          }
         />
       )}
     </section>
@@ -261,31 +263,19 @@ export default function LiveAnalysis({
 }
 
 /**
- * The confirmed clip of a biggest-swing play, on the court side, wired so the
- * chart's spike lands on the shot in the video.
+ * The confirmed clip of a biggest-swing play, docked on the court side.
  *
- * There is no automatic frame sync, because the clip is edited footage. Instead
- * you mark, once, the instant the ball goes in: the button records that moment
- * off the video's own clock, and from then on the chart jumps to the swing at
- * that exact second whenever the clip reaches it (kept per clip in the browser).
- * That mark is a real observed timestamp, not a guess and not read from the
- * video's pixels. The clip itself IS the play, an official single-play video
- * verified against the player, the game date and the moment
+ * The chart is parked on the moment BEFORE the shot — the pre-shot score the
+ * video opens on — and held there, static, for the whole clip. There is no
+ * frame sync: the clip is edited footage and the shot's exact instant cannot be
+ * read from its pixels, so rather than let the chart drift out of step it simply
+ * holds the play the clip is about. The clip itself IS the play, an official
+ * single-play video verified against the player, the game date and the moment
  * (scripts/45_probe_swing_clips.py), offered only on the event it belongs to.
  */
-function ClipModal({ clip, swing, onClose, onPreShot, onSpike }) {
-  const holderRef = useRef(null);
-  const playerRef = useRef(null);
-  const pollRef = useRef(null);
-  const shotTimeRef = useRef(null);
-  const atSpikeRef = useRef(false);
+function ClipModal({ clip, swing, onClose, onPreShot }) {
   const preRef = useRef(onPreShot);
-  const spikeRef = useRef(onSpike);
   preRef.current = onPreShot;
-  spikeRef.current = onSpike;
-  const [marked, setMarked] = useState(false);
-
-  const storeKey = `celtics-shot-${clip.video_id}`;
 
   useEffect(() => {
     const onKey = (e) => e.key === "Escape" && onClose();
@@ -293,113 +283,11 @@ function ClipModal({ clip, swing, onClose, onPreShot, onSpike }) {
     return () => window.removeEventListener("keydown", onKey);
   }, [onClose]);
 
-  // Load any saved shot time and start the chart on the play before the shot.
+  // When the clip opens, move the chart to the moment before the shot and leave
+  // it there. This lines the chart up with the START of the video, not the end.
   useEffect(() => {
-    let saved = null;
-    try {
-      const raw = window.localStorage.getItem(storeKey);
-      saved = raw == null ? null : parseFloat(raw);
-    } catch (err) {
-      saved = null;
-    }
-    shotTimeRef.current = Number.isFinite(saved) ? saved : null;
-    atSpikeRef.current = false;
-    setMarked(shotTimeRef.current != null);
     if (preRef.current) preRef.current();
-  }, [storeKey]);
-
-  // Build the player and poll its clock, moving the chart to the spike once the
-  // video passes the marked moment (and back if the video is scrubbed before it).
-  useEffect(() => {
-    let cancelled = false;
-
-    const apply = (t) => {
-      const st = shotTimeRef.current;
-      if (st == null || !Number.isFinite(t)) return;
-      const shouldSpike = t >= st;
-      if (shouldSpike && !atSpikeRef.current) {
-        atSpikeRef.current = true;
-        if (spikeRef.current) spikeRef.current();
-      } else if (!shouldSpike && atSpikeRef.current) {
-        atSpikeRef.current = false;
-        if (preRef.current) preRef.current();
-      }
-    };
-
-    const startPoll = () => {
-      if (pollRef.current) return;
-      pollRef.current = setInterval(() => {
-        try {
-          const p = playerRef.current;
-          if (p && p.getCurrentTime) apply(p.getCurrentTime());
-        } catch (err) {
-          /* player not ready */
-        }
-      }, 200);
-    };
-
-    const build = () => {
-      if (cancelled || !holderRef.current || !window.YT || !window.YT.Player) {
-        return;
-      }
-      playerRef.current = new window.YT.Player(holderRef.current, {
-        width: "100%",
-        height: "100%",
-        videoId: clip.video_id,
-        playerVars: { autoplay: 1, playsinline: 1, rel: 0 },
-        events: {
-          onReady: startPoll,
-          onStateChange: (e) => {
-            if (e.data === 1) startPoll();
-          },
-        },
-      });
-    };
-
-    if (window.YT && window.YT.Player) {
-      build();
-    } else {
-      if (!document.getElementById("yt-iframe-api")) {
-        const tag = document.createElement("script");
-        tag.id = "yt-iframe-api";
-        tag.src = "https://www.youtube.com/iframe_api";
-        document.body.appendChild(tag);
-      }
-      const prev = window.onYouTubeIframeAPIReady;
-      window.onYouTubeIframeAPIReady = () => {
-        if (typeof prev === "function") prev();
-        build();
-      };
-    }
-
-    return () => {
-      cancelled = true;
-      if (pollRef.current) {
-        clearInterval(pollRef.current);
-        pollRef.current = null;
-      }
-      try {
-        if (playerRef.current) playerRef.current.destroy();
-      } catch (err) {
-        /* already gone */
-      }
-    };
-  }, [clip.video_id]);
-
-  const markShot = () => {
-    try {
-      const p = playerRef.current;
-      const t = p && p.getCurrentTime ? p.getCurrentTime() : null;
-      if (t == null || !Number.isFinite(t)) return;
-      shotTimeRef.current = t;
-      window.localStorage.setItem(storeKey, String(t));
-      atSpikeRef.current = true;
-      if (spikeRef.current) spikeRef.current();
-      setMarked(true);
-    } catch (err) {
-      /* storage blocked; the mark still works for this session */
-    }
-  };
+  }, []);
 
   return (
     <div
@@ -452,41 +340,23 @@ function ClipModal({ clip, swing, onClose, onPreShot, onSpike }) {
           border: "1px solid var(--line)",
         }}
       >
-        <div style={{ position: "absolute", inset: 0 }}>
-          <div ref={holderRef} style={{ width: "100%", height: "100%" }} />
-        </div>
-      </div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          gap: 10,
-          marginTop: 8,
-        }}
-      >
-        <button
-          onClick={markShot}
+        <iframe
+          src={`https://www.youtube.com/embed/${clip.video_id}?autoplay=1&rel=0&playsinline=1`}
+          title={clip.title}
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
           style={{
-            border: "1px solid var(--celtics)",
-            background: marked ? "transparent" : "var(--celtics)",
-            color: marked ? "var(--celtics)" : "#04120a",
-            borderRadius: 999,
-            padding: "6px 14px",
-            fontWeight: 700,
-            cursor: "pointer",
-            whiteSpace: "nowrap",
+            position: "absolute",
+            inset: 0,
+            width: "100%",
+            height: "100%",
+            border: 0,
           }}
-        >
-          {marked ? "✓ Synced — re-mark" : "◎ Mark the shot"}
-        </button>
-        <span style={{ fontSize: 11, color: "var(--text-faint)" }}>
-          {marked
-            ? "The graph spikes with the shot. Re-mark if it drifts."
-            : "Click the instant the ball goes in — the graph will spike right there."}
-        </span>
+        />
       </div>
-      <div style={{ fontSize: 11, color: "var(--text-faint)", marginTop: 6 }}>
-        official clip · {clip.channel} ·{" "}
+      <div style={{ fontSize: 11, color: "var(--text-faint)", marginTop: 8 }}>
+        The chart is held on the moment just before the shot, where the clip
+        begins. official clip · {clip.channel} ·{" "}
         <a
           href={clip.url}
           target="_blank"
