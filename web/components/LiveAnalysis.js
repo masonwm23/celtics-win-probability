@@ -247,12 +247,14 @@ export default function LiveAnalysis({
 }
 
 /**
- * The confirmed clip of a biggest-swing play, in a modal.
+ * The confirmed clip of a biggest-swing play, in a small floating player.
  *
- * The clip IS the play: an official single-play video verified against the
- * player, the game date and the moment (scripts/45_probe_swing_clips.py). It is
- * offered only on the event it belongs to, so it can never be mistaken for a
- * different play.
+ * Docked in the corner rather than a full-screen modal on purpose: the court
+ * and the win-probability chart stay visible beside it, so the model's jump on
+ * this play is on screen next to the real footage. The clip IS the play, an
+ * official single-play video verified against the player, the game date and the
+ * moment (scripts/45_probe_swing_clips.py), offered only on the event it
+ * belongs to.
  */
 function ClipModal({ clip, swing, onClose }) {
   useEffect(() => {
@@ -263,89 +265,79 @@ function ClipModal({ clip, swing, onClose }) {
 
   return (
     <div
-      onClick={onClose}
       style={{
         position: "fixed",
-        inset: 0,
-        background: "rgba(2,4,7,0.82)",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
+        bottom: 16,
+        right: 16,
+        width: "min(440px, 92vw)",
+        background: "var(--bg-panel)",
+        border: "1px solid var(--celtics)",
+        borderRadius: 12,
+        padding: 10,
         zIndex: 1000,
-        padding: 20,
+        boxShadow: "0 16px 48px rgba(0,0,0,0.6)",
       }}
     >
       <div
-        onClick={(e) => e.stopPropagation()}
         style={{
-          width: "min(920px, 94vw)",
-          background: "var(--bg-panel)",
-          border: "1px solid var(--line)",
-          borderRadius: 14,
-          padding: 14,
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+          marginBottom: 8,
         }}
       >
-        <div
+        <span style={{ color: "var(--text-dim)", fontSize: 12 }}>
+          {swing?.matchup} · {swing?.date}
+        </span>
+        <button
+          onClick={onClose}
+          aria-label="Close"
           style={{
-            display: "flex",
-            justifyContent: "space-between",
-            alignItems: "center",
-            marginBottom: 10,
+            background: "transparent",
+            border: "none",
+            color: "var(--text-dim)",
+            fontSize: 16,
+            cursor: "pointer",
+            lineHeight: 1,
           }}
         >
-          <span style={{ color: "var(--text-dim)", fontSize: 13 }}>
-            {swing?.matchup} · {swing?.date}
-          </span>
-          <button
-            onClick={onClose}
-            aria-label="Close"
-            style={{
-              background: "transparent",
-              border: "none",
-              color: "var(--text-dim)",
-              fontSize: 18,
-              cursor: "pointer",
-              lineHeight: 1,
-            }}
-          >
-            ✕
-          </button>
-        </div>
-        <div
+          ✕
+        </button>
+      </div>
+      <div
+        style={{
+          position: "relative",
+          paddingBottom: "56.25%",
+          height: 0,
+          borderRadius: 8,
+          overflow: "hidden",
+          border: "1px solid var(--line)",
+        }}
+      >
+        <iframe
+          src={`https://www.youtube.com/embed/${clip.video_id}?autoplay=1`}
+          title={clip.title}
+          allow="autoplay; encrypted-media; picture-in-picture"
+          allowFullScreen
           style={{
-            position: "relative",
-            paddingBottom: "56.25%",
-            height: 0,
-            borderRadius: 10,
-            overflow: "hidden",
-            border: "1px solid var(--line)",
+            position: "absolute",
+            inset: 0,
+            width: "100%",
+            height: "100%",
+            border: 0,
           }}
+        />
+      </div>
+      <div style={{ fontSize: 11, color: "var(--text-faint)", marginTop: 6 }}>
+        official clip · {clip.channel} ·{" "}
+        <a
+          href={clip.url}
+          target="_blank"
+          rel="noreferrer"
+          style={{ color: "var(--text-dim)" }}
         >
-          <iframe
-            src={`https://www.youtube.com/embed/${clip.video_id}?autoplay=1`}
-            title={clip.title}
-            allow="autoplay; encrypted-media; picture-in-picture"
-            allowFullScreen
-            style={{
-              position: "absolute",
-              inset: 0,
-              width: "100%",
-              height: "100%",
-              border: 0,
-            }}
-          />
-        </div>
-        <div style={{ fontSize: 12, color: "var(--text-faint)", marginTop: 8 }}>
-          {clip.title} · official clip · {clip.channel} ·{" "}
-          <a
-            href={clip.url}
-            target="_blank"
-            rel="noreferrer"
-            style={{ color: "var(--text-dim)" }}
-          >
-            open on YouTube
-          </a>
-        </div>
+          open on YouTube
+        </a>
       </div>
     </div>
   );
