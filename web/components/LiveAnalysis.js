@@ -267,9 +267,9 @@ function ClipModal({ clip, swing, onClose }) {
     <div
       style={{
         position: "fixed",
-        bottom: 16,
-        right: 16,
-        width: "min(440px, 92vw)",
+        bottom: 20,
+        left: 20,
+        width: "min(560px, 46vw)",
         background: "var(--bg-panel)",
         border: "1px solid var(--celtics)",
         borderRadius: 12,
