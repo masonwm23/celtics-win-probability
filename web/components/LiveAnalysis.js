@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import PlayCourt from "@/components/PlayCourt";
 import OnCourtBox from "@/components/OnCourtBox";
 import TeamLogo from "@/components/TeamLogo";
@@ -61,6 +61,22 @@ export default function LiveAnalysis({
   const outcome = gameOutcome(events, meta, cursor);
   const player = players[events.person_id[cursor]] || null;
   const railWp = settledWp(events, meta, cursor);
+
+  // Couple the clip's own play/pause to the dashboard's playback, so pressing
+  // play on the video also runs the game underneath it. Deliberately NOT
+  // frame-locked: the clip is edited footage, not a real-time feed, so they run
+  // together rather than in lockstep. When the video starts from the end (where
+  // the Watch button lives) the game restarts from tip, so the whole
+  // probability line replays while the clip plays. 1 = playing, 2 = paused,
+  // 0 = ended, in the YouTube player's state codes.
+  const handleVideoState = (state) => {
+    if (state === 1) {
+      if (cursor >= total - 2) onCursor(0);
+      if (!playing) onPlayPause();
+    } else if (state === 0 || state === 2) {
+      if (playing) onPlayPause();
+    }
+  };
 
   // If a biggest-swing clip was confirmed for this game, offer it right on the
   // play it belongs to. swings.json is the same file the Swings tab reads, and
@@ -240,6 +256,7 @@ export default function LiveAnalysis({
           clip={gameClip.clip}
           swing={gameClip}
           onClose={() => setClipOpen(false)}
+          onVideoState={handleVideoState}
         />
       )}
     </section>
@@ -247,21 +264,70 @@ export default function LiveAnalysis({
 }
 
 /**
- * The confirmed clip of a biggest-swing play, in a small floating player.
+ * The confirmed clip of a biggest-swing play, in a small floating player on the
+ * court side.
  *
- * Docked in the corner rather than a full-screen modal on purpose: the court
- * and the win-probability chart stay visible beside it, so the model's jump on
- * this play is on screen next to the real footage. The clip IS the play, an
- * official single-play video verified against the player, the game date and the
- * moment (scripts/45_probe_swing_clips.py), offered only on the event it
- * belongs to.
+ * Built on the YouTube IFrame Player API rather than a bare iframe so the clip's
+ * own play and pause can drive the dashboard's playback (onVideoState). It is
+ * NOT frame-synchronised: the clip is edited footage, so the two run together,
+ * not in lockstep. The clip IS the play, an official single-play video verified
+ * against the player, the game date and the moment
+ * (scripts/45_probe_swing_clips.py), offered only on the event it belongs to.
  */
-function ClipModal({ clip, swing, onClose }) {
+function ClipModal({ clip, swing, onClose, onVideoState }) {
+  const holderRef = useRef(null);
+  const playerRef = useRef(null);
+  const stateHandler = useRef(onVideoState);
+  stateHandler.current = onVideoState;
+
   useEffect(() => {
     const onKey = (e) => e.key === "Escape" && onClose();
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
   }, [onClose]);
+
+  useEffect(() => {
+    let cancelled = false;
+    const build = () => {
+      if (cancelled || !holderRef.current || !window.YT || !window.YT.Player) {
+        return;
+      }
+      playerRef.current = new window.YT.Player(holderRef.current, {
+        width: "100%",
+        height: "100%",
+        videoId: clip.video_id,
+        playerVars: { autoplay: 1, playsinline: 1, rel: 0 },
+        events: {
+          onStateChange: (e) => {
+            if (stateHandler.current) stateHandler.current(e.data);
+          },
+        },
+      });
+    };
+    if (window.YT && window.YT.Player) {
+      build();
+    } else {
+      if (!document.getElementById("yt-iframe-api")) {
+        const tag = document.createElement("script");
+        tag.id = "yt-iframe-api";
+        tag.src = "https://www.youtube.com/iframe_api";
+        document.body.appendChild(tag);
+      }
+      const prev = window.onYouTubeIframeAPIReady;
+      window.onYouTubeIframeAPIReady = () => {
+        if (typeof prev === "function") prev();
+        build();
+      };
+    }
+    return () => {
+      cancelled = true;
+      try {
+        if (playerRef.current) playerRef.current.destroy();
+      } catch (err) {
+        /* player already torn down */
+      }
+    };
+  }, [clip.video_id]);
 
   return (
     <div
@@ -287,7 +353,7 @@ function ClipModal({ clip, swing, onClose }) {
         }}
       >
         <span style={{ color: "var(--text-dim)", fontSize: 12 }}>
-          {swing?.matchup} · {swing?.date}
+          {swing?.matchup} · {swing?.date} · play the clip to run the game
         </span>
         <button
           onClick={onClose}
@@ -314,22 +380,13 @@ function ClipModal({ clip, swing, onClose }) {
           border: "1px solid var(--line)",
         }}
       >
-        <iframe
-          src={`https://www.youtube.com/embed/${clip.video_id}?autoplay=1`}
-          title={clip.title}
-          allow="autoplay; encrypted-media; picture-in-picture"
-          allowFullScreen
-          style={{
-            position: "absolute",
-            inset: 0,
-            width: "100%",
-            height: "100%",
-            border: 0,
-          }}
-        />
+        <div style={{ position: "absolute", inset: 0 }}>
+          <div ref={holderRef} style={{ width: "100%", height: "100%" }} />
+        </div>
       </div>
       <div style={{ fontSize: 11, color: "var(--text-faint)", marginTop: 6 }}>
-        official clip · {clip.channel} ·{" "}
+        official clip · {clip.channel} · the chart runs together with the clip,
+        not frame-locked ·{" "}
         <a
           href={clip.url}
           target="_blank"
