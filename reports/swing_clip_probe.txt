@@ -1,0 +1,108 @@
+==========================================================================
+BIGGEST-SWING SINGLE-PLAY CLIP PROBE (READ ONLY, OFFICIAL API)
+Run at: 2026-08-13T14:33:40+00:00
+==========================================================================
+
+swings probed        15
+confirmed clips      4
+search.list calls    74  (~7,400 units)
+
+CONFIRMED
+--------------------------------------------------------------------------
+  +92.1pp  2018-02-04  BOS vs. POR  Al Horford
+      Tissot Buzzer Beater: Al Horford Wins It For The Celtics | February 04, 2018
+      https://www.youtube.com/watch?v=DuQIqq2iF5I  (41s, NBA, 2018-02-04)
+  +89.7pp  2018-03-20  BOS vs. OKC  Marcus Morris Sr.
+      Marcus Morris Game Winner! Down To The Last Second OKC vs Boston!
+      https://www.youtube.com/watch?v=NyRdIWZnWec  (208s, NBA, 2018-03-21)
+  +85.3pp  2020-12-23  BOS vs. MIL  Jayson Tatum
+      All Angles: Jayson Tatum With The CLUTCH Game-Winning Shot! | #KiaTipOff20
+      https://www.youtube.com/watch?v=HYyYn0zOKW4  (92s, NBA, 2020-12-24)
+  +70.9pp  2025-01-31  BOS @ NOP  Jayson Tatum
+      A courtside view of Tatum’s game-winning shot vs Pelicans! (via Jayson Tatum)
+      https://www.youtube.com/watch?v=4q2wzgDy2wc  (15s, NBA, 2025-02-01)
+
+NEAR MISSES (why each was not confirmed)
+--------------------------------------------------------------------------
+  2018-02-04 BOS vs. POR: Down To The Buzzer Action! The Boston Celtics vs T -> player not in title; 164s clip needs a game-winner marker
+  2018-02-04 BOS vs. POR: Giannis Antetokounmpo, Al Horford, and the Best Pl -> neither matchup nor game-winner marker in title; title reads as a compilation; duration 381s not single-play
+  2018-02-04 BOS vs. POR: Best Plays From Crunchtime In The Garden: Hawks vs -> player not in title; neither matchup nor game-winner marker in title; title reads as a compilation; 171s clip needs a game-winner marker
+  2018-02-04 BOS vs. POR: Blake Griffin Hits Shot That Would Win A Game Of H -> player not in title; neither matchup nor game-winner marker in title
+  2018-02-04 BOS vs. POR: Nikola Jokic ELECTRIC Performance vs The Hornets -> player not in title; neither matchup nor game-winner marker in title
+  2018-02-04 BOS vs. POR: NBA Daily Show: Feb. 5 - The Starters -> player not in title; neither matchup nor game-winner marker in title; duration 1389s not single-play
+  2018-02-04 BOS vs. POR: Best NBA REACTIONS of the Month | January 2018 -> player not in title; neither matchup nor game-winner marker in title; title reads as a compilation; 162s clip needs a game-winner marker
+  2018-02-04 BOS vs. POR: James Johnson, Lance Stephenson, and the Best Play -> player not in title; neither matchup nor game-winner marker in title; title reads as a compilation; duration 338s not single-play
+  2018-02-04 BOS vs. POR: Best 20 Plays From Week 16 of the NBA Season (LeBr -> player not in title; neither matchup nor game-winner marker in title; title reads as a compilation; duration 318s not single-play
+  2018-03-20 BOS vs. OKC: Top 10 Plays of the Night | March 20, 2018 -> player not in title; neither matchup nor game-winner marker in title; title reads as a compilation; 180s clip needs a game-winner marker
+  2018-03-20 BOS vs. OKC: It&#39;s Time To Fear The Beard In Rip City! -> player not in title; neither matchup nor game-winner marker in title; 176s clip needs a game-winner marker
+  2018-03-20 BOS vs. OKC: Jayson Tatum Drops 23 pts In Thriller vs OKC -> player not in title; neither matchup nor game-winner marker in title; 155s clip needs a game-winner marker
+  2018-03-20 BOS vs. OKC: Top 5 Plays of the Night | March 18, 2018 -> player not in title; neither matchup nor game-winner marker in title; title reads as a compilation
+  2018-03-20 BOS vs. OKC: Dwight Turns Back The Clock And Goes Full Superman -> player not in title; neither matchup nor game-winner marker in title
+  2018-03-20 BOS vs. OKC: DOUBLE OVERTIME! Denver Nuggets vs Miami Heat! -> player not in title; neither matchup nor game-winner marker in title; 255s clip needs a game-winner marker
+  2018-03-20 BOS vs. OKC: NBA Daily Show: Mar. 21 - The Starters -> player not in title; neither matchup nor game-winner marker in title; duration 1390s not single-play
+  2018-03-20 BOS vs. OKC: Dennis Schroder&#39;s ELECTRIC Performance vs The  -> player not in title; neither matchup nor game-winner marker in title; 175s clip needs a game-winner marker
+  2018-03-20 BOS vs. OKC: NBA Daily Show: Mar. 20 - The Starters -> player not in title; neither matchup nor game-winner marker in title; duration 1353s not single-play
+  2021-02-28 BOS vs. WAS: Bradley Beal (46 PTS) &amp; Jayson Tatum (31 PTS)  -> 299s clip needs a game-winner marker
+  2021-02-28 BOS vs. WAS: NBA Top 10 Plays Of The Night | February 26, 2021 -> player not in title; neither matchup nor game-winner marker in title; title reads as a compilation
+  2021-02-28 BOS vs. WAS: CLIPPERS at CELTICS | FULL GAME HIGHLIGHTS | March -> player not in title; title reads as a compilation; duration 599s not single-play
+  2021-02-28 BOS vs. WAS: NBA Top 10 Plays Of The Night | March 1, 2021 -> player not in title; neither matchup nor game-winner marker in title; title reads as a compilation
+  2021-02-28 BOS vs. WAS: CAREER-HIGH 42 PTS For P.J. Washington &amp; A CLU -> player not in title; 191s clip needs a game-winner marker
+  2021-02-28 BOS vs. WAS: GRIZZLIES at ROCKETS | FULL GAME HIGHLIGHTS | Febr -> player not in title; neither matchup nor game-winner marker in title; title reads as a compilation; duration 573s not single-play
+  2021-02-28 BOS vs. WAS: NBA Top 10 Plays Of The Night | February 28, 2021 -> player not in title; neither matchup nor game-winner marker in title; title reads as a compilation; 158s clip needs a game-winner marker
+  2021-02-28 BOS vs. WAS: SUNS at TIMBERWOLVES | FULL GAME HIGHLIGHTS | Febr -> player not in title; neither matchup nor game-winner marker in title; title reads as a compilation; duration 587s not single-play
+  2021-02-28 BOS vs. WAS: HAWKS at HEAT | FULL GAME HIGHLIGHTS | February 28 -> player not in title; neither matchup nor game-winner marker in title; title reads as a compilation; duration 572s not single-play
+  2021-02-28 BOS vs. WAS: ☀ Devin Booker Heats Up For A Season-High 4️⃣3️⃣ T -> player not in title; neither matchup nor game-winner marker in title; title reads as a compilation; 191s clip needs a game-winner marker
+  2021-02-28 BOS vs. WAS: 2/28 Putnam Postgame Report: Tatum’s Play -> neither matchup nor game-winner marker in title
+  2021-02-28 BOS vs. WAS: 3/2 Putnam Postgame Report: Brown’s Return -> player not in title; neither matchup nor game-winner marker in title
+  2021-02-28 BOS vs. WAS: February 2021 Highlights | Celtics Mixtape presenc -> player not in title; title reads as a compilation
+  2021-02-28 BOS vs. WAS: TOP DUNKS From The Week! | Week 10 -> player not in title; neither matchup nor game-winner marker in title; duration 944s not single-play
+  2021-02-28 BOS vs. WAS: HORNETS at KINGS | FULL GAME HIGHLIGHTS | February -> player not in title; neither matchup nor game-winner marker in title; title reads as a compilation; duration 592s not single-play
+  2021-02-28 BOS vs. WAS: WIZARDS at CELTICS | FULL GAME HIGHLIGHTS | Februa -> player not in title; title reads as a compilation; duration 591s not single-play
+  2021-02-28 BOS vs. WAS: MAVERICKS at MAGIC | FULL GAME HIGHLIGHTS | March  -> player not in title; neither matchup nor game-winner marker in title; title reads as a compilation; duration 584s not single-play
+  2020-12-23 BOS vs. MIL: Bucks vs. Celtics BEST Moments | Last 5 Seasons -> player not in title; title reads as a compilation; duration 607s not single-play
+  2020-12-23 BOS vs. MIL: BUCKS at CELTICS | FULL GAME HIGHLIGHTS | December -> player not in title; title reads as a compilation; duration 597s not single-play
+  2020-12-23 BOS vs. MIL: NBA Top 10 Plays Of The Night | December 23, 2020 -> player not in title; neither matchup nor game-winner marker in title; title reads as a compilation; 155s clip needs a game-winner marker
+  2020-12-23 BOS vs. MIL: BUDDY. FOR. THE. WIN. #TissotBuzzerBeater! | #KiaT -> player not in title
+  2020-12-23 BOS vs. MIL: Two Different Styles, Two Dominant Superstars! Cur -> player not in title; neither matchup nor game-winner marker in title; title reads as a compilation; duration 1246s not single-play
+  2020-12-23 BOS vs. MIL: Brandon Ingram Does It All With 24 PTS, 9 REB, 11  -> player not in title; neither matchup nor game-winner marker in title; 256s clip needs a game-winner marker
+  2020-12-23 BOS vs. MIL: NETS at CELTICS | FULL GAME HIGHLIGHTS | December  -> player not in title; title reads as a compilation; duration 583s not single-play
+  2020-12-23 BOS vs. MIL: Sabonis GOES OFF For CAREER-HIGH 32 PTS! | #KiaTip -> player not in title; neither matchup nor game-winner marker in title; 160s clip needs a game-winner marker
+  2020-12-23 BOS vs. MIL: #1 Overall Pick Anthony Edwards Finishes NBA DEBUT -> player not in title; neither matchup nor game-winner marker in title
+  2020-12-23 BOS vs. MIL: 12/23 Putnam Postgame Report: The Bank Is Open -> player not in title; neither matchup nor game-winner marker in title
+  2021-04-30 BOS vs. SAS: Jayson Tatum TIES FRANCHISE-RECORD 60 PTS in Comeb -> player not in title; neither matchup nor game-winner marker in title; 238s clip needs a game-winner marker
+  2021-04-30 BOS vs. SAS: SPURS at CELTICS | FULL GAME HIGHLIGHTS | April 30 -> player not in title; title reads as a compilation; duration 597s not single-play
+  2021-04-30 BOS vs. SAS: 4/30 Putnam Postgame Report: ‘Destined for Greatne -> player not in title; neither matchup nor game-winner marker in title
+  2021-04-30 BOS vs. SAS: Jaylen Brown Talks About Blocking Out The Noise |  -> neither matchup nor game-winner marker in title
+  2021-04-30 BOS vs. SAS: 5/2 Putnam Postgame Report: Turnovers Cost C’s Lat -> player not in title; neither matchup nor game-winner marker in title
+  2021-04-30 BOS vs. SAS: 4/28 Putnam Postgame Report: ‘Igniting Inner Flame -> player not in title; neither matchup nor game-winner marker in title
+  2021-04-30 BOS vs. SAS: Jayson Tatum Named Eastern Conference Player of th -> player not in title; neither matchup nor game-winner marker in title; 179s clip needs a game-winner marker
+  2021-04-30 BOS vs. SAS: Aaron Nesmith Breaks Down His Shooting Form and Hu -> player not in title; neither matchup nor game-winner marker in title
+  2021-04-30 BOS vs. SAS: HORNETS at CELTICS | FULL GAME HIGHLIGHTS | April  -> player not in title; title reads as a compilation; duration 581s not single-play
+  2021-04-30 BOS vs. SAS: TRAIL BLAZERS at CELTICS | FULL GAME HIGHLIGHTS |  -> player not in title; title reads as a compilation; duration 559s not single-play
+  2017-12-18 BOS @ IND: Best Plays From Down The Stretch: Boston Celtics v -> player not in title; title reads as a compilation; 204s clip needs a game-winner marker
+  2017-12-18 BOS @ IND: NBA Daily Show: Dec. 18 - The Starters -> player not in title; neither matchup nor game-winner marker in title; duration 1383s not single-play
+  2017-12-18 BOS @ IND: Kevin Durant Scores 36, Leads Warriors to OT Win i -> player not in title; neither matchup nor game-winner marker in title; 221s clip needs a game-winner marker
+  2017-12-18 BOS @ IND: Eric Bledsoe, LeBron James, Jeff Green and Every D -> player not in title; neither matchup nor game-winner marker in title; title reads as a compilation; 217s clip needs a game-winner marker
+  2017-12-18 BOS @ IND: Kevin Durant, Terry Rozier, and the Best Plays Fro -> neither matchup nor game-winner marker in title; title reads as a compilation; duration 531s not single-play
+  2017-12-18 BOS @ IND: Top 10 Plays of the Night: December 18, 2017 -> player not in title; neither matchup nor game-winner marker in title; title reads as a compilation; 166s clip needs a game-winner marker
+  2017-12-18 BOS @ IND: Kobe Bryant&#39;s Top 10 Plays Of His Career:  8 v -> player not in title; neither matchup nor game-winner marker in title; title reads as a compilation; duration 403s not single-play
+  2017-12-18 BOS @ IND: Eric Gordon FIERY Performance vs The Jazz | Dec. 1 -> player not in title; neither matchup nor game-winner marker in title; 195s clip needs a game-winner marker
+  2018-12-12 BOS @ WAS: Celtics and Wizards Battle In Overtime! | December -> player not in title; 184s clip needs a game-winner marker
+  2018-12-12 BOS @ WAS: NBA Top 10 Plays of the Night | December 12, 2018 -> player not in title; neither matchup nor game-winner marker in title; title reads as a compilation
+  2018-12-12 BOS @ WAS: Wade, LeBron Meet in the Last Seconds of Final Mat -> player not in title; neither matchup nor game-winner marker in title; 181s clip needs a game-winner marker
+  2018-12-12 BOS @ WAS: Joel Embiid Drops 40 Points and Grabs 21 Rebounds  -> player not in title; neither matchup nor game-winner marker in title; 198s clip needs a game-winner marker
+  2018-12-12 BOS @ WAS: Best Luka Doncic Ball Fakes | 2018-2019 NBA Season -> player not in title; neither matchup nor game-winner marker in title; title reads as a compilation; 182s clip needs a game-winner marker
+  2018-12-12 BOS @ WAS: Historic Final Duel in LA: LeBron vs Wade | Decemb -> player not in title; neither matchup nor game-winner marker in title; 281s clip needs a game-winner marker
+  2018-12-12 BOS @ WAS: Best of Kyle Kuzma So Far | 2018-2019 NBA Season -> player not in title; neither matchup nor game-winner marker in title; title reads as a compilation; 289s clip needs a game-winner marker
+  2018-12-12 BOS @ WAS: Luka Doncic and Trae Young Duel in Dallas! | Decem -> player not in title; neither matchup nor game-winner marker in title; 280s clip needs a game-winner marker
+  2024-03-28 BOS @ ATL: INSANE OT ENDING Celtics vs Hawks 🔥 | March 28, 20 -> player not in title; duration 479s not single-play
+  2024-03-28 BOS @ ATL: CELTICS at HAWKS | FULL GAME HIGHLIGHTS | March 28 -> player not in title; title reads as a compilation; duration 598s not single-play
+  2024-03-28 BOS @ ATL: NBA&#39;s Top 5 Plays of the Night | March 28, 202 -> player not in title; neither matchup nor game-winner marker in title; title reads as a compilation
+  2024-03-28 BOS @ ATL: NBA&#39;s Top 5 Plays of the Night | March 30, 202 -> player not in title; neither matchup nor game-winner marker in title; title reads as a compilation
+  2023-01-26 BOS vs. NYK: KNICKS at CELTICS | FULL GAME HIGHLIGHTS | January -> player not in title; title reads as a compilation; duration 586s not single-play
+  2023-01-26 BOS vs. NYK: UNCUT OVERTIME ENDING In Boston! Knicks vs Celtics -> player not in title; 295s clip needs a game-winner marker
+  2023-01-26 BOS vs. NYK: WILD ECF REMATCH! Final 2:15 Celtics vs Heat UNCUT -> player not in title; 270s clip needs a game-winner marker
+  2023-01-26 BOS vs. NYK: LAKERS at CELTICS | FULL GAME HIGHLIGHTS | January -> player not in title; title reads as a compilation; duration 598s not single-play
+  2023-01-26 BOS vs. NYK: WILD ENDING In Final Minutes of Celtics vs Lakers  -> player not in title; 300s clip needs a game-winner marker
+  2023-01-26 BOS vs. NYK: Celtics fans make playing at TD Garden special ☘️  -> player not in title
+  2023-01-26 BOS vs. NYK: Best Plays From NBA All-Star Starter Jayson Tatum  -> player not in title; neither matchup nor game-winner marker in title; title reads as a compilation; duration 623s not single-play

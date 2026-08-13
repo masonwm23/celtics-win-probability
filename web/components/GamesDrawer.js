@@ -4,6 +4,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import TeamLogo from "./TeamLogo";
 import { jerseyNumber, percent, prettyDate } from "@/lib/format";
 import { comebackSummary, comebackWins } from "@/lib/comebacks";
+import BiggestSwings from "./BiggestSwings";
 
 /**
  * Games and rosters, in a drawer over the dashboard.
@@ -183,6 +184,12 @@ function GamesTab({ games, seasons, season, onSeason, current, onPick }) {
             >
               Comebacks
             </button>
+            <button
+              className={`seg__btn ${view === "swings" ? "seg__btn--on" : ""}`}
+              onClick={() => setView("swings")}
+            >
+              Swings
+            </button>
           </div>
         </div>
       </div>
@@ -194,6 +201,8 @@ function GamesTab({ games, seasons, season, onSeason, current, onPick }) {
           current={current}
           onPick={onPick}
         />
+      ) : view === "swings" ? (
+        <BiggestSwings current={current} onPick={onPick} />
       ) : (
         <Schedule list={list} record={record} query={query} season={season}
                   current={current} onPick={onPick} />
