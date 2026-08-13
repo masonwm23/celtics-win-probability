@@ -66,9 +66,13 @@ from src.youtube_probe import (  # noqa: E402
 logging.basicConfig(level=logging.INFO, format="%(message)s")
 logger = logging.getLogger(__name__)
 
-# How many of the biggest swings to probe. Each swing costs at most a few
-# search.list calls (100 units each) and stops early on a confirmed match.
-TOP_N = 15
+# How many of the biggest swings to probe. The run is resumable: it skips any
+# swing that already has a confirmed clip in the candidates file, and it stops
+# before spending QUOTA_BUDGET units so one run stays inside the 10,000-unit
+# free daily quota. Widen TOP_N freely and run again on the next quota day; it
+# picks up where it left off and accumulates clips.
+TOP_N = 40
+QUOTA_BUDGET = 9000
 
 # A single play clip is short. Recaps run ~9 minutes; top-plays reels longer.
 # Up to 5 minutes allows a game-winner clip that includes replays and reaction,
@@ -310,78 +314,100 @@ def probe_swing(key: str, channels: dict, swing: dict) -> dict:
             "candidates": candidates, "searches": searches}
 
 
+def load_existing():
+    """Prior candidate rows, and the set of swings already confirmed."""
+    path = config.INTERIM_DIR / "swing_clip_candidates.csv"
+    if not path.exists():
+        return [], set()
+    with path.open(encoding="utf-8") as fh:
+        rows = list(csv.DictReader(fh))
+    confirmed = {(r["swing_date"], r["swing_matchup"])
+                 for r in rows if r.get("verdict") == "MATCH"}
+    return rows, confirmed
+
+
 def main():
     swings = biggest_swings(TOP_N)
-    est = TOP_N * 3 * 2 * 100
-    print(f"Probing the top {len(swings)} swings. Up to ~{est:,} quota units "
-          f"(3 queries x 2 channels x 100), less with early stops.\n")
+    existing_rows, confirmed = load_existing()
+    already = sum(1 for s in swings if (s["date"], s["matchup"]) in confirmed)
 
     key = load_api_key()
+    print(f"Top {len(swings)} swings. {already} already have a confirmed clip "
+          f"(skipped). Budget {QUOTA_BUDGET:,} units this run.\n")
     print("Resolving official channels:")
     channels = resolve_channels(key)
     if not channels:
         raise SystemExit("Could not resolve any official channel. Stopping.")
     print()
 
-    rows, total_searches, matched = [], 0, 0
+    new_rows, probed_keys = [], set()
+    spent, matched, deferred = 0, 0, 0
     for n, swing in enumerate(swings, 1):
-        result = probe_swing(key, channels, swing)
-        total_searches += result["searches"]
-        rows.extend(result["candidates"])
-        m = result["match"]
+        ms = (swing["date"], swing["matchup"])
         head = (f"[{n:>2}/{len(swings)}] +{swing['delta']*100:.0f}pp "
                 f"{swing['date']} {swing['matchup']:<13} "
                 f"{surname(swing['player']):<12}")
+        if ms in confirmed:
+            matched += 1
+            print(f"{head} have   (already confirmed)")
+            continue
+        if spent + 700 > QUOTA_BUDGET:
+            deferred += 1
+            continue
+        result = probe_swing(key, channels, swing)
+        spent += result["searches"] * 100
+        new_rows.extend(result["candidates"])
+        probed_keys.add(ms)
+        m = result["match"]
         if m:
             matched += 1
-            print(f"{head} MATCH  {m['duration_sec']}s  {m['title'][:58]}")
+            print(f"{head} MATCH  {m['duration_sec']}s  {m['title'][:56]}")
             print(f"{'':>22} {m['watch_url']}")
         else:
             near = [c for c in result["candidates"] if c["reasons"]]
             why = near[0]["reasons"] if near else "no candidates returned"
             print(f"{head} none   ({why})")
 
+    # Keep prior rows for swings we did not re-probe; replace those we did.
+    merged = [r for r in existing_rows
+              if (r["swing_date"], r["swing_matchup"]) not in probed_keys]
+    merged.extend(new_rows)
+
     config.INTERIM_DIR.mkdir(parents=True, exist_ok=True)
     config.REPORTS_DIR.mkdir(parents=True, exist_ok=True)
     csv_path = config.INTERIM_DIR / "swing_clip_candidates.csv"
-    if rows:
+    if merged:
         with csv_path.open("w", newline="", encoding="utf-8") as fh:
-            writer = csv.DictWriter(fh, fieldnames=list(rows[0].keys()))
+            writer = csv.DictWriter(fh, fieldnames=list(merged[0].keys()))
             writer.writeheader()
-            writer.writerows(rows)
+            writer.writerows(merged)
 
+    total_confirmed = len({(r["swing_date"], r["swing_matchup"])
+                           for r in merged if r.get("verdict") == "MATCH"})
     lines = [
-        "=" * 74,
-        "BIGGEST-SWING SINGLE-PLAY CLIP PROBE (READ ONLY, OFFICIAL API)",
+        "BIGGEST-SWING SINGLE-PLAY CLIP PROBE (resumable, official API)",
         f"Run at: {datetime.now(timezone.utc).isoformat(timespec='seconds')}",
-        "=" * 74,
-        "",
-        f"swings probed        {len(swings)}",
-        f"confirmed clips      {matched}",
-        f"search.list calls    {total_searches}  (~{total_searches*100:,} units)",
-        "",
-        "CONFIRMED",
-        "-" * 74,
+        f"top swings           {len(swings)}",
+        f"confirmed clips total {total_confirmed}",
+        f"spent this run       ~{spent:,} units",
+        f"deferred to next day {deferred}",
+        "", "CONFIRMED", "-" * 60,
     ]
-    for row in rows:
-        if row["verdict"] == "MATCH":
-            lines.append(f"  +{row['swing_delta_pp']}pp  {row['swing_date']}  "
-                         f"{row['swing_matchup']}  {row['swing_player']}")
-            lines.append(f"      {row['title']}")
-            lines.append(f"      {row['watch_url']}  ({row['duration_sec']}s, "
-                         f"{row['channel_title']}, {row['published_at'][:10]})")
-    lines += ["", "NEAR MISSES (why each was not confirmed)", "-" * 74]
-    for row in rows:
-        if row["verdict"] != "MATCH":
-            lines.append(f"  {row['swing_date']} {row['swing_matchup']}: "
-                         f"{row['title'][:50]} -> {row['reasons']}")
-    report = "\n".join(lines) + "\n"
-    (config.REPORTS_DIR / "swing_clip_probe.txt").write_text(report)
+    for r in merged:
+        if r.get("verdict") == "MATCH":
+            lines.append(f"  {r['swing_date']} {r['swing_matchup']}  "
+                         f"{r['title']}")
+            lines.append(f"      {r['watch_url']}")
+    (config.REPORTS_DIR / "swing_clip_probe.txt").write_text(
+        "\n".join(lines) + "\n")
 
-    print(f"\nConfirmed {matched} of {len(swings)}. "
-          f"Spent ~{total_searches*100:,} quota units.")
-    print(f"Report:     {config.REPORTS_DIR / 'swing_clip_probe.txt'}")
-    print(f"Candidates: {csv_path}")
+    print(f"\nConfirmed clips total: {total_confirmed} across the top "
+          f"{len(swings)} swings. Spent ~{spent:,} units this run.")
+    if deferred:
+        print(f"{deferred} swing(s) deferred (quota). Run again tomorrow to "
+              f"finish them.")
+    print("Next: run scripts/46_build_swings.py to fold the clips into the "
+          "dashboard, then commit and push.")
 
 
 if __name__ == "__main__":

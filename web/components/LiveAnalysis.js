@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import PlayCourt from "@/components/PlayCourt";
 import OnCourtBox from "@/components/OnCourtBox";
 import TeamLogo from "@/components/TeamLogo";
@@ -61,6 +61,31 @@ export default function LiveAnalysis({
   const outcome = gameOutcome(events, meta, cursor);
   const player = players[events.person_id[cursor]] || null;
   const railWp = settledWp(events, meta, cursor);
+
+  // If a biggest-swing clip was confirmed for this game, offer it right on the
+  // play it belongs to. swings.json is the same file the Swings tab reads, and
+  // a clip is shown only on its own play (event_index match), never invented.
+  const [swingsData, setSwingsData] = useState(null);
+  const [clipOpen, setClipOpen] = useState(false);
+  useEffect(() => {
+    let alive = true;
+    fetch("/data/swings.json")
+      .then((r) => (r.ok ? r.json() : null))
+      .then((d) => alive && setSwingsData(d))
+      .catch(() => {});
+    return () => {
+      alive = false;
+    };
+  }, []);
+  const gameClip = useMemo(
+    () =>
+      (swingsData?.swings || []).find(
+        (s) => s.game_id === meta.game_id && s.clip
+      ) || null,
+    [swingsData, meta.game_id]
+  );
+  const onClipPlay =
+    !!gameClip && events.event_index?.[cursor] === gameClip.event_index;
 
   return (
     <section className="panel live">
@@ -182,6 +207,8 @@ export default function LiveAnalysis({
             meta={meta}
             reboundType={reboundKinds.get(cursor) ?? null}
             outcome={outcome}
+            clip={onClipPlay ? gameClip.clip : null}
+            onWatch={() => setClipOpen(true)}
           />
 
           <OnCourtBox
@@ -207,7 +234,120 @@ export default function LiveAnalysis({
         speeds={speeds}
         onSpeed={onSpeed}
       />
+
+      {clipOpen && gameClip?.clip && (
+        <ClipModal
+          clip={gameClip.clip}
+          swing={gameClip}
+          onClose={() => setClipOpen(false)}
+        />
+      )}
     </section>
+  );
+}
+
+/**
+ * The confirmed clip of a biggest-swing play, in a modal.
+ *
+ * The clip IS the play: an official single-play video verified against the
+ * player, the game date and the moment (scripts/45_probe_swing_clips.py). It is
+ * offered only on the event it belongs to, so it can never be mistaken for a
+ * different play.
+ */
+function ClipModal({ clip, swing, onClose }) {
+  useEffect(() => {
+    const onKey = (e) => e.key === "Escape" && onClose();
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [onClose]);
+
+  return (
+    <div
+      onClick={onClose}
+      style={{
+        position: "fixed",
+        inset: 0,
+        background: "rgba(2,4,7,0.82)",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        zIndex: 1000,
+        padding: 20,
+      }}
+    >
+      <div
+        onClick={(e) => e.stopPropagation()}
+        style={{
+          width: "min(920px, 94vw)",
+          background: "var(--bg-panel)",
+          border: "1px solid var(--line)",
+          borderRadius: 14,
+          padding: 14,
+        }}
+      >
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+            marginBottom: 10,
+          }}
+        >
+          <span style={{ color: "var(--text-dim)", fontSize: 13 }}>
+            {swing?.matchup} · {swing?.date}
+          </span>
+          <button
+            onClick={onClose}
+            aria-label="Close"
+            style={{
+              background: "transparent",
+              border: "none",
+              color: "var(--text-dim)",
+              fontSize: 18,
+              cursor: "pointer",
+              lineHeight: 1,
+            }}
+          >
+            ✕
+          </button>
+        </div>
+        <div
+          style={{
+            position: "relative",
+            paddingBottom: "56.25%",
+            height: 0,
+            borderRadius: 10,
+            overflow: "hidden",
+            border: "1px solid var(--line)",
+          }}
+        >
+          <iframe
+            src={`https://www.youtube.com/embed/${clip.video_id}?autoplay=1`}
+            title={clip.title}
+            allow="autoplay; encrypted-media; picture-in-picture"
+            allowFullScreen
+            style={{
+              position: "absolute",
+              inset: 0,
+              width: "100%",
+              height: "100%",
+              border: 0,
+            }}
+          />
+        </div>
+        <div style={{ fontSize: 12, color: "var(--text-faint)", marginTop: 8 }}>
+          {clip.title} · official clip · {clip.channel} ·{" "}
+          <a
+            href={clip.url}
+            target="_blank"
+            rel="noreferrer"
+            style={{ color: "var(--text-dim)" }}
+          >
+            open on YouTube
+          </a>
+        </div>
+      </div>
+    </div>
   );
 }
 
@@ -225,6 +365,8 @@ function CurrentPlayStrip({
   meta,
   reboundType,
   outcome,
+  clip,
+  onWatch,
 }) {
   const description = events.description[cursor] || "";
   const change = displayedChange(events, cursor);
@@ -310,6 +452,29 @@ function CurrentPlayStrip({
           note="percentage points"
         />
       </div>
+
+      {clip && (
+        <button
+          onClick={onWatch}
+          style={{
+            marginTop: 10,
+            width: "100%",
+            display: "inline-flex",
+            alignItems: "center",
+            justifyContent: "center",
+            gap: 8,
+            border: "1px solid var(--celtics)",
+            background: "var(--celtics)",
+            color: "#04120a",
+            borderRadius: 10,
+            padding: "9px 14px",
+            fontWeight: 800,
+            cursor: "pointer",
+          }}
+        >
+          ▶ Watch the real clip of this play
+        </button>
+      )}
 
       {play.note && <p className="strip__unknown">{play.note}</p>}
       {description && <p className="strip__feed">{description}</p>}
