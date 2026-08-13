@@ -53,6 +53,7 @@ export default function LiveAnalysis({
   onSpeed,
   ballMs,
   onOpenDrawer,
+  openClipSignal,
 }) {
   const [mode, setMode] = useState("current");
   const [howTo, setHowTo] = useState(false);
@@ -99,6 +100,13 @@ export default function LiveAnalysis({
     }
     return -1;
   }, [gameClip, events]);
+
+  // "Watch the play" in the Swings list bumps openClipSignal. Open the docked
+  // clip in response. The render below is still guarded on gameClip?.clip, so if
+  // swings.json has not resolved yet the modal simply waits for it.
+  useEffect(() => {
+    if (openClipSignal) setClipOpen(true);
+  }, [openClipSignal]);
 
   return (
     <section className="panel live">
@@ -159,6 +167,9 @@ export default function LiveAnalysis({
               opponentAbbrev={meta.opponent}
               mode={mode}
               ballMs={ballMs}
+              homeLogo={
+                meta.celtics_is_home ? meta.celtics_logo : meta.opponent_logo
+              }
             />
             <div className="clegend">
               <span><i className="lg lg--bos" /> BOS player</span>

@@ -68,6 +68,11 @@ export default function Dashboard() {
   const [showBaseline, setShowBaseline] = useState(true);
   const [speed, setSpeed] = useState(1);
   const [selected, setSelected] = useState(null);
+  // A swing the reader asked to watch from the Swings list: load its game, land
+  // the cursor on the play, and open the clip. Cleared once applied. clipSignal
+  // is a counter LiveAnalysis watches to open the docked clip on each request.
+  const [clipFocus, setClipFocus] = useState(null);
+  const [clipSignal, setClipSignal] = useState(0);
   // The drawer. Opening it pauses playback: changing the game underneath a
   // running clock would leave the cursor pointing into another game's events
   // for a tick, and pausing is cheaper than defending against that.
@@ -289,6 +294,36 @@ export default function Dashboard() {
     [total]
   );
 
+  // "Watch the play" from the Swings list. Load the game (if not already
+  // loaded), then let the effect below place the cursor and open the clip once
+  // that game's events are in hand.
+  const watchSwing = useCallback((swing) => {
+    setPlaying(false);
+    setDrawerOpen(false);
+    setClipFocus({ gameId: swing.game_id, eventIndex: swing.event_index });
+    setGameId(swing.game_id);
+  }, []);
+
+  // Apply a pending swing focus once its game is the one loaded. Finds the array
+  // position of the swing's event, parks the cursor there (paused — the graph
+  // does not play), and bumps the signal so LiveAnalysis opens the docked clip.
+  useEffect(() => {
+    if (!clipFocus || !game) return;
+    if (game.meta.game_id !== clipFocus.gameId) return;
+    const arr = game.events.event_index;
+    let i = 0;
+    for (let k = 0; k < arr.length; k += 1) {
+      if (arr[k] === clipFocus.eventIndex) {
+        i = k;
+        break;
+      }
+    }
+    setPlaying(false);
+    setCursor(i);
+    setClipSignal((n) => n + 1);
+    setClipFocus(null);
+  }, [clipFocus, game]);
+
   // Keyboard: space to play, arrows to step, shift for a bigger jump.
   useEffect(() => {
     function onKey(e) {
@@ -432,6 +467,7 @@ export default function Dashboard() {
         onSpeed={setSpeed}
         ballMs={Math.min(520, (BASE_TICK_MS / speed) * 0.65)}
         onOpenDrawer={openDrawer}
+        openClipSignal={clipSignal}
       />
 
       <div className="folds">
@@ -545,6 +581,7 @@ export default function Dashboard() {
         seasons={index.seasons}
         current={index.games.find((g) => g.game_id === gameId)}
         onPick={setGameId}
+        onWatchSwing={watchSwing}
         players={game.players}
         meta={meta}
       />

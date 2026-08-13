@@ -48,3 +48,9 @@ reports/_to_delete/
 .env
 .env.local
 GitHubDesktop-arm64.zip
+
+# Screen recordings and other large video captures. Never commit these — they
+# blow past GitHub's 100MB limit and block the push.
+*.mov
+*.mp4
+*.m4v

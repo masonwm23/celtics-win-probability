@@ -30,6 +30,7 @@ export default function GamesDrawer({
   seasons,
   current,
   onPick,
+  onWatchSwing,
   players,
   meta,
 }) {
@@ -98,6 +99,10 @@ export default function GamesDrawer({
               onPick(id);
               onClose();
             }}
+            onWatchSwing={(swing) => {
+              onWatchSwing(swing);
+              onClose();
+            }}
           />
         ) : (
           <RostersTab
@@ -119,7 +124,7 @@ export default function GamesDrawer({
 // Games
 // ---------------------------------------------------------------------------
 
-function GamesTab({ games, seasons, season, onSeason, current, onPick }) {
+function GamesTab({ games, seasons, season, onSeason, current, onPick, onWatchSwing }) {
   const [query, setQuery] = useState("");
   const [view, setView] = useState("schedule");
 
@@ -202,7 +207,7 @@ function GamesTab({ games, seasons, season, onSeason, current, onPick }) {
           onPick={onPick}
         />
       ) : view === "swings" ? (
-        <BiggestSwings current={current} onPick={onPick} />
+        <BiggestSwings current={current} onPick={onPick} onWatch={onWatchSwing} />
       ) : (
         <Schedule list={list} record={record} query={query} season={season}
                   current={current} onPick={onPick} />

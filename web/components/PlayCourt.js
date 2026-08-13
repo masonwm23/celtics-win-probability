@@ -84,6 +84,7 @@ export default function PlayCourt({
   fullHistory = false,
   ballMs = 0,
   photos = true,
+  homeLogo = null,
 }) {
   const event = useMemo(
     () => ({
@@ -282,6 +283,26 @@ export default function PlayCourt({
           className="court__line"
         />
         <circle cx="0" cy={COURT.halfCourtY} r="60" className="court__line" />
+
+        {/* The home team's logo at centre, the way a real floor carries it.
+            Which side is home is the feed's own flag (celtics_is_home): Boston's
+            crest when they host, the opponent's when they do. Placed in the
+            free-throw circle because centre court proper sits past the crop.
+            Faint and non-interactive, so it reads as paint under the players and
+            the shot marker rather than a control. */}
+        {homeLogo && (
+          <image
+            href={homeLogo}
+            x={-46}
+            y={COURT.freeThrowLineY - 46}
+            width={92}
+            height={92}
+            preserveAspectRatio="xMidYMid meet"
+            opacity="0.2"
+            style={{ pointerEvents: "none" }}
+            aria-hidden="true"
+          />
+        )}
 
         {/* Recent shots only, and only when asked for. Faded, behind everything. */}
         {history.map((shot) => {

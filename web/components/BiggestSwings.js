@@ -26,10 +26,9 @@ async function fetchSwings() {
  * clip IS the play, verified against the player, the game date and the moment.
  * Everything else opens in the play reconstruction, which shows every play.
  */
-export default function BiggestSwings({ current, onPick }) {
+export default function BiggestSwings({ current, onPick, onWatch }) {
   const [data, setData] = useState(null);
   const [error, setError] = useState(null);
-  const [openClip, setOpenClip] = useState(null);
 
   useEffect(() => {
     let alive = true;
@@ -59,26 +58,41 @@ export default function BiggestSwings({ current, onPick }) {
     );
   }
 
-  const swings = data.swings || [];
+  // Only the swings that have a verified clip. The rank is the play's true
+  // position among ALL biggest swings across every season (computed before the
+  // filter), so "#2" still means the second-biggest swing on record, not the
+  // second row in this shortened list.
+  const clipped = (data.swings || [])
+    .map((s, i) => ({ swing: s, rank: i + 1 }))
+    .filter((x) => x.swing.clip);
+
+  if (clipped.length === 0) {
+    return (
+      <div className="drawerempty">
+        <p className="note">
+          No swings have a verified clip yet. Run
+          scripts/45_probe_swing_clips.py on a clear quota day, then
+          scripts/46_build_swings.py, and resync.
+        </p>
+      </div>
+    );
+  }
+
   return (
     <>
       <p className="drawercount">
-        {swings.length} biggest swings · {data.with_clip} with a verified clip ·
-        ranked across all seasons
+        {clipped.length} plays with a verified clip · ranked across all seasons
       </p>
 
       <div className="drawerscroll">
-        {swings.map((s, i) => (
+        {clipped.map(({ swing, rank }) => (
           <SwingCard
-            key={s.game_id}
-            swing={s}
-            rank={i + 1}
-            expanded={openClip === s.game_id}
-            onToggleClip={() =>
-              setOpenClip(openClip === s.game_id ? null : s.game_id)
-            }
-            onOpen={() => onPick(s.game_id)}
-            isCurrent={current?.game_id === s.game_id}
+            key={swing.game_id}
+            swing={swing}
+            rank={rank}
+            onWatch={() => onWatch(swing)}
+            onOpen={() => onPick(swing.game_id)}
+            isCurrent={current?.game_id === swing.game_id}
           />
         ))}
       </div>
@@ -87,9 +101,10 @@ export default function BiggestSwings({ current, onPick }) {
         Each row is the single play that moved Boston&apos;s out-of-fold win
         probability the most in that game, Boston made shots only, ranked across
         every season. Out of fold means the model that produced the jump never
-        saw this game&apos;s season. Clips are official single-play videos
-        confirmed against the player, the game date and the moment; every row
-        also opens in the play reconstruction.
+        saw this game&apos;s season. Only plays with an official single-play clip
+        — confirmed against the player, the game date and the moment — are shown
+        here. &ldquo;Watch the play&rdquo; opens that game and holds the chart on
+        the moment.
       </p>
     </>
   );
@@ -104,7 +119,7 @@ function fmtClock(raw) {
   return `${mins}:${String(secs).padStart(2, "0")}`;
 }
 
-function SwingCard({ swing, rank, expanded, onToggleClip, onOpen, isCurrent }) {
+function SwingCard({ swing, rank, onWatch, onOpen, isCurrent }) {
   const deltaPP = Math.round(swing.delta * 100);
   const before = (swing.wp_before * 100).toFixed(1);
   const after = (swing.wp_after * 100).toFixed(1);
@@ -194,79 +209,31 @@ function SwingCard({ swing, rank, expanded, onToggleClip, onOpen, isCurrent }) {
         {swing.description}
       </div>
 
-      {swing.clip && (
-        <div style={{ marginTop: 10 }}>
-          <button
-            onClick={onToggleClip}
-            style={{
-              display: "inline-flex",
-              alignItems: "center",
-              gap: 8,
-              border: "1px solid var(--celtics)",
-              background: expanded ? "var(--celtics)" : "transparent",
-              color: expanded ? "#04120a" : "var(--celtics)",
-              borderRadius: 999,
-              padding: "6px 14px",
-              fontWeight: 700,
-              cursor: "pointer",
-            }}
-          >
-            {expanded ? "▾ Hide clip" : "▶ Watch the play"}
-          </button>
-          {expanded && (
-            <div style={{ marginTop: 10 }}>
-              <div
-                style={{
-                  position: "relative",
-                  paddingBottom: "56.25%",
-                  height: 0,
-                  overflow: "hidden",
-                  borderRadius: 10,
-                  border: "1px solid var(--line)",
-                }}
-              >
-                <iframe
-                  src={`https://www.youtube.com/embed/${swing.clip.video_id}`}
-                  title={swing.clip.title}
-                  loading="lazy"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                  style={{
-                    position: "absolute",
-                    inset: 0,
-                    width: "100%",
-                    height: "100%",
-                    border: 0,
-                  }}
-                />
-              </div>
-              <div
-                style={{
-                  fontSize: 11,
-                  color: "var(--text-faint)",
-                  marginTop: 6,
-                }}
-              >
-                Official clip · {swing.clip.channel}
-                {" · "}
-                <a
-                  href={swing.clip.url}
-                  target="_blank"
-                  rel="noreferrer"
-                  style={{ color: "var(--text-dim)" }}
-                >
-                  open on YouTube
-                </a>
-              </div>
-            </div>
-          )}
-        </div>
-      )}
+      <button
+        onClick={onWatch}
+        style={{
+          marginTop: 10,
+          width: "100%",
+          display: "inline-flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 8,
+          border: "1px solid var(--celtics)",
+          background: "var(--celtics)",
+          color: "#04120a",
+          borderRadius: 10,
+          padding: "9px 14px",
+          fontWeight: 800,
+          cursor: "pointer",
+        }}
+      >
+        ▶ Watch the play
+      </button>
 
       <button
         onClick={onOpen}
         style={{
-          marginTop: 10,
+          marginTop: 8,
           border: "1px solid var(--line)",
           background: "transparent",
           color: "var(--text-dim)",
@@ -276,7 +243,7 @@ function SwingCard({ swing, rank, expanded, onToggleClip, onOpen, isCurrent }) {
           cursor: "pointer",
         }}
       >
-        Open in play reconstruction →
+        Open the game without the clip →
       </button>
     </div>
   );
