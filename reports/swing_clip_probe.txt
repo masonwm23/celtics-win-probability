@@ -1,9 +1,9 @@
 BIGGEST-SWING SINGLE-PLAY CLIP PROBE (resumable, official API)
-Run at: 2026-08-13T15:03:46+00:00
+Run at: 2026-08-14T19:18:42+00:00
 top swings           40
 confirmed clips total 4
 spent this run       ~8,400 units
-deferred to next day 22
+deferred to next day 18
 
 CONFIRMED
 ------------------------------------------------------------

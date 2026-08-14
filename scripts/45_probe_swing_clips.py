@@ -74,6 +74,13 @@ logger = logging.getLogger(__name__)
 TOP_N = 40
 QUOTA_BUDGET = 9000
 
+# On a re-run, also skip swings already SEARCHED that came back with only near
+# misses (full-game recaps and compilations, no official single-play clip). This
+# spends the day's quota on swings that have never been searched instead of
+# re-searching ones that already failed. Flip to True only to give those near
+# misses another look on a later day.
+RETRY_NEAR_MISSES = False
+
 # A single play clip is short. Recaps run ~9 minutes; top-plays reels longer.
 # Up to 5 minutes allows a game-winner clip that includes replays and reaction,
 # but anything past 150s must also carry an explicit game-winner marker (below).
@@ -314,26 +321,56 @@ def probe_swing(key: str, channels: dict, swing: dict) -> dict:
             "candidates": candidates, "searches": searches}
 
 
+def no_candidate_row(swing: dict) -> dict:
+    """A placeholder row for a swing whose search returned nothing, so it is
+    recorded as searched (same columns as a verify() row). build_swings only
+    reads verdict == MATCH, so this is inert there."""
+    return {
+        "swing_date": swing["date"],
+        "swing_matchup": swing["matchup"],
+        "swing_player": swing["player"],
+        "swing_delta_pp": round(swing["delta"] * 100, 1),
+        "video_id": "",
+        "title": "",
+        "channel_title": "",
+        "published_at": "",
+        "duration_sec": "",
+        "region": "",
+        "has_play_marker": "",
+        "verdict": "no-candidates",
+        "reasons": "no candidates returned in the game-date window",
+        "watch_url": "",
+    }
+
+
 def load_existing():
-    """Prior candidate rows, and the set of swings already confirmed."""
+    """Prior candidate rows, the swings already confirmed, and every swing that
+    has been searched before (confirmed or near-miss)."""
     path = config.INTERIM_DIR / "swing_clip_candidates.csv"
     if not path.exists():
-        return [], set()
+        return [], set(), set()
     with path.open(encoding="utf-8") as fh:
         rows = list(csv.DictReader(fh))
     confirmed = {(r["swing_date"], r["swing_matchup"])
                  for r in rows if r.get("verdict") == "MATCH"}
-    return rows, confirmed
+    searched = {(r["swing_date"], r["swing_matchup"]) for r in rows}
+    return rows, confirmed, searched
 
 
 def main():
     swings = biggest_swings(TOP_N)
-    existing_rows, confirmed = load_existing()
+    existing_rows, confirmed, searched = load_existing()
     already = sum(1 for s in swings if (s["date"], s["matchup"]) in confirmed)
+    skip_searched = searched - confirmed if not RETRY_NEAR_MISSES else set()
+    to_search = sum(1 for s in swings
+                    if (s["date"], s["matchup"]) not in confirmed
+                    and (s["date"], s["matchup"]) not in skip_searched)
 
     key = load_api_key()
-    print(f"Top {len(swings)} swings. {already} already have a confirmed clip "
-          f"(skipped). Budget {QUOTA_BUDGET:,} units this run.\n")
+    print(f"Top {len(swings)} swings. {already} already have a confirmed clip. "
+          f"{len(skip_searched & {(s['date'], s['matchup']) for s in swings})} "
+          f"were searched before with no single-play clip (skipped). "
+          f"{to_search} to search this run. Budget {QUOTA_BUDGET:,} units.\n")
     print("Resolving official channels:")
     channels = resolve_channels(key)
     if not channels:
@@ -351,12 +388,19 @@ def main():
             matched += 1
             print(f"{head} have   (already confirmed)")
             continue
+        if ms in skip_searched:
+            print(f"{head} skip   (searched before, no single-play clip)")
+            continue
         if spent + 700 > QUOTA_BUDGET:
             deferred += 1
             continue
         result = probe_swing(key, channels, swing)
         spent += result["searches"] * 100
-        new_rows.extend(result["candidates"])
+        # Record the search even when it returned nothing, so the swing counts
+        # as searched and a later run skips it instead of spending quota on it
+        # again. Without this a "no candidates" swing is never remembered and is
+        # re-searched every run, which is what stalled the earlier passes.
+        new_rows.extend(result["candidates"] or [no_candidate_row(swing)])
         probed_keys.add(ms)
         m = result["match"]
         if m:
